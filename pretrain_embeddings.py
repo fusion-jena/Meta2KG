@@ -1,19 +1,10 @@
-from os import listdir, makedirs
+from os import makedirs
 from os.path import exists, realpath, join
-from sklearn.feature_extraction.text import TfidfVectorizer
-import json
-import numpy as np
 from gensim.models import FastText
-from gensim.models import KeyedVectors
-
-# Load pretrained fastText word embeddings python with gensim
-from gensim.models.fasttext import load_facebook_model
-from utils.tsne_plot import tsne_plot#, tsne_plot_vecs
+from utils.tsne_plot import tsne_plot
 import re
 import nltk
-
-# Implement TF-IDF from scratch
-# https://towardsdatascience.com/how-important-are-the-words-in-your-text-data-tf-idf-answers-6fdc733bb066
+from config import trained_model_path
 
 STOP_WORDS = nltk.corpus.stopwords.words('english')
 
@@ -70,6 +61,4 @@ if __name__ == '__main__':
     vecs = [model.wv[w] for w in words]
     tsne_plot(model, words)
 
-    if not exists(join(realpath('.'), 'trained_model')):
-        makedirs(join(realpath('.'), 'trained_model'))
-    model.save(join(realpath('.'), 'trained_model', 'trained_fasttext.bin'))
+    model.save(join(trained_model_path, 'trained_fasttext.bin'))
