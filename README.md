@@ -16,3 +16,13 @@ The figure below shows our 4 stages workflow.
 4. Release: We publish the final automatically generated knowledge graph in Zenodo [Biodiversity Metadata Knowledge Graph (BMKG)](https://doi.org/10.5281/zenodo.6948573).
 
 ![Meta2KG Workflow!](images/workflow.png)
+
+## How to Use
+
+### Preprocessing
+* `flatten.py` transforms the XML files into a flat key-value pairs dictionary. a Key would contain the entire heirarchy.
+* `transform_keys.py` cleans the generated flat keys of the dictionary above by e.g., removing too broad words.
+
+### Custom Embeddings
+* `meta2train.py` artificially creates sentences from the clean dictionary.
+* `pretrain_embeddings.py` train a fasttext model on the created sentences.   

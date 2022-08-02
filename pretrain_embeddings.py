@@ -1,0 +1,75 @@
+from os import listdir, makedirs
+from os.path import exists, realpath, join
+from sklearn.feature_extraction.text import TfidfVectorizer
+import json
+import numpy as np
+from gensim.models import FastText
+from gensim.models import KeyedVectors
+
+# Load pretrained fastText word embeddings python with gensim
+from gensim.models.fasttext import load_facebook_model
+from utils.tsne_plot import tsne_plot#, tsne_plot_vecs
+import re
+import nltk
+
+# Implement TF-IDF from scratch
+# https://towardsdatascience.com/how-important-are-the-words-in-your-text-data-tf-idf-answers-6fdc733bb066
+
+STOP_WORDS = nltk.corpus.stopwords.words('english')
+
+
+def clean_sentence(val):
+    "remove chars that are not letters or numbers, downcase, then remove stop words"
+    val = val.replace('.', ' ')
+    regex = re.compile('([^\s\w]|_)+')
+    sentence = regex.sub('', val).lower()
+    sentence = sentence.split(" ")
+
+    for word in list(sentence):
+        if word in STOP_WORDS:
+            sentence.remove(word)
+
+    sentence = " ".join(sentence)
+    return sentence
+
+
+def build_corpus(lines):
+    """
+    returns list of lists as a corpus
+    :param lines: raw lines from training data
+    :return:
+    """
+    corpus = []
+    [corpus.append(nltk.word_tokenize(clean_sentence(line))) for line in lines]
+
+    return corpus
+
+
+if __name__ == '__main__':
+    train_path = join(realpath('.'), 'results', 'train.txt')
+
+    with open(join(realpath('.'), train_path), 'r', encoding='utf-8') as file:
+        lines = file.readlines()
+
+    corpus = build_corpus(lines)
+    print(len(corpus))
+
+    # pre-train model on the train corpus
+    model = FastText(vector_size=300, window=5, min_count=3, workers=4, sg=1)
+    model.build_vocab(corpus_iterable=corpus)
+    model.train(corpus_iterable=corpus, total_examples=len(corpus), epochs=10)  # train
+
+    w1 = 'license'
+    w2 = 'contactPerson.surName'
+    w3 = 'givenName'
+    w4 = 'Author.givenName'
+    w5 = 'Creator'
+    w6 = 'x-axis'
+    w7 = 'x-axis'
+    words = [w1, w2, w3, w4, w5, w6, w7]
+    vecs = [model.wv[w] for w in words]
+    tsne_plot(model, words)
+
+    if not exists(join(realpath('.'), 'trained_model')):
+        makedirs(join(realpath('.'), 'trained_model'))
+    model.save(join(realpath('.'), 'trained_model', 'trained_fasttext.bin'))
