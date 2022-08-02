@@ -25,4 +25,13 @@ The figure below shows our 4 stages workflow.
 
 ### Custom Embeddings
 * `meta2train.py` artificially creates sentences from the clean dictionary.
-* `pretrain_embeddings.py` train a fasttext model on the created sentences.   
+* `pretrain_embeddings.py` train a fasttext model on the created sentences. 
+
+### Ontological Embeddings (BMOE)
+* `group_keywords.py` since we develop a mean-based strategy to obtain embeddings for keys given their synonyms. This script is meant for catching such synonyms. This script would help figurig out what is related however, we keep the final result for the human.
+  * We picked the relevant keys on our own, we put our use case under [/assets/onto_keywords_mapping.csv](/assets/onto_keywords_mapping.csv)
+* `construct_onto_embeddings.py` will process the given mappings from the step above. Make sure it is correctly listed under the `config.py`.
+  * `use_wiki_embeddings=True` Will activate the pre-trained wiki-based embeddings otherwise it will use our custom embeddings.
+  * `use_weighted_embeddings=True` Will activate the weighted mean strategy to calculate the final embedding vector otherwise it has the mean only effect, no variable weights are given for the key's parts.
+  * `use_keys_only=True` If true then no synonyms are processed otherwise it considers them.
+  * Make sure to correctly place the generated file if you need to test various settings.
