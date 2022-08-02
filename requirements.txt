@@ -1,0 +1,14 @@
+xmltodict
+sklearn
+pandas
+gensim
+seaborn
+matplotlib==3.2
+nltk
+rdflib
+rdfextras
+inflection
+networkX
+plotly
+date_detector==1.0.2
+phonenumbers
