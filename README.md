@@ -35,3 +35,16 @@ The figure below shows our 4 stages workflow.
   * `use_weighted_embeddings=True` Will activate the weighted mean strategy to calculate the final embedding vector otherwise it has the mean only effect, no variable weights are given for the key's parts.
   * `use_keys_only=True` If true then no synonyms are processed otherwise it considers them.
   * Make sure to correctly place the generated file if you need to test various settings.
+
+# Testing Environment
+Works on the Unseen data. Here we perform the matching and the evaluation of the approach. 
+* Before you start, have a look on the testing [config.py](testing/config.py) and make sure all the paths of the ontological embeddings, ground truth ... etc. In addition, you tweak the target experiment there by setting if you use the Wiki-based embeddings and/or to use the mean-based technique to calculate the Meta vectors (MetaE)
+* You can download the required resources as follows:
+  * [Ground Truth (gt)](https://doi.org/10.5281/zenodo.6951623)
+  * [Our custom embeddings](https://doi.org/10.5281/zenodo.6951658) 
+  * [pretrained-fasttext](https://fasttext.cc/docs/en/english-vectors.html)
+* After that you can proceed with the regular steps as follows: 
+  * `flatten.py` & `transform_keys.py` apply the same steps for the pre-processing but on the unseen data. 
+  * `transformed_keywords_values.py` stores both the clean key, original key and the associated value from the unseen data. This structure maps to the provided ground truth.
+  * `match.py` it parses the dictionary that is resulted from above and tries to match it to one of the selected ontological embeddings using cosine similarity. We conduced 6 experiments, please check our paper for more details. 
+  * `evaluate.py` calculates the classification report based on the placed ground truth and the resultant solutions. Our results showed that the **Wiki-based embeddings** with the **Weighted Mean** strategy yielded into the best score. 
