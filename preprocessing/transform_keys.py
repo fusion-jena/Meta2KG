@@ -56,8 +56,7 @@ def clean_keys(keys):
     return clean_list
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
+def run():
     repos_path = seen_final_json_path
     repos = listdir(repos_path)
     keywords_dict = {}
@@ -82,3 +81,7 @@ if __name__ == '__main__':
 
     with open(join(results_root_path, 'transformed_keywords.json'), 'w', encoding='utf-8') as file:
         json.dump(keywords_dict, file, indent=4)
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+   run()
