@@ -96,10 +96,9 @@ The figure below shows our 4 stages workflow.
 * `populate.py` transforms the matched aka solved datasets (key - match) into RDF triples that follow the BMO ontology. 
   * `utils` contain the used data structures, mappings, and namespaces.
   * `validate_values` contain regular expressions validator to asset datatype constraints e.g., phone, email, date ... etc.
-
-### [Visualization](visualization)
+* **Visualization**
 * [populate_for_vis.py](kg_population/populate-for-viz.py) it has the same idea parsing the target triples but for the sake of creating the required file format as flare.json that is used in the original hierarchical-edge-bundling. 
-* We for the [observable notebook](https://observablehq.com/@d3/hierarchical-edge-bundling) by [Mike Bostock](https://observablehq.com/@mbostock) that is based on [d3](https://d3-graph-gallery.com/index.html) to create our visualization with style modification to highlight the high-frequency triples in the BMKG. 
+* We work based on the [observable notebook](https://observablehq.com/@d3/hierarchical-edge-bundling) by [Mike Bostock](https://observablehq.com/@mbostock) that is based on [d3](https://d3-graph-gallery.com/index.html) to create our visualization with style modification to highlight the high-frequency triples in the BMKG. 
 * Out output is publicly shared notebook: [https://observablehq.com/@noyo25/hierarchical-edge-bundling](https://observablehq.com/@noyo25/hierarchical-edge-bundling)
 ![Meta2KG Workflow!](images/BMKG.png)
 
