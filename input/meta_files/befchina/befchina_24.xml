@@ -1,0 +1,1128 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='136'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/136</alternateIdentifier>
+<title>CSPs: Tree neighbour competitive traits in the comparative study plots - target groups</title>
+<creator id='whaerdtle'>
+<individualName>
+<givenName>Werner</givenName>
+<surName>Härdtle</surName>
+</individualName>
+
+
+<electronicMailAddress>haerdtle@uni-lueneburg.de</electronicMailAddress>
+</creator>
+<creator id='gvonoheimb'>
+<individualName>
+<givenName>Goddert</givenName>
+<surName>von Oheimb</surName>
+</individualName>
+
+
+<electronicMailAddress>Goddert_v_Oheimb@tu-dresden.de</electronicMailAddress>
+</creator>
+<creator id='alang'>
+<individualName>
+<givenName>Anne</givenName>
+<surName>Lang</surName>
+</individualName>
+
+<address>
+
+
+
+</address>
+
+<electronicMailAddress>anne_christina.lang@uni-leipzig.de</electronicMailAddress>
+</creator>
+<pubDate>2011-10-05</pubDate>
+<language>en_US</language>
+<abstract>
+<para>This research is done to quantifiy individual tree growth and mortality within and among different species in the comparative study plots. Local neighbourhood interactions are analysed by the means of competition indices. Questions are: (a) does diversity reduce competition? (b) does competition change with successional stage? The data might provide valuable information to be compared with data from the main experiment.  We chose 20 target trees each of the two most abundant evergreen species (Castanopsis eyrei FAGACEAE and Schima superba THEACEAE ) and of the two most abundant decidious species (Quercus serrata and Castanea henryi FAGACEAE). Competitors were defined as all trees with a dbh&gt; 10 cm in middle and old successional forests and &gt;3 cm in early successional forests and within a radius that is 1/2 of the height of the target tree. The positions of the competitors in relation to the respective target tree were evaluated (distance and azimuth). Following parameters were measured of all trees: total height, heigth of bifurcatin point, dbh and the crown width in 8 directions. </para>
+<para>very steep terrain, very hot, multilayer canopy -&gt; difficult to see the crowns of upper canopy individuals, long sampling period</para>
+</abstract>
+<keywordSet>
+<keyword>abundance</keyword>
+<keyword>bifurcation point</keyword>
+<keyword>biodiversity</keyword>
+<keyword>competition</keyword>
+<keyword>competitive neighbourhood</keyword>
+<keyword>crown architecture</keyword>
+<keyword>CSP</keyword>
+<keyword>dbh</keyword>
+<keyword>density</keyword>
+<keyword>functional biodiversity</keyword>
+<keyword>height</keyword>
+<keyword>light</keyword>
+<keyword>species</keyword>
+<keyword>stem morphology</keyword>
+<keyword>topography</keyword>
+<keyword>tree</keyword>
+<keyword>tree layer</keyword>
+<keyword>tree performance</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>CSP</keyword>
+<keyword>target_group</keyword>
+<keyword>fct_gr</keyword>
+<keyword>species</keyword>
+<keyword>silverID</keyword>
+<keyword>dbh_08</keyword>
+<keyword>tot_hi</keyword>
+<keyword>bifurcat</keyword>
+<keyword>st_incl</keyword>
+<keyword>stem_azi</keyword>
+<keyword>stem_azi_grad</keyword>
+<keyword>stem_azi_rad</keyword>
+<keyword>mean_rad</keyword>
+<keyword>cr_a</keyword>
+<keyword>ad</keyword>
+<keyword>CI_BD</keyword>
+<keyword>CI_H</keyword>
+<keyword>CI_ME</keyword>
+<keyword>n_neigh</keyword>
+<keyword>area_neigh</keyword>
+<keyword>neigh_a</keyword>
+<keyword>loc_asp</keyword>
+<keyword>loc_asp_grad</keyword>
+<keyword>loc_incl</keyword>
+<keyword>n_sp_neigh</keyword>
+<keyword>rat_e</keyword>
+<keyword>age_pl</keyword>
+<keyword>incl_pl</keyword>
+<keyword>rare_s</keyword>
+<keyword>rare_s_se</keyword>
+<keyword>shannon</keyword>
+<keyword>rare_fg</keyword>
+<keyword>rare_fg_se</keyword>
+<keyword>rd</keyword>
+<keyword>can_hi</keyword>
+<keyword>mean_can_hi</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Permission is granted to anybody to access, use and publish all open for public data freely. The commercial use of any data is prohibited. The quality and completeness of data cannot be guaranteed. Users employ these data at their own risk. In order to make attribution of use for owners of the data possible, the identifier of ownership of data must be retained with every data record. Users must publicly acknowledge, in conjunction with the use of the data, the data owners. Cite the data as follows:Lang, A., Härdtle, W. and von Oheimb, G.(2013): Tree neighbour competitive traits in the comparative study plots - target groups. BEF-China data portal (Accessed through URL http://china.befdata.biow.uni-leipzig.de/datasets/136)</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/136/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>CSPs
+29°08'-29°17'N
+118°02'-118°11'E
+Measurements and calculated variables Crown radii in the eight subcardinal directions were determined by means of a crown mirror. The crown projection area (hereafter crown area) was calculated using the formula for a polygon. In cases of extraordinary crown displacement – the crown projection did not include the stem base – the distances to the proximal and distal edge of the crown were measured in all possible directions (if
+this was only possible for one direction, four crown radii were measured as follows: the distances to the proximal and distal edge of the crown were determined and, starting at the centre of this crown diameter, on the axis perpendicular to it. In this case, crown area was approximated as a quadrangle). Relative crown displacement (rd) was considered to be the distance of the centre of gravity of the crown area from the stem base, divided by the mean crown radius (Longuetaud et al., 2008). In cases where the centre of gravity perfectly matches the stem base, rd is equal
+to 0. Main tree stems may deviate from vertical stature in two different ways: stem inclination and stem bendiness, with the former
+involving straight but leaning stems and the latter bent or curved stems (Schamp et al., 2007). In the forest interior of Gutianshan NNR bent growth forms are confined to a relatively small number of trees. To obtain the degree of stem inclination, we first measured the height of the bifurcation point (height at which the lowest living crown branch of the tree branches off, excluding epicormics or springs), and then the horizontal distance of the bifurcation point from the stem in the direction of the slope. The angle of inclination was calculated as tan alpha of these two distances. If the stem was inclined towards the slope, stem inclination was considered to be negative. This method is similar to that used by Matsuzaki et al. (2006), where stem inclination was defined by referring to a straight line between the stem base and the top of the tree. However, in our study we used the bifurcation point as a reference point in order to separate the effect of crown asymmetry from that of stem inclination.The dbh (measured with a diameter measurement tape) and total height were recorded for all trees. The relative position of the neighbours to the target tree was measured as the horizontal distance from stem base to stem base. All height and distance measurements were conducted using a Forester Vertex Hypsometer (Haglöf, Sweden). All neighbours were determined to species. Local species richness (i.e. the species richness of the group) was estimated using the rarefaction method (Hurlbert’s formula, 1971) of the vegan package in R (subsample size: two trees). We applied the
+same method to obtain ameasure for local functional diversity. For this purpose we classified the species into seven functional groups. Since our hypotheses are based on growth characteristics of crown and stem, the trees were allocated to the functional groups according to adult tree height (canopy tree vs. sub-canopy tree) (Poorter et al., 2006), leaf longevity (evergreen vs. deciduous) (Deng et al., 2008) and leaf morphology (simple leaves, compound leaves, needles). We decided to establish an additional functional group for Fabaceae, because of their well known ability to fix nitrogen and the resulting differential preconditions for growth.To characterise the competitive power of the target trees competition indices have been calculated. Upper canopy heightwasdefined as themeanheight of the highest 20% trees in the respective group.For each tree group, data for slope inclination and aspect were collected and transformed after Beers et al. (1966).
+</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2008-07-02
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2009-05-03
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>Target tree species are: Schima superba, Quercus serrata, Castanopsis eyrei, Castanea henryi</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+Target tree species are: Schima superba, Quercus serrata, Castanopsis eyrei, Castanea henryi
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>whaerdtle</references>
+</contact>
+<contact>
+<references>gvonoheimb</references>
+</contact>
+<contact>
+<references>alang</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>CSPs: Tree neighbour competitive traits in the comparative study plots - target groups</para>
+<para>This research is done to quantifiy individual tree growth and mortality within and among different species in the comparative study plots. Local neighbourhood interactions are analysed by the means of competition indices. Questions are: (a) does diversity reduce competition? (b) does competition change with successional stage? The data might provide valuable information to be compared with data from the main experiment.  We chose 20 target trees each of the two most abundant evergreen species (Castanopsis eyrei FAGACEAE and Schima superba THEACEAE ) and of the two most abundant decidious species (Quercus serrata and Castanea henryi FAGACEAE). Competitors were defined as all trees with a dbh&gt; 10 cm in middle and old successional forests and &gt;3 cm in early successional forests and within a radius that is 1/2 of the height of the target tree. The positions of the competitors in relation to the respective target tree were evaluated (distance and azimuth). Following parameters were measured of all trees: total height, heigth of bifurcatin point, dbh and the crown width in 8 directions. </para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2008-07-02 00:00:00 UTC - 2009-05-03 00:00:00 UTC</para>
+
+<para>CSPs
+29°08&#39;-29°17&#39;N
+118°02&#39;-118°11&#39;E
+Measurements and calculated variables Crown radii in the eight subcardinal directions were determined by means of a crown mirror. The crown projection area (hereafter crown area) was calculated using the formula for a polygon. In cases of extraordinary crown displacement – the crown projection did not include the stem base – the distances to the proximal and distal edge of the crown were measured in all possible directions (if
+this was only possible for one direction, four crown radii were measured as follows: the distances to the proximal and distal edge of the crown were determined and, starting at the centre of this crown diameter, on the axis perpendicular to it. In this case, crown area was approximated as a quadrangle). Relative crown displacement (rd) was considered to be the distance of the centre of gravity of the crown area from the stem base, divided by the mean crown radius (Longuetaud et al., 2008). In cases where the centre of gravity perfectly matches the stem base, rd is equal
+to 0. Main tree stems may deviate from vertical stature in two different ways: stem inclination and stem bendiness, with the former
+involving straight but leaning stems and the latter bent or curved stems (Schamp et al., 2007). In the forest interior of Gutianshan NNR bent growth forms are confined to a relatively small number of trees. To obtain the degree of stem inclination, we first measured the height of the bifurcation point (height at which the lowest living crown branch of the tree branches off, excluding epicormics or springs), and then the horizontal distance of the bifurcation point from the stem in the direction of the slope. The angle of inclination was calculated as tan alpha of these two distances. If the stem was inclined towards the slope, stem inclination was considered to be negative. This method is similar to that used by Matsuzaki et al. (2006), where stem inclination was defined by referring to a straight line between the stem base and the top of the tree. However, in our study we used the bifurcation point as a reference point in order to separate the effect of crown asymmetry from that of stem inclination.The dbh (measured with a diameter measurement tape) and total height were recorded for all trees. The relative position of the neighbours to the target tree was measured as the horizontal distance from stem base to stem base. All height and distance measurements were conducted using a Forester Vertex Hypsometer (Haglöf, Sweden). All neighbours were determined to species. Local species richness (i.e. the species richness of the group) was estimated using the rarefaction method (Hurlbert’s formula, 1971) of the vegan package in R (subsample size: two trees). We applied the
+same method to obtain ameasure for local functional diversity. For this purpose we classified the species into seven functional groups. Since our hypotheses are based on growth characteristics of crown and stem, the trees were allocated to the functional groups according to adult tree height (canopy tree vs. sub-canopy tree) (Poorter et al., 2006), leaf longevity (evergreen vs. deciduous) (Deng et al., 2008) and leaf morphology (simple leaves, compound leaves, needles). We decided to establish an additional functional group for Fabaceae, because of their well known ability to fix nitrogen and the resulting differential preconditions for growth.To characterise the competitive power of the target trees competition indices have been calculated. Upper canopy heightwasdefined as themeanheight of the highest 20% trees in the respective group.For each tree group, data for slope inclination and aspect were collected and transformed after Beers et al. (1966).
+</para>
+<para>Target tree species are: Schima superba, Quercus serrata, Castanopsis eyrei, Castanea henryi</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>Study design We decided on an individual-based approach to elucidate our hypotheses. We selected four tree species of high abundance (Yu et al., 2001): S. superba Gardn. et Champ., C. eyrei (Champ. ex Benth.) Hutch., Q. serrata var. brevipetiolata and C. henryi (Skan) Rehd. et Wils. called target species. The target species belong to different functional groups, since S. superba and C. eyrei are evergreen and Q. serrata and C. henryi are deciduous. Data sampling was conducted during summer and autumn 2008 on the 27CSPs
+Twenty target trees per species were chosen randomly within the plots from all individuals complying with the following criteria: (i) single stemmed; (ii) diameter at breast height (dbh, 1.3m above ground) &gt;10cm (intermediate and old permanent plots) or dbh &gt;3cm (in young permanent plots); (iii) crown position in the upper canopy layer; (iv) each target species could only be selected once per plot. Thus, the 20 target trees of each species were spread over 20 of the 27 permanent plots with the exception of C. henryi (10 trees in 10 plots) for which only 10 individuals fulfilling all the criteria were found.
+Local biotic conditions (local species richness, local functional
+diversity, competition) were assessed by recording the position, size and identity of the neighbours of each target tree. Neighbours
+were defined as all individuals whose top height (corrected for the slope position (z-axis)) cut the hull of a reversed cone with an opening angle of 70◦ and positioned with its tip at the foot of the target tree (following the method of Biging and Dobbertin, 1992). They also had to fulfil the minimum dbh criterion (criterion (ii) above). Each target tree, together with its local neighbours formed a group.Each target tree had a mean number of 10.9 (±6.0 SD) neighbours, resulting in a total number of 837 surveyed individuals.</para>
+<para>We tested speciesspecific differences of crown area, relative crown displacement and stem inclination using a mixed effects model with species as fixed effect and plot as random effect. We refined our models by testing for main effects of abiotic and biotic environmental variables in order to verify their effects on crown and stem parameters. Biotic variables included species richness, functional diversity, competition index, the dbh of the target tree and mean upper canopy height, while the abiotic variables were slope inclination, slope aspect and soil depth. Target species identity was also included as a categorical predictor variable. Similar to the previous models, plot was included as random effect.</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/136</entityName>
+<entityDescription>CSPs: Tree neighbour competitive traits in the comparative study plots - target groups</entityDescription>
+<physical>
+<objectName>/datasets/136</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/136/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='CSP'>
+<attributeName>BEF research plot name (CSP), dimensionless</attributeName>
+<attributeLabel>CSP</attributeLabel>
+<attributeDefinition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province) (CSP: name of the CSP in the Nature ReserveBEF research plot nameReasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>BEF research plot name</para>
+<para>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) and B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) or Site B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06&#39;20.2&quot;N 117°55&#39;12.1&quot;E, Jiangxi Province)</para>
+<para>name of the CSP in the Nature ReserveBEF research plot nameReasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='target_group'>
+<attributeName>Group of competitors around a target tree for tree tree interaction. (target_group), dimensionless</attributeName>
+<attributeLabel>target_group</attributeLabel>
+<attributeDefinition>The name consists of the CSP name and the species name of the target tree around which the area is located.  In each CSP there is only one neighbourhood per species.  Selection of competitors: all neighbours within a radius of 1/2 the height of the target tree were said to be competitors (target_group: CSP + target tree species)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>The name consists of the CSP name and the species name of the target tree around which the area is located.  In each CSP there is only one neighbourhood per species.  Selection of competitors: all neighbours within a radius of 1/2 the height of the target tree were said to be competitors</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Group of competitors around a target tree for tree tree interaction.</para>
+<para>The name consists of the CSP name and the species name of the target tree around which the area is located.  In each CSP there is only one neighbourhood per species.  Selection of competitors: all neighbours within a radius of 1/2 the height of the target tree were said to be competitors</para>
+<para>CSP + target tree species</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='fct_gr'>
+<attributeName>Leaf habit (fct_gr), </attributeName>
+<attributeLabel>fct_gr</attributeLabel>
+<attributeDefinition>Leaf habit (fct_gr: functional group of target, deciduous or evergreen.  As this is specified for each species in a species trait file already, it is included as helper here.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Leaf habit</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Leaf habit</para>
+<para>Leaf habit</para>
+<para>functional group of target, deciduous or evergreen.  As this is specified for each species in a species trait file already, it is included as helper here.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='species'>
+<attributeName>Scientific plant species name (species), dimensionless</attributeName>
+<attributeLabel>species</attributeLabel>
+<attributeDefinition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required. (species: species)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Scientific plant species name</para>
+<para>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</para>
+<para>species</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='silverID'>
+<attributeName>CSP metal tag number (trees, woody debris) (silverID), </attributeName>
+<attributeLabel>silverID</attributeLabel>
+<attributeDefinition>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot; (silverID: Silver ID also used by Martin Baruffol)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>CSP metal tag number (trees, woody debris)</para>
+<para>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot;</para>
+<para>Silver ID also used by Martin Baruffol</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='dbh_08'>
+<attributeName>Diameter at breast height (dbh_08), cm</attributeName>
+<attributeLabel>dbh_08</attributeLabel>
+<attributeDefinition>Diameter of a tree, measured at 1.3 m height (dbh_08: diameter at breast height in 2008)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Diameter at breast height</para>
+<para>Diameter of a tree, measured at 1.3 m height</para>
+<para>diameter at breast height in 2008</para>
+</description>
+<instrumentation>diameter tape, calliper</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='tot_hi'>
+<attributeName>Plant height (tot_hi), m</attributeName>
+<attributeLabel>tot_hi</attributeLabel>
+<attributeDefinition>measuring tree height (tot_hi: total height)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plant height</para>
+<para>measuring tree height</para>
+<para>total height</para>
+</description>
+<instrumentation>Vertex Forester</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='bifurcat'>
+<attributeName>Bifurcation point (bifurcat), m</attributeName>
+<attributeLabel>bifurcat</attributeLabel>
+<attributeDefinition>Height of the first living branch (bifurcat: height of first living branch)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Bifurcation point</para>
+<para>Height of the first living branch</para>
+<para>height of first living branch</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='st_incl'>
+<attributeName>Stem morphology (st_incl), °</attributeName>
+<attributeLabel>st_incl</attributeLabel>
+<attributeDefinition>Stem morphology is measured as stem inclination and stem azimuth. To obtain the degree of stem inclination, we first measured the height of the bifurcation point (height at which the lowest living crown branch of the tree branches off, excluding epicormics or springs), and then the horizontal distance of the bifurcation point from the stem in the direction of the slope. The angle of inclination was calculated as tan alpha of these two distances. If the stem was inclined towards the slope, stem inclination was considered to be negative. Stem azimuth was measured by placing a 1.3 m long woody stick with a wooden pendular along the stem. The  direction of the pendular was measured by means of a compass.--- Stem slenderness is calculated as total height divided by stem diameter (st_incl: stem inclination )</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Stem morphology</para>
+<para>Stem morphology is measured as stem inclination and stem azimuth. To obtain the degree of stem inclination, we first measured the height of the bifurcation point (height at which the lowest living crown branch of the tree branches off, excluding epicormics or springs), and then the horizontal distance of the bifurcation point from the stem in the direction of the slope. The angle of inclination was calculated as tan alpha of these two distances. If the stem was inclined towards the slope, stem inclination was considered to be negative. Stem azimuth was measured by placing a 1.3 m long woody stick with a wooden pendular along the stem. The  direction of the pendular was measured by means of a compass.--- Stem slenderness is calculated as total height divided by stem diameter</para>
+<para>stem inclination </para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='stem_azi'>
+<attributeName>Stem morphology (stem_azi), gon</attributeName>
+<attributeLabel>stem_azi</attributeLabel>
+<attributeDefinition>Stem morphology is measured as stem inclination and stem azimuth. To obtain the degree of stem inclination, we first measured the height of the bifurcation point (height at which the lowest living crown branch of the tree branches off, excluding epicormics or springs), and then the horizontal distance of the bifurcation point from the stem in the direction of the slope. The angle of inclination was calculated as tan alpha of these two distances. If the stem was inclined towards the slope, stem inclination was considered to be negative. Stem azimuth was measured by placing a 1.3 m long woody stick with a wooden pendular along the stem. The  direction of the pendular was measured by means of a compass.--- Stem slenderness is calculated as total height divided by stem diameter (stem_azi: azimuth of stem inclination)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Stem morphology</para>
+<para>Stem morphology is measured as stem inclination and stem azimuth. To obtain the degree of stem inclination, we first measured the height of the bifurcation point (height at which the lowest living crown branch of the tree branches off, excluding epicormics or springs), and then the horizontal distance of the bifurcation point from the stem in the direction of the slope. The angle of inclination was calculated as tan alpha of these two distances. If the stem was inclined towards the slope, stem inclination was considered to be negative. Stem azimuth was measured by placing a 1.3 m long woody stick with a wooden pendular along the stem. The  direction of the pendular was measured by means of a compass.--- Stem slenderness is calculated as total height divided by stem diameter</para>
+<para>azimuth of stem inclination</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='stem_azi_grad'>
+<attributeName>Stem morphology (stem_azi_grad), grad</attributeName>
+<attributeLabel>stem_azi_grad</attributeLabel>
+<attributeDefinition>Stem morphology is measured as stem inclination and stem azimuth. To obtain the degree of stem inclination, we first measured the height of the bifurcation point (height at which the lowest living crown branch of the tree branches off, excluding epicormics or springs), and then the horizontal distance of the bifurcation point from the stem in the direction of the slope. The angle of inclination was calculated as tan alpha of these two distances. If the stem was inclined towards the slope, stem inclination was considered to be negative. Stem azimuth was measured by placing a 1.3 m long woody stick with a wooden pendular along the stem. The  direction of the pendular was measured by means of a compass.--- Stem slenderness is calculated as total height divided by stem diameter (stem_azi_grad: azimuth of stem inclination)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Stem morphology</para>
+<para>Stem morphology is measured as stem inclination and stem azimuth. To obtain the degree of stem inclination, we first measured the height of the bifurcation point (height at which the lowest living crown branch of the tree branches off, excluding epicormics or springs), and then the horizontal distance of the bifurcation point from the stem in the direction of the slope. The angle of inclination was calculated as tan alpha of these two distances. If the stem was inclined towards the slope, stem inclination was considered to be negative. Stem azimuth was measured by placing a 1.3 m long woody stick with a wooden pendular along the stem. The  direction of the pendular was measured by means of a compass.--- Stem slenderness is calculated as total height divided by stem diameter</para>
+<para>azimuth of stem inclination</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='stem_azi_rad'>
+<attributeName>Stem morphology (stem_azi_rad), rad</attributeName>
+<attributeLabel>stem_azi_rad</attributeLabel>
+<attributeDefinition>Stem morphology is measured as stem inclination and stem azimuth. To obtain the degree of stem inclination, we first measured the height of the bifurcation point (height at which the lowest living crown branch of the tree branches off, excluding epicormics or springs), and then the horizontal distance of the bifurcation point from the stem in the direction of the slope. The angle of inclination was calculated as tan alpha of these two distances. If the stem was inclined towards the slope, stem inclination was considered to be negative. Stem azimuth was measured by placing a 1.3 m long woody stick with a wooden pendular along the stem. The  direction of the pendular was measured by means of a compass.--- Stem slenderness is calculated as total height divided by stem diameter (stem_azi_rad: azimuth of stem inclination)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Stem morphology</para>
+<para>Stem morphology is measured as stem inclination and stem azimuth. To obtain the degree of stem inclination, we first measured the height of the bifurcation point (height at which the lowest living crown branch of the tree branches off, excluding epicormics or springs), and then the horizontal distance of the bifurcation point from the stem in the direction of the slope. The angle of inclination was calculated as tan alpha of these two distances. If the stem was inclined towards the slope, stem inclination was considered to be negative. Stem azimuth was measured by placing a 1.3 m long woody stick with a wooden pendular along the stem. The  direction of the pendular was measured by means of a compass.--- Stem slenderness is calculated as total height divided by stem diameter</para>
+<para>azimuth of stem inclination</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='mean_rad'>
+<attributeName>Crown architecture (mean_rad), dimensionless</attributeName>
+<attributeLabel>mean_rad</attributeLabel>
+<attributeDefinition>Crown radii in the eight subcardinal directions were determined by means of a crown mirror. Columns comprise the horizontal distance (hdist) and the distance taking into account the slope (dist). The crown projection area was calculated using the formula for a polygon. In cases of extraordinary crown displacement – the crown projection did not include the stem base – the distances to the proximal and distal edge of the crown were measured in all possible directions (if this was only possible for one direction, four crown radii were measured as follows: the distances to the proximal and distal edge of the crown were determined and, starting at the centre of this crown diameter, on the axis perpendicular to it. In this case, crown area was approximated as a quadrangle). Absolute crown displacement (ad) was considered to be the distance of the centre of gravity of the crown area from the stem base. Relative crown displacement (rd) was considered to be ad divided by the mean crown radius (Longuetaud et al., 2008). In cases where the centre of gravity perfectly matches the stem base, rd is equal to 0. --- Crown length is calculated as the total tree height minus the height of the bifurcation point, The crown ratio was calculated as crown length divided by the total height of the tree (mean_rad: mean crown radius)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Crown architecture</para>
+<para>Crown radii in the eight subcardinal directions were determined by means of a crown mirror. Columns comprise the horizontal distance (hdist) and the distance taking into account the slope (dist). The crown projection area was calculated using the formula for a polygon. In cases of extraordinary crown displacement – the crown projection did not include the stem base – the distances to the proximal and distal edge of the crown were measured in all possible directions (if this was only possible for one direction, four crown radii were measured as follows: the distances to the proximal and distal edge of the crown were determined and, starting at the centre of this crown diameter, on the axis perpendicular to it. In this case, crown area was approximated as a quadrangle). Absolute crown displacement (ad) was considered to be the distance of the centre of gravity of the crown area from the stem base. Relative crown displacement (rd) was considered to be ad divided by the mean crown radius (Longuetaud et al., 2008). In cases where the centre of gravity perfectly matches the stem base, rd is equal to 0. --- Crown length is calculated as the total tree height minus the height of the bifurcation point, The crown ratio was calculated as crown length divided by the total height of the tree</para>
+<para>mean crown radius</para>
+</description>
+<instrumentation>crown mirror, Vertex Forester</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='cr_a'>
+<attributeName>Crown architecture (cr_a), dimensionless</attributeName>
+<attributeLabel>cr_a</attributeLabel>
+<attributeDefinition>Crown radii in the eight subcardinal directions were determined by means of a crown mirror. Columns comprise the horizontal distance (hdist) and the distance taking into account the slope (dist). The crown projection area was calculated using the formula for a polygon. In cases of extraordinary crown displacement – the crown projection did not include the stem base – the distances to the proximal and distal edge of the crown were measured in all possible directions (if this was only possible for one direction, four crown radii were measured as follows: the distances to the proximal and distal edge of the crown were determined and, starting at the centre of this crown diameter, on the axis perpendicular to it. In this case, crown area was approximated as a quadrangle). Absolute crown displacement (ad) was considered to be the distance of the centre of gravity of the crown area from the stem base. Relative crown displacement (rd) was considered to be ad divided by the mean crown radius (Longuetaud et al., 2008). In cases where the centre of gravity perfectly matches the stem base, rd is equal to 0. --- Crown length is calculated as the total tree height minus the height of the bifurcation point, The crown ratio was calculated as crown length divided by the total height of the tree (cr_a: crown area)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Crown architecture</para>
+<para>Crown radii in the eight subcardinal directions were determined by means of a crown mirror. Columns comprise the horizontal distance (hdist) and the distance taking into account the slope (dist). The crown projection area was calculated using the formula for a polygon. In cases of extraordinary crown displacement – the crown projection did not include the stem base – the distances to the proximal and distal edge of the crown were measured in all possible directions (if this was only possible for one direction, four crown radii were measured as follows: the distances to the proximal and distal edge of the crown were determined and, starting at the centre of this crown diameter, on the axis perpendicular to it. In this case, crown area was approximated as a quadrangle). Absolute crown displacement (ad) was considered to be the distance of the centre of gravity of the crown area from the stem base. Relative crown displacement (rd) was considered to be ad divided by the mean crown radius (Longuetaud et al., 2008). In cases where the centre of gravity perfectly matches the stem base, rd is equal to 0. --- Crown length is calculated as the total tree height minus the height of the bifurcation point, The crown ratio was calculated as crown length divided by the total height of the tree</para>
+<para>crown area</para>
+</description>
+<instrumentation>crown mirror, Vertex Forester</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='ad'>
+<attributeName>Crown architecture (ad), dimensionless</attributeName>
+<attributeLabel>ad</attributeLabel>
+<attributeDefinition>Crown radii in the eight subcardinal directions were determined by means of a crown mirror. Columns comprise the horizontal distance (hdist) and the distance taking into account the slope (dist). The crown projection area was calculated using the formula for a polygon. In cases of extraordinary crown displacement – the crown projection did not include the stem base – the distances to the proximal and distal edge of the crown were measured in all possible directions (if this was only possible for one direction, four crown radii were measured as follows: the distances to the proximal and distal edge of the crown were determined and, starting at the centre of this crown diameter, on the axis perpendicular to it. In this case, crown area was approximated as a quadrangle). Absolute crown displacement (ad) was considered to be the distance of the centre of gravity of the crown area from the stem base. Relative crown displacement (rd) was considered to be ad divided by the mean crown radius (Longuetaud et al., 2008). In cases where the centre of gravity perfectly matches the stem base, rd is equal to 0. --- Crown length is calculated as the total tree height minus the height of the bifurcation point, The crown ratio was calculated as crown length divided by the total height of the tree (ad: absolute crown displacement)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Crown architecture</para>
+<para>Crown radii in the eight subcardinal directions were determined by means of a crown mirror. Columns comprise the horizontal distance (hdist) and the distance taking into account the slope (dist). The crown projection area was calculated using the formula for a polygon. In cases of extraordinary crown displacement – the crown projection did not include the stem base – the distances to the proximal and distal edge of the crown were measured in all possible directions (if this was only possible for one direction, four crown radii were measured as follows: the distances to the proximal and distal edge of the crown were determined and, starting at the centre of this crown diameter, on the axis perpendicular to it. In this case, crown area was approximated as a quadrangle). Absolute crown displacement (ad) was considered to be the distance of the centre of gravity of the crown area from the stem base. Relative crown displacement (rd) was considered to be ad divided by the mean crown radius (Longuetaud et al., 2008). In cases where the centre of gravity perfectly matches the stem base, rd is equal to 0. --- Crown length is calculated as the total tree height minus the height of the bifurcation point, The crown ratio was calculated as crown length divided by the total height of the tree</para>
+<para>absolute crown displacement</para>
+</description>
+<instrumentation>crown mirror, Vertex Forester</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CI_BD'>
+<attributeName>Competition index (CI_BD), dimensionless</attributeName>
+<attributeLabel>CI_BD</attributeLabel>
+<attributeDefinition>Individual tree competition index. e.g: Hegyi 1974. Sum (dbh neighbour/(dbh target * (distance target_neighbour + 1))); Source: Competition index Hegyi 1974. von Oheimb, G., A. C. Lang, et al. (2011). &quot;Individual-tree radial growth in a subtropical broad-leaved forest: The role of local neighbourhood competition.&quot; Forest Ecology and Management 261(3): 499-507 (derived from datagroup) (CI_BD: competition index (Biging and Dobbertin, 1992))</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Competition index</para>
+<para>Individual tree competition index. e.g: Hegyi 1974. Sum (dbh neighbour/(dbh target * (distance target_neighbour + 1))); Source: Competition index Hegyi 1974. von Oheimb, G., A. C. Lang, et al. (2011). &quot;Individual-tree radial growth in a subtropical broad-leaved forest: The role of local neighbourhood competition.&quot; Forest Ecology and Management 261(3): 499-507 (derived from datagroup)</para>
+<para>competition index (Biging and Dobbertin, 1992)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CI_H'>
+<attributeName>Competition index (CI_H), dimensionless</attributeName>
+<attributeLabel>CI_H</attributeLabel>
+<attributeDefinition>Individual tree competition index. e.g: Hegyi 1974. Sum (dbh neighbour/(dbh target * (distance target_neighbour + 1))); Source: Competition index Hegyi 1974. von Oheimb, G., A. C. Lang, et al. (2011). &quot;Individual-tree radial growth in a subtropical broad-leaved forest: The role of local neighbourhood competition.&quot; Forest Ecology and Management 261(3): 499-507 (derived from datagroup) (CI_H: competition index (Hegyi, 1974))</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Competition index</para>
+<para>Individual tree competition index. e.g: Hegyi 1974. Sum (dbh neighbour/(dbh target * (distance target_neighbour + 1))); Source: Competition index Hegyi 1974. von Oheimb, G., A. C. Lang, et al. (2011). &quot;Individual-tree radial growth in a subtropical broad-leaved forest: The role of local neighbourhood competition.&quot; Forest Ecology and Management 261(3): 499-507 (derived from datagroup)</para>
+<para>competition index (Hegyi, 1974)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CI_ME'>
+<attributeName>Competition index (CI_ME), dimensionless</attributeName>
+<attributeLabel>CI_ME</attributeLabel>
+<attributeDefinition>Individual tree competition index. e.g: Hegyi 1974. Sum (dbh neighbour/(dbh target * (distance target_neighbour + 1))); Source: Competition index Hegyi 1974. von Oheimb, G., A. C. Lang, et al. (2011). &quot;Individual-tree radial growth in a subtropical broad-leaved forest: The role of local neighbourhood competition.&quot; Forest Ecology and Management 261(3): 499-507 (derived from datagroup) (CI_ME: competition index (Martin and Ek 1984))</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Competition index</para>
+<para>Individual tree competition index. e.g: Hegyi 1974. Sum (dbh neighbour/(dbh target * (distance target_neighbour + 1))); Source: Competition index Hegyi 1974. von Oheimb, G., A. C. Lang, et al. (2011). &quot;Individual-tree radial growth in a subtropical broad-leaved forest: The role of local neighbourhood competition.&quot; Forest Ecology and Management 261(3): 499-507 (derived from datagroup)</para>
+<para>competition index (Martin and Ek 1984)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='n_neigh'>
+<attributeName>Abundance (n_neigh), </attributeName>
+<attributeLabel>n_neigh</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (n_neigh: number of neighbours)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>number of neighbours</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='area_neigh'>
+<attributeName>Projected area (area_neigh), square meter</attributeName>
+<attributeLabel>area_neigh</attributeLabel>
+<attributeDefinition>Projected area from a object (e.g. crown of a tree, shading device etc.) on the ground  (area_neigh: area of circular plot of neighbour evaluation, used as area basis for determination of neighbour indices)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Projected area</para>
+<para>Projected area from a object (e.g. crown of a tree, shading device etc.) on the ground </para>
+<para>area of circular plot of neighbour evaluation, used as area basis for determination of neighbour indices</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='neigh_a'>
+<attributeName>Density measure (neigh_a), </attributeName>
+<attributeLabel>neigh_a</attributeLabel>
+<attributeDefinition>Measure of density, i.e. number of observations (e.g. individuals) per unit area. (neigh_a: neighbours per area)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Density measure</para>
+<para>Measure of density, i.e. number of observations (e.g. individuals) per unit area.</para>
+<para>neighbours per area</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='loc_asp'>
+<attributeName>Aspect (loc_asp), gon</attributeName>
+<attributeLabel>loc_asp</attributeLabel>
+<attributeDefinition>Aspect or exposition is the direction a slope is facing and tends to be related to the amount of radiation and humidity a plot receives. (loc_asp: local aspect of target group)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Aspect</para>
+<para>Aspect or exposition is the direction a slope is facing and tends to be related to the amount of radiation and humidity a plot receives.</para>
+<para>local aspect of target group</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='loc_asp_grad'>
+<attributeName>Aspect (loc_asp_grad), rad</attributeName>
+<attributeLabel>loc_asp_grad</attributeLabel>
+<attributeDefinition>Aspect or exposition is the direction a slope is facing and tends to be related to the amount of radiation and humidity a plot receives. (loc_asp_grad: local aspect of target group)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Aspect</para>
+<para>Aspect or exposition is the direction a slope is facing and tends to be related to the amount of radiation and humidity a plot receives.</para>
+<para>local aspect of target group</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='loc_incl'>
+<attributeName>Inclination (loc_incl), °</attributeName>
+<attributeLabel>loc_incl</attributeLabel>
+<attributeDefinition>Inclination &quot;is the angular distance of the orbital plane from the plane of reference (usually the primary's equator or the ecliptic), normally stated in degrees&quot; (Wikipedia, 2011). Also referred to as 'slope'. (loc_incl: local inclination of target group)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Inclination</para>
+<para>Inclination &quot;is the angular distance of the orbital plane from the plane of reference (usually the primary&#39;s equator or the ecliptic), normally stated in degrees&quot; (Wikipedia, 2011). Also referred to as &#39;slope&#39;.</para>
+<para>local inclination of target group</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='n_sp_neigh'>
+<attributeName>Taxonomic biodiversity (n_sp_neigh), dimensionless</attributeName>
+<attributeLabel>n_sp_neigh</attributeLabel>
+<attributeDefinition>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao's Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao's Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc() (n_sp_neigh: number of species of neighbours)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Taxonomic biodiversity</para>
+<para>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao&#39;s Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao&#39;s Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc()</para>
+<para>number of species of neighbours</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='rat_e'>
+<attributeName>Helper (rat_e), dimensionless</attributeName>
+<attributeLabel>rat_e</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (rat_e: ratio of evergreens to deciduous of neighbours)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>ratio of evergreens to deciduous of neighbours</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='age_pl'>
+<attributeName>Helper (age_pl), 1,2,3,4,5,</attributeName>
+<attributeLabel>age_pl</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (age_pl: age of plot, defined in a different dataset on CSP age)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>age of plot, defined in a different dataset on CSP age</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='incl_pl'>
+<attributeName>Helper (incl_pl), °</attributeName>
+<attributeLabel>incl_pl</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (incl_pl: inclination of plot, defined on a different dataset on CSP topography)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>inclination of plot, defined on a different dataset on CSP topography</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='rare_s'>
+<attributeName>Taxonomic biodiversity (rare_s), dimensionless</attributeName>
+<attributeLabel>rare_s</attributeLabel>
+<attributeDefinition>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao's Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao's Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc() (rare_s: rarefaction of species number of target groups)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Taxonomic biodiversity</para>
+<para>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao&#39;s Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao&#39;s Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc()</para>
+<para>rarefaction of species number of target groups</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='rare_s_se'>
+<attributeName>Taxonomic biodiversity (rare_s_se), dimensionless</attributeName>
+<attributeLabel>rare_s_se</attributeLabel>
+<attributeDefinition>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao's Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao's Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc() (rare_s_se: standard error of rarefaction of species number of target groups)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Taxonomic biodiversity</para>
+<para>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao&#39;s Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao&#39;s Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc()</para>
+<para>standard error of rarefaction of species number of target groups</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='shannon'>
+<attributeName>Taxonomic biodiversity (shannon), dimensionless</attributeName>
+<attributeLabel>shannon</attributeLabel>
+<attributeDefinition>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao's Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao's Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc() (shannon: shannon index of target groups)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Taxonomic biodiversity</para>
+<para>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao&#39;s Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao&#39;s Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc()</para>
+<para>shannon index of target groups</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='rare_fg'>
+<attributeName>Functional biodiversity (rare_fg), dimensionless</attributeName>
+<attributeLabel>rare_fg</attributeLabel>
+<attributeDefinition>Functional biodiversity uses functional traits of organisms as a basis to quantifying biodiversity.  This can be the range of variation of traits, the amount of dissimilarity or similarity of traits.  Common measures are functional diversity, eveness, dissimilarity. (rare_fg: rare faction of functional groups of target group. This was calculated by using the following functional groups: !!!)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Functional biodiversity</para>
+<para>Functional biodiversity uses functional traits of organisms as a basis to quantifying biodiversity.  This can be the range of variation of traits, the amount of dissimilarity or similarity of traits.  Common measures are functional diversity, eveness, dissimilarity.</para>
+<para>rare faction of functional groups of target group. This was calculated by using the following functional groups: !!!</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='rare_fg_se'>
+<attributeName>Functional biodiversity (rare_fg_se), dimensionless</attributeName>
+<attributeLabel>rare_fg_se</attributeLabel>
+<attributeDefinition>Functional biodiversity uses functional traits of organisms as a basis to quantifying biodiversity.  This can be the range of variation of traits, the amount of dissimilarity or similarity of traits.  Common measures are functional diversity, eveness, dissimilarity. (rare_fg_se: standard error of rare faction of functional groups of target group)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Functional biodiversity</para>
+<para>Functional biodiversity uses functional traits of organisms as a basis to quantifying biodiversity.  This can be the range of variation of traits, the amount of dissimilarity or similarity of traits.  Common measures are functional diversity, eveness, dissimilarity.</para>
+<para>standard error of rare faction of functional groups of target group</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='rd'>
+<attributeName>Crown architecture (rd), ad/mean radius</attributeName>
+<attributeLabel>rd</attributeLabel>
+<attributeDefinition>Crown radii in the eight subcardinal directions were determined by means of a crown mirror. Columns comprise the horizontal distance (hdist) and the distance taking into account the slope (dist). The crown projection area was calculated using the formula for a polygon. In cases of extraordinary crown displacement – the crown projection did not include the stem base – the distances to the proximal and distal edge of the crown were measured in all possible directions (if this was only possible for one direction, four crown radii were measured as follows: the distances to the proximal and distal edge of the crown were determined and, starting at the centre of this crown diameter, on the axis perpendicular to it. In this case, crown area was approximated as a quadrangle). Absolute crown displacement (ad) was considered to be the distance of the centre of gravity of the crown area from the stem base. Relative crown displacement (rd) was considered to be ad divided by the mean crown radius (Longuetaud et al., 2008). In cases where the centre of gravity perfectly matches the stem base, rd is equal to 0. --- Crown length is calculated as the total tree height minus the height of the bifurcation point, The crown ratio was calculated as crown length divided by the total height of the tree (rd: relative crown displacement)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Crown architecture</para>
+<para>Crown radii in the eight subcardinal directions were determined by means of a crown mirror. Columns comprise the horizontal distance (hdist) and the distance taking into account the slope (dist). The crown projection area was calculated using the formula for a polygon. In cases of extraordinary crown displacement – the crown projection did not include the stem base – the distances to the proximal and distal edge of the crown were measured in all possible directions (if this was only possible for one direction, four crown radii were measured as follows: the distances to the proximal and distal edge of the crown were determined and, starting at the centre of this crown diameter, on the axis perpendicular to it. In this case, crown area was approximated as a quadrangle). Absolute crown displacement (ad) was considered to be the distance of the centre of gravity of the crown area from the stem base. Relative crown displacement (rd) was considered to be ad divided by the mean crown radius (Longuetaud et al., 2008). In cases where the centre of gravity perfectly matches the stem base, rd is equal to 0. --- Crown length is calculated as the total tree height minus the height of the bifurcation point, The crown ratio was calculated as crown length divided by the total height of the tree</para>
+<para>relative crown displacement</para>
+</description>
+<instrumentation>crown mirror, Vertex Forester</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='can_hi'>
+<attributeName>Vegetation layer height (can_hi), dimensionless</attributeName>
+<attributeLabel>can_hi</attributeLabel>
+<attributeDefinition>In the CSPs, tree and shrub layer height was estimated as mean value from four different spots within the CSP, with simultaneous estimates by four different researchers.  In the Pilot experiment, vegetation layer is referred to as &quot;stratum&quot; and is measured in 50cm thick layers above ground. (can_hi: Upper canopy height wasdefined as themeanheight of the highest
+20% trees in the respective group.)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Vegetation layer height</para>
+<para>In the CSPs, tree and shrub layer height was estimated as mean value from four different spots within the CSP, with simultaneous estimates by four different researchers.  In the Pilot experiment, vegetation layer is referred to as &quot;stratum&quot; and is measured in 50cm thick layers above ground.</para>
+<para>Upper canopy height wasdefined as themeanheight of the highest
+20% trees in the respective group.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='mean_can_hi'>
+<attributeName>Vegetation layer height (mean_can_hi), dimensionless</attributeName>
+<attributeLabel>mean_can_hi</attributeLabel>
+<attributeDefinition>In the CSPs, tree and shrub layer height was estimated as mean value from four different spots within the CSP, with simultaneous estimates by four different researchers.  In the Pilot experiment, vegetation layer is referred to as &quot;stratum&quot; and is measured in 50cm thick layers above ground. (mean_can_hi: mean canopy height of target groups)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Vegetation layer height</para>
+<para>In the CSPs, tree and shrub layer height was estimated as mean value from four different spots within the CSP, with simultaneous estimates by four different researchers.  In the Pilot experiment, vegetation layer is referred to as &quot;stratum&quot; and is measured in 50cm thick layers above ground.</para>
+<para>mean canopy height of target groups</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>70</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

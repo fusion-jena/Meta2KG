@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="f382f0ce-323a-4091-bb9f-add557f3a9a2"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/6h8ucr</alternateIdentifier>
+    <title>The World Checklist of Vascular Plants (WCVP)</title>
+    <creator>
+<organizationName>The Royal Botanic Gardens, Kew</organizationName>    <address>
+<city>London</city><postalCode>TW9 3AE</postalCode><country>UNITED_KINGDOM</country>    </address>
+<electronicMailAddress>info@kew.org</electronicMailAddress><onlineUrl>https://www.kew.org/</onlineUrl>    </creator>
+      <pubDate>
+      2021-06-14
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The World Checklist of Vascular Plants (WCVP) is a global consensus view of all known vascular plant species (flowering plants, conifers, ferns, clubmosses and firmosses).</para>
+        <para>The World Checklist of Vascular Plants aims to deliver a sustainable and curated resource. It is based on Kew’s names and taxonomic backbone which has been created by reconciling the names from the International Plant Names Index (IPNI) with the taxonomy from the World Checklist of Selected Plant Families (WCSP). This Beta version therefore only displays names that are in both IPNI and WCSP. It contains both families that have been completed and peer reviewed by both external and internal experts on the relevant families as well as families that are in the process of being edited and reviewed. Some of the original data which WCSP built upon came from our generous collaborators listed in the acknowledgements. WCVP aims to represent a global consensus view of current plant taxonomy by reflecting the latest published taxonomies while incorporating the opinions of taxonomists based around the world.</para>
+        <para>WCVP is built on the nomenclatural data provided by the International Plant Names Index (IPNI) which is the product of a collaboration between The Royal Botanic Gardens, Kew, The Harvard University Herbaria, and the Australian National Herbarium, combined with the taxonomic data provided by the World Checklist of Selected Plant Families (WCSP) which is an international collaborative programme with a large number of contributors from around the world. We would also like to thank all the reviewers who peer reviewed the families made available through the WCSP website. Our thanks also go to the compilers and editors of IPNI and WCSP and in particular the thousands of users who have contributed corrections over the past decades, improving those data for the global user community.</para>
+        <para>Our particular thanks go to the people and institutions who have provided us with name and taxonomic data over the years. In particular Missouri Botanic Garden, The New York Botanic Garden, iPlants, The Catalogue of Life Partnership, Solanaceae Source, Mohammad El-Labban (Lebanon &amp;amp; Syria data), Ori Fragman-Sapir &amp;amp; Avinoam Danin (Flora of Israel Online), Richard Pankhurst, Royal Botanic Gardens, Edinburgh (Rosaceae) and the Species Plantarum Programme.</para>
+    </abstract>
+        <keywordSet>
+              <keyword>Plants</keyword>
+              <keyword>Kew</keyword>
+              <keyword>World</keyword>
+              <keyword>WCVP</keyword>
+        </keywordSet>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">https://wcvp.science.kew.org</url>
+          </online>
+      </distribution>
+      <contact>
+<organizationName>Biodiversity Informatics, Kew</organizationName><electronicMailAddress>bi@kew.org</electronicMailAddress>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2021-12-07T12:29:12Z</dateStamp>
+      <citation>Royal Botanic Gardens, Kew (2021). The World Checklist of Vascular Plants (WCVP). Checklist dataset https://doi.org/10.15468/6h8ucr accessed via GBIF.org on 2021-12-07.</citation>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

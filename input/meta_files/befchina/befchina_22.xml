@@ -1,0 +1,707 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='58'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/58</alternateIdentifier>
+<title>CSPs: Kinetic energy of raindrops in the CSPs: characteristics of rain events </title>
+<creator id='tscholten'>
+<individualName>
+<givenName>Thomas</givenName>
+<surName>Scholten</surName>
+</individualName>
+
+
+<electronicMailAddress>thomas.scholten@uni-tuebingen.de</electronicMailAddress>
+</creator>
+<creator id='pkuehn'>
+<individualName>
+<givenName>Peter</givenName>
+<surName>Kühn</surName>
+</individualName>
+<organizationName>Institute of Geography / Laboratory for Soil Science  and Geoecology  Eberhard Karls University Tübingen</organizationName>
+<address>
+<deliveryPoint>Rümelinstr. 19-23</deliveryPoint>
+<city>72070 Tübingen</city>
+<country>Germany</country>
+</address>
+<phone>+49-7071-2974896</phone>
+<electronicMailAddress>peter.kuehn@uni-tuebingen.de</electronicMailAddress>
+</creator>
+<creator id='cgeissler'>
+<individualName>
+<givenName>Christian</givenName>
+<surName>Geißler</surName>
+</individualName>
+<organizationName>Uni Tübingen</organizationName>
+<address>
+
+<city>Tübingen</city>
+
+</address>
+
+<electronicMailAddress>christian.geissler@gmx.net</electronicMailAddress>
+</creator>
+<pubDate>2011-06-07</pubDate>
+<language>en_US</language>
+<abstract>
+<para>Rain was captured in open field and in vegetated conditions parallel to measurements in the Comparative study plots (CSPs). Throughfall as well as sandloss from splashcups can be used to derive kinetic energy from raindrops. </para>
+
+</abstract>
+<keywordSet>
+<keyword>CSP</keyword>
+<keyword>date</keyword>
+<keyword>erosion</keyword>
+<keyword>kinetic energy</keyword>
+<keyword>precipitation</keyword>
+<keyword>raindrop</keyword>
+<keyword>splashcup</keyword>
+<keyword>wind speed</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>event</keyword>
+<keyword>camp</keyword>
+<keyword>begin</keyword>
+<keyword>end</keyword>
+<keyword>type</keyword>
+<keyword>sc</keyword>
+<keyword>loss_f</keyword>
+<keyword>loss_o</keyword>
+<keyword>am_b</keyword>
+<keyword>am_v</keyword>
+<keyword>int_v</keyword>
+<keyword>peak_v</keyword>
+<keyword>top5_v</keyword>
+<keyword>am_t</keyword>
+<keyword>int_t</keyword>
+<keyword>peak_t</keyword>
+<keyword>top5_t</keyword>
+<keyword>wind_v</keyword>
+<keyword>pwind_v</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Permission is granted to anybody to access, use and publish all open for public data freely. The commercial use of any data is prohibited. The quality and completeness of data cannot be guaranteed. Users employ these data at their own risk. In order to make attribution of use for owners of the data possible, the identifier of ownership of data must be retained with every data record. Users must publicly acknowledge, in conjunction with the use of the data, the data owners. Cite the data as follows: Geißler, C., Scholten, T. and Kühn, P. (2009): Rainfall for rain events within splashcups measurements for kinetic energy of raindrops. BEF-China data portal (Accessed through URL http://china.befdata.biow.uni-leipzig.de/datasets/58)</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/58/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>The Gutianshan National Nature Reserve (NNR) is located in the western part of Zhejiang Province (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Fig. 1).  The Gutianshan NNR has an area of approximately 81 km2 and was initially established as a National Forest Reserve in 1975 and became a National Nature Reserve in 2001.</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2008-01-07
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2009-12-07
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>no organisms, only vegetated and bare plots</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+no organisms, only vegetated and bare plots
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>tscholten</references>
+</contact>
+<contact>
+<references>pkuehn</references>
+</contact>
+<contact>
+<references>cgeissler</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>CSPs: Kinetic energy of raindrops in the CSPs: characteristics of rain events </para>
+<para>Rain was captured in open field and in vegetated conditions parallel to measurements in the Comparative study plots (CSPs). Throughfall as well as sandloss from splashcups can be used to derive kinetic energy from raindrops. </para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2008-01-07 00:00:00 UTC - 2009-12-07 00:00:00 UTC</para>
+
+<para>The Gutianshan National Nature Reserve (NNR) is located in the western part of Zhejiang Province (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Fig. 1).  The Gutianshan NNR has an area of approximately 81 km2 and was initially established as a National Forest Reserve in 1975 and became a National Nature Reserve in 2001.</para>
+<para>no organisms, only vegetated and bare plots</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>The splash cups consist of a PE flask to which a carrier system has been attached. In this carrier system a cup filled with a unit sand of 125-200 µm particle size is inserted. At the bottom of the cup a silk cover prevents loss of sand and guarantees free drainage of water from the cup to the carrier and vice versa. Cup and PE flask are hydraulically connected by a cotton wick to ensure constant moisture content throughout the time of measuring, as the initial water content is a crucial point in splash erosion studies (Poesen and Savat 1981). Additionally, vents in the carrier system ensure that the pressure arising from the insertion of the cup does not lead to loss of sand. The vent in the PE flask guarantees the free drainage of excess water which may accumulate during high intensity rainfall events.</para>
+<para>This file serves as lookup for rain event intensity for the files on &quot;Splashcup data CSPs: kinetic Energy of raindrops&quot;. </para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/58</entityName>
+<entityDescription>CSPs: Kinetic energy of raindrops in the CSPs: characteristics of rain events </entityDescription>
+<physical>
+<objectName>/datasets/58</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/58/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='event'>
+<attributeName>Rainevent for determinig kinetic energy of rainfalls (event), dimensionless</attributeName>
+<attributeLabel>event</attributeLabel>
+<attributeDefinition>Splashcups were collected after certain rain events. Kinetic energy from rainfall removes sand from splashcups: Here we explore the effect individual species have in modulating kinetic energy from raindrops in the Comparative Study Plots of the BEF-China experiment. This information is important for deriving the role of tree diversity on erosion in subtropical forests. (event: event no --event no -- running number of rainfall events)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Splashcups were collected after certain rain events. Kinetic energy from rainfall removes sand from splashcups: Here we explore the effect individual species have in modulating kinetic energy from raindrops in the Comparative Study Plots of the BEF-China experiment. This information is important for deriving the role of tree diversity on erosion in subtropical forests.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Rainevent for determinig kinetic energy of rainfalls</para>
+<para>Splashcups were collected after certain rain events. Kinetic energy from rainfall removes sand from splashcups: Here we explore the effect individual species have in modulating kinetic energy from raindrops in the Comparative Study Plots of the BEF-China experiment. This information is important for deriving the role of tree diversity on erosion in subtropical forests.</para>
+<para>event no --event no -- running number of rainfall events</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='camp'>
+<attributeName>Helper (camp), dimensionless</attributeName>
+<attributeLabel>camp</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (camp: campaign no --campaign -- running number of campaigns (1=2008, 2=2009, 3=2010))</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>campaign no --campaign -- running number of campaigns (1=2008, 2=2009, 3=2010)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='begin'>
+<attributeName>Date time information (begin), dimensionless</attributeName>
+<attributeLabel>begin</attributeLabel>
+<attributeDefinition>Date time information, given as year or as date or as date time. (begin: measurement begin --event begin -- start date of event (yyyy/mm/dd; hh:ss))</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Date time information, given as year or as date or as date time.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Date time information</para>
+<para>Date time information, given as year or as date or as date time.</para>
+<para>measurement begin --event begin -- start date of event (yyyy/mm/dd; hh:ss)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='end'>
+<attributeName>Date time information (end), dimensionless</attributeName>
+<attributeLabel>end</attributeLabel>
+<attributeDefinition>Date time information, given as year or as date or as date time. (end: measurement end --event end -- end date of event (yyyy/mm/dd; hh:ss))</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Date time information, given as year or as date or as date time.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Date time information</para>
+<para>Date time information, given as year or as date or as date time.</para>
+<para>measurement end --event end -- end date of event (yyyy/mm/dd; hh:ss)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='type'>
+<attributeName>Helper (type), dimensionless</attributeName>
+<attributeLabel>type</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (type: type of measurement --type of measurement -- splash cups random (SCR), splash cups species-specific (SCS), Laser precipitation monitor (LPM))</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>type of measurement --type of measurement -- splash cups random (SCR), splash cups species-specific (SCS), Laser precipitation monitor (LPM)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='sc'>
+<attributeName>Sample size (sc), dimensionless</attributeName>
+<attributeLabel>sc</attributeLabel>
+<attributeDefinition>Number of objects used for analysis. (sc: sc amount (n) --sc amount (n) -- total amount of splash cups for the specified event)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Sample size</para>
+<para>Number of objects used for analysis.</para>
+<para>sc amount (n) --sc amount (n) -- total amount of splash cups for the specified event</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='loss_f'>
+<attributeName>Deriving kinetic energy from sand loss (loss_f), gramsPerSquareMeter</attributeName>
+<attributeLabel>loss_f</attributeLabel>
+<attributeDefinition>Kinetic energy is derived from sand loss out of splashcups. For this, the amount of sand removed by rain can be used to calculate a standardized amount of removed sand per area and a kinetic energy per area. (loss_f: average sandloss forest g m-2 -- -- )</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit></standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Deriving kinetic energy from sand loss</para>
+<para>Kinetic energy is derived from sand loss out of splashcups. For this, the amount of sand removed by rain can be used to calculate a standardized amount of removed sand per area and a kinetic energy per area.</para>
+<para>average sandloss forest g m-2 -- -- </para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='loss_o'>
+<attributeName>Deriving kinetic energy from sand loss (loss_o), gramsPerSquareMeter</attributeName>
+<attributeLabel>loss_o</attributeLabel>
+<attributeDefinition>Kinetic energy is derived from sand loss out of splashcups. For this, the amount of sand removed by rain can be used to calculate a standardized amount of removed sand per area and a kinetic energy per area. (loss_o: average sandloss open field g m-2 -- -- )</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit></standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Deriving kinetic energy from sand loss</para>
+<para>Kinetic energy is derived from sand loss out of splashcups. For this, the amount of sand removed by rain can be used to calculate a standardized amount of removed sand per area and a kinetic energy per area.</para>
+<para>average sandloss open field g m-2 -- -- </para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='am_b'>
+<attributeName>Precipitation (am_b), millimeter</attributeName>
+<attributeLabel>am_b</attributeLabel>
+<attributeDefinition>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+ (am_b: rainfall amount open field (collecting bottle) mm --rainfall amount (collecting bottle) -- measured by a rainfall collecting bottle)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Precipitation</para>
+<para>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+</para>
+<para>rainfall amount open field (collecting bottle) mm --rainfall amount (collecting bottle) -- measured by a rainfall collecting bottle</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='am_v'>
+<attributeName>Precipitation (am_v), millimeter per hour</attributeName>
+<attributeLabel>am_v</attributeLabel>
+<attributeDefinition>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+ (am_v: rainfall amount open field (vaisala) mm --rainfall amount (vaisala) -- measured by the vaisala sensor)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Precipitation</para>
+<para>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+</para>
+<para>rainfall amount open field (vaisala) mm --rainfall amount (vaisala) -- measured by the vaisala sensor</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='int_v'>
+<attributeName>Precipitation (int_v), millimeter per hour</attributeName>
+<attributeLabel>int_v</attributeLabel>
+<attributeDefinition>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+ (int_v: average rainfall intensity open field (vaisala) mm/h --average rainfall intensity (vaisala) -- measured by the vaisala sensor)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Precipitation</para>
+<para>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+</para>
+<para>average rainfall intensity open field (vaisala) mm/h --average rainfall intensity (vaisala) -- measured by the vaisala sensor</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='peak_v'>
+<attributeName>Precipitation (peak_v), millimeter per hour</attributeName>
+<attributeLabel>peak_v</attributeLabel>
+<attributeDefinition>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+ (peak_v: peak rainfall intensity open field (vaisala) mm/h --peak rainfall intensity (vaisala) -- measured by the vaisala sensor)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Precipitation</para>
+<para>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+</para>
+<para>peak rainfall intensity open field (vaisala) mm/h --peak rainfall intensity (vaisala) -- measured by the vaisala sensor</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='top5_v'>
+<attributeName>Precipitation (top5_v), millimeter per hour</attributeName>
+<attributeLabel>top5_v</attributeLabel>
+<attributeDefinition>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+ (top5_v: average of the five highest five minute intensities open field (vaisala) --average of the five highest five minute intensities (vaisala) -- measured by the vaisala sensor)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Precipitation</para>
+<para>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+</para>
+<para>average of the five highest five minute intensities open field (vaisala) --average of the five highest five minute intensities (vaisala) -- measured by the vaisala sensor</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='am_t'>
+<attributeName>Precipitation (am_t), millimeter</attributeName>
+<attributeLabel>am_t</attributeLabel>
+<attributeDefinition>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+ (am_t: rainfall amount (tipping-bucket) mm --rainfall amount (tipping-bucket) -- measured by the tipping-bucket rain gauge)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Precipitation</para>
+<para>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+</para>
+<para>rainfall amount (tipping-bucket) mm --rainfall amount (tipping-bucket) -- measured by the tipping-bucket rain gauge</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='int_t'>
+<attributeName>Precipitation (int_t), millimeter per hour</attributeName>
+<attributeLabel>int_t</attributeLabel>
+<attributeDefinition>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+ (int_t: average rainfall intensity (tipping-bucket) mm/h --average rainfall intensity (tipping-bucket) -- measured by the tipping-bucket rain gauge)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Precipitation</para>
+<para>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+</para>
+<para>average rainfall intensity (tipping-bucket) mm/h --average rainfall intensity (tipping-bucket) -- measured by the tipping-bucket rain gauge</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='peak_t'>
+<attributeName>Precipitation (peak_t), millimeter per hour</attributeName>
+<attributeLabel>peak_t</attributeLabel>
+<attributeDefinition>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+ (peak_t: peak rainfall intensity (tipping-bucket) mm/h --peak rainfall intensity (tipping-bucket) -- measured by the tipping-bucket rain gauge)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Precipitation</para>
+<para>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+</para>
+<para>peak rainfall intensity (tipping-bucket) mm/h --peak rainfall intensity (tipping-bucket) -- measured by the tipping-bucket rain gauge</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='top5_t'>
+<attributeName>Precipitation (top5_t), millimeter per hour</attributeName>
+<attributeLabel>top5_t</attributeLabel>
+<attributeDefinition>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+ (top5_t: average of the five highest five minute intensities (tipping-bucket) --average of the five highest five minute intensities (tipping-bucket) -- measured by the tipping-bucket rain gauge)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Precipitation</para>
+<para>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+</para>
+<para>average of the five highest five minute intensities (tipping-bucket) --average of the five highest five minute intensities (tipping-bucket) -- measured by the tipping-bucket rain gauge</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='wind_v'>
+<attributeName>Wind speed (wind_v), metersPerSecond</attributeName>
+<attributeLabel>wind_v</attributeLabel>
+<attributeDefinition>Wind speed (wind_v: average wind speed m/s --average wind speed -- measured by the vaisala sensor)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Wind speed</para>
+<para>Wind speed</para>
+<para>average wind speed m/s --average wind speed -- measured by the vaisala sensor</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='pwind_v'>
+<attributeName>Wind speed (pwind_v), metersPerSecond</attributeName>
+<attributeLabel>pwind_v</attributeLabel>
+<attributeDefinition>Wind speed (pwind_v: peak wind speed m/s --peak wind speed -- measured by the vaisala sensor)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Wind speed</para>
+<para>Wind speed</para>
+<para>peak wind speed m/s --peak wind speed -- measured by the vaisala sensor</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>13</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

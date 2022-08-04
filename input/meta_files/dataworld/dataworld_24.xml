@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">us-doi-gov_04ffb71a-0600-4522-9f04-7616b4146ed5</name>
+	<title type="str">Terrestrial Ecosystems - Surficial Lithology of the Conte...</title>
+	<description type="str">Terrestrial Ecosystems - Surficial Lithology of the Conterminous United States
+
+*Original Title*: Terrestrial Ecosystems - Surficial Lithology of the Conterminous United States
+
+The U.S. Geological Survey (USGS) has generated a new classification and map of the lithology of surficial materials for the contiguous United States. This was developed as part of an effort to map standardized, terrestrial ecosystem distributions for the nation using a classification developed by NatureServe (Comer and others, 2003). This ecosystem mapping methodology, which delineates ecosystems by mapping and integrating their major structural components, was first developed for South America (Sayre and others, 2008) and is now being implemented globally (Sayre and others, 2007). Surficial lithology strongly influences the differentiation and distribution of terrestrial ecosystems, and is one of the key input layers in the ecosystem delineation process. These surficial lithology classes were derived from the USGS map &quot;Surficial Materials in the Conterminous United States&quot;, which was based on texture, internal structure, thickness and environment of deposition or formation of materials (Soller and Reheis, 2004). This original map was produced from a compilation of regional surficial and bedrock geology source maps using broadly defined common map units for the purpose of providing an overview of the existing data and knowledge (Soller and Reheis 2004). For the national terrestrial ecosystem mapping effort, the original 28 lithology classes were reclassified into a set of 18 lithologies that typically control or influence the distribution of vegetation types (Kruckeberg, 2002).
+
+Source: https://catalog.data.gov/dataset/terrestrial-ecosystems-surficial-lithology-of-the-conterminous-united-states-552c8  
+Last updated at https://catalog.data.gov/organization/doi-gov : 2020-01-23  
+[More about U.S. Government Works](https://www.usa.gov/government-works)</description>
+	<homepage type="str">https://data.world/us-doi-gov/04ffb71a-0600-4522-9f04-7616b4146ed5</homepage>
+	<license type="str">Public Domain</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">us_isobioclimate_1km_dd83_img_vat</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">value</name>
+						<title type="str">Value</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">value</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">count</name>
+						<title type="str">Count</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">count</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">red</name>
+						<title type="str">Red</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">red</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">green</name>
+						<title type="str">Green</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">green</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">blue</name>
+						<title type="str">Blue</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">blue</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">opacity</name>
+						<title type="str">Opacity</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">opacity</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/us_isobioclimate_1km_dd83_img_vat.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/pdf-file-5.pdf</name>
+			<path type="str">original/pdf-file-5.pdf</path>
+			<format type="str">pdf</format>
+			<mediatype type="str">application/pdf</mediatype>
+			<bytes type="int">49486360</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/resource_links.md</name>
+			<path type="str">original/resource_links.md</path>
+			<format type="str">md</format>
+			<mediatype type="str">text/markdown</mediatype>
+			<bytes type="int">309</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/us_isobioclimate_1km_dd83.img</name>
+			<path type="str">original/us_isobioclimate_1km_dd83.img</path>
+			<format type="str">img</format>
+			<mediatype type="str">application/x-erdas-hfa</mediatype>
+			<bytes type="int">21365980</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/us_isobioclimate_1km_dd83.img.vat.dbf</name>
+			<path type="str">original/us_isobioclimate_1km_dd83.img.vat.dbf</path>
+			<format type="str">dbf</format>
+			<mediatype type="str">application/dbf</mediatype>
+			<bytes type="int">13666</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/us_isobioclimate_1km_dd83.rrd</name>
+			<path type="str">original/us_isobioclimate_1km_dd83.rrd</path>
+			<format type="str">rrd</format>
+			<mediatype type="str">application/x-erdas-hfa</mediatype>
+			<bytes type="int">2004825</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/us_lithology_1km_dd83.img</name>
+			<path type="str">original/us_lithology_1km_dd83.img</path>
+			<format type="str">img</format>
+			<mediatype type="str">application/x-erdas-hfa</mediatype>
+			<bytes type="int">18698983</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/us_lithology_1km_dd83.rrd</name>
+			<path type="str">original/us_lithology_1km_dd83.rrd</path>
+			<format type="str">rrd</format>
+			<mediatype type="str">application/x-erdas-hfa</mediatype>
+			<bytes type="int">1733048</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">deposition</item>
+		<item type="str">ecosystem</item>
+		<item type="str">environment</item>
+		<item type="str">geo</item>
+		<item type="str">geoss</item>
+		<item type="str">texture</item>
+		<item type="str">thickness</item>
+		<item type="str">usgs</item>
+	</keywords>
+</all>

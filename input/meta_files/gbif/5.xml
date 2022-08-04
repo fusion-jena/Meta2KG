@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="95db4db8-f762-11e1-a439-00145eb45e9a"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/tww7cj</alternateIdentifier>
+        <alternateIdentifier>95db4db8-f762-11e1-a439-00145eb45e9a</alternateIdentifier>
+        <alternateIdentifier>http://data.gbif.org/datasets/resource/7963</alternateIdentifier>
+    <title>DOF - Observations from the Danish Ornithological Society</title>
+    <creator>
+    <individualName>
+<givenName>Timme</givenName>          <surName>Nyegaard</surName>
+    </individualName>
+<organizationName>Danish Ornithological Society</organizationName><positionName>Project leader</positionName>    <address>
+<deliveryPoint>Vesterbrogade 140</deliveryPoint><city>Copenhagen V</city><postalCode>1620</postalCode><country>DENMARK</country>    </address>
+<electronicMailAddress>timme.nyegaard@dof.dk</electronicMailAddress>    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Timme</givenName>          <surName>Nyegaard</surName>
+    </individualName>
+<organizationName>Danish Ornithological Society</organizationName><positionName>Project leader</positionName>    <address>
+<deliveryPoint>Vesterbrogade 140</deliveryPoint><city>Copenhagen V</city><postalCode>1620</postalCode><country>DENMARK</country>    </address>
+<electronicMailAddress>timme.nyegaard@dof.dk</electronicMailAddress>    </metadataProvider>
+      <pubDate>
+      2021-10-27
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>DOFbasen is an online database for bird observations in Denmark (www.dofbasen.dk), administrated by
+                Dansk Ornitologisk Forening DOF/BirdLife Denmark.
+                DOF is a NGO with ca. 16,000 members working for increasing the knowledge and protection of birds and
+                their habitats in Denmark and abroad (www.dof.dk).</para>
+        <para>The data are collected by volunteers and apart from bird observations also includes observations of
+                mammals, amphibians, reptiles and butterflies. Most data are casual records, meaning that not all
+                species and individuals seen by the observer necessarily have been reported. Rare and unusual bird
+                observations are subjected to quality assessment by two Rarity Committees and observations under
+                evaluation or dismissed are not included in this dataset.</para>
+        <para>The data can be used freely for non-profit purposes including scientific analysis if cited
+                appropriately. We would appreciate receiving copies of any publications using our data to use for
+                motivating the volunteers in their data collection. All images and other media associated with the
+                records are copyright of the observer.</para>
+        <para>A small number of vulnerable breeding bird observations have their precision blurred by rounding the
+                coordinates and setting the uncertainty to 25 km.</para>
+        <para>The dataset is updated on a weekly basis, but not including data with an observation date within the
+                last 60 days.</para>
+    </abstract>
+        <keywordSet>
+              <keyword>Animalia</keyword>
+              <keyword>DOFbasen</keyword>
+              <keyword>Europe</keyword>
+              <keyword>DOF</keyword>
+              <keyword>DENMARK</keyword>
+              <keywordThesaurus>N/A</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Occurrence</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Observation</keyword>
+              <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">https://www.dofbasen.dk/</url>
+          </online>
+      </distribution>
+      <coverage>
+          <temporalCoverage>
+            <rangeOfDates>
+              <beginDate>
+                <calendarDate>      1499-12-23
+</calendarDate>
+              </beginDate>
+              <endDate>
+                <calendarDate>      2021-08-27
+</calendarDate>
+              </endDate>
+            </rangeOfDates>
+          </temporalCoverage>
+              <taxonomicCoverage>
+                    <generalTaxonomicCoverage>Animalia</generalTaxonomicCoverage>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Aves</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Mammalia</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Amphibia</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Insecta</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Reptilia</taxonRankValue>
+                    </taxonomicClassification>
+              </taxonomicCoverage>
+      </coverage>
+      <contact>
+    <individualName>
+<givenName>Timme</givenName>          <surName>Nyegaard</surName>
+    </individualName>
+<organizationName>Danish Ornithological Society</organizationName><positionName>Project leader</positionName>    <address>
+<deliveryPoint>Vesterbrogade 140</deliveryPoint><city>Copenhagen V</city><postalCode>1620</postalCode><country>DENMARK</country>    </address>
+<electronicMailAddress>timme.nyegaard@dof.dk</electronicMailAddress>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2021-12-07T12:26:36Z</dateStamp>
+      <citation>Nyegaard T (2021). DOF - Observations from the Danish Ornithological Society. Danish Ornithological Society. Occurrence dataset https://doi.org/10.15468/tww7cj accessed via GBIF.org on 2021-12-07.</citation>
+              <resourceLogoUrl>https://www.dof.dk/images/om_dof/presserum/Logoer/DOF_m_tekst_386_kb.jpg</resourceLogoUrl>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

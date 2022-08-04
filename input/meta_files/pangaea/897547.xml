@@ -1,0 +1,143 @@
+<md:MetaData xmlns:md="http://www.pangaea.de/MetaData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ws.pangaea.de/schemas/pangaea/MetaData.xsd" version="2019-02-13">
+<md:citation id="dataset897547" >
+<md:author id="dataset.author67796" >
+<md:lastName>Rufin</md:lastName>
+<md:firstName>Philippe</md:firstName>
+<md:eMail>philippe.rufin@googlemail.com</md:eMail>
+<md:orcid>0000-0001-8919-1058</md:orcid>
+</md:author>
+<md:author id="dataset.author66406" >
+<md:lastName>Frantz</md:lastName>
+<md:firstName>David</md:firstName>
+<md:eMail>david.frantz@geo.hu-berlin.de</md:eMail>
+<md:orcid>0000-0002-9292-3931</md:orcid>
+</md:author>
+<md:author id="dataset.author67797" >
+<md:lastName>Ernst</md:lastName>
+<md:firstName>Stefan</md:firstName>
+<md:orcid>0000-0002-6012-5476</md:orcid>
+</md:author>
+<md:author id="dataset.author67277" >
+<md:lastName>Rabe</md:lastName>
+<md:firstName>Andreas</md:firstName>
+</md:author>
+<md:author id="dataset.author54449" >
+<md:lastName>Griffiths</md:lastName>
+<md:firstName>Patrick</md:firstName>
+<md:eMail>patrickdgriffiths@gmail.com</md:eMail>
+<md:orcid>0000-0002-8839-9022</md:orcid>
+</md:author>
+<md:author id="dataset.author67799" >
+<md:lastName>Özdoğan</md:lastName>
+<md:firstName>Mutlu</md:firstName>
+</md:author>
+<md:author id="dataset.author40064" >
+<md:lastName>Hostert</md:lastName>
+<md:firstName>Patrick</md:firstName>
+</md:author>
+<md:year>2019</md:year>
+<md:title>A Landsat-based national-scale map of cropping practices for Turkey (2015)</md:title>
+<md:URI>https://doi.org/10.1594/PANGAEA.897547</md:URI>
+<md:dateTime>2019-01-23T08:30:50</md:dateTime>
+<md:supplementTo id="ref98341" >
+<md:author id="ref98341.author67796" >
+<md:lastName>Rufin</md:lastName>
+<md:firstName>Philippe</md:firstName>
+<md:eMail>philippe.rufin@googlemail.com</md:eMail>
+<md:orcid>0000-0001-8919-1058</md:orcid>
+</md:author>
+<md:author id="ref98341.author66406" >
+<md:lastName>Frantz</md:lastName>
+<md:firstName>David</md:firstName>
+<md:eMail>david.frantz@geo.hu-berlin.de</md:eMail>
+<md:orcid>0000-0002-9292-3931</md:orcid>
+</md:author>
+<md:author id="ref98341.author67797" >
+<md:lastName>Ernst</md:lastName>
+<md:firstName>Stefan</md:firstName>
+<md:orcid>0000-0002-6012-5476</md:orcid>
+</md:author>
+<md:author id="ref98341.author67277" >
+<md:lastName>Rabe</md:lastName>
+<md:firstName>Andreas</md:firstName>
+</md:author>
+<md:author id="ref98341.author54449" >
+<md:lastName>Griffiths</md:lastName>
+<md:firstName>Patrick</md:firstName>
+<md:eMail>patrickdgriffiths@gmail.com</md:eMail>
+<md:orcid>0000-0002-8839-9022</md:orcid>
+</md:author>
+<md:author id="ref98341.author67799" >
+<md:lastName>Özdoğan</md:lastName>
+<md:firstName>Mutlu</md:firstName>
+</md:author>
+<md:author id="ref98341.author40064" >
+<md:lastName>Hostert</md:lastName>
+<md:firstName>Patrick</md:firstName>
+</md:author>
+<md:year>2019</md:year>
+<md:title>Mapping Cropping Practices on a National Scale Using Intra-Annual Landsat Time Series Binning</md:title>
+<md:source id="ref98341.journal16659" relatedTermIds="34053" >Remote Sensing</md:source>
+<md:volume>11(3)</md:volume>
+<md:URI>https://doi.org/10.3390/rs11030232</md:URI>
+<md:pages>232</md:pages>
+</md:supplementTo>
+</md:citation>
+<md:abstract>Cropping practices underlie substantial spatial and temporal variability, which can be captured through the analysis of image time series. Temporal binning helps to overcome limitations concerning operability and repeatability for mapping large areas and can improve the thematic detail and consistency of maps in agricultural systems. We used eight-day temporal features for mapping five cropping practices on annual croplands at 30 m spatial resolution across Turkey. A total of 2,403 atmospherically corrected and topographically normalized Landsat Collection 1 L1TP images of 2015 were used to compute gap-filled eight-day time series of Tasseled Cap components and annual descriptions thereof. We used these features for binary cropland mapping, and subsequent discrimination of five cropping practices: Spring and winter cropping, summer cropping, semi-aquatic cropping, double cropping, and greenhouse cultivation. The map has an overall accuracy of 90%. Class accuracies of winter and spring, summer, and double cropping were robust, while omission errors for semi-aquatic cropping and greenhouse cultivation were high. Note that the map contains information on cropping practices for areas, which were identified as croplands with high certainty. The file is of GeoTiff format and contains the following classes: 1: Winter/spring cropping 2: Summer cropping 3: Semi-aquatic cropping 4: Double-cropping 6: Greenhouse cultivation For details, please see the publication or contact Philippe Rufin mailto:philippe.rufin@geo.hu-berlin.de.</md:abstract>
+<md:extent>
+<md:geographic>
+<md:westBoundLongitude>35.0</md:westBoundLongitude>
+<md:eastBoundLongitude>35.0</md:eastBoundLongitude>
+<md:southBoundLatitude>39.0</md:southBoundLatitude>
+<md:northBoundLatitude>39.0</md:northBoundLatitude>
+<md:meanLongitude>35.0</md:meanLongitude>
+<md:meanLatitude>39.0</md:meanLatitude>
+</md:geographic>
+<md:topoType id="topotype1" >not specified</md:topoType>
+</md:extent>
+<md:event id="event2901234" >
+<md:label>Turkey</md:label>
+<md:latitude>39.0</md:latitude>
+<md:longitude>35.0</md:longitude>
+<md:device id="event2901234.term19843" >
+<md:name>Multiple investigations</md:name>
+<md:optionalName>MULT</md:optionalName>
+</md:device>
+</md:event>
+<md:size unit="MBytes" >50.0</md:size>
+<md:license id="license25" >
+<md:label>CC-BY-NC-SA-4.0</md:label>
+<md:name>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</md:name>
+<md:URI>https://creativecommons.org/licenses/by-nc-sa/4.0/</md:URI>
+</md:license>
+<md:keywords>
+<md:techKeyword type="autoGenerated" >supplement</md:techKeyword>
+<md:techKeyword type="autoGenerated" >citable</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author40064</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author54449</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author66406</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author67277</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author67796</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author67797</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author67799</md:techKeyword>
+<md:techKeyword type="autoGenerated" >event2901234</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1600</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1601</md:techKeyword>
+<md:techKeyword type="autoGenerated" >journal16659</md:techKeyword>
+<md:techKeyword type="autoGenerated" >license25</md:techKeyword>
+<md:techKeyword type="autoGenerated" >ref98341</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term19843</md:techKeyword>
+<md:techKeyword type="autoGenerated" >topotype1</md:techKeyword>
+</md:keywords>
+<md:technicalInfo>
+<md:entry key="xmlLastModified" value="2019-06-15T04:59:45Z" ></md:entry>
+<md:entry key="mimeType" value="image/tiff" ></md:entry>
+<md:entry key="status" value="published" ></md:entry>
+<md:entry key="status_num" value="4" ></md:entry>
+<md:entry key="DOIRegistryStatus" value="registered" ></md:entry>
+<md:entry key="DOIRegistryStatus_num" value="4" ></md:entry>
+<md:entry key="loginOption" value="unrestricted" ></md:entry>
+<md:entry key="loginOption_num" value="1" ></md:entry>
+<md:entry key="staticURL" value="http://store.pangaea.de/Publications/RufinP-etal_2019/turkey_cp_2015.tif" ></md:entry>
+</md:technicalInfo>
+</md:MetaData>

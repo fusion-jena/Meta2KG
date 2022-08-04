@@ -1,0 +1,257 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='14'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/14</alternateIdentifier>
+<title>General: Synonyms of tree and shrub species names from the Comparative Study Plots (CSP) and the Main Experiment</title>
+<creator id='nadrowski'>
+<individualName>
+<givenName>Karin</givenName>
+<surName>Nadrowski</surName>
+</individualName>
+
+<address>
+
+
+
+</address>
+
+<electronicMailAddress>nadrowski@uni-leipzig.de</electronicMailAddress>
+</creator>
+<creator id='vmueller'>
+<individualName>
+<givenName>Verena</givenName>
+<surName>Müller</surName>
+</individualName>
+
+
+<electronicMailAddress>verena.mueller.vm@hotmail.de</electronicMailAddress>
+</creator>
+<pubDate>2011-04-18</pubDate>
+<language>en_US</language>
+<abstract>
+<para>Synonyms list for tree reference names in the Comparative Study Plots (CSP) of the Biodiversity - Ecosystem Functioning Experiment (BEF-China) and the Main Experiment.  This file includes the synonyms of species found in the CSP during the field work 2008 / 2009, including the species used for planting the Main Experiment in Xingangshan. The listed synonyms of the species names refer to the &quot;Flora of China&quot; and the The International Plant Names Index (IPNI). The species reference can be found within the metasheet z1_CSP_Main_TreeAndShrubSpecies_reference list.xls</para>
+
+</abstract>
+<keywordSet>
+<keyword>lsID</keyword>
+<keyword>species</keyword>
+<keyword>species author</keyword>
+<keyword>synonym</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>synonym</keyword>
+<keyword>fullauthor</keyword>
+<keyword>Year</keyword>
+<keyword>global unique identifier</keyword>
+<keyword>fullname</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/14/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>Gutianshan NNR has an area of approximately 81 km2 and was initially established as a National Forest Reserve in 1975 and became a National Nature Reserve in 2001. The NNR comprises a large portion of broad-leaved forests of advanced successional stages (Hu &amp; Yu 2008), which have not been managed since the beginning of the 1990ies, as well as young successional stages and conifer plantations, mainly of Cunninghamia lanceolata and Pinus massoniana</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2011-04-18
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2011-04-18
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact>
+<references>nadrowski</references>
+</contact>
+<contact>
+<references>vmueller</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>General: Synonyms of tree and shrub species names from the Comparative Study Plots (CSP) and the Main Experiment</para>
+<para>Synonyms list for tree reference names in the Comparative Study Plots (CSP) of the Biodiversity - Ecosystem Functioning Experiment (BEF-China) and the Main Experiment.  This file includes the synonyms of species found in the CSP during the field work 2008 / 2009, including the species used for planting the Main Experiment in Xingangshan. The listed synonyms of the species names refer to the &quot;Flora of China&quot; and the The International Plant Names Index (IPNI). The species reference can be found within the metasheet z1_CSP_Main_TreeAndShrubSpecies_reference list.xls</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2011-04-18 00:00:00 UTC - 2011-04-18 00:00:00 UTC</para>
+
+<para>Gutianshan NNR has an area of approximately 81 km2 and was initially established as a National Forest Reserve in 1975 and became a National Nature Reserve in 2001. The NNR comprises a large portion of broad-leaved forests of advanced successional stages (Hu &amp; Yu 2008), which have not been managed since the beginning of the 1990ies, as well as young successional stages and conifer plantations, mainly of Cunninghamia lanceolata and Pinus massoniana</para>
+
+</description>
+</studyExtent>
+<samplingDescription>
+
+
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/14</entityName>
+<entityDescription>General: Synonyms of tree and shrub species names from the Comparative Study Plots (CSP) and the Main Experiment</entityDescription>
+<physical>
+<objectName>/datasets/14</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/14/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='synonym'>
+<attributeName>Scientific plant species name: Synonyms (synonym), </attributeName>
+<attributeLabel>synonym</attributeLabel>
+<attributeDefinition>If an IPNI identifiery was not found for a species, this is the most closely resembling species in the IPNI list for the species found in the flora of China (synonym: synonym for a fullname consisting of genus and species epiteth; do not use this name within BEF-China; Source: GBIF, IPNI (derived from datagroup) (derived from datagroup))</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>If an IPNI identifiery was not found for a species, this is the most closely resembling species in the IPNI list for the species found in the flora of China</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Scientific plant species name: Synonyms</para>
+<para>If an IPNI identifiery was not found for a species, this is the most closely resembling species in the IPNI list for the species found in the flora of China</para>
+<para>synonym for a fullname consisting of genus and species epiteth; do not use this name within BEF-China; Source: GBIF, IPNI (derived from datagroup) (derived from datagroup)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='fullauthor'>
+<attributeName>Author name for species description (fullauthor), id</attributeName>
+<attributeLabel>fullauthor</attributeLabel>
+<attributeDefinition>Author name for species description (fullauthor: Author name for species description)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Author name for species description</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Author name for species description</para>
+<para>Author name for species description</para>
+<para>Author name for species description</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Year'>
+<attributeName>Date time information (Year), year</attributeName>
+<attributeLabel>Year</attributeLabel>
+<attributeDefinition>Date time information, given as year or as date or as date time. (Year: year of species description)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Date time information, given as year or as date or as date time.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Date time information</para>
+<para>Date time information, given as year or as date or as date time.</para>
+<para>year of species description</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='global unique identifier'>
+<attributeName>Global unique identifier (global unique identifier), </attributeName>
+<attributeLabel>global unique identifier</attributeLabel>
+<attributeDefinition>Global unique identifier for the respecive species provided by different sources for taxonomic affiliation. (global unique identifier: global unique identifier)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Global unique identifier for the respecive species provided by different sources for taxonomic affiliation.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Global unique identifier</para>
+<para>Global unique identifier for the respecive species provided by different sources for taxonomic affiliation.</para>
+<para>global unique identifier</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='fullname'>
+<attributeName>Scientific plant species name (fullname), id</attributeName>
+<attributeLabel>fullname</attributeLabel>
+<attributeDefinition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required. (fullname: fullname consisting of genus and species epiteth; use this name for a given synonym; ; Flora of China, Helge Bruelheide (derived from datagroup); Source: Flora of China, Helge Bruelheide (derived from datagroup))</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Scientific plant species name</para>
+<para>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</para>
+<para>fullname consisting of genus and species epiteth; use this name for a given synonym; ; Flora of China, Helge Bruelheide (derived from datagroup); Source: Flora of China, Helge Bruelheide (derived from datagroup)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>10</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

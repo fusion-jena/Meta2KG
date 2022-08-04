@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bgc:metaProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.bgc-jena.mpg.de" xmlns:bgc="http://www.bgc-jena.mpg.de" xsi:schemaLocation="http://www.bgc-jena.mpg.de schema.xsd">
+  <bgc:general bgc:source="mixed">
+    <bgc:id bgc:source="intern">22607</bgc:id>
+    <bgc:versionID bgc:source="intern">1.2.12</bgc:versionID>
+    <bgc:title>Early cut aboveground plant biomass nutrient contents in selected species in grasslands 2014 (NIRS) - STOICHIO </bgc:title>
+    <bgc:owners>
+      <bgc:owner number="1">Till Kleinebecker</bgc:owner>
+      <bgc:owner number="2">Verena Busch</bgc:owner>
+    </bgc:owners>
+    <bgc:projectName>STOICHIO</bgc:projectName>
+    <bgc:datasetManager>
+      <bgc:datasetManagerName disabled="disabled">Till Kleinebecker</bgc:datasetManagerName>
+      <bgc:institute disabled="disabled">University of Münster</bgc:institute>
+      <bgc:email disabled="disabled">tillhan@uni-muenster.de</bgc:email>
+    </bgc:datasetManager>
+  </bgc:general>
+  <bgc:researchObjects>
+    <bgc:approxNumberOfPlots>
+      <bgc:noOfGP>146</bgc:noOfGP>
+      <bgc:noOfEP>146</bgc:noOfEP>
+      <bgc:noOfMIP>73</bgc:noOfMIP>
+      <bgc:noOfVIP>26</bgc:noOfVIP>
+    </bgc:approxNumberOfPlots>
+    <bgc:habitats>
+      <bgc:grassland>yes</bgc:grassland>
+      <bgc:forest>no</bgc:forest>
+    </bgc:habitats>
+    <bgc:experimentalManipulation>no</bgc:experimentalManipulation>
+    <bgc:relativePositionToGround>
+      <bgc:aboveGround>yes</bgc:aboveGround>
+      <bgc:belowGround>no</bgc:belowGround>
+    </bgc:relativePositionToGround>
+    <bgc:repeatedMeasurement>
+      <bgc:timeBasedRepetition>
+        <bgc:numberOfRepetitions>0</bgc:numberOfRepetitions>
+      </bgc:timeBasedRepetition>
+      <bgc:plotBasedRepetition>
+        <bgc:numberOfSubPlots>0</bgc:numberOfSubPlots>
+      </bgc:plotBasedRepetition>
+    </bgc:repeatedMeasurement>
+    <bgc:taxa>
+      <bgc:taxon number="1">Plants</bgc:taxon>
+    </bgc:taxa>
+    <bgc:processesAndServices>
+      <bgc:processOrService number="1">Biogeochemical Cycle - Carbon</bgc:processOrService>
+      <bgc:processOrService number="2">Biogeochemical Cycle - Nitrogen</bgc:processOrService>
+      <bgc:processOrService number="3">Biogeochemical Cycle - Other Nutrients</bgc:processOrService>
+    </bgc:processesAndServices>
+    <bgc:environmentalDescriptors>
+      <bgc:environmentalDescriptor number="1">Land Use</bgc:environmentalDescriptor>
+    </bgc:environmentalDescriptors>
+    <bgc:bioticDataTypes>
+      <bgc:bioticDataType number="1">Multiple Species</bgc:bioticDataType>
+    </bgc:bioticDataTypes>
+  </bgc:researchObjects>
+  <bgc:methodology blockPublic="no">
+    <bgc:introduction input="textarea">The increase in agricultural management intensity has influenced vegetation patterns, composition and dynamics through increased vegetation disturbance (mowing, grazing) and altered soil fertility (fertilization). The chemical composition of the aboveground plant biomass- used as an indicator for plant nutrition and productivity- and fibre fractions of grassland biomass- used as measure of the quality and nutritive value of herbage fodder- both integrate spatial and temporal variation on soil resources during the growing season (Klaus et al, 2011).  </bgc:introduction>
+    <bgc:measurements>
+      <bgc:theory input="textarea">Generally, the data of many chemical components in plant biomass is rarely available for a high number of spatial and temporal replications. Near Infrared Reflectance spectroscopy (NIRS) offers the opportunity for rapid and cheap measurements of many chemical constituents in organic materials with very little sample material needed (Kleinebecker et al, 2011). N, P, Ca, Mg, NDF, ADF and ADL show very high measurement precision in small sample sizes; C and P measurements are of acceptable measurement precision due to low variation in concentration and/or low concentration in the analyzed above-ground grassland biomass (Kleinebecker et al, 2011).
+
+Three widely distributed and on all EP Plots occurring species - one legume, one grass and one herb, were chosen in order to assess nutrient contents in species with different nutrient acquisition and retention strategies. Sampling of these three target species Dactylis glomerata, Trifolium repens and Taraxacum sect. ruderalia took place once in May 2014 (early cut, 22607) and and also in August 2014 (late cut, 22608) on 150 EP Plots, where we additionally sampled a fourth species, Plantago lanceolata. For each species about 15 to 30 g freshweight leaf biomass without inflorescences from 5 randomly distributed individuals (if available) was sampled and pooled. Plant biomass was dried at 80°C for 48h, weighed and pulverized using a cyclone mill. 
+
+Samples of 2-3g were analyzed in a NIR spectrometer. The reflectance spectrum of each pulverized biomass sample was recorded between 1250 and 2350 nm at 1nm intervals; with each scan consisting of 24 single measurements averaged to one spectrum. Calibration models that were used to predict N, P and K concentrations were derived from previously established calibration models; accuracy of model prediction was checked by applying an external validation process. For more details, see Kleinebecker et al 2011 and Klaus et al, 2011.
+
+References
+Kleinebecker T, Klaus VH, Hölzel N (2011) Reducing sample quantity and maintaining high prediction accuracy of quality parameters in grassland biomass with near-infrared reflectance spectroscopy (NIRS). Journal of Near Infrared Spectroscopy 19: 495-505. https:// doi.org/10.1255/jnirs.957.
+
+Valentin H. Klaus, Till Kleinebecker, Norbert Hölzel, Nico Blüthgen, Steffen Boch, Jörg Müller, Stephanie A. Socher, Daniel Prati, Markus Fischer (2011) Nutrient concentrations and fibre contents of plant community biomass reflect species richness patterns along a broad range of land-use intensities among agricultural grasslands. Perspectives in Plant Ecology, Evolution and Systematics, 13 (4): 287-295. https://doi.org/10.1016/j.ppees.2011.07.001.
+</bgc:theory>
+      <bgc:type input="textarea">Near-Infrared analysis (NIRS)</bgc:type>
+    </bgc:measurements>
+    <bgc:equipment>
+      <bgc:instruments input="textarea">SpectraStar XT Near-Infrared Reflectance (NIR) Analyzer (Unity Scientific)
+</bgc:instruments>
+      <bgc:calibration input="textarea">Calibration models that were used to predict N, P and K concentrations were derived from previously established calibration models; accuracy of model prediction was checked by applying an external validation processes. For more details, see Kleinebecker et al (2011) and Klaus et al 2011.</bgc:calibration>
+      <bgc:procedures input="textarea">-</bgc:procedures>
+    </bgc:equipment>
+  </bgc:methodology>
+  <bgc:description>
+    <bgc:acronyms>
+      <bgc:acronymPair number="1">
+        <bgc:acronym number="1">NIRS</bgc:acronym>
+        <bgc:meaning number="1">Near-Infrared Spectrometry</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="2">
+        <bgc:acronym number="2">ADF</bgc:acronym>
+        <bgc:meaning number="2">Acid-detergent fibre</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="3">
+        <bgc:acronym number="3">ADL</bgc:acronym>
+        <bgc:meaning number="3">Acid-detergent lignign</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="4">
+        <bgc:acronym number="4">NDF</bgc:acronym>
+        <bgc:meaning number="4">Neutral-detergent fibre</bgc:meaning>
+      </bgc:acronymPair>
+    </bgc:acronyms>
+    <bgc:keywords>
+      <bgc:keyword number="1">biomass</bgc:keyword>
+      <bgc:keyword number="2">nutrients</bgc:keyword>
+      <bgc:keyword number="3">nitrogen</bgc:keyword>
+      <bgc:keyword number="4">stoichiometry</bgc:keyword>
+      <bgc:keyword number="5">nutrient limitation</bgc:keyword>
+      <bgc:keyword number="6">plants</bgc:keyword>
+      <bgc:keyword number="7">grasslands</bgc:keyword>
+    </bgc:keywords>
+  </bgc:description>
+  <bgc:time>
+    <bgc:when timeType="period" xsi:type="bgc:dateFrame">
+      <bgc:format>dd.MM.yyyy</bgc:format>
+      <bgc:startDate>15.05.2014</bgc:startDate>
+      <bgc:endDate>30.06.2014</bgc:endDate>
+    </bgc:when>
+    <bgc:dateEntry bgc:source="intern">2018-02-15</bgc:dateEntry>
+    <bgc:dateLastModified bgc:source="intern">2019-05-08</bgc:dateLastModified>
+  </bgc:time>
+  <bgc:data>
+    <bgc:fileType>structuredData</bgc:fileType>
+    <bgc:manipulations input="textarea">none</bgc:manipulations>
+    <bgc:errors>none</bgc:errors>
+    <bgc:qualityLevel>validated</bgc:qualityLevel>
+    <bgc:dataStatus>complete</bgc:dataStatus>
+    <bgc:dataStructure>
+      <bgc:dataFormat>
+        <bgc:missingValues>NA</bgc:missingValues>
+        <bgc:NA />
+      </bgc:dataFormat>
+      <bgc:matrix>
+        <bgc:columnName />
+        <bgc:rowName />
+        <bgc:contentType />
+        <bgc:matrixUnit />
+      </bgc:matrix>
+      <bgc:variables>
+        <bgc:variable number="1">
+          <bgc:name number="1">Plot_ID</bgc:name>
+          <bgc:typeOfVariable number="1">string</bgc:typeOfVariable>
+          <bgc:units number="1" />
+          <bgc:description number="1">Plot name</bgc:description>
+          <bgc:block number="1">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="2">
+          <bgc:name number="2">Year</bgc:name>
+          <bgc:typeOfVariable number="2">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="2" />
+          <bgc:description number="2">Year of sampling</bgc:description>
+          <bgc:block number="2">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="3">
+          <bgc:name number="3">Cut</bgc:name>
+          <bgc:typeOfVariable number="3">string</bgc:typeOfVariable>
+          <bgc:units number="3" />
+          <bgc:description number="3">Time of sampling</bgc:description>
+          <bgc:block number="3">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="4">
+          <bgc:name number="4">Sample_ID</bgc:name>
+          <bgc:typeOfVariable number="4">string</bgc:typeOfVariable>
+          <bgc:units number="4" />
+          <bgc:description number="4">Sample Name</bgc:description>
+          <bgc:block number="4">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="5">
+          <bgc:name number="5">Species</bgc:name>
+          <bgc:typeOfVariable number="5">string</bgc:typeOfVariable>
+          <bgc:units number="5" />
+          <bgc:description number="5">Species name</bgc:description>
+          <bgc:block number="5">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="6">
+          <bgc:name number="6">K</bgc:name>
+          <bgc:typeOfVariable number="6">realNumber</bgc:typeOfVariable>
+          <bgc:units number="6">%</bgc:units>
+          <bgc:description number="6">Potassium</bgc:description>
+          <bgc:block number="6">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="7">
+          <bgc:name number="7">ADF</bgc:name>
+          <bgc:typeOfVariable number="7">realNumber</bgc:typeOfVariable>
+          <bgc:units number="7">%</bgc:units>
+          <bgc:description number="7">Acid detergent fibre</bgc:description>
+          <bgc:block number="7">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="8">
+          <bgc:name number="8">ADL</bgc:name>
+          <bgc:typeOfVariable number="8">realNumber</bgc:typeOfVariable>
+          <bgc:units number="8">%</bgc:units>
+          <bgc:description number="8">Acid detergent lignin</bgc:description>
+          <bgc:block number="8">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="9">
+          <bgc:name number="9">NDF</bgc:name>
+          <bgc:typeOfVariable number="9">realNumber</bgc:typeOfVariable>
+          <bgc:units number="9">%</bgc:units>
+          <bgc:description number="9">Neutral detergent fibre</bgc:description>
+          <bgc:block number="9">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="10">
+          <bgc:name number="10">C</bgc:name>
+          <bgc:typeOfVariable number="10">realNumber</bgc:typeOfVariable>
+          <bgc:units number="10">%</bgc:units>
+          <bgc:description number="10">Carbon</bgc:description>
+          <bgc:block number="10">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="11">
+          <bgc:name number="11">N</bgc:name>
+          <bgc:typeOfVariable number="11">realNumber</bgc:typeOfVariable>
+          <bgc:units number="11">%</bgc:units>
+          <bgc:description number="11">Nitrogen</bgc:description>
+          <bgc:block number="11">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="12">
+          <bgc:name number="12">P</bgc:name>
+          <bgc:typeOfVariable number="12">realNumber</bgc:typeOfVariable>
+          <bgc:units number="12">%</bgc:units>
+          <bgc:description number="12">Phosphorus</bgc:description>
+          <bgc:block number="12">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="13">
+          <bgc:name number="13">Ca</bgc:name>
+          <bgc:typeOfVariable number="13">realNumber</bgc:typeOfVariable>
+          <bgc:units number="13">%</bgc:units>
+          <bgc:description number="13">Calcium</bgc:description>
+          <bgc:block number="13">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="14">
+          <bgc:name number="14">Mg</bgc:name>
+          <bgc:typeOfVariable number="14">realNumber</bgc:typeOfVariable>
+          <bgc:units number="14">%</bgc:units>
+          <bgc:description number="14">Magnesium</bgc:description>
+          <bgc:block number="14">0</bgc:block>
+        </bgc:variable>
+      </bgc:variables>
+    </bgc:dataStructure>
+  </bgc:data>
+  <bgc:references>
+    <bgc:database />
+    <bgc:papers>
+      <bgc:paper number="1" />
+    </bgc:papers>
+    <bgc:relatedDatasets>
+      <bgc:dataset number="1">18866</bgc:dataset>
+      <bgc:dataset number="2">22608</bgc:dataset>
+      <bgc:dataset number="3">22609</bgc:dataset>
+      <bgc:dataset number="4">21087</bgc:dataset>
+      <bgc:dataset number="5">23367</bgc:dataset>
+    </bgc:relatedDatasets>
+    <bgc:citation>Kleinebecker, Till; Verena Busch (2019): Early cut aboveground plant biomass nutrient contents in selected species in grasslands 2014 (NIRS) - STOICHIO . v1.2.12. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/PublicData/PublicData.aspx?DatasetId=22607</bgc:citation>
+  </bgc:references>
+  <bgc:comment>none</bgc:comment>
+</bgc:metaProfile>

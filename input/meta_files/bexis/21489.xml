@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bgc:metaProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.bgc-jena.mpg.de" xmlns:bgc="http://www.bgc-jena.mpg.de" xsi:schemaLocation="http://www.bgc-jena.mpg.de schema.xsd">
+  <bgc:general bgc:source="mixed">
+    <bgc:id bgc:source="intern">21489</bgc:id>
+    <bgc:versionID bgc:source="intern">1.1.3</bgc:versionID>
+    <bgc:title>Fungal communities pyrosequencing in deadwood BELongDead 2012 all exploratories</bgc:title>
+    <bgc:owners>
+      <bgc:owner number="1">Witoon Purahong</bgc:owner>
+      <bgc:owner number="2">Dirk Krueger</bgc:owner>
+      <bgc:owner number="3">Francois Buscot</bgc:owner>
+    </bgc:owners>
+    <bgc:projectName>FUNWOOD II</bgc:projectName>
+    <bgc:datasetManager>
+      <bgc:datasetManagerName disabled="disabled">Francois Buscot</bgc:datasetManagerName>
+      <bgc:institute disabled="disabled">UFZ Halle</bgc:institute>
+      <bgc:email disabled="disabled">francois.buscot@ufz.de</bgc:email>
+    </bgc:datasetManager>
+  </bgc:general>
+  <bgc:researchObjects>
+    <bgc:approxNumberOfPlots>
+      <bgc:noOfGP>27</bgc:noOfGP>
+      <bgc:noOfEP>27</bgc:noOfEP>
+      <bgc:noOfMIP>27</bgc:noOfMIP>
+      <bgc:noOfVIP>27</bgc:noOfVIP>
+    </bgc:approxNumberOfPlots>
+    <bgc:habitats>
+      <bgc:grassland>no</bgc:grassland>
+      <bgc:forest>yes</bgc:forest>
+    </bgc:habitats>
+    <bgc:experimentalManipulation>no</bgc:experimentalManipulation>
+    <bgc:relativePositionToGround>
+      <bgc:aboveGround>yes</bgc:aboveGround>
+      <bgc:belowGround>no</bgc:belowGround>
+    </bgc:relativePositionToGround>
+    <bgc:repeatedMeasurement>
+      <bgc:timeBasedRepetition>
+        <bgc:numberOfRepetitions>0</bgc:numberOfRepetitions>
+      </bgc:timeBasedRepetition>
+      <bgc:plotBasedRepetition>
+        <bgc:numberOfSubPlots>0</bgc:numberOfSubPlots>
+      </bgc:plotBasedRepetition>
+    </bgc:repeatedMeasurement>
+    <bgc:taxa>
+      <bgc:taxon number="1">Fungi</bgc:taxon>
+    </bgc:taxa>
+    <bgc:processesAndServices>
+      <bgc:processOrService number="1">Decomposition</bgc:processOrService>
+    </bgc:processesAndServices>
+    <bgc:environmentalDescriptors>
+      <bgc:environmentalDescriptor number="1">Habitat Structure</bgc:environmentalDescriptor>
+      <bgc:environmentalDescriptor number="2">Climate</bgc:environmentalDescriptor>
+    </bgc:environmentalDescriptors>
+    <bgc:bioticDataTypes>
+      <bgc:bioticDataType number="1">Multiple Species</bgc:bioticDataType>
+    </bgc:bioticDataTypes>
+  </bgc:researchObjects>
+  <bgc:methodology blockPublic="no">
+    <bgc:introduction input="textarea">Diversity and distribution patterns of microbial community and their drivers are central issues in microbial ecology as this information is crucial to understand and predict the role played by microbes  in maintaining ecosystem functions and stability (Kubartová et al., 2012) and  can help to make decisions on land management. Recently conservation of microorganisms became an issue, especially for WIF (Seibold et al., 2015). However, our knowledge about WIF is only fragmentary and controversial due to limitations in detection methods of fungal communities and a lack of well-designed field experiments with enough replicates (Hoppe et al., 2016; Kubartová et al., 2012; Seibold et al., 2015). Even the most fundamental questions about diversity and tree species preference of WIF have never been tackled using suitable approaches and experiments (Seibold et al., 2015). This study aimed to address two specific questions: (i) are there differences in the diversity of WIF that colonize deadwood of different tree species?, and (ii) do WIF taxa display tree species preference? </bgc:introduction>
+    <bgc:measurements>
+      <bgc:theory input="textarea">We use a high resolution culture-independent molecular technique to assess more than just the species that are cultivable. </bgc:theory>
+      <bgc:type input="textarea">Culture-independent molecular technique (ITS 454pyrosequencing)
+the primer pair ITS1F (5′-CTTGGTCATTTAGAGGAAGTAA-3′, Gardes &amp; Bruns 1993) and ITS4 (5′-TCCTCCGCTTATTGATATGC-3′, White et al. 1990) to amplify the fungal internal transcribed spacer (ITS) rRNA region. The custom primer was constructed with the barcodes and sequencing primers attached at the ITS4 primer for unidirectional sequencing.</bgc:type>
+    </bgc:measurements>
+    <bgc:equipment>
+      <bgc:instruments input="textarea">454pyrosequencing </bgc:instruments>
+      <bgc:calibration input="textarea">-</bgc:calibration>
+      <bgc:procedures input="textarea">Wood samples were collected in September 2012 using a cordless drill (Makita BDF 451) equipped with a wood auger (diameter: 10 mm, length 450 mm), which was dipped into alcohol, flamed and wiped with ethanol between drillings to avoid cross-contamination (Purahong, Hoppe, et al., 2014; Purahong, Kahl, et al., 2014). The drill was operated slowly and oriented towards the centre of the log at an angle of ∼90° in relation to a vertical line perpendicular to the stem axis; in order to avoid overheating the sample, the operation was paused periodically (Purahong, Hoppe, et al., 2014). Wood samples were frozen, transported on ice (ca 0 °C) to the laboratory within 3h and stored at −20 °C. Each wood sample was homogenized and ground into a fine powder with the aid of liquid nitrogen using a swing mill (Retsch, Haan, Germany). DNA extraction using Zymo DNA mini prep Kit, 454pyrosequencing, Bioinformatics (we remove all fungal OTUs that have less than 5 sequences,statistical analysis </bgc:procedures>
+    </bgc:equipment>
+  </bgc:methodology>
+  <bgc:description>
+    <bgc:acronyms>
+      <bgc:acronymPair number="1">
+        <bgc:acronym number="1">OTU</bgc:acronym>
+        <bgc:meaning number="1"> Operational taxonomic units</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="2">
+        <bgc:acronym number="2">HEW</bgc:acronym>
+        <bgc:meaning number="2">Hainich-Dün </bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="3">
+        <bgc:acronym number="3">AEW</bgc:acronym>
+        <bgc:meaning number="3">Schwäbische Alb</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="4">
+        <bgc:acronym number="4">SEW</bgc:acronym>
+        <bgc:meaning number="4">Schorfheide-Chorin</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="5">
+        <bgc:acronym number="5">C</bgc:acronym>
+        <bgc:meaning number="5">Control</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="6">
+        <bgc:acronym number="6">N</bgc:acronym>
+        <bgc:meaning number="6">Nitrogen addition</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="7">
+        <bgc:acronym number="7">BU </bgc:acronym>
+        <bgc:meaning number="7">Fagus sylvatica</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="8">
+        <bgc:acronym number="8">DGL </bgc:acronym>
+        <bgc:meaning number="8">Pseudotsuga menziesii</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="9">
+        <bgc:acronym number="9">EI </bgc:acronym>
+        <bgc:meaning number="9">Quercus spp</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="10">
+        <bgc:acronym number="10">FI </bgc:acronym>
+        <bgc:meaning number="10">Picea abies</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="11">
+        <bgc:acronym number="11">LI</bgc:acronym>
+        <bgc:meaning number="11">Tilia spp. </bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="12">
+        <bgc:acronym number="12">PA </bgc:acronym>
+        <bgc:meaning number="12">Populus spp.</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="13">
+        <bgc:acronym number="13">HBU</bgc:acronym>
+        <bgc:meaning number="13">Carpinus betulus</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="14">
+        <bgc:acronym number="14">BI</bgc:acronym>
+        <bgc:meaning number="14">Betula spp.</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="15">
+        <bgc:acronym number="15">ES</bgc:acronym>
+        <bgc:meaning number="15">Fraxinus excelsior</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="16">
+        <bgc:acronym number="16">LA</bgc:acronym>
+        <bgc:meaning number="16">Larix decidua</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="17">
+        <bgc:acronym number="17">KI</bgc:acronym>
+        <bgc:meaning number="17">Pinus sylvestris</bgc:meaning>
+      </bgc:acronymPair>
+    </bgc:acronyms>
+    <bgc:keywords>
+      <bgc:keyword number="1">Deadwood</bgc:keyword>
+      <bgc:keyword number="2">Fungi</bgc:keyword>
+      <bgc:keyword number="3">Fungal diversity</bgc:keyword>
+    </bgc:keywords>
+  </bgc:description>
+  <bgc:time>
+    <bgc:when timeType="period" xsi:type="bgc:dateFrame">
+      <bgc:format>yyyy MM</bgc:format>
+      <bgc:startDate>2012 09</bgc:startDate>
+      <bgc:endDate>2012 09</bgc:endDate>
+    </bgc:when>
+    <bgc:dateEntry bgc:source="intern">2017-05-04</bgc:dateEntry>
+    <bgc:dateLastModified bgc:source="intern">2018-03-15</bgc:dateLastModified>
+  </bgc:time>
+  <bgc:data>
+    <bgc:fileType>structuredData</bgc:fileType>
+    <bgc:manipulations input="textarea">No</bgc:manipulations>
+    <bgc:errors>No</bgc:errors>
+    <bgc:qualityLevel>validated</bgc:qualityLevel>
+    <bgc:dataStatus>complete</bgc:dataStatus>
+    <bgc:dataStructure>
+      <bgc:dataFormat>
+        <bgc:missingValues>no</bgc:missingValues>
+        <bgc:NA />
+      </bgc:dataFormat>
+      <bgc:matrix>
+        <bgc:columnName>Sample_ID</bgc:columnName>
+        <bgc:rowName>OTU</bgc:rowName>
+        <bgc:contentType>string</bgc:contentType>
+        <bgc:matrixUnit>Sequences</bgc:matrixUnit>
+      </bgc:matrix>
+      <bgc:variables>
+        <bgc:variable number="1">
+          <bgc:name number="1">OTU</bgc:name>
+          <bgc:typeOfVariable number="1">string</bgc:typeOfVariable>
+          <bgc:units number="1">Sequences </bgc:units>
+          <bgc:description number="1">Wood-inhabiting fungal OTU </bgc:description>
+          <bgc:block number="1">0</bgc:block>
+        </bgc:variable>
+      </bgc:variables>
+    </bgc:dataStructure>
+  </bgc:data>
+  <bgc:references>
+    <bgc:database />
+    <bgc:papers>
+      <bgc:paper number="1" />
+    </bgc:papers>
+    <bgc:relatedDatasets>
+      <bgc:dataset number="1" />
+    </bgc:relatedDatasets>
+    <bgc:citation>Purahong, Witoon; Dirk Krueger; Francois Buscot (2018): Fungal communities pyrosequencing in deadwood BELongDead 2012 all exploratories. v1.1.3. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/PublicData/PublicData.aspx?DatasetId=21489</bgc:citation>
+  </bgc:references>
+  <bgc:comment />
+</bgc:metaProfile>

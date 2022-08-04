@@ -1,0 +1,577 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='580'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/580</alternateIdentifier>
+<title>Common Garden Experiment: Seedling addition experiment - growth and biomass data</title>
+<creator id='markus_ger'>
+<individualName>
+<givenName>Markus</givenName>
+<surName>Germany</surName>
+</individualName>
+
+<address>
+
+
+
+</address>
+
+<electronicMailAddress>mgermany@ecology.uni-kiel.de</electronicMailAddress>
+</creator>
+<creator id='erfmeier'>
+<individualName>
+<givenName>Alexandra</givenName>
+<surName>Erfmeier</surName>
+</individualName>
+<organizationName>Institute of Botany / Geobotany and Botanical Garden  Martin Luther University Halle-Wittenberg</organizationName>
+<address>
+<deliveryPoint>Am Kirchtor 1</deliveryPoint>
+<city>06108 Halle/Saale</city>
+<country>Germany</country>
+</address>
+<phone>0345-55-26230</phone>
+<electronicMailAddress>aerfmeier@ecology.uni-kiel.de</electronicMailAddress>
+</creator>
+<pubDate>2017-04-03</pubDate>
+<language>en_US</language>
+<abstract>
+<para>While coexistence in plant communities is frequently explained by effects of resource niche partitioning, the Janzen-Connell (J-C) hypothesis is an alternative approach that has been assumed as a major ecological mechanism explaining high species richness levels, in particular, in tropical forest ecosystems. Central components of the J-C hypothesis are non-competitive effects of density- and distance-dependence, thereby two drivers that contribute independently to species coexistence, but that are ultimately linked in the field. Here, we make use of the forest Biodiversity-Ecosystem Functioning project in subtropical China (BEF-China) to estimate density and distance dependence effects by means of a reciprocal tree seedling transplant experiment. Using monocultures of ten and seven tree species, respectively planted at two different sites, juveniles of all species were grown in their own (home) and in all other monocultures (away), thereby testing for distance effect, just as in three different levels of planting density, testing for density effects (see &quot;Main Experiment: Seedling addition experiment - growth and biomass data&quot; for further details)
+
+In addition, we repeated a similar set-up in a nearby common garden experiment, where we added a &#39;shadow&#39; treatment to simulate different light conditions induced by the canopy layer. The general aim of the common garden experiment is to test for additional density dependent intraspecific competition for light in the absence of host-specific agents necessary for J-C effects. Density dependent patterns that are prevalent in the main experiment, while not being prevalent in the common garden experiment can be considered true J-C effects.</para>
+
+</abstract>
+<keywordSet>
+<keyword>Samplenr</keyword>
+<keyword>Seedlingnr</keyword>
+<keyword>Plot</keyword>
+<keyword>Record</keyword>
+<keyword>Date</keyword>
+<keyword>Planted_Species</keyword>
+<keyword>Density</keyword>
+<keyword>Treatment</keyword>
+<keyword>Dead</keyword>
+<keyword>Height_P</keyword>
+<keyword>Height_G</keyword>
+<keyword>Leaves_Liv</keyword>
+<keyword>Leaves_Dam</keyword>
+<keyword>Leaves_Dead</keyword>
+<keyword>Damage_pro</keyword>
+<keyword>Biomass_Above</keyword>
+<keyword>Biomass_Below</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/580/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>Pilot experiment</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2015-04-29
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2016-09-29
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact>
+<references>markus_ger</references>
+</contact>
+<contact>
+<references>erfmeier</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>Common Garden Experiment: Seedling addition experiment - growth and biomass data</para>
+<para>While coexistence in plant communities is frequently explained by effects of resource niche partitioning, the Janzen-Connell (J-C) hypothesis is an alternative approach that has been assumed as a major ecological mechanism explaining high species richness levels, in particular, in tropical forest ecosystems. Central components of the J-C hypothesis are non-competitive effects of density- and distance-dependence, thereby two drivers that contribute independently to species coexistence, but that are ultimately linked in the field. Here, we make use of the forest Biodiversity-Ecosystem Functioning project in subtropical China (BEF-China) to estimate density and distance dependence effects by means of a reciprocal tree seedling transplant experiment. Using monocultures of ten and seven tree species, respectively planted at two different sites, juveniles of all species were grown in their own (home) and in all other monocultures (away), thereby testing for distance effect, just as in three different levels of planting density, testing for density effects (see &quot;Main Experiment: Seedling addition experiment - growth and biomass data&quot; for further details)
+
+In addition, we repeated a similar set-up in a nearby common garden experiment, where we added a &#39;shadow&#39; treatment to simulate different light conditions induced by the canopy layer. The general aim of the common garden experiment is to test for additional density dependent intraspecific competition for light in the absence of host-specific agents necessary for J-C effects. Density dependent patterns that are prevalent in the main experiment, while not being prevalent in the common garden experiment can be considered true J-C effects.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2015-04-29 00:00:00 UTC - 2016-09-29 00:00:00 UTC</para>
+
+<para>Pilot experiment</para>
+
+</description>
+</studyExtent>
+<samplingDescription>
+<para>From the 11 different tree species used in the main experiment juvenile plants from 8 different tree species have been implemented in an additional common garden experiment established on a former agricultural used field nearby (former Pilot Experiment). Each species was planted at density levels of 1, 4, 9 and 25 individuals. Each species × density combination was grown in plots either established as &#39;shadow&#39; or &#39;light&#39;-treatment (3 replicates each). Each plot consisted of 1 species with 0.5 x 0.5 m2 in size (corresponding to the size of one splitplot of the main experiment). Plots established as &#39;shadow&#39;-treatment have been surrounded by a container with 1.2 m in height wrapped in a shadow net.
+
+On the north facing site each shadow net was then opened up to 0.5 m in hight to provide a more suitable microclimate and prevent natural enemies exclusion. Each species X density X treatment combination was randomly allocated within the area of approximately 135 m2. The general aim of the common garden experiment is to test for density-dependent intraspecific competition effects as well as light and drought dependent mortality rates by excluding host-specific agents necessary for J-C effects.</para>
+
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/580</entityName>
+<entityDescription>Common Garden Experiment: Seedling addition experiment - growth and biomass data</entityDescription>
+<physical>
+<objectName>/datasets/580</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/580/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='Samplenr'>
+<attributeName>Helper (Samplenr), </attributeName>
+<attributeLabel>Samplenr</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (Samplenr: An individual number for each taken sample)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>An individual number for each taken sample</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Seedlingnr'>
+<attributeName>Helper (Seedlingnr), </attributeName>
+<attributeLabel>Seedlingnr</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (Seedlingnr: An individual number for each seedling)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>An individual number for each seedling</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Plot'>
+<attributeName>Helper (Plot), </attributeName>
+<attributeLabel>Plot</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (Plot: Plot)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>Plot</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Record'>
+<attributeName>Helper (Record), </attributeName>
+<attributeLabel>Record</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (Record: number for the records)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>number for the records</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Date'>
+<attributeName>Date time information (Date), </attributeName>
+<attributeLabel>Date</attributeLabel>
+<attributeDefinition>Date time information, given as year or as date or as date time. (Date: Month and year of record)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Date time information, given as year or as date or as date time.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Date time information</para>
+<para>Date time information, given as year or as date or as date time.</para>
+<para>Month and year of record</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Planted_Species'>
+<attributeName>Scientific plant species name (Planted_Species), </attributeName>
+<attributeLabel>Planted_Species</attributeLabel>
+<attributeDefinition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required. (Planted_Species: Species planted. The scientific species fullnames are based on the &quot;Flora of China&quot;. Scientific species names consist of epithet and genus.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Scientific plant species name</para>
+<para>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</para>
+<para>Species planted. The scientific species fullnames are based on the &quot;Flora of China&quot;. Scientific species names consist of epithet and genus.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Density'>
+<attributeName>Seedling Density (Density), </attributeName>
+<attributeLabel>Density</attributeLabel>
+<attributeDefinition>number of seedlings planted (Density: Density of planted species within each splitplot)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>number of seedlings planted</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Seedling Density</para>
+<para>number of seedlings planted</para>
+<para>Density of planted species within each splitplot</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Treatment'>
+<attributeName>Treatment (Treatment), </attributeName>
+<attributeLabel>Treatment</attributeLabel>
+<attributeDefinition>Treatment applied in the experiment (Treatment: indicator for species either planted in plots with shadow net (= shadow) or without shadow net (= light); Datagroup description: treatment of each Plot)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Treatment applied in the experiment</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Treatment</para>
+<para>Treatment applied in the experiment</para>
+<para>indicator for species either planted in plots with shadow net (= shadow) or without shadow net (= light); Datagroup description: treatment of each Plot</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Dead'>
+<attributeName>Living status (Dead), </attributeName>
+<attributeLabel>Dead</attributeLabel>
+<attributeDefinition>if an organism is dead or alive or damaged (Dead: indicator for species dead (1) or alive (0))</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>if an organism is dead or alive or damaged</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Living status</para>
+<para>if an organism is dead or alive or damaged</para>
+<para>indicator for species dead (1) or alive (0)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Height_P'>
+<attributeName>Plant height (Height_P), cm</attributeName>
+<attributeLabel>Height_P</attributeLabel>
+<attributeDefinition>measuring tree height (Height_P: Height of the seedling up to the last photosynthetically active tissue)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plant height</para>
+<para>measuring tree height</para>
+<para>Height of the seedling up to the last photosynthetically active tissue</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Height_G'>
+<attributeName>Plant height (Height_G), cm</attributeName>
+<attributeLabel>Height_G</attributeLabel>
+<attributeDefinition>measuring tree height (Height_G: Height of the seedling up to the last still living tissue)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plant height</para>
+<para>measuring tree height</para>
+<para>Height of the seedling up to the last still living tissue</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Leaves_Liv'>
+<attributeName>Plant leaf number (Leaves_Liv), </attributeName>
+<attributeLabel>Leaves_Liv</attributeLabel>
+<attributeDefinition>Leaf number count or classification of leaf numbers of plant under study (Leaves_Liv: Number of living leaves)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plant leaf number</para>
+<para>Leaf number count or classification of leaf numbers of plant under study</para>
+<para>Number of living leaves</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Leaves_Dam'>
+<attributeName>Plant leaf number (Leaves_Dam), </attributeName>
+<attributeLabel>Leaves_Dam</attributeLabel>
+<attributeDefinition>Leaf number count or classification of leaf numbers of plant under study (Leaves_Dam: Number of damaged leaves)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plant leaf number</para>
+<para>Leaf number count or classification of leaf numbers of plant under study</para>
+<para>Number of damaged leaves</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Leaves_Dead'>
+<attributeName>Plant leaf number (Leaves_Dead), </attributeName>
+<attributeLabel>Leaves_Dead</attributeLabel>
+<attributeDefinition>Leaf number count or classification of leaf numbers of plant under study (Leaves_Dead: Number of dead leaves on seedling)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plant leaf number</para>
+<para>Leaf number count or classification of leaf numbers of plant under study</para>
+<para>Number of dead leaves on seedling</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Damage_pro'>
+<attributeName>Herbivore damage (Damage_pro), in percent</attributeName>
+<attributeLabel>Damage_pro</attributeLabel>
+<attributeDefinition>Herbivore damage in percentage or as herbivory classes e.g. those defined by Schuldt et al. (2010) (Damage_pro: estimated leave damage in percent)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Herbivore damage</para>
+<para>Herbivore damage in percentage or as herbivory classes e.g. those defined by Schuldt et al. (2010)</para>
+<para>estimated leave damage in percent</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Biomass_Above'>
+<attributeName>Above and below ground biomass measurement (Biomass_Above), g</attributeName>
+<attributeLabel>Biomass_Above</attributeLabel>
+<attributeDefinition>Above and below ground biomass measurement; Productivity; Stocks
+
+ (Biomass_Above: aboveground dry matter biomass in Sep. 2016)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Above and below ground biomass measurement</para>
+<para>Above and below ground biomass measurement; Productivity; Stocks
+
+</para>
+<para>aboveground dry matter biomass in Sep. 2016</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Biomass_Below'>
+<attributeName>Above and below ground biomass measurement (Biomass_Below), </attributeName>
+<attributeLabel>Biomass_Below</attributeLabel>
+<attributeDefinition>Above and below ground biomass measurement; Productivity; Stocks
+
+ (Biomass_Below: belowground dry matter biomass in Sep. 2016)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Above and below ground biomass measurement</para>
+<para>Above and below ground biomass measurement; Productivity; Stocks
+
+</para>
+<para>belowground dry matter biomass in Sep. 2016</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>7552</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

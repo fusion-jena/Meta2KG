@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">datagov-uk_7e7d528f-6c06-4f68-aecc-aec382244f1e</name>
+	<title type="str">Ecosystem function data from Winklebury Hill, UK, in 2013</title>
+	<description type="str">Ecosystem function data from Winklebury Hill, UK, in 2013
+
+This dataset contains nitrate and ammonium concentrations, nitrification and mineralisation rates, particle size and microbial biomass data from soils taken from an experiment based at Winklebury Hill, UK. The experiment used seeds and plug plants to create different plant communities on the bare chalk on Winklebury Hill and tested the resulting carbon and nutrient cycling rates and compared these to the characteristics of different plant functional groups. The experiment ran from 2013 to 2016 and this dataset contains data from 2013 only. This experiment was part of the Wessex BESS project, a six-year (2011-2017) project aimed at understanding how biodiversity underpins the ecosystem functions and services that landscapes provide. Full details about this dataset can be found at https://doi.org/10.5285/b8e9c03e-4b71-4e3b-9110-820b7bc0bac7
+
+Source: https://ckan.publishing.service.gov.uk/dataset/ecosystem-function-data-from-winklebury-hill-uk-in-2013  
+Last updated at https://ckan.publishing.service.gov.uk/dataset : 2020-03-06</description>
+	<homepage type="str">https://data.world/datagov-uk/7e7d528f-6c06-4f68-aecc-aec382244f1e</homepage>
+	<license type="str">OGL</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">wh2013_calibration_and_units</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">measure</name>
+						<title type="str">Measure</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">measure</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">calibration</name>
+						<title type="str">Calibration</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">calibration</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">units</name>
+						<title type="str">Units</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">units</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_type</name>
+						<title type="str">Data type</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_type</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">quality_control</name>
+						<title type="str">Quality control</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">quality_control</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/wh2013_calibration_and_units.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/b8e9c03e-4b71-4e3b-9110-820b7bc0bac7/readme.html</name>
+			<path type="str">original/b8e9c03e-4b71-4e3b-9110-820b7bc0bac7/readme.html</path>
+			<format type="str">html</format>
+			<mediatype type="str">text/html</mediatype>
+			<bytes type="int">4216</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/b8e9c03e-4b71-4e3b-9110-820b7bc0bac7/supporting-documents/EF_collection_methods.rtf</name>
+			<path type="str">original/b8e9c03e-4b71-4e3b-9110-820b7bc0bac7/supporting-documents/EF_collection_methods.rtf</path>
+			<format type="str">rtf</format>
+			<mediatype type="str">application/rtf</mediatype>
+			<bytes type="int">80288</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/b8e9c03e-4b71-4e3b-9110-820b7bc0bac7/supporting-documents/Plot_schematic.rtf</name>
+			<path type="str">original/b8e9c03e-4b71-4e3b-9110-820b7bc0bac7/supporting-documents/Plot_schematic.rtf</path>
+			<format type="str">rtf</format>
+			<mediatype type="str">application/rtf</mediatype>
+			<bytes type="int">2801130</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/b8e9c03e-4b71-4e3b-9110-820b7bc0bac7/supporting-documents/WH2013_Calibration_and_units.csv</name>
+			<path type="str">original/b8e9c03e-4b71-4e3b-9110-820b7bc0bac7/supporting-documents/WH2013_Calibration_and_units.csv</path>
+			<format type="str">csv</format>
+			<mediatype type="str">text/csv</mediatype>
+			<bytes type="int">1997</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/resource_links.md</name>
+			<path type="str">original/resource_links.md</path>
+			<format type="str">md</format>
+			<mediatype type="str">text/markdown</mediatype>
+			<bytes type="int">162</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">wessex bess</item>
+		<item type="str">ammonium</item>
+		<item type="str">bulk density</item>
+		<item type="str">carbon</item>
+		<item type="str">microbial biomass</item>
+		<item type="str">mineralisation rate</item>
+		<item type="str">nitrate</item>
+		<item type="str">nitrification rate</item>
+		<item type="str">nitrogen</item>
+		<item type="str">particle size</item>
+	</keywords>
+</all>

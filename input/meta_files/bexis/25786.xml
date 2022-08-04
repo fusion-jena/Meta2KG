@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bgc:metaProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.bgc-jena.mpg.de" xmlns:bgc="http://www.bgc-jena.mpg.de" xsi:schemaLocation="http://www.bgc-jena.mpg.de schema.xsd">
+  <bgc:general bgc:source="mixed">
+    <bgc:id bgc:source="intern">25786</bgc:id>
+    <bgc:versionID bgc:source="intern">1.1.7</bgc:versionID>
+    <bgc:title>Arthropod data from 300 grassland plots, 2008-2017, and 140 forest plots, 2008-2016, used in "Arthropod decline in grasslands and forests is associated with drivers at landscape level", Nature</bgc:title>
+    <bgc:owners>
+      <bgc:owner number="1">Wolfgang Weisser</bgc:owner>
+      <bgc:owner number="2">Sebastian Seibold</bgc:owner>
+      <bgc:owner number="3">Martin Goßner</bgc:owner>
+      <bgc:owner number="4">Nadja Simons</bgc:owner>
+      <bgc:owner number="5">Didem Ambarli</bgc:owner>
+      <bgc:owner number="6">Thomas Nauss</bgc:owner>
+      <bgc:owner number="7">Juergen Bauhus</bgc:owner>
+      <bgc:owner number="8">Juliane Vogt</bgc:owner>
+    </bgc:owners>
+    <bgc:projectName>Arthropods (core)</bgc:projectName>
+    <bgc:datasetManager>
+      <bgc:datasetManagerName disabled="disabled">Wolfgang Weisser</bgc:datasetManagerName>
+      <bgc:institute disabled="disabled">Technical University of Munich</bgc:institute>
+      <bgc:email disabled="disabled">wolfgang.weisser@tum.de</bgc:email>
+    </bgc:datasetManager>
+  </bgc:general>
+  <bgc:researchObjects>
+    <bgc:approxNumberOfPlots>
+      <bgc:noOfGP>290</bgc:noOfGP>
+      <bgc:noOfEP>290</bgc:noOfEP>
+      <bgc:noOfMIP>149</bgc:noOfMIP>
+      <bgc:noOfVIP>57</bgc:noOfVIP>
+    </bgc:approxNumberOfPlots>
+    <bgc:habitats>
+      <bgc:grassland>yes</bgc:grassland>
+      <bgc:forest>yes</bgc:forest>
+    </bgc:habitats>
+    <bgc:experimentalManipulation>no</bgc:experimentalManipulation>
+    <bgc:relativePositionToGround>
+      <bgc:aboveGround>yes</bgc:aboveGround>
+      <bgc:belowGround>no</bgc:belowGround>
+    </bgc:relativePositionToGround>
+    <bgc:repeatedMeasurement>
+      <bgc:timeBasedRepetition>
+        <bgc:numberOfRepetitions>10</bgc:numberOfRepetitions>
+      </bgc:timeBasedRepetition>
+      <bgc:plotBasedRepetition>
+        <bgc:numberOfSubPlots>1</bgc:numberOfSubPlots>
+      </bgc:plotBasedRepetition>
+    </bgc:repeatedMeasurement>
+    <bgc:taxa>
+      <bgc:taxon number="1">Animals - Invertebrates</bgc:taxon>
+    </bgc:taxa>
+    <bgc:processesAndServices>
+      <bgc:processOrService number="1">None</bgc:processOrService>
+    </bgc:processesAndServices>
+    <bgc:environmentalDescriptors>
+      <bgc:environmentalDescriptor number="1">Land Use</bgc:environmentalDescriptor>
+      <bgc:environmentalDescriptor number="2">Climate</bgc:environmentalDescriptor>
+    </bgc:environmentalDescriptors>
+    <bgc:bioticDataTypes>
+      <bgc:bioticDataType number="1">Total Abundances</bgc:bioticDataType>
+      <bgc:bioticDataType number="2">Aggregated Diversity</bgc:bioticDataType>
+      <bgc:bioticDataType number="3">Other</bgc:bioticDataType>
+    </bgc:bioticDataTypes>
+  </bgc:researchObjects>
+  <bgc:methodology blockPublic="no">
+    <bgc:introduction input="textarea">To disentangle local and landscape-level effects of land use on the temporal trends of arthropod communities in grasslands and forests, arthropod data were collected annually during the growing period from 2008 to 2017 by standardized  sampling at 150 grassland plots and from 2008 to 2016 at 30 forest plots. An additional 118 forest plots were sampled in 2008, 2011 and 2014 to test the overall trend across a larger number of plots. Both grassland and forest plots cover gradients in local land-use intensity. Land-use intensity was quantified in the form of compound indices based on grazing, mowing and fertilization intensity in grasslands (LUI), and on recent biomass removal, the proportion of non-native tree species and deadwood origin in forests (ForMI). To analyze landscape-level effects, we quantified the cover of arable fields and grassland within 1500m radius around each sampling plot (based on ATKIS DLM). We modelled temporal trends in biomass, abundance and species number of arthropods and of different dispersal and trophic guilds separately for grasslands and forests, and tested for effects of local and landscape-scale land-use intensity on these trends, accounting for weather conditions and different spatial scales.</bgc:introduction>
+    <bgc:measurements>
+      <bgc:theory input="textarea">The sample unit is the arthropod community of a grassland or forest plot within a given year. It is characterized by measures of biomass, abundance and species number. A sample unit is considered to represent arthropod populations at our study sites which measured 50m x 50m in grasslands and 100m x 100m in forests. Data from different months and traps per plot were pooled per plot and year.</bgc:theory>
+      <bgc:type input="textarea">Grassland: arthropod density along a 150m transect
+Forest: activity density of arthropods per plot
+</bgc:type>
+    </bgc:measurements>
+    <bgc:equipment>
+      <bgc:instruments input="textarea">Grassland: sweep net
+Forest: flight interception trap</bgc:instruments>
+      <bgc:calibration input="textarea">-</bgc:calibration>
+      <bgc:procedures input="textarea">Grassland: All arthropods of the herb layer were sampled twice per year in June and August to represent different phenological windows within the peak season of adult arthropod activity. Based on monthly samplings at the beginning of the study, we identified these two months to represent the best trade-off between reducing sampling effort and covering most species. Arthropods were sampled by sweep netting along a 150-m long transect comprising three of the virtual borders of a site by conducting 60 double sweeps per site. Sweep netting was only conducted on days without rain, low wind speed and after morning dew had dried.
+Forest: Flying insects were sampled using two flight-interception traps per site located close to two randomly selected corners of each site. Traps consisted of two crossed transparent plastic shields (40 cm x 60 cm) with funnels opening into sampling jars below and above that were filled with 3% CuSO4 solution and a drop of detergent. Traps were operated from March to October and emptied monthly.
+ 
+All samples were sorted to order level in the lab and all groups for which taxonomists were available were identified to species level: grasslands – Araneae, Coleoptera, Hemiptera (Heteroptera and Auchenorrhyncha), Orthoptera; forests – Coleoptera, Hemiptera (Heteroptera). </bgc:procedures>
+    </bgc:equipment>
+  </bgc:methodology>
+  <bgc:description>
+    <bgc:acronyms>
+      <bgc:acronymPair number="1">
+        <bgc:acronym number="1">GrasArtSN</bgc:acronym>
+        <bgc:meaning number="1">Grassland arthropods from sweep netting</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="2">
+        <bgc:acronym number="2">ForArtFIT</bgc:acronym>
+        <bgc:meaning number="2">Forest arthropods from flight-interception traps</bgc:meaning>
+      </bgc:acronymPair>
+    </bgc:acronyms>
+    <bgc:keywords>
+      <bgc:keyword number="1">insect decline</bgc:keyword>
+      <bgc:keyword number="2">arthropod</bgc:keyword>
+      <bgc:keyword number="3">time series</bgc:keyword>
+    </bgc:keywords>
+  </bgc:description>
+  <bgc:time>
+    <bgc:when timeType="period" xsi:type="bgc:dateFrame">
+      <bgc:format>yyyy</bgc:format>
+      <bgc:startDate>2008</bgc:startDate>
+      <bgc:endDate>2017</bgc:endDate>
+    </bgc:when>
+    <bgc:dateEntry bgc:source="intern">2019-08-14</bgc:dateEntry>
+    <bgc:dateLastModified bgc:source="intern">2019-08-20</bgc:dateLastModified>
+  </bgc:time>
+  <bgc:data>
+    <bgc:fileType>structuredData</bgc:fileType>
+    <bgc:manipulations input="textarea" />
+    <bgc:errors />
+    <bgc:qualityLevel>validated</bgc:qualityLevel>
+    <bgc:dataStatus>complete</bgc:dataStatus>
+    <bgc:dataStructure>
+      <bgc:dataFormat>
+        <bgc:missingValues />
+        <bgc:NA />
+      </bgc:dataFormat>
+      <bgc:matrix>
+        <bgc:columnName />
+        <bgc:rowName />
+        <bgc:contentType />
+        <bgc:matrixUnit />
+      </bgc:matrix>
+      <bgc:variables>
+        <bgc:variable number="1">
+          <bgc:name number="1">Habitat_type</bgc:name>
+          <bgc:typeOfVariable number="1">string</bgc:typeOfVariable>
+          <bgc:units number="1" />
+          <bgc:description number="1">forest or grassland</bgc:description>
+          <bgc:block number="1">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="2">
+          <bgc:name number="2">Sampling_regime</bgc:name>
+          <bgc:typeOfVariable number="2">string</bgc:typeOfVariable>
+          <bgc:units number="2" />
+          <bgc:description number="2">specifies if data belongs to the annual times seires or to the time series with three year intervals (forest)</bgc:description>
+          <bgc:block number="2">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="3">
+          <bgc:name number="3">PlotIDYear</bgc:name>
+          <bgc:typeOfVariable number="3">string</bgc:typeOfVariable>
+          <bgc:units number="3" />
+          <bgc:description number="3">specifies the plot name and year of collection</bgc:description>
+          <bgc:block number="3">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="4">
+          <bgc:name number="4">Exploratory</bgc:name>
+          <bgc:typeOfVariable number="4">string</bgc:typeOfVariable>
+          <bgc:units number="4" />
+          <bgc:description number="4">specifies Region: Alb, Hainich, Schorfheide</bgc:description>
+          <bgc:block number="4">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="5">
+          <bgc:name number="5">PlotID</bgc:name>
+          <bgc:typeOfVariable number="5">string</bgc:typeOfVariable>
+          <bgc:units number="5" />
+          <bgc:description number="5">number of plot</bgc:description>
+          <bgc:block number="5">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="6">
+          <bgc:name number="6">CollectionYear</bgc:name>
+          <bgc:typeOfVariable number="6">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="6" />
+          <bgc:description number="6">year of sampling</bgc:description>
+          <bgc:block number="6">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="7">
+          <bgc:name number="7">biomass</bgc:name>
+          <bgc:typeOfVariable number="7">realNumber</bgc:typeOfVariable>
+          <bgc:units number="7">mg</bgc:units>
+          <bgc:description number="7">biomass of all identified arthropods</bgc:description>
+          <bgc:block number="7">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="8">
+          <bgc:name number="8">abundance_unidentified_identified</bgc:name>
+          <bgc:typeOfVariable number="8">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="8" />
+          <bgc:description number="8">abundance of all arthropods including those which could not be identified to species level</bgc:description>
+          <bgc:block number="8">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="9">
+          <bgc:name number="9">abundance_identified</bgc:name>
+          <bgc:typeOfVariable number="9">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="9" />
+          <bgc:description number="9">abundance of all arthropod identified to species level</bgc:description>
+          <bgc:block number="9">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="10">
+          <bgc:name number="10">species</bgc:name>
+          <bgc:typeOfVariable number="10">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="10" />
+          <bgc:description number="10">total number of arthropod species</bgc:description>
+          <bgc:block number="10">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="11">
+          <bgc:name number="11">abundance_carnivore</bgc:name>
+          <bgc:typeOfVariable number="11">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="11" />
+          <bgc:description number="11">abundance of carnivore arthropods</bgc:description>
+          <bgc:block number="11">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="12">
+          <bgc:name number="12">species_carnivore</bgc:name>
+          <bgc:typeOfVariable number="12">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="12" />
+          <bgc:description number="12">number of carnivore arthropod species</bgc:description>
+          <bgc:block number="12">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="13">
+          <bgc:name number="13">biomass_carnivore</bgc:name>
+          <bgc:typeOfVariable number="13">realNumber</bgc:typeOfVariable>
+          <bgc:units number="13">mg</bgc:units>
+          <bgc:description number="13">biomass of carnivore arthropods</bgc:description>
+          <bgc:block number="13">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="14">
+          <bgc:name number="14">abundance_herbivore</bgc:name>
+          <bgc:typeOfVariable number="14">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="14" />
+          <bgc:description number="14">abundance of herbivore arthropods</bgc:description>
+          <bgc:block number="14">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="15">
+          <bgc:name number="15">species_herbivore</bgc:name>
+          <bgc:typeOfVariable number="15">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="15" />
+          <bgc:description number="15">number of herbivore arthropod species</bgc:description>
+          <bgc:block number="15">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="16">
+          <bgc:name number="16">biomass_herbivore</bgc:name>
+          <bgc:typeOfVariable number="16">realNumber</bgc:typeOfVariable>
+          <bgc:units number="16">mg</bgc:units>
+          <bgc:description number="16">biomass of herbivore arthropod species</bgc:description>
+          <bgc:block number="16">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="17">
+          <bgc:name number="17">abundance_detritomycetophage</bgc:name>
+          <bgc:typeOfVariable number="17">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="17" />
+          <bgc:description number="17">abundance of detriomycetophore arthropods</bgc:description>
+          <bgc:block number="17">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="18">
+          <bgc:name number="18">species_detritomycetophage</bgc:name>
+          <bgc:typeOfVariable number="18">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="18" />
+          <bgc:description number="18">species number of detriomycetophore arthropods</bgc:description>
+          <bgc:block number="18">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="19">
+          <bgc:name number="19">biomass_detritomycetophage</bgc:name>
+          <bgc:typeOfVariable number="19">realNumber</bgc:typeOfVariable>
+          <bgc:units number="19">mg</bgc:units>
+          <bgc:description number="19">biomass of of detriomycetophore arthropods</bgc:description>
+          <bgc:block number="19">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="20">
+          <bgc:name number="20">abundance_omnivore</bgc:name>
+          <bgc:typeOfVariable number="20">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="20" />
+          <bgc:description number="20">abundance of omnivore arthropods</bgc:description>
+          <bgc:block number="20">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="21">
+          <bgc:name number="21">species_omnivore</bgc:name>
+          <bgc:typeOfVariable number="21">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="21" />
+          <bgc:description number="21">species number of omnivore arthropods</bgc:description>
+          <bgc:block number="21">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="22">
+          <bgc:name number="22">biomass_omnivore</bgc:name>
+          <bgc:typeOfVariable number="22">realNumber</bgc:typeOfVariable>
+          <bgc:units number="22">mg</bgc:units>
+          <bgc:description number="22">biomass of omnivore arthropods</bgc:description>
+          <bgc:block number="22">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="23">
+          <bgc:name number="23">abundance_weak_disperser</bgc:name>
+          <bgc:typeOfVariable number="23">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="23" />
+          <bgc:description number="23">abundance of weak disperser</bgc:description>
+          <bgc:block number="23">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="24">
+          <bgc:name number="24">species_weak_disperser</bgc:name>
+          <bgc:typeOfVariable number="24">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="24" />
+          <bgc:description number="24">species number of weak disperser</bgc:description>
+          <bgc:block number="24">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="25">
+          <bgc:name number="25">biomass_weak_disperser</bgc:name>
+          <bgc:typeOfVariable number="25">realNumber</bgc:typeOfVariable>
+          <bgc:units number="25">mg</bgc:units>
+          <bgc:description number="25">biomass of weak disperser</bgc:description>
+          <bgc:block number="25">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="26">
+          <bgc:name number="26">abundance_strong_disperser</bgc:name>
+          <bgc:typeOfVariable number="26">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="26" />
+          <bgc:description number="26">abundance of strong disperser</bgc:description>
+          <bgc:block number="26">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="27">
+          <bgc:name number="27">species_strong_disperser</bgc:name>
+          <bgc:typeOfVariable number="27">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="27" />
+          <bgc:description number="27">species number of strong disperser</bgc:description>
+          <bgc:block number="27">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="28">
+          <bgc:name number="28">biomass_strong_disperser</bgc:name>
+          <bgc:typeOfVariable number="28">realNumber</bgc:typeOfVariable>
+          <bgc:units number="28">mg</bgc:units>
+          <bgc:description number="28">biomass of strong disperser</bgc:description>
+          <bgc:block number="28">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="29">
+          <bgc:name number="29">landuse_intensity</bgc:name>
+          <bgc:typeOfVariable number="29">realNumber</bgc:typeOfVariable>
+          <bgc:units number="29" />
+          <bgc:description number="29">landuse intensity: LUI in grasslands and ForMI in forests</bgc:description>
+          <bgc:block number="29">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="30">
+          <bgc:name number="30">mean_winter_temperature</bgc:name>
+          <bgc:typeOfVariable number="30">realNumber</bgc:typeOfVariable>
+          <bgc:units number="30">°C</bgc:units>
+          <bgc:description number="30">mean temperature for winter months (Nov-Feb) as derived from plot weather stations with gap filling from neighbouring stations and DWD stations</bgc:description>
+          <bgc:block number="30">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="31">
+          <bgc:name number="31">precipitation_sum_growing_preriod</bgc:name>
+          <bgc:typeOfVariable number="31">realNumber</bgc:typeOfVariable>
+          <bgc:units number="31">mm</bgc:units>
+          <bgc:description number="31">precipitation sum for months of the growing season (Mar-Oct) derived from the RADOLAN product of the German Weather Service</bgc:description>
+          <bgc:block number="31">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="32">
+          <bgc:name number="32">grassland_cover_250</bgc:name>
+          <bgc:typeOfVariable number="32">realNumber</bgc:typeOfVariable>
+          <bgc:units number="32">%</bgc:units>
+          <bgc:description number="32">percentage cover of grassland and semi-natural vegetation within 250m surrounding a plot based on ATKIS DLM 2010</bgc:description>
+          <bgc:block number="32">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="33">
+          <bgc:name number="33">grassland_cover_500</bgc:name>
+          <bgc:typeOfVariable number="33">realNumber</bgc:typeOfVariable>
+          <bgc:units number="33">%</bgc:units>
+          <bgc:description number="33">percentage cover of grassland and semi-natural vegetation within 500m surrounding a plot based on ATKIS DLM 2010</bgc:description>
+          <bgc:block number="33">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="34">
+          <bgc:name number="34">grassland_cover_1000</bgc:name>
+          <bgc:typeOfVariable number="34">realNumber</bgc:typeOfVariable>
+          <bgc:units number="34">%</bgc:units>
+          <bgc:description number="34">percentage cover of grassland and semi-natural vegetation within 1000m surrounding a plot based on ATKIS DLM 2010</bgc:description>
+          <bgc:block number="34">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="35">
+          <bgc:name number="35">grassland_cover_1500</bgc:name>
+          <bgc:typeOfVariable number="35">realNumber</bgc:typeOfVariable>
+          <bgc:units number="35">%</bgc:units>
+          <bgc:description number="35">percentage cover of grassland and semi-natural vegetation within 1500m surrounding a plot based on ATKIS DLM 2010</bgc:description>
+          <bgc:block number="35">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="36">
+          <bgc:name number="36">arable_cover_1000</bgc:name>
+          <bgc:typeOfVariable number="36">realNumber</bgc:typeOfVariable>
+          <bgc:units number="36">%</bgc:units>
+          <bgc:description number="36">percentage cover of arable crops within 1000m surrounding a plot based on ATKIS DLM 2010</bgc:description>
+          <bgc:block number="36">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="37">
+          <bgc:name number="37">arable_cover_1500</bgc:name>
+          <bgc:typeOfVariable number="37">realNumber</bgc:typeOfVariable>
+          <bgc:units number="37">%</bgc:units>
+          <bgc:description number="37">percentage cover of arable crops within 1500m surrounding a plot based on ATKIS DLM 2010</bgc:description>
+          <bgc:block number="37">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="38">
+          <bgc:name number="38">arable_cover_250</bgc:name>
+          <bgc:typeOfVariable number="38">realNumber</bgc:typeOfVariable>
+          <bgc:units number="38">%</bgc:units>
+          <bgc:description number="38">percentage cover of arable crops within 250m surrounding a plot based on ATKIS DLM 2010</bgc:description>
+          <bgc:block number="38">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="39">
+          <bgc:name number="39">arable_cover_500</bgc:name>
+          <bgc:typeOfVariable number="39">realNumber</bgc:typeOfVariable>
+          <bgc:units number="39">%</bgc:units>
+          <bgc:description number="39">percentage cover of arable crops within 500m surrounding a plot based on ATKIS DLM 2010</bgc:description>
+          <bgc:block number="39">0</bgc:block>
+        </bgc:variable>
+      </bgc:variables>
+    </bgc:dataStructure>
+  </bgc:data>
+  <bgc:references>
+    <bgc:database />
+    <bgc:papers>
+      <bgc:paper number="1">Seibold et al. Arthropod decline in grasslands and forests is associated with drivers at landscape level (2019) Nature</bgc:paper>
+    </bgc:papers>
+    <bgc:relatedDatasets>
+      <bgc:dataset number="1" />
+    </bgc:relatedDatasets>
+    <bgc:citation>Weisser, Wolfgang; Sebastian Seibold; Martin Goßner; Nadja Simons; Didem Ambarli; Thomas Nauss; Juergen Bauhus; Juliane Vogt (2019): Arthropod data from 300 grassland plots, 2008-2017, and 140 forest plots, 2008-2016, used in "Arthropod decline in grasslands and forests is associated with drivers at landscape level", Nature. v1.1.7. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/PublicData/PublicData.aspx?DatasetId=25786</bgc:citation>
+  </bgc:references>
+  <bgc:comment />
+</bgc:metaProfile>

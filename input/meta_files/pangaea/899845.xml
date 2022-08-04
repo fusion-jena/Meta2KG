@@ -1,0 +1,651 @@
+<md:MetaData xmlns:md="http://www.pangaea.de/MetaData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ws.pangaea.de/schemas/pangaea/MetaData.xsd" version="2019-02-13">
+<md:citation id="dataset899845" >
+<md:author id="dataset.author68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:author>
+<md:year>2019</md:year>
+<md:title>Relationship of trait based bioirrigation and bioturbation indices with measured bioirrigation rates from manipulated single species experiments representing typical German Bight (North Sea) communities</md:title>
+<md:URI>https://doi.pangaea.de/10.1594/PANGAEA.899845</md:URI>
+<md:dateTime>2019-04-01T09:54:46</md:dateTime>
+<md:supplementTo id="ref99094" >
+<md:author id="ref99094.author68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:author>
+<md:author id="ref99094.author56065" >
+<md:lastName>Beermann</md:lastName>
+<md:firstName>Jan</md:firstName>
+<md:orcid>0000-0001-5894-6817</md:orcid>
+</md:author>
+<md:author id="ref99094.author47518" >
+<md:lastName>Dannheim</md:lastName>
+<md:firstName>Jennifer</md:firstName>
+<md:eMail>jennifer.dannheim@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/jennifer-dannheim.html</md:URI>
+</md:author>
+<md:author id="ref99094.author36801" >
+<md:lastName>Gutow</md:lastName>
+<md:firstName>Lars</md:firstName>
+<md:eMail>lars.gutow@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/lars-gutow.html</md:URI>
+<md:orcid>0000-0002-9017-0083</md:orcid>
+</md:author>
+<md:author id="ref99094.author10381" >
+<md:lastName>Brey</md:lastName>
+<md:firstName>Thomas</md:firstName>
+<md:eMail>thomas.brey@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/thomas-brey.html</md:URI>
+<md:orcid>0000-0002-6345-2851</md:orcid>
+</md:author>
+<md:year>2018</md:year>
+<md:title>Organism functional traits and ecosystem supporting services – A novel approach to predict bioirrigation</md:title>
+<md:source id="ref99094.journal4685" relatedTermIds="33964" >Ecological Indicators</md:source>
+<md:volume>91</md:volume>
+<md:URI>https://doi.org/10.1016/j.ecolind.2018.04.026</md:URI>
+<md:pages>737-743</md:pages>
+</md:supplementTo>
+</md:citation>
+<md:abstract>We propose a novel trait-based bioirrigation index (IPc) that is based on body mass, abundance, burrow type, feeding type and injection pocket depth of bottom dwelling animals. The index was validated with measured bioirrigation rates from combined field (in situ communities) and manipulative (single species) experiments. Species and communities were sampled from the German Bight, North Sea. Additionally we investigated whether the bioturbation potential (BPc) of Solan et al. 2004 was able to predict bioirrigation rates. Both indices (i.e. IPc and BPc) were calculated with wet mass and ash free dry mass. The data accordingly includes: macrofaunal abundance/density, wet mass (WM) (g), dry mass (DM) (g), ash free dry mass (AFDM) (g), irrigation potential (calculated based on all three body mass units), bioturbation potential (calculated based on all three body mass units), trait scores used to calculate both IPc and BPc, irrigation rates and control corrected irrigation rates.</md:abstract>
+<md:reference id="refds899847" relationType="Related to" relationTypeId="12" >
+<md:author id="refds899847.author68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:author>
+<md:year>2019</md:year>
+<md:title>Relationship of trait based bioirrigation and bioturbation indices with measured bioirrigation rates from in situ community experiments representing typical German Bight (North Sea) communities</md:title>
+<md:URI>https://doi.pangaea.de/10.1594/PANGAEA.899847</md:URI>
+</md:reference>
+<md:extent>
+<md:geographic>
+<md:westBoundLongitude>7.814166667</md:westBoundLongitude>
+<md:eastBoundLongitude>8.436111111</md:eastBoundLongitude>
+<md:southBoundLatitude>54.01388889</md:southBoundLatitude>
+<md:northBoundLatitude>55.02555556</md:northBoundLatitude>
+<md:meanLongitude>8.153600323815532</md:meanLongitude>
+<md:meanLatitude>54.37492179252439</md:meanLatitude>
+</md:geographic>
+<md:temporal>
+<md:minDateTime>2016-03-01T00:00:00</md:minDateTime>
+<md:maxDateTime>2016-04-08T00:00:00</md:maxDateTime>
+</md:temporal>
+<md:topoType id="topotype1" >not specified</md:topoType>
+</md:extent>
+<md:event id="event2904665" >
+<md:label>HE460/06_fine_sand</md:label>
+<md:latitude>54.01388889</md:latitude>
+<md:longitude>7.814166667</md:longitude>
+<md:dateTime>2016-04-07T00:00:00</md:dateTime>
+<md:campaign id="event2904665.campaign42228" >
+<md:name>HE460</md:name>
+<md:attribute attid="2055" name="BSH ID" >20160133</md:attribute>
+<md:attribute attid="2054" name="End location" >Bremerhaven</md:attribute>
+<md:attribute attid="2053" name="Start location" >Bremerhaven</md:attribute>
+</md:campaign>
+<md:basis id="event2904665.basis505" >
+<md:name>Heincke</md:name>
+<md:URI>http://www.awi.de/en/expedition/ships/research-vessel-heincke.html</md:URI>
+</md:basis>
+<md:device id="event2904665.term20003" >
+<md:name>Push corer</md:name>
+<md:optionalName>PUC</md:optionalName>
+</md:device>
+<md:comment>Habitat: fine sand; Community: Amphiura filiformis-community</md:comment>
+</md:event>
+<md:event id="event2904669" >
+<md:label>HE460/10_mud</md:label>
+<md:latitude>54.1225</md:latitude>
+<md:longitude>8.226666667</md:longitude>
+<md:dateTime>2016-04-08T00:00:00</md:dateTime>
+<md:campaign id="event2904669.campaign42228" >
+<md:name>HE460</md:name>
+<md:attribute attid="2055" name="BSH ID" >20160133</md:attribute>
+<md:attribute attid="2054" name="End location" >Bremerhaven</md:attribute>
+<md:attribute attid="2053" name="Start location" >Bremerhaven</md:attribute>
+</md:campaign>
+<md:basis id="event2904669.basis505" >
+<md:name>Heincke</md:name>
+<md:URI>http://www.awi.de/en/expedition/ships/research-vessel-heincke.html</md:URI>
+</md:basis>
+<md:device id="event2904669.term20003" >
+<md:name>Push corer</md:name>
+<md:optionalName>PUC</md:optionalName>
+</md:device>
+<md:comment>Habitat: mud; Community: Nucula nitidosa-community</md:comment>
+</md:event>
+<md:event id="event2904668" >
+<md:label>L_conchilega_reef_2016-03-01</md:label>
+<md:latitude>55.02555556</md:latitude>
+<md:longitude>8.436111111</md:longitude>
+<md:dateTime>2016-03-01T00:00:00</md:dateTime>
+<md:device id="event2904668.term20003" >
+<md:name>Push corer</md:name>
+<md:optionalName>PUC</md:optionalName>
+</md:device>
+<md:comment>Habitat: sand; Community: Lanice conchilega-reef</md:comment>
+</md:event>
+<md:event id="event2904670" >
+<md:label>L_conchilega_reef_2016-03-03</md:label>
+<md:latitude>55.02555556</md:latitude>
+<md:longitude>8.436111111</md:longitude>
+<md:dateTime>2016-03-03T00:00:00</md:dateTime>
+<md:device id="event2904670.term20003" >
+<md:name>Push corer</md:name>
+<md:optionalName>PUC</md:optionalName>
+</md:device>
+<md:comment>Habitat: sand; Community: Lanice conchilega-reef</md:comment>
+</md:event>
+<md:event id="event2904666" >
+<md:label>L_conchilega_reef_2016-03-04</md:label>
+<md:latitude>55.02555556</md:latitude>
+<md:longitude>8.436111111</md:longitude>
+<md:dateTime>2016-03-04T00:00:00</md:dateTime>
+<md:device id="event2904666.term20003" >
+<md:name>Push corer</md:name>
+<md:optionalName>PUC</md:optionalName>
+</md:device>
+<md:comment>Habitat: sand; Community: Lanice conchilega-reef</md:comment>
+</md:event>
+<md:size unit="data points" >2462</md:size>
+<md:matrixColumn behaviour="7" col="0" id="col0.ds13614454" label="WredeA_2019.1" source="event" type="string" >
+<md:parameter>
+<md:name>Event label</md:name>
+<md:shortName>Event</md:shortName>
+</md:parameter>
+<md:PI id="col0.ds13614454.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:caption>Event</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="1" id="col1.ds13614455" label="WredeA_2019.2" source="data" type="string" >
+<md:parameter id="col1.ds13614455.param48492" >
+<md:name>Core</md:name>
+<md:shortName>Core</md:shortName>
+</md:parameter>
+<md:PI id="col1.ds13614455.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:caption>Core</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="2" id="col2.ds13614456" label="WredeA_2019.3" source="data" type="string" >
+<md:parameter id="col2.ds13614456.param88037" relatedTermIds="38263" >
+<md:name>Sediment type</md:name>
+<md:shortName>Sediment</md:shortName>
+</md:parameter>
+<md:PI id="col2.ds13614456.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:caption>Sediment</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="3" format="#0" id="col3.ds13614457" label="WredeA_2019.4" source="data" type="numeric" >
+<md:parameter id="col3.ds13614457.param717" relatedTermIds="38306" >
+<md:name>Temperature, water</md:name>
+<md:shortName>Temp</md:shortName>
+<md:unit>°C</md:unit>
+</md:parameter>
+<md:PI id="col3.ds13614457.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:caption>Temp [°C]</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="4" id="col4.ds13614458" label="WredeA_2019.5" source="data" type="string" >
+<md:parameter id="col4.ds13614458.param7053" >
+<md:name>Species</md:name>
+<md:shortName>Species</md:shortName>
+<md:URI>https://en.wikipedia.org/wiki/Species</md:URI>
+</md:parameter>
+<md:PI id="col4.ds13614458.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:comment>Species / Community</md:comment>
+<md:caption>Species</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="5" id="col5.ds13614459" label="WredeA_2019.6" source="data" type="string" >
+<md:parameter id="col5.ds13614459.param96278" >
+<md:name>Treatment</md:name>
+<md:shortName>Treat</md:shortName>
+</md:parameter>
+<md:PI id="col5.ds13614459.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:comment>??</md:comment>
+<md:caption>Treat (??)</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="6" id="col6.ds13614460" label="WredeA_2019.7" source="data" type="string" >
+<md:parameter id="col6.ds13614460.param96278" >
+<md:name>Treatment</md:name>
+<md:shortName>Treat</md:shortName>
+</md:parameter>
+<md:PI id="col6.ds13614460.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:comment>S=single; C=Community; M=Multi???</md:comment>
+<md:caption>Treat (S=single; C=Community; M=Mult...)</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="7" format="#0.00" id="col7.ds13614461" label="WredeA_2019.8" source="data" type="numeric" >
+<md:parameter id="col7.ds13614461.param131372" >
+<md:name>Core area</md:name>
+<md:shortName>core area</md:shortName>
+<md:unit>cm**2</md:unit>
+</md:parameter>
+<md:PI id="col7.ds13614461.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:caption>core area [cm**2]</md:caption>
+</md:matrixColumn>
+<md:matrixColumn behaviour="2" col="8" format="#0.00000000" id="col8.ds13614462" label="WredeA_2019.9" source="geocode" type="numeric" >
+<md:parameter id="col8.ds13614462.geocode1600" >
+<md:name>LATITUDE</md:name>
+<md:shortName>Latitude</md:shortName>
+<md:URI>http://en.wikipedia.org/wiki/ISO_6709</md:URI>
+</md:parameter>
+<md:PI id="col8.ds13614462.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:caption>Latitude</md:caption>
+</md:matrixColumn>
+<md:matrixColumn behaviour="3" col="9" format="#0.000000000" id="col9.ds13614463" label="WredeA_2019.10" source="geocode" type="numeric" >
+<md:parameter id="col9.ds13614463.geocode1601" >
+<md:name>LONGITUDE</md:name>
+<md:shortName>Longitude</md:shortName>
+<md:URI>http://en.wikipedia.org/wiki/ISO_6709</md:URI>
+</md:parameter>
+<md:PI id="col9.ds13614463.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:caption>Longitude</md:caption>
+</md:matrixColumn>
+<md:matrixColumn behaviour="4" col="10" format="yyyy-MM-dd'T'HH:mm" id="col10.ds13614464" label="WredeA_2019.11" source="geocode" type="datetime" >
+<md:parameter id="col10.ds13614464.geocode1599" >
+<md:name>DATE/TIME</md:name>
+<md:shortName>Date/Time</md:shortName>
+<md:URI>http://en.wikipedia.org/wiki/ISO_8601</md:URI>
+</md:parameter>
+<md:PI id="col10.ds13614464.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:comment>Sampling</md:comment>
+<md:caption>Date/Time</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="11" format="yyyy-MM-dd'T'HH:mm" id="col11.ds13614465" label="WredeA_2019.12" source="data" type="datetime" >
+<md:parameter id="col11.ds13614465.param152460" >
+<md:name>Date/time start</md:name>
+<md:shortName>Date/time start</md:shortName>
+<md:URI>http://en.wikipedia.org/wiki/ISO_8601</md:URI>
+</md:parameter>
+<md:PI id="col11.ds13614465.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:comment>Start of exerimental manipulations (i.e. luminophore introduction)</md:comment>
+<md:caption>Date/time start</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="12" format="yyyy-MM-dd'T'HH:mm" id="col12.ds13614466" label="WredeA_2019.13" source="data" type="datetime" >
+<md:parameter id="col12.ds13614466.param152481" >
+<md:name>Date</md:name>
+<md:shortName>Date</md:shortName>
+<md:URI>http://en.wikipedia.org/wiki/ISO_8601</md:URI>
+</md:parameter>
+<md:PI id="col12.ds13614466.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:comment>Date of measurement</md:comment>
+<md:caption>Date</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="13" format="yyyy-MM-dd'T'HH:mm" id="col13.ds13614467" label="WredeA_2019.14" source="data" type="datetime" >
+<md:parameter id="col13.ds13614467.param150986" >
+<md:name>Date/time end</md:name>
+<md:shortName>Date/time end</md:shortName>
+<md:URI>http://en.wikipedia.org/wiki/ISO_8601</md:URI>
+</md:parameter>
+<md:PI id="col13.ds13614467.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:comment>End of experiment</md:comment>
+<md:caption>Date/time end</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="14" format="###0.0000000" id="col14.ds13614468" label="WredeA_2019.15" source="data" type="numeric" >
+<md:parameter id="col14.ds13614468.param740" >
+<md:name>Dry volume</md:name>
+<md:shortName>Volume</md:shortName>
+<md:unit>cm**3</md:unit>
+</md:parameter>
+<md:PI id="col14.ds13614468.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:comment>Volume of overling water</md:comment>
+<md:caption>Volume [cm**3]</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="15" format="#0" id="col15.ds13614469" label="WredeA_2019.16" source="data" type="numeric" >
+<md:parameter id="col15.ds13614469.param169871" >
+<md:name>Survival</md:name>
+<md:shortName>Surv</md:shortName>
+<md:unit>#</md:unit>
+</md:parameter>
+<md:PI id="col15.ds13614469.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:comment>Surviving ind./core</md:comment>
+<md:caption>Surv [#]</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="16" format="###0.0000000" id="col16.ds13614470" label="WredeA_2019.17" source="data" type="numeric" >
+<md:parameter id="col16.ds13614470.param18012" relatedTermIds="38538" >
+<md:name>Abundance per area</md:name>
+<md:shortName>Abund a</md:shortName>
+<md:unit>#/m**2</md:unit>
+</md:parameter>
+<md:PI id="col16.ds13614470.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:caption>Abund a [#/m**2]</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="17" format="#0.00000" id="col17.ds13614471" label="WredeA_2019.18" source="data" type="numeric" >
+<md:parameter id="col17.ds13614471.param31581" relatedTermIds="38563" >
+<md:name>Wet mass</md:name>
+<md:shortName>Wet m</md:shortName>
+<md:unit>g</md:unit>
+</md:parameter>
+<md:PI id="col17.ds13614471.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:caption>Wet m [g]</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="18" format="#0.000000000" id="col18.ds13614472" label="WredeA_2019.19" source="data" type="numeric" >
+<md:parameter id="col18.ds13614472.param31582" relatedTermIds="38564" >
+<md:name>Ash free dry mass</md:name>
+<md:shortName>AFDM</md:shortName>
+<md:unit>g</md:unit>
+</md:parameter>
+<md:PI id="col18.ds13614472.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:caption>AFDM [g]</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="19" format="##0.000000000" id="col19.ds13614473" label="WredeA_2019.20" source="data" type="numeric" >
+<md:parameter id="col19.ds13614473.param160731" >
+<md:name>Bioturbation potential, community</md:name>
+<md:shortName>BPc</md:shortName>
+</md:parameter>
+<md:PI id="col19.ds13614473.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:comment>WM</md:comment>
+<md:caption>BPc (WM)</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="20" format="#0.000000000" id="col20.ds13614474" label="WredeA_2019.21" source="data" type="numeric" >
+<md:parameter id="col20.ds13614474.param160731" >
+<md:name>Bioturbation potential, community</md:name>
+<md:shortName>BPc</md:shortName>
+</md:parameter>
+<md:PI id="col20.ds13614474.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:comment>AFDM</md:comment>
+<md:caption>BPc (AFDM)</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="21" format="##0.000000000" id="col21.ds13614475" label="WredeA_2019.22" source="data" type="numeric" >
+<md:parameter id="col21.ds13614475.param169870" >
+<md:name>Irrigation potential, community</md:name>
+<md:shortName>IPc</md:shortName>
+<md:URI>https://doi.org/10.1016/j.ecolind.2018.04.026</md:URI>
+</md:parameter>
+<md:PI id="col21.ds13614475.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:comment>WM</md:comment>
+<md:caption>IPc (WM)</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="22" format="#0.000000000" id="col22.ds13614476" label="WredeA_2019.23" source="data" type="numeric" >
+<md:parameter id="col22.ds13614476.param169870" >
+<md:name>Irrigation potential, community</md:name>
+<md:shortName>IPc</md:shortName>
+<md:URI>https://doi.org/10.1016/j.ecolind.2018.04.026</md:URI>
+</md:parameter>
+<md:PI id="col22.ds13614476.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:comment>AFDM</md:comment>
+<md:caption>IPc (AFDM)</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="23" format="##0.000" id="col23.ds13614477" label="WredeA_2019.24" source="data" type="numeric" >
+<md:parameter id="col23.ds13614477.param161330" relatedTermIds="37793" >
+<md:name>Bromide</md:name>
+<md:shortName>Br-</md:shortName>
+<md:unit>µmol/l</md:unit>
+</md:parameter>
+<md:PI id="col23.ds13614477.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:comment>Bromide concentration at t0 ???</md:comment>
+<md:caption>Br- [µmol/l]</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="24" format="##0.00000" id="col24.ds13614478" label="WredeA_2019.25" source="data" type="string" >
+<md:parameter id="col24.ds13614478.param160883" >
+<md:name>Slope description</md:name>
+<md:shortName>Slope</md:shortName>
+</md:parameter>
+<md:PI id="col24.ds13614478.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:comment>Slope of Bromide concentration t0-t8</md:comment>
+<md:caption>Slope</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="25" format="#0.00000" id="col25.ds13614479" label="WredeA_2019.26" source="data" type="numeric" >
+<md:parameter id="col25.ds13614479.param136731" relatedTermIds="37764" >
+<md:name>Slope, standard deviation</md:name>
+<md:shortName>Slope std dev</md:shortName>
+<md:unit>±</md:unit>
+</md:parameter>
+<md:PI id="col25.ds13614479.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:comment>Slope of Bromide concentration t0-t8</md:comment>
+<md:caption>Slope std dev [±]</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="26" format="#0.000000000" id="col26.ds13614480" label="WredeA_2019.27" source="data" type="numeric" >
+<md:parameter id="col26.ds13614480.param169869" >
+<md:name>Bioirrigation activity</md:name>
+<md:shortName>Q</md:shortName>
+<md:unit>l/m**2/h</md:unit>
+<md:URI>https://doi.org/10.3354/meps11747</md:URI>
+</md:parameter>
+<md:PI id="col26.ds13614480.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:caption>Q [l/m**2/h]</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="27" id="col27.ds13614481" label="WredeA_2019.28" source="data" type="string" >
+<md:parameter id="col27.ds13614481.param1570" >
+<md:name>Comment</md:name>
+<md:shortName>Comment</md:shortName>
+</md:parameter>
+<md:PI id="col27.ds13614481.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:comment>Removed values were removed due to errors or as outlier; see suplement of Wrede et al. 2018</md:comment>
+<md:caption>Comment (Removed values were removed d...)</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="28" format="#0.000000000" id="col28.ds13614482" label="WredeA_2019.29" source="data" type="numeric" >
+<md:parameter id="col28.ds13614482.param169869" >
+<md:name>Bioirrigation activity</md:name>
+<md:shortName>Q</md:shortName>
+<md:unit>l/m**2/h</md:unit>
+<md:URI>https://doi.org/10.3354/meps11747</md:URI>
+</md:parameter>
+<md:PI id="col28.ds13614482.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:comment>Control corrected; included in the analysis</md:comment>
+<md:caption>Q [l/m**2/h] (Control corrected; included i...)</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="29" id="col29.ds13614483" label="WredeA_2019.30" source="data" type="string" >
+<md:parameter id="col29.ds13614483.param1570" >
+<md:name>Comment</md:name>
+<md:shortName>Comment</md:shortName>
+</md:parameter>
+<md:PI id="col29.ds13614483.pi68540" >
+<md:lastName>Wrede</md:lastName>
+<md:firstName>Alexa</md:firstName>
+<md:eMail>alexa.wrede@awi.de</md:eMail>
+<md:orcid>0000-0002-9369-4333</md:orcid>
+</md:PI>
+<md:comment>Removed control</md:comment>
+<md:caption>Comment (Removed control)</md:caption>
+</md:matrixColumn>
+<md:keywords>
+<md:techKeyword type="autoGenerated" >supplement</md:techKeyword>
+<md:keyword id="keywords.term48026" type="fromDatabase" >benthic Macrofauna</md:keyword>
+<md:keyword id="keywords.term48023" type="fromDatabase" >Bioirrigation</md:keyword>
+<md:keyword id="keywords.term48025" type="fromDatabase" >Bioirrigation potential</md:keyword>
+<md:keyword id="keywords.term48027" type="fromDatabase" >Trait based indices</md:keyword>
+<md:techKeyword type="autoGenerated" >author10381</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author36801</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author47518</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author56065</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68540</md:techKeyword>
+<md:techKeyword type="autoGenerated" >basis505</md:techKeyword>
+<md:techKeyword type="autoGenerated" >campaign42228</md:techKeyword>
+<md:techKeyword type="autoGenerated" >event2904665</md:techKeyword>
+<md:techKeyword type="autoGenerated" >event2904666</md:techKeyword>
+<md:techKeyword type="autoGenerated" >event2904668</md:techKeyword>
+<md:techKeyword type="autoGenerated" >event2904669</md:techKeyword>
+<md:techKeyword type="autoGenerated" >event2904670</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1599</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1600</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1601</md:techKeyword>
+<md:techKeyword type="autoGenerated" >journal4685</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param131372</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param136731</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param150986</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param152460</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param152481</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param1570</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param160731</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param160883</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param161330</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169869</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169870</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169871</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param18012</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param31581</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param31582</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param48492</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param7053</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param717</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param740</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param88037</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param96278</md:techKeyword>
+<md:techKeyword type="autoGenerated" >pi68540</md:techKeyword>
+<md:techKeyword type="autoGenerated" >ref99094</md:techKeyword>
+<md:techKeyword type="autoGenerated" >refds899847</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term20003</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term48023</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term48025</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term48026</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term48027</md:techKeyword>
+<md:techKeyword type="autoGenerated" >topotype1</md:techKeyword>
+</md:keywords>
+<md:technicalInfo>
+<md:entry key="xmlLastModified" value="2019-04-01T10:33:18Z" ></md:entry>
+<md:entry key="filename" value="Wrede_bioirrigation" ></md:entry>
+<md:entry key="mimeType" value="text/tab-separated-values" ></md:entry>
+<md:entry key="status" value="in review" ></md:entry>
+<md:entry key="status_num" value="2" ></md:entry>
+<md:entry key="DOIRegistryStatus" value="not to be registered" ></md:entry>
+<md:entry key="DOIRegistryStatus_num" value="1" ></md:entry>
+<md:entry key="loginOption" value="access rights needed" ></md:entry>
+<md:entry key="loginOption_num" value="3" ></md:entry>
+</md:technicalInfo>
+</md:MetaData> 

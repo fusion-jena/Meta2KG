@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bgc:metaProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.bgc-jena.mpg.de" xmlns:bgc="http://www.bgc-jena.mpg.de" xsi:schemaLocation="http://www.bgc-jena.mpg.de schema.xsd">
+  <bgc:general bgc:source="mixed">
+    <bgc:id bgc:source="intern">18007</bgc:id>
+    <bgc:versionID bgc:source="intern">1.1.8</bgc:versionID>
+    <bgc:title>GenLand - Phenotypic traits of Cynosurus cristatus - common garden 2013 - heritability</bgc:title>
+    <bgc:owners>
+      <bgc:owner number="1">Lena Kloss</bgc:owner>
+      <bgc:owner number="2">Walter Durka</bgc:owner>
+    </bgc:owners>
+    <bgc:projectName>GENLAND</bgc:projectName>
+    <bgc:datasetManager>
+      <bgc:datasetManagerName disabled="disabled">Walter Durka</bgc:datasetManagerName>
+      <bgc:institute disabled="disabled">UFZ Halle</bgc:institute>
+      <bgc:email disabled="disabled">walter.durka@ufz.de</bgc:email>
+    </bgc:datasetManager>
+  </bgc:general>
+  <bgc:researchObjects>
+    <bgc:approxNumberOfPlots>
+      <bgc:noOfGP>7</bgc:noOfGP>
+      <bgc:noOfEP>7</bgc:noOfEP>
+      <bgc:noOfMIP>3</bgc:noOfMIP>
+      <bgc:noOfVIP>1</bgc:noOfVIP>
+    </bgc:approxNumberOfPlots>
+    <bgc:habitats>
+      <bgc:grassland>yes</bgc:grassland>
+      <bgc:forest>no</bgc:forest>
+    </bgc:habitats>
+    <bgc:experimentalManipulation>no</bgc:experimentalManipulation>
+    <bgc:relativePositionToGround>
+      <bgc:aboveGround>yes</bgc:aboveGround>
+      <bgc:belowGround>no</bgc:belowGround>
+    </bgc:relativePositionToGround>
+    <bgc:repeatedMeasurement>
+      <bgc:timeBasedRepetition>
+        <bgc:numberOfRepetitions>0</bgc:numberOfRepetitions>
+      </bgc:timeBasedRepetition>
+      <bgc:plotBasedRepetition>
+        <bgc:numberOfSubPlots>0</bgc:numberOfSubPlots>
+      </bgc:plotBasedRepetition>
+    </bgc:repeatedMeasurement>
+    <bgc:taxa>
+      <bgc:taxon number="1">Plants</bgc:taxon>
+    </bgc:taxa>
+    <bgc:processesAndServices>
+      <bgc:processOrService number="1">Productivity</bgc:processOrService>
+      <bgc:processOrService number="2">Ecological Process - Dispersal</bgc:processOrService>
+    </bgc:processesAndServices>
+    <bgc:environmentalDescriptors>
+      <bgc:environmentalDescriptor number="1">Land Use</bgc:environmentalDescriptor>
+    </bgc:environmentalDescriptors>
+    <bgc:bioticDataTypes>
+      <bgc:bioticDataType number="1">Genetic</bgc:bioticDataType>
+      <bgc:bioticDataType number="2">Morphological</bgc:bioticDataType>
+      <bgc:bioticDataType number="3">Single Species</bgc:bioticDataType>
+      <bgc:bioticDataType number="4">Trait</bgc:bioticDataType>
+    </bgc:bioticDataTypes>
+  </bgc:researchObjects>
+  <bgc:methodology blockPublic="no">
+    <bgc:introduction input="textarea">In the grassland plant, Cynosurus cristatus, we measured phenotypic traits and their heritabilities (as measures of quantitative-genetic variation within populations) and QST values (as measures of quantitative-genetic variation among populations) and related them to land use data and landscape metrics.</bgc:introduction>
+    <bgc:measurements>
+      <bgc:theory input="textarea">We conducted a two-year common garden experiment on Cynosurus cristatus to test for land use effects on adaptive population differentiation and quantitative-genetic diversity within populations, using offspring from maternal plants sampled on EPs across land use gradients in all three Exploratories (see dataset: Phenotypic traits of Cynosurus cristatus - common garden 2013 - fitness).
+However, our estimate of within-population variance includes environmental variance together with genetic variance, thus inflating the denominator of QST (Latta 2003). We therefore followed the approach of Volis et al. (2005) and measured the phenotypic variation within and between seed families from a subset of EPs, which provides the between- and within-family components of variance, to estimate broad-sense heritabilities and the environmental component of variation in these traits. This will allow us to assess the bias in QST estimates.</bgc:theory>
+      <bgc:type input="textarea">We measured a set of phenotypic traits relevant in the context of land use, such as traits related to plant phenology (time to flowering), growth (plant height and biomass) and leaf morphology, allocation strategy (reproductive allocation) as well as fitness (number of flowers and fruits, reproductive biomass).</bgc:type>
+    </bgc:measurements>
+    <bgc:equipment>
+      <bgc:instruments input="textarea">ruler, fine scale</bgc:instruments>
+      <bgc:calibration input="textarea">none</bgc:calibration>
+      <bgc:procedures input="textarea">Seeds were collected in 2011 from mother plants at plots. Seeds were cold stratified over winter in soil in the unheated glass house. Up to six seedlings per mother plant were pricked and potted in single pots. In 2012, plants were planted in soil outside in a common garden at Bad Lauchstädt (UFZ Halle). Plants were watered as needed and harvested in 2013 when first fruit had ripened. At harvest, phenotypic traits were measured. Plant parts were dried over night after harvest in a compartment drier and immediately weighted afterwards.</bgc:procedures>
+    </bgc:equipment>
+  </bgc:methodology>
+  <bgc:description>
+    <bgc:acronyms>
+      <bgc:acronymPair number="1">
+        <bgc:acronym number="1">A</bgc:acronym>
+        <bgc:meaning number="1">Schwäbische Alb</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="2">
+        <bgc:acronym number="2">H</bgc:acronym>
+        <bgc:meaning number="2">Hainich-Dün</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="3">
+        <bgc:acronym number="3">S</bgc:acronym>
+        <bgc:meaning number="3">Schorfheide-Chorin</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="4">
+        <bgc:acronym number="4">QST</bgc:acronym>
+        <bgc:meaning number="4">degree of genetic differentiation among populations displayed by quantitative traits</bgc:meaning>
+      </bgc:acronymPair>
+    </bgc:acronyms>
+    <bgc:keywords>
+      <bgc:keyword number="1">diversity</bgc:keyword>
+      <bgc:keyword number="2">grassland</bgc:keyword>
+      <bgc:keyword number="3">plant</bgc:keyword>
+      <bgc:keyword number="4">quantitative genetics</bgc:keyword>
+      <bgc:keyword number="5">selection</bgc:keyword>
+      <bgc:keyword number="6">evolution</bgc:keyword>
+      <bgc:keyword number="7">fitness</bgc:keyword>
+      <bgc:keyword number="8">common garden</bgc:keyword>
+      <bgc:keyword number="9">adaptive</bgc:keyword>
+      <bgc:keyword number="10">traits</bgc:keyword>
+      <bgc:keyword number="11">biomass</bgc:keyword>
+      <bgc:keyword number="12">phenotypic traits</bgc:keyword>
+    </bgc:keywords>
+  </bgc:description>
+  <bgc:time>
+    <bgc:when timeType="period" xsi:type="bgc:dateFrame">
+      <bgc:format>dd.MM.yyyy</bgc:format>
+      <bgc:startDate>07.05.2012</bgc:startDate>
+      <bgc:endDate>30.07.2013</bgc:endDate>
+    </bgc:when>
+    <bgc:dateEntry bgc:source="intern">2014-05-12</bgc:dateEntry>
+    <bgc:dateLastModified bgc:source="intern">2018-05-29</bgc:dateLastModified>
+  </bgc:time>
+  <bgc:data>
+    <bgc:fileType>structuredData</bgc:fileType>
+    <bgc:manipulations input="textarea" />
+    <bgc:errors />
+    <bgc:qualityLevel>processed</bgc:qualityLevel>
+    <bgc:dataStatus>complete</bgc:dataStatus>
+    <bgc:dataStructure>
+      <bgc:dataFormat>
+        <bgc:missingValues />
+        <bgc:NA>NA</bgc:NA>
+      </bgc:dataFormat>
+      <bgc:matrix>
+        <bgc:columnName />
+        <bgc:rowName />
+        <bgc:contentType />
+        <bgc:matrixUnit />
+      </bgc:matrix>
+      <bgc:variables>
+        <bgc:variable number="1">
+          <bgc:name number="1">No</bgc:name>
+          <bgc:typeOfVariable number="1">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="1" />
+          <bgc:description number="1">order in common garden</bgc:description>
+          <bgc:block number="1">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="2">
+          <bgc:name number="2">EP_off</bgc:name>
+          <bgc:typeOfVariable number="2">string</bgc:typeOfVariable>
+          <bgc:units number="2" />
+          <bgc:description number="2">official EP ID</bgc:description>
+          <bgc:block number="2">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="3">
+          <bgc:name number="3">EP_sort</bgc:name>
+          <bgc:typeOfVariable number="3">string</bgc:typeOfVariable>
+          <bgc:units number="3" />
+          <bgc:description number="3">EP ID for sorting</bgc:description>
+          <bgc:block number="3">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="4">
+          <bgc:name number="4">PlotID</bgc:name>
+          <bgc:typeOfVariable number="4">string</bgc:typeOfVariable>
+          <bgc:units number="4" />
+          <bgc:description number="4">grid plot ID</bgc:description>
+          <bgc:block number="4">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="5">
+          <bgc:name number="5">PlotAbrev</bgc:name>
+          <bgc:typeOfVariable number="5">string</bgc:typeOfVariable>
+          <bgc:units number="5" />
+          <bgc:description number="5">abbreviated plot ID</bgc:description>
+          <bgc:block number="5">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="6">
+          <bgc:name number="6">Explo</bgc:name>
+          <bgc:typeOfVariable number="6">string</bgc:typeOfVariable>
+          <bgc:units number="6" />
+          <bgc:description number="6">abbreviation of exploratory</bgc:description>
+          <bgc:block number="6">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="7">
+          <bgc:name number="7">Mother</bgc:name>
+          <bgc:typeOfVariable number="7">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="7" />
+          <bgc:description number="7">mother ID</bgc:description>
+          <bgc:block number="7">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="8">
+          <bgc:name number="8">Offspring</bgc:name>
+          <bgc:typeOfVariable number="8">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="8" />
+          <bgc:description number="8">offspring category (for internal use)</bgc:description>
+          <bgc:block number="8">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="9">
+          <bgc:name number="9">IndID</bgc:name>
+          <bgc:typeOfVariable number="9">string</bgc:typeOfVariable>
+          <bgc:units number="9" />
+          <bgc:description number="9">individual ID for each offspring</bgc:description>
+          <bgc:block number="9">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="10">
+          <bgc:name number="10">PrickDat</bgc:name>
+          <bgc:typeOfVariable number="10">date</bgc:typeOfVariable>
+          <bgc:units number="10" />
+          <bgc:description number="10">prick of offspring seedlings</bgc:description>
+          <bgc:block number="10">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="11">
+          <bgc:name number="11">PlantDat_status</bgc:name>
+          <bgc:typeOfVariable number="11">string</bgc:typeOfVariable>
+          <bgc:units number="11" />
+          <bgc:description number="11">plant status at planting</bgc:description>
+          <bgc:block number="11">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="12">
+          <bgc:name number="12">PlantDat</bgc:name>
+          <bgc:typeOfVariable number="12">date</bgc:typeOfVariable>
+          <bgc:units number="12" />
+          <bgc:description number="12">planted in common garden</bgc:description>
+          <bgc:block number="12">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="13">
+          <bgc:name number="13">Flow_status</bgc:name>
+          <bgc:typeOfVariable number="13">string</bgc:typeOfVariable>
+          <bgc:units number="13" />
+          <bgc:description number="13">flowering status</bgc:description>
+          <bgc:block number="13">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="14">
+          <bgc:name number="14">Flow_dat</bgc:name>
+          <bgc:typeOfVariable number="14">date</bgc:typeOfVariable>
+          <bgc:units number="14" />
+          <bgc:description number="14">start of flowering</bgc:description>
+          <bgc:block number="14">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="15">
+          <bgc:name number="15">Flow_days</bgc:name>
+          <bgc:typeOfVariable number="15">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="15">julian days</bgc:units>
+          <bgc:description number="15">start of flowering</bgc:description>
+          <bgc:block number="15">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="16">
+          <bgc:name number="16">Harv_dat</bgc:name>
+          <bgc:typeOfVariable number="16">date</bgc:typeOfVariable>
+          <bgc:units number="16" />
+          <bgc:description number="16">harvest</bgc:description>
+          <bgc:block number="16">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="17">
+          <bgc:name number="17">Harv_days</bgc:name>
+          <bgc:typeOfVariable number="17">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="17">julian days</bgc:units>
+          <bgc:description number="17">harvest</bgc:description>
+          <bgc:block number="17">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="18">
+          <bgc:name number="18">Height_cm</bgc:name>
+          <bgc:typeOfVariable number="18">realNumber</bgc:typeOfVariable>
+          <bgc:units number="18">cm</bgc:units>
+          <bgc:description number="18">height at harvest</bgc:description>
+          <bgc:block number="18">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="19">
+          <bgc:name number="19">No_FlowStems</bgc:name>
+          <bgc:typeOfVariable number="19">realNumber</bgc:typeOfVariable>
+          <bgc:units number="19" />
+          <bgc:description number="19">number of flowering stems at harvest</bgc:description>
+          <bgc:block number="19">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="20">
+          <bgc:name number="20">DryWt_stems_g</bgc:name>
+          <bgc:typeOfVariable number="20">realNumber</bgc:typeOfVariable>
+          <bgc:units number="20">g</bgc:units>
+          <bgc:description number="20">dry weigth of vegetative parts at harvest</bgc:description>
+          <bgc:block number="20">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="21">
+          <bgc:name number="21">DryWt_flowers_g</bgc:name>
+          <bgc:typeOfVariable number="21">realNumber</bgc:typeOfVariable>
+          <bgc:units number="21">g</bgc:units>
+          <bgc:description number="21">dry weigth of reproductive parts at harvest</bgc:description>
+          <bgc:block number="21">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="22">
+          <bgc:name number="22">DryWt_tot_g</bgc:name>
+          <bgc:typeOfVariable number="22">realNumber</bgc:typeOfVariable>
+          <bgc:units number="22">g</bgc:units>
+          <bgc:description number="22">dry weight of total aboveground biomass at harvest</bgc:description>
+          <bgc:block number="22">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="23">
+          <bgc:name number="23">ReprAlloc_DryWt_flowers_perc_tot</bgc:name>
+          <bgc:typeOfVariable number="23">realNumber</bgc:typeOfVariable>
+          <bgc:units number="23">%</bgc:units>
+          <bgc:description number="23">reproductive allocation as proportion of dry weight of reproductive parts to whole aboveground biomass</bgc:description>
+          <bgc:block number="23">0</bgc:block>
+        </bgc:variable>
+      </bgc:variables>
+    </bgc:dataStructure>
+  </bgc:data>
+  <bgc:references>
+    <bgc:database />
+    <bgc:papers>
+      <bgc:paper number="1">Latta RG (2003) Gene flow, adaptive population divergence and comparative population structure across loci. - New Phytologist 161: 51-58.</bgc:paper>
+      <bgc:paper number="2">Volis S, Yakubov B, Shulgina I, Ward D, Mendlinger S (2005) Distinguishing adaptive from nonadaptive genetic differentiation: comparison of QST and FST at two spatial scales. - Heredity 95: 466-475.</bgc:paper>
+    </bgc:papers>
+    <bgc:relatedDatasets>
+      <bgc:dataset number="1">18006 Phenotypic traits of Cynosurus cristatus - common garden 2013 - fitness</bgc:dataset>
+      <bgc:dataset number="2">19506</bgc:dataset>
+    </bgc:relatedDatasets>
+    <bgc:citation>Kloss, Lena; Walter Durka (2018): GenLand - Phenotypic traits of Cynosurus cristatus - common garden 2013 - heritability. v1.1.8. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/PublicData/PublicData.aspx?DatasetId=18007</bgc:citation>
+  </bgc:references>
+  <bgc:comment />
+</bgc:metaProfile>

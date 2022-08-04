@@ -1,0 +1,788 @@
+<md:MetaData xmlns:md="http://www.pangaea.de/MetaData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ws.pangaea.de/schemas/pangaea/MetaData.xsd" version="2019-02-13">
+<md:citation id="dataset900073" >
+<md:author id="dataset.author21822" >
+<md:lastName>Waelbroeck</md:lastName>
+<md:firstName>Claire</md:firstName>
+<md:eMail>Claire.Waelbroeck@lsce.cnrs-gif.fr</md:eMail>
+<md:orcid>0000-0002-7256-5727</md:orcid>
+</md:author>
+<md:author id="dataset.author41470" >
+<md:lastName>Lougheed</md:lastName>
+<md:firstName>Bryan C</md:firstName>
+<md:eMail>bryan.lougheed@geol.lu.se</md:eMail>
+</md:author>
+<md:author id="dataset.author50898" >
+<md:lastName>Vázquez Riveiros</md:lastName>
+<md:firstName>Natalia</md:firstName>
+<md:eMail>nvazquez@ifremer.fr</md:eMail>
+<md:orcid>0000-0001-7513-153X</md:orcid>
+</md:author>
+<md:author id="dataset.author65136" >
+<md:lastName>Missiaen</md:lastName>
+<md:firstName>Lise</md:firstName>
+<md:eMail>l.missiaen@unsw.edu.au</md:eMail>
+<md:orcid>0000-0002-0679-1347</md:orcid>
+</md:author>
+<md:author id="dataset.author55490" >
+<md:lastName>Pedro</md:lastName>
+<md:firstName>Joel B</md:firstName>
+<md:orcid>0000-0002-0728-2712</md:orcid>
+</md:author>
+<md:author id="dataset.author21831" >
+<md:lastName>Dokken</md:lastName>
+<md:firstName>Trond</md:firstName>
+<md:eMail>trond.dokken@bjerknes.uib.no</md:eMail>
+</md:author>
+<md:author id="dataset.author22858" >
+<md:lastName>Hajdas</md:lastName>
+<md:firstName>Irka</md:firstName>
+<md:orcid>0000-0003-2373-2725</md:orcid>
+</md:author>
+<md:author id="dataset.author41473" >
+<md:lastName>Wacker</md:lastName>
+<md:firstName>Lukas</md:firstName>
+<md:eMail>wacker@phys.ethz.ch</md:eMail>
+<md:URI>http://www.ams.ethz.ch/people/person-detail.html?persid=110331</md:URI>
+<md:orcid>0000-0002-8215-2678</md:orcid>
+</md:author>
+<md:author id="dataset.author51337" >
+<md:lastName>Abbott</md:lastName>
+<md:firstName>Peter M</md:firstName>
+<md:eMail>p.abbott@swansea.ac.uk</md:eMail>
+<md:URI>http://www.swansea.ac.uk/staff/science/geography/p.abbott/</md:URI>
+<md:orcid>0000-0002-6347-9499</md:orcid>
+</md:author>
+<md:author id="dataset.author68499" >
+<md:lastName>Dumoulin</md:lastName>
+<md:firstName>Jean-Pascal</md:firstName>
+</md:author>
+<md:author id="dataset.author58611" >
+<md:lastName>Thil</md:lastName>
+<md:firstName>François</md:firstName>
+</md:author>
+<md:author id="dataset.author21824" >
+<md:lastName>Eynaud</md:lastName>
+<md:firstName>Frédérique</md:firstName>
+<md:eMail>f.eynaud@epoc.u-bordeaux1.fr</md:eMail>
+<md:orcid>0000-0003-1283-7425</md:orcid>
+</md:author>
+<md:author id="dataset.author58496" >
+<md:lastName>Rossignol</md:lastName>
+<md:firstName>Linda</md:firstName>
+</md:author>
+<md:author id="dataset.author68500" >
+<md:lastName>Fersi</md:lastName>
+<md:firstName>Wiem</md:firstName>
+</md:author>
+<md:author id="dataset.author55738" >
+<md:lastName>Albuquerque</md:lastName>
+<md:firstName>Ana Luiza Spadano</md:firstName>
+<md:orcid>0000-0003-1267-6190</md:orcid>
+</md:author>
+<md:author id="dataset.author10708" >
+<md:lastName>Arz</md:lastName>
+<md:firstName>Helge W</md:firstName>
+<md:eMail>helge.arz@io-warnemuende.de</md:eMail>
+</md:author>
+<md:author id="dataset.author20003" >
+<md:lastName>Austin</md:lastName>
+<md:firstName>William EN</md:firstName>
+<md:eMail>bill.austin@st-andrews.ac.uk</md:eMail>
+</md:author>
+<md:author id="dataset.author34775" >
+<md:lastName>Came</md:lastName>
+<md:firstName>Rosemarie E</md:firstName>
+</md:author>
+<md:author id="dataset.author53721" >
+<md:lastName>Carlson</md:lastName>
+<md:firstName>Anders E</md:firstName>
+</md:author>
+<md:author id="dataset.author35132" >
+<md:lastName>Collins</md:lastName>
+<md:firstName>James A</md:firstName>
+<md:eMail>jamescolly89@hotmail.com</md:eMail>
+</md:author>
+<md:author id="dataset.author21809" >
+<md:lastName>Dennielou</md:lastName>
+<md:firstName>Bernard</md:firstName>
+<md:eMail>Bernard.Dennielou@ifremer.fr</md:eMail>
+<md:orcid>0000-0002-9528-2746</md:orcid>
+</md:author>
+<md:author id="dataset.author28890" >
+<md:lastName>Desprat</md:lastName>
+<md:firstName>Stéphanie</md:firstName>
+<md:eMail>s.desprat@epoc.u-bordeaux1.fr</md:eMail>
+</md:author>
+<md:author id="dataset.author68501" >
+<md:lastName>Dickson</md:lastName>
+<md:firstName>Alex</md:firstName>
+</md:author>
+<md:author id="dataset.author38831" >
+<md:lastName>Elliot</md:lastName>
+<md:firstName>Mary</md:firstName>
+<md:eMail>Mary.Elliot@univ-nantes.fr</md:eMail>
+</md:author>
+<md:author id="dataset.author68502" >
+<md:lastName>Farmer</md:lastName>
+<md:firstName>Christa</md:firstName>
+</md:author>
+<md:author id="dataset.author24339" >
+<md:lastName>Giraudeau</md:lastName>
+<md:firstName>Jaques</md:firstName>
+<md:eMail>giraudeau@geocean.u-bordeaux.fr</md:eMail>
+</md:author>
+<md:author id="dataset.author52989" >
+<md:lastName>Gottschalk</md:lastName>
+<md:firstName>Julia</md:firstName>
+<md:eMail>julia.gottschalk@geo.unibe.ch</md:eMail>
+<md:orcid>0000-0002-0403-3059</md:orcid>
+</md:author>
+<md:author id="dataset.author24775" >
+<md:lastName>Henderiks</md:lastName>
+<md:firstName>Jorijntje</md:firstName>
+</md:author>
+<md:author id="dataset.author23638" >
+<md:lastName>Hughen</md:lastName>
+<md:firstName>Konrad A</md:firstName>
+</md:author>
+<md:author id="dataset.author68503" >
+<md:lastName>Jung</md:lastName>
+<md:firstName>Simon</md:firstName>
+</md:author>
+<md:author id="dataset.author22062" >
+<md:lastName>Knutz</md:lastName>
+<md:firstName>Paul Cornils</md:firstName>
+<md:eMail>knutz@geo.geol.ku.dk</md:eMail>
+<md:URI>http://www.geol.ku.dk/paul_k.htm</md:URI>
+<md:orcid>0000-0001-5188-4254</md:orcid>
+</md:author>
+<md:author id="dataset.author10172" >
+<md:lastName>Lebreiro</md:lastName>
+<md:firstName>Susana Martin</md:firstName>
+<md:eMail>susana.lebreiro@igme.es</md:eMail>
+<md:orcid>0000-0003-1478-2448</md:orcid>
+</md:author>
+<md:author id="dataset.author37884" >
+<md:lastName>Lund</md:lastName>
+<md:firstName>David C</md:firstName>
+</md:author>
+<md:author id="dataset.author896" >
+<md:lastName>Lynch-Stieglitz</md:lastName>
+<md:firstName>Jean</md:firstName>
+<md:eMail>jean@gatech.edu</md:eMail>
+<md:orcid>0000-0002-9353-1972</md:orcid>
+</md:author>
+<md:author id="dataset.author22612" >
+<md:lastName>Malaizé</md:lastName>
+<md:firstName>Bruno</md:firstName>
+<md:eMail>b.malaize@epoc.u-bordeaux1.fr</md:eMail>
+</md:author>
+<md:author id="dataset.author29622" >
+<md:lastName>Marchitto</md:lastName>
+<md:firstName>Thomas M</md:firstName>
+<md:orcid>0000-0003-2397-8768</md:orcid>
+</md:author>
+<md:author id="dataset.author42633" >
+<md:lastName>Martínez Méndez</md:lastName>
+<md:firstName>Gema</md:firstName>
+<md:orcid>0000-0001-7950-6837</md:orcid>
+</md:author>
+<md:author id="dataset.author10824" >
+<md:lastName>Mollenhauer</md:lastName>
+<md:firstName>Gesine</md:firstName>
+<md:eMail>gesine.mollenhauer@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/gesine-mollenhauer.html</md:URI>
+<md:orcid>0000-0001-5138-564X</md:orcid>
+</md:author>
+<md:author id="dataset.author30931" >
+<md:lastName>Naughton</md:lastName>
+<md:firstName>Filipa</md:firstName>
+<md:orcid>0000-0002-3055-9396</md:orcid>
+</md:author>
+<md:author id="dataset.author22404" >
+<md:lastName>Nave</md:lastName>
+<md:firstName>Silvia Osorio</md:firstName>
+<md:eMail>silvia.nave@igm.pt</md:eMail>
+</md:author>
+<md:author id="dataset.author89" >
+<md:lastName>Nürnberg</md:lastName>
+<md:firstName>Dirk</md:firstName>
+<md:eMail>dnuernberg@geomar.de</md:eMail>
+<md:URI>http://www.geomar.de/de/mitarbeiter/fb1/po-z/dnuernberg/</md:URI>
+</md:author>
+<md:author id="dataset.author757" >
+<md:lastName>Oppo</md:lastName>
+<md:firstName>Delia W</md:firstName>
+<md:eMail>doppo@whoi.edu</md:eMail>
+<md:orcid>0000-0003-2946-5904</md:orcid>
+</md:author>
+<md:author id="dataset.author51089" >
+<md:lastName>Peck</md:lastName>
+<md:firstName>Victoria L</md:firstName>
+<md:eMail>vlp@bas.ac.uk</md:eMail>
+<md:URI>https://www.bas.ac.uk/profile/vlp/</md:URI>
+</md:author>
+<md:author id="dataset.author28191" >
+<md:lastName>Peeters</md:lastName>
+<md:firstName>Frank J C</md:firstName>
+<md:orcid>0000-0002-5678-9288</md:orcid>
+</md:author>
+<md:author id="dataset.author35968" >
+<md:lastName>Penaud</md:lastName>
+<md:firstName>Aurélie</md:firstName>
+</md:author>
+<md:author id="dataset.author60652" >
+<md:lastName>Portilho-Ramos</md:lastName>
+<md:firstName>Rodrigo Costa</md:firstName>
+<md:eMail>rcpramos@yahoo.com.br</md:eMail>
+<md:orcid>0000-0002-1182-1547</md:orcid>
+</md:author>
+<md:author id="dataset.author50513" >
+<md:lastName>Repschläger</md:lastName>
+<md:firstName>Janne</md:firstName>
+<md:eMail>J.Repschlaeger@mpic.de</md:eMail>
+<md:orcid>0000-0002-6885-2280</md:orcid>
+</md:author>
+<md:author id="dataset.author56424" >
+<md:lastName>Roberts</md:lastName>
+<md:firstName>Jenny</md:firstName>
+<md:eMail>jenny.roberts@awi.de</md:eMail>
+<md:URI>https://www.awi.de/en/about-us/organisation/staff/jenny-roberts.html</md:URI>
+<md:orcid>0000-0002-1098-0829</md:orcid>
+</md:author>
+<md:author id="dataset.author614" >
+<md:lastName>Rühlemann</md:lastName>
+<md:firstName>Carsten</md:firstName>
+<md:eMail>c.ruehlemann@bgr.de</md:eMail>
+</md:author>
+<md:author id="dataset.author28897" >
+<md:lastName>Salgueiro</md:lastName>
+<md:firstName>Emilia</md:firstName>
+<md:eMail>emilia.salgueiro@ipma.pt</md:eMail>
+<md:orcid>0000-0003-1000-2977</md:orcid>
+</md:author>
+<md:author id="dataset.author26378" >
+<md:lastName>Sanchez Goñi</md:lastName>
+<md:firstName>Maria Fernanda</md:firstName>
+<md:eMail>maria.sanchez-goni@u-bordeaux.fr</md:eMail>
+<md:URI>http://www.epoc.u-bordeaux.fr/index.php?lang=en&amp;page=fiche_permanents&amp;id=mfsanche</md:URI>
+<md:orcid>0000-0001-8238-7488</md:orcid>
+</md:author>
+<md:author id="dataset.author980" >
+<md:lastName>Schönfeld</md:lastName>
+<md:firstName>Joachim</md:firstName>
+<md:eMail>jschoenfeld@geomar.de</md:eMail>
+</md:author>
+<md:author id="dataset.author50606" >
+<md:lastName>Scussolini</md:lastName>
+<md:firstName>Paolo</md:firstName>
+<md:eMail>paolo.scussolini@gmail.com</md:eMail>
+</md:author>
+<md:author id="dataset.author28583" >
+<md:lastName>Skinner</md:lastName>
+<md:firstName>Luke C</md:firstName>
+<md:eMail>luke00@esc.cam.ac.uk</md:eMail>
+</md:author>
+<md:author id="dataset.author39988" >
+<md:lastName>Skonieczny</md:lastName>
+<md:firstName>Charlotte</md:firstName>
+<md:orcid>0000-0002-4422-7464</md:orcid>
+</md:author>
+<md:author id="dataset.author49579" >
+<md:lastName>Thornalley</md:lastName>
+<md:firstName>David JR</md:firstName>
+</md:author>
+<md:author id="dataset.author35967" >
+<md:lastName>Toucanne</md:lastName>
+<md:firstName>Samuel</md:firstName>
+<md:orcid>0000-0002-4858-8953</md:orcid>
+</md:author>
+<md:author id="dataset.author20088" >
+<md:lastName>Van Rooij</md:lastName>
+<md:firstName>David</md:firstName>
+<md:eMail>david.vanrooij@rug.ac.be</md:eMail>
+<md:orcid>0000-0003-3633-3344</md:orcid>
+</md:author>
+<md:author id="dataset.author698" >
+<md:lastName>Vidal</md:lastName>
+<md:firstName>Laurence</md:firstName>
+<md:eMail>vidal@cerege.fr</md:eMail>
+</md:author>
+<md:author id="dataset.author436" >
+<md:lastName>Voelker</md:lastName>
+<md:firstName>Antje H L</md:firstName>
+<md:eMail>antje.voelker@ipma.pt</md:eMail>
+<md:orcid>0000-0001-6465-6023</md:orcid>
+</md:author>
+<md:author id="dataset.author56623" >
+<md:lastName>Wary</md:lastName>
+<md:firstName>Mélanie</md:firstName>
+<md:eMail>melanie.wary@u-bordeaux.fr</md:eMail>
+<md:orcid>0000-0001-5211-2168</md:orcid>
+</md:author>
+<md:author id="dataset.author21634" >
+<md:lastName>Weldeab</md:lastName>
+<md:firstName>Syee</md:firstName>
+<md:eMail>sweldeab@geol.ucsb.edu</md:eMail>
+<md:orcid>0000-0002-4829-5237</md:orcid>
+</md:author>
+<md:author id="dataset.author32997" >
+<md:lastName>Ziegler</md:lastName>
+<md:firstName>Martin</md:firstName>
+<md:eMail>M.Ziegler@uu.nl</md:eMail>
+</md:author>
+<md:year>2019</md:year>
+<md:title>Consistently dated Atlantic sediment cores</md:title>
+<md:URI>https://doi.org/10.1594/PANGAEA.900073</md:URI>
+<md:dateTime>2019-04-03T12:49:37</md:dateTime>
+<md:supplementTo id="ref99194" >
+<md:author id="ref99194.author21822" >
+<md:lastName>Waelbroeck</md:lastName>
+<md:firstName>Claire</md:firstName>
+<md:eMail>Claire.Waelbroeck@lsce.cnrs-gif.fr</md:eMail>
+<md:orcid>0000-0002-7256-5727</md:orcid>
+</md:author>
+<md:author id="ref99194.author41470" >
+<md:lastName>Lougheed</md:lastName>
+<md:firstName>Bryan C</md:firstName>
+<md:eMail>bryan.lougheed@geol.lu.se</md:eMail>
+</md:author>
+<md:author id="ref99194.author50898" >
+<md:lastName>Vázquez Riveiros</md:lastName>
+<md:firstName>Natalia</md:firstName>
+<md:eMail>nvazquez@ifremer.fr</md:eMail>
+<md:orcid>0000-0001-7513-153X</md:orcid>
+</md:author>
+<md:author id="ref99194.author65136" >
+<md:lastName>Missiaen</md:lastName>
+<md:firstName>Lise</md:firstName>
+<md:eMail>l.missiaen@unsw.edu.au</md:eMail>
+<md:orcid>0000-0002-0679-1347</md:orcid>
+</md:author>
+<md:author id="ref99194.author55490" >
+<md:lastName>Pedro</md:lastName>
+<md:firstName>Joel B</md:firstName>
+<md:orcid>0000-0002-0728-2712</md:orcid>
+</md:author>
+<md:author id="ref99194.author21831" >
+<md:lastName>Dokken</md:lastName>
+<md:firstName>Trond</md:firstName>
+<md:eMail>trond.dokken@bjerknes.uib.no</md:eMail>
+</md:author>
+<md:author id="ref99194.author22858" >
+<md:lastName>Hajdas</md:lastName>
+<md:firstName>Irka</md:firstName>
+<md:orcid>0000-0003-2373-2725</md:orcid>
+</md:author>
+<md:author id="ref99194.author41473" >
+<md:lastName>Wacker</md:lastName>
+<md:firstName>Lukas</md:firstName>
+<md:eMail>wacker@phys.ethz.ch</md:eMail>
+<md:URI>http://www.ams.ethz.ch/people/person-detail.html?persid=110331</md:URI>
+<md:orcid>0000-0002-8215-2678</md:orcid>
+</md:author>
+<md:author id="ref99194.author51337" >
+<md:lastName>Abbott</md:lastName>
+<md:firstName>Peter M</md:firstName>
+<md:eMail>p.abbott@swansea.ac.uk</md:eMail>
+<md:URI>http://www.swansea.ac.uk/staff/science/geography/p.abbott/</md:URI>
+<md:orcid>0000-0002-6347-9499</md:orcid>
+</md:author>
+<md:author id="ref99194.author68499" >
+<md:lastName>Dumoulin</md:lastName>
+<md:firstName>Jean-Pascal</md:firstName>
+</md:author>
+<md:author id="ref99194.author58611" >
+<md:lastName>Thil</md:lastName>
+<md:firstName>François</md:firstName>
+</md:author>
+<md:author id="ref99194.author21824" >
+<md:lastName>Eynaud</md:lastName>
+<md:firstName>Frédérique</md:firstName>
+<md:eMail>f.eynaud@epoc.u-bordeaux1.fr</md:eMail>
+<md:orcid>0000-0003-1283-7425</md:orcid>
+</md:author>
+<md:author id="ref99194.author58496" >
+<md:lastName>Rossignol</md:lastName>
+<md:firstName>Linda</md:firstName>
+</md:author>
+<md:author id="ref99194.author68500" >
+<md:lastName>Fersi</md:lastName>
+<md:firstName>Wiem</md:firstName>
+</md:author>
+<md:author id="ref99194.author55738" >
+<md:lastName>Albuquerque</md:lastName>
+<md:firstName>Ana Luiza Spadano</md:firstName>
+<md:orcid>0000-0003-1267-6190</md:orcid>
+</md:author>
+<md:author id="ref99194.author10708" >
+<md:lastName>Arz</md:lastName>
+<md:firstName>Helge W</md:firstName>
+<md:eMail>helge.arz@io-warnemuende.de</md:eMail>
+</md:author>
+<md:author id="ref99194.author20003" >
+<md:lastName>Austin</md:lastName>
+<md:firstName>William EN</md:firstName>
+<md:eMail>bill.austin@st-andrews.ac.uk</md:eMail>
+</md:author>
+<md:author id="ref99194.author34775" >
+<md:lastName>Came</md:lastName>
+<md:firstName>Rosemarie E</md:firstName>
+</md:author>
+<md:author id="ref99194.author53721" >
+<md:lastName>Carlson</md:lastName>
+<md:firstName>Anders E</md:firstName>
+</md:author>
+<md:author id="ref99194.author35132" >
+<md:lastName>Collins</md:lastName>
+<md:firstName>James A</md:firstName>
+<md:eMail>jamescolly89@hotmail.com</md:eMail>
+</md:author>
+<md:author id="ref99194.author21809" >
+<md:lastName>Dennielou</md:lastName>
+<md:firstName>Bernard</md:firstName>
+<md:eMail>Bernard.Dennielou@ifremer.fr</md:eMail>
+<md:orcid>0000-0002-9528-2746</md:orcid>
+</md:author>
+<md:author id="ref99194.author28890" >
+<md:lastName>Desprat</md:lastName>
+<md:firstName>Stéphanie</md:firstName>
+<md:eMail>s.desprat@epoc.u-bordeaux1.fr</md:eMail>
+</md:author>
+<md:author id="ref99194.author68501" >
+<md:lastName>Dickson</md:lastName>
+<md:firstName>Alex</md:firstName>
+</md:author>
+<md:author id="ref99194.author38831" >
+<md:lastName>Elliot</md:lastName>
+<md:firstName>Mary</md:firstName>
+<md:eMail>Mary.Elliot@univ-nantes.fr</md:eMail>
+</md:author>
+<md:author id="ref99194.author68502" >
+<md:lastName>Farmer</md:lastName>
+<md:firstName>Christa</md:firstName>
+</md:author>
+<md:author id="ref99194.author24339" >
+<md:lastName>Giraudeau</md:lastName>
+<md:firstName>Jaques</md:firstName>
+<md:eMail>giraudeau@geocean.u-bordeaux.fr</md:eMail>
+</md:author>
+<md:author id="ref99194.author52989" >
+<md:lastName>Gottschalk</md:lastName>
+<md:firstName>Julia</md:firstName>
+<md:eMail>julia.gottschalk@geo.unibe.ch</md:eMail>
+<md:orcid>0000-0002-0403-3059</md:orcid>
+</md:author>
+<md:author id="ref99194.author24775" >
+<md:lastName>Henderiks</md:lastName>
+<md:firstName>Jorijntje</md:firstName>
+</md:author>
+<md:author id="ref99194.author23638" >
+<md:lastName>Hughen</md:lastName>
+<md:firstName>Konrad A</md:firstName>
+</md:author>
+<md:author id="ref99194.author68503" >
+<md:lastName>Jung</md:lastName>
+<md:firstName>Simon</md:firstName>
+</md:author>
+<md:author id="ref99194.author22062" >
+<md:lastName>Knutz</md:lastName>
+<md:firstName>Paul Cornils</md:firstName>
+<md:eMail>knutz@geo.geol.ku.dk</md:eMail>
+<md:URI>http://www.geol.ku.dk/paul_k.htm</md:URI>
+<md:orcid>0000-0001-5188-4254</md:orcid>
+</md:author>
+<md:author id="ref99194.author10172" >
+<md:lastName>Lebreiro</md:lastName>
+<md:firstName>Susana Martin</md:firstName>
+<md:eMail>susana.lebreiro@igme.es</md:eMail>
+<md:orcid>0000-0003-1478-2448</md:orcid>
+</md:author>
+<md:author id="ref99194.author37884" >
+<md:lastName>Lund</md:lastName>
+<md:firstName>David C</md:firstName>
+</md:author>
+<md:author id="ref99194.author896" >
+<md:lastName>Lynch-Stieglitz</md:lastName>
+<md:firstName>Jean</md:firstName>
+<md:eMail>jean@gatech.edu</md:eMail>
+<md:orcid>0000-0002-9353-1972</md:orcid>
+</md:author>
+<md:author id="ref99194.author22612" >
+<md:lastName>Malaizé</md:lastName>
+<md:firstName>Bruno</md:firstName>
+<md:eMail>b.malaize@epoc.u-bordeaux1.fr</md:eMail>
+</md:author>
+<md:author id="ref99194.author29622" >
+<md:lastName>Marchitto</md:lastName>
+<md:firstName>Thomas M</md:firstName>
+<md:orcid>0000-0003-2397-8768</md:orcid>
+</md:author>
+<md:author id="ref99194.author42633" >
+<md:lastName>Martínez Méndez</md:lastName>
+<md:firstName>Gema</md:firstName>
+<md:orcid>0000-0001-7950-6837</md:orcid>
+</md:author>
+<md:author id="ref99194.author10824" >
+<md:lastName>Mollenhauer</md:lastName>
+<md:firstName>Gesine</md:firstName>
+<md:eMail>gesine.mollenhauer@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/gesine-mollenhauer.html</md:URI>
+<md:orcid>0000-0001-5138-564X</md:orcid>
+</md:author>
+<md:author id="ref99194.author30931" >
+<md:lastName>Naughton</md:lastName>
+<md:firstName>Filipa</md:firstName>
+<md:orcid>0000-0002-3055-9396</md:orcid>
+</md:author>
+<md:author id="ref99194.author22404" >
+<md:lastName>Nave</md:lastName>
+<md:firstName>Silvia Osorio</md:firstName>
+<md:eMail>silvia.nave@igm.pt</md:eMail>
+</md:author>
+<md:author id="ref99194.author89" >
+<md:lastName>Nürnberg</md:lastName>
+<md:firstName>Dirk</md:firstName>
+<md:eMail>dnuernberg@geomar.de</md:eMail>
+<md:URI>http://www.geomar.de/de/mitarbeiter/fb1/po-z/dnuernberg/</md:URI>
+</md:author>
+<md:author id="ref99194.author757" >
+<md:lastName>Oppo</md:lastName>
+<md:firstName>Delia W</md:firstName>
+<md:eMail>doppo@whoi.edu</md:eMail>
+<md:orcid>0000-0003-2946-5904</md:orcid>
+</md:author>
+<md:author id="ref99194.author51089" >
+<md:lastName>Peck</md:lastName>
+<md:firstName>Victoria L</md:firstName>
+<md:eMail>vlp@bas.ac.uk</md:eMail>
+<md:URI>https://www.bas.ac.uk/profile/vlp/</md:URI>
+</md:author>
+<md:author id="ref99194.author28191" >
+<md:lastName>Peeters</md:lastName>
+<md:firstName>Frank J C</md:firstName>
+<md:orcid>0000-0002-5678-9288</md:orcid>
+</md:author>
+<md:author id="ref99194.author35968" >
+<md:lastName>Penaud</md:lastName>
+<md:firstName>Aurélie</md:firstName>
+</md:author>
+<md:author id="ref99194.author60652" >
+<md:lastName>Portilho-Ramos</md:lastName>
+<md:firstName>Rodrigo Costa</md:firstName>
+<md:eMail>rcpramos@yahoo.com.br</md:eMail>
+<md:orcid>0000-0002-1182-1547</md:orcid>
+</md:author>
+<md:author id="ref99194.author50513" >
+<md:lastName>Repschläger</md:lastName>
+<md:firstName>Janne</md:firstName>
+<md:eMail>J.Repschlaeger@mpic.de</md:eMail>
+<md:orcid>0000-0002-6885-2280</md:orcid>
+</md:author>
+<md:author id="ref99194.author56424" >
+<md:lastName>Roberts</md:lastName>
+<md:firstName>Jenny</md:firstName>
+<md:eMail>jenny.roberts@awi.de</md:eMail>
+<md:URI>https://www.awi.de/en/about-us/organisation/staff/jenny-roberts.html</md:URI>
+<md:orcid>0000-0002-1098-0829</md:orcid>
+</md:author>
+<md:author id="ref99194.author614" >
+<md:lastName>Rühlemann</md:lastName>
+<md:firstName>Carsten</md:firstName>
+<md:eMail>c.ruehlemann@bgr.de</md:eMail>
+</md:author>
+<md:author id="ref99194.author28897" >
+<md:lastName>Salgueiro</md:lastName>
+<md:firstName>Emilia</md:firstName>
+<md:eMail>emilia.salgueiro@ipma.pt</md:eMail>
+<md:orcid>0000-0003-1000-2977</md:orcid>
+</md:author>
+<md:author id="ref99194.author26378" >
+<md:lastName>Sanchez Goñi</md:lastName>
+<md:firstName>Maria Fernanda</md:firstName>
+<md:eMail>maria.sanchez-goni@u-bordeaux.fr</md:eMail>
+<md:URI>http://www.epoc.u-bordeaux.fr/index.php?lang=en&amp;page=fiche_permanents&amp;id=mfsanche</md:URI>
+<md:orcid>0000-0001-8238-7488</md:orcid>
+</md:author>
+<md:author id="ref99194.author980" >
+<md:lastName>Schönfeld</md:lastName>
+<md:firstName>Joachim</md:firstName>
+<md:eMail>jschoenfeld@geomar.de</md:eMail>
+</md:author>
+<md:author id="ref99194.author50606" >
+<md:lastName>Scussolini</md:lastName>
+<md:firstName>Paolo</md:firstName>
+<md:eMail>paolo.scussolini@gmail.com</md:eMail>
+</md:author>
+<md:author id="ref99194.author28583" >
+<md:lastName>Skinner</md:lastName>
+<md:firstName>Luke C</md:firstName>
+<md:eMail>luke00@esc.cam.ac.uk</md:eMail>
+</md:author>
+<md:author id="ref99194.author39988" >
+<md:lastName>Skonieczny</md:lastName>
+<md:firstName>Charlotte</md:firstName>
+<md:orcid>0000-0002-4422-7464</md:orcid>
+</md:author>
+<md:author id="ref99194.author49579" >
+<md:lastName>Thornalley</md:lastName>
+<md:firstName>David JR</md:firstName>
+</md:author>
+<md:author id="ref99194.author35967" >
+<md:lastName>Toucanne</md:lastName>
+<md:firstName>Samuel</md:firstName>
+<md:orcid>0000-0002-4858-8953</md:orcid>
+</md:author>
+<md:author id="ref99194.author20088" >
+<md:lastName>Van Rooij</md:lastName>
+<md:firstName>David</md:firstName>
+<md:eMail>david.vanrooij@rug.ac.be</md:eMail>
+<md:orcid>0000-0003-3633-3344</md:orcid>
+</md:author>
+<md:author id="ref99194.author698" >
+<md:lastName>Vidal</md:lastName>
+<md:firstName>Laurence</md:firstName>
+<md:eMail>vidal@cerege.fr</md:eMail>
+</md:author>
+<md:author id="ref99194.author436" >
+<md:lastName>Voelker</md:lastName>
+<md:firstName>Antje H L</md:firstName>
+<md:eMail>antje.voelker@ipma.pt</md:eMail>
+<md:orcid>0000-0001-6465-6023</md:orcid>
+</md:author>
+<md:author id="ref99194.author56623" >
+<md:lastName>Wary</md:lastName>
+<md:firstName>Mélanie</md:firstName>
+<md:eMail>melanie.wary@u-bordeaux.fr</md:eMail>
+<md:orcid>0000-0001-5211-2168</md:orcid>
+</md:author>
+<md:author id="ref99194.author21634" >
+<md:lastName>Weldeab</md:lastName>
+<md:firstName>Syee</md:firstName>
+<md:eMail>sweldeab@geol.ucsb.edu</md:eMail>
+<md:orcid>0000-0002-4829-5237</md:orcid>
+</md:author>
+<md:author id="ref99194.author32997" >
+<md:lastName>Ziegler</md:lastName>
+<md:firstName>Martin</md:firstName>
+<md:eMail>M.Ziegler@uu.nl</md:eMail>
+</md:author>
+<md:prepubStatus>in review</md:prepubStatus>
+<md:title>Consistently dated Atlantic sediment cores over the last 40 thousand years</md:title>
+</md:supplementTo>
+</md:citation>
+<md:abstract>Rapid changes in ocean circulation and climate have been observed in marine-sediment and ice cores over the last glacial period and deglaciation, highlighting the non-linear character of the climate system and underlining the possibility of rapid climate shifts in response to anthropogenic greenhouse gas forcing. To date, these rapid changes in climate and ocean circulation are still not fully explained. One obstacle hindering progress in our understanding of the interactions between past ocean circulation and climate changes is the difficulty of accurately dating marine cores. Here, we present a set of 92 marine sediment cores from the Atlantic Ocean for which we have established age-depth models that are consistent with the Greenland GICC05 ice core chronology, and computed the associated dating uncertainties, using a new deposition modeling technique. This is the first set of consistently dated marine sediment cores enabling paleoclimate scientists to evaluate leads/lags between circulation and climate changes over vast regions of the Atlantic Ocean. Moreover, this data set is of direct use in paleoclimate modeling studies.</md:abstract>
+<md:extent>
+<md:geographic>
+<md:westBoundLongitude>-87.1188</md:westBoundLongitude>
+<md:eastBoundLongitude>29.24</md:eastBoundLongitude>
+<md:southBoundLatitude>-53.013</md:southBoundLatitude>
+<md:northBoundLatitude>67.86666</md:northBoundLatitude>
+<md:meanLongitude>-25.75851744396654</md:meanLongitude>
+<md:meanLatitude>21.729984026284342</md:meanLatitude>
+</md:geographic>
+<md:temporal>
+<md:minDateTime>1971-12-03T00:00:00</md:minDateTime>
+<md:maxDateTime>2012-03-08T16:07:00</md:maxDateTime>
+</md:temporal>
+<md:topoType id="topotype1" >not specified</md:topoType>
+</md:extent>
+<md:size unit="datasets" >93</md:size>
+<md:additionalSearchableContent>Core | ASST alignment to NGRIP | Method comment | Method comm | Use of tephra chronological markers | Age-depth model | Persistent Identifier | Age model input | Reference/source | Reference | Age model | Uniform resource locator/link to graphic | URL graphic | median age | mean age | 95.45% Confidence Interval lower boundary | Age, minimum/young | Age min | 68.27% Confidence Interval lower boundary | 68.27% Confidence Interval upper boundary | Age, maximum/old | Age max | 95.45% Confidence Interval upper boundary</md:additionalSearchableContent>
+<md:keywords>
+<md:techKeyword type="autoGenerated" >supplement</md:techKeyword>
+<md:techKeyword type="autoGenerated" >citable</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param20813</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param48492</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param6</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param6167</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param6168</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param6857</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param78006</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param83788</md:techKeyword>
+<md:techKeyword type="autoGenerated" >pi21822</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author10172</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author10708</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author10824</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author20003</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author20088</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author21634</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author21809</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author21822</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author21824</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author21831</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author22062</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author22404</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author22612</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author22858</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author23638</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author24339</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author24775</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author26378</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author28191</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author28583</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author28890</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author28897</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author29622</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author30931</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author32997</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author34775</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author35132</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author35967</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author35968</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author37884</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author38831</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author39988</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author41470</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author41473</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author42633</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author436</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author49579</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author50513</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author50606</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author50898</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author51089</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author51337</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author52989</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author53721</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author55490</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author55738</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author56424</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author56623</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author58496</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author58611</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author60652</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author614</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author65136</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68499</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68500</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68501</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68502</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68503</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author698</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author757</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author89</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author896</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author980</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1599</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1600</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1601</md:techKeyword>
+<md:techKeyword type="autoGenerated" >ref99194</md:techKeyword>
+<md:techKeyword type="autoGenerated" >topotype1</md:techKeyword>
+</md:keywords>
+<md:technicalInfo>
+<md:entry key="xmlLastModified" value="2019-08-22T05:59:51Z" ></md:entry>
+<md:entry key="filename" value="WaelbroeckC-etal_2019" ></md:entry>
+<md:entry key="mimeType" value="application/zip" ></md:entry>
+<md:entry key="status" value="published" ></md:entry>
+<md:entry key="status_num" value="4" ></md:entry>
+<md:entry key="DOIRegistryStatus" value="registered" ></md:entry>
+<md:entry key="DOIRegistryStatus_num" value="4" ></md:entry>
+<md:entry key="hierarchyLevel" value="parent" ></md:entry>
+<md:entry key="collectionType" value="publication series" ></md:entry>
+<md:entry key="collectionType_num" value="4" ></md:entry>
+<md:entry key="collectionChilds" value="U899490,U899979,U899980,U899981,U899982,U899983,U899984,U899985,U899986,U899987,U899988,U899989,U899990,U899991,U899992,U899993,U899994,U899995,U899996,U899997,U899998,U899999,U900000,U900001,U900002,U900003,U900004,U900005,U900006,U900007,U900008,U900009,U900010,U900011,U900012,U900013,U900014,U900015,U900016,U900017,U900018,U900019,U900020,U900021,U900022,U900023,U900024,U900025,U900026,U900027,U900028,U900029,U900030,U900031,U900032,U900033,U900034,U900035,U900036,U900037,U900039,U900040,U900041,U900042,U900043,U900044,U900045,U900046,U900047,U900048,U900049,U900050,U900051,U900052,U900054,U900055,U900056,U900057,U900058,U900059,U900060,U900061,U900062,U900063,U900064,U900065,U900066,U900067,U900068,U900069,U900070,U900071,U900072" ></md:entry>
+<md:entry key="loginOption" value="access rights needed" ></md:entry>
+<md:entry key="loginOption_num" value="3" ></md:entry>
+</md:technicalInfo>
+</md:MetaData> 

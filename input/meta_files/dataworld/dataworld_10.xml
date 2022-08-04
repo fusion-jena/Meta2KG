@@ -1,0 +1,1239 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">us-usda-gov_f3a633e7-aabb-4419-8da1-4cdb6f6910da</name>
+	<title type="str">HoloBee Database v2016.1</title>
+	<description type="str">HoloBee Database v2016.1
+
+Organisms living in honey bees and honey bee colonies form large associative holobiont communities that are integral to bee biology. High-throughput sequencing approaches to characterize these holobiont communities from honey bees in various states of health and disease are now commonplace, producing large amounts of nucleotide sequence data that must be accurately and consistently analyzed in order to produce reliable and comparable reports. In addition, new species designations and revisions are actively being made from honey bee holobiont communities, complicating nomenclature in larger databases where taxonomic descriptions associated with archived sequences can quickly become outdated and misleading. To improve the accuracy and consistency of honey bee holobiont research, we have developed HoloBee: a curated database of publicly accessioned nucleotide sequences from the honey bee holobiont community. Except in rare and noted exceptions made by curators, sequences used in HoloBee were obtained from, or in association with, Apis mellifera (Western honey bee) as well as other honey bee species where available (e.g. Apis cerana, Apis dorsata, Apis laboriosa, Apis koschevnikovi, Apis florea, Apis andreniformis and Apis nigrocincta). Sources include: within or on the surface of honey bees (adult, pupae, larvae, egg), corbicular pollen, bee bread, royal jelly, honey, comb, hive surfaces (e.g. bottom board debris, frames, landing platforms), and isolates of microbes, parasites and pathogens from honey bees. HoloBee contains two non-overlapping sets of sequence data, HoloBee-Barcode and HoloBee-Mop, each of which have distinct intended uses. HoloBee-Barcode is a non-redundant database of taxonomically informative barcoding loci for all viruses, bacteria, fungi, protozoans and metazoans associated with honey bees (Apis spp.). It was created from an exhaustive master sequence archive of all valid holobiont sequences. Redundancy was removed from this master archive using a clustering algorithm that grouped sequences with ≥ 99% identity and retained the longest sequence from each cluster as the representative accession for that sequence type (“centroid”). These centroid sequences were concatenated into a fasta formatted file to create the HoloBee-Barcode database. Associated taxonomy for each centroid, including Superkingdom through Species and Strain/Isolate, was individually reviewed and corrected when necessary by a curator. Cross reference tables (separated according to 5 major taxonomic groups) provide a user-friendly outline of information for each centroid accession within HoloBee-Barcode including taxonomy, gene/product name, sequence length, the unaltered NCBI definition line, the number and identity of redundant sequences clustered within each centroid, and any additional information provided by the curator. HoloBee-Barcode centroid counts are: Viruses = 86; Bacteria = 496; Fungi = 41; Protozoa = 4; Metazoa = 60. HoloBee-Barcode is intended to improve and standardize quantitative and qualitative metagenomic descriptions of holobiont communities associated with honey bees by providing a curated set of barcode sequences. The goal of genetic barcoding is to associate a nucleotide sequence sample to a taxonomically valid species. Genomic regions targeted for such barcoding purposes varied by taxonomic group. The small subunit (SSU) ribosomal RNA, or 16S rRNA, is the most commonly used barcode for bacteria and is used in HB-Barcode. These 16S rRNA sequences will support the analysis of data generated with the widely used approach of amplicon-based 16S rRNA deep sequencing to study microbiota communities. Although barcode markers for fungi are less definitive than bacteria, HB-Barcode defaults to the ribosomal RNA internal transcribed spacer region (ITS), which typically includes ITS-1, 5.8S, and ITS-2. For some clades that cannot be resolved by this region, other barcode markers were selected. The majority of barcodes for metazoan taxa are the mitochondrial locus cytochrome c oxidase subunit I (COI). Complete mitochondrial DNA (mtDNA) sequence for Apis cerana (Asian honey bee) and Galleria mellonella (Greater wax moth) are included as barcodes for these species. We note that A. cerana mtDNA is included because it is considered a potentially invasive honey bee species and monitoring for its occurrence is in practice regionally, including in Australia, New Zealand and the USA. Protozoan barcodes include cytochrome b oxidase (Cytb), SSU, or ITS while entire genomes are used for viral barcoding. HoloBee-Mop is a database comprised mostly of chromosomal, mitochondrial and plasmid genome assemblies in order to aggregate as much honey bee holobiont genomic sequence information as possible. For a few organisms without genome assembly data, transcriptome data are included (e.g. Aethina tumida, small hive beetle). Unlike HoloBee-Barcode, redundancy removal was not performed on the HoloBee-Mop database and thus this resource provides an archive of nucleotide sequence assemblies from honey bee holobionts. However, since full viral genomes are used in HoloBee-Barcode, only redundant viral sequences occur in HoloBee-Mop. All accessions within each of these assemblies were concatenated into a single fasta formatted file to create the HoloBee-Mop database. The intended purpose of HoloBee-Mop is to improve honey bee genome and transcriptome assemblies by “mopping-up” as much viral, bacterial, fungal, protozoan and non-honey bee metazoan sequence data as possible. Therefore, sequence data remaining after processing reads through both HoloBee-Barcode and HoloBee-Mop that do not map to the honey bee genome may contain unique data from taxonomic variants or novel species. Details for each sequence assembly within HoloBee-Mop are tabulated in cross reference tables according to each major taxonomic group. HoloBee-Mop assembly counts are: Viruses = 2; Bacteria = 55; Fungi = 5; Protozoa = 1; Metazoa = 6. Follow the HoloBee database on Twitter at: https://twitter.com/HoloBee_db
+
+Source: https://catalog.data.gov/dataset/holobee-database-v2016-1  
+Last updated at https://catalog.data.gov/organization/usda-gov : 2020-02-21</description>
+	<homepage type="str">https://data.world/us-usda-gov/f3a633e7-aabb-4419-8da1-4cdb6f6910da</homepage>
+	<license type="str">CC-0</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">comma_separated_values_file_3</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">spreadsheet</name>
+						<title type="str">Spreadsheet</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">spreadsheet</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">element_or_value_display_name</name>
+						<title type="str">Element or value display name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">element_or_value_display_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">description</name>
+						<title type="str">Description</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">description</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_type</name>
+						<title type="str">Data type</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_type</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">character_length</name>
+						<title type="str">Character length</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">character_length</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">acceptable_values</name>
+						<title type="str">Acceptable values</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">acceptable_values</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">required</name>
+						<title type="str">Required?</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">required</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">accepts_null_value</name>
+						<title type="str">Accepts null value?</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">accepts_null_value</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/comma_separated_values_file_3.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">v_11may2016</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">centroid_accession</name>
+						<title type="str">Centroid Accession</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">centroid_accession</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">superkingdom</name>
+						<title type="str">Superkingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">superkingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">kingdom</name>
+						<title type="str">Kingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">kingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">phylum</name>
+						<title type="str">Phylum</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">phylum</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">class</name>
+						<title type="str">Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">order</name>
+						<title type="str">Order</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">order</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">family</name>
+						<title type="str">Family</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">family</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">genus</name>
+						<title type="str">Genus</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">genus</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">species</name>
+						<title type="str">Species</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">strain_isolate</name>
+						<title type="str">Strain / Isolate</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">strain_isolate</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">gene_product</name>
+						<title type="str">Gene / Product</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">gene_product</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sequence_length_bp</name>
+						<title type="str">Sequence Length (bp)</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sequence_length_bp</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">ncbi_definition_line</name>
+						<title type="str">NCBI Definition Line</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">ncbi_definition_line</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">cluster_count</name>
+						<title type="str">Cluster Count</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">cluster_count</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">cluster_accessions_species</name>
+						<title type="str">Cluster Accessions:Species</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">cluster_accessions_species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">curator_notes</name>
+						<title type="str">Curator Notes</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">curator_notes</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/v_11may2016.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">v_11may2016_2</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">centroid_accession</name>
+						<title type="str">Centroid Accession</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">centroid_accession</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">superkingdom</name>
+						<title type="str">Superkingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">superkingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">kingdom</name>
+						<title type="str">Kingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">kingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">phylum</name>
+						<title type="str">Phylum</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">phylum</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">class</name>
+						<title type="str">Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">order</name>
+						<title type="str">Order</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">order</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">family</name>
+						<title type="str">Family</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">family</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">genus</name>
+						<title type="str">Genus</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">genus</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">species</name>
+						<title type="str">Species</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">strain_isolate</name>
+						<title type="str">Strain / Isolate</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">strain_isolate</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">gene_product</name>
+						<title type="str">Gene / Product</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">gene_product</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sequence_length_bp</name>
+						<title type="str">Sequence Length (bp)</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sequence_length_bp</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">ncbi_definition_line</name>
+						<title type="str">NCBI Definition Line</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">ncbi_definition_line</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">cluster_count</name>
+						<title type="str">Cluster Count</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">cluster_count</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">cluster_accessions_species</name>
+						<title type="str">Cluster Accessions:Species</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">cluster_accessions_species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">curator_notes</name>
+						<title type="str">Curator Notes</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">curator_notes</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/v_11may2016_2.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">v_11may2016_3</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">centroid_accession</name>
+						<title type="str">Centroid Accession</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">centroid_accession</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">superkingdom</name>
+						<title type="str">Superkingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">superkingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">kingdom</name>
+						<title type="str">Kingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">kingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">phylum</name>
+						<title type="str">Phylum</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">phylum</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">class</name>
+						<title type="str">Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">order</name>
+						<title type="str">Order</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">order</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">family</name>
+						<title type="str">Family</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">family</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">genus</name>
+						<title type="str">Genus</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">genus</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">species</name>
+						<title type="str">Species</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">strain_isolate</name>
+						<title type="str">Strain / Isolate</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">strain_isolate</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">gene_product</name>
+						<title type="str">Gene / Product</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">gene_product</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sequence_length_bp</name>
+						<title type="str">Sequence Length (bp)</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sequence_length_bp</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">ncbi_definition_line</name>
+						<title type="str">NCBI Definition Line</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">ncbi_definition_line</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">cluster_count</name>
+						<title type="str">Cluster Count</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">cluster_count</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">cluster_accessions_species</name>
+						<title type="str">Cluster Accessions:Species</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">cluster_accessions_species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">curator_notes</name>
+						<title type="str">Curator Notes</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">curator_notes</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/v_11may2016_3.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">v_11may2016_4</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">centroid_accession</name>
+						<title type="str">Centroid Accession</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">centroid_accession</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">superkingdom</name>
+						<title type="str">Superkingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">superkingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">kingdom</name>
+						<title type="str">Kingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">kingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">phylum</name>
+						<title type="str">Phylum</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">phylum</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">class</name>
+						<title type="str">Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">order</name>
+						<title type="str">Order</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">order</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">family</name>
+						<title type="str">Family</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">family</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">genus</name>
+						<title type="str">Genus</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">genus</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">species</name>
+						<title type="str">Species</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">strain_isolate</name>
+						<title type="str">Strain / Isolate</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">strain_isolate</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">gene_product</name>
+						<title type="str">Gene / Product</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">gene_product</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sequence_length_bp</name>
+						<title type="str">Sequence Length (bp)</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sequence_length_bp</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">ncbi_definition_line</name>
+						<title type="str">NCBI Definition Line</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">ncbi_definition_line</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">cluster_count</name>
+						<title type="str">Cluster Count</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">cluster_count</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">cluster_accessions_species</name>
+						<title type="str">Cluster Accessions:Species</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">cluster_accessions_species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">curator_notes</name>
+						<title type="str">Curator Notes</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">curator_notes</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/v_11may2016_4.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">v_11may2016_5</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">centroid_accession</name>
+						<title type="str">Centroid Accession</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">centroid_accession</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">superkingdom</name>
+						<title type="str">Superkingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">superkingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">kingdom</name>
+						<title type="str">Kingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">kingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">phylum</name>
+						<title type="str">Phylum</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">phylum</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">class</name>
+						<title type="str">Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">order</name>
+						<title type="str">Order</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">order</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">family</name>
+						<title type="str">Family</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">family</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">genus</name>
+						<title type="str">Genus</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">genus</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">species</name>
+						<title type="str">Species</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">strain_isolate</name>
+						<title type="str">Strain / Isolate</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">strain_isolate</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">gene_product</name>
+						<title type="str">Gene / Product</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">gene_product</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sequence_length_bp</name>
+						<title type="str">Sequence Length (bp)</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sequence_length_bp</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">ncbi_definition_line</name>
+						<title type="str">NCBI Definition Line</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">ncbi_definition_line</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">cluster_count</name>
+						<title type="str">Cluster Count</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">cluster_count</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">cluster_accessions_species</name>
+						<title type="str">Cluster Accessions:Species</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">cluster_accessions_species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">curator_notes</name>
+						<title type="str">Curator Notes</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">curator_notes</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/v_11may2016_5.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">v_13may2016</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">assembly</name>
+						<title type="str">Assembly</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">assembly</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">superkingdom</name>
+						<title type="str">Superkingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">superkingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">kingdom</name>
+						<title type="str">Kingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">kingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">phylum</name>
+						<title type="str">Phylum</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">phylum</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">class</name>
+						<title type="str">Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">order</name>
+						<title type="str">Order</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">order</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">family</name>
+						<title type="str">Family</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">family</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">genus</name>
+						<title type="str">Genus</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">genus</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">species</name>
+						<title type="str">Species</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">strain_isolate</name>
+						<title type="str">Strain/Isolate</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">strain_isolate</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">accessions</name>
+						<title type="str">Accessions</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">accessions</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">curator_notes</name>
+						<title type="str">Curator Notes</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">curator_notes</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/v_13may2016.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">v_13may2016_2</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">assembly</name>
+						<title type="str">Assembly</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">assembly</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">superkingdom</name>
+						<title type="str">Superkingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">superkingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">kingdom</name>
+						<title type="str">Kingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">kingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">phylum</name>
+						<title type="str">Phylum</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">phylum</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">class</name>
+						<title type="str">Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">order</name>
+						<title type="str">Order</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">order</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">family</name>
+						<title type="str">Family</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">family</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">genus</name>
+						<title type="str">Genus</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">genus</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">species</name>
+						<title type="str">Species</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">strain_isolate</name>
+						<title type="str">Strain/Isolate</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">strain_isolate</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">accessions</name>
+						<title type="str">Accessions</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">accessions</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">curator_notes</name>
+						<title type="str">Curator Notes</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">curator_notes</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/v_13may2016_2.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">v_13may2016_3</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">assembly</name>
+						<title type="str">Assembly</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">assembly</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">superkingdom</name>
+						<title type="str">Superkingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">superkingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">kingdom</name>
+						<title type="str">Kingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">kingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">phylum</name>
+						<title type="str">Phylum</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">phylum</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">class</name>
+						<title type="str">Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">order</name>
+						<title type="str">Order</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">order</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">family</name>
+						<title type="str">Family</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">family</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">genus</name>
+						<title type="str">Genus</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">genus</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">species</name>
+						<title type="str">Species</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">strain_isolate</name>
+						<title type="str">Strain/Isolate</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">strain_isolate</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">accessions</name>
+						<title type="str">Accessions</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">accessions</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">curator_notes</name>
+						<title type="str">Curator Notes</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">curator_notes</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/v_13may2016_3.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">v_13may2016_4</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">assembly</name>
+						<title type="str">Assembly</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">assembly</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">superkingdom</name>
+						<title type="str">Superkingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">superkingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">kingdom</name>
+						<title type="str">Kingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">kingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">phylum</name>
+						<title type="str">Phylum</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">phylum</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">class</name>
+						<title type="str">Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">order</name>
+						<title type="str">Order</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">order</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">family</name>
+						<title type="str">Family</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">family</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">genus</name>
+						<title type="str">Genus</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">genus</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">species</name>
+						<title type="str">Species</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">strain_isolate</name>
+						<title type="str">Strain/Isolate</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">strain_isolate</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">accessions</name>
+						<title type="str">Accessions</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">accessions</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">curator_notes</name>
+						<title type="str">Curator Notes</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">curator_notes</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/v_13may2016_4.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">v_13may2016_5</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">assembly</name>
+						<title type="str">Assembly</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">assembly</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">superkingdom</name>
+						<title type="str">Superkingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">superkingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">kingdom</name>
+						<title type="str">Kingdom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">kingdom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">phylum</name>
+						<title type="str">Phylum</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">phylum</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">class</name>
+						<title type="str">Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">order</name>
+						<title type="str">Order</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">order</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">family</name>
+						<title type="str">Family</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">family</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">genus</name>
+						<title type="str">Genus</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">genus</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">species</name>
+						<title type="str">Species</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">strain_isolate</name>
+						<title type="str">Strain/Isolate</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">strain_isolate</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">accessions</name>
+						<title type="str">Accessions</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">accessions</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">curator_notes</name>
+						<title type="str">Curator Notes</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">curator_notes</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/v_13may2016_5.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/HB_v2016.1_crossref/HB_Bar_v2016.1_bacteria_crossref_2016-05-18.xlsx</name>
+			<path type="str">original/HB_v2016.1_crossref/HB_Bar_v2016.1_bacteria_crossref_2016-05-18.xlsx</path>
+			<format type="str">xlsx</format>
+			<mediatype type="str">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mediatype>
+			<bytes type="int">110034</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/HB_v2016.1_crossref/HB_Bar_v2016.1_fungi_crossref_2016-05-20.xlsx</name>
+			<path type="str">original/HB_v2016.1_crossref/HB_Bar_v2016.1_fungi_crossref_2016-05-20.xlsx</path>
+			<format type="str">xlsx</format>
+			<mediatype type="str">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mediatype>
+			<bytes type="int">52326</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/HB_v2016.1_crossref/HB_Bar_v2016.1_metazoa_crossref_2016-05-16.xlsx</name>
+			<path type="str">original/HB_v2016.1_crossref/HB_Bar_v2016.1_metazoa_crossref_2016-05-16.xlsx</path>
+			<format type="str">xlsx</format>
+			<mediatype type="str">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mediatype>
+			<bytes type="int">54900</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/HB_v2016.1_crossref/HB_Bar_v2016.1_protozoa_crossref_2016-05-20.xlsx</name>
+			<path type="str">original/HB_v2016.1_crossref/HB_Bar_v2016.1_protozoa_crossref_2016-05-20.xlsx</path>
+			<format type="str">xlsx</format>
+			<mediatype type="str">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mediatype>
+			<bytes type="int">45410</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/HB_v2016.1_crossref/HB_Bar_v2016.1_viruses_crossref_2016-05-17.xlsx</name>
+			<path type="str">original/HB_v2016.1_crossref/HB_Bar_v2016.1_viruses_crossref_2016-05-17.xlsx</path>
+			<format type="str">xlsx</format>
+			<mediatype type="str">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mediatype>
+			<bytes type="int">56656</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/HB_v2016.1_crossref/HB_Mop_v2016.1_bacteria_crossref_2016-05-12.xlsx</name>
+			<path type="str">original/HB_v2016.1_crossref/HB_Mop_v2016.1_bacteria_crossref_2016-05-12.xlsx</path>
+			<format type="str">xlsx</format>
+			<mediatype type="str">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mediatype>
+			<bytes type="int">53575</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/HB_v2016.1_crossref/HB_Mop_v2016.1_fungi_crossref_2016-05-12.xlsx</name>
+			<path type="str">original/HB_v2016.1_crossref/HB_Mop_v2016.1_fungi_crossref_2016-05-12.xlsx</path>
+			<format type="str">xlsx</format>
+			<mediatype type="str">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mediatype>
+			<bytes type="int">51749</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/HB_v2016.1_crossref/HB_Mop_v2016.1_metazoa_crossref_2016-04-15.xlsx</name>
+			<path type="str">original/HB_v2016.1_crossref/HB_Mop_v2016.1_metazoa_crossref_2016-04-15.xlsx</path>
+			<format type="str">xlsx</format>
+			<mediatype type="str">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mediatype>
+			<bytes type="int">48572</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/HB_v2016.1_crossref/HB_Mop_v2016.1_protozoa_crossref_2016-04-11.xlsx</name>
+			<path type="str">original/HB_v2016.1_crossref/HB_Mop_v2016.1_protozoa_crossref_2016-04-11.xlsx</path>
+			<format type="str">xlsx</format>
+			<mediatype type="str">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mediatype>
+			<bytes type="int">41352</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/HB_v2016.1_crossref/HB_Mop_v2016.1_viruses_crossref_2016-05-12.xlsx</name>
+			<path type="str">original/HB_v2016.1_crossref/HB_Mop_v2016.1_viruses_crossref_2016-05-12.xlsx</path>
+			<format type="str">xlsx</format>
+			<mediatype type="str">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mediatype>
+			<bytes type="int">42123</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/comma-separated-values-file-3.csv</name>
+			<path type="str">original/comma-separated-values-file-3.csv</path>
+			<format type="str">csv</format>
+			<mediatype type="str">text/csv</mediatype>
+			<bytes type="int">3634</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">bacteria</item>
+		<item type="str">fungi</item>
+		<item type="str">metagenomics</item>
+		<item type="str">microbiota</item>
+		<item type="str">np305</item>
+		<item type="str">parasites</item>
+		<item type="str">pathogens</item>
+		<item type="str">protozoa</item>
+		<item type="str">transcriptome</item>
+		<item type="str">viruses</item>
+	</keywords>
+</all>

@@ -1,0 +1,242 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">nz-waikato_f92599e5-8f73-4678-8e07-0afffea4c392</name>
+	<title type="str">Biodiversity Vegetation (BIOVEG) 2002 - GIS Layer</title>
+	<description type="str">Biodiversity Vegetation (BIOVEG) 2002 - GIS Layer
+
+Terrestrial vegetation, sand dunes and wetlands over 0.5ha mapped off 2001/2002 WRAPS orthophotography using a slightly simplified version of the LCDB (1 and 2) classifications. Only classes relevant to regional biodiversity have been mapped.
+
+Source: https://catalogue.data.govt.nz/dataset/biodiversity-vegetation-bioveg-2002-gis-layer  
+Last updated at https://catalogue.data.govt.nz/organization/waikato-regional-council : 2017-03-06  
+[License - Creative Commons Attribution 3.0 New Zealand (CC BY 3.0 NZ)](https://creativecommons.org/licenses/by/3.0/nz/)</description>
+	<homepage type="str">https://data.world/nz-waikato/f92599e5-8f73-4678-8e07-0afffea4c392</homepage>
+	<license type="str">Other</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">biodiversity_vegetation_2002</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">lcdb2_name</name>
+						<title type="str">LCDB2_NAME</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">lcdb2_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">lcdb1_name</name>
+						<title type="str">LCDB1_NAME</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">lcdb1_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">gen_veg</name>
+						<title type="str">GEN_VEG</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">gen_veg</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">wetland</name>
+						<title type="str">WETLAND</title>
+						<type type="str">boolean</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#boolean</rdfType>
+						<dwSourceId type="str">wetland</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">minor_clsa</name>
+						<title type="str">MINOR_CLSA</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">minor_clsa</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">minor_clsb</name>
+						<title type="str">MINOR_CLSB</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">minor_clsb</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">minor_clsc</name>
+						<title type="str">MINOR_CLSC</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">minor_clsc</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">uncertain1</name>
+						<title type="str">UNCERTAIN1</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">uncertain1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">uncertain2</name>
+						<title type="str">UNCERTAIN2</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">uncertain2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">comments</name>
+						<title type="str">COMMENTS</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">comments</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">class_cor</name>
+						<title type="str">CLASS_COR</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">class_cor</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">bound_cor</name>
+						<title type="str">BOUND_COR</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">bound_cor</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">wetld_cor</name>
+						<title type="str">WETLD_COR</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">wetld_cor</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">field_com</name>
+						<title type="str">FIELD_COM</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">field_com</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">photo_1</name>
+						<title type="str">PHOTO_1</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">photo_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">photo1_id</name>
+						<title type="str">PHOTO1_ID</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">photo1_id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">photo_east1</name>
+						<title type="str">PHOTO_EAST1</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">photo_east1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">photo_nth1</name>
+						<title type="str">PHOTO_NTH1</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">photo_nth1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">photo_2</name>
+						<title type="str">PHOTO_2</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">photo_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">photo2_id</name>
+						<title type="str">PHOTO2_ID</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">photo2_id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">photo_east2</name>
+						<title type="str">PHOTO_EAST2</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">photo_east2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">photo_nth2</name>
+						<title type="str">PHOTO_NTH2</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">photo_nth2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">district</name>
+						<title type="str">DISTRICT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">district</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">id</name>
+						<title type="str">ID</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">id</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/biodiversity_vegetation_2002.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/BIODIVERSITY_VEGETATION_2002.csv</name>
+			<path type="str">original/BIODIVERSITY_VEGETATION_2002.csv</path>
+			<format type="str">csv</format>
+			<mediatype type="str">text/csv</mediatype>
+			<bytes type="int">3102121</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/BioVeg2002_read_me.txt</name>
+			<path type="str">original/BioVeg2002_read_me.txt</path>
+			<format type="str">txt</format>
+			<mediatype type="str">text/plain</mediatype>
+			<bytes type="int">1609</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/biodiversity-vegetation-bioveg-2002-gis-layer-1.zip</name>
+			<path type="str">original/biodiversity-vegetation-bioveg-2002-gis-layer-1.zip</path>
+			<format type="str">zip</format>
+			<mediatype type="str">application/zip</mediatype>
+			<bytes type="int">26642309</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/biodiversity-vegetation-bioveg-2002-gis-layer-3.zip</name>
+			<path type="str">original/biodiversity-vegetation-bioveg-2002-gis-layer-3.zip</path>
+			<format type="str">zip</format>
+			<mediatype type="str">application/zip</mediatype>
+			<bytes type="int">22189678</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/biodiversity-vegetation-bioveg-2002-gis-layer-4.zip</name>
+			<path type="str">original/biodiversity-vegetation-bioveg-2002-gis-layer-4.zip</path>
+			<format type="str">zip</format>
+			<mediatype type="str">application/zip</mediatype>
+			<bytes type="int">11987022</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">biodiversity</item>
+		<item type="str">coastal</item>
+		<item type="str">ecology</item>
+		<item type="str">ecosystem</item>
+		<item type="str">land cover</item>
+		<item type="str">land use</item>
+		<item type="str">sand dune</item>
+		<item type="str">terrestrial</item>
+		<item type="str">vegetation</item>
+		<item type="str">waikato</item>
+		<item type="str">wetland</item>
+		<item type="str">environment</item>
+	</keywords>
+</all>

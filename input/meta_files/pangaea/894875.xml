@@ -1,0 +1,377 @@
+<md:MetaData xmlns:md="http://www.pangaea.de/MetaData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ws.pangaea.de/schemas/pangaea/MetaData.xsd" version="2019-02-13">
+<md:citation id="dataset894875" >
+<md:author id="dataset.author64100" >
+<md:lastName>Liu</md:lastName>
+<md:firstName>Yangyang</md:firstName>
+<md:eMail>yliu@awi.de</md:eMail>
+<md:orcid>0000-0001-7138-9146</md:orcid>
+</md:author>
+<md:author id="dataset.author39247" >
+<md:lastName>Boss</md:lastName>
+<md:firstName>Emmanuel</md:firstName>
+<md:eMail>emmanuel.boss@maine.edu</md:eMail>
+<md:orcid>0000-0002-8334-9595</md:orcid>
+</md:author>
+<md:author id="dataset.author52900" >
+<md:lastName>Chase</md:lastName>
+<md:firstName>Alison P</md:firstName>
+</md:author>
+<md:author id="dataset.author66788" >
+<md:lastName>Xi</md:lastName>
+<md:firstName>Hongyan</md:firstName>
+</md:author>
+<md:author id="dataset.author68024" >
+<md:lastName>Zhang</md:lastName>
+<md:firstName>Xiaodong</md:firstName>
+</md:author>
+<md:author id="dataset.author32128" >
+<md:lastName>Röttgers</md:lastName>
+<md:firstName>Rüdiger</md:firstName>
+<md:eMail>ruediger.roettgers@hzg.de</md:eMail>
+<md:URI>http://www.hzg.de/institutes_platforms/coastal_research/operational_systems/remote_sensing/staff/046456/index.php.en</md:URI>
+</md:author>
+<md:author id="dataset.author66789" >
+<md:lastName>Pan</md:lastName>
+<md:firstName>Yanqun</md:firstName>
+</md:author>
+<md:author id="dataset.author24636" >
+<md:lastName>Bracher</md:lastName>
+<md:firstName>Astrid</md:firstName>
+<md:eMail>Astrid.Bracher@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/astrid-bracher.html</md:URI>
+<md:orcid>0000-0003-3025-5517</md:orcid>
+</md:author>
+<md:year>2019</md:year>
+<md:title>Phytoplankton pigment concentrations measured by HPLC and estimated from underway spectrophotometry, and the particulate absorption and attenuation spectra derived from underway spectrophotometry during POLARSTERN cruises PS93.2, PS99.2 and PS107</md:title>
+<md:source id="dataset.sourceinst32" >Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven</md:source>
+<md:URI>https://doi.org/10.1594/PANGAEA.894875</md:URI>
+<md:dateTime>2019-02-07T08:06:04</md:dateTime>
+<md:supplementTo id="ref97468" >
+<md:author id="ref97468.author64100" >
+<md:lastName>Liu</md:lastName>
+<md:firstName>Yangyang</md:firstName>
+<md:eMail>yliu@awi.de</md:eMail>
+<md:orcid>0000-0001-7138-9146</md:orcid>
+</md:author>
+<md:author id="ref97468.author39247" >
+<md:lastName>Boss</md:lastName>
+<md:firstName>Emmanuel</md:firstName>
+<md:eMail>emmanuel.boss@maine.edu</md:eMail>
+<md:orcid>0000-0002-8334-9595</md:orcid>
+</md:author>
+<md:author id="ref97468.author52900" >
+<md:lastName>Chase</md:lastName>
+<md:firstName>Alison P</md:firstName>
+</md:author>
+<md:author id="ref97468.author66788" >
+<md:lastName>Xi</md:lastName>
+<md:firstName>Hongyan</md:firstName>
+</md:author>
+<md:author id="ref97468.author68024" >
+<md:lastName>Zhang</md:lastName>
+<md:firstName>Xiaodong</md:firstName>
+</md:author>
+<md:author id="ref97468.author32128" >
+<md:lastName>Röttgers</md:lastName>
+<md:firstName>Rüdiger</md:firstName>
+<md:eMail>ruediger.roettgers@hzg.de</md:eMail>
+<md:URI>http://www.hzg.de/institutes_platforms/coastal_research/operational_systems/remote_sensing/staff/046456/index.php.en</md:URI>
+</md:author>
+<md:author id="ref97468.author66789" >
+<md:lastName>Pan</md:lastName>
+<md:firstName>Yanqun</md:firstName>
+</md:author>
+<md:author id="ref97468.author24636" >
+<md:lastName>Bracher</md:lastName>
+<md:firstName>Astrid</md:firstName>
+<md:eMail>Astrid.Bracher@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/astrid-bracher.html</md:URI>
+<md:orcid>0000-0003-3025-5517</md:orcid>
+</md:author>
+<md:year>2019</md:year>
+<md:title>Retrieval of phytoplankton pigments from underway spectrophotometry in the Fram Strait</md:title>
+<md:source id="ref97468.journal16659" relatedTermIds="34053" >Remote Sensing</md:source>
+<md:volume>11(3)</md:volume>
+<md:URI>https://doi.org/10.3390/rs11030318</md:URI>
+<md:pages>318</md:pages>
+</md:supplementTo>
+</md:citation>
+<md:abstract>We present data sets on: 1) the concentrations of various phytoplankton pigments (unit: mg/m³) from discrete samples measured using High Pressure Liquid Chromatography (HPLC); 2) the concentrations of various phytoplankton pigments (unit: mg/m³) estimated from underway AC-S particulate absorption data (Fucoxanthin, 19'-hexanoyloxyfucoxanthin and Diadinoxanthin are estimated using SVD-NNLS-9 matrix inversion method; total Chlorophyll a, b, Chlorophyll c1+2, photosynthetic and photoprotective carotenoids are estimated using Gaussian decomposition); and 3) the spectral particulate absorption and attenuation coefficients and their standard deviation (unit: 1/m) derived from underway AC-S measurements during the cruises PS93.2, PS99.2 and PS107 on R/V POLARSTERN in the Fram Strait.</md:abstract>
+<md:extent>
+<md:geographic>
+<md:westBoundLongitude>-5.530361</md:westBoundLongitude>
+<md:eastBoundLongitude>20.558317</md:eastBoundLongitude>
+<md:southBoundLatitude>70.260853</md:southBoundLatitude>
+<md:northBoundLatitude>80.0118</md:northBoundLatitude>
+<md:meanLongitude>6.2596627004896055</md:meanLongitude>
+<md:meanLatitude>77.14564304065587</md:meanLatitude>
+</md:geographic>
+<md:temporal>
+<md:minDateTime>2015-07-22T22:00:00</md:minDateTime>
+<md:maxDateTime>2017-08-18T07:22:00</md:maxDateTime>
+</md:temporal>
+<md:topoType id="topotype1" >not specified</md:topoType>
+</md:extent>
+<md:project id="project4230" type="National DFG" >
+<md:label>AC3</md:label>
+<md:name>Arctic Amplification</md:name>
+<md:URI>http://www.ac3-tr.de/</md:URI>
+<md:award id="project4230.award17" >
+<md:funder id="project4230.award17.funder20472" semanticURI="https://doi.org/10.13039/501100001659" >
+<md:name>German Science Foundation</md:name>
+<md:optionalName>DFG</md:optionalName>
+<md:URI>http://www.dfg.de/</md:URI>
+</md:funder>
+<md:number>268020496</md:number>
+<md:subtitle>Climate Relevant Atmospheric and SurfaCe Processes, and Feedback Mechanisms</md:subtitle>
+<md:URI>http://gepris.dfg.de/gepris/projekt/268020496</md:URI>
+</md:award>
+</md:project>
+<md:project id="project4183" type="National institution" >
+<md:label>FRAM</md:label>
+<md:name>FRontiers in Arctic marine Monitoring</md:name>
+<md:URI>https://www.awi.de/en/expedition/observatories/ocean-fram.html</md:URI>
+</md:project>
+<md:size unit="datasets" >12</md:size>
+<md:license id="license21" >
+<md:label>CC-BY-4.0</md:label>
+<md:name>Creative Commons Attribution 4.0 International</md:name>
+<md:URI>https://creativecommons.org/licenses/by/4.0/</md:URI>
+</md:license>
+<md:additionalSearchableContent>Fucoxanthin | Fuco | Spectrophotometer, WET Labs AC-S | cis-19-Hexanoyloxy-fucoxanthin | c-Hex-Fuco | Diadinoxanthin | Diadino | total | Chlorophyll a | Chl a | Chlorophyll b | Chl b | Chlorophyll c1+c2 | Chl c1+c2 | Carotenoid pigments, photosynthetic | PSC | Carotenoid pigments, photoprotective | PPC | optional name | Station label | Station | Chlorophyllide b | Chlide b | High Performance Liquid Chromatography (HPLC) | Chlorophyll c3 | Chl c3 | Mg-2,4-divinyl pheoporphyrin a5 monomethyl ester | Mg DVP | Chlorophyllide a | Chlide a | Peridinin | Perid | Pheophorbide a | Phide a | Pyropheophorbide a | Pyrophide a | 19-Butanoyloxyfucoxanthin | But-fuco | Neoxanthin | Neo | 19-Hexanoyloxyfucoxanthin | Hex-fuco | Aphanizophyll | Aphanizo | Prasinoxanthin | Pras | Violaxanthin | Viola | Astaxanthin | Asta | Dinoxanthin | Dino | Antheraxanthin | Anthera | Alloxanthin | Allo | Myxoxanthophyll | Myxox | Diatoxanthin | Diato | Zeaxanthin | Zea | Lutein | Lut | Gyroxanthin diester | Gyr diester | Divinyl chlorophyll b | DV chl b | Echinenone | Echin | Divinyl chlorophyll a | DV chl a | Pheophytin b | Phytin b | Pheophytin a | Phytin a | alpha-Carotene | a-Car | beta-Carotene | b-Car | Pyropheophytin a | Pyrophytin a | optional label | Absorption coefficient, 401 nm | ac401 | Absorption coefficient, 404.6 nm | ac404.6 | Absorption coefficient, 407.5 nm | ac407.5 | Absorption coefficient, 410.5 nm | ac410.5 | Absorption coefficient, 413.9 nm | ac413.9 | Absorption coefficient, 417.3 nm | ac417.3 | Absorption coefficient, 421.2 nm | ac421.2 | Absorption coefficient, 425.3 nm | ac425.3 | Absorption coefficient, 429 nm | ac429 | Absorption coefficient, 432.9 nm | ac432.9 | Absorption coefficient, 436.4 nm | ac436.4 | Absorption coefficient, 440.5 nm | ac440.5 | Absorption coefficient, 444.4 nm | ac444.4 | Absorption coefficient, 448.8 nm | ac448.8 | Absorption coefficient, 453 nm | ac453 | Absorption coefficient, 457.3 nm | ac457.3 | Absorption coefficient, 461.3 nm | ac461.3 | Absorption coefficient, 465.5 nm | ac465.5 | Absorption coefficient, 469.8 nm | ac469.8 | Absorption coefficient, 474.3 nm | ac474.3 | Absorption coefficient, 479.4 nm | ac479.4 | Absorption coefficient, 483.6 nm | ac483.6 | Absorption coefficient, 487.9 nm | ac487.9 | Absorption coefficient, 492 nm | ac492 | Absorption coefficient, 496.1 nm | ac496.1 | Absorption coefficient, 500.5 nm | ac500.5 | Absorption coefficient, 504.7 nm | ac504.7 | Absorption coefficient, 509.4 nm | ac509.4 | Absorption coefficient, 514 nm | ac514 | Absorption coefficient, 518.9 nm | ac518.9 | Absorption coefficient, 523.2 nm | ac523.2 | Absorption coefficient, 527.5 nm | ac527.5 | Absorption coefficient, 531.5 nm | ac531.5 | Absorption coefficient, 535.8 nm | ac535.8 | Absorption coefficient, 539.7 nm | ac539.7 | Absorption coefficient, 544 nm | ac544 | Absorption coefficient, 548.5 nm | ac548.5 | Absorption coefficient, 552.4 nm | ac552.4 | Absorption coefficient, 557.2 nm | ac557.2 | Absorption coefficient, 561.5 nm | ac561.5 | Absorption coefficient, 565.6 nm | ac565.6 | Absorption coefficient, 569.8 nm | ac569.8 | Absorption coefficient, 573.2 nm | ac573.2 | Absorption coefficient, 577.1 nm | ac577.1 | Absorption coefficient, 580.8 nm | ac580.8 | Absorption coefficient, 582.9 nm | ac582.9 | Absorption coefficient, 586.4 nm | ac586.4 | Absorption coefficient, 590.5 nm | ac590.5 | Absorption coefficient, 594.7 nm | ac594.7 | Absorption coefficient, 598.9 nm | ac598.9 | Absorption coefficient, 603.1 nm | ac603.1 | Absorption coefficient, 607.5 nm | ac607.5 | Absorption coefficient, 611.8 nm | ac611.8 | Absorption coefficient, 615.9 nm | ac615.9 | Absorption coefficient, 620.2 nm | ac620.2 | Absorption coefficient, 624.2 nm | ac624.2 | Absorption coefficient, 627.9 nm | ac627.9 | Absorption coefficient, 632 nm | ac632 | Absorption coefficient, 635.8 nm | ac635.8 | Absorption coefficient, 640 nm | ac640 | Absorption coefficient, 644 nm | ac644 | Absorption coefficient, 648.1 nm | ac648.1 | Absorption coefficient, 652.2 nm | ac652.2 | Absorption coefficient, 656.3 nm | ac656.3 | Absorption coefficient, 660.6 nm | ac660.6 | Absorption coefficient, 664.7 nm | ac664.7 | Absorption coefficient, 668.8 nm | ac668.8 | Absorption coefficient, 672.9 nm | ac672.9 | Absorption coefficient, 676.8 nm | ac676.8 | Absorption coefficient, 680.4 nm | ac680.4 | Absorption coefficient, 684 nm | ac684 | Absorption coefficient, 687.7 nm | ac687.7 | Absorption coefficient, 691.1 nm | ac691.1 | Absorption coefficient, 694.7 nm | ac694.7 | Absorption coefficient, 698.1 nm | ac698.1 | Absorption coefficient, 701.5 nm | ac701.5 | 401 nm | Absorption coefficient, standard deviation | ac std dev | 404.6 nm | 407.5 nm | 410.5 nm | 413.9 nm | 417.3 nm | 421.2 nm | 425.3 nm | 429 nm | 432.9 nm | 436.4 nm | 440.5 nm | 444.4 nm | 448.8 nm | 453 nm | 457.3 nm | 461.3 nm | 465.5 nm | 469.8 nm | 474.3 nm | 479.4 nm | 483.6 nm | 487.9 nm | 492 nm | 496.1 nm | 500.5 nm | 504.7 nm | 509.4 nm | 514 nm | 518.9 nm | 523.2 nm | 527.5 nm | 531.5 nm | 535.8 nm | 539.7 nm | 544 nm | 548.5 nm | 552.4 nm | 557.2 nm | 561.5 nm | 565.6 nm | 569.8 nm | 573.2 nm | 577.1 nm | 580.8 nm | 582.9 nm | 586.4 nm | 590.5 nm | 594.7 nm | 598.9 nm | 603.1 nm | 607.5 nm | 611.8 nm | 615.9 nm | 620.2 nm | 624.2 nm | 627.9 nm | 632 nm | 635.8 nm | 640 nm | 644 nm | 648.1 nm | 652.2 nm | 656.3 nm | 660.6 nm | 664.7 nm | 668.8 nm | 672.9 nm | 676.8 nm | 680.4 nm | 684 nm | 687.7 nm | 691.1 nm | 694.7 nm | 698.1 nm | 701.5 nm | Optical beam attenuation coefficient, 401 nm | bac401 | Optical beam attenuation coefficient, 404.6 nm | bac404.6 | Optical beam attenuation coefficient, 407.5 nm | bac407.5 | Optical beam attenuation coefficient, 410.5 nm | bac410.5 | Optical beam attenuation coefficient, 413.9 nm | bac413.9 | Optical beam attenuation coefficient, 417.3 nm | bac417.3 | Optical beam attenuation coefficient, 421.2 nm | bac421.2 | Optical beam attenuation coefficient, 425.3 nm | bac425.3 | Optical beam attenuation coefficient, 429 nm | bac429 | Optical beam attenuation coefficient, 432.9 nm | bac432.9 | Optical beam attenuation coefficient, 436.4 nm | bac436.4 | Optical beam attenuation coefficient, 440.5 nm | bac440.5 | Optical beam attenuation coefficient, 444.4 nm | bac444.4 | Optical beam attenuation coefficient, 448.8 nm | bac448.8 | Optical beam attenuation coefficient, 453 nm | bac453 | Optical beam attenuation coefficient, 457.3 nm | bac457.3 | Optical beam attenuation coefficient, 461.3 nm | bac461.3 | Optical beam attenuation coefficient, 465.5 nm | bac465.5 | Optical beam attenuation coefficient, 469.8 nm | bac469.8 | Optical beam attenuation coefficient, 474.3 nm | bac474.3 | Optical beam attenuation coefficient, 479.4 nm | bac479.4 | Optical beam attenuation coefficient, 483.6 nm | bac483.6 | Optical beam attenuation coefficient, 487.9 nm | bac487.9 | Optical beam attenuation coefficient, 492 nm | bac492 | Optical beam attenuation coefficient, 496.1 nm | bac496.1 | Optical beam attenuation coefficient, 500.5 nm | bac500.5 | Optical beam attenuation coefficient, 504.7 nm | bac504.7 | Optical beam attenuation coefficient, 509.4 nm | bac509.4 | Optical beam attenuation coefficient, 514 nm | bac514 | Optical beam attenuation coefficient, 518.9 nm | bac518.9 | Optical beam attenuation coefficient, 523.2 nm | bac523.2 | Optical beam attenuation coefficient, 527.5 nm | bac527.5 | Optical beam attenuation coefficient, 531.5 nm | bac531.5 | Optical beam attenuation coefficient, 535.8 nm | bac535.8 | Optical beam attenuation coefficient, 539.7 nm | bac539.7 | Optical beam attenuation coefficient, 544 nm | bac544 | Optical beam attenuation coefficient, 548.5 nm | bac548.5 | Optical beam attenuation coefficient, 552.4 nm | bac552.4 | Optical beam attenuation coefficient, 557.2 nm | bac557.2 | Optical beam attenuation coefficient, 561.5 nm | bac561.5 | Optical beam attenuation coefficient, 565.6 nm | bac565.6 | Optical beam attenuation coefficient, 569.8 nm | bac569.8 | Optical beam attenuation coefficient, 573.2 nm | bac573.2 | Optical beam attenuation coefficient, 577.1 nm | bac577.1 | Optical beam attenuation coefficient, 580.8 nm | bac580.8 | Optical beam attenuation coefficient, 582.9 nm | bac582.9 | Optical beam attenuation coefficient, 586.4 nm | bac586.4 | Optical beam attenuation coefficient, 590.5 nm | bac590.5 | Optical beam attenuation coefficient, 594.7 nm | bac594.7 | Optical beam attenuation coefficient, 598.9 nm | bac598.9 | Optical beam attenuation coefficient, 603.1 nm | bac603.1 | Optical beam attenuation coefficient, 607.5 nm | bac607.5 | Optical beam attenuation coefficient, 611.8 nm | bac611.8 | Optical beam attenuation coefficient, 615.9 nm | bac615.9 | Optical beam attenuation coefficient, 620.2 nm | bac620.2 | Optical beam attenuation coefficient, 624.2 nm | bac624.2 | Optical beam attenuation coefficient, 627.9 nm | bac627.9 | Optical beam attenuation coefficient, 632 nm | bac632 | Optical beam attenuation coefficient, 635.8 nm | bac635.8 | Optical beam attenuation coefficient, 640 nm | bac640 | Optical beam attenuation coefficient, 644 nm | bac644 | Optical beam attenuation coefficient, 648.1 nm | bac648.1 | Optical beam attenuation coefficient, 652.2 nm | bac652.2 | Optical beam attenuation coefficient, 656.3 nm | bac656.3 | Optical beam attenuation coefficient, 660.6 nm | bac660.6 | Optical beam attenuation coefficient, 664.7 nm | bac664.7 | Optical beam attenuation coefficient, 668.8 nm | bac668.8 | Optical beam attenuation coefficient, 672.9 nm | bac672.9 | Optical beam attenuation coefficient, 676.8 nm | bac676.8 | Optical beam attenuation coefficient, 680.4 nm | bac680.4 | Optical beam attenuation coefficient, 684 nm | bac684 | Optical beam attenuation coefficient, 687.7 nm | bac687.7 | Optical beam attenuation coefficient, 691.1 nm | bac691.1 | Optical beam attenuation coefficient, 694.7 nm | bac694.7 | Optical beam attenuation coefficient, 698.1 nm | bac698.1 | Optical beam attenuation coefficient, 701.5 nm | bac701.5 | Optical beam attenuation coefficient, standard deviation | bac std dev | SD_ap401 nm</md:additionalSearchableContent>
+<md:keywords>
+<md:techKeyword type="autoGenerated" >supplement</md:techKeyword>
+<md:techKeyword type="autoGenerated" >citable</md:techKeyword>
+<md:techKeyword type="autoGenerated" >method247</md:techKeyword>
+<md:techKeyword type="autoGenerated" >method9398</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param101326</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param102005</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param122946</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param129334</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param129375</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param129376</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param150512</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param161532</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param161533</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169152</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169153</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169154</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169155</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169156</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169157</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169158</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169159</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169160</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169161</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169162</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169163</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169164</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169165</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169166</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169167</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169168</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169169</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169170</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169171</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169172</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169173</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169174</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169175</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169176</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169177</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169178</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169179</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169180</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169181</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169182</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169183</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169184</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169185</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169186</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169187</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169188</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169189</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169190</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169191</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169192</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169193</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169194</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169195</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169196</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169197</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169198</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169199</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169200</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169201</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169202</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169203</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169204</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169205</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169206</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169207</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169208</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169209</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169210</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169211</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169212</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169213</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169214</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169215</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169216</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169217</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169218</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169219</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169220</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169221</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169222</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169223</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169224</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169225</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169226</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169227</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169228</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169229</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169230</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169231</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169232</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169233</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169234</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169235</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169236</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169237</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169238</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169239</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169240</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169241</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169242</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169243</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169244</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169245</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169246</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169247</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169248</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169249</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169250</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169251</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169252</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169253</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169254</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169255</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169256</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169257</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169258</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169259</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169260</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169261</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169262</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169263</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169264</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169265</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169266</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169267</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169268</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169269</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169270</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169271</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169272</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169273</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169274</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169275</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169276</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169277</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169278</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169279</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169280</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169281</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169282</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169283</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169284</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169285</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169286</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169287</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169288</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169289</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169290</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169291</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169292</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169293</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169294</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param18949</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param20691</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param20692</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param2136</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param23813</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param23859</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param24519</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param24521</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param24522</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param24531</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param24572</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param24574</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param24575</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param25867</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param25877</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param25892</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param25935</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param25939</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param25941</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param25959</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param4642</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param4645</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param4649</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param4652</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param4653</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param4654</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param4655</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param4657</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param4658</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param4659</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param4660</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param4661</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param4667</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param4670</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param4674</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param4680</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param53464</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param53478</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param53490</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param7140</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param7141</md:techKeyword>
+<md:techKeyword type="autoGenerated" >pi64100</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author24636</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author32128</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author39247</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author52900</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author64100</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author66788</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author66789</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68024</md:techKeyword>
+<md:techKeyword type="autoGenerated" >award17</md:techKeyword>
+<md:techKeyword type="autoGenerated" >funder20472</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1599</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1600</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1601</md:techKeyword>
+<md:techKeyword type="autoGenerated" >journal16659</md:techKeyword>
+<md:techKeyword type="autoGenerated" >license21</md:techKeyword>
+<md:techKeyword type="autoGenerated" >project4183</md:techKeyword>
+<md:techKeyword type="autoGenerated" >project4230</md:techKeyword>
+<md:techKeyword type="autoGenerated" >ref97468</md:techKeyword>
+<md:techKeyword type="autoGenerated" >sourceinst32</md:techKeyword>
+<md:techKeyword type="autoGenerated" >topotype1</md:techKeyword>
+</md:keywords>
+<md:technicalInfo>
+<md:entry key="xmlLastModified" value="2019-06-04T06:44:00Z" ></md:entry>
+<md:entry key="filename" value="LiuY-etal_2019" ></md:entry>
+<md:entry key="mimeType" value="application/zip" ></md:entry>
+<md:entry key="status" value="published" ></md:entry>
+<md:entry key="status_num" value="4" ></md:entry>
+<md:entry key="DOIRegistryStatus" value="registered" ></md:entry>
+<md:entry key="DOIRegistryStatus_num" value="4" ></md:entry>
+<md:entry key="hierarchyLevel" value="parent" ></md:entry>
+<md:entry key="collectionType" value="publication series" ></md:entry>
+<md:entry key="collectionType_num" value="4" ></md:entry>
+<md:entry key="collectionChilds" value="D894860,D894872,D894874,D898100,D898101,D898102,D898117,D898118,D898119,D898120,D898121,D898122" ></md:entry>
+<md:entry key="loginOption" value="unrestricted" ></md:entry>
+<md:entry key="loginOption_num" value="1" ></md:entry>
+</md:technicalInfo>
+</md:MetaData>

@@ -1,0 +1,666 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='171'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/171</alternateIdentifier>
+<title>CSPs: Kinetic energy of raindrops at random positions in the CSPs</title>
+<creator id='pkuehn'>
+<individualName>
+<givenName>Peter</givenName>
+<surName>Kühn</surName>
+</individualName>
+<organizationName>Institute of Geography / Laboratory for Soil Science  and Geoecology  Eberhard Karls University Tübingen</organizationName>
+<address>
+<deliveryPoint>Rümelinstr. 19-23</deliveryPoint>
+<city>72070 Tübingen</city>
+<country>Germany</country>
+</address>
+<phone>+49-7071-2974896</phone>
+<electronicMailAddress>peter.kuehn@uni-tuebingen.de</electronicMailAddress>
+</creator>
+<creator id='tscholten'>
+<individualName>
+<givenName>Thomas</givenName>
+<surName>Scholten</surName>
+</individualName>
+
+
+<electronicMailAddress>thomas.scholten@uni-tuebingen.de</electronicMailAddress>
+</creator>
+<creator id='cgeissler'>
+<individualName>
+<givenName>Christian</givenName>
+<surName>Geißler</surName>
+</individualName>
+<organizationName>Uni Tübingen</organizationName>
+<address>
+
+<city>Tübingen</city>
+
+</address>
+
+<electronicMailAddress>christian.geissler@gmx.net</electronicMailAddress>
+</creator>
+<pubDate>2012-01-19</pubDate>
+<language>en_US</language>
+<abstract>
+<para>Sand-filled splash cups were used to study the erosivity of rainfall and throughfall in the humid subtropics of southeast China in spring and summer 2010. Our results showed that the splash cup measurements yielded precise and reproducible results both under open field conditions and under forest vegetation. The splash cups were exposed to forest stands of different age and to selected species  in the Gutianshan National Nature Reserve (GNNR). This dataset contains the measurements performed under selected trees.</para>
+
+</abstract>
+<keywordSet>
+<keyword>biodiversity</keyword>
+<keyword>CSP</keyword>
+<keyword>date</keyword>
+<keyword>kinetic energy</keyword>
+<keyword>LAI</keyword>
+<keyword>precipitation</keyword>
+<keyword>raindrop</keyword>
+<keyword>soil erosion</keyword>
+<keyword>splashcup</keyword>
+<keyword>succession</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>campaign</keyword>
+<keyword>event_no</keyword>
+<keyword>CSP</keyword>
+<keyword>age_class_3</keyword>
+<keyword>age_class_5</keyword>
+<keyword>rarefy_100</keyword>
+<keyword>shannon</keyword>
+<keyword>simpson</keyword>
+<keyword>LAI</keyword>
+<keyword>event_start</keyword>
+<keyword>event_end</keyword>
+<keyword>event_mm_bo</keyword>
+<keyword>event_mm_va</keyword>
+<keyword>event_mm_tb</keyword>
+<keyword>position_scb</keyword>
+<keyword>thoughfall_mm</keyword>
+<keyword>loss_sand_g </keyword>
+<keyword>loss_sand_g_m2</keyword>
+<keyword>KE_area</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Permission is granted to anybody to access, use and publish all open for public data freely. The commercial use of any data is prohibited. The quality and completeness of data cannot be guaranteed. Users employ these data at their own risk. In order to make attribution of use for owners of the data possible, the identifier of ownership of data must be retained with every data record. Users must publicly acknowledge, in conjunction with the use of the data, the data owners. Cite the data as follows: Geißler, C., Scholten, T. and Kühn, P. (2010): Measurements of kinetic energy on random positions in the CSPs. BEF-China data portal (Accessed through URL http://china.befdata.biow.uni-leipzig.de/datasets/171)</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/171/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>The Gutianshan National Nature Reserve (NNR) is located in the western part of Zhejiang Province (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Fig. 1).  The Gutianshan NNR has an area of approximately 81 km2 and was initially established as a National Forest Reserve in 1975 and became a National Nature Reserve in 2001. The NNR comprises a large portion of broad-leaved forests of advanced successional stages (Hu &amp; Yu 2008), which have not been managed since the beginning of the 1990ies, as well as young successional stages and conifer plantations, mainly of Cunninghamia lanceolata and Pinus massoniana. --- The vegetation is composed of different types of subtropical evergreen and mixed broad-leaved forests (Yu et al. 2001). Most of the stands are secondary forests, evidenced by maximum tree ages of 180 years, by agricultural terraces in almost all plots and by the presence of charcoal in almost all soil profiles. Around the Gutianshan NRR extensive deforestation has occurred during the Great Leap Forward in the 1950s, as in most parts of Southeast China. However, due to prevailing steep slopes, the Gutianshan area was only marginally usable for agricultural activities, and thus an exceptionally intact forest cover has been preserved. --- The climate at Gutianshan NNR is warm and temperate with a short dry season in November and December and with warm summers (Fig. 2). The climatic conditions are characteristic for the subtropics with an annual average temperature of 15.1°C, January minimum temperatures of -6.8°C, July maximum temperatures of 38.1°C and an accumulated temperature sum (≥ 5°C) of 5221.5 degree days.</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2009-07-31
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2010-06-29
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>No organisms described.</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+No organisms described.
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>pkuehn</references>
+</contact>
+<contact>
+<references>tscholten</references>
+</contact>
+<contact>
+<references>cgeissler</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>CSPs: Kinetic energy of raindrops at random positions in the CSPs</para>
+<para>Sand-filled splash cups were used to study the erosivity of rainfall and throughfall in the humid subtropics of southeast China in spring and summer 2010. Our results showed that the splash cup measurements yielded precise and reproducible results both under open field conditions and under forest vegetation. The splash cups were exposed to forest stands of different age and to selected species  in the Gutianshan National Nature Reserve (GNNR). This dataset contains the measurements performed under selected trees.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2009-07-31 00:00:00 UTC - 2010-06-29 00:00:00 UTC</para>
+
+<para>The Gutianshan National Nature Reserve (NNR) is located in the western part of Zhejiang Province (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Fig. 1).  The Gutianshan NNR has an area of approximately 81 km2 and was initially established as a National Forest Reserve in 1975 and became a National Nature Reserve in 2001. The NNR comprises a large portion of broad-leaved forests of advanced successional stages (Hu &amp; Yu 2008), which have not been managed since the beginning of the 1990ies, as well as young successional stages and conifer plantations, mainly of Cunninghamia lanceolata and Pinus massoniana. --- The vegetation is composed of different types of subtropical evergreen and mixed broad-leaved forests (Yu et al. 2001). Most of the stands are secondary forests, evidenced by maximum tree ages of 180 years, by agricultural terraces in almost all plots and by the presence of charcoal in almost all soil profiles. Around the Gutianshan NRR extensive deforestation has occurred during the Great Leap Forward in the 1950s, as in most parts of Southeast China. However, due to prevailing steep slopes, the Gutianshan area was only marginally usable for agricultural activities, and thus an exceptionally intact forest cover has been preserved. --- The climate at Gutianshan NNR is warm and temperate with a short dry season in November and December and with warm summers (Fig. 2). The climatic conditions are characteristic for the subtropics with an annual average temperature of 15.1°C, January minimum temperatures of -6.8°C, July maximum temperatures of 38.1°C and an accumulated temperature sum (≥ 5°C) of 5221.5 degree days.</para>
+<para>No organisms described.</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>Plot specific measurements: 15 splash cups were set up on random positions within a CSP. The splash cups consist of a PE flask to which a carrier system has been attached. In this carrier system a cup filled with a unit sand of 125-200 µm particle size is inserted. At the bottom of the cup a silk cover prevents loss of sand and guarantees free drainage of water from the cup to the carrier and vice versa. Cup and PE flask are hydraulically connected by a cotton wick to ensure constant moisture content throughout the time of measuring, as the initial water content is a crucial point in splash erosion studies (Poesen and Savat 1981). Additionally, vents in the carrier system ensure that the pressure arising from the insertion of the cup does not lead to loss of sand. The vent in the PE flask guarantees the free drainage of excess water which may accumulate during high intensity rainfall events. For this file 15 splashcups were randomly distributed in each CSP.</para>
+<para>Rain event characteristics come from a linked dataset: &quot;Rainfall for rain events within splashcups measurements for kinetic energy of raindrops&quot;.</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/171</entityName>
+<entityDescription>CSPs: Kinetic energy of raindrops at random positions in the CSPs</entityDescription>
+<physical>
+<objectName>/datasets/171</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/171/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='campaign'>
+<attributeName>Helper (campaign), dimensionless</attributeName>
+<attributeLabel>campaign</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (campaign: sequential number of the measring campaign)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>sequential number of the measring campaign</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='event_no'>
+<attributeName>Rainevent for determinig kinetic energy of rainfalls (event_no), dimensionless</attributeName>
+<attributeLabel>event_no</attributeLabel>
+<attributeDefinition>Splashcups were collected after certain rain events. Kinetic energy from rainfall removes sand from splashcups: Here we explore the effect individual species have in modulating kinetic energy from raindrops in the Comparative Study Plots of the BEF-China experiment. This information is important for deriving the role of tree diversity on erosion in subtropical forests. (event_no: Sequential number of the measured rainfall events)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Splashcups were collected after certain rain events. Kinetic energy from rainfall removes sand from splashcups: Here we explore the effect individual species have in modulating kinetic energy from raindrops in the Comparative Study Plots of the BEF-China experiment. This information is important for deriving the role of tree diversity on erosion in subtropical forests.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Rainevent for determinig kinetic energy of rainfalls</para>
+<para>Splashcups were collected after certain rain events. Kinetic energy from rainfall removes sand from splashcups: Here we explore the effect individual species have in modulating kinetic energy from raindrops in the Comparative Study Plots of the BEF-China experiment. This information is important for deriving the role of tree diversity on erosion in subtropical forests.</para>
+<para>Sequential number of the measured rainfall events</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP'>
+<attributeName>BEF research plot name (CSP), dimensionless</attributeName>
+<attributeLabel>CSP</attributeLabel>
+<attributeDefinition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province) (CSP: name of the CSP in the Nature ReserveBEF research plot nameReasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>BEF research plot name</para>
+<para>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) and B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) or Site B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06&#39;20.2&quot;N 117°55&#39;12.1&quot;E, Jiangxi Province)</para>
+<para>name of the CSP in the Nature ReserveBEF research plot nameReasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='age_class_3'>
+<attributeName>Helper (age_class_3), dimensionless</attributeName>
+<attributeLabel>age_class_3</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (age_class_3: Age class of the CSP (3 classes), copied from the CSP successional stages data set)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>Age class of the CSP (3 classes), copied from the CSP successional stages data set</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='age_class_5'>
+<attributeName>Helper (age_class_5), dimensionless</attributeName>
+<attributeLabel>age_class_5</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (age_class_5: Age class of the CSP (5 classes), copied from the CSP successional stages data set)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>Age class of the CSP (5 classes), copied from the CSP successional stages data set</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='rarefy_100'>
+<attributeName>Helper (rarefy_100), dimensionless</attributeName>
+<attributeLabel>rarefy_100</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (rarefy_100: rarefied species richness, copied from the CSP diversity dataset)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>rarefied species richness, copied from the CSP diversity dataset</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='shannon'>
+<attributeName>Helper (shannon), dimensionless</attributeName>
+<attributeLabel>shannon</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (shannon: shannon diversity of CSP trees, copied from the CSP diversity dataset)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>shannon diversity of CSP trees, copied from the CSP diversity dataset</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='simpson'>
+<attributeName>Helper (simpson), dimensionless</attributeName>
+<attributeLabel>simpson</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (simpson: simpson diversity of CSP trees, copied from the CSP diversity dataset)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>simpson diversity of CSP trees, copied from the CSP diversity dataset</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='LAI'>
+<attributeName>Helper (LAI), dimensionless</attributeName>
+<attributeLabel>LAI</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (LAI: LAI in the CSPs, copied from the CSP LAI file)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>LAI in the CSPs, copied from the CSP LAI file</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='event_start'>
+<attributeName>Date time information (event_start), dimensionless</attributeName>
+<attributeLabel>event_start</attributeLabel>
+<attributeDefinition>Date time information, given as year or as date or as date time. (event_start: start date of the event)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Date time information, given as year or as date or as date time.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Date time information</para>
+<para>Date time information, given as year or as date or as date time.</para>
+<para>start date of the event</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='event_end'>
+<attributeName>Date time information (event_end), dimensionless</attributeName>
+<attributeLabel>event_end</attributeLabel>
+<attributeDefinition>Date time information, given as year or as date or as date time. (event_end: end date of the event)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Date time information, given as year or as date or as date time.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Date time information</para>
+<para>Date time information, given as year or as date or as date time.</para>
+<para>end date of the event</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='event_mm_bo'>
+<attributeName>Helper (event_mm_bo), millimeter</attributeName>
+<attributeLabel>event_mm_bo</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (event_mm_bo: rainfall amount as measured by the rainfall collecting bottle; copied from the rainfall event overview)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>rainfall amount as measured by the rainfall collecting bottle; copied from the rainfall event overview</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='event_mm_va'>
+<attributeName>Helper (event_mm_va), millimeter</attributeName>
+<attributeLabel>event_mm_va</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (event_mm_va: rainfall amount as measured by the Vaisala sensor; copied from the rainfall event overview)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>rainfall amount as measured by the Vaisala sensor; copied from the rainfall event overview</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='event_mm_tb'>
+<attributeName>Helper (event_mm_tb), millimeter</attributeName>
+<attributeLabel>event_mm_tb</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (event_mm_tb: rainfall amount as measured by the tipping bucket rain gauge; copied from the rainfall event overview)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>rainfall amount as measured by the tipping bucket rain gauge; copied from the rainfall event overview</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='position_scb'>
+<attributeName>Splashcup position (position_scb), </attributeName>
+<attributeLabel>position_scb</attributeLabel>
+<attributeDefinition>Categories with &quot;P&quot; and a number indicate splashcups installed in the Main Experimental set up.
+Other entries indicate splashcups positioned in the Comparative study plots. 
+General information: The splash cups consist of a PE flask to which a carrier system has been attached. In this carrier system a cup filled with a unit sand of 125-200 µm particle size is inserted. At the bottom of the cup a silk cover prevents loss of sand and guarantees free drainage of water from the cup to the carrier and vice versa. Cup and PE flask are hydraulically connected by a cotton wick to ensure constant moisture content throughout the time of measuring, as the initial water content is a crucial point in splash erosion studies (Poesen and Savat 1981). Additionally, vents in the carrier system ensure that the pressure arising from the insertion of the cup does not lead to loss of sand. The vent in the PE flask guarantees the free drainage of excess water which may accumulate during high intensity rainfall events. (position_scb: position of the Splash Cup within the measuring pentagon)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Categories with &quot;P&quot; and a number indicate splashcups installed in the Main Experimental set up.
+Other entries indicate splashcups positioned in the Comparative study plots. 
+General information: The splash cups consist of a PE flask to which a carrier system has been attached. In this carrier system a cup filled with a unit sand of 125-200 µm particle size is inserted. At the bottom of the cup a silk cover prevents loss of sand and guarantees free drainage of water from the cup to the carrier and vice versa. Cup and PE flask are hydraulically connected by a cotton wick to ensure constant moisture content throughout the time of measuring, as the initial water content is a crucial point in splash erosion studies (Poesen and Savat 1981). Additionally, vents in the carrier system ensure that the pressure arising from the insertion of the cup does not lead to loss of sand. The vent in the PE flask guarantees the free drainage of excess water which may accumulate during high intensity rainfall events.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Splashcup position</para>
+<para>Categories with &quot;P&quot; and a number indicate splashcups installed in the Main Experimental set up.
+Other entries indicate splashcups positioned in the Comparative study plots. 
+General information: The splash cups consist of a PE flask to which a carrier system has been attached. In this carrier system a cup filled with a unit sand of 125-200 µm particle size is inserted. At the bottom of the cup a silk cover prevents loss of sand and guarantees free drainage of water from the cup to the carrier and vice versa. Cup and PE flask are hydraulically connected by a cotton wick to ensure constant moisture content throughout the time of measuring, as the initial water content is a crucial point in splash erosion studies (Poesen and Savat 1981). Additionally, vents in the carrier system ensure that the pressure arising from the insertion of the cup does not lead to loss of sand. The vent in the PE flask guarantees the free drainage of excess water which may accumulate during high intensity rainfall events.</para>
+<para>position of the Splash Cup within the measuring pentagon</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='thoughfall_mm'>
+<attributeName>Precipitation (thoughfall_mm), millimeter</attributeName>
+<attributeLabel>thoughfall_mm</attributeLabel>
+<attributeDefinition>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+ (thoughfall_mm: Throughfall as measured by the throughfall collecting bottles)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>millimeter</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Precipitation</para>
+<para>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+</para>
+<para>Throughfall as measured by the throughfall collecting bottles</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='loss_sand_g '>
+<attributeName>Deriving kinetic energy from sand loss (loss_sand_g ), gram</attributeName>
+<attributeLabel>loss_sand_g </attributeLabel>
+<attributeDefinition>Kinetic energy is derived from sand loss out of splashcups. For this, the amount of sand removed by rain can be used to calculate a standardized amount of removed sand per area and a kinetic energy per area. (loss_sand_g : loss of sand from splash cups during the event)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>gram</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Deriving kinetic energy from sand loss</para>
+<para>Kinetic energy is derived from sand loss out of splashcups. For this, the amount of sand removed by rain can be used to calculate a standardized amount of removed sand per area and a kinetic energy per area.</para>
+<para>loss of sand from splash cups during the event</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='loss_sand_g_m2'>
+<attributeName>Deriving kinetic energy from sand loss (loss_sand_g_m2), gramPerSquaremeter</attributeName>
+<attributeLabel>loss_sand_g_m2</attributeLabel>
+<attributeDefinition>Kinetic energy is derived from sand loss out of splashcups. For this, the amount of sand removed by rain can be used to calculate a standardized amount of removed sand per area and a kinetic energy per area. (loss_sand_g_m2: loss of sand from splash cups during the event extrapolated to m²)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Deriving kinetic energy from sand loss</para>
+<para>Kinetic energy is derived from sand loss out of splashcups. For this, the amount of sand removed by rain can be used to calculate a standardized amount of removed sand per area and a kinetic energy per area.</para>
+<para>loss of sand from splash cups during the event extrapolated to m²</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='KE_area'>
+<attributeName>Deriving kinetic energy from sand loss (KE_area), joule per squaremeter</attributeName>
+<attributeLabel>KE_area</attributeLabel>
+<attributeDefinition>Kinetic energy is derived from sand loss out of splashcups. For this, the amount of sand removed by rain can be used to calculate a standardized amount of removed sand per area and a kinetic energy per area. (KE_area: loss of sand from splash cups during the event extrapolated to m² and converted into KE )</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Deriving kinetic energy from sand loss</para>
+<para>Kinetic energy is derived from sand loss out of splashcups. For this, the amount of sand removed by rain can be used to calculate a standardized amount of removed sand per area and a kinetic energy per area.</para>
+<para>loss of sand from splash cups during the event extrapolated to m² and converted into KE </para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>1185</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

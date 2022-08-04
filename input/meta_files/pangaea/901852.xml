@@ -1,0 +1,254 @@
+<md:MetaData xmlns:md="http://www.pangaea.de/MetaData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ws.pangaea.de/schemas/pangaea/MetaData.xsd" version="2019-02-13">
+<md:citation id="dataset901852" >
+<md:author id="dataset.author69471" >
+<md:lastName>Cunliffe</md:lastName>
+<md:firstName>Andrew M</md:firstName>
+<md:eMail>andrewmcunliffe@gmail.com</md:eMail>
+<md:orcid>0000-0002-8346-4278</md:orcid>
+</md:author>
+<md:author id="dataset.author54421" >
+<md:lastName>Tanski</md:lastName>
+<md:firstName>George</md:firstName>
+<md:eMail>george.tanski@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/george-tanski.html</md:URI>
+<md:orcid>0000-0002-2992-2071</md:orcid>
+</md:author>
+<md:author id="dataset.author57046" >
+<md:lastName>Radosavljevic</md:lastName>
+<md:firstName>Boris</md:firstName>
+<md:eMail>boris.radosavljevic@awi.de</md:eMail>
+<md:URI>https://www.awi.de/en/about-us/organisation/staff/boris-radosavljevic.html</md:URI>
+<md:orcid>0000-0001-6095-9078</md:orcid>
+</md:author>
+<md:author id="dataset.author69472" >
+<md:lastName>Palmer</md:lastName>
+<md:firstName>William</md:firstName>
+</md:author>
+<md:author id="dataset.author37064" >
+<md:lastName>Sachs</md:lastName>
+<md:firstName>Torsten</md:firstName>
+<md:eMail>torsten.sachs@gfz-potsdam.de</md:eMail>
+<md:URI>http://www.gfz-potsdam.de/portal/gfz/Struktur/Departments/Department+4/sec42/M4_Telefonliste/STAFF/TSachs</md:URI>
+<md:orcid>0000-0002-9959-4771</md:orcid>
+</md:author>
+<md:author id="dataset.author69480" >
+<md:lastName>Kerby</md:lastName>
+<md:firstName>Jeffrey T</md:firstName>
+</md:author>
+<md:author id="dataset.author45859" >
+<md:lastName>Myers-Smith</md:lastName>
+<md:firstName>Isla H</md:firstName>
+<md:eMail>imyerssmith@ualberta.ca</md:eMail>
+<md:orcid>0000-0002-8417-6112</md:orcid>
+</md:author>
+<md:year>2019</md:year>
+<md:title>Aerial images of eroding permafrost coastline, Qikiqtaruk - Hershel Island, Yukon, Canada</md:title>
+<md:URI>https://doi.org/10.1594/PANGAEA.901852</md:URI>
+<md:dateTime>2019-05-17T13:17:17</md:dateTime>
+<md:supplementTo id="ref99753" >
+<md:author id="ref99753.author69471" >
+<md:lastName>Cunliffe</md:lastName>
+<md:firstName>Andrew M</md:firstName>
+<md:eMail>andrewmcunliffe@gmail.com</md:eMail>
+<md:orcid>0000-0002-8346-4278</md:orcid>
+</md:author>
+<md:author id="ref99753.author54421" >
+<md:lastName>Tanski</md:lastName>
+<md:firstName>George</md:firstName>
+<md:eMail>george.tanski@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/george-tanski.html</md:URI>
+<md:orcid>0000-0002-2992-2071</md:orcid>
+</md:author>
+<md:author id="ref99753.author57046" >
+<md:lastName>Radosavljevic</md:lastName>
+<md:firstName>Boris</md:firstName>
+<md:eMail>boris.radosavljevic@awi.de</md:eMail>
+<md:URI>https://www.awi.de/en/about-us/organisation/staff/boris-radosavljevic.html</md:URI>
+<md:orcid>0000-0001-6095-9078</md:orcid>
+</md:author>
+<md:author id="ref99753.author69472" >
+<md:lastName>Palmer</md:lastName>
+<md:firstName>William</md:firstName>
+</md:author>
+<md:author id="ref99753.author37064" >
+<md:lastName>Sachs</md:lastName>
+<md:firstName>Torsten</md:firstName>
+<md:eMail>torsten.sachs@gfz-potsdam.de</md:eMail>
+<md:URI>http://www.gfz-potsdam.de/portal/gfz/Struktur/Departments/Department+4/sec42/M4_Telefonliste/STAFF/TSachs</md:URI>
+<md:orcid>0000-0002-9959-4771</md:orcid>
+</md:author>
+<md:author id="ref99753.author29253" >
+<md:lastName>Lantuit</md:lastName>
+<md:firstName>Hugues</md:firstName>
+<md:eMail>Hugues.Lantuit@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/hugues-lantuit.html</md:URI>
+<md:orcid>0000-0003-1497-6760</md:orcid>
+</md:author>
+<md:author id="ref99753.author69480" >
+<md:lastName>Kerby</md:lastName>
+<md:firstName>Jeffrey T</md:firstName>
+</md:author>
+<md:author id="ref99753.author45859" >
+<md:lastName>Myers-Smith</md:lastName>
+<md:firstName>Isla H</md:firstName>
+<md:eMail>imyerssmith@ualberta.ca</md:eMail>
+<md:orcid>0000-0002-8417-6112</md:orcid>
+</md:author>
+<md:year>2019</md:year>
+<md:title>Rapid retreat of permafrost coastline observed with aerial drone photogrammetry</md:title>
+<md:source id="ref99753.journal4140" relatedTermIds="33964" >The Cryosphere</md:source>
+<md:volume>13(5)</md:volume>
+<md:URI>https://doi.org/10.5194/tc-13-1513-2019</md:URI>
+<md:pages>1513-1528</md:pages>
+</md:supplementTo>
+</md:citation>
+<md:abstract>Permafrost landscapes are changing around the Arctic in response to climate warming, with coastal erosion being one of the most prominent and hazardous features. Using drone platforms, satellite images, and historic aerial photographs, we observed the rapid retreat of a permafrost coastline on Qikiqtaruk – Herschel Island, Yukon Territory, in the Canadian Beaufort Sea. This coastline is adjacent to a gravel spit accommodating several culturally significant sites and is the logistical base for the Qikiqtaruk – Herschel Island Territorial Park operations. In this study we sought to (i) assess short-term coastal erosion dynamics over fine temporal resolution, (ii) evaluate short-term shoreline change in the context of long-term observations, and (iii) demonstrate the potential of low-cost lightweight unmanned aerial vehicles (“drones”) to inform coastline studies and management decisions. We resurveyed a 500 m permafrost coastal reach at high temporal frequency (seven surveys over 40 d in 2017). Intra-seasonal shoreline changes were related to meteorological and oceanographic variables to understand controls on intra-seasonal erosion patterns. To put our short-term observations into historical context, we combined our analysis of shoreline positions in 2016 and 2017 with historical observations from 1952, 1970, 2000, and 2011. In just the summer of 2017, we observed coastal retreat of 14.5 m, more than 6 times faster than the long-term average rate of 2.2±0.1 m a−1 (1952–2017). Coastline retreat rates exceeded 1.0±0.1 m d−1 over a single 4 d period. Over 40 d, we estimated removal of ca. 0.96 m3 m−1 d−1. These findings highlight the episodic nature of shoreline change and the important role of storm events, which are poorly understood along permafrost coastlines. We found drone surveys combined with image-based modelling yield fine spatial resolution and accurately geolocated observations that are highly suitable to observe intra-seasonal erosion dynamics in rapidly changing Arctic landscapes.</md:abstract>
+<md:extent>
+<md:geographic>
+<md:westBoundLongitude>-138.9</md:westBoundLongitude>
+<md:eastBoundLongitude>-138.9</md:eastBoundLongitude>
+<md:southBoundLatitude>69.57</md:southBoundLatitude>
+<md:northBoundLatitude>69.57</md:northBoundLatitude>
+<md:meanLongitude>-138.9</md:meanLongitude>
+<md:meanLatitude>69.57</md:meanLatitude>
+</md:geographic>
+<md:elevation name="Elevation" unit="m" >
+<md:min>0.0</md:min>
+<md:max>0.0</md:max>
+</md:elevation>
+<md:topoType id="topotype1" >not specified</md:topoType>
+</md:extent>
+<md:event id="event2842889" >
+<md:label>Qikiqtaruk</md:label>
+<md:latitude>69.57</md:latitude>
+<md:longitude>-138.9</md:longitude>
+<md:elevation>0.0</md:elevation>
+<md:location id="event2842889.term31262" >
+<md:name>Herschel Island, Yukon Territory, Canada</md:name>
+</md:location>
+<md:device id="event2842889.term19843" >
+<md:name>Multiple investigations</md:name>
+<md:optionalName>MULT</md:optionalName>
+</md:device>
+</md:event>
+<md:size unit="data points" >60</md:size>
+<md:license id="license21" >
+<md:label>CC-BY-4.0</md:label>
+<md:name>Creative Commons Attribution 4.0 International</md:name>
+<md:URI>https://creativecommons.org/licenses/by/4.0/</md:URI>
+</md:license>
+<md:comment>This dataset consists of a time-series of twelve co-registered and orthorectified aerial images, which depict the erosion of a permafrost coastline on Qikiqtaruk - Herschel Island in the Canadian Yukon (69.57°N, 138.9°W). They are the core dataset underpinning the analysis published in The Cryosphere. Please refer to the published article for additional information on the origin and production of these geotiffs. All twelve raster files have been clipped to the spatial extent of the study area used in the article.</md:comment>
+<md:matrixColumn col="0" id="col0.ds13675078" label="Qikiqtaruk.29" source="data" type="string" >
+<md:parameter id="col0.ds13675078.param99583" >
+<md:name>File content</md:name>
+<md:shortName>Content</md:shortName>
+</md:parameter>
+<md:PI id="col0.ds13675078.pi69471" >
+<md:lastName>Cunliffe</md:lastName>
+<md:firstName>Andrew M</md:firstName>
+<md:eMail>andrewmcunliffe@gmail.com</md:eMail>
+<md:orcid>0000-0002-8346-4278</md:orcid>
+</md:PI>
+<md:caption>Content</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="1" id="col1.ds13675079" label="Qikiqtaruk.30" source="data" type="string" >
+<md:parameter id="col1.ds13675079.param25541" >
+<md:name>File name</md:name>
+<md:shortName>File name</md:shortName>
+</md:parameter>
+<md:PI id="col1.ds13675079.pi69471" >
+<md:lastName>Cunliffe</md:lastName>
+<md:firstName>Andrew M</md:firstName>
+<md:eMail>andrewmcunliffe@gmail.com</md:eMail>
+<md:orcid>0000-0002-8346-4278</md:orcid>
+</md:PI>
+<md:caption>File name</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="2" id="col2.ds13675080" label="Qikiqtaruk.31" source="data" type="string" >
+<md:parameter id="col2.ds13675080.param16143" >
+<md:name>File format</md:name>
+<md:shortName>File format</md:shortName>
+</md:parameter>
+<md:PI id="col2.ds13675080.pi69471" >
+<md:lastName>Cunliffe</md:lastName>
+<md:firstName>Andrew M</md:firstName>
+<md:eMail>andrewmcunliffe@gmail.com</md:eMail>
+<md:orcid>0000-0002-8346-4278</md:orcid>
+</md:PI>
+<md:caption>File format</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="3" format="#####0.000" id="col3.ds13675081" label="Qikiqtaruk.32" source="data" type="numeric" >
+<md:parameter id="col3.ds13675081.param16144" >
+<md:name>File size</md:name>
+<md:shortName>File size</md:shortName>
+<md:unit>kByte</md:unit>
+</md:parameter>
+<md:PI id="col3.ds13675081.pi69471" >
+<md:lastName>Cunliffe</md:lastName>
+<md:firstName>Andrew M</md:firstName>
+<md:eMail>andrewmcunliffe@gmail.com</md:eMail>
+<md:orcid>0000-0002-8346-4278</md:orcid>
+</md:PI>
+<md:caption>File size [kByte]</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="4" id="col4.ds13675082" label="Qikiqtaruk.33" source="data" type="uri" >
+<md:parameter id="col4.ds13675082.param54251" >
+<md:name>Uniform resource locator/link to file</md:name>
+<md:shortName>URL file</md:shortName>
+</md:parameter>
+<md:PI id="col4.ds13675082.pi69471" >
+<md:lastName>Cunliffe</md:lastName>
+<md:firstName>Andrew M</md:firstName>
+<md:eMail>andrewmcunliffe@gmail.com</md:eMail>
+<md:orcid>0000-0002-8346-4278</md:orcid>
+</md:PI>
+<md:caption>URL file</md:caption>
+</md:matrixColumn>
+<md:keywords>
+<md:techKeyword type="autoGenerated" >supplement</md:techKeyword>
+<md:techKeyword type="autoGenerated" >citable</md:techKeyword>
+<md:keyword id="keywords.term48194" type="fromDatabase" >Aerial Images</md:keyword>
+<md:keyword id="keywords.term48897" type="fromDatabase" >coastal change</md:keyword>
+<md:keyword id="keywords.term47869" type="fromDatabase" >erosion</md:keyword>
+<md:keyword id="keywords.term353" type="fromDatabase" >Permafrost</md:keyword>
+<md:techKeyword type="autoGenerated" >author29253</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author37064</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author45859</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author54421</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author57046</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author69471</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author69472</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author69480</md:techKeyword>
+<md:techKeyword type="autoGenerated" >event2842889</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1600</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1601</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode8128</md:techKeyword>
+<md:techKeyword type="autoGenerated" >journal4140</md:techKeyword>
+<md:techKeyword type="autoGenerated" >license21</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param16143</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param16144</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param25541</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param54251</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param99583</md:techKeyword>
+<md:techKeyword type="autoGenerated" >pi69471</md:techKeyword>
+<md:techKeyword type="autoGenerated" >ref99753</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term19843</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term31262</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term353</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term47869</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term48194</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term48897</md:techKeyword>
+<md:techKeyword type="autoGenerated" >topotype1</md:techKeyword>
+</md:keywords>
+<md:technicalInfo>
+<md:entry key="xmlLastModified" value="2019-07-02T03:09:42Z" ></md:entry>
+<md:entry key="filename" value="Cunliffe-etal_2019" ></md:entry>
+<md:entry key="mimeType" value="text/tab-separated-values" ></md:entry>
+<md:entry key="status" value="published" ></md:entry>
+<md:entry key="status_num" value="4" ></md:entry>
+<md:entry key="DOIRegistryStatus" value="registered" ></md:entry>
+<md:entry key="DOIRegistryStatus_num" value="4" ></md:entry>
+<md:entry key="loginOption" value="unrestricted" ></md:entry>
+<md:entry key="loginOption_num" value="1" ></md:entry>
+</md:technicalInfo>
+</md:MetaData> 

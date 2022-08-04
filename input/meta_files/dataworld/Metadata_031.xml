@@ -1,0 +1,369 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">us-doi-gov_db04e48a-ccda-45ba-b7bd-43920a9ec176</name>
+	<title type="str">DWH NRDA Background Deposition of Bird Carcasses on Walka...</title>
+	<description type="str">DWH NRDA Background Deposition of Bird Carcasses on Walkable Beaches and in Marshes
+
+*Original Title*: DWH NRDA Background Deposition of Bird Carcasses on Walkable Beaches and in Marshes
+
+This dataset contains the data collected during Deepwater Horizon Bird Study #24 (Background Carcass Deposition). Field surveys associated with BS #24 occurred during the summer of 2015. Data collection efforts were led by Industrial Economics, Incorporated, on behalf of the U.S. Fish and Wildlife Service. While surveys were planned for June through October in nearshore areas across the northern Gulf of Mexico from northeast Texas to northwest Florida, data were ultimately only collected in June and July in Mississippi, Alabama, and Florida. During field surveys, study personnel walked, or boated along, pre-defined segments of beach or marsh and noted each time a bird carcass was encountered. The goal of these efforts was to collect data that would facilitate the development of an estimate of the background avian mortality rate in the northern Gulf of Mexico. Photographs and GPS data were also collected during field surveys.
+
+Source: https://catalog.data.gov/dataset/dwh-nrda-background-deposition-of-bird-carcasses-on-walkable-beaches-and-in-marshes  
+Last updated at https://catalog.data.gov/organization/doi-gov : 2019-12-11  
+[More about U.S. Government Works](https://www.usa.gov/government-works)</description>
+	<homepage type="str">https://data.world/us-doi-gov/db04e48a-ccda-45ba-b7bd-43920a9ec176</homepage>
+	<license type="str">Public Domain</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">bs_24_draftvalidated</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">uniqueid</name>
+						<title type="str">UniqueID</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">uniqueid</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">date</name>
+						<title type="str">Date</title>
+						<type type="str">date</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#date</rdfType>
+						<dwSourceId type="str">date</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">field_team_name</name>
+						<title type="str">Field Team Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">field_team_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">field_team_members</name>
+						<title type="str">Field Team Members</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">field_team_members</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">transect_id</name>
+						<title type="str">Transect ID#</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">transect_id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">transect_start_latitude</name>
+						<title type="str">Transect Start Latitude</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">transect_start_latitude</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">transect_start_longitude</name>
+						<title type="str">Transect Start Longitude</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">transect_start_longitude</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">transect_start_waypoint</name>
+						<title type="str">Transect Start Waypoint</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">transect_start_waypoint</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">transect_start_time</name>
+						<title type="str">Transect Start Time</title>
+						<type type="str">time</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#time</rdfType>
+						<dwSourceId type="str">transect_start_time</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">transect_end_latitude</name>
+						<title type="str">Transect End Latitude</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">transect_end_latitude</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">transect_end_longitude</name>
+						<title type="str">Transect End Longitude</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">transect_end_longitude</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">transect_end_waypoint</name>
+						<title type="str">Transect End Waypoint</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">transect_end_waypoint</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">transect_end_time</name>
+						<title type="str">Transect End Time</title>
+						<type type="str">time</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#time</rdfType>
+						<dwSourceId type="str">transect_end_time</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">gps_route_id</name>
+						<title type="str">GPS Route ID#</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">gps_route_id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">wind_mph</name>
+						<title type="str">Wind (mph)</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">wind_mph</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">wind_direction</name>
+						<title type="str">Wind Direction</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">wind_direction</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">total_transect_length_km</name>
+						<title type="str">Total Transect length (km)</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">total_transect_length_km</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">of_transect_searched</name>
+						<title type="str">% of transect searched</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">of_transect_searched</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">camera_id</name>
+						<title type="str">Camera ID #</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">camera_id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">camera_memory_card_id</name>
+						<title type="str">Camera memory card ID#</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">camera_memory_card_id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">gps_id</name>
+						<title type="str">GPS ID#</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">gps_id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">gps_memory_card_id</name>
+						<title type="str">GPS memory card ID#</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">gps_memory_card_id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">transect_type</name>
+						<title type="str">Transect Type</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">transect_type</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">search_type</name>
+						<title type="str">Search Type</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">search_type</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">search_path</name>
+						<title type="str">Search Path</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">search_path</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">mode_of_search</name>
+						<title type="str">Mode of search</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">mode_of_search</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">species</name>
+						<title type="str">Species</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">first_find</name>
+						<title type="str">First find?</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">first_find</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">id</name>
+						<title type="str">ID#</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">carcass_location_latitude</name>
+						<title type="str">Carcass Location Latitude</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">carcass_location_latitude</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">carcass_location_longitude</name>
+						<title type="str">Carcass Location Longitude</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">carcass_location_longitude</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">time</name>
+						<title type="str">Time</title>
+						<type type="str">time</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#time</rdfType>
+						<dwSourceId type="str">time</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">carcass_beach_position</name>
+						<title type="str">Carcass Beach position</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">carcass_beach_position</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">oiling</name>
+						<title type="str">Oiling</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">oiling</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">scavenging_state</name>
+						<title type="str">Scavenging State</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">scavenging_state</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">age</name>
+						<title type="str">Age</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">age</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">photo_a</name>
+						<title type="str">Photo A#</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">photo_a</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">photo_b</name>
+						<title type="str">Photo B#</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">photo_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">comments</name>
+						<title type="str">Comments</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">comments</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_entry_date_notes</name>
+						<title type="str">Data Entry Date/Notes</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_entry_date_notes</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">verification_notes</name>
+						<title type="str">Verification Notes</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">verification_notes</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">validation_notes</name>
+						<title type="str">Validation Notes</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">validation_notes</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">validation_status</name>
+						<title type="str">Validation Status</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">validation_status</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">transect_start_location</name>
+						<title type="str">Transect Start  Location</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.opengis.net/ont/OGC-GeoSPARQL/1.0/Point</rdfType>
+						<dwSourceId type="str">transect_start_location</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">transect_end_location</name>
+						<title type="str">Transect End  Location</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.opengis.net/ont/OGC-GeoSPARQL/1.0/Point</rdfType>
+						<dwSourceId type="str">transect_end_location</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">carcass_location_location</name>
+						<title type="str">Carcass Location  Location</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.opengis.net/ont/OGC-GeoSPARQL/1.0/Point</rdfType>
+						<dwSourceId type="str">carcass_location_location</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/bs_24_draftvalidated.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/bs24-bkgddeposition-vervalreport-5-10-16-pdf-1.pdf</name>
+			<path type="str">original/bs24-bkgddeposition-vervalreport-5-10-16-pdf-1.pdf</path>
+			<format type="str">pdf</format>
+			<mediatype type="str">application/pdf</mediatype>
+			<bytes type="int">537667</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/dwh-backgrounddeposition-dataset-xls-2.excel</name>
+			<path type="str">original/dwh-backgrounddeposition-dataset-xls-2.excel</path>
+			<format type="str">excel</format>
+			<mediatype type="str">application/vnd.ms-excel</mediatype>
+			<bytes type="int">317440</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">avian</item>
+		<item type="str">bird</item>
+		<item type="str">dwh</item>
+		<item type="str">nrda</item>
+	</keywords>
+</all>

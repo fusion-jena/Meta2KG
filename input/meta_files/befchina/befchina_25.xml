@@ -1,0 +1,311 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='397'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/397</alternateIdentifier>
+<title>CSPs: Soil fungal metagenome from 12 CSPs based on the fungal ITS rDNA pyrotags</title>
+<creator id='twubet'>
+<individualName>
+<givenName>Tesfaye</givenName>
+<surName>Wubet</surName>
+</individualName>
+<organizationName>Helmholtz Centre for Environmental Research UFZ Leipzig-Halle,  Department of Soil Ecology</organizationName>
+<address>
+<deliveryPoint>Theodor-Lieser-Straße 4</deliveryPoint>
+<city>06120 Halle</city>
+<country>Germany</country>
+</address>
+<phone>+ 49 (0) 345-558 5204</phone>
+<electronicMailAddress>tesfaye.wubet@ufz.de</electronicMailAddress>
+</creator>
+<creator id='fbuscot'>
+<individualName>
+<givenName>François</givenName>
+<surName>Buscot</surName>
+</individualName>
+<organizationName>Helmholtz Centre for Environmental Research UFZ Leipzig-Halle,  Department of Soil Ecology</organizationName>
+<address>
+<deliveryPoint>Theodor-Lieser-Straße 4</deliveryPoint>
+<city>06120 Halle</city>
+<country>Germany</country>
+</address>
+<phone>+ 49 (0) 345-558 5221</phone>
+<electronicMailAddress>francois.buscot@ufz.de</electronicMailAddress>
+</creator>
+<creator id='ywu'>
+<individualName>
+<givenName>Yu Ting </givenName>
+<surName>Wu</surName>
+</individualName>
+
+
+<electronicMailAddress>yuting.wu@ufz.de</electronicMailAddress>
+</creator>
+<pubDate>2013-09-24</pubDate>
+<language>en_US</language>
+<abstract>
+<para>Fungal diversity and community composition are mainly related to soil and vegetation factors. However, the relative contribution of the different drivers remains largely unexplored, especially in subtropical forest ecosystems. We studied the fungal diversity and community composition of soils sampled from 12 comparative study plots representing three forest age classes (Young: 10–40 yrs; Medium: 40–80 yrs; Old:
+&gt; 80 yrs) in Gutianshan National Nature Reserve in South-eastern China. Soil fungal communities were assessed employing ITS rDNA pyrotag sequencing. Members of Basidiomycota and Ascomycota dominated the fungal community, with 22 putative ectomycorrhizal fungal families, where Russulaceae and Thelephoraceae were the most abundant taxa. Analysis of similarity showed that the fungal community composition significantly differed among the three forest age classes. Forest age class, elevation of the study plots, and soil organic carbon (SOC) were the most important factors shaping the fungal community composition. We found a significant correlation between plant and fungal communities at different taxonomic and functional group levels, including a strong relationship between ectomycorrhizal fungal and non-ectomycorrhizal plant communities. Our results suggest that in subtropical forests, plant species community composition is the main driver of the soil fungal diversity and community composition.</para>
+<para>This data was from the PhD thesis of Yuting Wu in the group of Tesfaye Wubet.</para>
+</abstract>
+<keywordSet>
+<keyword>abundance</keyword>
+<keyword>CSP</keyword>
+<keyword>ectomycorrhiza</keyword>
+<keyword>fungi</keyword>
+<keyword>saprophytes</keyword>
+<keyword>successional age</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>Taxon</keyword>
+<keyword>CSP</keyword>
+<keyword>age class</keyword>
+<keyword>abundance</keyword>
+<keyword>Taxonomic.assignment</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Permission is granted to anybody to access, use and publish all open for public data freely. The commercial use of any data is prohibited. The quality and completeness of data cannot be guaranteed. Users employ these data at their own risk. In order to make attribution of use for owners of the data possible, the identifier of ownership of data must be retained with every data record. Users must publicly acknowledge, in conjunction with the use of the data, the data owners. Cite the data as follows: Wubet, T., Wu, Y.T. and Buscot, F. (2013): Soil Fungal metagenome from 12 CSPs based on the fungal ITS rDNA pyrotags. BEF-China data portal (Accessed through URL http://china.befdata.biow.uni-leipzig.de/datasets/397)</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/397/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>The Gutianshan National Nature Reserve (NNR) is located in the western part of Zhejiang Province (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Fig. 1).  The Gutianshan NNR has an area of approximately 81 km2 and was initially established as a National Forest Reserve in 1975 and became a National Nature Reserve in 2001. The NNR comprises a large portion of broad-leaved forests of advanced successional stages (Hu &amp; Yu 2008), which have not been managed since the beginning of the 1990ies, as well as young successional stages and conifer plantations, mainly of Cunninghamia lanceolata and Pinus massoniana. --- The vegetation is composed of different types of subtropical evergreen and mixed broad-leaved forests (Yu et al. 2001). Most of the stands are secondary forests, evidenced by maximum tree ages of 180 years, by agricultural terraces in almost all plots and by the presence of charcoal in almost all soil profiles. Around the Gutianshan NRR extensive deforestation has occurred during the Great Leap Forward in the 1950s, as in most parts of Southeast China. However, due to prevailing steep slopes, the Gutianshan area was only marginally usable for agricultural activities, and thus an exceptionally intact forest cover has been preserved. --- The climate at Gutianshan NNR is warm and temperate with a short dry season in November and December and with warm summers (Fig. 2). The climatic conditions are characteristic for the subtropics with an annual average temperature of 15.1°C, January minimum temperatures of -6.8°C, July maximum temperatures of 38.1°C and an accumulated temperature sum (≥ 5°C) of 5221.5 degree days.</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2008-07-31
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2008-12-30
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>Fungal communities based on fungal IST rDNA pyrosequencing.</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+Fungal communities based on fungal IST rDNA pyrosequencing.
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>twubet</references>
+</contact>
+<contact>
+<references>fbuscot</references>
+</contact>
+<contact>
+<references>ywu</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>CSPs: Soil fungal metagenome from 12 CSPs based on the fungal ITS rDNA pyrotags</para>
+<para>Fungal diversity and community composition are mainly related to soil and vegetation factors. However, the relative contribution of the different drivers remains largely unexplored, especially in subtropical forest ecosystems. We studied the fungal diversity and community composition of soils sampled from 12 comparative study plots representing three forest age classes (Young: 10–40 yrs; Medium: 40–80 yrs; Old:
+&gt; 80 yrs) in Gutianshan National Nature Reserve in South-eastern China. Soil fungal communities were assessed employing ITS rDNA pyrotag sequencing. Members of Basidiomycota and Ascomycota dominated the fungal community, with 22 putative ectomycorrhizal fungal families, where Russulaceae and Thelephoraceae were the most abundant taxa. Analysis of similarity showed that the fungal community composition significantly differed among the three forest age classes. Forest age class, elevation of the study plots, and soil organic carbon (SOC) were the most important factors shaping the fungal community composition. We found a significant correlation between plant and fungal communities at different taxonomic and functional group levels, including a strong relationship between ectomycorrhizal fungal and non-ectomycorrhizal plant communities. Our results suggest that in subtropical forests, plant species community composition is the main driver of the soil fungal diversity and community composition.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2008-07-31 00:00:00 UTC - 2008-12-30 00:00:00 UTC</para>
+<para>Samples were taken in August and September 2008 from the CSPs, taken to Germany, and analyzed in the laboratory afterward (over the next several months).</para>
+<para>The Gutianshan National Nature Reserve (NNR) is located in the western part of Zhejiang Province (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Fig. 1).  The Gutianshan NNR has an area of approximately 81 km2 and was initially established as a National Forest Reserve in 1975 and became a National Nature Reserve in 2001. The NNR comprises a large portion of broad-leaved forests of advanced successional stages (Hu &amp; Yu 2008), which have not been managed since the beginning of the 1990ies, as well as young successional stages and conifer plantations, mainly of Cunninghamia lanceolata and Pinus massoniana. --- The vegetation is composed of different types of subtropical evergreen and mixed broad-leaved forests (Yu et al. 2001). Most of the stands are secondary forests, evidenced by maximum tree ages of 180 years, by agricultural terraces in almost all plots and by the presence of charcoal in almost all soil profiles. Around the Gutianshan NRR extensive deforestation has occurred during the Great Leap Forward in the 1950s, as in most parts of Southeast China. However, due to prevailing steep slopes, the Gutianshan area was only marginally usable for agricultural activities, and thus an exceptionally intact forest cover has been preserved. --- The climate at Gutianshan NNR is warm and temperate with a short dry season in November and December and with warm summers (Fig. 2). The climatic conditions are characteristic for the subtropics with an annual average temperature of 15.1°C, January minimum temperatures of -6.8°C, July maximum temperatures of 38.1°C and an accumulated temperature sum (≥ 5°C) of 5221.5 degree days.</para>
+<para>Fungal communities based on fungal IST rDNA pyrosequencing.</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>A subset of 12 CSPs were selected according to an successional age and a diversity gradient; based on the original age classifications : young (CSPs 16,17,25,26), medium (CSPs 1,5,8,9) and old (CSPs 2,4,12,13). At each CSP, samples were originally taken by SP6 at 5 cm intervals down to 50 cm, and we analysed the pooled samples taken from 9 subplots representing the first 10 cm.</para>
+<para>Fungal diversity was analysed based on pyrotag sequencing of the fungal ITS rDNA using the primer pair ITS1F and ITS4. Sequences were quality filtered and clustered at a 97% sequence similarity criteria to obtain species level operational taxonomic units. Representative sequences were then used to assigned a taxonomic affiliation of the fungal OTUs (operational taxonimic units) using reference datsets. We used the relative abundance of the dominant fungal OTUs to assess the relationship between fungal and plant community composition and assess the environmental variables affecting the changes in the fungal community composition. We used R to carry out different multivariate tests.</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/397</entityName>
+<entityDescription>CSPs: Soil fungal metagenome from 12 CSPs based on the fungal ITS rDNA pyrotags</entityDescription>
+<physical>
+<objectName>/datasets/397</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/397/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='Taxon'>
+<attributeName>Operational taxonomic unit (OTU) (Taxon), </attributeName>
+<attributeLabel>Taxon</attributeLabel>
+<attributeDefinition>In phylogeny an operational taxonomic unit (OTU) is an operational definition of a species or group of species often used when only DNA sequence data is available. It is the most commonly used microbial diversity unit.
+The definition given by NCBI is:
+&quot;Taxonomic level of sampling selected by the user to be used in a study, such as individuals, populations, species, genera, or bacterial strains.&quot;
+Another definition:
+&quot;Operational taxonomic unit, species distinction in microbiology. Typically using rRNA and a percent similarity threshold for classifying microbes within the same, or different, OTUs&quot; (Wikipedia entry) (Taxon: operational taxonomic units (OTUs) determined in the context of soil fungal metagenome studies in the CSPs)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>In phylogeny an operational taxonomic unit (OTU) is an operational definition of a species or group of species often used when only DNA sequence data is available. It is the most commonly used microbial diversity unit.
+The definition given by NCBI is:
+&quot;Taxonomic level of sampling selected by the user to be used in a study, such as individuals, populations, species, genera, or bacterial strains.&quot;
+Another definition:
+&quot;Operational taxonomic unit, species distinction in microbiology. Typically using rRNA and a percent similarity threshold for classifying microbes within the same, or different, OTUs&quot; (Wikipedia entry)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Operational taxonomic unit (OTU)</para>
+<para>In phylogeny an operational taxonomic unit (OTU) is an operational definition of a species or group of species often used when only DNA sequence data is available. It is the most commonly used microbial diversity unit.
+The definition given by NCBI is:
+&quot;Taxonomic level of sampling selected by the user to be used in a study, such as individuals, populations, species, genera, or bacterial strains.&quot;
+Another definition:
+&quot;Operational taxonomic unit, species distinction in microbiology. Typically using rRNA and a percent similarity threshold for classifying microbes within the same, or different, OTUs&quot; (Wikipedia entry)</para>
+<para>operational taxonomic units (OTUs) determined in the context of soil fungal metagenome studies in the CSPs</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP'>
+<attributeName>BEF research plot name (CSP), </attributeName>
+<attributeLabel>CSP</attributeLabel>
+<attributeDefinition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province) (CSP: Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>BEF research plot name</para>
+<para>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) and B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) or Site B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06&#39;20.2&quot;N 117°55&#39;12.1&quot;E, Jiangxi Province)</para>
+<para>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='age class'>
+<attributeName>Helper (age class), </attributeName>
+<attributeLabel>age class</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (age class: age of CSP out of three categories)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>age of CSP out of three categories</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='abundance'>
+<attributeName>Abundance (abundance), </attributeName>
+<attributeLabel>abundance</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (abundance: Fungal OTU abundance based on 97% sequence clustering)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Fungal OTU abundance based on 97% sequence clustering</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Taxonomic.assignment'>
+<attributeName>Taxonomy (higher levels than family, genus, species) (Taxonomic.assignment), </attributeName>
+<attributeLabel>Taxonomic.assignment</attributeLabel>
+<attributeDefinition>Conatins higher levels of taxonomic information on the species under study. This comprises all information ABOVE family, genus and species information (e.g. Phylum) (Taxonomic.assignment: taxonomic affiliation of the fungal OTUs)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Conatins higher levels of taxonomic information on the species under study. This comprises all information ABOVE family, genus and species information (e.g. Phylum)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Taxonomy (higher levels than family, genus, species)</para>
+<para>Conatins higher levels of taxonomic information on the species under study. This comprises all information ABOVE family, genus and species information (e.g. Phylum)</para>
+<para>taxonomic affiliation of the fungal OTUs</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>1638</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

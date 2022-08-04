@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">hdx_892f72f8-29b5-451e-8d27-7b89d1c45f63</name>
+	<title type="str">India - Environment</title>
+	<description type="str">India - Environment
+
+Contains data from the World Bank's [data portal](http://data.worldbank.org/). There is also a [consolidated country dataset](https://data.humdata.org/dataset/world-bank-combined-indicators-for-india) on HDX. Natural and man-made environmental resources – fresh water, clean air, forests, grasslands, marine resources, and agro-ecosystems – provide sustenance and a foundation for social and economic development. The need to safeguard these resources crosses all borders. Today, the World Bank is one of the key promoters and financiers of environmental upgrading in the developing world. Data here cover forests, biodiversity, emissions, and pollution. Other indicators relevant to the environment are found under data pages for Agriculture &amp; Rural Development, Energy &amp; Mining, Infrastructure, and Urban Development. Indicators: Access to clean fuels and technologies for cooking, Access to electricity, Adjusted net savings, Adjusted savings, Agricultural land, Agricultural methane emissions, Agricultural nitrous oxide emissions, Annual freshwater withdrawals, Aquaculture production, Arable land, Average precipitation in depth, Bird species, CO2 emissions, CO2 emissions from electricity and heat production, CO2 emissions from gaseous fuel consumption, CO2 emissions from liquid fuel consumption, CO2 emissions from manufacturing industries and construction, CO2 emissions from other sectors, CO2 emissions from residential buildings and commercial and public services, CO2 emissions from solid fuel consumption, CO2 emissions from transport, CO2 intensity, Capture fisheries production, Coal rents, Disaster risk reduction progress score, Droughts, Electricity production from oil, Electricity production from renewable sources, Energy intensity level of primary energy, Energy related methane emissions, Fish species, Forest area, Forest rents, GHG net emissions/removals by LUCF, HFC gas emissions, Land area, Land area where elevation is below 5 meters, Mammal species, Marine protected areas, Methane emissions, Methane emissions in energy sector, Mineral rents, Mortality rate attributed to household and ambient air pollution, Mortality rate attributed to unintentional poisoning, Mortality rate attributed to unsafe water, Natural gas rents, Nitrous oxide emissions, Nitrous oxide emissions in energy sector, Oil rents, Other greenhouse gas emissions, PFC gas emissions, PM2.5 air pollution, People practicing open defecation, People using at least basic drinking water services, People using at least basic sanitation services, People using safely managed drinking water services, People using safely managed sanitation services, People with basic handwashing facilities including soap and water, Plant species, Population living in areas where elevation is below 5 meters, Population living in slums, Renewable electricity output, Renewable energy consumption, Renewable internal freshwater resources, Renewable internal freshwater resources per capita, Rural land area, Rural land area where elevation is below 5 meters, Rural population living in areas where elevation is below 5 meters, SF6 gas emissions, Surface area, Terrestrial and marine protected areas, Terrestrial protected areas, Total fisheries production, Total greenhouse gas emissions, Total natural resources rents, Urban land area, Urban land area where elevation is below 5 meters, Urban population living in areas where elevation is below 5 meters, Water productivity
+
+Methodology - Registry
+
+Source: https://data.humdata.org/dataset/world-bank-environment-indicators-for-india  
+Last updated at https://data.humdata.org/organization/hdx : 2020-01-30  
+
+
+License - 
+Creative Commons Attribution International</description>
+	<homepage type="str">https://data.world/hdx/892f72f8-29b5-451e-8d27-7b89d1c45f63</homepage>
+	<license type="str">CC-BY</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">environment_indicators_for_india_1</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">country_name</name>
+						<title type="str">Country Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">country_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">country_iso3</name>
+						<title type="str">Country ISO3</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">country_iso3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">year</name>
+						<title type="str">Year</title>
+						<type type="str">gyear</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#gYear</rdfType>
+						<dwSourceId type="str">year</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">indicator_name</name>
+						<title type="str">Indicator Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">indicator_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">indicator_code</name>
+						<title type="str">Indicator Code</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">indicator_code</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">value</name>
+						<title type="str">Value</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">value</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/environment_indicators_for_india_1.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/environment-indicators-for-india-1.csv</name>
+			<path type="str">original/environment-indicators-for-india-1.csv</path>
+			<format type="str">csv</format>
+			<mediatype type="str">text/csv</mediatype>
+			<bytes type="int">375066</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">environment</item>
+		<item type="str">hxl</item>
+		<item type="str">indicators</item>
+		<item type="str">india</item>
+	</keywords>
+</all>

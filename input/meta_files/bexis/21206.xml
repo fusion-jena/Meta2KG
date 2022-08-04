@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bgc:metaProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.bgc-jena.mpg.de" xmlns:bgc="http://www.bgc-jena.mpg.de" xsi:schemaLocation="http://www.bgc-jena.mpg.de schema.xsd">
+  <bgc:general bgc:source="mixed">
+    <bgc:id bgc:source="intern">21206</bgc:id>
+    <bgc:versionID bgc:source="intern">1.2.4</bgc:versionID>
+    <bgc:title>Decomposition (dung removal in g on 300 EPs, season 2014/2015), Taxon: dung beetles (Invertebrates, Scarabaeoidea) - Dungwebs </bgc:title>
+    <bgc:owners>
+      <bgc:owner number="1">Nico Blüthgen</bgc:owner>
+      <bgc:owner number="2">Kevin Frank</bgc:owner>
+    </bgc:owners>
+    <bgc:projectName>DUNGWEBS</bgc:projectName>
+    <bgc:datasetManager>
+      <bgc:datasetManagerName disabled="disabled">Nico Blüthgen</bgc:datasetManagerName>
+      <bgc:institute disabled="disabled">Technical University of Darmstadt</bgc:institute>
+      <bgc:email disabled="disabled">bluethgen@bio.tu-darmstadt.de</bgc:email>
+    </bgc:datasetManager>
+  </bgc:general>
+  <bgc:researchObjects>
+    <bgc:approxNumberOfPlots>
+      <bgc:noOfGP>300</bgc:noOfGP>
+      <bgc:noOfEP>300</bgc:noOfEP>
+      <bgc:noOfMIP>150</bgc:noOfMIP>
+      <bgc:noOfVIP>57</bgc:noOfVIP>
+    </bgc:approxNumberOfPlots>
+    <bgc:habitats>
+      <bgc:grassland>yes</bgc:grassland>
+      <bgc:forest>yes</bgc:forest>
+    </bgc:habitats>
+    <bgc:experimentalManipulation>yes</bgc:experimentalManipulation>
+    <bgc:relativePositionToGround>
+      <bgc:aboveGround>yes</bgc:aboveGround>
+      <bgc:belowGround>no</bgc:belowGround>
+    </bgc:relativePositionToGround>
+    <bgc:repeatedMeasurement>
+      <bgc:timeBasedRepetition>
+        <bgc:numberOfRepetitions>0</bgc:numberOfRepetitions>
+      </bgc:timeBasedRepetition>
+      <bgc:plotBasedRepetition>
+        <bgc:numberOfSubPlots>0</bgc:numberOfSubPlots>
+      </bgc:plotBasedRepetition>
+    </bgc:repeatedMeasurement>
+    <bgc:taxa>
+      <bgc:taxon number="1">Animals - Invertebrates</bgc:taxon>
+    </bgc:taxa>
+    <bgc:processesAndServices>
+      <bgc:processOrService number="1">Decomposition</bgc:processOrService>
+    </bgc:processesAndServices>
+    <bgc:environmentalDescriptors>
+      <bgc:environmentalDescriptor number="1">Land Use</bgc:environmentalDescriptor>
+      <bgc:environmentalDescriptor number="2">Habitat Structure</bgc:environmentalDescriptor>
+    </bgc:environmentalDescriptors>
+    <bgc:bioticDataTypes>
+      <bgc:bioticDataType number="1">Multiple Species</bgc:bioticDataType>
+      <bgc:bioticDataType number="2">Total Abundances</bgc:bioticDataType>
+      <bgc:bioticDataType number="3">Presence or Absence</bgc:bioticDataType>
+    </bgc:bioticDataTypes>
+  </bgc:researchObjects>
+  <bgc:methodology blockPublic="yes">
+    <bgc:introduction input="textarea">Dung beetles (Scarabaeidae) are common detritivores, and especially the tunnelling genera Geotrupes, Anoplotrupes and Onthophagus enhance soil quality and support nutrient cycles by rapid burial of mammalian dung. Whereas dung beetles are known to provide important ecosystem services in forests and grassland, little is known in which ways land use affects dung beetles.</bgc:introduction>
+    <bgc:measurements>
+      <bgc:theory input="textarea">For this purpose we assessed the abundance and diversity of dung beetles within their habitats and surveyed how land-use intensity affects dung beetles and their removal service comparing forests versus grasslands.</bgc:theory>
+      <bgc:type input="textarea">We thus conducted quantitative surveys of dung beetles and their dung removal rates on 300 experimental plots in forest and grassland with varying land use intensity.</bgc:type>
+    </bgc:measurements>
+    <bgc:equipment>
+      <bgc:instruments input="textarea">-</bgc:instruments>
+      <bgc:calibration input="textarea">-</bgc:calibration>
+      <bgc:procedures input="textarea">Pitfall traps and removal rate experiments were placed on each site.Six pitfall traps (six dung types) were placed in a transect along the site margin, and in parallel five dung samples for removal assessment on the opposite side. Both, traps and dung samples were randomised on each site and separated by a distance of 10 m. For pitfall traps we used plastic cups (Ø 9.5 cm, height: 10 cm, vol.: 500 ml) and inserted dome lids with a hole (Ø 3 cm) as a funnel. The baits consisted of tea bags (Rubin, size S, Burgwedel, Germany) filled with dung (approx. 35 g for each bait), which were attached to a skewer by an elastic strap. When placing the traps, we took care that they were at ground level and had no barrier for walking beetles. The skewer was placed next to the pitfall, so that the inaccessible bait was approx. 10 cm above the center of the trap.
+For removal experiments, we used dung with a fresh weight of approx. 220.7 (± 19.9) g of cow, 34.4 (± 3.8) g of horse, 50.5 (± 3.6) g of sheep, 32.6 (± 1.6) g of deer, 14.5 (± 1.4) g of fox and 47.6 (± 2.4) g of wild boar. All dung samples have been placed on cellulose paper. This method allowed us to verify whether missing dung can be assigned to dung beetle activity as we checked the paper for characteristic holes, which often occur by tunnelling species (Geotrupesand Onthophagus). We then calculated only the removal rate for those dung samples showing such holes or where the cellulose paper was destroyed. For other samples that may have missing amounts of dung (e.g. due to incomplete retrieval or activities of other animals), removal was set to zero. Furthermore we took only tunnelling species into account to analyse the correlation between beetle abundance in traps and removal per site. After 48 h pitfall traps were collected, trapped beetles were labelled (date, site-ID, dung type) and stored in a freezer at −20 °C. Dung samples of removal experiments were also collected, transferred into small paper bags, labelled (date, site-ID, dung type) and stored in a freezer at −20 °C. Caught dung beetles were identified to species level based on literature (Freude et al., 1969; Bunalski, 1999; Rössner, 2012) and with the help of taxonomic experts.
+Removal samples were transferred into drying ovens and kept there at 60 °C for at least five days. Afterwards the dry weight for each dung sample was weighed (Mettler Toledo “EL 2001” (± 0.01 g), Columbus, Ohio) and noted for further calculations.</bgc:procedures>
+    </bgc:equipment>
+  </bgc:methodology>
+  <bgc:description>
+    <bgc:acronyms>
+      <bgc:acronymPair number="1">
+        <bgc:acronym number="1">removal_g</bgc:acronym>
+        <bgc:meaning number="1">removal in g dry weight after 48 hours</bgc:meaning>
+      </bgc:acronymPair>
+    </bgc:acronyms>
+    <bgc:keywords>
+      <bgc:keyword number="1">Scarabaeidae</bgc:keyword>
+      <bgc:keyword number="2">dung beetles</bgc:keyword>
+      <bgc:keyword number="3">removal</bgc:keyword>
+      <bgc:keyword number="4">decomposition</bgc:keyword>
+      <bgc:keyword number="5">dung</bgc:keyword>
+    </bgc:keywords>
+  </bgc:description>
+  <bgc:time>
+    <bgc:when timeType="period" xsi:type="bgc:dateFrame">
+      <bgc:format>dd.MM.yy</bgc:format>
+      <bgc:startDate>05.05.14</bgc:startDate>
+      <bgc:endDate>15.07.15</bgc:endDate>
+    </bgc:when>
+    <bgc:dateEntry bgc:source="intern">2017-03-08</bgc:dateEntry>
+    <bgc:dateLastModified bgc:source="intern">2018-11-28</bgc:dateLastModified>
+  </bgc:time>
+  <bgc:data>
+    <bgc:fileType>structuredData</bgc:fileType>
+    <bgc:manipulations input="textarea" />
+    <bgc:errors />
+    <bgc:qualityLevel>raw</bgc:qualityLevel>
+    <bgc:dataStatus>complete</bgc:dataStatus>
+    <bgc:dataStructure>
+      <bgc:dataFormat>
+        <bgc:missingValues>NA</bgc:missingValues>
+        <bgc:NA />
+      </bgc:dataFormat>
+      <bgc:matrix>
+        <bgc:columnName />
+        <bgc:rowName />
+        <bgc:contentType />
+        <bgc:matrixUnit />
+      </bgc:matrix>
+      <bgc:variables>
+        <bgc:variable number="1">
+          <bgc:name number="1">month</bgc:name>
+          <bgc:typeOfVariable number="1">string</bgc:typeOfVariable>
+          <bgc:units number="1">month_year</bgc:units>
+          <bgc:description number="1">sampling month</bgc:description>
+          <bgc:block number="1">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="2">
+          <bgc:name number="2">date</bgc:name>
+          <bgc:typeOfVariable number="2">date</bgc:typeOfVariable>
+          <bgc:units number="2" />
+          <bgc:description number="2">sampling date</bgc:description>
+          <bgc:block number="2">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="3">
+          <bgc:name number="3">EP</bgc:name>
+          <bgc:typeOfVariable number="3">string</bgc:typeOfVariable>
+          <bgc:units number="3" />
+          <bgc:description number="3" />
+          <bgc:block number="3">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="4">
+          <bgc:name number="4">dungtype</bgc:name>
+          <bgc:typeOfVariable number="4">string</bgc:typeOfVariable>
+          <bgc:units number="4" />
+          <bgc:description number="4">dung type used as bait and offered for removal</bgc:description>
+          <bgc:block number="4">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="5">
+          <bgc:name number="5">removal_g</bgc:name>
+          <bgc:typeOfVariable number="5">realNumber</bgc:typeOfVariable>
+          <bgc:units number="5">g</bgc:units>
+          <bgc:description number="5">removal in g dryweight per dungtype</bgc:description>
+          <bgc:block number="5">0</bgc:block>
+        </bgc:variable>
+      </bgc:variables>
+    </bgc:dataStructure>
+  </bgc:data>
+  <bgc:references>
+    <bgc:database />
+    <bgc:papers>
+      <bgc:paper number="1">Frank K., Hülsmann M., Assmann T., Schmitt T., Blüthgen N. (2017): Land use affects dung beetle communities and their ecosystem services in forests and grasslands. Agriculture, Ecosystems &amp; Environment 243, 114-122. doi: 10.1016/j.agee.2017.04.010</bgc:paper>
+    </bgc:papers>
+    <bgc:relatedDatasets>
+      <bgc:dataset number="1">19866</bgc:dataset>
+      <bgc:dataset number="2"> 19867</bgc:dataset>
+    </bgc:relatedDatasets>
+    <bgc:citation>Blüthgen, Nico; Kevin Frank (2019): Decomposition (dung removal in g on 300 EPs, season 2014/2015), Taxon: dung beetles (Invertebrates, Scarabaeoidea) - Dungwebs . v1.2.4. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/PublicData/PublicData.aspx?DatasetId=21206</bgc:citation>
+  </bgc:references>
+  <bgc:comment />
+</bgc:metaProfile>

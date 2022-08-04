@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="906e6978-e292-4a8b-9c39-adf6bb0f3323"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/8x5b7h</alternateIdentifier>
+        <alternateIdentifier>906e6978-e292-4a8b-9c39-adf6bb0f3323</alternateIdentifier>
+        <alternateIdentifier>http://aduipt.uct.ac.za:8080/ipt-2.3.2/resource?r=sabap2</alternateIdentifier>
+    <title>Southern African Bird Atlas Project 2</title>
+    <creator>
+    <individualName>
+<givenName>Michael</givenName>          <surName>Brooks</surName>
+    </individualName>
+<organizationName>FitzPatrick institute of African Ornithology</organizationName><positionName>Information Systems Specialist</positionName>    <address>
+<deliveryPoint>University of Cape Town</deliveryPoint><city>Cape Town</city><administrativeArea>Western Cape</administrativeArea><postalCode>7701</postalCode><country>SOUTH_AFRICA</country>    </address>
+<phone>+27216504751</phone><electronicMailAddress>michael.brooks@uct.ac.za</electronicMailAddress><onlineUrl>http://sabap2.adu.org.za</onlineUrl>    </creator>
+    <creator>
+    <individualName>
+<givenName>Peter</givenName>          <surName>Ryan</surName>
+    </individualName>
+<organizationName>FitzPatrick institute of African Ornithology</organizationName><positionName>Director</positionName>    <address>
+<deliveryPoint>1 Lovers Lane</deliveryPoint><city>Rondebosch</city><administrativeArea>Western Cape</administrativeArea><postalCode>7701</postalCode><country>SOUTH_AFRICA</country>    </address>
+<electronicMailAddress>peter.ryan@uct.ac.za</electronicMailAddress>    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Michael</givenName>          <surName>Brooks</surName>
+    </individualName>
+<organizationName>FitzPatrick institute of African Ornithology</organizationName><positionName>Information Systems Specialist</positionName>    <address>
+<deliveryPoint>University of Cape Town</deliveryPoint><city>Cape Town</city><administrativeArea>Western Cape</administrativeArea><postalCode>7701</postalCode><country>SOUTH_AFRICA</country>    </address>
+<phone>+27216504751</phone><electronicMailAddress>michael.brooks@uct.ac.za</electronicMailAddress><onlineUrl>http://sabap2.adu.org.za</onlineUrl>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>Michael</givenName>          <surName>Brooks</surName>
+    </individualName>
+<electronicMailAddress>michael.brooks@uct.ac.za</electronicMailAddress>    <role>USER</role>
+    </associatedParty>
+      <pubDate>
+      2021-09-29
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The Second Southern African Bird Atlas Project (SABAP2) is the most important bird conservation project in the region. It holds this status because all other conservation initiatives depend on the results of the bird atlas, to a greater or lesser extent. You cannot determine the conservation status of a species unless you know its range and how this is changing. So red-listing depends on the results of this project. So does the selection of sites and habitats critical to bird conservation. SABAP2 is the follow-up project to the Southern African Bird Atlas Project (for which the acronym was SABAP, and which is now referred to as SABAP1). This first bird atlas project took place from 1987-1991. The second bird atlas project started on 1 July 2007 and plans to run indefinitely. The current project is a partnership between the Animal Demography Unit at the University of Cape Town, BirdLife South Africa and the South African National Biodiversity Institute (SANBI). The project aims to map the distribution and relative abundance of birds in southern Africa and the atlas area includes South Africa, Lesotho and Swaziland. SABAP2 was launched in Namibia in May 2012.
+
+The field work for this project is done by more than one thousand nine hundred volunteers, known as citizen scientists - they are making a huge contribution to the conservation of birds and their habitats. The unit of data collection is the pentad, five minutes of latitude by five minutes of longitude, squares with sides of roughly 9 km. There are 17339 pentads in the original atlas area of South Africa, Lesotho and Swaziland, and a further 10600 in Namibia, 4900 in Zimbabawe and 6817 in Kenya.
+
+At the end of April 2016, the SABAP2 database contained more than 153,000 checklists. The milestone of eight million records of bird distribution in the SABAP2 database was reached on 14 April 2016, less than eight months after reaching seven million on 22 August 2015, which in turn was 10 months after the six million record milestone. It had taken two days less than a year to get from five million to six million, the fastest million records ever up to then. So doing a million in just less than eight months is awesome. More than 75% of the original SABAP2 atlas area (ie South Africa, Lesotho and Swaziland) has at least one checklist at this stage in the project&amp;#39;s development. More than 32% of pentads have four or more lists.
+
+The most pressing data collection needs are to get coverage as complete as possible, and to try to build a foundation of four checklists per pentad. On top of this foundation the skyscraper of checklists can be built. Ideally, we would like checklists representing every month of the year. We would also like to have lots of checklists for each pentad in every year.
+
+This dataset upload includes data from both the Full protocol submissions, as well as adhoc and incidental sightings that have been submitted to the project. Full Protocol submissions are done using a defined protocol, spatial and temporal. Adhoc and incidental (incid) sightings are single occurrence sightings within the same spatial resolution. The protocol type can be defined from the catalogNumber of each record.</para>
+    </abstract>
+        <keywordSet>
+              <keyword>Occurrence</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Observation</keyword>
+              <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">http://sabap2.adu.org.za</url>
+          </online>
+      </distribution>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>This dataset covers South Africa, Lesotho and Swaziland.</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>8.98</westBoundingCoordinate>
+                      <eastBoundingCoordinate>42.35</eastBoundingCoordinate>
+                      <northBoundingCoordinate>-8.2</northBoundingCoordinate>
+                      <southBoundingCoordinate>-37.6</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+          <temporalCoverage>
+            <rangeOfDates>
+              <beginDate>
+                <calendarDate>      2007-07-01
+</calendarDate>
+              </beginDate>
+              <endDate>
+                <calendarDate>      2025-12-31
+</calendarDate>
+              </endDate>
+            </rangeOfDates>
+          </temporalCoverage>
+      </coverage>
+      <maintenance>
+          <description>
+              <para></para>
+          </description>
+          <maintenanceUpdateFrequency>weekly</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+    <individualName>
+<givenName>Michael</givenName>          <surName>Brooks</surName>
+    </individualName>
+<organizationName>FitzPatrick institute of African Ornithology</organizationName><positionName>Information Systems Specialist</positionName>    <address>
+<deliveryPoint>University of Cape Town</deliveryPoint><city>Cape Town</city><administrativeArea>Western Cape</administrativeArea><postalCode>7701</postalCode><country>SOUTH_AFRICA</country>    </address>
+<phone>+27216504751</phone><electronicMailAddress>michael.brooks@uct.ac.za</electronicMailAddress><onlineUrl>http://sabap2.adu.org.za</onlineUrl>      </contact>
+      <methods>
+            <methodStep>
+                <description>
+                    <para>The standard protocol is as follows:
+   
+
+ 
+Spend at least two (2) hours recording as many different species in the pentad by visiting all (or as many different) habitats as possible. 
+
+This is known as the initial intensive survey, or grid bash. These surveys will help us get fairly comprehensive bird lists for each grid cell.
+
+Record the species in the order that you see and/or hear them. This will help us gauge which are likely to be the more common species in the pentad.
+ 
+Keep a note of the end of each hour during your initial intensive survey. This helps us work out how much effort you put in during each survey and which birds are easier detected than others.
+ 
+The maximum survey period for any one pentad is five (5) days. The initial intensive survey should, where possible, take place on day 1 of the five days and you can then add any new species (in the order that you see them) to the list after the initial intensive survey up until the end of the fifth day.  A new survey or checklist should only be started after each five day period for each pentad. Keep track of how much time you spend (to the nearest hour) adding any new species after your initial intensive survey.</para>
+                </description>
+            </methodStep>
+            <sampling>
+                <studyExtent>
+                    <description>
+                        <para>The study region is divided into pentads (5 minute x 5 minute squares) and each pentad is surveyed for a minimum of 2 hours covering all habitats representatively. The maximum survey time period is 5 days</para>
+                    </description>
+                </studyExtent>
+                <samplingDescription>
+                    <para>The standard protocol is as follows:
+   
+
+ 
+Spend at least two (2) hours recording as many different species in the pentad by visiting all (or as many different) habitats as possible. 
+
+This is known as the initial intensive survey, or grid bash. These surveys will help us get fairly comprehensive bird lists for each grid cell.
+
+Record the species in the order that you see and/or hear them. This will help us gauge which are likely to be the more common species in the pentad.
+ 
+Keep a note of the end of each hour during your initial intensive survey. This helps us work out how much effort you put in during each survey and which birds are easier detected than others.
+ 
+The maximum survey period for any one pentad is five (5) days. The initial intensive survey should, where possible, take place on day 1 of the five days and you can then add any new species (in the order that you see them) to the list after the initial intensive survey up until the end of the fifth day.  A new survey or checklist should only be started after each five day period for each pentad. Keep track of how much time you spend (to the nearest hour) adding any new species after your initial intensive survey.</para>
+                </samplingDescription>
+            </sampling>
+            <qualityControl>
+                <description>
+                    <para>All records are vetted against multiple know occurance datasets, out of known range records are queried and verified before inclusion</para>
+                </description>
+            </qualityControl>
+      </methods>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2021-12-07T12:27:26Z</dateStamp>
+      <citation>Brooks M, Ryan P (2021). Southern African Bird Atlas Project 2. Version 1.43. FitzPatrick Institute of African Ornithology. Occurrence dataset https://doi.org/10.15468/8x5b7h accessed via GBIF.org on 2021-12-07.</citation>
+              <resourceLogoUrl>http://aduipt.uct.ac.za:8080/ipt-2.3.2/logo.do?r=sabap2</resourceLogoUrl>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

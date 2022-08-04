@@ -1,0 +1,294 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='235'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/235</alternateIdentifier>
+<title>CSPs: Coarse woody debris (CWD) items: metal tags of dead wood and corresponding metal tags and stem ids from the living tree data.</title>
+<creator id='nadrowski'>
+<individualName>
+<givenName>Karin</givenName>
+<surName>Nadrowski</surName>
+</individualName>
+
+<address>
+
+
+
+</address>
+
+<electronicMailAddress>nadrowski@uni-leipzig.de</electronicMailAddress>
+</creator>
+<pubDate>2012-12-13</pubDate>
+<language>en_US</language>
+<abstract>
+<para>List of CWD items, their metal tags, and corresponding stem ids or counfounding metal tags from the 2008, 2009, and 2010 living tree data gathered by Martin Baruffol and Xiulian Chi.</para>
+
+</abstract>
+<keywordSet>
+<keyword>CSP</keyword>
+<keyword>location</keyword>
+<keyword>object</keyword>
+<keyword>stem</keyword>
+<keyword>tree</keyword>
+<keyword>tree identifier</keyword>
+<keyword>woody debris</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>CSP</keyword>
+<keyword>CWD_CSP</keyword>
+<keyword>silver_tag</keyword>
+<keyword>living stemID</keyword>
+<keyword>comment</keyword>
+<keyword>type</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/235/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>CSPs, Gutianshan Nature Reserve
+29°08'-29°17'N
+118°02'-118°11'E</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2008-03-05
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2010-03-05
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>coarse woody debris items</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+coarse woody debris items
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>nadrowski</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>CSPs: Coarse woody debris (CWD) items: metal tags of dead wood and corresponding metal tags and stem ids from the living tree data.</para>
+<para>List of CWD items, their metal tags, and corresponding stem ids or counfounding metal tags from the 2008, 2009, and 2010 living tree data gathered by Martin Baruffol and Xiulian Chi.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2008-03-05 00:00:00 UTC - 2010-03-05 00:00:00 UTC</para>
+
+<para>CSPs, Gutianshan Nature Reserve
+29°08&#39;-29°17&#39;N
+118°02&#39;-118°11&#39;E</para>
+<para>coarse woody debris items</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>The list results from searchin metal tags in the three files &quot;Coarse woody debris (CWD): Collection of data on dead wood with special regard to snow break&quot;, &quot;Corrected tree tags on the CSP trees and tree size measures from 2010.&quot; and &quot;Tree size in the CSPs in 2008 and 2009&quot;. It lists the metal tag numbers, the stem IDs, and the CWD ids. As of now, tree crown origins were not considered, so these are references to the stems within the living tree data.</para>
+<para>Mind that there are some duplicate metal tags that are used for more than one object in different CSPs! You need this file to identify the stems that are referenced in both the living and the debris dataset. To avoid double counting, one of each should be removed.</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/235</entityName>
+<entityDescription>CSPs: Coarse woody debris (CWD) items: metal tags of dead wood and corresponding metal tags and stem ids from the living tree data.</entityDescription>
+<physical>
+<objectName>/datasets/235</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/235/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='CSP'>
+<attributeName>BEF research plot name (CSP), dimensionless</attributeName>
+<attributeLabel>CSP</attributeLabel>
+<attributeDefinition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province) (CSP: BEF research plot name; Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>BEF research plot name</para>
+<para>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) and B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) or Site B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06&#39;20.2&quot;N 117°55&#39;12.1&quot;E, Jiangxi Province)</para>
+<para>BEF research plot name; Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CWD_CSP'>
+<attributeName>Woody debris items (CWD_CSP), dimensionless</attributeName>
+<attributeLabel>CWD_CSP</attributeLabel>
+<attributeDefinition>Woody debris items are dead trees or parts of trees, such as fallen crowns, branches, etc. (CWD_CSP: Identifier for the coarse woody debris (CWD) item; Datagroup description: Woody debris items)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Woody debris items are dead trees or parts of trees, such as fallen crowns, branches, etc.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Woody debris items</para>
+<para>Woody debris items are dead trees or parts of trees, such as fallen crowns, branches, etc.</para>
+<para>Identifier for the coarse woody debris (CWD) item; Datagroup description: Woody debris items</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='silver_tag'>
+<attributeName>CSP metal tag number (trees, woody debris) (silver_tag), dimensionless</attributeName>
+<attributeLabel>silver_tag</attributeLabel>
+<attributeDefinition>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot; (silver_tag: metal tag; Datagroup description: CSP metal tag number (trees, woody debris))</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>CSP metal tag number (trees, woody debris)</para>
+<para>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot;</para>
+<para>metal tag; Datagroup description: CSP metal tag number (trees, woody debris)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='living stemID'>
+<attributeName>Tree identifier for trees in the comparative study sites (CSP plus Silver ID) (living stemID), </attributeName>
+<attributeLabel>living stemID</attributeLabel>
+<attributeDefinition>Trees were mostly tagged with 6 digit numbers beginning with &quot;3&quot; on a metal tag, which was referred to as &quot;silver tag&quot;. However, for the identifier the CSP name was added as well as a letter if that number was used already in another CSP and a number if the stem comes from a multistem tree. Some subproject have additionally tagged other trees. (living stemID: Identifier for a stem in the CSPs; Datagroup description: Tree identifier for trees in the comparative study sites (CSP plus Silver ID))</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Trees were mostly tagged with 6 digit numbers beginning with &quot;3&quot; on a metal tag, which was referred to as &quot;silver tag&quot;. However, for the identifier the CSP name was added as well as a letter if that number was used already in another CSP and a number if the stem comes from a multistem tree. Some subproject have additionally tagged other trees.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Tree identifier for trees in the comparative study sites (CSP plus Silver ID)</para>
+<para>Trees were mostly tagged with 6 digit numbers beginning with &quot;3&quot; on a metal tag, which was referred to as &quot;silver tag&quot;. However, for the identifier the CSP name was added as well as a letter if that number was used already in another CSP and a number if the stem comes from a multistem tree. Some subproject have additionally tagged other trees.</para>
+<para>Identifier for a stem in the CSPs; Datagroup description: Tree identifier for trees in the comparative study sites (CSP plus Silver ID)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='comment'>
+<attributeName>Helper (comment), dimensionless</attributeName>
+<attributeLabel>comment</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (comment: comment on confusing use of tags; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>comment on confusing use of tags; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='type'>
+<attributeName>Helper (type), dimensionless</attributeName>
+<attributeLabel>type</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (type: type of linkage between living stem and CWD item; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>type of linkage between living stem and CWD item; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>133</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

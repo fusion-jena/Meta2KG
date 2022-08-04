@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">dhs_federal-lands</name>
+	<title type="str">Federal Lands</title>
+	<description type="str">Federal Lands
+
+This dataset represents **federally owned or administered lands** of the *United States, Puerto Rico, and the U.S. Virgin Islands*. Only areas of 640 acres or more are included. There may be private inholdings within the boundaries of Federal lands in this map layer. This is a revised version of the January 2005 map layer.
+
+These data are intended for geographic display and analysis at the national level, and for large regional areas. The data should be displayed and analyzed at scales appropriate for 1:2,000,000-scale data.
+
+[SOURCE DATASET](https://hifld-dhs-gii.opendata.arcgis.com/datasets/238fb2be19024876ac29c7ce55c8e562_0)</description>
+	<homepage type="str">https://data.world/dhs/federal-lands</homepage>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">federal_lands</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">fid</name>
+						<title type="str">FID</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">fid</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">area</name>
+						<title type="str">AREA</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">area</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">perimeter</name>
+						<title type="str">PERIMETER</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">perimeter</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">fedlanp020</name>
+						<title type="str">FEDLANP020</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">fedlanp020</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">feature1</name>
+						<title type="str">FEATURE1</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">feature1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">feature2</name>
+						<title type="str">FEATURE2</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">feature2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">feature3</name>
+						<title type="str">FEATURE3</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">feature3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">agbur</name>
+						<title type="str">AGBUR</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">agbur</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">url</name>
+						<title type="str">URL</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#anyURI</rdfType>
+						<dwSourceId type="str">url</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">name1</name>
+						<title type="str">NAME1</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">name1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">name2</name>
+						<title type="str">NAME2</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">name2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">name3</name>
+						<title type="str">NAME3</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">name3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">state</name>
+						<title type="str">STATE</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">state</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">state_fips</name>
+						<title type="str">STATE_FIPS</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">state_fips</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">shape_leng</name>
+						<title type="str">Shape_Leng</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">shape_leng</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">shape_area</name>
+						<title type="str">Shape_Area</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">shape_area</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/federal_lands.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/Federal_Lands.csv</name>
+			<path type="str">original/Federal_Lands.csv</path>
+			<format type="str">csv</format>
+			<mediatype type="str">text/csv</mediatype>
+			<bytes type="int">4618572</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">boundaries</item>
+		<item type="str">opportunity</item>
+		<item type="str">federal lands</item>
+		<item type="str">forest</item>
+		<item type="str">park</item>
+		<item type="str">opportunity homeland security</item>
+	</keywords>
+</all>

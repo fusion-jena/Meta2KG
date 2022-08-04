@@ -1,0 +1,564 @@
+<Metadata datasetId="140" metadataStructureDescriptionPath="Metadata/DatasetLevelMetadata/DatasetLevelMetadata/Dataset/DatasetType/Abstract/Abstract" metadataStructureId="7" metadataStructureName="iDiv Metadata Vers.5" metadataStructureTitlePath="Metadata/DatasetLevelMetadata/DatasetLevelMetadata/Dataset/DatasetType/Title/Title">
+    <DatasetLevelMetadata id="28" name="DatasetLevelMetadata" type="MetadataPackageUsage">
+      <DatasetLevelMetadata id="19" name="DatasetLevelMetadata" number="1" roleId="28" type="MetadataPackage">
+        <Project id="87" name="Project" type="MetadataAttributeUsage">
+          <ProjectType id="350" name="ProjectType" number="1" roleId="87" type="MetadataAttribute">
+            <Title id="266" name="Title" type="MetadataAttributeUsage">
+              <Title id="323" name="Title" number="1" roleId="266" type="MetadataAttribute">Floral density, pollen limitation, and reproductive success in Trillium grandiflorum</Title>
+            </Title>
+            <StartDate id="267" name="StartDate" type="MetadataAttributeUsage">
+              <StartDate id="324" name="StartDate" number="1" roleId="267" type="MetadataAttribute">1999-01-04T23:00:00.000Z</StartDate>
+            </StartDate>
+            <EndDate id="268" name="EndDate" type="MetadataAttributeUsage">
+              <EndDate id="325" name="EndDate" number="1" roleId="268" type="MetadataAttribute" />
+            </EndDate>
+            <Funder id="269" name="Funder" type="MetadataAttributeUsage">
+              <Funder id="326" name="Funder" number="1" roleId="269" type="MetadataAttribute" />
+            </Funder>
+            <Organisations id="270" name="Organisations" type="MetadataAttributeUsage">
+              <OrganisationsType id="334" name="OrganisationsType" number="1" roleId="270" type="MetadataAttribute">
+                <Organisation id="251" name="Organisation" type="MetadataAttributeUsage">
+                  <organisationContact id="333" name="organisationContact" number="1" roleId="251" type="MetadataAttribute">
+                    <Name id="245" name="Name" type="MetadataAttributeUsage">
+                      <Name id="327" name="Name" number="1" roleId="245" type="MetadataAttribute" />
+                    </Name>
+                    <URL id="246" name="URL" type="MetadataAttributeUsage">
+                      <URL id="328" name="URL" number="1" roleId="246" type="MetadataAttribute" />
+                    </URL>
+                    <Street id="247" name="Street" type="MetadataAttributeUsage">
+                      <Street id="329" name="Street" number="1" roleId="247" type="MetadataAttribute" />
+                    </Street>
+                    <Zipcode id="248" name="Zipcode" type="MetadataAttributeUsage">
+                      <Zipcode id="330" name="Zipcode" number="1" roleId="248" type="MetadataAttribute" />
+                    </Zipcode>
+                    <City id="249" name="City" type="MetadataAttributeUsage">
+                      <City id="331" name="City" number="1" roleId="249" type="MetadataAttribute" />
+                    </City>
+                    <Country id="250" name="Country" type="MetadataAttributeUsage">
+                      <Country id="332" name="Country" number="1" roleId="250" type="MetadataAttribute" />
+                    </Country>
+                  </organisationContact>
+                </Organisation>
+              </OrganisationsType>
+            </Organisations>
+            <ContactPerson id="271" name="ContactPerson" type="MetadataAttributeUsage">
+              <ContactPersonType id="349" name="ContactPersonType" number="1" roleId="271" type="MetadataAttribute">
+                <Contact id="264" name="Contact" type="MetadataAttributeUsage">
+                  <contact id="341" name="contact" number="1" roleId="264" type="MetadataAttribute">
+                    <Name id="252" name="Name" type="MetadataAttributeUsage">
+                      <Name id="335" name="Name" number="1" roleId="252" type="MetadataAttribute">Tiffany Knight</Name>
+                    </Name>
+                    <Email id="253" name="Email" type="MetadataAttributeUsage">
+                      <Email id="336" name="Email" number="1" roleId="253" type="MetadataAttribute">tiffany.knight@idiv.de</Email>
+                    </Email>
+                    <Street id="254" name="Street" type="MetadataAttributeUsage">
+                      <Street id="337" name="Street" number="1" roleId="254" type="MetadataAttribute" />
+                    </Street>
+                    <Zipcode id="255" name="Zipcode" type="MetadataAttributeUsage">
+                      <Zipcode id="338" name="Zipcode" number="1" roleId="255" type="MetadataAttribute" />
+                    </Zipcode>
+                    <City id="256" name="City" type="MetadataAttributeUsage">
+                      <City id="339" name="City" number="1" roleId="256" type="MetadataAttribute" />
+                    </City>
+                    <Country id="257" name="Country" type="MetadataAttributeUsage">
+                      <Country id="340" name="Country" number="1" roleId="257" type="MetadataAttribute" />
+                    </Country>
+                  </contact>
+                </Contact>
+                <Organisation id="265" name="Organisation" type="MetadataAttributeUsage">
+                  <organisationContact id="348" name="organisationContact" number="1" roleId="265" type="MetadataAttribute">
+                    <Name id="258" name="Name" type="MetadataAttributeUsage">
+                      <Name id="342" name="Name" number="1" roleId="258" type="MetadataAttribute">German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig</Name>
+                    </Name>
+                    <URL id="259" name="URL" type="MetadataAttributeUsage">
+                      <URL id="343" name="URL" number="1" roleId="259" type="MetadataAttribute">www.idiv.de</URL>
+                    </URL>
+                    <Street id="260" name="Street" type="MetadataAttributeUsage">
+                      <Street id="344" name="Street" number="1" roleId="260" type="MetadataAttribute" />
+                    </Street>
+                    <Zipcode id="261" name="Zipcode" type="MetadataAttributeUsage">
+                      <Zipcode id="345" name="Zipcode" number="1" roleId="261" type="MetadataAttribute" />
+                    </Zipcode>
+                    <City id="262" name="City" type="MetadataAttributeUsage">
+                      <City id="346" name="City" number="1" roleId="262" type="MetadataAttribute" />
+                    </City>
+                    <Country id="263" name="Country" type="MetadataAttributeUsage">
+                      <Country id="347" name="Country" number="1" roleId="263" type="MetadataAttribute" />
+                    </Country>
+                  </organisationContact>
+                </Organisation>
+              </ContactPersonType>
+            </ContactPerson>
+          </ProjectType>
+        </Project>
+        <Dataset id="88" name="Dataset" type="MetadataAttributeUsage">
+          <DatasetType id="379" name="DatasetType" number="1" roleId="88" type="MetadataAttribute">
+            <Title id="293" name="Title" type="MetadataAttributeUsage">
+              <Title id="351" name="Title" number="1" roleId="293" type="MetadataAttribute">Pollen limitation of 12 Trillium grandiflorum populations that vary in density</Title>
+            </Title>
+            <Language id="294" name="Language" type="MetadataAttributeUsage">
+              <Language id="352" name="Language" number="1" roleId="294" type="MetadataAttribute">English</Language>
+            </Language>
+            <Abstract id="295" name="Abstract" type="MetadataAttributeUsage">
+              <Abstract id="353" name="Abstract" number="1" roleId="295" type="MetadataAttribute">Abstract  Decreases in floral density can disrupt mutualistic interactions between plants and their pollinators, and decrease reproductive success. I addressed the relationship between floral density and plant reproductive success using a pollen supplementation experiment in 12 natural populations of Trillium grandiflorum that naturally varied in floral density.   Populations of Trillium grandiflorum were located near Linesville, Pennsylvania, USA.  Population	Location DC	80&#186; 26' W, 41&#186; 31' W  DH	80&#186; 02' W, 41&#186; 43' W DR	80&#186; 14' W, 41&#186; 40' W EL	80&#186; 05' W, 41&#186; 47' W FX	80&#186; 12' W, 41&#186; 48' W GT	80&#186; 00' W, 41&#186; 24' W LR	80&#186; 03' W, 41&#186; 44' W RH	80&#186; 24' W, 41&#186; 29' W RM	79&#186; 58' W, 41&#186; 20' W TW	80&#186; 21' W, 41&#186; 36' W WC	80&#186; 04' W, 41&#186; 41' W WH	79&#186; 57' W, 41&#186; 45' W  I performed pollen supplementation experiments in 8 populations in 2000 and 12 populations in 2001. In each population, I identified 30&#8211;40 pairs of reproductive plants. Individuals in each pair were chosen based on their similarity in size and proximity to each other, to control for plant resource and micro-site conditions. Each plant of a pair was randomly assigned to either supplement or control pollination treatments. I applied fresh pollen collected from 30 different plants within a large pollen donor population to the stigmas of flowers in the supplement treatment with a fine paintbrush. The donor population was less than 100 km away from all other populations. Control plants were not manipulated.  Different plants were used in the 2 years of study.  I determined whether each flower had set a fruit, and collected all fruits in late June. I counted seeds and unfertilized ovules of each fruit under a dissecting microscope. I calculated seed set (number of seeds/number of ovules) per fruit and per flower; the first value only considered the subset of flowers that set fruit, while the latter value considered the seed set of all flowers (i.e. flowers that failed to fruit had zero seed set). Plants consumed by herbivores, primarily white-tailed deer, were eliminated from all analyses.  I find that the degree of pollen limitation of T. grandiflorum, in terms of fruit set and seed set, decreased with floral density.  The results were published in this manuscript: T.M. Knight.  2003.  Floral density, pollen limitation, and reproductive success in Trillium grandiflorum.  Oecologia (2003) 442: 557&#8211;563.  DOI 10.1007/s00442-003-1371-8</Abstract>
+            </Abstract>
+            <Keywords id="296" name="Keywords" type="MetadataAttributeUsage">
+              <Keywords id="354" name="Keywords" number="1" roleId="296" type="MetadataAttribute">Allee effects, pollen limitation, pollination, experimental density</Keywords>
+            </Keywords>
+            <DataCreators id="297" name="DataCreators" type="MetadataAttributeUsage">
+              <DataCreatorsType id="362" name="DataCreatorsType" number="1" roleId="297" type="MetadataAttribute">
+                <DataCreator id="278" name="DataCreator" type="MetadataAttributeUsage">
+                  <contact id="361" name="contact" number="1" roleId="278" type="MetadataAttribute">
+                    <Name id="272" name="Name" type="MetadataAttributeUsage">
+                      <Name id="355" name="Name" number="1" roleId="272" type="MetadataAttribute">Tiffany Knight</Name>
+                    </Name>
+                    <Email id="273" name="Email" type="MetadataAttributeUsage">
+                      <Email id="356" name="Email" number="1" roleId="273" type="MetadataAttribute">tiffany.knight@idiv.de</Email>
+                    </Email>
+                    <Street id="274" name="Street" type="MetadataAttributeUsage">
+                      <Street id="357" name="Street" number="1" roleId="274" type="MetadataAttribute" />
+                    </Street>
+                    <Zipcode id="275" name="Zipcode" type="MetadataAttributeUsage">
+                      <Zipcode id="358" name="Zipcode" number="1" roleId="275" type="MetadataAttribute" />
+                    </Zipcode>
+                    <City id="276" name="City" type="MetadataAttributeUsage">
+                      <City id="359" name="City" number="1" roleId="276" type="MetadataAttribute" />
+                    </City>
+                    <Country id="277" name="Country" type="MetadataAttributeUsage">
+                      <Country id="360" name="Country" number="1" roleId="277" type="MetadataAttribute" />
+                    </Country>
+                  </contact>
+                </DataCreator>
+              </DataCreatorsType>
+            </DataCreators>
+            <DataManagers id="298" name="DataManagers" type="MetadataAttributeUsage">
+              <DataManagersType id="370" name="DataManagersType" number="1" roleId="298" type="MetadataAttribute">
+                <DataManager id="285" name="DataManager" type="MetadataAttributeUsage">
+                  <contact id="369" name="contact" number="1" roleId="285" type="MetadataAttribute">
+                    <Name id="279" name="Name" type="MetadataAttributeUsage">
+                      <Name id="363" name="Name" number="1" roleId="279" type="MetadataAttribute">Tiffany Knight</Name>
+                    </Name>
+                    <Email id="280" name="Email" type="MetadataAttributeUsage">
+                      <Email id="364" name="Email" number="1" roleId="280" type="MetadataAttribute">tiffany.knight@idiv.de</Email>
+                    </Email>
+                    <Street id="281" name="Street" type="MetadataAttributeUsage">
+                      <Street id="365" name="Street" number="1" roleId="281" type="MetadataAttribute" />
+                    </Street>
+                    <Zipcode id="282" name="Zipcode" type="MetadataAttributeUsage">
+                      <Zipcode id="366" name="Zipcode" number="1" roleId="282" type="MetadataAttribute" />
+                    </Zipcode>
+                    <City id="283" name="City" type="MetadataAttributeUsage">
+                      <City id="367" name="City" number="1" roleId="283" type="MetadataAttribute" />
+                    </City>
+                    <Country id="284" name="Country" type="MetadataAttributeUsage">
+                      <Country id="368" name="Country" number="1" roleId="284" type="MetadataAttribute" />
+                    </Country>
+                  </contact>
+                </DataManager>
+              </DataManagersType>
+            </DataManagers>
+            <DataOwners id="299" name="DataOwners" type="MetadataAttributeUsage">
+              <DataOwnersType id="378" name="DataOwnersType" number="1" roleId="299" type="MetadataAttribute">
+                <DataOwner id="292" name="DataOwner" type="MetadataAttributeUsage">
+                  <contact id="377" name="contact" number="1" roleId="292" type="MetadataAttribute">
+                    <Name id="286" name="Name" type="MetadataAttributeUsage">
+                      <Name id="371" name="Name" number="1" roleId="286" type="MetadataAttribute">Tiffany Knight</Name>
+                    </Name>
+                    <Email id="287" name="Email" type="MetadataAttributeUsage">
+                      <Email id="372" name="Email" number="1" roleId="287" type="MetadataAttribute">tiffany.knight@idiv.de</Email>
+                    </Email>
+                    <Street id="288" name="Street" type="MetadataAttributeUsage">
+                      <Street id="373" name="Street" number="1" roleId="288" type="MetadataAttribute" />
+                    </Street>
+                    <Zipcode id="289" name="Zipcode" type="MetadataAttributeUsage">
+                      <Zipcode id="374" name="Zipcode" number="1" roleId="289" type="MetadataAttribute" />
+                    </Zipcode>
+                    <City id="290" name="City" type="MetadataAttributeUsage">
+                      <City id="375" name="City" number="1" roleId="290" type="MetadataAttribute" />
+                    </City>
+                    <Country id="291" name="Country" type="MetadataAttributeUsage">
+                      <Country id="376" name="Country" number="1" roleId="291" type="MetadataAttribute" />
+                    </Country>
+                  </contact>
+                </DataOwner>
+              </DataOwnersType>
+            </DataOwners>
+          </DatasetType>
+        </Dataset>
+        <Data id="89" name="Data" type="MetadataAttributeUsage">
+          <DataType id="387" name="DataType" number="1" roleId="89" type="MetadataAttribute">
+            <DatasetMethodDescription id="303" name="DatasetMethodDescription" type="MetadataAttributeUsage">
+              <DatasetMethodDescription id="380" name="DatasetMethodDescription" number="1" roleId="303" type="MetadataAttribute">I performed pollen supplementation experiments in 8 populations in 2000 and 12 populations in 2001. In each population, I identified 30&#8211;40 pairs of reproductive plants. Individuals in each pair were chosen based on their similarity in size and proximity to each other, to control for plant resource and micro-site conditions. Each plant of a pair was randomly assigned to either supplement or control pollination treatments. I applied fresh pollen collected from 30 different plants within a large pollen donor population to the stigmas of flowers in the supplement treatment with a fine paintbrush. The donor population was less than 100 km away from all other populations. Control plants were not manipulated.  Different plants were used in the 2 years of study.  I determined whether each flower had set a fruit, and collected all fruits in late June. I counted seeds and unfertilized ovules of each fruit under a dissecting microscope. I calculated seed set (number of seeds/number of ovules) per fruit and per flower; the first value only considered the subset of flowers that set fruit, while the latter value considered the seed set of all flowers (i.e. flowers that failed to fruit had zero seed set). Plants consumed by herbivores, primarily white-tailed deer, were eliminated from all analyses.</DatasetMethodDescription>
+            </DatasetMethodDescription>
+            <DatasetSamplingDescription id="304" name="DatasetSamplingDescription" type="MetadataAttributeUsage">
+              <DatasetSamplingDescription id="381" name="DatasetSamplingDescription" number="1" roleId="304" type="MetadataAttribute" />
+            </DatasetSamplingDescription>
+            <DatasetSamplingEquipmentInfo id="305" name="DatasetSamplingEquipmentInfo" type="MetadataAttributeUsage">
+              <DatasetSamplingEquipmentInfo id="382" name="DatasetSamplingEquipmentInfo" number="1" roleId="305" type="MetadataAttribute" />
+            </DatasetSamplingEquipmentInfo>
+            <Abbreviations id="306" name="Abbreviations" type="MetadataAttributeUsage">
+              <AbbreviationsType id="386" name="AbbreviationsType" number="1" roleId="306" type="MetadataAttribute">
+                <Abbreviation id="302" name="Abbreviation" type="MetadataAttributeUsage">
+                  <AbbreviationType id="385" name="AbbreviationType" number="1" roleId="302" type="MetadataAttribute">
+                    <Abbreviation id="300" name="Abbreviation" type="MetadataAttributeUsage">
+                      <Abbreviation id="383" name="Abbreviation" number="1" roleId="300" type="MetadataAttribute" />
+                    </Abbreviation>
+                    <Description id="301" name="Description" type="MetadataAttributeUsage">
+                      <Description id="384" name="Description" number="1" roleId="301" type="MetadataAttribute" />
+                    </Description>
+                  </AbbreviationType>
+                </Abbreviation>
+              </AbbreviationsType>
+            </Abbreviations>
+          </DataType>
+        </Data>
+        <DataQuality id="90" name="DataQuality" type="MetadataAttributeUsage">
+          <DataQualityType id="391" name="DataQualityType" number="1" roleId="90" type="MetadataAttribute">
+            <CheckPerformed id="307" name="CheckPerformed" type="MetadataAttributeUsage">
+              <CheckPerformed id="388" name="CheckPerformed" number="1" roleId="307" type="MetadataAttribute">true</CheckPerformed>
+            </CheckPerformed>
+            <Issues id="308" name="Issues" type="MetadataAttributeUsage">
+              <Issues id="389" name="Issues" number="1" roleId="308" type="MetadataAttribute" />
+            </Issues>
+            <CurationInfo id="309" name="CurationInfo" type="MetadataAttributeUsage">
+              <CurationInfo id="390" name="CurationInfo" number="1" roleId="309" type="MetadataAttribute" />
+            </CurationInfo>
+          </DataQualityType>
+        </DataQuality>
+        <PlotInfo id="91" name="PlotInfo" type="MetadataAttributeUsage">
+          <PlotInfoType id="400" name="PlotInfoType" number="1" roleId="91" type="MetadataAttribute">
+            <TotalPlots id="315" name="TotalPlots" type="MetadataAttributeUsage">
+              <TotalPlots id="392" name="TotalPlots" number="1" roleId="315" type="MetadataAttribute" />
+            </TotalPlots>
+            <GlobalIndexVegetationPlotsDatabaseID id="316" name="GlobalIndexVegetationPlotsDatabaseID" type="MetadataAttributeUsage">
+              <GlobalIndexVegetationPlotsDatabaseID id="393" name="GlobalIndexVegetationPlotsDatabaseID" number="1" roleId="316" type="MetadataAttribute" />
+            </GlobalIndexVegetationPlotsDatabaseID>
+            <Plot id="317" name="Plot" type="MetadataAttributeUsage">
+              <PlotType id="399" name="PlotType" number="1" roleId="317" type="MetadataAttribute">
+                <PlotSize id="312" name="PlotSize" type="MetadataAttributeUsage">
+                  <PlotSize id="394" name="PlotSize" number="1" roleId="312" type="MetadataAttribute" />
+                </PlotSize>
+                <NumberOfPlots id="313" name="NumberOfPlots" type="MetadataAttributeUsage">
+                  <NumberOfPlots id="395" name="NumberOfPlots" number="1" roleId="313" type="MetadataAttribute" />
+                </NumberOfPlots>
+                <SubPlots id="314" name="SubPlots" type="MetadataAttributeUsage">
+                  <SubPlotsType id="398" name="SubPlotsType" number="1" roleId="314" type="MetadataAttribute">
+                    <SubPlotSize id="310" name="SubPlotSize" type="MetadataAttributeUsage">
+                      <SubPlotSize id="396" name="SubPlotSize" number="1" roleId="310" type="MetadataAttribute" />
+                    </SubPlotSize>
+                    <NumberOfSubPlots id="311" name="NumberOfSubPlots" type="MetadataAttributeUsage">
+                      <NumberOfSubPlots id="397" name="NumberOfSubPlots" number="1" roleId="311" type="MetadataAttribute" />
+                    </NumberOfSubPlots>
+                  </SubPlotsType>
+                </SubPlots>
+              </PlotType>
+            </Plot>
+          </PlotInfoType>
+        </PlotInfo>
+        <Software id="92" name="Software" type="MetadataAttributeUsage">
+          <SoftwareType id="407" name="SoftwareType" number="1" roleId="92" type="MetadataAttribute">
+            <Application id="323" name="Application" type="MetadataAttributeUsage">
+              <ApplicationType id="406" name="ApplicationType" number="1" roleId="323" type="MetadataAttribute">
+                <Name id="320" name="Name" type="MetadataAttributeUsage">
+                  <Name id="401" name="Name" number="1" roleId="320" type="MetadataAttribute" />
+                </Name>
+                <Version id="321" name="Version" type="MetadataAttributeUsage">
+                  <Version id="402" name="Version" number="1" roleId="321" type="MetadataAttribute" />
+                </Version>
+                <Availability id="322" name="Availability" type="MetadataAttributeUsage">
+                  <AvailabilityType id="405" name="AvailabilityType" number="1" roleId="322" type="MetadataAttribute">
+                    <CompanyName id="318" name="CompanyName" type="MetadataAttributeUsage">
+                      <CompanyName id="403" name="CompanyName" number="1" roleId="318" type="MetadataAttribute" />
+                    </CompanyName>
+                    <URL id="319" name="URL" type="MetadataAttributeUsage">
+                      <URL id="404" name="URL" number="1" roleId="319" type="MetadataAttribute" />
+                    </URL>
+                  </AvailabilityType>
+                </Availability>
+              </ApplicationType>
+            </Application>
+          </SoftwareType>
+        </Software>
+        <DataAccessPolicy id="93" name="DataAccessPolicy" type="MetadataAttributeUsage">
+          <DataAccessPolicyType id="409" name="DataAccessPolicyType" number="1" roleId="93" type="MetadataAttribute">
+            <DataAccessPolicy id="324" name="DataAccessPolicy" type="MetadataAttributeUsage">
+              <DataAccessPolicy id="408" name="DataAccessPolicy" number="1" roleId="324" type="MetadataAttribute">open access</DataAccessPolicy>
+            </DataAccessPolicy>
+          </DataAccessPolicyType>
+        </DataAccessPolicy>
+        <AdditionalInfo id="94" name="AdditionalInfo" type="MetadataAttributeUsage">
+          <AdditionalInfoType id="413" name="AdditionalInfoType" number="1" roleId="94" type="MetadataAttribute">
+            <DOI id="325" name="DOI" type="MetadataAttributeUsage">
+              <DOI id="410" name="DOI" number="1" roleId="325" type="MetadataAttribute">10.1007/s00442-003-1371-8</DOI>
+            </DOI>
+            <RelatedDataset id="326" name="RelatedDataset" type="MetadataAttributeUsage">
+              <RelatedDataset id="411" name="RelatedDataset" number="1" roleId="326" type="MetadataAttribute" />
+            </RelatedDataset>
+            <DatasetLevelAdditionalMetadata id="327" name="DatasetLevelAdditionalMetadata" type="MetadataAttributeUsage">
+              <DatasetLevelAdditionalMetadata id="412" name="DatasetLevelAdditionalMetadata" number="1" roleId="327" type="MetadataAttribute">T.M. Knight.  2003.  Floral density, pollen limitation, and reproductive success in Trillium grandiflorum.  Oecologia (2003) 442: 557&#8211;563.</DatasetLevelAdditionalMetadata>
+            </DatasetLevelAdditionalMetadata>
+          </AdditionalInfoType>
+        </AdditionalInfo>
+      </DatasetLevelMetadata>
+    </DatasetLevelMetadata>
+    <EnvironmentalLevelMetadata id="29" name="EnvironmentalLevelMetadata" type="MetadataPackageUsage">
+      <EnvironmentalLevelMetadata id="20" name="EnvironmentalLevelMetadata" number="1" roleId="29" type="MetadataPackage">
+        <SpatialCoverage id="95" name="SpatialCoverage" type="MetadataAttributeUsage">
+          <SpatialCoverage id="414" name="SpatialCoverage" number="1" roleId="95" type="MetadataAttribute" />
+        </SpatialCoverage>
+        <Biome id="96" name="Biome" type="MetadataAttributeUsage">
+          <Biome id="415" name="Biome" number="1" roleId="96" type="MetadataAttribute" />
+        </Biome>
+        <GeoreferenceSource id="97" name="GeoreferenceSource" type="MetadataAttributeUsage">
+          <GeoreferenceSource id="416" name="GeoreferenceSource" number="1" roleId="97" type="MetadataAttribute" />
+        </GeoreferenceSource>
+        <GeoreferenceRemarks id="98" name="GeoreferenceRemarks" type="MetadataAttributeUsage">
+          <GeoreferenceRemarks id="417" name="GeoreferenceRemarks" number="1" roleId="98" type="MetadataAttribute" />
+        </GeoreferenceRemarks>
+        <Locations id="99" name="Locations" type="MetadataAttributeUsage">
+          <LocationsType id="430" name="LocationsType" number="1" roleId="99" type="MetadataAttribute">
+            <Location id="339" name="Location" type="MetadataAttributeUsage">
+              <LocationType id="429" name="LocationType" number="1" roleId="339" type="MetadataAttribute">
+                <LocationName id="328" name="LocationName" type="MetadataAttributeUsage">
+                  <LocationName id="418" name="LocationName" number="1" roleId="328" type="MetadataAttribute" />
+                </LocationName>
+                <Latitude id="329" name="Latitude" type="MetadataAttributeUsage">
+                  <Latitude id="419" name="Latitude" number="1" roleId="329" type="MetadataAttribute" />
+                </Latitude>
+                <Longitude id="330" name="Longitude" type="MetadataAttributeUsage">
+                  <Longitude id="420" name="Longitude" number="1" roleId="330" type="MetadataAttribute" />
+                </Longitude>
+                <Altitude id="331" name="Altitude" type="MetadataAttributeUsage">
+                  <Altitude id="421" name="Altitude" number="1" roleId="331" type="MetadataAttribute" />
+                </Altitude>
+                <Depth id="332" name="Depth" type="MetadataAttributeUsage">
+                  <Depth id="422" name="Depth" number="1" roleId="332" type="MetadataAttribute" />
+                </Depth>
+                <CoordinateReferenceSystem id="333" name="CoordinateReferenceSystem" type="MetadataAttributeUsage">
+                  <CoordinateReferenceSystem id="423" name="CoordinateReferenceSystem" number="1" roleId="333" type="MetadataAttribute" />
+                </CoordinateReferenceSystem>
+                <Precision id="334" name="Precision" type="MetadataAttributeUsage">
+                  <Precision id="424" name="Precision" number="1" roleId="334" type="MetadataAttribute" />
+                </Precision>
+                <Country id="335" name="Country" type="MetadataAttributeUsage">
+                  <Country id="425" name="Country" number="1" roleId="335" type="MetadataAttribute" />
+                </Country>
+                <Slope id="336" name="Slope" type="MetadataAttributeUsage">
+                  <Slope id="426" name="Slope" number="1" roleId="336" type="MetadataAttribute" />
+                </Slope>
+                <Aspect id="337" name="Aspect" type="MetadataAttributeUsage">
+                  <Aspect id="427" name="Aspect" number="1" roleId="337" type="MetadataAttribute" />
+                </Aspect>
+                <Habitat id="338" name="Habitat" type="MetadataAttributeUsage">
+                  <Habitat id="428" name="Habitat" number="1" roleId="338" type="MetadataAttribute" />
+                </Habitat>
+              </LocationType>
+            </Location>
+          </LocationsType>
+        </Locations>
+        <Polygons id="100" name="Polygons" type="MetadataAttributeUsage">
+          <PolygonsType id="437" name="PolygonsType" number="1" roleId="100" type="MetadataAttribute">
+            <Polygon id="345" name="Polygon" type="MetadataAttributeUsage">
+              <PolygonType id="436" name="PolygonType" number="1" roleId="345" type="MetadataAttribute">
+                <PolygonTitle id="343" name="PolygonTitle" type="MetadataAttributeUsage">
+                  <PolygonTitle id="431" name="PolygonTitle" number="1" roleId="343" type="MetadataAttribute" />
+                </PolygonTitle>
+                <Point id="344" name="Point" type="MetadataAttributeUsage">
+                  <PointType id="435" name="PointType" number="1" roleId="344" type="MetadataAttribute">
+                    <Latitude id="340" name="Latitude" type="MetadataAttributeUsage">
+                      <Latitude id="432" name="Latitude" number="1" roleId="340" type="MetadataAttribute" />
+                    </Latitude>
+                    <Longitude id="341" name="Longitude" type="MetadataAttributeUsage">
+                      <Longitude id="433" name="Longitude" number="1" roleId="341" type="MetadataAttribute" />
+                    </Longitude>
+                    <Altitude id="342" name="Altitude" type="MetadataAttributeUsage">
+                      <Altitude id="434" name="Altitude" number="1" roleId="342" type="MetadataAttribute" />
+                    </Altitude>
+                  </PointType>
+                </Point>
+              </PolygonType>
+            </Polygon>
+          </PolygonsType>
+        </Polygons>
+        <Remarks id="101" name="Remarks" type="MetadataAttributeUsage">
+          <RemarksType id="439" name="RemarksType" number="1" roleId="101" type="MetadataAttribute">
+            <EnvironmentalLevelAdditionalMetadata id="346" name="EnvironmentalLevelAdditionalMetadata" type="MetadataAttributeUsage">
+              <EnvironmentalLevelAdditionalMetadata id="438" name="EnvironmentalLevelAdditionalMetadata" number="1" roleId="346" type="MetadataAttribute" />
+            </EnvironmentalLevelAdditionalMetadata>
+          </RemarksType>
+        </Remarks>
+      </EnvironmentalLevelMetadata>
+    </EnvironmentalLevelMetadata>
+    <OrganismLevelMetadata id="30" name="OrganismLevelMetadata" type="MetadataPackageUsage">
+      <OrganismLevelMetadata id="21" name="OrganismLevelMetadata" number="1" roleId="30" type="MetadataPackage">
+        <Organisms id="102" name="Organisms" type="MetadataAttributeUsage">
+          <OrganismsType id="462" name="OrganismsType" number="1" roleId="102" type="MetadataAttribute">
+            <Organism id="368" name="Organism" type="MetadataAttributeUsage">
+              <OrganismType id="461" name="OrganismType" number="1" roleId="368" type="MetadataAttribute">
+                <TaxonCoverage id="362" name="TaxonCoverage" type="MetadataAttributeUsage">
+                  <TaxonCoverage id="440" name="TaxonCoverage" number="1" roleId="362" type="MetadataAttribute">Plants</TaxonCoverage>
+                </TaxonCoverage>
+                <Family id="363" name="Family" type="MetadataAttributeUsage">
+                  <Family id="441" name="Family" number="1" roleId="363" type="MetadataAttribute" />
+                </Family>
+                <ScientificName id="364" name="ScientificName" type="MetadataAttributeUsage">
+                  <ScientificName id="442" name="ScientificName" number="1" roleId="364" type="MetadataAttribute">Trillium grandiflorum</ScientificName>
+                </ScientificName>
+                <Subspecies id="365" name="Subspecies" type="MetadataAttributeUsage">
+                  <Subspecies id="443" name="Subspecies" number="1" roleId="365" type="MetadataAttribute" />
+                </Subspecies>
+                <LifeScienceIdentifier id="366" name="LifeScienceIdentifier" type="MetadataAttributeUsage">
+                  <LifeScienceIdentifier id="444" name="LifeScienceIdentifier" number="1" roleId="366" type="MetadataAttribute" />
+                </LifeScienceIdentifier>
+                <VoucherSpecimen id="367" name="VoucherSpecimen" type="MetadataAttributeUsage">
+                  <VoucherSpecimenType id="460" name="VoucherSpecimenType" number="1" roleId="367" type="MetadataAttribute">
+                    <Institute id="359" name="Institute" type="MetadataAttributeUsage">
+                      <organisationContact id="451" name="organisationContact" number="1" roleId="359" type="MetadataAttribute">
+                        <Name id="347" name="Name" type="MetadataAttributeUsage">
+                          <Name id="445" name="Name" number="1" roleId="347" type="MetadataAttribute" />
+                        </Name>
+                        <URL id="348" name="URL" type="MetadataAttributeUsage">
+                          <URL id="446" name="URL" number="1" roleId="348" type="MetadataAttribute" />
+                        </URL>
+                        <Street id="349" name="Street" type="MetadataAttributeUsage">
+                          <Street id="447" name="Street" number="1" roleId="349" type="MetadataAttribute" />
+                        </Street>
+                        <Zipcode id="350" name="Zipcode" type="MetadataAttributeUsage">
+                          <Zipcode id="448" name="Zipcode" number="1" roleId="350" type="MetadataAttribute" />
+                        </Zipcode>
+                        <City id="351" name="City" type="MetadataAttributeUsage">
+                          <City id="449" name="City" number="1" roleId="351" type="MetadataAttribute" />
+                        </City>
+                        <Country id="352" name="Country" type="MetadataAttributeUsage">
+                          <Country id="450" name="Country" number="1" roleId="352" type="MetadataAttribute" />
+                        </Country>
+                      </organisationContact>
+                    </Institute>
+                    <IdentifiedBy id="360" name="IdentifiedBy" type="MetadataAttributeUsage">
+                      <contact id="458" name="contact" number="1" roleId="360" type="MetadataAttribute">
+                        <Name id="353" name="Name" type="MetadataAttributeUsage">
+                          <Name id="452" name="Name" number="1" roleId="353" type="MetadataAttribute" />
+                        </Name>
+                        <Email id="354" name="Email" type="MetadataAttributeUsage">
+                          <Email id="453" name="Email" number="1" roleId="354" type="MetadataAttribute" />
+                        </Email>
+                        <Street id="355" name="Street" type="MetadataAttributeUsage">
+                          <Street id="454" name="Street" number="1" roleId="355" type="MetadataAttribute" />
+                        </Street>
+                        <Zipcode id="356" name="Zipcode" type="MetadataAttributeUsage">
+                          <Zipcode id="455" name="Zipcode" number="1" roleId="356" type="MetadataAttribute" />
+                        </Zipcode>
+                        <City id="357" name="City" type="MetadataAttributeUsage">
+                          <City id="456" name="City" number="1" roleId="357" type="MetadataAttribute" />
+                        </City>
+                        <Country id="358" name="Country" type="MetadataAttributeUsage">
+                          <Country id="457" name="Country" number="1" roleId="358" type="MetadataAttribute" />
+                        </Country>
+                      </contact>
+                    </IdentifiedBy>
+                    <AccessID id="361" name="AccessID" type="MetadataAttributeUsage">
+                      <AccessID id="459" name="AccessID" number="1" roleId="361" type="MetadataAttribute" />
+                    </AccessID>
+                  </VoucherSpecimenType>
+                </VoucherSpecimen>
+              </OrganismType>
+            </Organism>
+          </OrganismsType>
+        </Organisms>
+        <Remarks id="103" name="Remarks" type="MetadataAttributeUsage">
+          <RemarksType id="464" name="RemarksType" number="1" roleId="103" type="MetadataAttribute">
+            <OrganismLevelAdditionalMetadata id="369" name="OrganismLevelAdditionalMetadata" type="MetadataAttributeUsage">
+              <OrganismLevelAdditionalMetadata id="463" name="OrganismLevelAdditionalMetadata" number="1" roleId="369" type="MetadataAttribute" />
+            </OrganismLevelAdditionalMetadata>
+          </RemarksType>
+        </Remarks>
+      </OrganismLevelMetadata>
+    </OrganismLevelMetadata>
+    <SequenceLevelMetadata id="31" name="SequenceLevelMetadata" type="MetadataPackageUsage">
+      <SequenceLevelMetadata id="22" name="SequenceLevelMetadata" number="1" roleId="31" type="MetadataPackage">
+        <NumberOfSamples id="104" name="NumberOfSamples" type="MetadataAttributeUsage">
+          <NumberOfSamples id="465" name="NumberOfSamples" number="1" roleId="104" type="MetadataAttribute" />
+        </NumberOfSamples>
+        <TypeOfMoleculesExtracted id="105" name="TypeOfMoleculesExtracted" type="MetadataAttributeUsage">
+          <TypeOfMoleculesExtracted id="466" name="TypeOfMoleculesExtracted" number="1" roleId="105" type="MetadataAttribute" />
+        </TypeOfMoleculesExtracted>
+        <PermitNumber id="106" name="PermitNumber" type="MetadataAttributeUsage">
+          <PermitNumber id="467" name="PermitNumber" number="1" roleId="106" type="MetadataAttribute" />
+        </PermitNumber>
+        <Samples id="107" name="Samples" type="MetadataAttributeUsage">
+          <SamplesType id="473" name="SamplesType" number="1" roleId="107" type="MetadataAttribute">
+            <Sample id="374" name="Sample" type="MetadataAttributeUsage">
+              <SampleType id="472" name="SampleType" number="1" roleId="374" type="MetadataAttribute">
+                <TitleOfSample id="370" name="TitleOfSample" type="MetadataAttributeUsage">
+                  <TitleOfSample id="468" name="TitleOfSample" number="1" roleId="370" type="MetadataAttribute" />
+                </TitleOfSample>
+                <SourceMaterialOfSample id="371" name="SourceMaterialOfSample" type="MetadataAttributeUsage">
+                  <SourceMaterialOfSample id="469" name="SourceMaterialOfSample" number="1" roleId="371" type="MetadataAttribute" />
+                </SourceMaterialOfSample>
+                <SampleDescription id="372" name="SampleDescription" type="MetadataAttributeUsage">
+                  <SampleDescription id="470" name="SampleDescription" number="1" roleId="372" type="MetadataAttribute" />
+                </SampleDescription>
+                <SampleCharacteristic id="373" name="SampleCharacteristic" type="MetadataAttributeUsage">
+                  <SampleCharacteristic id="471" name="SampleCharacteristic" number="1" roleId="373" type="MetadataAttribute" />
+                </SampleCharacteristic>
+              </SampleType>
+            </Sample>
+          </SamplesType>
+        </Samples>
+        <SequenceProtocols id="108" name="SequenceProtocols" type="MetadataAttributeUsage">
+          <SequenceProtocolsType id="479" name="SequenceProtocolsType" number="1" roleId="108" type="MetadataAttribute">
+            <SequenceProtocol id="379" name="SequenceProtocol" type="MetadataAttributeUsage">
+              <SequenceProtocolType id="478" name="SequenceProtocolType" number="1" roleId="379" type="MetadataAttribute">
+                <GrowthOfOrganismOrCells id="375" name="GrowthOfOrganismOrCells" type="MetadataAttributeUsage">
+                  <GrowthOfOrganismOrCells id="474" name="GrowthOfOrganismOrCells" number="1" roleId="375" type="MetadataAttribute" />
+                </GrowthOfOrganismOrCells>
+                <TreatmentAppliedToBiologicalMaterial id="376" name="TreatmentAppliedToBiologicalMaterial" type="MetadataAttributeUsage">
+                  <TreatmentAppliedToBiologicalMaterial id="475" name="TreatmentAppliedToBiologicalMaterial" number="1" roleId="376" type="MetadataAttribute" />
+                </TreatmentAppliedToBiologicalMaterial>
+                <ExtractionProtocol id="377" name="ExtractionProtocol" type="MetadataAttributeUsage">
+                  <ExtractionProtocol id="476" name="ExtractionProtocol" number="1" roleId="377" type="MetadataAttribute" />
+                </ExtractionProtocol>
+                <SampleMeasured id="378" name="SampleMeasured" type="MetadataAttributeUsage">
+                  <SampleMeasured id="477" name="SampleMeasured" number="1" roleId="378" type="MetadataAttribute" />
+                </SampleMeasured>
+              </SequenceProtocolType>
+            </SequenceProtocol>
+          </SequenceProtocolsType>
+        </SequenceProtocols>
+        <SequenceDataProcessingInfo id="109" name="SequenceDataProcessingInfo" type="MetadataAttributeUsage">
+          <SequenceDataProcessingInfoType id="484" name="SequenceDataProcessingInfoType" number="1" roleId="109" type="MetadataAttribute">
+            <DataProcessingPipelineDescription id="380" name="DataProcessingPipelineDescription" type="MetadataAttributeUsage">
+              <DataProcessingPipelineDescription id="480" name="DataProcessingPipelineDescription" number="1" roleId="380" type="MetadataAttribute" />
+            </DataProcessingPipelineDescription>
+            <RawDataFileFormat id="381" name="RawDataFileFormat" type="MetadataAttributeUsage">
+              <RawDataFileFormat id="481" name="RawDataFileFormat" number="1" roleId="381" type="MetadataAttribute" />
+            </RawDataFileFormat>
+            <ProcessedDataFileFormat id="382" name="ProcessedDataFileFormat" type="MetadataAttributeUsage">
+              <ProcessedDataFileFormat id="482" name="ProcessedDataFileFormat" number="1" roleId="382" type="MetadataAttribute" />
+            </ProcessedDataFileFormat>
+            <InstrumentModelUsed id="383" name="InstrumentModelUsed" type="MetadataAttributeUsage">
+              <InstrumentModelUsed id="483" name="InstrumentModelUsed" number="1" roleId="383" type="MetadataAttribute" />
+            </InstrumentModelUsed>
+          </SequenceDataProcessingInfoType>
+        </SequenceDataProcessingInfo>
+        <ChemicalAnalysisTechniques id="110" name="ChemicalAnalysisTechniques" type="MetadataAttributeUsage">
+          <ChemicalAnalysisTechniquesType id="487" name="ChemicalAnalysisTechniquesType" number="1" roleId="110" type="MetadataAttribute">
+            <SeparationTechnique id="384" name="SeparationTechnique" type="MetadataAttributeUsage">
+              <SeparationTechnique id="485" name="SeparationTechnique" number="1" roleId="384" type="MetadataAttribute" />
+            </SeparationTechnique>
+            <DetectionTechnique id="385" name="DetectionTechnique" type="MetadataAttributeUsage">
+              <DetectionTechnique id="486" name="DetectionTechnique" number="1" roleId="385" type="MetadataAttribute" />
+            </DetectionTechnique>
+          </ChemicalAnalysisTechniquesType>
+        </ChemicalAnalysisTechniques>
+        <Remarks id="111" name="Remarks" type="MetadataAttributeUsage">
+          <RemarksType id="489" name="RemarksType" number="1" roleId="111" type="MetadataAttribute">
+            <SequenceLevelAdditionalMetadata id="386" name="SequenceLevelAdditionalMetadata" type="MetadataAttributeUsage">
+              <SequenceLevelAdditionalMetadata id="488" name="SequenceLevelAdditionalMetadata" number="1" roleId="386" type="MetadataAttribute" />
+            </SequenceLevelAdditionalMetadata>
+          </RemarksType>
+        </Remarks>
+      </SequenceLevelMetadata>
+    </SequenceLevelMetadata>
+  </Metadata>
+  

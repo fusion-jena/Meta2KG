@@ -1,0 +1,346 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='327'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/327</alternateIdentifier>
+<title>CSPs: Tree species stem breaking probability deviation CSPs</title>
+<creator id='nadrowski'>
+<individualName>
+<givenName>Karin</givenName>
+<surName>Nadrowski</surName>
+</individualName>
+
+<address>
+
+
+
+</address>
+
+<electronicMailAddress>nadrowski@uni-leipzig.de</electronicMailAddress>
+</creator>
+<pubDate>2013-03-14</pubDate>
+<language>en_US</language>
+<abstract>
+<para>The great 2008 ice storm destroyed considerable areas in the Gutianshan Nature Reserve. In the Comparative Study Plots (CSPs) we quantified the amount of wood downed by the ice storm (coarse woody debris data). Combining data on living and killed trees, we estimated a general unimodal stem breaking probability using a Ricker function. Here we give the averaged deviations from that unimodal function for each species. Positive deviations indicate increased risk to break compared with the general expectation, and negative values indicate a lower risk to break.</para>
+
+</abstract>
+<keywordSet>
+<keyword>CSP</keyword>
+<keyword>explanatory</keyword>
+<keyword>family</keyword>
+<keyword>ice storm</keyword>
+<keyword>response variable</keyword>
+<keyword>species</keyword>
+<keyword>stem break</keyword>
+<keyword>taxon</keyword>
+<keyword>tree species</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>species</keyword>
+<keyword>spec_fam</keyword>
+<keyword>family</keyword>
+<keyword>fix_int</keyword>
+<keyword>rand_family</keyword>
+<keyword>rand_spec_in_fam</keyword>
+<keyword>rand_spec_stem_break</keyword>
+<keyword>mixed_m_res</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Permission is granted to anybody to access, use and publish all open for public data freely. The commercial use of any data is prohibited. The quality and completeness of data cannot be guaranteed. Users employ these data at their own risk. In order to make attribution of use for owners of the data possible, the identifier of ownership of data must be retained with every data record. Users must publicly acknowledge, in conjunction with the use of the data, the data owners. Cite the data as follows:
+Nadrowski, K. (2013): Deviations from stem breaking probabilities at species level. BEF-China data portal (Accessed through URL http://china.befdata.biow.uni-leipzig.de/datasets/327)</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/327/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>Comparative Study sites, BEF China Experiment, Gutianshan, China
+29°08'-29°17'N
+118°02'-118°11'E</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2008-03-07
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2009-01-29
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>Tree species names as in the reference list for tree species.</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+Tree species names as in the reference list for tree species.
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>nadrowski</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>CSPs: Tree species stem breaking probability deviation CSPs</para>
+<para>The great 2008 ice storm destroyed considerable areas in the Gutianshan Nature Reserve. In the Comparative Study Plots (CSPs) we quantified the amount of wood downed by the ice storm (coarse woody debris data). Combining data on living and killed trees, we estimated a general unimodal stem breaking probability using a Ricker function. Here we give the averaged deviations from that unimodal function for each species. Positive deviations indicate increased risk to break compared with the general expectation, and negative values indicate a lower risk to break.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2008-03-07 00:00:00 UTC - 2009-01-29 00:00:00 UTC</para>
+<para>Living stems in 2008, killed stems in 2008 and early 2009.</para>
+<para>Comparative Study sites, BEF China Experiment, Gutianshan, China
+29°08&#39;-29°17&#39;N
+118°02&#39;-118°11&#39;E</para>
+<para>Tree species names as in the reference list for tree species.</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>&quot;In the 30x30m CSPs the central of 9 subplots was mapped in greater detail than the remaining 8 plots, resulting in more tree stems &lt;10cm in the central plot only. We checked for duplicated stems based on the stemID. There is an attached files with an R script, with which the data were generated. ---- We used the Power Rickerts function (Bolker 2007) to estimate size dependent mortality due to the ice storm for all individuals. The function describes a uni-modal curve through the origin and returning to zero mortality risk for very large individuals:p=(p ) ̂(x/x ̂   e^((1-x/x ̂ )^α ) )The three parameters of the Power Rickerts function are maximum mortality ((p ) ̂), diameter at maximum mortality (x ̂), and a scaling factor increasing the slope of the curve reaching maximum mortality (α). We used Bayesian inference and Gibbs Sampling via Markov Chain Monte Carlo  (JAGS: Plummer, 2003) with uninformative priors to derive mortality risk estimates for each tree individual and to estimate model parameters and their confidence intervals.</para>
+
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/327</entityName>
+<entityDescription>CSPs: Tree species stem breaking probability deviation CSPs</entityDescription>
+<physical>
+<objectName>/datasets/327</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/327/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='species'>
+<attributeName>Scientific plant species name (species), dimensionless</attributeName>
+<attributeLabel>species</attributeLabel>
+<attributeDefinition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required. (species: species name; Datagroup description: Scientific plant species name; Datagroup description: Scientific plant species name; Source: Flora of China, Helge Bruelheide (derived from datagroup))</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Scientific plant species name</para>
+<para>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</para>
+<para>species name; Datagroup description: Scientific plant species name; Datagroup description: Scientific plant species name; Source: Flora of China, Helge Bruelheide (derived from datagroup)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='spec_fam'>
+<attributeName>Helper (spec_fam), dimensionless</attributeName>
+<attributeLabel>spec_fam</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (spec_fam: combination of species an family name; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>combination of species an family name; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='family'>
+<attributeName>Plant family name (family), dimensionless</attributeName>
+<attributeLabel>family</attributeLabel>
+<attributeDefinition>Plant family name (family: family name)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Plant family name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plant family name</para>
+<para>Plant family name</para>
+<para>family name</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='fix_int'>
+<attributeName>Helper (fix_int), dimensionless</attributeName>
+<attributeLabel>fix_int</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (fix_int: general intecepts for deviations form expected breaking risk; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>general intecepts for deviations form expected breaking risk; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='rand_family'>
+<attributeName>Helper (rand_family), dimensionless</attributeName>
+<attributeLabel>rand_family</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (rand_family: family effect on top of intercept; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>family effect on top of intercept; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='rand_spec_in_fam'>
+<attributeName>Helper (rand_spec_in_fam), dimensionless</attributeName>
+<attributeLabel>rand_spec_in_fam</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (rand_spec_in_fam: species within familiy effect; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>species within familiy effect; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='rand_spec_stem_break'>
+<attributeName>Deviation from expected stem breaking probability (rand_spec_stem_break), dimensionless</attributeName>
+<attributeLabel>rand_spec_stem_break</attributeLabel>
+<attributeDefinition>Deviation from expected stem breaking probability (rand_spec_stem_break: species specific deviation from expected breaking risk, sum of intercept + family + spec in family)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Deviation from expected stem breaking probability</para>
+<para>Deviation from expected stem breaking probability</para>
+<para>species specific deviation from expected breaking risk, sum of intercept + family + spec in family</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='mixed_m_res'>
+<attributeName>Helper (mixed_m_res), dimensionless</attributeName>
+<attributeLabel>mixed_m_res</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (mixed_m_res: residuals from the random component model with species and plots as random effects, to control phylogenetic independence of the model; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>residuals from the random component model with species and plots as random effects, to control phylogenetic independence of the model; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>87</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

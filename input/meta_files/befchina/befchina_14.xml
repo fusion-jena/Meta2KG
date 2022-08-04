@@ -1,0 +1,465 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='331'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/331</alternateIdentifier>
+<title>Main Experiment: Soil CNS and pH analyses of depth increments on Site A (2010-2011)</title>
+<creator id='pkuehn'>
+<individualName>
+<givenName>Peter</givenName>
+<surName>Kühn</surName>
+</individualName>
+<organizationName>Institute of Geography / Laboratory for Soil Science  and Geoecology  Eberhard Karls University Tübingen</organizationName>
+<address>
+<deliveryPoint>Rümelinstr. 19-23</deliveryPoint>
+<city>72070 Tübingen</city>
+<country>Germany</country>
+</address>
+<phone>+49-7071-2974896</phone>
+<electronicMailAddress>peter.kuehn@uni-tuebingen.de</electronicMailAddress>
+</creator>
+<creator id='tscholten'>
+<individualName>
+<givenName>Thomas</givenName>
+<surName>Scholten</surName>
+</individualName>
+
+
+<electronicMailAddress>thomas.scholten@uni-tuebingen.de</electronicMailAddress>
+</creator>
+<creator id='sseitz'>
+<individualName>
+<givenName>Steffen</givenName>
+<surName>Seitz</surName>
+</individualName>
+<organizationName>Geographisches Institut</organizationName>
+<address>
+
+
+<country>Tübingen</country>
+</address>
+<phone>07071-29-74081</phone>
+<electronicMailAddress>steffen.seitz@uni-tuebingen.de</electronicMailAddress>
+</creator>
+<pubDate>2013-04-25</pubDate>
+<language>en_US</language>
+<abstract>
+<para>Soil chemical laboratory analyses of all plots on Site A. Contents of carbon, nitrogen and sulphur as well as pH-values (in H2O and KCl) of six depth increments per plot.</para>
+
+</abstract>
+<keywordSet>
+<keyword>C</keyword>
+<keyword>carbon</keyword>
+<keyword>C/N ratio</keyword>
+<keyword>location</keyword>
+<keyword>Main Experiment</keyword>
+<keyword>N</keyword>
+<keyword>nitrogen</keyword>
+<keyword>pH</keyword>
+<keyword>S</keyword>
+<keyword>Site A</keyword>
+<keyword>SOC</keyword>
+<keyword>soil</keyword>
+<keyword>soil base</keyword>
+<keyword>soil depth</keyword>
+<keyword>SON</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>plot_number</keyword>
+<keyword>PTAG</keyword>
+<keyword>sample_num</keyword>
+<keyword>lab_num</keyword>
+<keyword>depth_lb</keyword>
+<keyword>pH_H2O</keyword>
+<keyword>pH_KCl</keyword>
+<keyword>N_t</keyword>
+<keyword>C_t</keyword>
+<keyword>S_t</keyword>
+<keyword>C_N</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/331/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>Experimental Site A
+29°08'-29°11'N
+117°90'-117°93'E</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2010-02-01
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2012-12-29
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>No organisms</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+No organisms
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>pkuehn</references>
+</contact>
+<contact>
+<references>tscholten</references>
+</contact>
+<contact>
+<references>sseitz</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>Main Experiment: Soil CNS and pH analyses of depth increments on Site A (2010-2011)</para>
+<para>Soil chemical laboratory analyses of all plots on Site A. Contents of carbon, nitrogen and sulphur as well as pH-values (in H2O and KCl) of six depth increments per plot.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2010-02-01 00:00:00 UTC - 2012-12-29 00:00:00 UTC</para>
+<para>Samples were collected from 2010 to 2011. Lab analyses were carried out from 2010 to 2012.</para>
+<para>Experimental Site A
+29°08&#39;-29°11&#39;N
+117°90&#39;-117°93&#39;E</para>
+<para>No organisms</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>Six depth increments were taken from systematic corings: Nine corings per plot were pooled to one sample per depth increment (0-5, 5-10, 10-20, 20-30, 30-40, 40-50 cm). Samples were air-dried, sieved &lt; 2mm, grinded using a ball mill. Subsamples of 40 mg were used for measurements with an elemental analyzer (Vario EL III, Elementar, Hanau, Germany).</para>
+<para>pH (KCl) is the maximum potential acidity under present soil conditions. 
+pH (H2O) is the current acidity.</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/331</entityName>
+<entityDescription>Main Experiment: Soil CNS and pH analyses of depth increments on Site A (2010-2011)</entityDescription>
+<physical>
+<objectName>/datasets/331</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/331/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='plot_number'>
+<attributeName>Plot name Main experiment (letter, number code) (plot_number), </attributeName>
+<attributeLabel>plot_number</attributeLabel>
+<attributeDefinition>Plot number according to design spreadsheet. Plots are named according to their location on the original spreadsheet used for treatment design. This has letters from West to East and numbers from North to south. Some plots were moved half a gridcell (1 mu) so be suitable for planting (grid cell loctype). Example: B32 (plot_number: Plot Letter Code; Datagroup description: Plot name (letter, number code))</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Plot number according to design spreadsheet. Plots are named according to their location on the original spreadsheet used for treatment design. This has letters from West to East and numbers from North to south. Some plots were moved half a gridcell (1 mu) so be suitable for planting (grid cell loctype). Example: B32</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plot name Main experiment (letter, number code)</para>
+<para>Plot number according to design spreadsheet. Plots are named according to their location on the original spreadsheet used for treatment design. This has letters from West to East and numbers from North to south. Some plots were moved half a gridcell (1 mu) so be suitable for planting (grid cell loctype). Example: B32</para>
+<para>Plot Letter Code; Datagroup description: Plot name (letter, number code)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='PTAG'>
+<attributeName>BEF research plot name (PTAG), </attributeName>
+<attributeLabel>PTAG</attributeLabel>
+<attributeDefinition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province) (PTAG: plot code, BEF research plot name, 6 digits with &quot;p&quot; in front; Datagroup description: Research plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2. Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A and B are named according to their position in the original spreadsheet, in which they were designed. They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu. Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified. &quot;2&quot; means, that we are at site B. Now the coordinates of the south - west corner: &quot;0526&quot;. Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26. The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site B. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.; Datagroup description: Research plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2. Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed. They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu. Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified. &quot;2&quot; means, that we are at site B. Now the coordinates of the south - west corner: &quot;0526&quot;. Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26. The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively. Morover, Plots from the main experiment may be labelled in the more ambiguous form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell. Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location: 29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province))</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>BEF research plot name</para>
+<para>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) and B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) or Site B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06&#39;20.2&quot;N 117°55&#39;12.1&quot;E, Jiangxi Province)</para>
+<para>plot code, BEF research plot name, 6 digits with &quot;p&quot; in front; Datagroup description: Research plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2. Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A and B are named according to their position in the original spreadsheet, in which they were designed. They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu. Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified. &quot;2&quot; means, that we are at site B. Now the coordinates of the south - west corner: &quot;0526&quot;. Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26. The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site B. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.; Datagroup description: Research plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2. Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) and B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed. They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu. Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified. &quot;2&quot; means, that we are at site B. Now the coordinates of the south - west corner: &quot;0526&quot;. Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26. The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively. Morover, Plots from the main experiment may be labelled in the more ambiguous form of e.g. A32. This indicates a plat either on Site A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) or Site B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell. Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location: 29°06&#39;20.2&quot;N 117°55&#39;12.1&quot;E, Jiangxi Province)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='sample_num'>
+<attributeName>Helper (sample_num), </attributeName>
+<attributeLabel>sample_num</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (sample_num: field name of the sample; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>field name of the sample; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='lab_num'>
+<attributeName>Laboratory number of Laboratory of Soil Science and Geoecology in Tübingen (lab_num), </attributeName>
+<attributeLabel>lab_num</attributeLabel>
+<attributeDefinition>Laboratory number laboratory Scholten, Kühn, Tübingen. (lab_num: Laboratory number of laboratory of soil science and geoecology in Tübingen)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Laboratory number of Laboratory of Soil Science and Geoecology in Tübingen</para>
+<para>Laboratory number laboratory Scholten, Kühn, Tübingen.</para>
+<para>Laboratory number of laboratory of soil science and geoecology in Tübingen</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='depth_lb'>
+<attributeName>Soil depth (depth_lb), cm</attributeName>
+<attributeLabel>depth_lb</attributeLabel>
+<attributeDefinition>Incremental soil depth as opposed to soil horizon, where each horizon could be of differen depth. (depth_lb: depth (lower boundary) of the sample; Datagroup description: Soil depth)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil depth</para>
+<para>Incremental soil depth as opposed to soil horizon, where each horizon could be of differen depth.</para>
+<para>depth (lower boundary) of the sample; Datagroup description: Soil depth</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='pH_H2O'>
+<attributeName>pH value (pH_H2O), pH</attributeName>
+<attributeLabel>pH_H2O</attributeLabel>
+<attributeDefinition>In case of H2O: samples were air-dried, sieved &lt; 2mm, solutionH20 : soil = 2.5:1 -- in case of KCL: samples were air-dried, sieved &lt; 2mm, solutionKCL : soil = 2.5:1; pH (KCl) is the maximum potential acidity under the present soil conditions, pH (H2O) is the current acidity; pH (KCl) is the maximum potential acidity under the present soil conditions, pH (H2O) is the current acidity (pH_H2O: pH value, mean from two values determined by H20 method. solutionH20 : soil = 2.5:1; Datagroup description: pH value; Instrumentation: electrodes Sentix 81 and WTW pH-meter (derived from datagroup); Instrumentation: electrodes Sentix 81 and WTW pH-meter (derived from datagroup))</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>pH value</para>
+<para>In case of H2O: samples were air-dried, sieved &lt; 2mm, solutionH20 : soil = 2.5:1 -- in case of KCL: samples were air-dried, sieved &lt; 2mm, solutionKCL : soil = 2.5:1; pH (KCl) is the maximum potential acidity under the present soil conditions, pH (H2O) is the current acidity; pH (KCl) is the maximum potential acidity under the present soil conditions, pH (H2O) is the current acidity</para>
+<para>pH value, mean from two values determined by H20 method. solutionH20 : soil = 2.5:1; Datagroup description: pH value; Instrumentation: electrodes Sentix 81 and WTW pH-meter (derived from datagroup); Instrumentation: electrodes Sentix 81 and WTW pH-meter (derived from datagroup)</para>
+</description>
+<instrumentation>electrodes Sentix 81 and WTW pH-meter (derived from datagroup)</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='pH_KCl'>
+<attributeName>pH value (pH_KCl), pH</attributeName>
+<attributeLabel>pH_KCl</attributeLabel>
+<attributeDefinition>In case of H2O: samples were air-dried, sieved &lt; 2mm, solutionH20 : soil = 2.5:1 -- in case of KCL: samples were air-dried, sieved &lt; 2mm, solutionKCL : soil = 2.5:1; pH (KCl) is the maximum potential acidity under the present soil conditions, pH (H2O) is the current acidity; pH (KCl) is the maximum potential acidity under the present soil conditions, pH (H2O) is the current acidity (pH_KCl: pH value, mean from two values determined in 1 M KCL; Datagroup description: pH value; Instrumentation: electrodes Sentix 81 and WTW pH-meter (derived from datagroup); Instrumentation: electrodes Sentix 81 and WTW pH-meter (derived from datagroup))</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>pH value</para>
+<para>In case of H2O: samples were air-dried, sieved &lt; 2mm, solutionH20 : soil = 2.5:1 -- in case of KCL: samples were air-dried, sieved &lt; 2mm, solutionKCL : soil = 2.5:1; pH (KCl) is the maximum potential acidity under the present soil conditions, pH (H2O) is the current acidity; pH (KCl) is the maximum potential acidity under the present soil conditions, pH (H2O) is the current acidity</para>
+<para>pH value, mean from two values determined in 1 M KCL; Datagroup description: pH value; Instrumentation: electrodes Sentix 81 and WTW pH-meter (derived from datagroup); Instrumentation: electrodes Sentix 81 and WTW pH-meter (derived from datagroup)</para>
+</description>
+<instrumentation>electrodes Sentix 81 and WTW pH-meter (derived from datagroup)</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='N_t'>
+<attributeName>Nitrogen (N_t), Mass-%</attributeName>
+<attributeLabel>N_t</attributeLabel>
+<attributeDefinition>Nitrogen concentration (N_t: total organic nitrogen content; Datagroup description: Nitrogen; Instrumentation: Elemental Analyzer (derived from datagroup); Instrumentation: Elemental Analyzer (derived from datagroup))</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Nitrogen</para>
+<para>Nitrogen concentration</para>
+<para>total organic nitrogen content; Datagroup description: Nitrogen; Instrumentation: Elemental Analyzer (derived from datagroup); Instrumentation: Elemental Analyzer (derived from datagroup)</para>
+</description>
+<instrumentation>Elemental Analyzer (derived from datagroup)</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='C_t'>
+<attributeName>Carbon (C_t), Mass-%</attributeName>
+<attributeLabel>C_t</attributeLabel>
+<attributeDefinition>measurements of Carbon such as concentrations, pools, amount (C_t: total soil organic carbon content; Datagroup description: Carbon content)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Carbon</para>
+<para>measurements of Carbon such as concentrations, pools, amount</para>
+<para>total soil organic carbon content; Datagroup description: Carbon content</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='S_t'>
+<attributeName>Sulphur (S_t), Mass-%</attributeName>
+<attributeLabel>S_t</attributeLabel>
+<attributeDefinition>S content: samples were air-dried, sieved &lt; 2mm, ground using a ball mill, using around 40 mg for measurements with vario EL III (Elementar) (S_t: total sulphur content; Datagroup description: Sulphur; Instrumentation: heat combustion and thermal conductivity detection using a CNS-Elementar analyser, varioEL III from Elementar (derived from datagroup); Instrumentation: heat combustion and thermal conductivity detection using a CNS-Elementar analyser, varioEL III from Elementar (derived from datagroup); Datagroup description: S content)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Sulphur</para>
+<para>S content: samples were air-dried, sieved &lt; 2mm, ground using a ball mill, using around 40 mg for measurements with vario EL III (Elementar)</para>
+<para>total sulphur content; Datagroup description: Sulphur; Instrumentation: heat combustion and thermal conductivity detection using a CNS-Elementar analyser, varioEL III from Elementar (derived from datagroup); Instrumentation: heat combustion and thermal conductivity detection using a CNS-Elementar analyser, varioEL III from Elementar (derived from datagroup); Datagroup description: S content</para>
+</description>
+<instrumentation>heat combustion and thermal conductivity detection using a CNS-Elementar analyser, varioEL III from Elementar (derived from datagroup)</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='C_N'>
+<attributeName>Carbon Nitrogen ratio (C_N), ratio</attributeName>
+<attributeLabel>C_N</attributeLabel>
+<attributeDefinition>Carbon Nitrogen ratio (C_N: ratio organic carbon/organic nitrogen)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Carbon Nitrogen ratio</para>
+<para>Carbon Nitrogen ratio</para>
+<para>ratio organic carbon/organic nitrogen</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>1643</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

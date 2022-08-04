@@ -1,0 +1,496 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='588'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/588</alternateIdentifier>
+<title>Data for Schuldt et al. &quot;Tree species richness attenuates the positive relationship between mutualistic ant–hemipteran interactions and leaf chewer herbivory&quot; (Proceedings B 2017)</title>
+<creator id='aschuldt'>
+<individualName>
+<givenName>Andreas</givenName>
+<surName>Schuldt</surName>
+</individualName>
+<organizationName>German Centre for Integrative Biodiversity Research (iDiv), Leipzig</organizationName>
+<address>
+<deliveryPoint>Deutscher Platz 5e</deliveryPoint>
+<city>Leipzig</city>
+<country>Germany</country>
+</address>
+<phone>++49 (0) 341 9733232</phone>
+<electronicMailAddress>andreas.schuldt@idiv.de</electronicMailAddress>
+</creator>
+<creator id='aklein'>
+<individualName>
+<givenName>Alexandra-Maria</givenName>
+<surName>Klein</surName>
+</individualName>
+<organizationName>Institute of Ecology and Environmental Chemistry, Section  Ecosystem Functions, Leuphana University of Lueneburg</organizationName>
+<address>
+<deliveryPoint>Scharnhorststr. 1</deliveryPoint>
+<city>21332 Lüneburg</city>
+<country>Germany</country>
+</address>
+<phone>++49 (0) 4131-677-2960</phone>
+<electronicMailAddress>alexandra.klein@nature.uni-freiburg.de</electronicMailAddress>
+</creator>
+<creator id='f_fornoff'>
+<individualName>
+<givenName>Felix</givenName>
+<surName>Fornoff</surName>
+</individualName>
+<organizationName>Conservation and Landscape Ecology</organizationName>
+<address>
+<deliveryPoint>Tennenbacherstr. 4</deliveryPoint>
+<city>Freiburg</city>
+<country>Germany</country>
+</address>
+
+<electronicMailAddress>felix.fornoff@mail.nature.uni-freiburg.de</electronicMailAddress>
+</creator>
+<pubDate>2017-05-04</pubDate>
+<language>en_US</language>
+<abstract>
+<para>Interactions across trophic levels influence plant diversity effects on ecosystem functions, but the complexity of these interactions remains poorly explored. For example, the interplay between different interactions (e.g. mutualism, predation) might be an important moderator of biodiversity-ecosystem function relationships. We tested for effects of trophobioses (facultative ant-hemipteran mutualism) on leaf chewer herbivory in a subtropical forest biodiversity experiment. We analysed trophobiosis and herbivory data of more than 10,000 trees along a tree species richness gradient.</para>
+
+</abstract>
+<keywordSet>
+<keyword>abundance</keyword>
+<keyword>herbivory</keyword>
+<keyword>leaf</keyword>
+<keyword>location</keyword>
+<keyword>object</keyword>
+<keyword>response</keyword>
+<keyword>species</keyword>
+<keyword>tree</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>Tree</keyword>
+<keyword>Plot</keyword>
+<keyword>NB_trophobioses</keyword>
+<keyword>Eutrichosiphum.heterotrichum</keyword>
+<keyword>Eutrichosiphum.tattakanum</keyword>
+<keyword>Hemiptera_sum</keyword>
+<keyword>Crematogaster.rogenhoferi</keyword>
+<keyword>Polyrhachis.dives</keyword>
+<keyword>Technomyrmex.brunneus</keyword>
+<keyword>Tetramorium.wroughtonii</keyword>
+<keyword>Ants_sum</keyword>
+<keyword>Herbivory</keyword>
+<keyword>Tree_species</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Please contact Andreas Schuldt for further details</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/588/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>Main Experiment</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2014-08-28
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2015-09-27
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact>
+<references>aschuldt</references>
+</contact>
+<contact>
+<references>aklein</references>
+</contact>
+<contact>
+<references>f_fornoff</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>Data for Schuldt et al. &quot;Tree species richness attenuates the positive relationship between mutualistic ant–hemipteran interactions and leaf chewer herbivory&quot; (Proceedings B 2017)</para>
+<para>Interactions across trophic levels influence plant diversity effects on ecosystem functions, but the complexity of these interactions remains poorly explored. For example, the interplay between different interactions (e.g. mutualism, predation) might be an important moderator of biodiversity-ecosystem function relationships. We tested for effects of trophobioses (facultative ant-hemipteran mutualism) on leaf chewer herbivory in a subtropical forest biodiversity experiment. We analysed trophobiosis and herbivory data of more than 10,000 trees along a tree species richness gradient.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2014-08-28 00:00:00 UTC - 2015-09-27 00:00:00 UTC</para>
+<para>2014-2015</para>
+<para>Main Experiment</para>
+
+</description>
+</studyExtent>
+<samplingDescription>
+<para>Both the herbivory and trophobiosis assessments were conducted at the end of the main growing season in September to quantify standing levels of leaf damage. In monocultures and two species-mixtures, all trees in the enlarged core area of 6 x 6 individuals (= 36 trees) were measured. In species-mixtures with 4 species, the core area to be measured comprised 9 x 9 individuals (= 81 trees) and in 8, 16 and 24 species-mixtures, the core area was 12 x 12 individuals (= 144 trees). On each large 4-mu plot, measurements were conducted in the core area of only one of the four 1-mu subplots (i.e. in the VIP subplots without additional shrubs planted). The degree of foliar damage by insects, defined as the combined removal of photosynthetic tissue by leaf-chewing, mining and galling (and, if visible, sucking) insects, was estimated using percentage classes of herbivore damage. On each tree, seven leaves on three randomly selected branches from different parts of the canopy (= 21 leaves per tree) were visually inspected. Herbivory was quantified as the overall leaf damage caused by chewing, mining, galling and (if visible) sucking insects per leaf. We used predefined percentage classes (estimated as 0%, &lt;5%, &lt;25%, &lt;50%, &lt;75%, &gt;75%). Values provided here are the means of each category (i.e. 0%, 2.5%, 15%, 37.5%, 62.5%, 87.5%). The same trees checked for herbivory were inspected for trophobioses in a separate sampling campaign, but at the same time of the year (September to beginning of October) in 2014. On each tree, a total of 20 young leaves and the attached branch sections of three randomly selected branches were visually inspected for the occurrence and the number of sap-sucking Hemiptera and honeydew-collecting ants. Common and conspicuous ants and Hemiptera were identified in the field. Of other trophobioses, voucher specimens were collected (stored in 99% ethanol). Vouchers were subsequently grouped into morphospecies and identified to the lowest possible taxonomic level.</para>
+
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/588</entityName>
+<entityDescription>Data for Schuldt et al. &quot;Tree species richness attenuates the positive relationship between mutualistic ant–hemipteran interactions and leaf chewer herbivory&quot; (Proceedings B 2017)</entityDescription>
+<physical>
+<objectName>/datasets/588</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/588/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='Tree'>
+<attributeName>Tree or shrub position tag main experiment (Tree), </attributeName>
+<attributeLabel>Tree</attributeLabel>
+<attributeDefinition>Tree or shrub tags consist of 12 digits: The first 6 are the site plot name: _1_ site _2/3_ row, counting from North _4/5_ column, counting from west _6_ is the plot moved? Is it a quarter plot? The next 6 digits describe the tree individual _7/8_ type of individual (01 planned tree, 02 other tree than planted but in a given plot somewhere, 03 planned shrub, 04 other shrub within this plot) _9/10_ x grid position within plot, starting from southwest northwards _11/12 y grid position, starting from southwest eastwards. (Tree: identifier for the tree; Datagroup description: Tree tags consist of 12 digits: The first 6 are the site plot name: _1_ site _2/3_ row, counting from North _4/5_ column, counting from west _6_ is the plot moved? Is it a quarter pot? The next 6 digits describe the tree individual _7/8_ type of individual (01 planned tree, 02 other tree than planted but in a given plot somewhere, 03 planned shrub, 04 other shrub within this plot) _9/10_ x grid position within plot, starting from southwest northwards _11/12 y grid position, starting from southwest eastwards)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Tree or shrub tags consist of 12 digits: The first 6 are the site plot name: _1_ site _2/3_ row, counting from North _4/5_ column, counting from west _6_ is the plot moved? Is it a quarter plot? The next 6 digits describe the tree individual _7/8_ type of individual (01 planned tree, 02 other tree than planted but in a given plot somewhere, 03 planned shrub, 04 other shrub within this plot) _9/10_ x grid position within plot, starting from southwest northwards _11/12 y grid position, starting from southwest eastwards.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Tree or shrub position tag main experiment</para>
+<para>Tree or shrub tags consist of 12 digits: The first 6 are the site plot name: _1_ site _2/3_ row, counting from North _4/5_ column, counting from west _6_ is the plot moved? Is it a quarter plot? The next 6 digits describe the tree individual _7/8_ type of individual (01 planned tree, 02 other tree than planted but in a given plot somewhere, 03 planned shrub, 04 other shrub within this plot) _9/10_ x grid position within plot, starting from southwest northwards _11/12 y grid position, starting from southwest eastwards.</para>
+<para>identifier for the tree; Datagroup description: Tree tags consist of 12 digits: The first 6 are the site plot name: _1_ site _2/3_ row, counting from North _4/5_ column, counting from west _6_ is the plot moved? Is it a quarter pot? The next 6 digits describe the tree individual _7/8_ type of individual (01 planned tree, 02 other tree than planted but in a given plot somewhere, 03 planned shrub, 04 other shrub within this plot) _9/10_ x grid position within plot, starting from southwest northwards _11/12 y grid position, starting from southwest eastwards</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Plot'>
+<attributeName>Plot name (letter, number code) (Plot), </attributeName>
+<attributeLabel>Plot</attributeLabel>
+<attributeDefinition>Plot number according to design spreadsheet. Plots are named according to their location on the original spreadsheet used for treatment design. This has letters from West to East and numbers from North to south. Some plots were moved half a gridcell (1 mu) so be suitable for planting (grid cell loctype). (Plot: Study plot)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Plot number according to design spreadsheet. Plots are named according to their location on the original spreadsheet used for treatment design. This has letters from West to East and numbers from North to south. Some plots were moved half a gridcell (1 mu) so be suitable for planting (grid cell loctype).</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plot name (letter, number code)</para>
+<para>Plot number according to design spreadsheet. Plots are named according to their location on the original spreadsheet used for treatment design. This has letters from West to East and numbers from North to south. Some plots were moved half a gridcell (1 mu) so be suitable for planting (grid cell loctype).</para>
+<para>Study plot</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='NB_trophobioses'>
+<attributeName>Organism count (NB_trophobioses), </attributeName>
+<attributeLabel>NB_trophobioses</attributeLabel>
+<attributeDefinition>Counting the individuals of a given taxon, also called abundance. (NB_trophobioses: Number of trophobioses)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Organism count</para>
+<para>Counting the individuals of a given taxon, also called abundance.</para>
+<para>Number of trophobioses</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Eutrichosiphum.heterotrichum'>
+<attributeName>Organism count (Eutrichosiphum.heterotrichum), </attributeName>
+<attributeLabel>Eutrichosiphum.heterotrichum</attributeLabel>
+<attributeDefinition>Counting the individuals of a given taxon, also called abundance. (Eutrichosiphum.heterotrichum: Number of individuals)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Organism count</para>
+<para>Counting the individuals of a given taxon, also called abundance.</para>
+<para>Number of individuals</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Eutrichosiphum.tattakanum'>
+<attributeName>Organism count (Eutrichosiphum.tattakanum), </attributeName>
+<attributeLabel>Eutrichosiphum.tattakanum</attributeLabel>
+<attributeDefinition>Counting the individuals of a given taxon, also called abundance. (Eutrichosiphum.tattakanum: Number of individuals)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Organism count</para>
+<para>Counting the individuals of a given taxon, also called abundance.</para>
+<para>Number of individuals</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Hemiptera_sum'>
+<attributeName>Organism count (Hemiptera_sum), </attributeName>
+<attributeLabel>Hemiptera_sum</attributeLabel>
+<attributeDefinition>Counting the individuals of a given taxon, also called abundance. (Hemiptera_sum: Total number of individuals of Hemiptera)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Organism count</para>
+<para>Counting the individuals of a given taxon, also called abundance.</para>
+<para>Total number of individuals of Hemiptera</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Crematogaster.rogenhoferi'>
+<attributeName>Organism count (Crematogaster.rogenhoferi), </attributeName>
+<attributeLabel>Crematogaster.rogenhoferi</attributeLabel>
+<attributeDefinition>Counting the individuals of a given taxon, also called abundance. (Crematogaster.rogenhoferi: Number of individuals)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Organism count</para>
+<para>Counting the individuals of a given taxon, also called abundance.</para>
+<para>Number of individuals</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Polyrhachis.dives'>
+<attributeName>Organism count (Polyrhachis.dives), </attributeName>
+<attributeLabel>Polyrhachis.dives</attributeLabel>
+<attributeDefinition>Counting the individuals of a given taxon, also called abundance. (Polyrhachis.dives: Number of individuals)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Organism count</para>
+<para>Counting the individuals of a given taxon, also called abundance.</para>
+<para>Number of individuals</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Technomyrmex.brunneus'>
+<attributeName>Organism count (Technomyrmex.brunneus), </attributeName>
+<attributeLabel>Technomyrmex.brunneus</attributeLabel>
+<attributeDefinition>Counting the individuals of a given taxon, also called abundance. (Technomyrmex.brunneus: Number of individuals)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Organism count</para>
+<para>Counting the individuals of a given taxon, also called abundance.</para>
+<para>Number of individuals</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Tetramorium.wroughtonii'>
+<attributeName>Organism count (Tetramorium.wroughtonii), </attributeName>
+<attributeLabel>Tetramorium.wroughtonii</attributeLabel>
+<attributeDefinition>Counting the individuals of a given taxon, also called abundance. (Tetramorium.wroughtonii: Number of individuals)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Organism count</para>
+<para>Counting the individuals of a given taxon, also called abundance.</para>
+<para>Number of individuals</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Ants_sum'>
+<attributeName>Organism count (Ants_sum), </attributeName>
+<attributeLabel>Ants_sum</attributeLabel>
+<attributeDefinition>Counting the individuals of a given taxon, also called abundance. (Ants_sum: Total number of individuals of ants)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Organism count</para>
+<para>Counting the individuals of a given taxon, also called abundance.</para>
+<para>Total number of individuals of ants</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Herbivory'>
+<attributeName>Herbivore damage (Herbivory), percent</attributeName>
+<attributeLabel>Herbivory</attributeLabel>
+<attributeDefinition>Herbivore damage in percentage or as herbivory classes e.g. those defined by Schuldt et al. (2010) (Herbivory: Mean percent leaf damage per tree, averaged over all leaves; Datagroup description: Mean herbivory)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Herbivore damage</para>
+<para>Herbivore damage in percentage or as herbivory classes e.g. those defined by Schuldt et al. (2010)</para>
+<para>Mean percent leaf damage per tree, averaged over all leaves; Datagroup description: Mean herbivory</para>
+</description>
+<instrumentation>visual</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Tree_species'>
+<attributeName>Tree species identifier in the Main Experiment design (Tree_species), </attributeName>
+<attributeLabel>Tree_species</attributeLabel>
+<attributeDefinition>Tree species identifier in the Main Experiment design (Tree_species: Species number of the tree individual)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Tree species identifier in the Main Experiment design</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Tree species identifier in the Main Experiment design</para>
+<para>Tree species identifier in the Main Experiment design</para>
+<para>Species number of the tree individual</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>11860</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

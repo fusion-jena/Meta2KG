@@ -1,0 +1,202 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">city-of-ny_fuhs-xmg2</name>
+	<title type="str">Urban Park Ranger Animal Condition Response</title>
+	<description type="str">This dataset contains information about requests for animal assistance, relocation, and/or rescue completed by the...
+
+This dataset contains information about requests for animal assistance, relocation, and/or rescue completed by the Urban Park Rangers
+
+Source: https://data.cityofnewyork.us/d/fuhs-xmg2  
+Last updated at https://data.cityofnewyork.us/data.json : 2020-02-08  
+ Attribution is encouraged by New York City. Please visit New York City's [open data portal for more information about the Terms of Use](https://opendata.cityofnewyork.us/overview/#termsofuse).</description>
+	<homepage type="str">https://data.world/city-of-ny/fuhs-xmg2</homepage>
+	<license type="str">Other</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">urban_park_ranger_animal_condition_response_1</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">date_and_time_of_initial_call</name>
+						<title type="str">Date and Time of initial call</title>
+						<type type="str">datetime</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#dateTime</rdfType>
+						<dwSourceId type="str">date_and_time_of_initial_call</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">date_and_time_of_ranger_response</name>
+						<title type="str">Date and time of Ranger response</title>
+						<type type="str">datetime</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#dateTime</rdfType>
+						<dwSourceId type="str">date_and_time_of_ranger_response</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">borough</name>
+						<title type="str">Borough</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">borough</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">property</name>
+						<title type="str">Property</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">property</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">location</name>
+						<title type="str">Location</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">location</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">species_description</name>
+						<title type="str">Species Description</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">species_description</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">call_source</name>
+						<title type="str">Call Source</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">call_source</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">species_status</name>
+						<title type="str">Species Status</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">species_status</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">animal_condition</name>
+						<title type="str">Animal Condition</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">animal_condition</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">duration_of_response</name>
+						<title type="str">Duration of Response</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">duration_of_response</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">age</name>
+						<title type="str">Age</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">age</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">animal_class</name>
+						<title type="str">Animal Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">animal_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">311sr_number</name>
+						<title type="str">311SR Number</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">311sr_number</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">final_ranger_action</name>
+						<title type="str">Final Ranger Action</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">final_ranger_action</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">of_animals</name>
+						<title type="str"># of Animals</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">of_animals</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">pep_response</name>
+						<title type="str">PEP Response</title>
+						<type type="str">boolean</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#boolean</rdfType>
+						<dwSourceId type="str">pep_response</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">animal_monitored</name>
+						<title type="str">Animal Monitored</title>
+						<type type="str">boolean</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#boolean</rdfType>
+						<dwSourceId type="str">animal_monitored</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">rehabilitator</name>
+						<title type="str">Rehabilitator</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">rehabilitator</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">hours_spent_monitoring</name>
+						<title type="str">Hours spent monitoring</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">hours_spent_monitoring</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">police_response</name>
+						<title type="str">Police Response</title>
+						<type type="str">boolean</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#boolean</rdfType>
+						<dwSourceId type="str">police_response</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">esu_response</name>
+						<title type="str">ESU Response</title>
+						<type type="str">boolean</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#boolean</rdfType>
+						<dwSourceId type="str">esu_response</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">acc_intake_number</name>
+						<title type="str">ACC Intake Number</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">acc_intake_number</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/urban_park_ranger_animal_condition_response_1.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/urban-park-ranger-animal-condition-response-1.csv</name>
+			<path type="str">original/urban-park-ranger-animal-condition-response-1.csv</path>
+			<format type="str">csv</format>
+			<mediatype type="str">text/csv</mediatype>
+			<bytes type="int">97827</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">animal</item>
+		<item type="str">rescue</item>
+		<item type="str">wildlife</item>
+		<item type="str">raccoon</item>
+		<item type="str">deer</item>
+		<item type="str">bird</item>
+		<item type="str">hawk</item>
+		<item type="str">chicken</item>
+		<item type="str">rooster</item>
+		<item type="str">dog</item>
+		<item type="str">cat</item>
+		<item type="str">squirrel</item>
+		<item type="str">urban park ranger</item>
+		<item type="str">environment</item>
+	</keywords>
+</all>

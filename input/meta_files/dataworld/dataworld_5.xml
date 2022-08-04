@@ -1,0 +1,234 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">us-doi-gov_e91a1d36-a740-408b-aefb-6d223183ef09</name>
+	<title type="str">Fish abundance in the Elwha River estuary, Washingto... 2006</title>
+	<description type="str">Fish abundance in the Elwha River estuary, Washington, from 2006 to 2014
+
+*Original Title*: Fish abundance in the Elwha River estuary, Washington, from 2006 to 2014
+
+This portion of the data release presents fish abundance data from samples collected in the Elwha River estuary, Washington, in 2006, 2007, 2013, and 2014 (no associated USGS Field Activities numbers because data were collected predominantly by biologists from the Lower Elwha Klallam Tribe). We used the Puget Sound beach seining protocol (Simenstad and others, 1991) to sample fish populations in the Elwha River estuary complex. The beach seine was 38 m long x 2 m deep, with a 2 m x 2 m bag in the center of the net; mesh size was 3.18 mm, 6.35 mm, and 31.75 mm, for the bag, center panel, and wings, respectively. The seine net was deployed from bank to bank by a small skiff and then pulled on shore. The number of seines conducted each month varied based on estuary conditions and staff availability. Captured fish were quickly transferred to 20-liter plastic buckets filled with aerated estuary water, individually identified, counted, measured, and released at the point of capture. The locations of seines were determined with a hand-held global positioning system (GPS). Fish abundance is reported as catch per unit effort (CPUE), calculated as the total number of each fish species caught in all seines at each site and date, divided by the number of seines conducted. Fish abundance data are provided in a comma-delimited spreadsheet (.csv).
+
+Source: https://catalog.data.gov/dataset/fish-abundance-in-the-elwha-river-estuary-washington-from-2006-to-2014-27b2d  
+Last updated at https://catalog.data.gov/organization/doi-gov : 2020-01-23  
+[More about U.S. Government Works](https://www.usa.gov/government-works)</description>
+	<homepage type="str">https://data.world/us-doi-gov/e91a1d36-a740-408b-aefb-6d223183ef09</homepage>
+	<license type="str">Public Domain</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">elwha_estuary_fish_2006to2014</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">site</name>
+						<title type="str">Site</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">site</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dam_condition</name>
+						<title type="str">Dam condition</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dam_condition</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">date_collected</name>
+						<title type="str">Date collected</title>
+						<type type="str">date</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#date</rdfType>
+						<dwSourceId type="str">date_collected</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">month_collected</name>
+						<title type="str">Month collected</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">month_collected</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">year_collected</name>
+						<title type="str">Year collected</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">year_collected</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">number_of_seines</name>
+						<title type="str">Number of seines</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">number_of_seines</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">american_shad</name>
+						<title type="str">American shad</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">american_shad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">bull_trout</name>
+						<title type="str">Bull trout</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">bull_trout</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">chinook_salmon</name>
+						<title type="str">Chinook salmon</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">chinook_salmon</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">coho_salmon</name>
+						<title type="str">Coho salmon</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">coho_salmon</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">chum_salmon</name>
+						<title type="str">Chum salmon</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">chum_salmon</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">cottid_sp</name>
+						<title type="str">Cottid sp.</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">cottid_sp</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">cutthroat_trout</name>
+						<title type="str">Cutthroat trout</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">cutthroat_trout</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">english_sole</name>
+						<title type="str">English sole</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">english_sole</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">flatfish_spp</name>
+						<title type="str">Flatfish spp.</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">flatfish_spp</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">lamprey_ammocoete</name>
+						<title type="str">Lamprey ammocoete</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">lamprey_ammocoete</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">osmerid_sp</name>
+						<title type="str">Osmerid sp.</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">osmerid_sp</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">prickly_sculpin</name>
+						<title type="str">Prickly sculpin</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">prickly_sculpin</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">redside_shiner</name>
+						<title type="str">Redside shiner</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">redside_shiner</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">shiner_perch</name>
+						<title type="str">Shiner perch</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">shiner_perch</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">staghorn_sculpin</name>
+						<title type="str">Staghorn sculpin</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">staghorn_sculpin</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">starry_flounder</name>
+						<title type="str">Starry flounder</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">starry_flounder</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">steelhead_rainbow_trout</name>
+						<title type="str">Steelhead/Rainbow trout</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">steelhead_rainbow_trout</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">three_spined_stickleback</name>
+						<title type="str">Three-spined stickleback</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">three_spined_stickleback</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/elwha_estuary_fish_2006to2014.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/Elwha estuary_fish_2006to2014.csv</name>
+			<path type="str">original/Elwha estuary_fish_2006to2014.csv</path>
+			<format type="str">csv</format>
+			<mediatype type="str">text/csv</mediatype>
+			<bytes type="int">3538</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Elwha_estuary_fish_2006-2014_metadata.xml</name>
+			<path type="str">original/Elwha_estuary_fish_2006-2014_metadata.xml</path>
+			<format type="str">xml</format>
+			<mediatype type="str">application/xml</mediatype>
+			<bytes type="int">26262</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/comma-delimited-text-1.comma-delimited text</name>
+			<path type="str">original/comma-delimited-text-1.comma-delimited text</path>
+			<format type="str">comma-delimited text</format>
+			<mediatype type="str">text/html</mediatype>
+			<bytes type="int">39459</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/pdf-file-3.pdf</name>
+			<path type="str">original/pdf-file-3.pdf</path>
+			<format type="str">pdf</format>
+			<mediatype type="str">application/pdf</mediatype>
+			<bytes type="int">16220371</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/resource_links.md</name>
+			<path type="str">original/resource_links.md</path>
+			<format type="str">md</format>
+			<mediatype type="str">text/markdown</mediatype>
+			<bytes type="int">121</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">fish</item>
+		<item type="str">fishes</item>
+	</keywords>
+</all>

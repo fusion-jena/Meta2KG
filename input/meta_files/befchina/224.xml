@@ -1,0 +1,256 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='224'>
+<alternateIdentifier>http://china.befdata.biow.uni-leipzig.de/datasets/224</alternateIdentifier>
+<title>CSPs: Tree and shrub species abundance in 2008/09</title>
+<creator id='hbruelheide'>
+<individualName>
+<givenName>Helge</givenName>
+<surName>Bruelheide</surName>
+</individualName>
+
+
+<electronicMailAddress>helge.bruelheide@botanik.uni-halle.de</electronicMailAddress>
+</creator>
+<creator id='mboehnke'>
+<individualName>
+<givenName>Martin</givenName>
+<surName>Böhnke</surName>
+</individualName>
+<organizationName>Uni Halle</organizationName>
+
+<electronicMailAddress>martin.boehnke@botanik.uni-halle.de</electronicMailAddress>
+</creator>
+<pubDate>2012-09-14</pubDate>
+<language>en_US</language>
+<abstract>
+<para>Comparative Study Plots (CSP) of the Biodiversity - Ecosystem Functioning Experiment (BEF-China) were selected according to gradients in successive age and woody species diversity. This file includes the names of all tree and shrub species found in the each of the CSPs during the field work 2008 / 2009.</para>
+
+</abstract>
+<keywordSet>
+<keyword>abundance</keyword>
+<keyword>CSP</keyword>
+<keyword>date</keyword>
+<keyword>density</keyword>
+<keyword>location</keyword>
+<keyword>plant species</keyword>
+<keyword>response variable</keyword>
+<keyword>shrub species</keyword>
+<keyword>species</keyword>
+<keyword>taxon</keyword>
+<keyword>tree species</keyword>
+<keyword>year</keyword>
+<keywordThesaurus>Find the list of keywords here: http://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>year</keyword>
+<keyword>CSP</keyword>
+<keyword>species</keyword>
+<keyword>abundance</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>BEF-China intern; SP3 intern</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+http://china.befdata.biow.uni-leipzig.de/datasets/224/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>The Gutianshan National Nature Reserve (NNR) is located in the western part of Zhejiang Province (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Fig. 1).  The Gutianshan NNR has an area of approximately 81 km2 and was initially established as a National Forest Reserve in 1975 and became a National Nature Reserve in 2001. The NNR comprises a large portion of broad-leaved forests of advanced successional stages (Hu &amp; Yu 2008), which have not been managed since the beginning of the 1990ies, as well as young successional stages and conifer plantations, mainly of Cunninghamia lanceolata and Pinus massoniana. --- The vegetation is composed of different types of subtropical evergreen and mixed broad-leaved forests (Yu et al. 2001). Most of the stands are secondary forests, evidenced by maximum tree ages of 180 years, by agricultural terraces in almost all plots and by the presence of charcoal in almost all soil profiles. Around the Gutianshan NRR extensive deforestation has occurred during the Great Leap Forward in the 1950s, as in most parts of Southeast China. However, due to prevailing steep slopes, the Gutianshan area was only marginally usable for agricultural activities, and thus an exceptionally intact forest cover has been preserved. --- The climate at Gutianshan NNR is warm and temperate with a short dry season in November and December and with warm summers (Fig. 2). The climatic conditions are characteristic for the subtropics with an annual average temperature of 15.1°C, January minimum temperatures of -6.8°C, July maximum temperatures of 38.1°C and an accumulated temperature sum (≥ 5°C) of 5221.5 degree days.</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2008-05-14
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2009-12-29
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>The forest is representative for Chinese mixed broad-leaved forests (Wu 1980, Hu &amp; Yu 2008, Legendre et al. 2009), with evergreen species dominating the forest in number of individuals (Yu et al. 2001) but with approximately similar proportions of deciduous species in terms of species number (Lou and Jin 2000). A total of 1426 seed plant species of 648 genera and of 149 families has been recorded as occurring naturally in the NNR. About 258 of the species are woody (Lou and Jin 2000).</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+The forest is representative for Chinese mixed broad-leaved forests (Wu 1980, Hu &amp; Yu 2008, Legendre et al. 2009), with evergreen species dominating the forest in number of individuals (Yu et al. 2001) but with approximately similar proportions of deciduous species in terms of species number (Lou and Jin 2000). A total of 1426 seed plant species of 648 genera and of 149 families has been recorded as occurring naturally in the NNR. About 258 of the species are woody (Lou and Jin 2000).
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>hbruelheide</references>
+</contact>
+<contact>
+<references>mboehnke</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>CSPs: Tree and shrub species abundance in 2008/09</para>
+<para>Comparative Study Plots (CSP) of the Biodiversity - Ecosystem Functioning Experiment (BEF-China) were selected according to gradients in successive age and woody species diversity. This file includes the names of all tree and shrub species found in the each of the CSPs during the field work 2008 / 2009.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2008-05-14 00:00:00 UTC - 2009-12-29 00:00:00 UTC</para>
+<para>Most of the data were collected in 2008, while some additional data were also collected in 2009.</para>
+<para>The Gutianshan National Nature Reserve (NNR) is located in the western part of Zhejiang Province (29º8&#x27;18&quot; – 29º17&#x27;29&quot; N, 118º2&#x27;14&quot; – 118º11&#x27;12&quot; E, Fig. 1).  The Gutianshan NNR has an area of approximately 81 km2 and was initially established as a National Forest Reserve in 1975 and became a National Nature Reserve in 2001. The NNR comprises a large portion of broad-leaved forests of advanced successional stages (Hu &amp; Yu 2008), which have not been managed since the beginning of the 1990ies, as well as young successional stages and conifer plantations, mainly of Cunninghamia lanceolata and Pinus massoniana. --- The vegetation is composed of different types of subtropical evergreen and mixed broad-leaved forests (Yu et al. 2001). Most of the stands are secondary forests, evidenced by maximum tree ages of 180 years, by agricultural terraces in almost all plots and by the presence of charcoal in almost all soil profiles. Around the Gutianshan NRR extensive deforestation has occurred during the Great Leap Forward in the 1950s, as in most parts of Southeast China. However, due to prevailing steep slopes, the Gutianshan area was only marginally usable for agricultural activities, and thus an exceptionally intact forest cover has been preserved. --- The climate at Gutianshan NNR is warm and temperate with a short dry season in November and December and with warm summers (Fig. 2). The climatic conditions are characteristic for the subtropics with an annual average temperature of 15.1°C, January minimum temperatures of -6.8°C, July maximum temperatures of 38.1°C and an accumulated temperature sum (≥ 5°C) of 5221.5 degree days.</para>
+<para>The forest is representative for Chinese mixed broad-leaved forests (Wu 1980, Hu &amp; Yu 2008, Legendre et al. 2009), with evergreen species dominating the forest in number of individuals (Yu et al. 2001) but with approximately similar proportions of deciduous species in terms of species number (Lou and Jin 2000). A total of 1426 seed plant species of 648 genera and of 149 families has been recorded as occurring naturally in the NNR. About 258 of the species are woody (Lou and Jin 2000).</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>Trees surpassing 3cm in dbh were counted in each plot, plots followed a stratified sampling crossing diversity and successional age: The utilization of the forest until the 1990ies allowed us to employ a stratified sampling for establishing observational plots (in the following called Comparative Study Plots, CSPs) according to successional stages. Although most of the forest are belongs to intermediate or late successional stages, young stands are located in the peripheral buffer zone of the Gutianshan NNR, where logging has been performed until the present. Plots were assigned to five strata according to the average age of tree layer individuals (1: &lt; 20 yrs, 2: &lt; 40 yrs, 3: &lt; 60 yrs, 4: &lt; 80 yrs, 5: &gt; 80 yrs). CSP locations within strata were selected randomly; however, due to inaccessibility and excessive slopes (&gt; 50°) of many locations, parts to the NNR had to be excluded from sampling, thus, resulting in an uneven distribution of some of the plots (Fig. 1). In total, 27 CSPs were established between May and July 2008. Species recording was performed between May and October 2008 with several visits per plot. Each CSP has a size of 30 m by 30 m, which approximates to the plot size (1 mu plot) in the BEF-Experiment at Xingangshan (Jiangxi, Fig. 1). The corners of every CSP were permanently marked with magnets and subareas of each CSP were set apart for measuring various ecosystem functioning variables, among them basic soil properties. Soil moisture was assessed on soil samples taken from five different layers of the mineral soil in 10 cm-intervals on three dates (summer and autumn 2008, spring 2009). We used mean values by averaging the soil water contents over all layers and all dates. Topsoil samples (0-5 cm) were taken in summer 2009 from four locations in each plot, pooled in a bulk sample per CSP, air-dried and then used to determine pH, both measured in H2O and 1 M KCl. A complete inventory of woody species and bamboo (Pleioblastus amarus) (&gt; 1 m height) was carried out on the whole plot. All herbaceous species and tree recruits (i.e. seedlings and saplings â¤ 1 m height) were recorded in a central subplot of 10 m x 10 m. All individuals were identified to the species level, making use of herbarium samples and comparisons with correctly identified individuals, and counted per species. The proportion of unidentifiable individuals in a CSP ranged between 0 % and 2.3 %. These individuals were not included in the subsequent data analysis.</para>
+<para>Data are given in the long format, so that there is one column for abundance only. Do convert this in a wide format with species in columns and plots in rows use the reshape package of R or Pivot Tables in spreadsheet software.</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>http://china.befdata.biow.uni-leipzig.de/datasets/224</entityName>
+<entityDescription>CSPs: Tree and shrub species abundance in 2008/09</entityDescription>
+<physical>
+<objectName>/datasets/224</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>http://china.befdata.biow.uni-leipzig.de/datasets/224/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='year'>
+<attributeName>Date time information (year), dimensionless</attributeName>
+<attributeLabel>year</attributeLabel>
+<attributeDefinition>Date time information, given as year or as date or as date time. (year: first year of the releve; Datagroup description: Date time information)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Date time information, given as year or as date or as date time.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Date time information</para>
+<para>Date time information, given as year or as date or as date time.</para>
+<para>first year of the releve; Datagroup description: Date time information</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP'>
+<attributeName>BEF research plot name (CSP), dimensionless</attributeName>
+<attributeLabel>CSP</attributeLabel>
+<attributeDefinition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province) (CSP: BEF research plot name; Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>BEF research plot name</para>
+<para>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8&#x27;18&quot; – 29º17&#x27;29&quot; N, 118º2&#x27;14&quot; – 118º11&#x27;12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07&#x27;28.2&quot;N 117°54&#x27;27.5&quot;E) and B (29°05&#x27;06.8&quot;N 117°55&#x27;44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07&#x27;28.2&quot;N 117°54&#x27;27.5&quot;E) or Site B (29°05&#x27;06.8&quot;N 117°55&#x27;44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06&#x27;20.2&quot;N 117°55&#x27;12.1&quot;E, Jiangxi Province)</para>
+<para>BEF research plot name; Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='species'>
+<attributeName>Scientific plant species name (species), </attributeName>
+<attributeLabel>species</attributeLabel>
+<attributeDefinition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required. (species: full name of the species, genus and epiteth; Datagroup description: Scientific plant species name)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Scientific plant species name</para>
+<para>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</para>
+<para>full name of the species, genus and epiteth; Datagroup description: Scientific plant species name</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='abundance'>
+<attributeName>Abundance (abundance), count</attributeName>
+<attributeLabel>abundance</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (abundance: abundance of the species; Datagroup description: Organism count)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>abundance of the species; Datagroup description: Organism count</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>1129</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

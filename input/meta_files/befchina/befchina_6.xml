@@ -1,0 +1,221 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='510'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/510</alternateIdentifier>
+<title>Main Experiment: Cover of Biological Soil Crusts in Runoff Plots: bryophyte species</title>
+<creator id='sseitz'>
+<individualName>
+<givenName>Steffen</givenName>
+<surName>Seitz</surName>
+</individualName>
+<organizationName>Geographisches Institut</organizationName>
+<address>
+
+
+<country>Tübingen</country>
+</address>
+<phone>07071-29-74081</phone>
+<electronicMailAddress>steffen.seitz@uni-tuebingen.de</electronicMailAddress>
+</creator>
+<pubDate>2016-03-24</pubDate>
+<language>en_US</language>
+<abstract>
+<para>Biological soil crusts (BSCs) were sampled in runoff plots of sites A and B in 2013. This is the species list containing bryophytes.</para>
+
+</abstract>
+<keywordSet>
+<keyword>Biological soil crusts</keyword>
+<keyword>runoff plots</keyword>
+<keyword>soil erosion</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>Family</keyword>
+<keyword>Species</keyword>
+<keyword>Sub</keyword>
+<keyword>Author</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/510/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>Sites A and B, locations of runoff plots</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2013-05-31
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2015-05-31
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact>
+<references>sseitz</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>Main Experiment: Cover of Biological Soil Crusts in Runoff Plots: bryophyte species</para>
+<para>Biological soil crusts (BSCs) were sampled in runoff plots of sites A and B in 2013. This is the species list containing bryophytes.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2013-05-31 00:00:00 UTC - 2015-05-31 00:00:00 UTC</para>
+
+<para>Sites A and B, locations of runoff plots</para>
+
+</description>
+</studyExtent>
+<samplingDescription>
+<para>Biological soil crusts (BSCs) were sampled in runoff plots of sites A and B in 2013. 
+
+Samples were dried at 40 °C (Dörrex drying unit, Netstal, Switzerland). The identification of species was carried out by morphological characteristics using a stereomicroscope (Leitz TS, Wetzlar, Germany), a transmitted-light microscope (Leitz Laborlux S, Wetzlar, Germany) and ultraviolet light. Bryophytes (dominating taxa in 2013) were determined to the species level, wherever possible and separated into mosses (Bischler-Causse, 1989; Moos flora of China: Gao et al., 1999; 2001; 2002; 2003; 2005; 2007; 2008; 2011) and liverworts (Zhu, 2006; Söderström et al., 2016 and Alfons Schäfer-Verwimp, personal communication). Comparisons were conducted with specimen hosted in the herbarium of the State Museum of Natural History in Stuttgart, Germany (Herbarium STU).</para>
+
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/510</entityName>
+<entityDescription>Main Experiment: Cover of Biological Soil Crusts in Runoff Plots: bryophyte species</entityDescription>
+<physical>
+<objectName>/datasets/510</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/510/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='Family'>
+<attributeName>Plant family name (Family), </attributeName>
+<attributeLabel>Family</attributeLabel>
+<attributeDefinition>Plant family name (Family: Family)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Plant family name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plant family name</para>
+<para>Plant family name</para>
+<para>Family</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Species'>
+<attributeName>Scientific plant species name (Species), </attributeName>
+<attributeLabel>Species</attributeLabel>
+<attributeDefinition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required. (Species: Species)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Scientific plant species name</para>
+<para>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</para>
+<para>Species</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Sub'>
+<attributeName>Scientific plant species name (Sub), </attributeName>
+<attributeLabel>Sub</attributeLabel>
+<attributeDefinition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required. (Sub: Species binomial)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Scientific plant species name</para>
+<para>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</para>
+<para>Species binomial</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Author'>
+<attributeName>Author name for species description (Author), </attributeName>
+<attributeLabel>Author</attributeLabel>
+<attributeDefinition>Author name for species description (Author: Author)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Author name for species description</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Author name for species description</para>
+<para>Author name for species description</para>
+<para>Author</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>25</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="721a99a4-71f4-4466-b346-83c367889238"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/vjeyea</alternateIdentifier>
+        <alternateIdentifier>721a99a4-71f4-4466-b346-83c367889238</alternateIdentifier>
+        <alternateIdentifier>https://bison.usgs.gov/ipt/resource?r=usgs_pwrc-bbl-us_bandings_state_1960-2010</alternateIdentifier>
+    <title>USGS PWRC - Bird Banding Lab - US State Centroid - 1960-2010</title>
+    <creator>
+    <individualName>
+<givenName>Margarita</givenName>          <surName>Malorodova</surName>
+    </individualName>
+<organizationName>United States Geological Survey (USGS) Patuxent Wildlife Research Center (PWRC)</organizationName><positionName>IT Specialist</positionName>    <address>
+<deliveryPoint>Bird Banding Laboratory, 12100 Beech Forest Road</deliveryPoint><city>Laurel</city><administrativeArea>Maryland</administrativeArea><postalCode>20708-4037</postalCode><country>UNITED_STATES</country>    </address>
+<phone>+1 (301) 497-5824</phone><electronicMailAddress>mmalorodova@usgs.gov</electronicMailAddress><onlineUrl>https://www.pwrc.usgs.gov/BBl/</onlineUrl>    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Elaine</givenName>          <surName>Nakash</surName>
+    </individualName>
+<organizationName>USGS Patuxent Wildlife Research Center</organizationName><positionName>Biological Technician</positionName>    <address>
+<deliveryPoint>Bird Banding Laboratory, 12100 Beech Forest Road</deliveryPoint><city>Laurel</city><administrativeArea>Maryland</administrativeArea><postalCode>20708</postalCode><country>UNITED_STATES</country>    </address>
+<phone>+1 (301) 497-5824</phone><electronicMailAddress>enakash@usgs.gov</electronicMailAddress><onlineUrl>https://www.pwrc.usgs.gov/BBl/</onlineUrl>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>Bruce</givenName>          <surName>Peterjohn</surName>
+    </individualName>
+<organizationName>USGS Patuxent Wildlife Research Center</organizationName><positionName>Chief, Bird Banding Laboratory</positionName>    <address>
+<deliveryPoint>12100 Beech Forest Rd</deliveryPoint><city>Laurel City</city><administrativeArea>Maryland</administrativeArea><postalCode>20708</postalCode>    </address>
+<phone>+1 3014975807</phone><electronicMailAddress>bpeterjohn@usgs.gov</electronicMailAddress>    <role>PRINCIPAL_INVESTIGATOR</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>Annie</givenName>          <surName>Simpson</surName>
+    </individualName>
+<organizationName>U.S. Geological Survey</organizationName><positionName>biologist and information scientist</positionName>    <address>
+<deliveryPoint>12201 Sunrise Valley Dr, Mailstop 302</deliveryPoint><city>Reston</city><administrativeArea>Virginia</administrativeArea><postalCode>20192</postalCode><country>UNITED_STATES</country>    </address>
+<phone>+1 703-648-4281</phone>      <userId directory="http://orcid.org/">0000-0001-8338-5134</userId>
+    <role>CUSTODIAN_STEWARD</role>
+    </associatedParty>
+      <pubDate>
+      2021-10-05
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The Bird Banding Laboratory (BBL) was established in 1920 to coordinate bird banding activities occurring in the United States and its Territories, a consequence of the Migratory Bird Treaty Act between the United States and Great Britain that was ratified in 1918. Originally a program within the US Biological Survey, it was also associated with the US Fish and Wildlife Service and National Biological Service before being transferred to the USGS in 1996. Among its many responsibilities, the BBL maintains the bird banding data collected in the United States and its Territories and every report of birds banded in the US that are encountered anywhere in the world. Computerization of the banding records was initiated in 1960 and the BBL annually processes approximately one million new banding records from the US. Banding data are essential for managing harvested migratory bird populations across North America. These data also provide a historical source of information on the status and distribution of birds in the United States and have greatly expanded our knowledge of bird migration patterns across this hemisphere. USGS Patuxent Wildlife Research Center (PWRC). This dataset is a checklist of birds that occur in each state.</para>
+    </abstract>
+        <keywordSet>
+              <keyword>tagging</keyword>
+              <keyword>waterfowl</keyword>
+              <keyword>natural resources</keyword>
+              <keyword>banding</keyword>
+              <keyword>migration</keyword>
+              <keyword>North American species</keyword>
+              <keyword>occurrence</keyword>
+              <keyword>birds</keyword>
+              <keyword>monitoring</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Metadata</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Observation</keyword>
+              <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+      <additionalInfo>
+          <para>This is a checklist dataset at the U.S. state level, derived from occurrence data. EstablishmentMeans information was derived and added during data cleaning, from https://doi.org/10.5066/P9E5K160. During data cleaning 590 records with countryCode = CQ were found to fall within the United States. Therefore their countryCode values were changed to US.</para>
+      </additionalInfo>
+      <intellectualRights>
+        <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">http://pwrc.usgs.gov/bbl</url>
+          </online>
+      </distribution>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>United States and US territories, primarily western hemisphere. The provided bounding box is not precise.</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>-170.66</westBoundingCoordinate>
+                      <eastBoundingCoordinate>-64.88</eastBoundingCoordinate>
+                      <northBoundingCoordinate>71.03</northBoundingCoordinate>
+                      <southBoundingCoordinate>12.7</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+          <temporalCoverage>
+            <rangeOfDates>
+              <beginDate>
+                <calendarDate>      1960-01-01
+</calendarDate>
+              </beginDate>
+              <endDate>
+                <calendarDate>      2010-12-31
+</calendarDate>
+              </endDate>
+            </rangeOfDates>
+          </temporalCoverage>
+      </coverage>
+      <maintenance>
+          <description>
+              <para></para>
+          </description>
+          <maintenanceUpdateFrequency>irregular</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+    <individualName>
+<givenName>Bruce</givenName>          <surName>Peterjohn</surName>
+    </individualName>
+<organizationName>US Geological Survey Patuxent Wildlife Research Center</organizationName><positionName>Project Chief</positionName>    <address>
+<deliveryPoint>12100 Beech Forest Dr.</deliveryPoint><city>Laurel</city><administrativeArea>Maryland</administrativeArea><postalCode>20708-4038</postalCode><country>UNITED_STATES</country>    </address>
+<phone>+1 301-497-5646</phone><electronicMailAddress>bpeterjohh@usgs.gov</electronicMailAddress><onlineUrl>https://www.pwrc.usgs.gov/BBl/</onlineUrl>      </contact>
+
+      <project >
+          <title>Bird Banding Lab - US State Centroid - 1960-2010</title>
+          <personnel>
+    <individualName>
+<givenName>Bruce</givenName>          <surName>Peterjohn</surName>
+    </individualName>
+    <role>PRINCIPAL_INVESTIGATOR</role>
+          </personnel>
+          <abstract>
+              <para></para>
+          </abstract>
+          <funding>
+              <para>USGS, USFWS</para>
+          </funding>
+      </project>
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2021-12-07T12:28:15Z</dateStamp>
+      <citation>Malorodova M, Nakash E (2021). USGS PWRC - Bird Banding Lab - US State Centroid - 1960-2010. Version 1.4. United States Geological Survey. Occurrence dataset https://doi.org/10.15468/vjeyea accessed via GBIF.org on 2021-12-07.</citation>
+              <resourceLogoUrl>https://bison.usgs.gov/ipt/logo.do?r=usgs-pwrc-bbl-us-state</resourceLogoUrl>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

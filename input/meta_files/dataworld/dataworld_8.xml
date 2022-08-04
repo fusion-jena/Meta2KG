@@ -1,0 +1,2426 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">us-doi-gov_fa50d8a7-6248-4e11-a752-1c99ea1875a3</name>
+	<title type="str">Soil analysis and native plant propagation: a case study ...</title>
+	<description type="str">Soil analysis and native plant propagation: a case study on Laysan Island, Papahanaumokuakea Marine National Monument
+
+*Original Title*: Soil analysis and native plant propagation: a case study on Laysan Island, Papahanaumokuakea Marine National Monument
+
+This final report documents methods and results for 3 objectives of a project funded by the Region 1 Inventory and Monitoring Initiative in FY 2012. Objectives were: Collect soil samples via stratified random sampling for composition analysis; consult horticultural specialists to determine the best locations to outplant specific native plant species; propagate 3 native Hawaiian plant species (Cyperus pennatiformes, Chenopodium oahuense, Santalum ellipticum) on Laysan Island in abundance and out-plant in the recommended areas during the summer of 2012 to test horticulturist recommendations.
+
+Source: https://catalog.data.gov/dataset/soil-analysis-and-native-plant-propagation-a-case-study-on-laysan-island-papahanaumokuakea-mari  
+Last updated at https://catalog.data.gov/organization/doi-gov : 2019-02-22  
+[More about U.S. Government Works](https://www.usa.gov/government-works)</description>
+	<homepage type="str">https://data.world/us-doi-gov/fa50d8a7-6248-4e11-a752-1c99ea1875a3</homepage>
+	<license type="str">Public Domain</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">b</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">vegetation_class</name>
+						<title type="str">Vegetation Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vegetation_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dir_quad</name>
+						<title type="str">DIR. Quad.</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dir_quad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">int_ext</name>
+						<title type="str">INT/EXT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">int_ext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">a_b</name>
+						<title type="str">A &amp; B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">a_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_labels</name>
+						<title type="str">Data Labels</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_labels</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">series_name</name>
+						<title type="str">Series Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">series_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1</name>
+						<title type="str">Sample #1</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3</name>
+						<title type="str">Sample #3</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4</name>
+						<title type="str">Sample #4</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">average_b_ppm</name>
+						<title type="str">Average  B (ppm)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">average_b_ppm</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_b_ppm</name>
+						<title type="str">St. Dev   B (ppm)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">st_dev_b_ppm</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/b.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">ca</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">vegetation_class</name>
+						<title type="str">Vegetation Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vegetation_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dir_quad</name>
+						<title type="str">DIR. Quad.</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dir_quad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">int_ext</name>
+						<title type="str">INT/EXT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">int_ext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">a_b</name>
+						<title type="str">A &amp; B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">a_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_labels</name>
+						<title type="str">Data Labels</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_labels</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">series_name</name>
+						<title type="str">Series Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">series_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1</name>
+						<title type="str">Sample #1</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3</name>
+						<title type="str">Sample #3</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4</name>
+						<title type="str">Sample #4</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">average_ca_meq_100g</name>
+						<title type="str">Average      Ca (meq/100g)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">average_ca_meq_100g</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_ca_meq_100g</name>
+						<title type="str">St. Dev         Ca (meq/100g)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">st_dev_ca_meq_100g</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/ca.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">catotal_bases</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">vegetation_class</name>
+						<title type="str">Vegetation Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vegetation_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dir_quad</name>
+						<title type="str">DIR. Quad.</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dir_quad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">int_ext</name>
+						<title type="str">INT/EXT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">int_ext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">a_b</name>
+						<title type="str">A &amp; B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">a_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_labels</name>
+						<title type="str">Data Labels</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_labels</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">series_name</name>
+						<title type="str">Series Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">series_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1</name>
+						<title type="str">Sample #1</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3</name>
+						<title type="str">Sample #3</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4</name>
+						<title type="str">Sample #4</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">average_ca_total_bases</name>
+						<title type="str">Average      Ca Total Bases (%)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">average_ca_total_bases</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_ca_total_bases</name>
+						<title type="str">St. Dev         Ca Total Bases (%)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">st_dev_ca_total_bases</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/catotal_bases.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">cu</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">vegetation_class</name>
+						<title type="str">Vegetation Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vegetation_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dir_quad</name>
+						<title type="str">DIR. Quad.</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dir_quad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">int_ext</name>
+						<title type="str">INT/EXT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">int_ext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">a_b</name>
+						<title type="str">A &amp; B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">a_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_labels</name>
+						<title type="str">Data Labels</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_labels</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">series_name</name>
+						<title type="str">Series Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">series_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1</name>
+						<title type="str">Sample #1</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3</name>
+						<title type="str">Sample #3</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4</name>
+						<title type="str">Sample #4</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">average_cu_ppm</name>
+						<title type="str">Average      Cu (ppm)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">average_cu_ppm</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_cu_ppm</name>
+						<title type="str">St. Dev         Cu (ppm)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">st_dev_cu_ppm</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/cu.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">fe</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">vegetation_class</name>
+						<title type="str">Vegetation Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vegetation_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dir_quad</name>
+						<title type="str">DIR. Quad.</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dir_quad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">int_ext</name>
+						<title type="str">INT/EXT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">int_ext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">a_b</name>
+						<title type="str">A &amp; B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">a_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_labels</name>
+						<title type="str">Data Labels</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_labels</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">series_name</name>
+						<title type="str">Series Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">series_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1</name>
+						<title type="str">Sample #1</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3</name>
+						<title type="str">Sample #3</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4</name>
+						<title type="str">Sample #4</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">average_fe_ppm</name>
+						<title type="str">Average      Fe (ppm)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">average_fe_ppm</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_fe_ppm</name>
+						<title type="str">St. Dev         Fe (ppm)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">st_dev_fe_ppm</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/fe.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">k_acet</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">vegetation_class</name>
+						<title type="str">Vegetation Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vegetation_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dir_quad</name>
+						<title type="str">DIR. Quad.</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dir_quad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">int_ext</name>
+						<title type="str">INT/EXT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">int_ext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">a_b</name>
+						<title type="str">A &amp; B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">a_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_labels</name>
+						<title type="str">Data Labels</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_labels</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">series_name</name>
+						<title type="str">Series Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">series_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1</name>
+						<title type="str">Sample #1</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3</name>
+						<title type="str">Sample #3</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4</name>
+						<title type="str">Sample #4</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">average_k_acet_ppm</name>
+						<title type="str">Average  K_Acet. (ppm)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">average_k_acet_ppm</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_k_acet_ppm</name>
+						<title type="str">St. Dev   K_Acet. (ppm)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">st_dev_k_acet_ppm</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/k_acet.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">k_total_bases</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">vegetation_class</name>
+						<title type="str">Vegetation Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vegetation_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dir_quad</name>
+						<title type="str">DIR. Quad.</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dir_quad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">int_ext</name>
+						<title type="str">INT/EXT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">int_ext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">a_b</name>
+						<title type="str">A &amp; B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">a_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_labels</name>
+						<title type="str">Data Labels</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_labels</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">series_name</name>
+						<title type="str">Series Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">series_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1</name>
+						<title type="str">Sample #1</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3</name>
+						<title type="str">Sample #3</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4</name>
+						<title type="str">Sample #4</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">average_k_total_bases</name>
+						<title type="str">Average      K/Total Bases (%)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">average_k_total_bases</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_k_total_bases</name>
+						<title type="str">St. Dev         K/Total Bases (%)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">st_dev_k_total_bases</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/k_total_bases.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">metadata</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">column_a</name>
+						<title type="str">Column A</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_a</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_b</name>
+						<title type="str">Column B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_c</name>
+						<title type="str">Column C</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_c</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_d</name>
+						<title type="str">Column D</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_d</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_e</name>
+						<title type="str">Column E</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_e</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_f</name>
+						<title type="str">Column F</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_f</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_g</name>
+						<title type="str">Column G</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_g</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_h</name>
+						<title type="str">Column H</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_h</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_i</name>
+						<title type="str">Column I</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_i</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_j</name>
+						<title type="str">Column J</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_j</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_k</name>
+						<title type="str">Column K</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_k</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_l</name>
+						<title type="str">Column L</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_l</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_m</name>
+						<title type="str">Column M</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_m</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_n</name>
+						<title type="str">Column N</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_n</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_o</name>
+						<title type="str">Column O</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_o</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_p</name>
+						<title type="str">Column P</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_p</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_q</name>
+						<title type="str">Column Q</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_q</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_r</name>
+						<title type="str">Column R</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_r</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_s</name>
+						<title type="str">Column S</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_s</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_t</name>
+						<title type="str">Column T</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_t</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_u</name>
+						<title type="str">Column U</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_u</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_v</name>
+						<title type="str">Column V</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_v</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_w</name>
+						<title type="str">Column W</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_w</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_x</name>
+						<title type="str">Column X</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_x</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_y</name>
+						<title type="str">Column Y</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_y</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_z</name>
+						<title type="str">Column Z</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_z</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_aa</name>
+						<title type="str">Column AA</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_aa</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_ab</name>
+						<title type="str">Column AB</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_ab</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_ac</name>
+						<title type="str">Column AC</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_ac</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_ad</name>
+						<title type="str">Column AD</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_ad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_ae</name>
+						<title type="str">Column AE</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_ae</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_af</name>
+						<title type="str">Column AF</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_af</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_ag</name>
+						<title type="str">Column AG</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_ag</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_ah</name>
+						<title type="str">Column AH</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_ah</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_ai</name>
+						<title type="str">Column AI</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_ai</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_aj</name>
+						<title type="str">Column AJ</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_aj</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_ak</name>
+						<title type="str">Column AK</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_ak</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_al</name>
+						<title type="str">Column AL</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_al</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_am</name>
+						<title type="str">Column AM</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_am</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_an</name>
+						<title type="str">Column AN</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_an</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_ao</name>
+						<title type="str">Column AO</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_ao</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/metadata.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">mg</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">vegetation_class</name>
+						<title type="str">Vegetation Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vegetation_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dir_quad</name>
+						<title type="str">DIR. Quad.</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dir_quad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">int_ext</name>
+						<title type="str">INT/EXT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">int_ext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">a_b</name>
+						<title type="str">A &amp; B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">a_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_labels</name>
+						<title type="str">Data Labels</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_labels</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">series_name</name>
+						<title type="str">Series Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">series_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1</name>
+						<title type="str">Sample #1</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3</name>
+						<title type="str">Sample #3</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4</name>
+						<title type="str">Sample #4</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">average_mg_meq_100g</name>
+						<title type="str">Average      Mg (meq/100g)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">average_mg_meq_100g</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_mg_meq_100g</name>
+						<title type="str">St. Dev         Mg (meq/100g)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">st_dev_mg_meq_100g</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/mg.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">mg_total_bases</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">vegetation_class</name>
+						<title type="str">Vegetation Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vegetation_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dir_quad</name>
+						<title type="str">DIR. Quad.</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dir_quad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">int_ext</name>
+						<title type="str">INT/EXT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">int_ext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">a_b</name>
+						<title type="str">A &amp; B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">a_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_labels</name>
+						<title type="str">Data Labels</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_labels</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">series_name</name>
+						<title type="str">Series Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">series_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1</name>
+						<title type="str">Sample #1</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3</name>
+						<title type="str">Sample #3</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4</name>
+						<title type="str">Sample #4</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">average_mg_total_bases</name>
+						<title type="str">Average      Mg/Total Bases (%)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">average_mg_total_bases</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_mg_total_bases</name>
+						<title type="str">St. Dev         Mg/Total Bases (%)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">st_dev_mg_total_bases</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/mg_total_bases.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">mn</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">vegetation_class</name>
+						<title type="str">Vegetation Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vegetation_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dir_quad</name>
+						<title type="str">DIR. Quad.</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dir_quad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">int_ext</name>
+						<title type="str">INT/EXT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">int_ext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">a_b</name>
+						<title type="str">A &amp; B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">a_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_labels</name>
+						<title type="str">Data Labels</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_labels</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">series_name</name>
+						<title type="str">Series Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">series_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1</name>
+						<title type="str">Sample #1</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3</name>
+						<title type="str">Sample #3</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4</name>
+						<title type="str">Sample #4</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">average_mn_ppm</name>
+						<title type="str">Average      Mn (ppm)</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">average_mn_ppm</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_mn_ppm</name>
+						<title type="str">St. Dev         Mn (ppm)</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">st_dev_mn_ppm</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/mn.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">na</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">vegetation_class</name>
+						<title type="str">Vegetation Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vegetation_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dir_quad</name>
+						<title type="str">DIR. Quad.</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dir_quad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">int_ext</name>
+						<title type="str">INT/EXT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">int_ext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">a_b</name>
+						<title type="str">A &amp; B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">a_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_labels</name>
+						<title type="str">Data Labels</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_labels</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">series_name</name>
+						<title type="str">Series Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">series_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1</name>
+						<title type="str">Sample #1</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3</name>
+						<title type="str">Sample #3</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4</name>
+						<title type="str">Sample #4</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">average_na_meq_100g</name>
+						<title type="str">Average      Na (meq/100g)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">average_na_meq_100g</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_na_meq_100g</name>
+						<title type="str">St. Dev         Na (meq/100g)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">st_dev_na_meq_100g</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/na.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">na_total_bases</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">vegetation_class</name>
+						<title type="str">Vegetation Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vegetation_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dir_quad</name>
+						<title type="str">DIR. Quad.</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dir_quad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">int_ext</name>
+						<title type="str">INT/EXT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">int_ext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">a_b</name>
+						<title type="str">A &amp; B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">a_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_labels</name>
+						<title type="str">Data Labels</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_labels</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">series_name</name>
+						<title type="str">Series Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">series_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1</name>
+						<title type="str">Sample #1</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3</name>
+						<title type="str">Sample #3</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4</name>
+						<title type="str">Sample #4</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">average_na_total_bases</name>
+						<title type="str">Average      Na/Total Bases (%)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">average_na_total_bases</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_na_total_bases</name>
+						<title type="str">St. Dev         Na/Total Bases (%)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">st_dev_na_total_bases</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/na_total_bases.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">nh4_n</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">vegetation_class</name>
+						<title type="str">Vegetation Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vegetation_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dir</name>
+						<title type="str">DIR</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dir</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">int_ext</name>
+						<title type="str">INT/EXT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">int_ext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">a_b</name>
+						<title type="str">A &amp; B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">a_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_labels</name>
+						<title type="str">Data Labels</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_labels</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">series_name</name>
+						<title type="str">Series Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">series_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1</name>
+						<title type="str">Sample #1</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3</name>
+						<title type="str">Sample #3</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4</name>
+						<title type="str">Sample #4</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">ave_nh4_n</name>
+						<title type="str">Ave.    NH4-N</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">ave_nh4_n</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_of_nh4_n</name>
+						<title type="str">St. Dev of            NH4-N</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">st_dev_of_nh4_n</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1_2</name>
+						<title type="str">Sample #1</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_1_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_2_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3_2</name>
+						<title type="str">Sample #3</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_3_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4_2</name>
+						<title type="str">Sample #4</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_4_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">ave_nh4_n_2</name>
+						<title type="str">Ave.     NH4-N</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">ave_nh4_n_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_of_nh4_n_2</name>
+						<title type="str">St. Dev of             NH4-N</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">st_dev_of_nh4_n_2</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/nh4_n.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">no3_n</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">column_a</name>
+						<title type="str">Column A</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_a</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_b</name>
+						<title type="str">Column B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_c</name>
+						<title type="str">Column C</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_c</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_d</name>
+						<title type="str">Column D</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_d</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_e</name>
+						<title type="str">Column E</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_e</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_f</name>
+						<title type="str">Column F</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_f</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_g</name>
+						<title type="str">Column G</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_g</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_h</name>
+						<title type="str">Column H</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_h</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_i</name>
+						<title type="str">Column I</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_i</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_j</name>
+						<title type="str">Column J</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_j</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_k</name>
+						<title type="str">Column K</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_k</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_l</name>
+						<title type="str">Column L</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_l</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_m</name>
+						<title type="str">Column M</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_m</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_n</name>
+						<title type="str">Column N</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_n</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_o</name>
+						<title type="str">Column O</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_o</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_p</name>
+						<title type="str">Column P</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_p</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_q</name>
+						<title type="str">Column Q</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_q</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_r</name>
+						<title type="str">Column R</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_r</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_s</name>
+						<title type="str">Column S</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_s</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/no3_n.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">o_matter</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">column_a</name>
+						<title type="str">Column A</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_a</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_b</name>
+						<title type="str">Column B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_c</name>
+						<title type="str">Column C</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_c</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_d</name>
+						<title type="str">Column D</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_d</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_e</name>
+						<title type="str">Column E</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">column_e</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_f</name>
+						<title type="str">Column F</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_f</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_g</name>
+						<title type="str">Column G</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_g</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_h</name>
+						<title type="str">Column H</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_h</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_i</name>
+						<title type="str">Column I</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_i</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_j</name>
+						<title type="str">Column J</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_j</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_k</name>
+						<title type="str">Column K</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_k</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_l</name>
+						<title type="str">Column L</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_l</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_m</name>
+						<title type="str">Column M</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_m</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_n</name>
+						<title type="str">Column N</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_n</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_o</name>
+						<title type="str">Column O</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_o</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_p</name>
+						<title type="str">Column P</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_p</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_q</name>
+						<title type="str">Column Q</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">column_q</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_r</name>
+						<title type="str">Column R</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_r</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/o_matter.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">p_bicar</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">vegetation_class</name>
+						<title type="str">Vegetation Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vegetation_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dir_quad</name>
+						<title type="str">DIR. Quad.</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dir_quad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">int_ext</name>
+						<title type="str">INT/EXT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">int_ext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">a_b</name>
+						<title type="str">A &amp; B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">a_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_labels</name>
+						<title type="str">Data Labels</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_labels</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">series_name</name>
+						<title type="str">Series Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">series_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1</name>
+						<title type="str">Sample #1</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3</name>
+						<title type="str">Sample #3</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4</name>
+						<title type="str">Sample #4</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">average_p_bicar_ppm</name>
+						<title type="str">Average  P-Bicar. (ppm)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">average_p_bicar_ppm</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_p_bicar_ppm</name>
+						<title type="str">St. Dev   P-Bicar. (ppm)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">st_dev_p_bicar_ppm</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/p_bicar.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">ph</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">vegetation_class</name>
+						<title type="str">Vegetation Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vegetation_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dir_quad</name>
+						<title type="str">DIR. Quad.</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dir_quad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">int_ext</name>
+						<title type="str">INT/EXT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">int_ext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">a_b</name>
+						<title type="str">A &amp; B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">a_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_labels</name>
+						<title type="str">Data Labels</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_labels</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">series_name</name>
+						<title type="str">Series Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">series_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1</name>
+						<title type="str">Sample #1</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3</name>
+						<title type="str">Sample #3</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4</name>
+						<title type="str">Sample #4</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">average_ph</name>
+						<title type="str">Average  pH</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">average_ph</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_ph</name>
+						<title type="str">St. Dev pH</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">st_dev_ph</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/ph.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">so4_s</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">vegetation_class</name>
+						<title type="str">Vegetation Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vegetation_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dir_quad</name>
+						<title type="str">DIR. Quad.</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dir_quad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">int_ext</name>
+						<title type="str">INT/EXT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">int_ext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">a_b</name>
+						<title type="str">A &amp; B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">a_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_e</name>
+						<title type="str">Column E</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">column_e</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_labels</name>
+						<title type="str">Data Labels</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_labels</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">series_name</name>
+						<title type="str">Series Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">series_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1</name>
+						<title type="str">Sample #1</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3</name>
+						<title type="str">Sample #3</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4</name>
+						<title type="str">Sample #4</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sample_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">average_so4_s_ppm</name>
+						<title type="str">Average  SO4-S (ppm)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">average_so4_s_ppm</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_so4_s_ppm</name>
+						<title type="str">St. Dev   SO4-S (ppm)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">st_dev_so4_s_ppm</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/so4_s.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">ss</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">vegetation_class</name>
+						<title type="str">Vegetation Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vegetation_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dir_quad</name>
+						<title type="str">DIR. Quad.</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dir_quad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">int_ext</name>
+						<title type="str">INT/EXT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">int_ext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">a_b</name>
+						<title type="str">A &amp; B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">a_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_labels</name>
+						<title type="str">Data Labels</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_labels</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">series_name</name>
+						<title type="str">Series Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">series_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1</name>
+						<title type="str">Sample #1</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3</name>
+						<title type="str">Sample #3</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4</name>
+						<title type="str">Sample #4</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">average_ss_mmho_cm</name>
+						<title type="str">Average      SS (mmho/cm)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">average_ss_mmho_cm</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_ss_mmho_cm</name>
+						<title type="str">St. Dev         SS (mmho/cm)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">st_dev_ss_mmho_cm</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/ss.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">total_bases</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">vegetation_class</name>
+						<title type="str">Vegetation Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vegetation_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dir_quad</name>
+						<title type="str">DIR. Quad.</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dir_quad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">int_ext</name>
+						<title type="str">INT/EXT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">int_ext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">a_b</name>
+						<title type="str">A &amp; B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">a_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_labels</name>
+						<title type="str">Data Labels</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_labels</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">series_name</name>
+						<title type="str">Series Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">series_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1</name>
+						<title type="str">Sample #1</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3</name>
+						<title type="str">Sample #3</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4</name>
+						<title type="str">Sample #4</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">average_total_bases_meq_100g</name>
+						<title type="str">Average      Total Bases (meq/100g)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">average_total_bases_meq_100g</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_total_bases_meq_100g</name>
+						<title type="str">St. Dev         Total Bases (meq/100g)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">st_dev_total_bases_meq_100g</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/total_bases.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">zn</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">vegetation_class</name>
+						<title type="str">Vegetation Class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vegetation_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dir_quad</name>
+						<title type="str">DIR. Quad.</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dir_quad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">int_ext</name>
+						<title type="str">INT/EXT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">int_ext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">a_b</name>
+						<title type="str">A &amp; B</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">a_b</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">data_labels</name>
+						<title type="str">Data Labels</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">data_labels</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">series_name</name>
+						<title type="str">Series Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">series_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_1</name>
+						<title type="str">Sample #1</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_1</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_2</name>
+						<title type="str">Sample #2</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_3</name>
+						<title type="str">Sample #3</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_4</name>
+						<title type="str">Sample #4</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">average_zn_ppm</name>
+						<title type="str">Average      Zn (ppm)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">average_zn_ppm</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">st_dev_zn_ppm</name>
+						<title type="str">St. Dev         Zn (ppm)</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">st_dev_zn_ppm</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/zn.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/appendix-d-metadata-laysan-soils-xlsx-1.xlsx</name>
+			<path type="str">original/appendix-d-metadata-laysan-soils-xlsx-1.xlsx</path>
+			<format type="str">xlsx</format>
+			<mediatype type="str">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mediatype>
+			<bytes type="int">279454</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/laysan-soils-plant-propagation-finalreport-pdf-2.pdf</name>
+			<path type="str">original/laysan-soils-plant-propagation-finalreport-pdf-2.pdf</path>
+			<format type="str">pdf</format>
+			<mediatype type="str">application/pdf</mediatype>
+			<bytes type="int">1754775</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">alaweo</item>
+		<item type="str">outplanting</item>
+		<item type="str">soil</item>
+	</keywords>
+</all>

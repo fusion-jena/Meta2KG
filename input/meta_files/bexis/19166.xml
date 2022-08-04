@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bgc:metaProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.bgc-jena.mpg.de" xmlns:bgc="http://www.bgc-jena.mpg.de" xsi:schemaLocation="http://www.bgc-jena.mpg.de schema.xsd">
+  <bgc:general bgc:source="mixed">
+    <bgc:id bgc:source="intern">19166</bgc:id>
+    <bgc:versionID bgc:source="intern">1.2.9</bgc:versionID>
+    <bgc:title>Phytometer data of an experiment with transplanted species of contrasting geographic range types under manipulated biotic interactions (herbivory and competition) and different land-use regimes in Germany, 2009 - 2010</bgc:title>
+    <bgc:owners>
+      <bgc:owner number="1">Astrid Welk</bgc:owner>
+      <bgc:owner number="2">Helge Bruelheide</bgc:owner>
+      <bgc:owner number="3">Mathias Baudis</bgc:owner>
+      <bgc:owner number="4">Jörg Böckelmann</bgc:owner>
+    </bgc:owners>
+    <bgc:projectName>RangeShift</bgc:projectName>
+    <bgc:datasetManager>
+      <bgc:datasetManagerName disabled="disabled">Helge Bruelheide</bgc:datasetManagerName>
+      <bgc:institute disabled="disabled">University of Halle</bgc:institute>
+      <bgc:email disabled="disabled">helge.bruelheide@botanik.uni-halle.de</bgc:email>
+    </bgc:datasetManager>
+  </bgc:general>
+  <bgc:researchObjects>
+    <bgc:approxNumberOfPlots>
+      <bgc:noOfGP>45</bgc:noOfGP>
+      <bgc:noOfEP>45</bgc:noOfEP>
+      <bgc:noOfMIP>32</bgc:noOfMIP>
+      <bgc:noOfVIP>27</bgc:noOfVIP>
+    </bgc:approxNumberOfPlots>
+    <bgc:habitats>
+      <bgc:grassland>yes</bgc:grassland>
+      <bgc:forest>no</bgc:forest>
+    </bgc:habitats>
+    <bgc:experimentalManipulation>yes</bgc:experimentalManipulation>
+    <bgc:relativePositionToGround>
+      <bgc:aboveGround>yes</bgc:aboveGround>
+      <bgc:belowGround>no</bgc:belowGround>
+    </bgc:relativePositionToGround>
+    <bgc:repeatedMeasurement>
+      <bgc:timeBasedRepetition>
+        <bgc:numberOfRepetitions>6</bgc:numberOfRepetitions>
+      </bgc:timeBasedRepetition>
+      <bgc:plotBasedRepetition>
+        <bgc:numberOfSubPlots>405</bgc:numberOfSubPlots>
+      </bgc:plotBasedRepetition>
+    </bgc:repeatedMeasurement>
+    <bgc:taxa>
+      <bgc:taxon number="1">Plants</bgc:taxon>
+    </bgc:taxa>
+    <bgc:processesAndServices>
+      <bgc:processOrService number="1">Productivity</bgc:processOrService>
+      <bgc:processOrService number="2">Ecological Process - Herbivory</bgc:processOrService>
+      <bgc:processOrService number="3">Other</bgc:processOrService>
+    </bgc:processesAndServices>
+    <bgc:environmentalDescriptors>
+      <bgc:environmentalDescriptor number="1">Land Use</bgc:environmentalDescriptor>
+      <bgc:environmentalDescriptor number="2">Spatial</bgc:environmentalDescriptor>
+      <bgc:environmentalDescriptor number="3">Other</bgc:environmentalDescriptor>
+    </bgc:environmentalDescriptors>
+    <bgc:bioticDataTypes>
+      <bgc:bioticDataType number="1">Multiple Species</bgc:bioticDataType>
+    </bgc:bioticDataTypes>
+  </bgc:researchObjects>
+  <bgc:methodology blockPublic="no">
+    <bgc:introduction input="textarea">Geographic plant distribution is often assumed to be predominantly limited directly by the climatic tolerances of species. However, the role of climate is nowadays known to be mainly an indirect one by mostly mediating dispersal and establishment, species interactions or habitat characteristics, which all are often modified by human land use. In these complex systems, negative biotic interactions are predicted to increase in relative importance towards benign climate conditions. We tested this hypothesis experimentally by exposing plant species with different geographic distribution ranges to different climates, biotic interactions and land use. 
+
+The dataset is the basis of the publication: Welk, A., Baudis, M., Böckelmann, J., Welk, E &amp; Bruelheide, H. (2019): Plant species´ range type determines local responses to biotic interactions and land use. Ecology (in the press, ECY19-0106.R1).</bgc:introduction>
+    <bgc:measurements>
+      <bgc:theory input="textarea">We present results of a fully crossed two-year transplantation field experiment replicated in 45 plots in three study regions along a precipitation gradient across Germany. We manipulated biotic interactions (presence/absence of competition and mollusk herbivory) in grasslands of different management regimes (meadows, mown pastures, pastures). The transplanted phytometers consisted of six congeneric species pairs, each representing one oceanic and one distinctly more continental range type. The oceanic range type is predominantly distributed in benign climate conditions in Western Europe, while the more continental type is distributed in regions with more stressful climate conditions in Eastern Europe. This experimental setting allowed us to study the impact of negative biotic interactions along an abiotic stress gradient under realistic land-use conditions. </bgc:theory>
+      <bgc:type input="textarea">To study the impact of the species´ range type on plant survival and growth in interaction with land use practices, competition and herbivory, we used six congeneric species pairs. The species of each pair differed in geographical distribution range: each one species representing the oceanic and the continental range type, respectively (Welk et al. 2019: Appendix S2: Table S1). Assignment to the oceanic and continental range type was based on the degree to which the species' distribution range extends into the oceanic climate regions of Western Europe (distribution maps of the species can be found in Welk et al. 2019: Appendix S2: Fig. S1-S6). Accordingly, the following plant species pairs were used in the experiment (oceanic / continental):
+Carlina vulgaris / C. biebersteinii,
+Centaurea scabiosa / C. stoebe,
+Dianthus deltoides / D. carthusianorum,
+Koeleria pyramidata / K. macrantha,
+Scabiosa columbaria / S. ochroleuca, 
+Silene nutans / S. otites
+(details of species characteristics in Welk et al. 2019: Appendix S2: Table S1). </bgc:type>
+    </bgc:measurements>
+    <bgc:equipment>
+      <bgc:instruments input="textarea">in the field: ruler
+in the lab: laboratory scales, epson scanner and winfolia </bgc:instruments>
+      <bgc:calibration input="textarea">-</bgc:calibration>
+      <bgc:procedures input="textarea">We studied the effect of biotic interactions by removal of competitors and mollusk exclosures. Plant responses to these treatments were assessed by monitoring phytometer individuals of 12 plant species, which were transplanted into the experimental plots (detailed information see below). On each of the 45 selected experimental grassland plots, a 3.5 x 6.5 m section was divided into eight square subplots (1 m2), separated by margins of 0.5 m (Welk et al. 2019: Appendix S1: Fig. S2). On each subplot, a maximum number of 16 planting positions were available with a minimum distance of 20 cm between the phytometer plants. The subplots were subjected to different treatments. On each four of the eight subplots plants were released from competition by removing neighbour plants and from herbivory by excluding mollusks. Both treatments were fully crossed, resulting in four treatment combinations with two replicates each. Treatment combinations were assigned randomly to subplots. The whole experiment lasted over two vegetation periods from April 2009 to August 2010.
+In the competition treatment, plant biomass in a 10 cm radius around the phytometer was removed. To minimize disturbances of the soil structure which might have resulted in fertilization effects, we extracted a cylindrical soil core of 10 cm length / 10 cm depth, removed the aboveground biomass of this soil core and put it back upside-down (see Welk et al. 2019: Appendix S1: Fig. S3). Then, one phytometer plant was planted into the center of the soil core. Although this treatment involved some minor soil disturbance it kept the immediate neighborhood of the target plants free from competitors for several months. Since all plots were established in managed grassland sites of similar productivity with fully closed vegetation cover, competition intensity was comparable among plots. The most common resident species are listed in Welk et al. 2019 (Appendix S1: Table S1). To exclude mollusks, four subplots were fenced with metal frames (IRKA, Typ 1, R+M Gartenbedarf, Rehling, Germany; Welk et al. 2019: Appendix S1: Fig. S4). Additionally, mollusk repellent was applied within these plots (Ferramol, W. Neudorff GmbH KG, Emmerthal, Germany). We inspected the experimental plots regularly every eight weeks (except in winter) and maintained the treatments by manually removing newly upcoming competitors in the 10 cm radius of the phytometer plants or applying new mollusk repellent, respectively.
+All planted phytometers were watered once after transplantation to ensure initial establishment. At the time of planting, the number of leaves was counted for calculating relative growth rates (RGR) of leaf number according to Hunt (1990). To test the effectiveness of the mollusk exclosure treatment we estimated the proportion of consumed leaf area of all phytometers in autumn 2009. Damaged leaves of each plant were counted and then the percentage of consumed leaf areas of five randomly chosen damaged leaves were visually estimated in following classes: from 1-5 % in 1-percent-steps, from 5-95 % in 5-percent-steps. 
+In August 2010, we harvested above- and belowground biomass, counted leaf number and measured plant height of all phytometers. As a measurement for reproductive capability we counted the flowering units of each flowering phytometer. At the same time, we also sampled one middle-aged and, if possible, undamaged leaf per individual for determinations of specific leaf area (SLA). As it was not possible to scan the fresh leaves, we dried them in the field between papers sheets and later scanned the dried leaves in the laboratory. Determinations of leaf area were conducted with a epson scanner and the programm winfolia. </bgc:procedures>
+    </bgc:equipment>
+  </bgc:methodology>
+  <bgc:description>
+    <bgc:acronyms>
+      <bgc:acronymPair number="1">
+        <bgc:acronym number="1" />
+        <bgc:meaning number="1" />
+      </bgc:acronymPair>
+    </bgc:acronyms>
+    <bgc:keywords>
+      <bgc:keyword number="1">plant distribution range</bgc:keyword>
+      <bgc:keyword number="2">land use</bgc:keyword>
+      <bgc:keyword number="3">climate change</bgc:keyword>
+      <bgc:keyword number="4">biotic interaction</bgc:keyword>
+      <bgc:keyword number="5">competition</bgc:keyword>
+      <bgc:keyword number="6">herbivory</bgc:keyword>
+      <bgc:keyword number="7">phytometer</bgc:keyword>
+      <bgc:keyword number="8">field experiment</bgc:keyword>
+    </bgc:keywords>
+  </bgc:description>
+  <bgc:time>
+    <bgc:when timeType="period" xsi:type="bgc:dateFrame">
+      <bgc:format>dd.MM.yyyy</bgc:format>
+      <bgc:startDate>25.04.2009</bgc:startDate>
+      <bgc:endDate>02.08.2010</bgc:endDate>
+    </bgc:when>
+    <bgc:dateEntry bgc:source="intern">2015-04-28</bgc:dateEntry>
+    <bgc:dateLastModified bgc:source="intern">2019-08-20</bgc:dateLastModified>
+  </bgc:time>
+  <bgc:data>
+    <bgc:fileType>structuredData</bgc:fileType>
+    <bgc:manipulations input="textarea" />
+    <bgc:errors />
+    <bgc:qualityLevel>raw</bgc:qualityLevel>
+    <bgc:dataStatus>complete</bgc:dataStatus>
+    <bgc:dataStructure>
+      <bgc:dataFormat>
+        <bgc:missingValues />
+        <bgc:NA>NA</bgc:NA>
+      </bgc:dataFormat>
+      <bgc:matrix>
+        <bgc:columnName />
+        <bgc:rowName />
+        <bgc:contentType />
+        <bgc:matrixUnit />
+      </bgc:matrix>
+      <bgc:variables>
+        <bgc:variable number="1">
+          <bgc:name number="1">Location</bgc:name>
+          <bgc:typeOfVariable number="1">string</bgc:typeOfVariable>
+          <bgc:units number="1" />
+          <bgc:description number="1">Exploratory region (ALB=Schwäbische Alb, HAI=Hainich-Dün, SCH=Schorfheide-Chorin)</bgc:description>
+          <bgc:block number="1">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="2">
+          <bgc:name number="2">PlotID</bgc:name>
+          <bgc:typeOfVariable number="2">string</bgc:typeOfVariable>
+          <bgc:units number="2" />
+          <bgc:description number="2">Plot-ID number (from Bexis)</bgc:description>
+          <bgc:block number="2">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="3">
+          <bgc:name number="3">LandUseType</bgc:name>
+          <bgc:typeOfVariable number="3">string</bgc:typeOfVariable>
+          <bgc:units number="3" />
+          <bgc:description number="3">Land Use type (M=meadow, MP=mown pasture, P=pasture)</bgc:description>
+          <bgc:block number="3">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="4">
+          <bgc:name number="4">SubplotID</bgc:name>
+          <bgc:typeOfVariable number="4">string</bgc:typeOfVariable>
+          <bgc:units number="4" />
+          <bgc:description number="4">Subplot-ID number; combined number of PlotID_subplot number (from 1-9)</bgc:description>
+          <bgc:block number="4">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="5">
+          <bgc:name number="5">Genus</bgc:name>
+          <bgc:typeOfVariable number="5">string</bgc:typeOfVariable>
+          <bgc:units number="5" />
+          <bgc:description number="5">Genus of the phytometer plant</bgc:description>
+          <bgc:block number="5">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="6">
+          <bgc:name number="6">Species</bgc:name>
+          <bgc:typeOfVariable number="6">string</bgc:typeOfVariable>
+          <bgc:units number="6" />
+          <bgc:description number="6">Species name of the phytometer plant</bgc:description>
+          <bgc:block number="6">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="7">
+          <bgc:name number="7">PlantID</bgc:name>
+          <bgc:typeOfVariable number="7">string</bgc:typeOfVariable>
+          <bgc:units number="7" />
+          <bgc:description number="7">Plant-ID number; Combined number of SubplotID (without_) and the position of the phytometer plant on the plot (20 positions in a 4*5 grid on 1 qm)</bgc:description>
+          <bgc:block number="7">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="8">
+          <bgc:name number="8">RangeType</bgc:name>
+          <bgc:typeOfVariable number="8">string</bgc:typeOfVariable>
+          <bgc:units number="8" />
+          <bgc:description number="8">Range type of the phytometer plant (oceanic=o or continental=c)</bgc:description>
+          <bgc:block number="8">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="9">
+          <bgc:name number="9">Herb</bgc:name>
+          <bgc:typeOfVariable number="9">string</bgc:typeOfVariable>
+          <bgc:units number="9" />
+          <bgc:description number="9">Herbivory treatment (0=mollusc exclosure by metal frames, 1=molluscs present (no manipulation))</bgc:description>
+          <bgc:block number="9">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="10">
+          <bgc:name number="10">Comp</bgc:name>
+          <bgc:typeOfVariable number="10">string</bgc:typeOfVariable>
+          <bgc:units number="10" />
+          <bgc:description number="10">Competition treatment (0=competition removal in a 10 cm radius, 1=competition present (no manipulation)</bgc:description>
+          <bgc:block number="10">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="11">
+          <bgc:name number="11">Rep</bgc:name>
+          <bgc:typeOfVariable number="11">string</bgc:typeOfVariable>
+          <bgc:units number="11" />
+          <bgc:description number="11">Repetition of the combined subplot manipulation Herb x Comb (1=first repetition, 2=second repetition, E= subplot with climate change manipulation of the climate change experiment of Dormann/Scherer-Lorenzen)</bgc:description>
+          <bgc:block number="11">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="12">
+          <bgc:name number="12">MonthPlanted</bgc:name>
+          <bgc:typeOfVariable number="12">string</bgc:typeOfVariable>
+          <bgc:units number="12" />
+          <bgc:description number="12">Month in which phytometer plant was planted into the plot (M=May 2009, A=August 2009)</bgc:description>
+          <bgc:block number="12">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="13">
+          <bgc:name number="13">MonthReplanted</bgc:name>
+          <bgc:typeOfVariable number="13">string</bgc:typeOfVariable>
+          <bgc:units number="13" />
+          <bgc:description number="13">Some phytometer plants planted in May 2009 died immidiatly and had to be substituded by new individual, which were planted in August 2009. These are here indicated with A.</bgc:description>
+          <bgc:block number="13">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="14">
+          <bgc:name number="14">Date_1</bgc:name>
+          <bgc:typeOfVariable number="14">date</bgc:typeOfVariable>
+          <bgc:units number="14" />
+          <bgc:description number="14">Date of the first field visit where the first phytometer plants were planted.</bgc:description>
+          <bgc:block number="14">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="15">
+          <bgc:name number="15">Planted_1</bgc:name>
+          <bgc:typeOfVariable number="15">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="15">number</bgc:units>
+          <bgc:description number="15">Information if phytometer plant was planted at the first field visit (0=no, 1=yes)</bgc:description>
+          <bgc:block number="15">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="16">
+          <bgc:name number="16">Alive_1</bgc:name>
+          <bgc:typeOfVariable number="16">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="16" />
+          <bgc:description number="16">Information if phytometer plant was present at the first field visit (0=no, 1=yes)</bgc:description>
+          <bgc:block number="16">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="17">
+          <bgc:name number="17">LN_1</bgc:name>
+          <bgc:typeOfVariable number="17">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="17">number</bgc:units>
+          <bgc:description number="17">Leaf number of the phytometer plant at the first field visit (counted)</bgc:description>
+          <bgc:block number="17">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="18">
+          <bgc:name number="18">BN_1</bgc:name>
+          <bgc:typeOfVariable number="18">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="18">number</bgc:units>
+          <bgc:description number="18">Branch number of the phytometer plant at the first field visit (counted)</bgc:description>
+          <bgc:block number="18">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="19">
+          <bgc:name number="19">LLmax_1</bgc:name>
+          <bgc:typeOfVariable number="19">realNumber</bgc:typeOfVariable>
+          <bgc:units number="19">cm</bgc:units>
+          <bgc:description number="19">Leaf leangth of the longest leave of the phytometer plant at the first field visit (measured with ruler)</bgc:description>
+          <bgc:block number="19">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="20">
+          <bgc:name number="20">Diam_1</bgc:name>
+          <bgc:typeOfVariable number="20">realNumber</bgc:typeOfVariable>
+          <bgc:units number="20">cm</bgc:units>
+          <bgc:description number="20">Diameter of the phytometer plant at the first field visit (measured with ruler)</bgc:description>
+          <bgc:block number="20">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="21">
+          <bgc:name number="21">BNs_1</bgc:name>
+          <bgc:typeOfVariable number="21">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="21">number</bgc:units>
+          <bgc:description number="21">Number of side branches on the longest main branch at the first field visit (counted)</bgc:description>
+          <bgc:block number="21">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="22">
+          <bgc:name number="22">Note_1</bgc:name>
+          <bgc:typeOfVariable number="22">string</bgc:typeOfVariable>
+          <bgc:units number="22" />
+          <bgc:description number="22">Specific information to the condition of the phytometer plants or the appropriate subplot postition at the first field visit, in cases if there were noticeable problems.</bgc:description>
+          <bgc:block number="22">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="23">
+          <bgc:name number="23">Date_2</bgc:name>
+          <bgc:typeOfVariable number="23">date</bgc:typeOfVariable>
+          <bgc:units number="23" />
+          <bgc:description number="23">Date of the second field visit where constitution of phytometer plants were controlled.</bgc:description>
+          <bgc:block number="23">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="24">
+          <bgc:name number="24">Alive_2</bgc:name>
+          <bgc:typeOfVariable number="24">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="24" />
+          <bgc:description number="24">Information if phytometer plant was present at the second field visit (0=no, 1=yes)</bgc:description>
+          <bgc:block number="24">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="25">
+          <bgc:name number="25">LN_2</bgc:name>
+          <bgc:typeOfVariable number="25">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="25">number</bgc:units>
+          <bgc:description number="25">Leaf number of the phytometer plant at the second field visit (counted)</bgc:description>
+          <bgc:block number="25">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="26">
+          <bgc:name number="26">LN_dem_2</bgc:name>
+          <bgc:typeOfVariable number="26">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="26">number</bgc:units>
+          <bgc:description number="26">Number of demaged leaves of the phytometer plant at the second field visit. In addition the proportion of demage of five randomly chosen damaged leaves was estimated visiually, see the next variables)</bgc:description>
+          <bgc:block number="26">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="27">
+          <bgc:name number="27">Ldem_perc_2_1</bgc:name>
+          <bgc:typeOfVariable number="27">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="27">%</bgc:units>
+          <bgc:description number="27">Leaf demage of the first from max. five randomly chosen damaged leaves of the phytometer plant at the second field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="27">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="28">
+          <bgc:name number="28">Ldem_perc_2_2</bgc:name>
+          <bgc:typeOfVariable number="28">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="28">%</bgc:units>
+          <bgc:description number="28">Leaf demage of the second from max. five randomly chosen damaged leaves of the phytometer plant at the second field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="28">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="29">
+          <bgc:name number="29">Ldem_perc_2_3</bgc:name>
+          <bgc:typeOfVariable number="29">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="29">%</bgc:units>
+          <bgc:description number="29">Leaf demage of the third from max. five randomly chosen damaged leaves of the phytometer plant at the second field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="29">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="30">
+          <bgc:name number="30">Ldem_perc_2_4</bgc:name>
+          <bgc:typeOfVariable number="30">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="30">%</bgc:units>
+          <bgc:description number="30">Leaf demage of the fourth from max. five randomly chosen damaged leaves of the phytometer plant at the second field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="30">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="31">
+          <bgc:name number="31">Ldem_perc_2_5</bgc:name>
+          <bgc:typeOfVariable number="31">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="31">%</bgc:units>
+          <bgc:description number="31">Leaf demage of the fifth from max. five randomly chosen damaged leaves of the phytometer plant at the second field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="31">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="32">
+          <bgc:name number="32">BN_2</bgc:name>
+          <bgc:typeOfVariable number="32">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="32">number</bgc:units>
+          <bgc:description number="32">Branch number of the phytometer plant at the second field visit (counted)</bgc:description>
+          <bgc:block number="32">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="33">
+          <bgc:name number="33">BN_dem_2</bgc:name>
+          <bgc:typeOfVariable number="33">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="33">number</bgc:units>
+          <bgc:description number="33">Number of damaged branches of the phytometer plant at the second field visit (counted)</bgc:description>
+          <bgc:block number="33">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="34">
+          <bgc:name number="34">Bdem_perc_2</bgc:name>
+          <bgc:typeOfVariable number="34">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="34">%</bgc:units>
+          <bgc:description number="34">Proportion of branch demage of the phytometer plant at the second field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="34">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="35">
+          <bgc:name number="35">BN_fl_2</bgc:name>
+          <bgc:typeOfVariable number="35">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="35">number</bgc:units>
+          <bgc:description number="35">Number of flowering branches of the phytometer plant at the second field visit (counted)</bgc:description>
+          <bgc:block number="35">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="36">
+          <bgc:name number="36">Lmax_fl_B_2</bgc:name>
+          <bgc:typeOfVariable number="36">realNumber</bgc:typeOfVariable>
+          <bgc:units number="36">cm</bgc:units>
+          <bgc:description number="36">Leangth of the longest flowering branch of the phytometer plant at the second field visit (measured with ruler)</bgc:description>
+          <bgc:block number="36">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="37">
+          <bgc:name number="37">FN_2</bgc:name>
+          <bgc:typeOfVariable number="37">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="37">number</bgc:units>
+          <bgc:description number="37">Number of flowering units of the phytometer plant at the second field visit (counted)</bgc:description>
+          <bgc:block number="37">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="38">
+          <bgc:name number="38">LLmax_2</bgc:name>
+          <bgc:typeOfVariable number="38">realNumber</bgc:typeOfVariable>
+          <bgc:units number="38">cm</bgc:units>
+          <bgc:description number="38">Leaf leangth of the longest leave of the phytometer plant at the second field visit (measured with ruler)</bgc:description>
+          <bgc:block number="38">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="39">
+          <bgc:name number="39">Diam_2</bgc:name>
+          <bgc:typeOfVariable number="39">realNumber</bgc:typeOfVariable>
+          <bgc:units number="39">cm</bgc:units>
+          <bgc:description number="39">Diameter of the phytometer plant at the second field visit (measured with ruler)</bgc:description>
+          <bgc:block number="39">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="40">
+          <bgc:name number="40">BNs_2</bgc:name>
+          <bgc:typeOfVariable number="40">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="40">number</bgc:units>
+          <bgc:description number="40">Number of side branches on the longest main branch at the second field visit. Only for Dianthus deltoides (counted)</bgc:description>
+          <bgc:block number="40">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="41">
+          <bgc:name number="41">Flowering_2</bgc:name>
+          <bgc:typeOfVariable number="41">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="41" />
+          <bgc:description number="41">Information if phytometer plants flowered at the second field visit (0=no, 1=yes)</bgc:description>
+          <bgc:block number="41">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="42">
+          <bgc:name number="42">Date_3</bgc:name>
+          <bgc:typeOfVariable number="42">date</bgc:typeOfVariable>
+          <bgc:units number="42" />
+          <bgc:description number="42">Date of the third field visit where the constitution of the phytometer plants were controlled and supplemental phytometer plants were planted.</bgc:description>
+          <bgc:block number="42">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="43">
+          <bgc:name number="43">Planted_3</bgc:name>
+          <bgc:typeOfVariable number="43">string</bgc:typeOfVariable>
+          <bgc:units number="43" />
+          <bgc:description number="43">Information if phytometer plant was planted/replanted at the third field visit (0=no, 1=yes) </bgc:description>
+          <bgc:block number="43">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="44">
+          <bgc:name number="44">Alive_3</bgc:name>
+          <bgc:typeOfVariable number="44">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="44" />
+          <bgc:description number="44">Information if phytometer plant was present at the third field visit (0=no, 1=yes)</bgc:description>
+          <bgc:block number="44">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="45">
+          <bgc:name number="45">LN_3</bgc:name>
+          <bgc:typeOfVariable number="45">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="45">number</bgc:units>
+          <bgc:description number="45">Leave number of the phytometer plant at the third field visit (counted)</bgc:description>
+          <bgc:block number="45">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="46">
+          <bgc:name number="46">LN_dem_3</bgc:name>
+          <bgc:typeOfVariable number="46">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="46">number</bgc:units>
+          <bgc:description number="46">Number of demaged leaves of the phytometer plant at the third field visit. In addition the proportion of demage of five randomly chosen damaged leaves was estimated visiually, see the next variables)</bgc:description>
+          <bgc:block number="46">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="47">
+          <bgc:name number="47">Ldem_perc_3_1</bgc:name>
+          <bgc:typeOfVariable number="47">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="47">%</bgc:units>
+          <bgc:description number="47">Leaf demage of the first from max. five randomly chosen damaged leaves of the phytometer plant at the third field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="47">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="48">
+          <bgc:name number="48">Ldem_perc_3_2</bgc:name>
+          <bgc:typeOfVariable number="48">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="48">%</bgc:units>
+          <bgc:description number="48">Leaf demage of the second from max. five randomly chosen damaged leaves of the phytometer plant at the third field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="48">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="49">
+          <bgc:name number="49">Ldem_perc_3_3</bgc:name>
+          <bgc:typeOfVariable number="49">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="49">%</bgc:units>
+          <bgc:description number="49">Leaf demage of the third from max. five randomly chosen damaged leaves of the phytometer plant at the third field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="49">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="50">
+          <bgc:name number="50">Ldem_perc_3_4</bgc:name>
+          <bgc:typeOfVariable number="50">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="50">%</bgc:units>
+          <bgc:description number="50">Leaf demage of the fourth from max. five randomly chosen damaged leaves of the phytometer plant at the third field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="50">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="51">
+          <bgc:name number="51">Ldem_perc_3_5</bgc:name>
+          <bgc:typeOfVariable number="51">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="51">%</bgc:units>
+          <bgc:description number="51">Leaf demage of the fifth from max. five randomly chosen damaged leaves of the phytometer plant at the third field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="51">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="52">
+          <bgc:name number="52">BN_3</bgc:name>
+          <bgc:typeOfVariable number="52">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="52">number</bgc:units>
+          <bgc:description number="52">Branch number of the phytometer plant at the third field visit (counted)</bgc:description>
+          <bgc:block number="52">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="53">
+          <bgc:name number="53">BN_dem_3</bgc:name>
+          <bgc:typeOfVariable number="53">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="53">number</bgc:units>
+          <bgc:description number="53">Number of damaged branches of the phytometer plant at the third field visit (counted)</bgc:description>
+          <bgc:block number="53">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="54">
+          <bgc:name number="54">Bdem_perc_3</bgc:name>
+          <bgc:typeOfVariable number="54">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="54">%</bgc:units>
+          <bgc:description number="54">Proportion of branch demage of the phytometer plant at the third field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="54">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="55">
+          <bgc:name number="55">BN_fl_3</bgc:name>
+          <bgc:typeOfVariable number="55">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="55">number</bgc:units>
+          <bgc:description number="55">Number of flowering branches of the phytometer plant at the third field visit (counted)</bgc:description>
+          <bgc:block number="55">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="56">
+          <bgc:name number="56">Lmax_fl_B_3</bgc:name>
+          <bgc:typeOfVariable number="56">realNumber</bgc:typeOfVariable>
+          <bgc:units number="56">cm</bgc:units>
+          <bgc:description number="56">Leangth of the longest flowering branch of the phytometer plant at the third field visit (measured with ruler)</bgc:description>
+          <bgc:block number="56">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="57">
+          <bgc:name number="57">FN_3</bgc:name>
+          <bgc:typeOfVariable number="57">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="57">number</bgc:units>
+          <bgc:description number="57">Number of flowering units of the phytometer plant at the third field visit (counted)</bgc:description>
+          <bgc:block number="57">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="58">
+          <bgc:name number="58">Flowering</bgc:name>
+          <bgc:typeOfVariable number="58">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="58" />
+          <bgc:description number="58">Information if phytometer plants flowered at the third field visit (0=no, 1=yes)</bgc:description>
+          <bgc:block number="58">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="59">
+          <bgc:name number="59">LLmax_3</bgc:name>
+          <bgc:typeOfVariable number="59">realNumber</bgc:typeOfVariable>
+          <bgc:units number="59">cm</bgc:units>
+          <bgc:description number="59">Leaf leangth of the longest leave of the phytometer plant at the third field visit (measured with ruler)</bgc:description>
+          <bgc:block number="59">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="60">
+          <bgc:name number="60">Diam_3</bgc:name>
+          <bgc:typeOfVariable number="60">realNumber</bgc:typeOfVariable>
+          <bgc:units number="60">cm</bgc:units>
+          <bgc:description number="60">Diameter of the phytometer plant at the third field visit (measured with ruler)</bgc:description>
+          <bgc:block number="60">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="61">
+          <bgc:name number="61">BNs_3</bgc:name>
+          <bgc:typeOfVariable number="61">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="61">number</bgc:units>
+          <bgc:description number="61">Number of side branches on the longest main branch at the third field visit. Only for Dianthus deltoides (counted)</bgc:description>
+          <bgc:block number="61">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="62">
+          <bgc:name number="62">Note_3</bgc:name>
+          <bgc:typeOfVariable number="62">string</bgc:typeOfVariable>
+          <bgc:units number="62" />
+          <bgc:description number="62">Specific information to the condition of the phytometer plants or the appropriate subplot postition at the third field visit, in cases if there were noticeable problems.</bgc:description>
+          <bgc:block number="62">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="63">
+          <bgc:name number="63">Date_4</bgc:name>
+          <bgc:typeOfVariable number="63">date</bgc:typeOfVariable>
+          <bgc:units number="63" />
+          <bgc:description number="63">Date of the forth field visit. There the constitution of the phytometer plants was controlled.</bgc:description>
+          <bgc:block number="63">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="64">
+          <bgc:name number="64">Alive_4</bgc:name>
+          <bgc:typeOfVariable number="64">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="64" />
+          <bgc:description number="64">Information if phytometer plant was present at the forth field visit (0=no, 1=yes)</bgc:description>
+          <bgc:block number="64">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="65">
+          <bgc:name number="65">LN_4</bgc:name>
+          <bgc:typeOfVariable number="65">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="65">number</bgc:units>
+          <bgc:description number="65">Leave number of the phytometer plant at the forth field visit (counted)</bgc:description>
+          <bgc:block number="65">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="66">
+          <bgc:name number="66">LN_dem_4</bgc:name>
+          <bgc:typeOfVariable number="66">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="66">number</bgc:units>
+          <bgc:description number="66">Number of demaged leaves of the phytometer plant at the forth field visit. In addition the proportion of demage of five randomly chosen damaged leaves was estimated visiually, see the next variables)</bgc:description>
+          <bgc:block number="66">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="67">
+          <bgc:name number="67">Ldem_perc_4_1</bgc:name>
+          <bgc:typeOfVariable number="67">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="67">%</bgc:units>
+          <bgc:description number="67">Leaf demage of the first from max. five randomly chosen damaged leaves of the phytometer plant at the forth field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="67">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="68">
+          <bgc:name number="68">Ldem_perc_4_2</bgc:name>
+          <bgc:typeOfVariable number="68">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="68">%</bgc:units>
+          <bgc:description number="68">Leaf demage of the second from max. five randomly chosen damaged leaves of the phytometer plant at the forth field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="68">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="69">
+          <bgc:name number="69">Ldem_perc_4_3</bgc:name>
+          <bgc:typeOfVariable number="69">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="69">%</bgc:units>
+          <bgc:description number="69">Leaf demage of the third from max. five randomly chosen damaged leaves of the phytometer plant at the forth field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="69">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="70">
+          <bgc:name number="70">Ldem_perc_4_4</bgc:name>
+          <bgc:typeOfVariable number="70">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="70">%</bgc:units>
+          <bgc:description number="70">Leaf demage of the forth from max. five randomly chosen damaged leaves of the phytometer plant at the forth field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="70">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="71">
+          <bgc:name number="71">Ldem_perc_4_5</bgc:name>
+          <bgc:typeOfVariable number="71">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="71">%</bgc:units>
+          <bgc:description number="71">Leaf demage of the fifth from max. five randomly chosen damaged leaves of the phytometer plant at the forth field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="71">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="72">
+          <bgc:name number="72">BN_4</bgc:name>
+          <bgc:typeOfVariable number="72">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="72">number</bgc:units>
+          <bgc:description number="72">Branch number of the phytometer plant at the forth field visit (counted)</bgc:description>
+          <bgc:block number="72">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="73">
+          <bgc:name number="73">BN_dem_4</bgc:name>
+          <bgc:typeOfVariable number="73">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="73">number</bgc:units>
+          <bgc:description number="73">Number of damaged branches of the phytometer plant at the fifth field visit (counted)</bgc:description>
+          <bgc:block number="73">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="74">
+          <bgc:name number="74">Bdem_perc_4</bgc:name>
+          <bgc:typeOfVariable number="74">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="74">%</bgc:units>
+          <bgc:description number="74">Proportion of branch demage of the phytometer plant at the forth field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="74">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="75">
+          <bgc:name number="75">BN_fl_4</bgc:name>
+          <bgc:typeOfVariable number="75">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="75">number</bgc:units>
+          <bgc:description number="75">Number of flowering branches of the phytometer plant at the forth field visit (counted)</bgc:description>
+          <bgc:block number="75">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="76">
+          <bgc:name number="76">Lmax_fl_B_4</bgc:name>
+          <bgc:typeOfVariable number="76">realNumber</bgc:typeOfVariable>
+          <bgc:units number="76">cm</bgc:units>
+          <bgc:description number="76">Leangth of the longest flowering branch of the phytometer plant at the forth field visit (measured with ruler)</bgc:description>
+          <bgc:block number="76">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="77">
+          <bgc:name number="77">FN_4</bgc:name>
+          <bgc:typeOfVariable number="77">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="77">number</bgc:units>
+          <bgc:description number="77">Number of flowering units of the phytometer plant at the forth field visit (counted)</bgc:description>
+          <bgc:block number="77">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="78">
+          <bgc:name number="78">Flowering_4</bgc:name>
+          <bgc:typeOfVariable number="78">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="78" />
+          <bgc:description number="78">Information if phytometer plants flowered at the forth field visit (0=no, 1=yes)</bgc:description>
+          <bgc:block number="78">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="79">
+          <bgc:name number="79">LLmax_4</bgc:name>
+          <bgc:typeOfVariable number="79">realNumber</bgc:typeOfVariable>
+          <bgc:units number="79">cm</bgc:units>
+          <bgc:description number="79">Leaf leangth of the longest leave of the phytometer plant at the forth field visit (measured with ruler)</bgc:description>
+          <bgc:block number="79">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="80">
+          <bgc:name number="80">Diam_4</bgc:name>
+          <bgc:typeOfVariable number="80">realNumber</bgc:typeOfVariable>
+          <bgc:units number="80">cm</bgc:units>
+          <bgc:description number="80">Diameter of the phytometer plant at the forth field visit (measured with ruler)</bgc:description>
+          <bgc:block number="80">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="81">
+          <bgc:name number="81">BNs_4</bgc:name>
+          <bgc:typeOfVariable number="81">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="81">number</bgc:units>
+          <bgc:description number="81">Number of side branches on the longest main branch at the forth field visit. Only for Dianthus deltoides (counted)</bgc:description>
+          <bgc:block number="81">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="82">
+          <bgc:name number="82">Note_4</bgc:name>
+          <bgc:typeOfVariable number="82">string</bgc:typeOfVariable>
+          <bgc:units number="82" />
+          <bgc:description number="82">Specific information to the condition of the phytometer plants or the appropriate subplot postition at the forth field visit, in cases if there were noticeable problems.</bgc:description>
+          <bgc:block number="82">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="83">
+          <bgc:name number="83">Date_5</bgc:name>
+          <bgc:typeOfVariable number="83">date</bgc:typeOfVariable>
+          <bgc:units number="83" />
+          <bgc:description number="83">Date of the fifth field visit. There the constitution of the phytometer plants was controlled.</bgc:description>
+          <bgc:block number="83">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="84">
+          <bgc:name number="84">Alive_5</bgc:name>
+          <bgc:typeOfVariable number="84">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="84" />
+          <bgc:description number="84">Information if phytometer plant was present at the fifth field visit (0=no, 1=yes)</bgc:description>
+          <bgc:block number="84">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="85">
+          <bgc:name number="85">LN_5</bgc:name>
+          <bgc:typeOfVariable number="85">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="85">number</bgc:units>
+          <bgc:description number="85">Leave number of the phytometer plant at the fifth field visit (counted)</bgc:description>
+          <bgc:block number="85">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="86">
+          <bgc:name number="86">LN_dem_5</bgc:name>
+          <bgc:typeOfVariable number="86">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="86">number</bgc:units>
+          <bgc:description number="86">Number of demaged leaves of the phytometer plant at the fifth field visit. In addition the proportion of demage of five randomly chosen damaged leaves was estimated visiually, see the next variables)</bgc:description>
+          <bgc:block number="86">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="87">
+          <bgc:name number="87">Ldem_perc_5_1</bgc:name>
+          <bgc:typeOfVariable number="87">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="87">%</bgc:units>
+          <bgc:description number="87">Leaf demage of the first from max. five randomly chosen damaged leaves of the phytometer plant at the fifth field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="87">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="88">
+          <bgc:name number="88">Ldem_perc_5_2</bgc:name>
+          <bgc:typeOfVariable number="88">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="88">%</bgc:units>
+          <bgc:description number="88">Leaf demage of the second from max. five randomly chosen damaged leaves of the phytometer plant at the fifth field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="88">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="89">
+          <bgc:name number="89">Ldem_perc_5_3</bgc:name>
+          <bgc:typeOfVariable number="89">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="89">%</bgc:units>
+          <bgc:description number="89">Leaf demage of the third from max. five randomly chosen damaged leaves of the phytometer plant at the fifth field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="89">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="90">
+          <bgc:name number="90">Ldem_perc_5_4</bgc:name>
+          <bgc:typeOfVariable number="90">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="90">%</bgc:units>
+          <bgc:description number="90">Leaf demage of the forth from max. five randomly chosen damaged leaves of the phytometer plant at the fifth field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="90">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="91">
+          <bgc:name number="91">Ldem_perc_5_5</bgc:name>
+          <bgc:typeOfVariable number="91">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="91">%</bgc:units>
+          <bgc:description number="91">Leaf demage of the fifth from max. five randomly chosen damaged leaves of the phytometer plant at the fifth field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="91">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="92">
+          <bgc:name number="92">BN_5</bgc:name>
+          <bgc:typeOfVariable number="92">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="92">number</bgc:units>
+          <bgc:description number="92">Branch number of the phytometer plant at the fifth field visit (counted)</bgc:description>
+          <bgc:block number="92">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="93">
+          <bgc:name number="93">BN_dem_5</bgc:name>
+          <bgc:typeOfVariable number="93">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="93">number</bgc:units>
+          <bgc:description number="93">Number of damaged branches of the phytometer plant at the fifth field visit (counted)</bgc:description>
+          <bgc:block number="93">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="94">
+          <bgc:name number="94">Bdem_perc_5</bgc:name>
+          <bgc:typeOfVariable number="94">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="94">%</bgc:units>
+          <bgc:description number="94">Proportion of branch demage of the phytometer plant at the fifth field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="94">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="95">
+          <bgc:name number="95">BN_fl_5</bgc:name>
+          <bgc:typeOfVariable number="95">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="95">number</bgc:units>
+          <bgc:description number="95">Number of flowering branches of the phytometer plant at the fifth field visit (counted)</bgc:description>
+          <bgc:block number="95">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="96">
+          <bgc:name number="96">Lmax_fl_B_5</bgc:name>
+          <bgc:typeOfVariable number="96">realNumber</bgc:typeOfVariable>
+          <bgc:units number="96">cm</bgc:units>
+          <bgc:description number="96">Leangth of the longest flowering branch of the phytometer plant at the fifth field visit (measured with ruler)</bgc:description>
+          <bgc:block number="96">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="97">
+          <bgc:name number="97">FN_5</bgc:name>
+          <bgc:typeOfVariable number="97">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="97">number</bgc:units>
+          <bgc:description number="97">Number of flowering units of the phytometer plant at the fifth field visit (counted)</bgc:description>
+          <bgc:block number="97">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="98">
+          <bgc:name number="98">Flowering_5</bgc:name>
+          <bgc:typeOfVariable number="98">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="98" />
+          <bgc:description number="98">Information if phytometer plants flowered at the fifth field visit (0=no, 1=yes)</bgc:description>
+          <bgc:block number="98">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="99">
+          <bgc:name number="99">LLmax_5</bgc:name>
+          <bgc:typeOfVariable number="99">realNumber</bgc:typeOfVariable>
+          <bgc:units number="99">cm</bgc:units>
+          <bgc:description number="99">Leaf leangth of the longest leave of the phytometer plant at the fifth field visit (measured with ruler)</bgc:description>
+          <bgc:block number="99">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="100">
+          <bgc:name number="100">Diam_5</bgc:name>
+          <bgc:typeOfVariable number="100">realNumber</bgc:typeOfVariable>
+          <bgc:units number="100">cm</bgc:units>
+          <bgc:description number="100">Diameter of the phytometer plant at the fifth field visit (measured with ruler)</bgc:description>
+          <bgc:block number="100">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="101">
+          <bgc:name number="101">BNs_5</bgc:name>
+          <bgc:typeOfVariable number="101">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="101">number</bgc:units>
+          <bgc:description number="101">Number of side branches on the longest main branch at the fifth field visit. Only for Dianthus deltoides (counted)</bgc:description>
+          <bgc:block number="101">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="102">
+          <bgc:name number="102">Note_5</bgc:name>
+          <bgc:typeOfVariable number="102">string</bgc:typeOfVariable>
+          <bgc:units number="102" />
+          <bgc:description number="102">Specific information to the condition of the phytometer plants or the appropriate subplot postition at the fifth field visit, in cases if there were noticeable problems.</bgc:description>
+          <bgc:block number="102">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="103">
+          <bgc:name number="103">Date_6</bgc:name>
+          <bgc:typeOfVariable number="103">date</bgc:typeOfVariable>
+          <bgc:units number="103" />
+          <bgc:description number="103">Date of the sixth field visit. There the constitution of the phytometer plants was controlled and plants were harvested.</bgc:description>
+          <bgc:block number="103">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="104">
+          <bgc:name number="104">Alive_6</bgc:name>
+          <bgc:typeOfVariable number="104">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="104" />
+          <bgc:description number="104">Information if phytometer plant was present at the sixth field visit (0=no, 1=yes)</bgc:description>
+          <bgc:block number="104">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="105">
+          <bgc:name number="105">LN_6</bgc:name>
+          <bgc:typeOfVariable number="105">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="105">number</bgc:units>
+          <bgc:description number="105">Leave number of the phytometer plant at the sixth field visit (counted)</bgc:description>
+          <bgc:block number="105">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="106">
+          <bgc:name number="106">LN_dem_6</bgc:name>
+          <bgc:typeOfVariable number="106">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="106">number</bgc:units>
+          <bgc:description number="106">Number of demaged leaves of the phytometer plant at the sixth field visit. In addition the proportion of demage of five randomly chosen damaged leaves was estimated visiually, see the next variables)</bgc:description>
+          <bgc:block number="106">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="107">
+          <bgc:name number="107">Ldem_perc_6_1</bgc:name>
+          <bgc:typeOfVariable number="107">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="107">%</bgc:units>
+          <bgc:description number="107">Leaf demage of the first from max. five randomly chosen damaged leaves of the phytometer plant at the sixth field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="107">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="108">
+          <bgc:name number="108">Ldem_perc_6_2</bgc:name>
+          <bgc:typeOfVariable number="108">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="108">%</bgc:units>
+          <bgc:description number="108">Leaf demage of the second from max. five randomly chosen damaged leaves of the phytometer plant at the sixth field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="108">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="109">
+          <bgc:name number="109">Ldem_perc_6_3</bgc:name>
+          <bgc:typeOfVariable number="109">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="109">%</bgc:units>
+          <bgc:description number="109">Leaf demage of the third from max. five randomly chosen damaged leaves of the phytometer plant at the sixth field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="109">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="110">
+          <bgc:name number="110">Ldem_perc_6_4</bgc:name>
+          <bgc:typeOfVariable number="110">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="110">%</bgc:units>
+          <bgc:description number="110">Leaf demage of the forth from max. five randomly chosen damaged leaves of the phytometer plant at the sixth field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="110">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="111">
+          <bgc:name number="111">Ldem_perc_6_5</bgc:name>
+          <bgc:typeOfVariable number="111">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="111">%</bgc:units>
+          <bgc:description number="111">Leaf demage of the fifth from max. five randomly chosen damaged leaves of the phytometer plant at the sixth field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="111">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="112">
+          <bgc:name number="112">BN_6</bgc:name>
+          <bgc:typeOfVariable number="112">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="112">number</bgc:units>
+          <bgc:description number="112">Branch number of the phytometer plant at the sixth field visit (counted)</bgc:description>
+          <bgc:block number="112">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="113">
+          <bgc:name number="113">BN_dem_6</bgc:name>
+          <bgc:typeOfVariable number="113">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="113">number</bgc:units>
+          <bgc:description number="113">Number of damaged branches of the phytometer plant at the sixth field visit (counted)</bgc:description>
+          <bgc:block number="113">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="114">
+          <bgc:name number="114">Bdem_perc_6</bgc:name>
+          <bgc:typeOfVariable number="114">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="114">%</bgc:units>
+          <bgc:description number="114">Proportion of branch demage of the phytometer plant at the sixth field visit. Damage was estimated visiually in following percentage classes: 1%, 2%, 3%, 4%, 5%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 80%, 85%, 90%, 95%, 100%, Damage was recorded independent of the origin.</bgc:description>
+          <bgc:block number="114">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="115">
+          <bgc:name number="115">BN_fl_6</bgc:name>
+          <bgc:typeOfVariable number="115">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="115">number</bgc:units>
+          <bgc:description number="115">Number of flowering branches of the phytometer plant at the sixth field visit (counted)</bgc:description>
+          <bgc:block number="115">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="116">
+          <bgc:name number="116">Lmax_fl_B_6</bgc:name>
+          <bgc:typeOfVariable number="116">realNumber</bgc:typeOfVariable>
+          <bgc:units number="116">cm</bgc:units>
+          <bgc:description number="116">Leangth of the longest flowering branch of the phytometer plant at the sixth field visit (measured with ruler).</bgc:description>
+          <bgc:block number="116">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="117">
+          <bgc:name number="117">FN_6</bgc:name>
+          <bgc:typeOfVariable number="117">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="117">number</bgc:units>
+          <bgc:description number="117">Number of flowering units of the phytometer plant at the sixth field visit (counted)</bgc:description>
+          <bgc:block number="117">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="118">
+          <bgc:name number="118">Flowering_6</bgc:name>
+          <bgc:typeOfVariable number="118">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="118" />
+          <bgc:description number="118">Information if phytometer plants flowered at the sixth field visit (0=no, 1=yes)</bgc:description>
+          <bgc:block number="118">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="119">
+          <bgc:name number="119">LLmax_6</bgc:name>
+          <bgc:typeOfVariable number="119">realNumber</bgc:typeOfVariable>
+          <bgc:units number="119">cm</bgc:units>
+          <bgc:description number="119">Leaf leangth of the longest leave of the phytometer plant at the sixth field visit (measured with ruler)</bgc:description>
+          <bgc:block number="119">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="120">
+          <bgc:name number="120">Diam_6</bgc:name>
+          <bgc:typeOfVariable number="120">realNumber</bgc:typeOfVariable>
+          <bgc:units number="120">cm</bgc:units>
+          <bgc:description number="120">Diameter of the phytometer plant at the sixth field visit (measured with ruler)</bgc:description>
+          <bgc:block number="120">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="121">
+          <bgc:name number="121">BNs_6</bgc:name>
+          <bgc:typeOfVariable number="121">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="121">number</bgc:units>
+          <bgc:description number="121">Number of side branches on the longest main branch at the sixth visit. Only for Dianthus deltoides (counted)</bgc:description>
+          <bgc:block number="121">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="122">
+          <bgc:name number="122">Note_6</bgc:name>
+          <bgc:typeOfVariable number="122">string</bgc:typeOfVariable>
+          <bgc:units number="122" />
+          <bgc:description number="122">Specific information to the condition of the phytometer plants or the appropriate subplot postition at the sixth field visit, in cases if there were noticeable problems.</bgc:description>
+          <bgc:block number="122">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="123">
+          <bgc:name number="123">Leafmass</bgc:name>
+          <bgc:typeOfVariable number="123">realNumber</bgc:typeOfVariable>
+          <bgc:units number="123">g</bgc:units>
+          <bgc:description number="123">Dry weight of the leaf, which was used for SLA determinations. At the sixth field visits, where plants were harvested, one leaf per phytometer plant was collected and taken for measurements of SLA. We chose a mediumsized and if possible healthy and undamaged leaf (in g). Sometimes, when the plants were obviously in a bad constitution, two or more leafes were sampled.</bgc:description>
+          <bgc:block number="123">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="124">
+          <bgc:name number="124">Leafarea</bgc:name>
+          <bgc:typeOfVariable number="124">realNumber</bgc:typeOfVariable>
+          <bgc:units number="124">cm²</bgc:units>
+          <bgc:description number="124">Leaf area of the leaf, which was used for SLA determinations. At the sixth field visits, where plants were harvested, one leaf per phytometer plant was collected and taken for measurements of SLA. We chose a mediumsized and if possible healthy and undamaged leaf. For the meassurements we used a epson scanner and winfolia  (in cm²)</bgc:description>
+          <bgc:block number="124">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="125">
+          <bgc:name number="125">LeafmassRest</bgc:name>
+          <bgc:typeOfVariable number="125">realNumber</bgc:typeOfVariable>
+          <bgc:units number="125">g</bgc:units>
+          <bgc:description number="125">Dry weight of the rest of the leaves, which were included in leaf sampling but at least not in SLA determination because of their low quality (in g)</bgc:description>
+          <bgc:block number="125">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="126">
+          <bgc:name number="126">gen_BM</bgc:name>
+          <bgc:typeOfVariable number="126">realNumber</bgc:typeOfVariable>
+          <bgc:units number="126">g</bgc:units>
+          <bgc:description number="126">Dry weight of generative biomass including flowering units, fruits and seeds (in g)</bgc:description>
+          <bgc:block number="126">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="127">
+          <bgc:name number="127">BM_above</bgc:name>
+          <bgc:typeOfVariable number="127">realNumber</bgc:typeOfVariable>
+          <bgc:units number="127">g</bgc:units>
+          <bgc:description number="127">Dry weight of aboveground biomass (without gen_BM, Leafmass and LeafmassRest; in g)</bgc:description>
+          <bgc:block number="127">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="128">
+          <bgc:name number="128">BM_below</bgc:name>
+          <bgc:typeOfVariable number="128">realNumber</bgc:typeOfVariable>
+          <bgc:units number="128">g</bgc:units>
+          <bgc:description number="128">Dry weight of belowground biomass (in g)</bgc:description>
+          <bgc:block number="128">0</bgc:block>
+        </bgc:variable>
+      </bgc:variables>
+    </bgc:dataStructure>
+  </bgc:data>
+  <bgc:references>
+    <bgc:database />
+    <bgc:papers>
+      <bgc:paper number="1">Welk, A., Welk, E., Baudis, M., Böckelmann, J. &amp; Bruelheide, H. (2019): Plant species´ range type determines local responses to biotic interactions and land use. Ecology (in the press, ECY19-0106.R1). </bgc:paper>
+    </bgc:papers>
+    <bgc:relatedDatasets>
+      <bgc:dataset number="1" />
+    </bgc:relatedDatasets>
+    <bgc:citation>Welk, Astrid; Helge Bruelheide; Mathias Baudis; Jörg Böckelmann (2019): Phytometer data of an experiment with transplanted species of contrasting geographic range types under manipulated biotic interactions (herbivory and competition) and different land-use regimes in Germany, 2009 - 2010. v1.2.9. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/PublicData/PublicData.aspx?DatasetId=19166</bgc:citation>
+  </bgc:references>
+  <bgc:comment />
+</bgc:metaProfile>

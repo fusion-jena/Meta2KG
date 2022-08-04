@@ -1,0 +1,142 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">datagov-uk_f5cea3ea-ee4d-4b4b-afec-13a4e39cd0de</name>
+	<title type="str">Animal Licences</title>
+	<description type="str">Animal Licences
+
+Our Environmental Health department is responsible for animal licensing. A licence is required when keeping a Pet Shop, Zoo or Animal Boarding Establishment. This dataset lists the local authority’s Animal Licence holders. For further information or to apply for a Licence: [https://www.gov.uk/apply-for-a-licence/animal-boarding-establishment-licence/barnet/apply-1](https://www.gov.uk/apply-for-a-licence/animal-boarding-establishment-licence/barnet/apply-1) To know more about animal welfare and the Animal Welfare Act 2006: [https://www.gov.uk/animal-welfare-legislation-protecting-pets](https://www.gov.uk/animal-welfare-legislation-protecting-pets)
+
+Source: https://ckan.publishing.service.gov.uk/dataset/animal-licences1  
+Last updated at https://ckan.publishing.service.gov.uk/dataset : 2019-12-21</description>
+	<homepage type="str">https://data.world/datagov-uk/f5cea3ea-ee4d-4b4b-afec-13a4e39cd0de</homepage>
+	<license type="str">OGL</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">animal_licenses_1</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">extractdate</name>
+						<title type="str">ExtractDate</title>
+						<type type="str">datetime</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#dateTime</rdfType>
+						<dwSourceId type="str">extractdate</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">organisationuri</name>
+						<title type="str">OrganisationURI</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#anyURI</rdfType>
+						<dwSourceId type="str">organisationuri</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">organisationlabel</name>
+						<title type="str">OrganisationLabel</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">organisationlabel</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">casereference</name>
+						<title type="str">CaseReference</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">casereference</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">casedate</name>
+						<title type="str">CaseDate</title>
+						<type type="str">datetime</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#dateTime</rdfType>
+						<dwSourceId type="str">casedate</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">servicetype</name>
+						<title type="str">ServiceType</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">servicetype</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">servicetypelabel</name>
+						<title type="str">ServiceTypeLabel</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">servicetypelabel</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">premisesname</name>
+						<title type="str">PremisesName</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">premisesname</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">locationtext</name>
+						<title type="str">LocationText</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">locationtext</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">statusuri</name>
+						<title type="str">StatusURI</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#anyURI</rdfType>
+						<dwSourceId type="str">statusuri</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">statuslabel</name>
+						<title type="str">StatusLabel</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">statuslabel</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">licensestartdate</name>
+						<title type="str">LicenseStartDate</title>
+						<type type="str">datetime</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#dateTime</rdfType>
+						<dwSourceId type="str">licensestartdate</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">licenseenddate</name>
+						<title type="str">LicenseEndDate</title>
+						<type type="str">datetime</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#dateTime</rdfType>
+						<dwSourceId type="str">licenseenddate</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">licenseholder</name>
+						<title type="str">LicenseHolder</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">licenseholder</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">licenseholderaddress</name>
+						<title type="str">LicenseHolderAddress</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">licenseholderaddress</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/animal_licenses_1.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/animal-licenses-1.csv</name>
+			<path type="str">original/animal-licenses-1.csv</path>
+			<format type="str">csv</format>
+			<mediatype type="str">text/csv</mediatype>
+			<bytes type="int">16475</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">animals</item>
+		<item type="str">boarding establishments</item>
+		<item type="str">licenses</item>
+		<item type="str">licensing</item>
+	</keywords>
+</all>

@@ -1,0 +1,520 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">us-epa-gov_4e6856a9-1f18-449a-9cbd-0907d9c9dbea</name>
+	<title type="str">Combined Fish Data</title>
+	<description type="str">Combined Fish Data
+
+The data set is abundance or presence/absence data collected by species from wadeable stream sites along with water chemistry, including specifically specific conductivity and some other variables that were not used in the analysis. This dataset is associated with the following publication: Griffith, M., L. Zheng, and S. Cormier. Using extirpation to evaluate ionic tolerance of freshwater fish. ENVIRONMENTAL TOXICOLOGY AND CHEMISTRY. Society of Environmental Toxicology and Chemistry, Pensacola, FL, USA, 37(3): 871-883, (2018).
+
+Source: https://catalog.data.gov/dataset/combined-fish-data-313ac  
+Last updated at https://catalog.data.gov/organization/epa-gov : 2020-01-18  
+[More about U.S. Government Works](https://www.usa.gov/government-works)</description>
+	<homepage type="str">https://data.world/us-epa-gov/4e6856a9-1f18-449a-9cbd-0907d9c9dbea</homepage>
+	<license type="str">Public Domain</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">combined_less_csv_2</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">species</name>
+						<title type="str">species</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">state</name>
+						<title type="str">state</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">state</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">hucname</name>
+						<title type="str">HUCName</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">hucname</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">common_name</name>
+						<title type="str">Common_Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">common_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dataset</name>
+						<title type="str">Dataset</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">dataset</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">station_date</name>
+						<title type="str">Station_Date</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">station_date</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">site_id</name>
+						<title type="str">SITE_ID</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">site_id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">year</name>
+						<title type="str">YEAR</title>
+						<type type="str">gyear</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#gYear</rdfType>
+						<dwSourceId type="str">year</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">month</name>
+						<title type="str">month</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">month</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">ecoregl3</name>
+						<title type="str">ECOREGL3</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">ecoregl3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">lat_dd</name>
+						<title type="str">LAT_DD</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">lat_dd</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">lon_dd</name>
+						<title type="str">LON_DD</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">lon_dd</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">huc</name>
+						<title type="str">HUC</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">huc</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">bighuc</name>
+						<title type="str">BigHUC</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">bighuc</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">fe</name>
+						<title type="str">FE</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">fe</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">mn</name>
+						<title type="str">MN</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">mn</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">phstvl</name>
+						<title type="str">PHSTVL</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">phstvl</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">cond</name>
+						<title type="str">COND</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">cond</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">tp</name>
+						<title type="str">TP</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">tp</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">ca</name>
+						<title type="str">CA</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">ca</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">so4</name>
+						<title type="str">SO4</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">so4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">no3</name>
+						<title type="str">NO3</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">no3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">cl</name>
+						<title type="str">CL</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">cl</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">alk</name>
+						<title type="str">alk</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">alk</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">do</name>
+						<title type="str">do</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">do</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">temp</name>
+						<title type="str">Temp</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">temp</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">rbpscore</name>
+						<title type="str">rbpscore</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">rbpscore</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">genus</name>
+						<title type="str">GENUS</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">genus</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">abund</name>
+						<title type="str">ABUND</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">abund</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sumcount</name>
+						<title type="str">SUMCOUNT</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">sumcount</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">numspec</name>
+						<title type="str">NUMSPEC</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">numspec</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">nsbent_inv</name>
+						<title type="str">NSBENT_INV</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">nsbent_inv</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">nsbent_inv_nontol</name>
+						<title type="str">NSBENT_INV_NONTOL</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">nsbent_inv_nontol</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">nsintol</name>
+						<title type="str">NSINTOL</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">nsintol</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">pintol</name>
+						<title type="str">PINTOL</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">pintol</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">pbent_inv</name>
+						<title type="str">PBENT_INV</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">pbent_inv</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">pbent_inv_nontol</name>
+						<title type="str">PBENT_INV_NONTOL</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">pbent_inv_nontol</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">ws_area</name>
+						<title type="str">WS_AREA</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">ws_area</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">lwskm2</name>
+						<title type="str">LWSKM2</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">lwskm2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">abent_inv</name>
+						<title type="str">abent_inv</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">abent_inv</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">abent_inv_nontol</name>
+						<title type="str">abent_inv_nontol</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">abent_inv_nontol</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">aintol</name>
+						<title type="str">aintol</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">aintol</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">ns_darscumad</name>
+						<title type="str">ns_DarScuMad</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">ns_darscumad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">ab_darscumad</name>
+						<title type="str">ab_DarScuMad</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">ab_darscumad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">p_darscumad</name>
+						<title type="str">p_DarScuMad</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">p_darscumad</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">station_year</name>
+						<title type="str">Station_Year</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">station_year</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">lcond</name>
+						<title type="str">lcond</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">lcond</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">so4hco3</name>
+						<title type="str">SO4HCO3</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">so4hco3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">ratio</name>
+						<title type="str">ratio</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">ratio</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">totcount</name>
+						<title type="str">TotCount</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">totcount</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">ra</name>
+						<title type="str">RA</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">ra</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">for_tot</name>
+						<title type="str">FOR_TOT</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">for_tot</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">hardness</name>
+						<title type="str">hardness</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">hardness</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">fecal_coliform</name>
+						<title type="str">Fecal_Coliform</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">fecal_coliform</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">xembed</name>
+						<title type="str">xembed</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">xembed</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">pct_safn</name>
+						<title type="str">pct_safn</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">pct_safn</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">visit_no</name>
+						<title type="str">VISIT_NO</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">visit_no</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">num</name>
+						<title type="str">num</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">num</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">mg</name>
+						<title type="str">mg</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">mg</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">na</name>
+						<title type="str">na</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">na</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">k</name>
+						<title type="str">k</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">k</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">hco3</name>
+						<title type="str">hco3</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">hco3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">tn</name>
+						<title type="str">tn</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">tn</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">al</name>
+						<title type="str">al</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">al</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">se</name>
+						<title type="str">Se</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">se</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">cadmium</name>
+						<title type="str">Cadmium</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">cadmium</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">calcium</name>
+						<title type="str">Calcium</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">calcium</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">yearmonth</name>
+						<title type="str"> YearMonth</title>
+						<type type="str">gyearmonth</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#gYearMonth</rdfType>
+						<dwSourceId type="str">yearmonth</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/combined_less_csv_2.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/combined-less-csv-2.csv</name>
+			<path type="str">original/combined-less-csv-2.csv</path>
+			<format type="str">csv</format>
+			<mediatype type="str">text/csv</mediatype>
+			<bytes type="int">12742122</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/fish-conductivity-column-metadata-xlsx-1.xml</name>
+			<path type="str">original/fish-conductivity-column-metadata-xlsx-1.xml</path>
+			<format type="str">xml</format>
+			<mediatype type="str">application/xml</mediatype>
+			<bytes type="int">15258</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">fish</item>
+		<item type="str">freshwater</item>
+		<item type="str">salinity</item>
+	</keywords>
+</all>

@@ -1,0 +1,1754 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='498'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/498</alternateIdentifier>
+<title>Main Experiment: Visitors of extrafloral nectaries (2012)</title>
+<creator id='mstaab'>
+<individualName>
+<givenName>Michael</givenName>
+<surName>Staab</surName>
+</individualName>
+<organizationName>University of Freiburg, Chair of Nature Conservation and Landscape Ecology</organizationName>
+<address>
+<deliveryPoint>Tennenbacher Str. 4</deliveryPoint>
+<city>79106 Freiburg im Breisgau</city>
+<country>Germany</country>
+</address>
+<phone>+49 (0)761 203 - 67787</phone>
+<electronicMailAddress>michael.staab@nature.uni-freiburg.de</electronicMailAddress>
+</creator>
+<creator id='aklein'>
+<individualName>
+<givenName>Alexandra-Maria</givenName>
+<surName>Klein</surName>
+</individualName>
+<organizationName>Institute of Ecology and Environmental Chemistry, Section  Ecosystem Functions, Leuphana University of Lueneburg</organizationName>
+<address>
+<deliveryPoint>Scharnhorststr. 1</deliveryPoint>
+<city>21332 Lüneburg</city>
+<country>Germany</country>
+</address>
+<phone>++49 (0) 4131-677-2960</phone>
+<electronicMailAddress>alexandra.klein@nature.uni-freiburg.de</electronicMailAddress>
+</creator>
+<creator id='jpeters'>
+<individualName>
+<givenName>Jan</givenName>
+<surName>Peters</surName>
+</individualName>
+
+
+<electronicMailAddress>petersjan79@googlemail.com</electronicMailAddress>
+</creator>
+<pubDate>2016-03-21</pubDate>
+<language>en_US</language>
+<abstract>
+<para>Trees with extrafloral nectaries (EFN) are common in tropical and subtropical forests and the presence of EFN trees within a tree community may influence tree growth. In this dataset EFN-tree-visiting arthropods were collected on all EFN tree species (Ailanthus altissima, Idesia polycarpa, Melia azedarach, Triadica sebifera, Triadica cochinchinensis, &lt;b&gt; excluding Diospyros japonica &lt;/b&gt;) of the main experiment (Site A and B). The data allow to test for tree diversity effects on EFN visitors. All data were collected with direct visual observation of single leaves. Please see Staab et al., 2016, Journal of Plant Ecology (doi:10.1093/jpe/rtw017) for more details on sampling.</para>
+
+</abstract>
+<keywordSet>
+<keyword>trees_ID</keyword>
+<keyword>tree_spec</keyword>
+<keyword>site</keyword>
+<keyword>PLOT_NO</keyword>
+<keyword>TREE_R</keyword>
+<keyword>Iridomyrmex anceps</keyword>
+<keyword>Crematogaster cf. rogenhoferi</keyword>
+<keyword>Crematogaster cf. nawai</keyword>
+<keyword>Camponotus vitiosus</keyword>
+<keyword>Pristomyrmex punctatus</keyword>
+<keyword>Alticinae sp.1</keyword>
+<keyword>Crematogaster cf. biroi</keyword>
+<keyword>Alticinae sp.2</keyword>
+<keyword>Tapinoma melanocephalum</keyword>
+<keyword>Diptera sp.2</keyword>
+<keyword>Ochetellus glaber</keyword>
+<keyword>Alticinae sp.3</keyword>
+<keyword>Monomorium chinense</keyword>
+<keyword>Chrysomelidae sp.1</keyword>
+<keyword>Lepisiota opaca</keyword>
+<keyword>Halictinae sp.1</keyword>
+<keyword>Nylanderia bourbonica</keyword>
+<keyword>Salticidae sp.3</keyword>
+<keyword>Coleoptera 1</keyword>
+<keyword>Chrysomelidae sp.4</keyword>
+<keyword>Polyrhachis dives</keyword>
+<keyword>Diptera sp.1</keyword>
+<keyword>Diptera sp.5</keyword>
+<keyword>Diptera sp.8</keyword>
+<keyword>Diptera sp.13</keyword>
+<keyword>Diptera sp.14</keyword>
+<keyword>Diptera sp.15</keyword>
+<keyword>Diptera sp.24</keyword>
+<keyword>Theridiidae sp.1</keyword>
+<keyword>Halictinae sp.3</keyword>
+<keyword>Halictinae sp.2</keyword>
+<keyword>Elateridae sp.2</keyword>
+<keyword>Coccinellidae sp.1</keyword>
+<keyword>Chrysomelidae sp.2</keyword>
+<keyword>Dilobocondyla fouqueti</keyword>
+<keyword>Diptera sp.3</keyword>
+<keyword>Diptera sp.4</keyword>
+<keyword>Diptera sp.7</keyword>
+<keyword>Diptera sp.9</keyword>
+<keyword>Diptera sp.10</keyword>
+<keyword>Diptera sp.11</keyword>
+<keyword>Diptera sp.12</keyword>
+<keyword>Diptera sp.16</keyword>
+<keyword>Diptera sp.17</keyword>
+<keyword>Diptera sp.18</keyword>
+<keyword>Diptera sp.19</keyword>
+<keyword>Diptera sp.20</keyword>
+<keyword>Diptera sp.21</keyword>
+<keyword>Diptera sp.22</keyword>
+<keyword>Diptera sp.25</keyword>
+<keyword>Diptera sp.26</keyword>
+<keyword>Salticidae sp.1</keyword>
+<keyword>Salticidae sp.2</keyword>
+<keyword>Braconidae sp.1</keyword>
+<keyword>Braconidae sp.2</keyword>
+<keyword>Mutillidae sp.1</keyword>
+<keyword>Chrysomelidae sp.3</keyword>
+<keyword>Campsosternus auratus</keyword>
+<keyword>Bruchidae sp.1</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>This data is open access as long as the original publication is properly cited: 
+Staab, M., Methorst, J., Peters, J., Blüthgen, N. &amp; Klein, A.M. (2016): Tree diversity and nectar composition affect arthropod visitors on extrafloral nectaries in a diversity experiment. Journal of Plant Ecology. online first. doi: 10.1093/jpe/rtw017.</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/498/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>BEF-China Main Experiment</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2012-04-12
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2012-05-30
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>All EFN-visiting arthropods</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+All EFN-visiting arthropods
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>mstaab</references>
+</contact>
+<contact>
+<references>aklein</references>
+</contact>
+<contact>
+<references>jpeters</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>Main Experiment: Visitors of extrafloral nectaries (2012)</para>
+<para>Trees with extrafloral nectaries (EFN) are common in tropical and subtropical forests and the presence of EFN trees within a tree community may influence tree growth. In this dataset EFN-tree-visiting arthropods were collected on all EFN tree species (Ailanthus altissima, Idesia polycarpa, Melia azedarach, Triadica sebifera, Triadica cochinchinensis, &lt;b&gt; excluding Diospyros japonica &lt;/b&gt;) of the main experiment (Site A and B). The data allow to test for tree diversity effects on EFN visitors. All data were collected with direct visual observation of single leaves. Please see Staab et al., 2016, Journal of Plant Ecology (doi:10.1093/jpe/rtw017) for more details on sampling.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2012-04-12 00:00:00 UTC - 2012-05-30 00:00:00 UTC</para>
+
+<para>BEF-China Main Experiment</para>
+<para>All EFN-visiting arthropods</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>Staab, M., Methorst, J., Peters, J., Blüthgen, N. &amp; Klein, A.M. (2016): Tree diversity and nectar composition affect arthropod visitors on extrafloral nectaries in a diversity experiment. Journal of Plant Ecology. online first. doi: 10.1093/jpe/rtw017.</para>
+
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/498</entityName>
+<entityDescription>Main Experiment: Visitors of extrafloral nectaries (2012)</entityDescription>
+<physical>
+<objectName>/datasets/498</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/498/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='trees_ID'>
+<attributeName> (trees_ID), coordinates</attributeName>
+<attributeLabel>trees_ID</attributeLabel>
+<attributeDefinition> (trees_ID: Position of each tree inside the given plot)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Position of each tree inside the given plot</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='tree_spec'>
+<attributeName> (tree_spec), category (i.e. species name)</attributeName>
+<attributeLabel>tree_spec</attributeLabel>
+<attributeDefinition> (tree_spec: Tree species name)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Tree species name</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='site'>
+<attributeName> (site), category (i.e. site identity)</attributeName>
+<attributeLabel>site</attributeLabel>
+<attributeDefinition> (site: Site of the BEF-China Main Experiment (either A or B))</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Site of the BEF-China Main Experiment (either A or B)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='PLOT_NO'>
+<attributeName> (PLOT_NO), category</attributeName>
+<attributeLabel>PLOT_NO</attributeLabel>
+<attributeDefinition> (PLOT_NO: Name of each plot, coded with letters and numbers)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Name of each plot, coded with letters and numbers</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='TREE_R'>
+<attributeName> (TREE_R), integer</attributeName>
+<attributeLabel>TREE_R</attributeLabel>
+<attributeDefinition> (TREE_R: Planned tree species richness according to design.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Planned tree species richness according to design.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Iridomyrmex anceps'>
+<attributeName> (Iridomyrmex anceps), </attributeName>
+<attributeLabel>Iridomyrmex anceps</attributeLabel>
+<attributeDefinition> (Iridomyrmex anceps: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Crematogaster cf. rogenhoferi'>
+<attributeName> (Crematogaster cf. rogenhoferi), </attributeName>
+<attributeLabel>Crematogaster cf. rogenhoferi</attributeLabel>
+<attributeDefinition> (Crematogaster cf. rogenhoferi: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Crematogaster cf. nawai'>
+<attributeName> (Crematogaster cf. nawai), </attributeName>
+<attributeLabel>Crematogaster cf. nawai</attributeLabel>
+<attributeDefinition> (Crematogaster cf. nawai: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Camponotus vitiosus'>
+<attributeName> (Camponotus vitiosus), </attributeName>
+<attributeLabel>Camponotus vitiosus</attributeLabel>
+<attributeDefinition> (Camponotus vitiosus: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Pristomyrmex punctatus'>
+<attributeName> (Pristomyrmex punctatus), </attributeName>
+<attributeLabel>Pristomyrmex punctatus</attributeLabel>
+<attributeDefinition> (Pristomyrmex punctatus: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Alticinae sp.1'>
+<attributeName> (Alticinae sp.1), </attributeName>
+<attributeLabel>Alticinae sp.1</attributeLabel>
+<attributeDefinition> (Alticinae sp.1: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Crematogaster cf. biroi'>
+<attributeName> (Crematogaster cf. biroi), </attributeName>
+<attributeLabel>Crematogaster cf. biroi</attributeLabel>
+<attributeDefinition> (Crematogaster cf. biroi: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Alticinae sp.2'>
+<attributeName> (Alticinae sp.2), </attributeName>
+<attributeLabel>Alticinae sp.2</attributeLabel>
+<attributeDefinition> (Alticinae sp.2: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Tapinoma melanocephalum'>
+<attributeName> (Tapinoma melanocephalum), </attributeName>
+<attributeLabel>Tapinoma melanocephalum</attributeLabel>
+<attributeDefinition> (Tapinoma melanocephalum: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.2'>
+<attributeName> (Diptera sp.2), </attributeName>
+<attributeLabel>Diptera sp.2</attributeLabel>
+<attributeDefinition> (Diptera sp.2: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Ochetellus glaber'>
+<attributeName> (Ochetellus glaber), </attributeName>
+<attributeLabel>Ochetellus glaber</attributeLabel>
+<attributeDefinition> (Ochetellus glaber: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Alticinae sp.3'>
+<attributeName> (Alticinae sp.3), </attributeName>
+<attributeLabel>Alticinae sp.3</attributeLabel>
+<attributeDefinition> (Alticinae sp.3: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Monomorium chinense'>
+<attributeName> (Monomorium chinense), </attributeName>
+<attributeLabel>Monomorium chinense</attributeLabel>
+<attributeDefinition> (Monomorium chinense: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Chrysomelidae sp.1'>
+<attributeName> (Chrysomelidae sp.1), </attributeName>
+<attributeLabel>Chrysomelidae sp.1</attributeLabel>
+<attributeDefinition> (Chrysomelidae sp.1: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Lepisiota opaca'>
+<attributeName> (Lepisiota opaca), </attributeName>
+<attributeLabel>Lepisiota opaca</attributeLabel>
+<attributeDefinition> (Lepisiota opaca: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Halictinae sp.1'>
+<attributeName> (Halictinae sp.1), </attributeName>
+<attributeLabel>Halictinae sp.1</attributeLabel>
+<attributeDefinition> (Halictinae sp.1: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Nylanderia bourbonica'>
+<attributeName> (Nylanderia bourbonica), </attributeName>
+<attributeLabel>Nylanderia bourbonica</attributeLabel>
+<attributeDefinition> (Nylanderia bourbonica: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Salticidae sp.3'>
+<attributeName> (Salticidae sp.3), </attributeName>
+<attributeLabel>Salticidae sp.3</attributeLabel>
+<attributeDefinition> (Salticidae sp.3: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Coleoptera 1'>
+<attributeName> (Coleoptera 1), </attributeName>
+<attributeLabel>Coleoptera 1</attributeLabel>
+<attributeDefinition> (Coleoptera 1: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Chrysomelidae sp.4'>
+<attributeName> (Chrysomelidae sp.4), </attributeName>
+<attributeLabel>Chrysomelidae sp.4</attributeLabel>
+<attributeDefinition> (Chrysomelidae sp.4: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Polyrhachis dives'>
+<attributeName> (Polyrhachis dives), </attributeName>
+<attributeLabel>Polyrhachis dives</attributeLabel>
+<attributeDefinition> (Polyrhachis dives: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.1'>
+<attributeName> (Diptera sp.1), </attributeName>
+<attributeLabel>Diptera sp.1</attributeLabel>
+<attributeDefinition> (Diptera sp.1: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.5'>
+<attributeName> (Diptera sp.5), </attributeName>
+<attributeLabel>Diptera sp.5</attributeLabel>
+<attributeDefinition> (Diptera sp.5: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.8'>
+<attributeName> (Diptera sp.8), </attributeName>
+<attributeLabel>Diptera sp.8</attributeLabel>
+<attributeDefinition> (Diptera sp.8: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.13'>
+<attributeName> (Diptera sp.13), </attributeName>
+<attributeLabel>Diptera sp.13</attributeLabel>
+<attributeDefinition> (Diptera sp.13: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.14'>
+<attributeName> (Diptera sp.14), </attributeName>
+<attributeLabel>Diptera sp.14</attributeLabel>
+<attributeDefinition> (Diptera sp.14: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.15'>
+<attributeName> (Diptera sp.15), </attributeName>
+<attributeLabel>Diptera sp.15</attributeLabel>
+<attributeDefinition> (Diptera sp.15: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.24'>
+<attributeName> (Diptera sp.24), </attributeName>
+<attributeLabel>Diptera sp.24</attributeLabel>
+<attributeDefinition> (Diptera sp.24: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Theridiidae sp.1'>
+<attributeName> (Theridiidae sp.1), </attributeName>
+<attributeLabel>Theridiidae sp.1</attributeLabel>
+<attributeDefinition> (Theridiidae sp.1: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Halictinae sp.3'>
+<attributeName> (Halictinae sp.3), </attributeName>
+<attributeLabel>Halictinae sp.3</attributeLabel>
+<attributeDefinition> (Halictinae sp.3: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Halictinae sp.2'>
+<attributeName> (Halictinae sp.2), </attributeName>
+<attributeLabel>Halictinae sp.2</attributeLabel>
+<attributeDefinition> (Halictinae sp.2: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Elateridae sp.2'>
+<attributeName> (Elateridae sp.2), </attributeName>
+<attributeLabel>Elateridae sp.2</attributeLabel>
+<attributeDefinition> (Elateridae sp.2: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Coccinellidae sp.1'>
+<attributeName> (Coccinellidae sp.1), </attributeName>
+<attributeLabel>Coccinellidae sp.1</attributeLabel>
+<attributeDefinition> (Coccinellidae sp.1: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Chrysomelidae sp.2'>
+<attributeName> (Chrysomelidae sp.2), </attributeName>
+<attributeLabel>Chrysomelidae sp.2</attributeLabel>
+<attributeDefinition> (Chrysomelidae sp.2: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Dilobocondyla fouqueti'>
+<attributeName> (Dilobocondyla fouqueti), </attributeName>
+<attributeLabel>Dilobocondyla fouqueti</attributeLabel>
+<attributeDefinition> (Dilobocondyla fouqueti: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.3'>
+<attributeName> (Diptera sp.3), </attributeName>
+<attributeLabel>Diptera sp.3</attributeLabel>
+<attributeDefinition> (Diptera sp.3: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.4'>
+<attributeName> (Diptera sp.4), </attributeName>
+<attributeLabel>Diptera sp.4</attributeLabel>
+<attributeDefinition> (Diptera sp.4: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.7'>
+<attributeName> (Diptera sp.7), </attributeName>
+<attributeLabel>Diptera sp.7</attributeLabel>
+<attributeDefinition> (Diptera sp.7: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.9'>
+<attributeName> (Diptera sp.9), </attributeName>
+<attributeLabel>Diptera sp.9</attributeLabel>
+<attributeDefinition> (Diptera sp.9: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.10'>
+<attributeName> (Diptera sp.10), </attributeName>
+<attributeLabel>Diptera sp.10</attributeLabel>
+<attributeDefinition> (Diptera sp.10: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.11'>
+<attributeName> (Diptera sp.11), </attributeName>
+<attributeLabel>Diptera sp.11</attributeLabel>
+<attributeDefinition> (Diptera sp.11: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.12'>
+<attributeName> (Diptera sp.12), </attributeName>
+<attributeLabel>Diptera sp.12</attributeLabel>
+<attributeDefinition> (Diptera sp.12: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.16'>
+<attributeName> (Diptera sp.16), </attributeName>
+<attributeLabel>Diptera sp.16</attributeLabel>
+<attributeDefinition> (Diptera sp.16: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.17'>
+<attributeName> (Diptera sp.17), </attributeName>
+<attributeLabel>Diptera sp.17</attributeLabel>
+<attributeDefinition> (Diptera sp.17: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.18'>
+<attributeName> (Diptera sp.18), </attributeName>
+<attributeLabel>Diptera sp.18</attributeLabel>
+<attributeDefinition> (Diptera sp.18: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.19'>
+<attributeName> (Diptera sp.19), </attributeName>
+<attributeLabel>Diptera sp.19</attributeLabel>
+<attributeDefinition> (Diptera sp.19: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.20'>
+<attributeName> (Diptera sp.20), </attributeName>
+<attributeLabel>Diptera sp.20</attributeLabel>
+<attributeDefinition> (Diptera sp.20: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.21'>
+<attributeName> (Diptera sp.21), </attributeName>
+<attributeLabel>Diptera sp.21</attributeLabel>
+<attributeDefinition> (Diptera sp.21: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.22'>
+<attributeName> (Diptera sp.22), </attributeName>
+<attributeLabel>Diptera sp.22</attributeLabel>
+<attributeDefinition> (Diptera sp.22: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.25'>
+<attributeName> (Diptera sp.25), </attributeName>
+<attributeLabel>Diptera sp.25</attributeLabel>
+<attributeDefinition> (Diptera sp.25: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Diptera sp.26'>
+<attributeName> (Diptera sp.26), </attributeName>
+<attributeLabel>Diptera sp.26</attributeLabel>
+<attributeDefinition> (Diptera sp.26: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Salticidae sp.1'>
+<attributeName> (Salticidae sp.1), </attributeName>
+<attributeLabel>Salticidae sp.1</attributeLabel>
+<attributeDefinition> (Salticidae sp.1: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Salticidae sp.2'>
+<attributeName> (Salticidae sp.2), </attributeName>
+<attributeLabel>Salticidae sp.2</attributeLabel>
+<attributeDefinition> (Salticidae sp.2: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Braconidae sp.1'>
+<attributeName> (Braconidae sp.1), </attributeName>
+<attributeLabel>Braconidae sp.1</attributeLabel>
+<attributeDefinition> (Braconidae sp.1: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Braconidae sp.2'>
+<attributeName> (Braconidae sp.2), </attributeName>
+<attributeLabel>Braconidae sp.2</attributeLabel>
+<attributeDefinition> (Braconidae sp.2: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Mutillidae sp.1'>
+<attributeName> (Mutillidae sp.1), </attributeName>
+<attributeLabel>Mutillidae sp.1</attributeLabel>
+<attributeDefinition> (Mutillidae sp.1: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Chrysomelidae sp.3'>
+<attributeName> (Chrysomelidae sp.3), </attributeName>
+<attributeLabel>Chrysomelidae sp.3</attributeLabel>
+<attributeDefinition> (Chrysomelidae sp.3: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Campsosternus auratus'>
+<attributeName> (Campsosternus auratus), </attributeName>
+<attributeLabel>Campsosternus auratus</attributeLabel>
+<attributeDefinition> (Campsosternus auratus: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Bruchidae sp.1'>
+<attributeName> (Bruchidae sp.1), </attributeName>
+<attributeLabel>Bruchidae sp.1</attributeLabel>
+<attributeDefinition> (Bruchidae sp.1: Arthropod species or morphospecies)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition></definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+
+
+<para>Arthropod species or morphospecies</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>80</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

@@ -1,0 +1,175 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">animals_zoo-animal-lifespans</name>
+	<title type="str">Zoo Animal Lifespans</title>
+	<description type="str">Life expectancy estimates for North American zoo and aquarium vertebrate animals
+
+Data behind the article [Sex-specific median life expectancies from _ex situ_ populations for 330 animal species](https://www.nature.com/articles/sdata201919). 
+
+## Abstract
+
+We present life expectancy estimates for hundreds of vertebrate species based on carefully vetted studbook data from North American zoos and aquariums. These data include sex-specific median life expectancies as well as sample size and 95% confidence limits for each estimate. Existing longevity data for animals primarily consist of maximum lifespan values, which are single observations rather than statistically derived estimates of longevity. Moreover, all of our estimates are based on the same type of data and calculated using consistent, standardized methods. To derive these estimates, we conducted Kaplan-Meier survival analyses using individual-level demographic data (i.e., records of birth and mortality events) from studbook records for each ex situ population. Our species set represents a range of vertebrate taxa (primarily mammals, birds, amphibians, and reptiles) and diverse life histories. This dataset will have broad utility, not only for informing comparative demographic and life history studies, but also more broadly for any research or conservation application that requires sex- or species-specific life expectancy information.
+
+## Data Dictionary
+
+| Term        | Description       |
+| ------------------ |----------------------------------------------------------------------------|
+| MLE     | median life expectancy |
+| CI      | confidence interval     |
+| Data Deficient | Datasets that failed at least one of the five data quality tests . See [Technical Validation](https://www.nature.com/articles/sdata201919#technical-validation).    |
+
+## Data Citation
+
+&gt; Che-Castaldo, J. P., Byrne, A., Perišin, K., &amp; Faust, L. J. figshare https://doi.org/10.6084/m9.figshare.7539968 (2018)
+
+Licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).</description>
+	<homepage type="str">https://data.world/animals/zoo-animal-lifespans</homepage>
+	<license type="str">CC-BY</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">aza_mle_jul2018</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">species_common_name</name>
+						<title type="str">Species Common Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">species_common_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">scientific_name</name>
+						<title type="str">Scientific Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">scientific_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">taxonclass</name>
+						<title type="str">TaxonClass</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">taxonclass</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">overall_sample_size</name>
+						<title type="str">Overall Sample Size</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">overall_sample_size</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">overall_mle</name>
+						<title type="str">Overall MLE</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">overall_mle</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">overall_ci_lower</name>
+						<title type="str">Overall CI - lower</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">overall_ci_lower</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">overall_ci_upper</name>
+						<title type="str">Overall CI - upper</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">overall_ci_upper</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">male_sample_size</name>
+						<title type="str">Male Sample Size</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">male_sample_size</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">male_mle</name>
+						<title type="str">Male MLE</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">male_mle</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">male_ci_lower</name>
+						<title type="str">Male CI - lower</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">male_ci_lower</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">male_ci_upper</name>
+						<title type="str">Male CI - upper</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">male_ci_upper</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">female_sample_size</name>
+						<title type="str">Female Sample Size</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">female_sample_size</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">female_mle</name>
+						<title type="str">Female MLE</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">female_mle</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">female_ci_lower</name>
+						<title type="str">Female CI - lower</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">female_ci_lower</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">female_ci_upper</name>
+						<title type="str">Female CI - upper</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">female_ci_upper</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">male_data_deficient</name>
+						<title type="str">Male Data Deficient</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">male_data_deficient</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">female_data_deficient</name>
+						<title type="str">Female Data Deficient</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">female_data_deficient</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/aza_mle_jul2018.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/AZA_MLE_Jul2018.csv</name>
+			<path type="str">original/AZA_MLE_Jul2018.csv</path>
+			<format type="str">csv</format>
+			<mediatype type="str">text/csv</mediatype>
+			<bytes type="int">34136</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">animals</item>
+		<item type="str">zoo animals</item>
+		<item type="str">life history processes</item>
+		<item type="str">longevity study</item>
+		<item type="str">life span study</item>
+		<item type="str">biodiversity</item>
+		<item type="str">population dynamics</item>
+		<item type="str">zoology</item>
+	</keywords>
+</all>

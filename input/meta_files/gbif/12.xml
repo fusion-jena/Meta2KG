@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="dbaa27eb-29e7-4cbb-8eab-3f689cfce116"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/rm6pm4</alternateIdentifier>
+    <title>United Kingdom Species Inventory (UKSI)</title>
+    <creator>
+    <individualName>
+<givenName>Chris</givenName>          <surName>Raper</surName>
+    </individualName>
+<organizationName>Natural History Museum, London</organizationName><positionName>Manager of the UK Species Inventory</positionName>    <address>
+<deliveryPoint>Natural History Museum, Cromwell Road</deliveryPoint><city>London</city><administrativeArea>London</administrativeArea><postalCode>SW7 5BD</postalCode><country>UNITED_KINGDOM</country>    </address>
+<electronicMailAddress>c.raper@nhm.ac.uk</electronicMailAddress><onlineUrl>https://www.nhm.ac.uk/our-science/departments-and-staff/staff-directory/chris-raper.html</onlineUrl>    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Chris</givenName>          <surName>Raper</surName>
+    </individualName>
+<organizationName>Natural History Museum, London</organizationName><positionName>Manager of the UK Species Inventory</positionName>    <address>
+<deliveryPoint>Natural History Museum, Cromwell Road</deliveryPoint><city>London</city><administrativeArea>London</administrativeArea><postalCode>SW7 5BD</postalCode><country>UNITED_KINGDOM</country>    </address>
+<electronicMailAddress>c.raper@nhm.ac.uk</electronicMailAddress><onlineUrl>https://www.nhm.ac.uk/our-science/departments-and-staff/staff-directory/chris-raper.html</onlineUrl>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>Sophia</givenName>          <surName>Ratcliffe</surName>
+    </individualName>
+<organizationName>National Biodiversity Network Trust</organizationName><positionName>NBN Atlas Data Manager</positionName>    <address>
+<city>Nottingham</city><administrativeArea>Nottinghamshire</administrativeArea><postalCode>NG1 1PF</postalCode><country>UNITED_KINGDOM</country>    </address>
+<electronicMailAddress>s.ratcliffe@nbn.org.uk</electronicMailAddress>    <role>EDITOR</role>
+    </associatedParty>
+      <pubDate>
+      2021-03-02
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The UK Species Inventory is the most comprehensive curated database of UK wildlife taxonomy and nomenclature. Originally developed for the JNCC&amp;#39;s &amp;#34;Recorder&amp;#34; biological recording package, the database has since 2000 been maintained by the Natural History Museum, London. Data has been sourced from published checklists and from a network of dedicated amateur and professional taxonomists. It forms the foundation for the largest biological recording and reporting systems in the UK, including all of the partners in the National Biodiversity Network. This extract from the UKSI has been created by the data management team at the NBN Atlas as as simplified derivative checklist.</para>
+    </abstract>
+        <keywordSet>
+              <keyword>synonymy</keyword>
+              <keyword>vernacular names</keyword>
+              <keyword>checklist</keyword>
+              <keyword>UKSI</keyword>
+              <keyword>taxonomy</keyword>
+              <keywordThesaurus>n/a</keywordThesaurus>
+        </keywordSet>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">https://www.nhm.ac.uk/our-science/data/uk-species/species/index.html</url>
+          </online>
+      </distribution>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>UK</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>0</westBoundingCoordinate>
+                      <eastBoundingCoordinate>0</eastBoundingCoordinate>
+                      <northBoundingCoordinate>0</northBoundingCoordinate>
+                      <southBoundingCoordinate>0</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+      </coverage>
+      <maintenance>
+          <description>
+              <para>A checklist of wildlife in the UK, derived from the UK Species Inventory. The UKSI is maintained by the Natural History Museum, London, from contributions supplied by expert taxonomists.</para>
+          </description>
+          <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+    <individualName>
+<givenName>Chris</givenName>          <surName>Raper</surName>
+    </individualName>
+<organizationName>Natural History Museum, London</organizationName><positionName>Manager of the UK Species Inventory</positionName>    <address>
+<deliveryPoint>Cromwell Road</deliveryPoint><city>London</city><administrativeArea>London</administrativeArea><postalCode>SW7 5BD</postalCode><country>UNITED_KINGDOM</country>    </address>
+<electronicMailAddress>c.raper@nhm.ac.uk</electronicMailAddress><onlineUrl>https://www.nhm.ac.uk/our-science/departments-and-staff/staff-directory/chris-raper.html</onlineUrl>      </contact>
+      <methods>
+            <methodStep>
+                <description>
+                    <para>The master data are held in Microsoft 365 Access database with powerful administration tools built in. Realease copies are manually created and distributed to partner organisations and interested parties. A local pre-release copy called the &quot;UKSI sandbox&quot; is available to consult at http://nbn-sd-dev.nhm.ac.uk/.</para>
+                </description>
+            </methodStep>
+            <qualityControl>
+                <description>
+                    <para>Additions and amendments are obtained from organisations and expert taxonomists, both voluntary and professional. Suggestions from new contributors are cross-checked with other experts at the NHM and further afield.</para>
+                </description>
+            </qualityControl>
+      </methods>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2021-12-07T12:27:52Z</dateStamp>
+      <citation>Raper C (2021). United Kingdom Species Inventory (UKSI). Version 37.9. Natural History Museum. Checklist dataset https://doi.org/10.15468/rm6pm4 accessed via GBIF.org on 2021-12-07.</citation>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

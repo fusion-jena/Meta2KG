@@ -1,0 +1,394 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">nz-waikato_0808cb5e-1fc2-4be7-b92e-2e8a7e548fdb</name>
+	<title type="str">Environmental indicators - Land and soil (Waikato)</title>
+	<description type="str">Environmental indicators - Land and soil (Waikato)
+
+The indicators for the quality of the Waikato region's land, soil and native vegetation and how it changes.
+
+Source: https://catalogue.data.govt.nz/dataset/environmental-indicators-land-and-soil-waikato  
+Last updated at https://catalogue.data.govt.nz/organization/waikato-regional-council : 2017-03-06</description>
+	<homepage type="str">https://data.world/nz-waikato/0808cb5e-1fc2-4be7-b92e-2e8a7e548fdb</homepage>
+	<license type="str">Other</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">data</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">column_a</name>
+						<title type="str">Column A</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_a</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">class_i_land_hectares</name>
+						<title type="str">Class I land (hectares)</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">class_i_land_hectares</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">class_ii_land_hectares</name>
+						<title type="str">Class II land (hectares)</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">class_ii_land_hectares</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">class_iii_land_hectares</name>
+						<title type="str">Class III land (hectares)</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">class_iii_land_hectares</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">class_iv_land_hectares</name>
+						<title type="str">Class IV land (hectares)</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">class_iv_land_hectares</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">classes_v_viii_land_hectares</name>
+						<title type="str">Classes V-VIII land (hectares)</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">classes_v_viii_land_hectares</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">total_hectares</name>
+						<title type="str">Total (hectares)</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">total_hectares</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/data.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">figure_1</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">surface_tyoe</name>
+						<title type="str">Surface tyoe</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">surface_tyoe</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_points_2007</name>
+						<title type="str">% sample points 2007</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_points_2007</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sample_points_2012</name>
+						<title type="str">% sample points 2012</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">sample_points_2012</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/figure_1.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">figure_2</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">land_use_process_class</name>
+						<title type="str">Land use process class</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">land_use_process_class</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">bare_soil_2007</name>
+						<title type="str">% bare soil 2007</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">bare_soil_2007</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">bare_soil_2012</name>
+						<title type="str">% bare soil 2012</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">bare_soil_2012</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/figure_2.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">figure_3</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">natural_process_category</name>
+						<title type="str">Natural process category</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">natural_process_category</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">bare_soil_2007</name>
+						<title type="str">% bare soil 2007</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">bare_soil_2007</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">bare_soil_2012</name>
+						<title type="str">% bare soil 2012</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">bare_soil_2012</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/figure_3.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">figure_4</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">land_use</name>
+						<title type="str">Land use</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">land_use</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">bare_soil_2007</name>
+						<title type="str">% bare soil 2007</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">bare_soil_2007</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">bare_soil_2012</name>
+						<title type="str">% bare soil 2012</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">bare_soil_2012</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/figure_4.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">indicator_data</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">land_use_type</name>
+						<title type="str">Land use type</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">land_use_type</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">percentage_of_region</name>
+						<title type="str">Percentage of Region</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">percentage_of_region</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">region_datasheet</name>
+						<title type="str">% Region Datasheet</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">region_datasheet</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/indicator_data.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">stock_access</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">column_a</name>
+						<title type="str">Column A</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">column_a</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">fenced</name>
+						<title type="str">Fenced</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">fenced</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">not_fenced</name>
+						<title type="str">Not fenced</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">not_fenced</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">fenced_2</name>
+						<title type="str">Fenced</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">fenced_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">not_fenced_2</name>
+						<title type="str">Not fenced</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">not_fenced_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">fenced_3</name>
+						<title type="str">Fenced</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">fenced_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">not_fenced_3</name>
+						<title type="str">Not fenced</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">not_fenced_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">fenced_4</name>
+						<title type="str">Fenced</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">fenced_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">not_fenced_4</name>
+						<title type="str">Not fenced</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">not_fenced_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">fenced_5</name>
+						<title type="str">Fenced</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">fenced_5</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">not_fenced_5</name>
+						<title type="str">Not fenced</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">not_fenced_5</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">fenced_6</name>
+						<title type="str">Fenced</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">fenced_6</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">not_fenced_6</name>
+						<title type="str">Not fenced</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">not_fenced_6</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">fenced_7</name>
+						<title type="str">Fenced</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">fenced_7</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">not_fenced_7</name>
+						<title type="str">Not fenced</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">not_fenced_7</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">fenced_8</name>
+						<title type="str">Fenced</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">fenced_8</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">not_fenced_8</name>
+						<title type="str">Not fenced</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">not_fenced_8</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/stock_access.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/land-use-3.xls</name>
+			<path type="str">original/land-use-3.xls</path>
+			<format type="str">xls</format>
+			<mediatype type="str">application/vnd.ms-excel</mediatype>
+			<bytes type="int">33792</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/resource_links.md</name>
+			<path type="str">original/resource_links.md</path>
+			<format type="str">md</format>
+			<mediatype type="str">text/markdown</mediatype>
+			<bytes type="int">334</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/rural-subdivision-1.xlsx</name>
+			<path type="str">original/rural-subdivision-1.xlsx</path>
+			<format type="str">xlsx</format>
+			<mediatype type="str">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mediatype>
+			<bytes type="int">10631</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/soil-stability-2.xlsx</name>
+			<path type="str">original/soil-stability-2.xlsx</path>
+			<format type="str">xlsx</format>
+			<mediatype type="str">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mediatype>
+			<bytes type="int">38233</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/stock-access-to-waterways-4.xlsx</name>
+			<path type="str">original/stock-access-to-waterways-4.xlsx</path>
+			<format type="str">xlsx</format>
+			<mediatype type="str">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mediatype>
+			<bytes type="int">16425</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">agriculture</item>
+		<item type="str">biodiversity</item>
+		<item type="str">environment</item>
+		<item type="str">forestry</item>
+		<item type="str">land</item>
+		<item type="str">soil</item>
+	</keywords>
+</all>

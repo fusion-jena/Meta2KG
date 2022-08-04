@@ -1,0 +1,1027 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='479'>
+<alternateIdentifier>http://china.befdata.biow.uni-leipzig.de/datasets/479</alternateIdentifier>
+<title>Data for Schuldt et al. 2015 &quot;Multitrophic diversity in a biodiverse forest is highly nonlinear across spatial scales&quot; (Nature Communitcations)</title>
+<creator id='aschuldt'>
+<individualName>
+<givenName>Andreas</givenName>
+<surName>Schuldt</surName>
+</individualName>
+<organizationName>German Centre for Integrative Biodiversity Research (iDiv), Leipzig</organizationName>
+<address>
+<deliveryPoint>Deutscher Platz 5e</deliveryPoint>
+<city>Leipzig</city>
+<country>Germany</country>
+</address>
+<phone>++49 (0) 341 9733232</phone>
+<electronicMailAddress>andreas.schuldt@idiv.de</electronicMailAddress>
+</creator>
+<creator id='hbruelheide'>
+<individualName>
+<givenName>Helge</givenName>
+<surName>Bruelheide</surName>
+</individualName>
+
+
+<electronicMailAddress>helge.bruelheide@botanik.uni-halle.de</electronicMailAddress>
+</creator>
+<creator id='twubet'>
+<individualName>
+<givenName>Tesfaye</givenName>
+<surName>Wubet</surName>
+</individualName>
+<organizationName>Helmholtz Centre for Environmental Research UFZ Leipzig-Halle,  Department of Soil Ecology</organizationName>
+<address>
+<deliveryPoint>Theodor-Lieser-Straße 4</deliveryPoint>
+<city>06120 Halle</city>
+<country>Germany</country>
+</address>
+<phone>+ 49 (0) 345-558 5204</phone>
+<electronicMailAddress>tesfaye.wubet@ufz.de</electronicMailAddress>
+</creator>
+<creator id='mstaab'>
+<individualName>
+<givenName>Michael</givenName>
+<surName>Staab</surName>
+</individualName>
+<organizationName>University of Freiburg, Chair of Nature Conservation and Landscape Ecology</organizationName>
+<address>
+<deliveryPoint>Tennenbacher Str. 4</deliveryPoint>
+<city>79106 Freiburg im Breisgau</city>
+<country>Germany</country>
+</address>
+<phone>+49 (0)761 203 - 67787</phone>
+<electronicMailAddress>michael.staab@nature.uni-freiburg.de</electronicMailAddress>
+</creator>
+<creator id='erfmeier'>
+<individualName>
+<givenName>Alexandra</givenName>
+<surName>Erfmeier</surName>
+</individualName>
+<organizationName>Institute of Botany / Geobotany and Botanical Garden  Martin Luther University Halle-Wittenberg</organizationName>
+<address>
+<deliveryPoint>Am Kirchtor 1</deliveryPoint>
+<city>06108 Halle/Saale</city>
+<country>Germany</country>
+</address>
+<phone>0345-55-26230</phone>
+<electronicMailAddress>aerfmeier@ecology.uni-kiel.de</electronicMailAddress>
+</creator>
+<pubDate>2015-03-30</pubDate>
+<language>en_US</language>
+<abstract>
+<para>This dataset accompanies the paper by Schuldt et al. &quot;Diversity relations across trophic levels change with spatial scale in a biodiverse forest&quot;</para>
+
+</abstract>
+<keywordSet>
+<keyword>arthropods</keyword>
+<keyword>morphospecies</keyword>
+<keyword>OTU</keyword>
+<keyword>plant species</keyword>
+<keyword>Scientific plant species name</keyword>
+<keyword>taxon</keyword>
+<keywordThesaurus>Find the list of keywords here: http://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>Plant species</keyword>
+<keyword>Arthropod species</keyword>
+<keyword>Operational Taxonomic Unit</keyword>
+<keyword>(Morpho)species_or_OTU</keyword>
+<keyword>Taxon</keyword>
+<keyword>CSP1</keyword>
+<keyword>CSP2</keyword>
+<keyword>CSP3</keyword>
+<keyword>CSP4</keyword>
+<keyword>CSP5</keyword>
+<keyword>CSP6</keyword>
+<keyword>CSP7</keyword>
+<keyword>CSP8</keyword>
+<keyword>CSP9</keyword>
+<keyword>CSP10</keyword>
+<keyword>CSP11</keyword>
+<keyword>CSP12</keyword>
+<keyword>CSP13</keyword>
+<keyword>CSP14</keyword>
+<keyword>CSP15</keyword>
+<keyword>CSP16</keyword>
+<keyword>CSP17</keyword>
+<keyword>CSP18</keyword>
+<keyword>CSP19</keyword>
+<keyword>CSP20</keyword>
+<keyword>CSP21</keyword>
+<keyword>CSP22</keyword>
+<keyword>CSP23</keyword>
+<keyword>CSP24</keyword>
+<keyword>CSP25</keyword>
+<keyword>CSP26</keyword>
+<keyword>CSP27</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Please contact Andreas Schuldt for usage permission</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+http://china.befdata.biow.uni-leipzig.de/datasets/479/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>Comparative Study Plots</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2008-04-30
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2012-10-30
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact>
+<references>aschuldt</references>
+</contact>
+<contact>
+<references>hbruelheide</references>
+</contact>
+<contact>
+<references>twubet</references>
+</contact>
+<contact>
+<references>mstaab</references>
+</contact>
+<contact>
+<references>erfmeier</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>Data for Schuldt et al. 2015 &quot;Multitrophic diversity in a biodiverse forest is highly nonlinear across spatial scales&quot; (Nature Communitcations)</para>
+<para>This dataset accompanies the paper by Schuldt et al. &quot;Diversity relations across trophic levels change with spatial scale in a biodiverse forest&quot;</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2008-04-30 00:00:00 UTC - 2012-10-30 00:00:00 UTC</para>
+<para>2008-2012</para>
+<para>Comparative Study Plots</para>
+
+</description>
+</studyExtent>
+<samplingDescription>
+<para>Organism data for the 27 Comparative Study Plots in the Gutianshan National Nature Reserve. Details on sampling can be found in the Schuldt et al. Paper</para>
+
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>http://china.befdata.biow.uni-leipzig.de/datasets/479</entityName>
+<entityDescription>Data for Schuldt et al. 2015 &quot;Multitrophic diversity in a biodiverse forest is highly nonlinear across spatial scales&quot; (Nature Communitcations)</entityDescription>
+<physical>
+<objectName>/datasets/479</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>http://china.befdata.biow.uni-leipzig.de/datasets/479/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='Plant species'>
+<attributeName>Scientific plant species name (Plant species), </attributeName>
+<attributeLabel>Plant species</attributeLabel>
+<attributeDefinition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required. (Plant species: Plant species)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Scientific plant species name</para>
+<para>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</para>
+<para>Plant species</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Arthropod species'>
+<attributeName>Arthropod species (Arthropod species), </attributeName>
+<attributeLabel>Arthropod species</attributeLabel>
+<attributeDefinition>Species or morphospecies from the phylum Arthropoda. This datagroup should only be used if cases in which it is not feasible to differentiate between different lower taxonomic levels. (Arthropod species: Arthropod species identified along the comparative study plot. Here some species are given as morphospecies as the analysis was not dependent on detailed taxonomic information.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Species or morphospecies from the phylum Arthropoda. This datagroup should only be used if cases in which it is not feasible to differentiate between different lower taxonomic levels.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Arthropod species</para>
+<para>Species or morphospecies from the phylum Arthropoda. This datagroup should only be used if cases in which it is not feasible to differentiate between different lower taxonomic levels.</para>
+<para>Arthropod species identified along the comparative study plot. Here some species are given as morphospecies as the analysis was not dependent on detailed taxonomic information.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Operational Taxonomic Unit'>
+<attributeName>Operational taxonomic unit (OTU) (Operational Taxonomic Unit), </attributeName>
+<attributeLabel>Operational Taxonomic Unit</attributeLabel>
+<attributeDefinition>In phylogeny an operational taxonomic unit (OTU) is an operational definition of a species or group of species often used when only DNA sequence data is available. It is the most commonly used microbial diversity unit.
+The definition given by NCBI is:
+&quot;Taxonomic level of sampling selected by the user to be used in a study, such as individuals, populations, species, genera, or bacterial strains.&quot;
+Another definition:
+&quot;Operational taxonomic unit, species distinction in microbiology. Typically using rRNA and a percent similarity threshold for classifying microbes within the same, or different, OTUs&quot; (Wikipedia entry) (Operational Taxonomic Unit: Operational Taxonomic Unit corresponding to microfauna)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>In phylogeny an operational taxonomic unit (OTU) is an operational definition of a species or group of species often used when only DNA sequence data is available. It is the most commonly used microbial diversity unit.
+The definition given by NCBI is:
+&quot;Taxonomic level of sampling selected by the user to be used in a study, such as individuals, populations, species, genera, or bacterial strains.&quot;
+Another definition:
+&quot;Operational taxonomic unit, species distinction in microbiology. Typically using rRNA and a percent similarity threshold for classifying microbes within the same, or different, OTUs&quot; (Wikipedia entry)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Operational taxonomic unit (OTU)</para>
+<para>In phylogeny an operational taxonomic unit (OTU) is an operational definition of a species or group of species often used when only DNA sequence data is available. It is the most commonly used microbial diversity unit.
+The definition given by NCBI is:
+&quot;Taxonomic level of sampling selected by the user to be used in a study, such as individuals, populations, species, genera, or bacterial strains.&quot;
+Another definition:
+&quot;Operational taxonomic unit, species distinction in microbiology. Typically using rRNA and a percent similarity threshold for classifying microbes within the same, or different, OTUs&quot; (Wikipedia entry)</para>
+<para>Operational Taxonomic Unit corresponding to microfauna</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='(Morpho)species_or_OTU'>
+<attributeName>Nominal taxon ((Morpho)species_or_OTU), </attributeName>
+<attributeLabel>(Morpho)species_or_OTU</attributeLabel>
+<attributeDefinition>Nominal taxon which has been assigned to a species(group). This does not reflect a real taxonomic instance but allows to differentiate certain taxonomic and/or functional instances across analyses that do not rely on detailed taxonomy. ((Morpho)species_or_OTU: Name code of (morpho)species or operational taxonomic unit (OTU). Nominal assignment to a group that can be used as a grouping factor for analyses on abundance across the Gutianshan study plots.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Nominal taxon which has been assigned to a species(group). This does not reflect a real taxonomic instance but allows to differentiate certain taxonomic and/or functional instances across analyses that do not rely on detailed taxonomy.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Nominal taxon</para>
+<para>Nominal taxon which has been assigned to a species(group). This does not reflect a real taxonomic instance but allows to differentiate certain taxonomic and/or functional instances across analyses that do not rely on detailed taxonomy.</para>
+<para>Name code of (morpho)species or operational taxonomic unit (OTU). Nominal assignment to a group that can be used as a grouping factor for analyses on abundance across the Gutianshan study plots.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Taxon'>
+<attributeName>Nominal taxon (Taxon), </attributeName>
+<attributeLabel>Taxon</attributeLabel>
+<attributeDefinition>Nominal taxon which has been assigned to a species(group). This does not reflect a real taxonomic instance but allows to differentiate certain taxonomic and/or functional instances across analyses that do not rely on detailed taxonomy. (Taxon: Higher taxonomic unit the (morpho)species or OTU belongs to. Moreover, detailed information on feeding preferences or similar are given.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Nominal taxon which has been assigned to a species(group). This does not reflect a real taxonomic instance but allows to differentiate certain taxonomic and/or functional instances across analyses that do not rely on detailed taxonomy.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Nominal taxon</para>
+<para>Nominal taxon which has been assigned to a species(group). This does not reflect a real taxonomic instance but allows to differentiate certain taxonomic and/or functional instances across analyses that do not rely on detailed taxonomy.</para>
+<para>Higher taxonomic unit the (morpho)species or OTU belongs to. Moreover, detailed information on feeding preferences or similar are given.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP1'>
+<attributeName>Abundance (CSP1), </attributeName>
+<attributeLabel>CSP1</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP1: Number of individuals recorded in study plot 1)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 1</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP2'>
+<attributeName>Abundance (CSP2), </attributeName>
+<attributeLabel>CSP2</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP2: Number of individuals recorded in study plot 2)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 2</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP3'>
+<attributeName>Abundance (CSP3), </attributeName>
+<attributeLabel>CSP3</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP3: Number of individuals recorded in study plot 3)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 3</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP4'>
+<attributeName>Abundance (CSP4), </attributeName>
+<attributeLabel>CSP4</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP4: Number of individuals recorded in study plot 4)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 4</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP5'>
+<attributeName>Abundance (CSP5), </attributeName>
+<attributeLabel>CSP5</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP5: Number of individuals recorded in study plot 5)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 5</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP6'>
+<attributeName>Abundance (CSP6), </attributeName>
+<attributeLabel>CSP6</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP6: Number of individuals recorded in study plot 6)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 6</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP7'>
+<attributeName>Abundance (CSP7), </attributeName>
+<attributeLabel>CSP7</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP7: Number of individuals recorded in study plot 7)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 7</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP8'>
+<attributeName>Abundance (CSP8), </attributeName>
+<attributeLabel>CSP8</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP8: Number of individuals recorded in study plot 8)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 8</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP9'>
+<attributeName>Abundance (CSP9), </attributeName>
+<attributeLabel>CSP9</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP9: Number of individuals recorded in study plot 9)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 9</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP10'>
+<attributeName>Abundance (CSP10), </attributeName>
+<attributeLabel>CSP10</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP10: Number of individuals recorded in study plot 10)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 10</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP11'>
+<attributeName>Abundance (CSP11), </attributeName>
+<attributeLabel>CSP11</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP11: Number of individuals recorded in study plot 11)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 11</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP12'>
+<attributeName>Abundance (CSP12), </attributeName>
+<attributeLabel>CSP12</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP12: Number of individuals recorded in study plot 12)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 12</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP13'>
+<attributeName>Abundance (CSP13), </attributeName>
+<attributeLabel>CSP13</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP13: Number of individuals recorded in study plot 13)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 13</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP14'>
+<attributeName>Abundance (CSP14), </attributeName>
+<attributeLabel>CSP14</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP14: Number of individuals recorded in study plot 14)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 14</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP15'>
+<attributeName>Abundance (CSP15), </attributeName>
+<attributeLabel>CSP15</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP15: Number of individuals recorded in study plot 15)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 15</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP16'>
+<attributeName>Abundance (CSP16), </attributeName>
+<attributeLabel>CSP16</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP16: Number of individuals recorded in study plot 16)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 16</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP17'>
+<attributeName>Abundance (CSP17), </attributeName>
+<attributeLabel>CSP17</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP17: Number of individuals recorded in study plot 17)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 17</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP18'>
+<attributeName>Abundance (CSP18), </attributeName>
+<attributeLabel>CSP18</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP18: Number of individuals recorded in study plot 18)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 18</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP19'>
+<attributeName>Abundance (CSP19), </attributeName>
+<attributeLabel>CSP19</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP19: Number of individuals recorded in study plot 19)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 19</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP20'>
+<attributeName>Abundance (CSP20), </attributeName>
+<attributeLabel>CSP20</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP20: Number of individuals recorded in study plot 20)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 20</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP21'>
+<attributeName>Abundance (CSP21), </attributeName>
+<attributeLabel>CSP21</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP21: Number of individuals recorded in study plot 21)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 21</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP22'>
+<attributeName>Abundance (CSP22), </attributeName>
+<attributeLabel>CSP22</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP22: Number of individuals recorded in study plot 22)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 22</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP23'>
+<attributeName>Abundance (CSP23), </attributeName>
+<attributeLabel>CSP23</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP23: Number of individuals recorded in study plot 23)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 23</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP24'>
+<attributeName>Abundance (CSP24), </attributeName>
+<attributeLabel>CSP24</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP24: Number of individuals recorded in study plot 24)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 24</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP25'>
+<attributeName>Abundance (CSP25), </attributeName>
+<attributeLabel>CSP25</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP25: Number of individuals recorded in study plot 25)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 25</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP26'>
+<attributeName>Abundance (CSP26), </attributeName>
+<attributeLabel>CSP26</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP26: Number of individuals recorded in study plot 26)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 26</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP27'>
+<attributeName>Abundance (CSP27), </attributeName>
+<attributeLabel>CSP27</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP27: Number of individuals recorded in study plot 27)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals recorded in study plot 27</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>204</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

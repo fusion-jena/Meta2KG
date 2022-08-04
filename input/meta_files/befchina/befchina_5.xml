@@ -1,0 +1,858 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='577'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/577</alternateIdentifier>
+<title>Main Experiment: Seedling addition experiment - growth and biomass data</title>
+<creator id='markus_ger'>
+<individualName>
+<givenName>Markus</givenName>
+<surName>Germany</surName>
+</individualName>
+
+<address>
+
+
+
+</address>
+
+<electronicMailAddress>mgermany@ecology.uni-kiel.de</electronicMailAddress>
+</creator>
+<creator id='erfmeier'>
+<individualName>
+<givenName>Alexandra</givenName>
+<surName>Erfmeier</surName>
+</individualName>
+<organizationName>Institute of Botany / Geobotany and Botanical Garden  Martin Luther University Halle-Wittenberg</organizationName>
+<address>
+<deliveryPoint>Am Kirchtor 1</deliveryPoint>
+<city>06108 Halle/Saale</city>
+<country>Germany</country>
+</address>
+<phone>0345-55-26230</phone>
+<electronicMailAddress>aerfmeier@ecology.uni-kiel.de</electronicMailAddress>
+</creator>
+<pubDate>2017-03-31</pubDate>
+<language>en_US</language>
+<abstract>
+<para>While coexistence in plant communities is frequently explained by effects of resource niche partitioning, the Janzen-Connell (J-C) hypothesis is an alternative approach that has been assumed as a major ecological mechanism explaining high species richness levels, in particular, in tropical forest ecosystems. Central components of the J-C hypothesis are non-competitive effects of density- and distance-dependence, thereby two drivers that contribute independently to species coexistence, but that are ultimately linked in the field. Here, we make use of the forest Biodiversity-Ecosystem Functioning project in subtropical China (BEF-China) to estimate density and distance dependence effects by means of a reciprocal tree seedling transplant experiment. Using monocultures of ten and seven tree species, respectively planted at two different sites, juveniles of all species were grown in their own (home) and in all other monocultures (away), thereby testing for distance effect, just as in three different levels of planting density, testing for density effects.
+
+In addition, we repeated a similar set-up in a nearby common garden experiment, where we added a &#39;shadow&#39; treatment to simulate different light conditions induced by the canopy layer. The general aim of the common garden experiment is to test for additional density dependent intraspecific competition for light in the absence of host-specific agents necessary for J-C effects. Density dependent patterns that are prevalent in the main experiment, while not being prevalent in the common garden experiment can be considered true J-C effects (see &quot;Common Garden Experiment: Seedling addition experiment - growth and biomass data&quot; for further details)</para>
+
+</abstract>
+<keywordSet>
+<keyword>janzen connell</keyword>
+<keyword>Main Experiment</keyword>
+<keyword>seedling addition</keyword>
+<keyword>seedling performance</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>Samplenr</keyword>
+<keyword>Seedlingnr</keyword>
+<keyword>Plot</keyword>
+<keyword>Subplot</keyword>
+<keyword>Splitplot</keyword>
+<keyword>Indnr_Splitplot</keyword>
+<keyword>Record</keyword>
+<keyword>Site</keyword>
+<keyword>PTAG</keyword>
+<keyword>Date</keyword>
+<keyword>Planted_Species</keyword>
+<keyword>Density</keyword>
+<keyword>Distance</keyword>
+<keyword>Home_Species</keyword>
+<keyword>Dead</keyword>
+<keyword>Height_P</keyword>
+<keyword>Height_G</keyword>
+<keyword>Leaves_Liv</keyword>
+<keyword>Leaves_Dam</keyword>
+<keyword>Leaves_Dead</keyword>
+<keyword>Damage_pro</keyword>
+<keyword>Biomass_Above</keyword>
+<keyword>Biomass_Below</keyword>
+<keyword>LAI</keyword>
+<keyword>Slope</keyword>
+<keyword>Northness</keyword>
+<keyword>Comments</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/577/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>Plots of the main experiment on Site A and B</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2015-04-30
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2016-09-30
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact>
+<references>markus_ger</references>
+</contact>
+<contact>
+<references>erfmeier</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>Main Experiment: Seedling addition experiment - growth and biomass data</para>
+<para>While coexistence in plant communities is frequently explained by effects of resource niche partitioning, the Janzen-Connell (J-C) hypothesis is an alternative approach that has been assumed as a major ecological mechanism explaining high species richness levels, in particular, in tropical forest ecosystems. Central components of the J-C hypothesis are non-competitive effects of density- and distance-dependence, thereby two drivers that contribute independently to species coexistence, but that are ultimately linked in the field. Here, we make use of the forest Biodiversity-Ecosystem Functioning project in subtropical China (BEF-China) to estimate density and distance dependence effects by means of a reciprocal tree seedling transplant experiment. Using monocultures of ten and seven tree species, respectively planted at two different sites, juveniles of all species were grown in their own (home) and in all other monocultures (away), thereby testing for distance effect, just as in three different levels of planting density, testing for density effects.
+
+In addition, we repeated a similar set-up in a nearby common garden experiment, where we added a &#39;shadow&#39; treatment to simulate different light conditions induced by the canopy layer. The general aim of the common garden experiment is to test for additional density dependent intraspecific competition for light in the absence of host-specific agents necessary for J-C effects. Density dependent patterns that are prevalent in the main experiment, while not being prevalent in the common garden experiment can be considered true J-C effects (see &quot;Common Garden Experiment: Seedling addition experiment - growth and biomass data&quot; for further details)</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2015-04-30 00:00:00 UTC - 2016-09-30 00:00:00 UTC</para>
+
+<para>Plots of the main experiment on Site A and B</para>
+
+</description>
+</studyExtent>
+<samplingDescription>
+<para>We implemented a reciprocal transplant experiment with juvenile plants using monocultures of 11 different tree species and following a home-away design, i.e. planting transplants in their own monoculture (home) and in a different one (away). The species represent a subset of the Main Experiment’s species pool and had been selected according to their representation at the two sites and finally included 6 evergreen and 5 deciduous species. From the species pool, 10 species were implemented at site A and 7 species at site B, thus 6 species were used on both sites. For each species, 3 monoculture plots were selected at each site and used for subplot implementation according to the project-specific experimental setup. The general design of BEF-China provides two ‘true’ replicates of each species’ monocultures at the plot level (i.e. where all 20 * 20 planted individuals belong to the same species). As a third replicate, we used 2-species mixtures including the respective target species and therein, all subplots were established in between four individuals of the target species.
+
+All site-specific target species were planted in suplots either established in their own monoculture (home: 3 replicates each) or in monocultures of the other species within site (away: 9 species * 3 replicates, i.e. 27 plots site A and 18 for site B, respectively). Three monocultures in total, (1 in site A and 2 in site B) could not be realised. This approach was used to test for distance dependence. 
+
+In order to test for effects of density-dependence, each subplot, was then subdivided in split-plots where tree seedlings were planted in conspecific communities at different density levels of 4, 9 and 25 individuals each. Accordingly, in target plots at site A, each five subplots (hosting each two species) were implemented, whereas at site B, the number of subplots per plot was lower because of the lower number of species tested. Thus, in each 29 and 19 plots (for site A and B, respectively), 5 and 4 subplots (for site A and B, respectively) were randomly allocated with each subplot 1.5 m x 1.0 m in size. Each splitplots occupied an area of 0.5 x 0.5 m in size. Species × density combinations were randomly allocated within subplot.</para>
+
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/577</entityName>
+<entityDescription>Main Experiment: Seedling addition experiment - growth and biomass data</entityDescription>
+<physical>
+<objectName>/datasets/577</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/577/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='Samplenr'>
+<attributeName>Helper (Samplenr), </attributeName>
+<attributeLabel>Samplenr</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (Samplenr: An individual number for each taken sample)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>An individual number for each taken sample</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Seedlingnr'>
+<attributeName>Helper (Seedlingnr), </attributeName>
+<attributeLabel>Seedlingnr</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (Seedlingnr: An individual number for each seedling)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>An individual number for each seedling</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Plot'>
+<attributeName>Helper (Plot), </attributeName>
+<attributeLabel>Plot</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (Plot: Plot)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>Plot</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Subplot'>
+<attributeName>Helper (Subplot), </attributeName>
+<attributeLabel>Subplot</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (Subplot: An individual number for each subplot)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>An individual number for each subplot</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Splitplot'>
+<attributeName>Helper (Splitplot), </attributeName>
+<attributeLabel>Splitplot</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (Splitplot: An individual number for each splitplot)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>An individual number for each splitplot</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Indnr_Splitplot'>
+<attributeName>Helper (Indnr_Splitplot), </attributeName>
+<attributeLabel>Indnr_Splitplot</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (Indnr_Splitplot: An individual number for each seedling within each splitplot)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>An individual number for each seedling within each splitplot</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Record'>
+<attributeName>Helper (Record), </attributeName>
+<attributeLabel>Record</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (Record: number for the records)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>number for the records</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Site'>
+<attributeName>Experimental Site (Site), </attributeName>
+<attributeLabel>Site</attributeLabel>
+<attributeDefinition>Experimental site of the Main Experiment. Categories &quot;A&quot; and &quot;B&quot; refer to the experimental Site A and B, respectively. Detailed information on the location can be found in the dataset 79: &quot;Presentation: BEF experiment: experimental Design, overview with maps and pictures&quot; (Site: Site)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Experimental site of the Main Experiment. Categories &quot;A&quot; and &quot;B&quot; refer to the experimental Site A and B, respectively. Detailed information on the location can be found in the dataset 79: &quot;Presentation: BEF experiment: experimental Design, overview with maps and pictures&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Experimental Site</para>
+<para>Experimental site of the Main Experiment. Categories &quot;A&quot; and &quot;B&quot; refer to the experimental Site A and B, respectively. Detailed information on the location can be found in the dataset 79: &quot;Presentation: BEF experiment: experimental Design, overview with maps and pictures&quot;</para>
+<para>Site</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='PTAG'>
+<attributeName>BEF research plot name (PTAG), </attributeName>
+<attributeLabel>PTAG</attributeLabel>
+<attributeDefinition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province) (PTAG: PTAG)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>BEF research plot name</para>
+<para>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) and B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) or Site B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06&#39;20.2&quot;N 117°55&#39;12.1&quot;E, Jiangxi Province)</para>
+<para>PTAG</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Date'>
+<attributeName>Date time information (Date), </attributeName>
+<attributeLabel>Date</attributeLabel>
+<attributeDefinition>Date time information, given as year or as date or as date time. (Date: Month and year of record)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Date time information, given as year or as date or as date time.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Date time information</para>
+<para>Date time information, given as year or as date or as date time.</para>
+<para>Month and year of record</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Planted_Species'>
+<attributeName>Scientific plant species name (Planted_Species), </attributeName>
+<attributeLabel>Planted_Species</attributeLabel>
+<attributeDefinition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required. (Planted_Species: Species planted. The scientific species fullnames are based on the &quot;Flora of China&quot;. Scientific species names consist of epithet and genus.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Scientific plant species name</para>
+<para>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</para>
+<para>Species planted. The scientific species fullnames are based on the &quot;Flora of China&quot;. Scientific species names consist of epithet and genus.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Density'>
+<attributeName>Seedling Density (Density), </attributeName>
+<attributeLabel>Density</attributeLabel>
+<attributeDefinition>number of seedlings planted (Density: Density of planted species within each splitplot)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>number of seedlings planted</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Seedling Density</para>
+<para>number of seedlings planted</para>
+<para>Density of planted species within each splitplot</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Distance'>
+<attributeName>Distance (Distance), </attributeName>
+<attributeLabel>Distance</attributeLabel>
+<attributeDefinition>Distance (Distance: indicator for species either planted in their own monoculture (home) or in a different one (away))</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Distance</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Distance</para>
+<para>Distance</para>
+<para>indicator for species either planted in their own monoculture (home) or in a different one (away)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Home_Species'>
+<attributeName>Scientific plant species name (Home_Species), </attributeName>
+<attributeLabel>Home_Species</attributeLabel>
+<attributeDefinition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required. (Home_Species: Species of the monoculture. The scientific species fullnames are based on the &quot;Flora of China&quot;. Scientific species names consist of epithet and genus.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Scientific plant species name</para>
+<para>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</para>
+<para>Species of the monoculture. The scientific species fullnames are based on the &quot;Flora of China&quot;. Scientific species names consist of epithet and genus.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Dead'>
+<attributeName>Living status (Dead), </attributeName>
+<attributeLabel>Dead</attributeLabel>
+<attributeDefinition>if an organism is dead or alive or damaged (Dead: indicator for species dead (1) or alive (0))</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>if an organism is dead or alive or damaged</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Living status</para>
+<para>if an organism is dead or alive or damaged</para>
+<para>indicator for species dead (1) or alive (0)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Height_P'>
+<attributeName>Plant height (Height_P), cm</attributeName>
+<attributeLabel>Height_P</attributeLabel>
+<attributeDefinition>measuring tree height (Height_P: Height of the seedling up to the last photosynthetically active tissue)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plant height</para>
+<para>measuring tree height</para>
+<para>Height of the seedling up to the last photosynthetically active tissue</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Height_G'>
+<attributeName>Plant height (Height_G), cm</attributeName>
+<attributeLabel>Height_G</attributeLabel>
+<attributeDefinition>measuring tree height (Height_G: Height of the seedling up to the last still living tissue)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plant height</para>
+<para>measuring tree height</para>
+<para>Height of the seedling up to the last still living tissue</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Leaves_Liv'>
+<attributeName>Plant leaf number (Leaves_Liv), </attributeName>
+<attributeLabel>Leaves_Liv</attributeLabel>
+<attributeDefinition>Leaf number count or classification of leaf numbers of plant under study (Leaves_Liv: Number of living leaves)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plant leaf number</para>
+<para>Leaf number count or classification of leaf numbers of plant under study</para>
+<para>Number of living leaves</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Leaves_Dam'>
+<attributeName>Plant leaf number (Leaves_Dam), </attributeName>
+<attributeLabel>Leaves_Dam</attributeLabel>
+<attributeDefinition>Leaf number count or classification of leaf numbers of plant under study (Leaves_Dam: Number of damaged leaves)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plant leaf number</para>
+<para>Leaf number count or classification of leaf numbers of plant under study</para>
+<para>Number of damaged leaves</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Leaves_Dead'>
+<attributeName>Plant leaf number (Leaves_Dead), </attributeName>
+<attributeLabel>Leaves_Dead</attributeLabel>
+<attributeDefinition>Leaf number count or classification of leaf numbers of plant under study (Leaves_Dead: Number of dead leaves on seedling)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plant leaf number</para>
+<para>Leaf number count or classification of leaf numbers of plant under study</para>
+<para>Number of dead leaves on seedling</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Damage_pro'>
+<attributeName>Herbivore damage (Damage_pro), in percent</attributeName>
+<attributeLabel>Damage_pro</attributeLabel>
+<attributeDefinition>Herbivore damage in percentage or as herbivory classes e.g. those defined by Schuldt et al. (2010) (Damage_pro: estimated leave damage in percent)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Herbivore damage</para>
+<para>Herbivore damage in percentage or as herbivory classes e.g. those defined by Schuldt et al. (2010)</para>
+<para>estimated leave damage in percent</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Biomass_Above'>
+<attributeName>Above and below ground biomass measurement (Biomass_Above), g</attributeName>
+<attributeLabel>Biomass_Above</attributeLabel>
+<attributeDefinition>Above and below ground biomass measurement; Productivity; Stocks
+
+ (Biomass_Above: aboveground dry matter biomass in Sep. 2016)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Above and below ground biomass measurement</para>
+<para>Above and below ground biomass measurement; Productivity; Stocks
+
+</para>
+<para>aboveground dry matter biomass in Sep. 2016</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Biomass_Below'>
+<attributeName>Above and below ground biomass measurement (Biomass_Below), </attributeName>
+<attributeLabel>Biomass_Below</attributeLabel>
+<attributeDefinition>Above and below ground biomass measurement; Productivity; Stocks
+
+ (Biomass_Below: belowground dry matter biomass in Sep. 2016)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Above and below ground biomass measurement</para>
+<para>Above and below ground biomass measurement; Productivity; Stocks
+
+</para>
+<para>belowground dry matter biomass in Sep. 2016</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='LAI'>
+<attributeName>Leaf Area Index (LAI) (LAI), </attributeName>
+<attributeLabel>LAI</attributeLabel>
+<attributeDefinition>Leaf area index (LAI) is a dimensionless quantity that characterizes plant canopies. It is defined as the one-sided green leaf area per unit ground surface area (LAI = leaf area / ground area, m2 / m2) in broadleaf canopies (Watson, D.J., 1947. Comparative physiological studies on the growth of field crops: I. Variation in net assimilation rate and leaf area between species and varieties and within and between years. Annals of Botany, 11: 41-76). In conifers, three definitions for LAI have been used:
+   - Half of the total needle surface area per unit ground surface area (Chen, J.M., and Black, T.A. (1992): Defining leaf area index for non-flat leaves. Agricultural and Forest Meteorology 57: 1–12)
+   - Projected (or one-sided, in accordance the definition for broadleaf canopies) needle area per unit ground area
+   - Total needle surface area per unit ground area
+LAI ranges from 0 (bare ground) to over 10 (dense conifer forests).
+For details on which method has been used, see detailed methodology description of the dataset. (LAI: Leaf area index measured above the planted seedlings (1m height) in each subplot)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Leaf Area Index (LAI)</para>
+<para>Leaf area index (LAI) is a dimensionless quantity that characterizes plant canopies. It is defined as the one-sided green leaf area per unit ground surface area (LAI = leaf area / ground area, m2 / m2) in broadleaf canopies (Watson, D.J., 1947. Comparative physiological studies on the growth of field crops: I. Variation in net assimilation rate and leaf area between species and varieties and within and between years. Annals of Botany, 11: 41-76). In conifers, three definitions for LAI have been used:
+   - Half of the total needle surface area per unit ground surface area (Chen, J.M., and Black, T.A. (1992): Defining leaf area index for non-flat leaves. Agricultural and Forest Meteorology 57: 1–12)
+   - Projected (or one-sided, in accordance the definition for broadleaf canopies) needle area per unit ground area
+   - Total needle surface area per unit ground area
+LAI ranges from 0 (bare ground) to over 10 (dense conifer forests).
+For details on which method has been used, see detailed methodology description of the dataset.</para>
+<para>Leaf area index measured above the planted seedlings (1m height) in each subplot</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Slope'>
+<attributeName>Inclination (Slope), </attributeName>
+<attributeLabel>Slope</attributeLabel>
+<attributeDefinition>Inclination &quot;is the angular distance of the orbital plane from the plane of reference (usually the primary's equator or the ecliptic), normally stated in degrees&quot; (Wikipedia, 2011). Also referred to as 'slope'. (Slope: inclination of each subplot)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Inclination</para>
+<para>Inclination &quot;is the angular distance of the orbital plane from the plane of reference (usually the primary&#39;s equator or the ecliptic), normally stated in degrees&quot; (Wikipedia, 2011). Also referred to as &#39;slope&#39;.</para>
+<para>inclination of each subplot</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Northness'>
+<attributeName>Aspect (Northness), </attributeName>
+<attributeLabel>Northness</attributeLabel>
+<attributeDefinition>Aspect or exposition is the direction a slope is facing and tends to be related to the amount of radiation and humidity a plot receives. (Northness: Northness of the subplot)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Aspect</para>
+<para>Aspect or exposition is the direction a slope is facing and tends to be related to the amount of radiation and humidity a plot receives.</para>
+<para>Northness of the subplot</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Comments'>
+<attributeName>Comments (Comments), </attributeName>
+<attributeLabel>Comments</attributeLabel>
+<attributeDefinition>comments (Comments: if problems occurred, e.g. after the survival measurement (record = 0) nearly all dead seedlings have been replaced. Those not replaced have been marked)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Comments</para>
+<para>comments</para>
+<para>if problems occurred, e.g. after the survival measurement (record = 0) nearly all dead seedlings have been replaced. Those not replaced have been marked</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>65535</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

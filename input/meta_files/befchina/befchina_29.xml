@@ -1,0 +1,392 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='166'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/166</alternateIdentifier>
+<title>CSPs: Genetic diversity of Castanopsis eyrei in CSPs</title>
+<creator id='wdurka'>
+<individualName>
+<givenName>Walter</givenName>
+<surName>Durka</surName>
+</individualName>
+<organizationName>Department Community Ecology  Helmholtz-Centre for Environmental Research-UFZ</organizationName>
+<address>
+<deliveryPoint>Theodor-Lieser-Str. 4</deliveryPoint>
+<city>06120 Halle</city>
+<country>Germany</country>
+</address>
+<phone>0049 345 5585314</phone>
+<electronicMailAddress>walter.durka@ufz.de</electronicMailAddress>
+</creator>
+<creator id='mshi'>
+<individualName>
+<givenName>Miaomiao</givenName>
+<surName>Shi</surName>
+</individualName>
+
+
+<electronicMailAddress>mmshi@scbg.ac.cn</electronicMailAddress>
+</creator>
+<pubDate>2012-01-05</pubDate>
+<language>en_US</language>
+<abstract>
+<para>Plant populations growing along elevational gradients have been found to show inconsistent patterns in the distribution of genetic variation. Molecular markers used to study these patterns are usually targeting neutral processes, but may also be affected by selection. In this study, the effects of elevation and successional stage on genetic diversity of a dominant tree species were investigated controlling for neutrality of the microsatellite loci used. Diversity and differentiation among 24 populations of Castanopsis eyrei from different elevations (251-920m) and successional stages were analysed by eight microsatellite loci. One of the loci (Ccu97H18) deviated from a neutral model of differentiation among populations probably due to hitchhiking with an unknown locus under divergent selection. The analysis showed that C. eyrei populations had a high level of genetic diversity within populations (AR = 7.6, HE = 0.82). Genetic variation increased with elevation for both the putatively selected locus Ccu97H18 and the neutral loci. At locus Ccu97H18 one allele was dominant at low elevations, which was replaced at higher elevations by an increasing number of other alleles. The level of genetic differentiation at neutral loci was similar to that of other Fagaceae species (FST = 0.032, F&#39;ST
+ = 0.15). Population differentiation  followed a model of isolation by distance ,however, strongly significant isolation by elevation was found, both for all and the neutral loci and he putatively selected locus Ccu97H18..These patterns indicate higher gene flow among similar altitudinal levels than across different altitudinal levels. The study underlines the importance to check the selective neutrality of marker loci in analyses of population structure.</para>
+
+</abstract>
+<keywordSet>
+<keyword>allelic richness</keyword>
+<keyword>biodiversity</keyword>
+<keyword>CSP</keyword>
+<keyword>date</keyword>
+<keyword>elevation</keyword>
+<keyword>genetic diversity</keyword>
+<keyword>intraspecific diversity</keyword>
+<keyword>leaf</keyword>
+<keyword>spatial genetic structure</keyword>
+<keyword>successional age</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>date</keyword>
+<keyword>CSP</keyword>
+<keyword>N</keyword>
+<keyword>A-neutral</keyword>
+<keyword>Ar-neutral</keyword>
+<keyword>He-neutral</keyword>
+<keyword>A-selected</keyword>
+<keyword>Ar-selected</keyword>
+<keyword>He-selected</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Permission is granted to anybody to access, use and publish all open for public data freely. The commercial use of any data is prohibited. The quality and completeness of data cannot be guaranteed. Users employ these data at their own risk. In order to make attribution of use for owners of the data possible, the identifier of ownership of data must be retained with every data record. Users must publicly acknowledge, in conjunction with the use of the data, the data owners. Cite the data as follows: Shi, M. and Durka, W. (2013): Genetic diversity of Castanopsis eyrei. BEF-China data portal (Accessed through URL http://china.befdata.biow.uni-leipzig.de/datasets/166)</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/166/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>The Gutianshan National Nature Reserve (NNR) is located in the western part of Zhejiang Province (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Fig. 1).  The Gutianshan NNR has an area of approximately 81 km2 and was initially established as a National Forest Reserve in 1975 and became a National Nature Reserve in 2001. The NNR comprises a large portion of broad-leaved forests of advanced successional stages (Hu &amp; Yu 2008), which have not been managed since the beginning of the 1990ies, as well as young successional stages and conifer plantations, mainly of Cunninghamia lanceolata and Pinus massoniana. --- The vegetation is composed of different types of subtropical evergreen and mixed broad-leaved forests (Yu et al. 2001). Most of the stands are secondary forests, evidenced by maximum tree ages of 180 years, by agricultural terraces in almost all plots and by the presence of charcoal in almost all soil profiles. Around the Gutianshan NRR extensive deforestation has occurred during the Great Leap Forward in the 1950s, as in most parts of Southeast China. However, due to prevailing steep slopes, the Gutianshan area was only marginally usable for agricultural activities, and thus an exceptionally intact forest cover has been preserved. --- The climate at Gutianshan NNR is warm and temperate with a short dry season in November and December and with warm summers (Fig. 2). The climatic conditions are characteristic for the subtropics with an annual average temperature of 15.1°C, January minimum temperatures of -6.8°C, July maximum temperatures of 38.1°C and an accumulated temperature sum (≥ 5°C) of 5221.5 degree days.</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2001-12-31
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2001-12-30
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>Castanopsis eyrei</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+Castanopsis eyrei
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>wdurka</references>
+</contact>
+<contact>
+<references>mshi</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>CSPs: Genetic diversity of Castanopsis eyrei in CSPs</para>
+<para>Plant populations growing along elevational gradients have been found to show inconsistent patterns in the distribution of genetic variation. Molecular markers used to study these patterns are usually targeting neutral processes, but may also be affected by selection. In this study, the effects of elevation and successional stage on genetic diversity of a dominant tree species were investigated controlling for neutrality of the microsatellite loci used. Diversity and differentiation among 24 populations of Castanopsis eyrei from different elevations (251-920m) and successional stages were analysed by eight microsatellite loci. One of the loci (Ccu97H18) deviated from a neutral model of differentiation among populations probably due to hitchhiking with an unknown locus under divergent selection. The analysis showed that C. eyrei populations had a high level of genetic diversity within populations (AR = 7.6, HE = 0.82). Genetic variation increased with elevation for both the putatively selected locus Ccu97H18 and the neutral loci. At locus Ccu97H18 one allele was dominant at low elevations, which was replaced at higher elevations by an increasing number of other alleles. The level of genetic differentiation at neutral loci was similar to that of other Fagaceae species (FST = 0.032, F&#39;ST
+ = 0.15). Population differentiation  followed a model of isolation by distance ,however, strongly significant isolation by elevation was found, both for all and the neutral loci and he putatively selected locus Ccu97H18..These patterns indicate higher gene flow among similar altitudinal levels than across different altitudinal levels. The study underlines the importance to check the selective neutrality of marker loci in analyses of population structure.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2001-12-31 00:00:00 UTC - 2001-12-30 00:00:00 UTC</para>
+<para>Most of the data were collected in 2008, while some additional data were also collected in 2009.</para>
+<para>The Gutianshan National Nature Reserve (NNR) is located in the western part of Zhejiang Province (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Fig. 1).  The Gutianshan NNR has an area of approximately 81 km2 and was initially established as a National Forest Reserve in 1975 and became a National Nature Reserve in 2001. The NNR comprises a large portion of broad-leaved forests of advanced successional stages (Hu &amp; Yu 2008), which have not been managed since the beginning of the 1990ies, as well as young successional stages and conifer plantations, mainly of Cunninghamia lanceolata and Pinus massoniana. --- The vegetation is composed of different types of subtropical evergreen and mixed broad-leaved forests (Yu et al. 2001). Most of the stands are secondary forests, evidenced by maximum tree ages of 180 years, by agricultural terraces in almost all plots and by the presence of charcoal in almost all soil profiles. Around the Gutianshan NRR extensive deforestation has occurred during the Great Leap Forward in the 1950s, as in most parts of Southeast China. However, due to prevailing steep slopes, the Gutianshan area was only marginally usable for agricultural activities, and thus an exceptionally intact forest cover has been preserved. --- The climate at Gutianshan NNR is warm and temperate with a short dry season in November and December and with warm summers (Fig. 2). The climatic conditions are characteristic for the subtropics with an annual average temperature of 15.1°C, January minimum temperatures of -6.8°C, July maximum temperatures of 38.1°C and an accumulated temperature sum (≥ 5°C) of 5221.5 degree days.</para>
+<para>Castanopsis eyrei</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>we sampled 24 sites, including 20 CSP sites and additional 4 sites. 12 to 49 individuals (mean = 24) per sites were collected. Genomic DNA was extracted from leaf samples using the DNeasy Plant minikit (QIAGEN). Eight highly polymorphic microsatellite loci were used for genotyping (Ueno et al., 2000, 2003). Fragment analysis was performed on an ABI PRISM 3130 with GS600-LIZ (Applied Biosystems) as internal size standard and using GeneMapper v.3.7 software for genotyping.We used Micro-Checker 2.2.3 (Van Oosterhout et al. 2004), FDIST (Beaumont and Nichols, 1996), Fstat v. 2.9.3.2 (Goudet 2001) to analyse the data.</para>
+<para>This data can be used to assess the within species diversity of Castanopsis eyrei. </para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/166</entityName>
+<entityDescription>CSPs: Genetic diversity of Castanopsis eyrei in CSPs</entityDescription>
+<physical>
+<objectName>/datasets/166</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/166/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='date'>
+<attributeName>Date time information (date), year</attributeName>
+<attributeLabel>date</attributeLabel>
+<attributeDefinition>Date time information, given as year or as date or as date time. (date: year of sampling)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Date time information, given as year or as date or as date time.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Date time information</para>
+<para>Date time information, given as year or as date or as date time.</para>
+<para>year of sampling</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP'>
+<attributeName>BEF research plot name (CSP), id</attributeName>
+<attributeLabel>CSP</attributeLabel>
+<attributeDefinition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province) (CSP: name of the CSP in the Nature ReserveBEF research plot nameReasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground. To increase the genetic diversity captured by BEF-China, addidtional individuals of the respective species were sampled. The &quot;new&quot; CSPs described in this dataset are labelled different from the general CSP nomenclature. The locations of these &quot;new&quot; CSPs is indicated in detail within the dataset.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>BEF research plot name</para>
+<para>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) and B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) or Site B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06&#39;20.2&quot;N 117°55&#39;12.1&quot;E, Jiangxi Province)</para>
+<para>name of the CSP in the Nature ReserveBEF research plot nameReasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground. To increase the genetic diversity captured by BEF-China, addidtional individuals of the respective species were sampled. The &quot;new&quot; CSPs described in this dataset are labelled different from the general CSP nomenclature. The locations of these &quot;new&quot; CSPs is indicated in detail within the dataset.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='N'>
+<attributeName>Sample size (N), dimensionless</attributeName>
+<attributeLabel>N</attributeLabel>
+<attributeDefinition>Number of objects used for analysis. (N: number of leaf samples, all diversity statistics are based on these leaves genotyped)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Sample size</para>
+<para>Number of objects used for analysis.</para>
+<para>number of leaf samples, all diversity statistics are based on these leaves genotyped</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='A-neutral'>
+<attributeName>Intraspecific diversity (A-neutral), dimensionless</attributeName>
+<attributeLabel>A-neutral</attributeLabel>
+<attributeDefinition>Ar is number of alleles based on min. sample size of 29 individuals, He is expected heterozygosity , Ar5 is the number of rare alleles (total abundance &lt;5%), and FIS is the inbreeding coefficient.  We computed pairwise kinship coefficient (Fij) (Loiselle et al. 1995) to construct spatial autocorrelograms with distance class limits of 2.5, 5, 10, 15, 20, 30, and 50 m. Significance of mean Fij per class was tested with 1000 permutations of multi-locus genotypes. We used the Sp statistic (Vekemans &amp; Hardy 2004) to quantify SGS for individual plots as Sp = -b_log / (1- F_1), where blog is the slope of the regression of kinship coefficient on log geographic distance and F_1 is the mean kinship coefficient between individuals of the first distance class. --- A is the number of alleles; Ar is number of alleles based on min. sample size of 12 individuals; He is expected heterozygosity. (A-neutral: number of alleles at neuteal loci; FDIST, Fstat v. 2.9.3.2)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Intraspecific diversity</para>
+<para>Ar is number of alleles based on min. sample size of 29 individuals, He is expected heterozygosity , Ar5 is the number of rare alleles (total abundance &lt;5%), and FIS is the inbreeding coefficient.  We computed pairwise kinship coefficient (Fij) (Loiselle et al. 1995) to construct spatial autocorrelograms with distance class limits of 2.5, 5, 10, 15, 20, 30, and 50 m. Significance of mean Fij per class was tested with 1000 permutations of multi-locus genotypes. We used the Sp statistic (Vekemans &amp; Hardy 2004) to quantify SGS for individual plots as Sp = -b_log / (1- F_1), where blog is the slope of the regression of kinship coefficient on log geographic distance and F_1 is the mean kinship coefficient between individuals of the first distance class. --- A is the number of alleles; Ar is number of alleles based on min. sample size of 12 individuals; He is expected heterozygosity.</para>
+<para>number of alleles at neuteal loci; FDIST, Fstat v. 2.9.3.2</para>
+</description>
+<instrumentation>Fstat v. 2.9.3.2 or SPAGeDi v. 1.3 --- FDIST, Fstat v. 2.9.3.2</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Ar-neutral'>
+<attributeName>Intraspecific diversity (Ar-neutral), dimensionless</attributeName>
+<attributeLabel>Ar-neutral</attributeLabel>
+<attributeDefinition>Ar is number of alleles based on min. sample size of 29 individuals, He is expected heterozygosity , Ar5 is the number of rare alleles (total abundance &lt;5%), and FIS is the inbreeding coefficient.  We computed pairwise kinship coefficient (Fij) (Loiselle et al. 1995) to construct spatial autocorrelograms with distance class limits of 2.5, 5, 10, 15, 20, 30, and 50 m. Significance of mean Fij per class was tested with 1000 permutations of multi-locus genotypes. We used the Sp statistic (Vekemans &amp; Hardy 2004) to quantify SGS for individual plots as Sp = -b_log / (1- F_1), where blog is the slope of the regression of kinship coefficient on log geographic distance and F_1 is the mean kinship coefficient between individuals of the first distance class. --- A is the number of alleles; Ar is number of alleles based on min. sample size of 12 individuals; He is expected heterozygosity. (Ar-neutral: allelic richness at neutral loci; FDIST, Fstat v. 2.9.3.2)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Intraspecific diversity</para>
+<para>Ar is number of alleles based on min. sample size of 29 individuals, He is expected heterozygosity , Ar5 is the number of rare alleles (total abundance &lt;5%), and FIS is the inbreeding coefficient.  We computed pairwise kinship coefficient (Fij) (Loiselle et al. 1995) to construct spatial autocorrelograms with distance class limits of 2.5, 5, 10, 15, 20, 30, and 50 m. Significance of mean Fij per class was tested with 1000 permutations of multi-locus genotypes. We used the Sp statistic (Vekemans &amp; Hardy 2004) to quantify SGS for individual plots as Sp = -b_log / (1- F_1), where blog is the slope of the regression of kinship coefficient on log geographic distance and F_1 is the mean kinship coefficient between individuals of the first distance class. --- A is the number of alleles; Ar is number of alleles based on min. sample size of 12 individuals; He is expected heterozygosity.</para>
+<para>allelic richness at neutral loci; FDIST, Fstat v. 2.9.3.2</para>
+</description>
+<instrumentation>Fstat v. 2.9.3.2 or SPAGeDi v. 1.3 --- FDIST, Fstat v. 2.9.3.2</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='He-neutral'>
+<attributeName>Intraspecific diversity (He-neutral), dimensionless</attributeName>
+<attributeLabel>He-neutral</attributeLabel>
+<attributeDefinition>Ar is number of alleles based on min. sample size of 29 individuals, He is expected heterozygosity , Ar5 is the number of rare alleles (total abundance &lt;5%), and FIS is the inbreeding coefficient.  We computed pairwise kinship coefficient (Fij) (Loiselle et al. 1995) to construct spatial autocorrelograms with distance class limits of 2.5, 5, 10, 15, 20, 30, and 50 m. Significance of mean Fij per class was tested with 1000 permutations of multi-locus genotypes. We used the Sp statistic (Vekemans &amp; Hardy 2004) to quantify SGS for individual plots as Sp = -b_log / (1- F_1), where blog is the slope of the regression of kinship coefficient on log geographic distance and F_1 is the mean kinship coefficient between individuals of the first distance class. --- A is the number of alleles; Ar is number of alleles based on min. sample size of 12 individuals; He is expected heterozygosity. (He-neutral: expected heterozygosity at neutral loci; FDIST, Fstat v. 2.9.3.2)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Intraspecific diversity</para>
+<para>Ar is number of alleles based on min. sample size of 29 individuals, He is expected heterozygosity , Ar5 is the number of rare alleles (total abundance &lt;5%), and FIS is the inbreeding coefficient.  We computed pairwise kinship coefficient (Fij) (Loiselle et al. 1995) to construct spatial autocorrelograms with distance class limits of 2.5, 5, 10, 15, 20, 30, and 50 m. Significance of mean Fij per class was tested with 1000 permutations of multi-locus genotypes. We used the Sp statistic (Vekemans &amp; Hardy 2004) to quantify SGS for individual plots as Sp = -b_log / (1- F_1), where blog is the slope of the regression of kinship coefficient on log geographic distance and F_1 is the mean kinship coefficient between individuals of the first distance class. --- A is the number of alleles; Ar is number of alleles based on min. sample size of 12 individuals; He is expected heterozygosity.</para>
+<para>expected heterozygosity at neutral loci; FDIST, Fstat v. 2.9.3.2</para>
+</description>
+<instrumentation>Fstat v. 2.9.3.2 or SPAGeDi v. 1.3 --- FDIST, Fstat v. 2.9.3.2</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='A-selected'>
+<attributeName>Intraspecific diversity (A-selected), dimensionless</attributeName>
+<attributeLabel>A-selected</attributeLabel>
+<attributeDefinition>Ar is number of alleles based on min. sample size of 29 individuals, He is expected heterozygosity , Ar5 is the number of rare alleles (total abundance &lt;5%), and FIS is the inbreeding coefficient.  We computed pairwise kinship coefficient (Fij) (Loiselle et al. 1995) to construct spatial autocorrelograms with distance class limits of 2.5, 5, 10, 15, 20, 30, and 50 m. Significance of mean Fij per class was tested with 1000 permutations of multi-locus genotypes. We used the Sp statistic (Vekemans &amp; Hardy 2004) to quantify SGS for individual plots as Sp = -b_log / (1- F_1), where blog is the slope of the regression of kinship coefficient on log geographic distance and F_1 is the mean kinship coefficient between individuals of the first distance class. --- A is the number of alleles; Ar is number of alleles based on min. sample size of 12 individuals; He is expected heterozygosity. (A-selected: number of alleles at putatively selected locus; FDIST, Fstat v. 2.9.3.2)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Intraspecific diversity</para>
+<para>Ar is number of alleles based on min. sample size of 29 individuals, He is expected heterozygosity , Ar5 is the number of rare alleles (total abundance &lt;5%), and FIS is the inbreeding coefficient.  We computed pairwise kinship coefficient (Fij) (Loiselle et al. 1995) to construct spatial autocorrelograms with distance class limits of 2.5, 5, 10, 15, 20, 30, and 50 m. Significance of mean Fij per class was tested with 1000 permutations of multi-locus genotypes. We used the Sp statistic (Vekemans &amp; Hardy 2004) to quantify SGS for individual plots as Sp = -b_log / (1- F_1), where blog is the slope of the regression of kinship coefficient on log geographic distance and F_1 is the mean kinship coefficient between individuals of the first distance class. --- A is the number of alleles; Ar is number of alleles based on min. sample size of 12 individuals; He is expected heterozygosity.</para>
+<para>number of alleles at putatively selected locus; FDIST, Fstat v. 2.9.3.2</para>
+</description>
+<instrumentation>Fstat v. 2.9.3.2 or SPAGeDi v. 1.3 --- FDIST, Fstat v. 2.9.3.2</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Ar-selected'>
+<attributeName>Intraspecific diversity (Ar-selected), dimensionless</attributeName>
+<attributeLabel>Ar-selected</attributeLabel>
+<attributeDefinition>Ar is number of alleles based on min. sample size of 29 individuals, He is expected heterozygosity , Ar5 is the number of rare alleles (total abundance &lt;5%), and FIS is the inbreeding coefficient.  We computed pairwise kinship coefficient (Fij) (Loiselle et al. 1995) to construct spatial autocorrelograms with distance class limits of 2.5, 5, 10, 15, 20, 30, and 50 m. Significance of mean Fij per class was tested with 1000 permutations of multi-locus genotypes. We used the Sp statistic (Vekemans &amp; Hardy 2004) to quantify SGS for individual plots as Sp = -b_log / (1- F_1), where blog is the slope of the regression of kinship coefficient on log geographic distance and F_1 is the mean kinship coefficient between individuals of the first distance class. --- A is the number of alleles; Ar is number of alleles based on min. sample size of 12 individuals; He is expected heterozygosity. (Ar-selected: allelic richness at putatively selected locus; FDIST, Fstat v. 2.9.3.2)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Intraspecific diversity</para>
+<para>Ar is number of alleles based on min. sample size of 29 individuals, He is expected heterozygosity , Ar5 is the number of rare alleles (total abundance &lt;5%), and FIS is the inbreeding coefficient.  We computed pairwise kinship coefficient (Fij) (Loiselle et al. 1995) to construct spatial autocorrelograms with distance class limits of 2.5, 5, 10, 15, 20, 30, and 50 m. Significance of mean Fij per class was tested with 1000 permutations of multi-locus genotypes. We used the Sp statistic (Vekemans &amp; Hardy 2004) to quantify SGS for individual plots as Sp = -b_log / (1- F_1), where blog is the slope of the regression of kinship coefficient on log geographic distance and F_1 is the mean kinship coefficient between individuals of the first distance class. --- A is the number of alleles; Ar is number of alleles based on min. sample size of 12 individuals; He is expected heterozygosity.</para>
+<para>allelic richness at putatively selected locus; FDIST, Fstat v. 2.9.3.2</para>
+</description>
+<instrumentation>Fstat v. 2.9.3.2 or SPAGeDi v. 1.3 --- FDIST, Fstat v. 2.9.3.2</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='He-selected'>
+<attributeName>Intraspecific diversity (He-selected), dimensionless</attributeName>
+<attributeLabel>He-selected</attributeLabel>
+<attributeDefinition>Ar is number of alleles based on min. sample size of 29 individuals, He is expected heterozygosity , Ar5 is the number of rare alleles (total abundance &lt;5%), and FIS is the inbreeding coefficient.  We computed pairwise kinship coefficient (Fij) (Loiselle et al. 1995) to construct spatial autocorrelograms with distance class limits of 2.5, 5, 10, 15, 20, 30, and 50 m. Significance of mean Fij per class was tested with 1000 permutations of multi-locus genotypes. We used the Sp statistic (Vekemans &amp; Hardy 2004) to quantify SGS for individual plots as Sp = -b_log / (1- F_1), where blog is the slope of the regression of kinship coefficient on log geographic distance and F_1 is the mean kinship coefficient between individuals of the first distance class. --- A is the number of alleles; Ar is number of alleles based on min. sample size of 12 individuals; He is expected heterozygosity. (He-selected: expected heterozygosity at putatively selected locus; FDIST, Fstat v. 2.9.3.2)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Intraspecific diversity</para>
+<para>Ar is number of alleles based on min. sample size of 29 individuals, He is expected heterozygosity , Ar5 is the number of rare alleles (total abundance &lt;5%), and FIS is the inbreeding coefficient.  We computed pairwise kinship coefficient (Fij) (Loiselle et al. 1995) to construct spatial autocorrelograms with distance class limits of 2.5, 5, 10, 15, 20, 30, and 50 m. Significance of mean Fij per class was tested with 1000 permutations of multi-locus genotypes. We used the Sp statistic (Vekemans &amp; Hardy 2004) to quantify SGS for individual plots as Sp = -b_log / (1- F_1), where blog is the slope of the regression of kinship coefficient on log geographic distance and F_1 is the mean kinship coefficient between individuals of the first distance class. --- A is the number of alleles; Ar is number of alleles based on min. sample size of 12 individuals; He is expected heterozygosity.</para>
+<para>expected heterozygosity at putatively selected locus; FDIST, Fstat v. 2.9.3.2</para>
+</description>
+<instrumentation>Fstat v. 2.9.3.2 or SPAGeDi v. 1.3 --- FDIST, Fstat v. 2.9.3.2</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>24</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

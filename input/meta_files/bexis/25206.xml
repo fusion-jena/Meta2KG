@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bgc:metaProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.bgc-jena.mpg.de" xmlns:bgc="http://www.bgc-jena.mpg.de" xsi:schemaLocation="http://www.bgc-jena.mpg.de schema.xsd">
+  <bgc:general bgc:source="mixed">
+    <bgc:id bgc:source="intern">25206</bgc:id>
+    <bgc:versionID bgc:source="intern">1.3.13</bgc:versionID>
+    <bgc:title>Aggregated data of radar, Airborne Laser Scanning, and biodiversity measures on all forest EPs (2006-2018) used in "Radar vision for mapping forest biodiversity from space"</bgc:title>
+    <bgc:owners>
+      <bgc:owner number="1">Soyeon Bae</bgc:owner>
+      <bgc:owner number="2">Shaun Levick</bgc:owner>
+      <bgc:owner number="3">Lea Heidrich</bgc:owner>
+      <bgc:owner number="4">Paul Magdon</bgc:owner>
+      <bgc:owner number="5">Benjamin F. Leutner</bgc:owner>
+      <bgc:owner number="6">Stephan Wöllauer</bgc:owner>
+      <bgc:owner number="7">Alla Serebryanyk</bgc:owner>
+      <bgc:owner number="8">Thomas Nauss</bgc:owner>
+      <bgc:owner number="9">Peter Krzystek</bgc:owner>
+      <bgc:owner number="10">Martin M. Gossner</bgc:owner>
+      <bgc:owner number="11">Peter Schall</bgc:owner>
+      <bgc:owner number="12">Christoph Heibl</bgc:owner>
+      <bgc:owner number="13">Claus Bässler</bgc:owner>
+      <bgc:owner number="14">Dörfler Inken</bgc:owner>
+      <bgc:owner number="15">Ernst-Detlef Schulze</bgc:owner>
+      <bgc:owner number="16">Franz-Sebastian Krah</bgc:owner>
+      <bgc:owner number="17">Kirsten Jung</bgc:owner>
+      <bgc:owner number="18">Marco Heurich</bgc:owner>
+      <bgc:owner number="19">Marco Tschapka</bgc:owner>
+      <bgc:owner number="20">Markus Fischer</bgc:owner>
+      <bgc:owner number="21">Sebastian Seibold</bgc:owner>
+      <bgc:owner number="22">Torsten Hothorn</bgc:owner>
+      <bgc:owner number="23">Wolfgang W. Weisser</bgc:owner>
+      <bgc:owner number="24">Jörg Müller</bgc:owner>
+    </bgc:owners>
+    <bgc:projectName>TreeScape</bgc:projectName>
+    <bgc:datasetManager>
+      <bgc:datasetManagerName disabled="disabled">Jörg Müller</bgc:datasetManagerName>
+      <bgc:institute disabled="disabled">University of Würzburg</bgc:institute>
+      <bgc:email disabled="disabled">joerg.mueller@npv-bw.bayern.de</bgc:email>
+    </bgc:datasetManager>
+  </bgc:general>
+  <bgc:researchObjects>
+    <bgc:approxNumberOfPlots>
+      <bgc:noOfGP>150</bgc:noOfGP>
+      <bgc:noOfEP>150</bgc:noOfEP>
+      <bgc:noOfMIP>75</bgc:noOfMIP>
+      <bgc:noOfVIP>30</bgc:noOfVIP>
+    </bgc:approxNumberOfPlots>
+    <bgc:habitats>
+      <bgc:grassland>no</bgc:grassland>
+      <bgc:forest>yes</bgc:forest>
+    </bgc:habitats>
+    <bgc:experimentalManipulation>no</bgc:experimentalManipulation>
+    <bgc:relativePositionToGround>
+      <bgc:aboveGround>yes</bgc:aboveGround>
+      <bgc:belowGround>no</bgc:belowGround>
+    </bgc:relativePositionToGround>
+    <bgc:repeatedMeasurement>
+      <bgc:timeBasedRepetition>
+        <bgc:numberOfRepetitions>0</bgc:numberOfRepetitions>
+      </bgc:timeBasedRepetition>
+      <bgc:plotBasedRepetition>
+        <bgc:numberOfSubPlots>0</bgc:numberOfSubPlots>
+      </bgc:plotBasedRepetition>
+    </bgc:repeatedMeasurement>
+    <bgc:taxa>
+      <bgc:taxon number="1">Animals - Vertebrates</bgc:taxon>
+      <bgc:taxon number="2">Animals - Invertebrates</bgc:taxon>
+      <bgc:taxon number="3">Plants</bgc:taxon>
+      <bgc:taxon number="4">Fungi</bgc:taxon>
+    </bgc:taxa>
+    <bgc:processesAndServices>
+      <bgc:processOrService number="1">None</bgc:processOrService>
+    </bgc:processesAndServices>
+    <bgc:environmentalDescriptors>
+      <bgc:environmentalDescriptor number="1">Habitat Structure</bgc:environmentalDescriptor>
+    </bgc:environmentalDescriptors>
+    <bgc:bioticDataTypes>
+      <bgc:bioticDataType number="1">Multiple Species</bgc:bioticDataType>
+      <bgc:bioticDataType number="2">Aggregated Diversity</bgc:bioticDataType>
+    </bgc:bioticDataTypes>
+  </bgc:researchObjects>
+  <bgc:methodology blockPublic="no">
+    <bgc:introduction input="textarea">This dataset is an aggregated data (2006-2018) of environmental variables (independent variables) and different facets of biodiversity meausres (response variables) on all forest EPs used in "Radar vision for mapping forest biodiversity from space", submitted to Nature Communications. In environmental variables, two remote sensing techniques, spaceborne radar and airborne laser scanning, were employed to derive forest structure. In biodiversity measure, species composition, species richness, and phylogenetic diversity of 12 functional groups were included. To include a comprehensive gradient of forest structure, the data collected in the course of the Exploratories (150 plots) was supplemented by two further projects located in the Steigerwald (69 Plots) and in the Bavarian Forest (BIOKLIM, 244 Plots).</bgc:introduction>
+    <bgc:measurements>
+      <bgc:theory input="textarea">1. Airborne laser scanning (ALS)
+ALS is a very tangible sensor technology, and the three-dimensional (3-D) insight it provides has led to a number of advances in animal ecology and biodiversity conservation.
+
+2. Radar
+Synthetic Aperture Radar (SAR) data are a prime candidate to meet the demands for ecologically meaningful information on vegetation structure from space from regional to global scales. A big advantage of SAR is the ability to penetrate clouds, making it a suitable technique also for regions with almost constant cloud coverage, such as the tropics or mountain areas. C-band SAR is sensitive to vegetation structures and is likely to be scattered from elements within the canopy of trees.
+The launch of the Sentinel-1 mission – a constellation of two C-band SAR satellites – by the European Space Agency in 2014 and 2016 has revolutionised SAR remote sensing through their unprecedented combination of high spatial resolution (5 – 20 m), high revisit frequencies (5 – 10 days), complete geographic coverage and last but not least: an open-access distribution policy. 
+
+3. Biodiversity measures
+We separated functional groups based on taxonomy and derived the assemblage composition per functional group by NMDS (Non-metric Multidimensional Scaling) using presence-absence data. We counted the number of observed species in each plot and log-transformed it for calculating species richness. Additionally, we calculated the standardized effect size of mean phylogenetic distance, as phylogenetic diversity has become influential for understanding ecosystem functioning associated with the assemblage communities and has been used as a proxy for functional diversity.
+
+Please see more details in Bae et al. (2019)</bgc:theory>
+      <bgc:type input="textarea">Analysis of original data. The data set comprises aggregated data of original species data per plot as well as environmental data (based on radar and ALS).
+
+Original data lists:
+
+1. Species data
+
+1.1. Exploratories (BExIS datasets):
+20826; Vegetation Records for Forest EPs, 2009-2016; version 1.4.5
+4460; Lichen diversity in forests (2007-2008); version 1.11.14
+4141; Bryophyte diversity in relationship to forest management types in forests (2007-2008); version 1.6.8
+18547; Deadwood inhabiting fungi presence absence (2010, all forest EPs); version 1.2.2
+16868; Window and ground traps on forest EPs in 2008 subset Araneae; version 1.1.3
+16866; Window and ground traps on forest EPs in 2008 subset Coleoptera; version 1.1.3
+21446; Bird survey data 2008; version 3.1.4
+21447; Bird survey data 2009; version 3.1.2
+21448; Bird survey data 2010; version 3.1.3
+19848; Bat activity in all Exploratories, summer 2008, using acoustic monitoring; version 1.1.4
+19849; Bat activity in all Exploratories, summer 2009, using acoustic monitoring; version 1.1.4
+19850; Bat activity in all Exploratories, summer 2010, using acoustic monitoring; version 1.1.5
+
+1.2. Steigerwald-Project
+Fungi: Roth, N. et al. (2019)
+Arthropods: Doerfler, I. et al. (2018), Roth, N. et al. (2019)
+and further, unpublished data which have been provided by Jörg Müller
+
+1.3. BIOKLIM-Project
+Plants: Bässler, C. et al. (2010a)
+Bryophytes: Raabe, S. et al. (2010)
+Lichens: Moning, C. et al. (2009)
+Fungi: Bässler, C. et al. (2010b)
+Arthropods: Müller, J. &amp; Brandl, R. (2009)
+Birds: Müller, J. et al. (2009)
+Bats: Müller, J. et al. (2012)
+
+and further, unpublished data which have been provided by Jörg Müller
+
+To gain comparable species data across projects and regions, for each region only the data of year closest to the LiDAR-flights was chosen. For each plot, species richness was summed over the whole collection period. 
+
+2. Environmental data
+25246; Synthetic Aperture Radar (Sentinel-1) metrics on all forest EPs, 2016; version 1.1.2
+BExIS datasets of ALS data soon to be uploaded.</bgc:type>
+    </bgc:measurements>
+    <bgc:equipment>
+      <bgc:instruments input="textarea">1. Airborne laser scanning (ALS):
+Riegl Q560/VQ780i
+2. Radar:
+Sentinel-1 mission
+3. Biodiversity assessments:
+Pettersson D 1000x ultrasound detector 
+(Pettersson Electronic AG, Uppsala, Sweden)
+Batcorder 2.0 bat detector
+(ecoObs GmbH, Nurnberg, Germany)
+Observations by hearing &amp; sight
+tape measure, knife, pencil &amp; eye
+12V, 15W super-actinic light tubes, bucket and chloroform
+For more details see Supplmentary methods S1.2 in Bae et al. (2019)</bgc:instruments>
+      <bgc:calibration input="textarea">-</bgc:calibration>
+      <bgc:procedures input="textarea">For details, see metadata of listed original data and Methods and Supplmentary methods S1.2 in Bae et al (2019)</bgc:procedures>
+    </bgc:equipment>
+  </bgc:methodology>
+  <bgc:description>
+    <bgc:acronyms>
+      <bgc:acronymPair number="1">
+        <bgc:acronym number="1">ALS</bgc:acronym>
+        <bgc:meaning number="1">Airborne laser scanning</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="2">
+        <bgc:acronym number="2">SAR</bgc:acronym>
+        <bgc:meaning number="2">Synthetic Aperture Radar</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="3">
+        <bgc:acronym number="3">NMDS</bgc:acronym>
+        <bgc:meaning number="3">Non-metric Multidimensional Scaling</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="4">
+        <bgc:acronym number="4">VH</bgc:acronym>
+        <bgc:meaning number="4">vertically sent, horizontally-received radar pulses</bgc:meaning>
+      </bgc:acronymPair>
+      <bgc:acronymPair number="5">
+        <bgc:acronym number="5">VV</bgc:acronym>
+        <bgc:meaning number="5">vertically-sent, vertically-received radar pulses</bgc:meaning>
+      </bgc:acronymPair>
+    </bgc:acronyms>
+    <bgc:keywords>
+      <bgc:keyword number="1">Radar					</bgc:keyword>
+      <bgc:keyword number="2">Airborne laser scanning</bgc:keyword>
+      <bgc:keyword number="3">Forest structure</bgc:keyword>
+      <bgc:keyword number="4">Multitaxon approach</bgc:keyword>
+      <bgc:keyword number="5">Biodiversity</bgc:keyword>
+    </bgc:keywords>
+  </bgc:description>
+  <bgc:time>
+    <bgc:when timeType="period" xsi:type="bgc:dateFrame">
+      <bgc:format>yyyy</bgc:format>
+      <bgc:startDate>2006</bgc:startDate>
+      <bgc:endDate>2018</bgc:endDate>
+    </bgc:when>
+    <bgc:dateEntry bgc:source="intern">2019-04-26</bgc:dateEntry>
+    <bgc:dateLastModified bgc:source="intern">2019-06-04</bgc:dateLastModified>
+  </bgc:time>
+  <bgc:data>
+    <bgc:fileType>structuredData</bgc:fileType>
+    <bgc:manipulations input="textarea">1. Biodiversity measures based on species data
+Methods, grain and timeframe for species sampling - although standardized within the projects - differs between projects, though in various extent. In order to gain comparable estimates of biodiversity measures, data had to be of cropped to a comparable extent and, in parts, to equally determinable species sets.
+Manipulations on the original Species Data compiled in the Exploratories, the Steigerwald and BIOKLIM:
+Only species identified to species level were counted to gain comparable results across projects. An exception to this were in bats the sonotypes "Myotis branditii/mystacinus" and "Plecotus", which comprise two species each, but which have not been determined to species level in any project. 
+Prior to analysis, differences in species composition were visually checked using NMDS. Plots, which lead to stress values of nearly zero were removed as outliers.
+Arthropods
+For Arthropods, Plot HEW34 has been excluded from the analysis as it has been repeatedly destroyed by boars. Also, in ALB, HAI and SCH species collected in April were excluded, as not all Plots have been covered in this month and only "Priority 1"-Samples were used to ensure an equal trap number across projects. The plots T3_4 and T2_34 (BIOKLIM) were excluded from analysis. Coleoptera were subdivided into necrophagous, phytophagous, saproxylic and carabid beetles. 
+For spiders, the plots T4_47, T4_75 and T3_10 (all BIOKLIM) were removed as outliers.
+For carabid beetles, the plots T1_27, T1_34 and T1_57 (BIOKLIM) were removed as outliers.
+For fungi, we only included wood-inhabiting fungi. Because the fungal communities showed extreme differences between the projects, which was unlikely to be based on regional differences alone but rather an effect of the determinability of cryptic species, data cropped to a list of species which are equally determinable according to a specialist (CB). For instance, crustean species were not included. 
+For lichens, we only included epiphytic lichens.
+Concerning the calculation of phylogenetic diversity, see details in Methods and Supplmentary methods S2 in Bae et al. (2019) 
+
+2. Environmental data (radar and ALS metrics)
+All the environmental variables (except heterogeneity indices including standardized deviation, dissimilarity, and entropy) were averaged within each 1 ha plot.
+The heterogeneity indices, i.e., standardized deviation, dissimilarity, and entropy, was calculated with window size of 9 by 9 pixels, i.e. 0.81 ha, to consider variability, contrast, and orderliness of the corresponding metrics within each plot 
+Foliage height diversity (LiD_FHD) was calculated by the three classes of canopy, understory and regeneration layers.</bgc:manipulations>
+    <bgc:errors />
+    <bgc:qualityLevel>processed</bgc:qualityLevel>
+    <bgc:dataStatus>complete</bgc:dataStatus>
+    <bgc:dataStructure>
+      <bgc:dataFormat>
+        <bgc:missingValues>NA</bgc:missingValues>
+        <bgc:NA />
+      </bgc:dataFormat>
+      <bgc:matrix>
+        <bgc:columnName />
+        <bgc:rowName />
+        <bgc:contentType />
+        <bgc:matrixUnit />
+      </bgc:matrix>
+      <bgc:variables>
+        <bgc:variable number="1">
+          <bgc:name number="1">Explrtr</bgc:name>
+          <bgc:typeOfVariable number="1">string</bgc:typeOfVariable>
+          <bgc:units number="1">none</bgc:units>
+          <bgc:description number="1">Plot name type 1 (e.g. AEW01)</bgc:description>
+          <bgc:block number="1">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="2">
+          <bgc:name number="2">Explrtr2</bgc:name>
+          <bgc:typeOfVariable number="2">string</bgc:typeOfVariable>
+          <bgc:units number="2">none</bgc:units>
+          <bgc:description number="2">Plot name type2 (e.g. AEW1)</bgc:description>
+          <bgc:block number="2">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="3">
+          <bgc:name number="3">Region</bgc:name>
+          <bgc:typeOfVariable number="3">string</bgc:typeOfVariable>
+          <bgc:units number="3">none</bgc:units>
+          <bgc:description number="3">Forest region names</bgc:description>
+          <bgc:block number="3">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="4">
+          <bgc:name number="4">LiD_H_MEAN</bgc:name>
+          <bgc:typeOfVariable number="4">realNumber</bgc:typeOfVariable>
+          <bgc:units number="4">meter</bgc:units>
+          <bgc:description number="4">Mean Canopy Height (based on point height above ground) from ALS (labeled as LiD hereafter)</bgc:description>
+          <bgc:block number="4">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="5">
+          <bgc:name number="5">LiD_H_MAX</bgc:name>
+          <bgc:typeOfVariable number="5">realNumber</bgc:typeOfVariable>
+          <bgc:units number="5">meter</bgc:units>
+          <bgc:description number="5">Maximum Canopy Height (based on point height above ground) from ALS</bgc:description>
+          <bgc:block number="5">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="6">
+          <bgc:name number="6">LiD_H_SD</bgc:name>
+          <bgc:typeOfVariable number="6">realNumber</bgc:typeOfVariable>
+          <bgc:units number="6">meter</bgc:units>
+          <bgc:description number="6">Standard Deviation of Canopy Height (based on point height above ground) from ALS</bgc:description>
+          <bgc:block number="6">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="7">
+          <bgc:name number="7">LiD_H_VAR_COEF</bgc:name>
+          <bgc:typeOfVariable number="7">realNumber</bgc:typeOfVariable>
+          <bgc:units number="7">unitless</bgc:units>
+          <bgc:description number="7">Coefficient of Variation of Canopy Height (based on point height above ground) from ALS</bgc:description>
+          <bgc:block number="7">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="8">
+          <bgc:name number="8">LiD_PR_CANUND</bgc:name>
+          <bgc:typeOfVariable number="8">realNumber</bgc:typeOfVariable>
+          <bgc:units number="8">unitless</bgc:units>
+          <bgc:description number="8">Penetration rate of canopy vegetation layer and understory layer from ALS</bgc:description>
+          <bgc:block number="8">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="9">
+          <bgc:name number="9">LiD_PR_CAN</bgc:name>
+          <bgc:typeOfVariable number="9">realNumber</bgc:typeOfVariable>
+          <bgc:units number="9">unitless</bgc:units>
+          <bgc:description number="9">Penetration rate of canopy vegetation layer (redirects to BE_RD_CAN) (based on point height above ground) from ALS</bgc:description>
+          <bgc:block number="9">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="10">
+          <bgc:name number="10">LiD_PR_REG</bgc:name>
+          <bgc:typeOfVariable number="10">realNumber</bgc:typeOfVariable>
+          <bgc:units number="10">unitless</bgc:units>
+          <bgc:description number="10">Penetration rate of regeneration vegetation layer (based on point height above ground) from ALS</bgc:description>
+          <bgc:block number="10">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="11">
+          <bgc:name number="11">LiD_PR_UND</bgc:name>
+          <bgc:typeOfVariable number="11">realNumber</bgc:typeOfVariable>
+          <bgc:units number="11">unitless</bgc:units>
+          <bgc:description number="11">Penetration rate of understory vegetation layer (based on point height above ground) from ALS</bgc:description>
+          <bgc:block number="11">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="12">
+          <bgc:name number="12">LiD_FHD</bgc:name>
+          <bgc:typeOfVariable number="12">realNumber</bgc:typeOfVariable>
+          <bgc:units number="12">unitless</bgc:units>
+          <bgc:description number="12">Foliage Height Diversity (based on point height above ground) from ALS</bgc:description>
+          <bgc:block number="12">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="13">
+          <bgc:name number="13">LiD_gap_total_edge_length</bgc:name>
+          <bgc:typeOfVariable number="13">realNumber</bgc:typeOfVariable>
+          <bgc:units number="13">meter</bgc:units>
+          <bgc:description number="13">Total edge length of gaps from ALS</bgc:description>
+          <bgc:block number="13">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="14">
+          <bgc:name number="14">LiD_gap_total_area</bgc:name>
+          <bgc:typeOfVariable number="14">realNumber</bgc:typeOfVariable>
+          <bgc:units number="14">unitless</bgc:units>
+          <bgc:description number="14">Total area of gaps from ALS</bgc:description>
+          <bgc:block number="14">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="15">
+          <bgc:name number="15">LiD_chm_surface_ratio</bgc:name>
+          <bgc:typeOfVariable number="15">realNumber</bgc:typeOfVariable>
+          <bgc:units number="15">unitless</bgc:units>
+          <bgc:description number="15">area ratio of CHM raster pixels from ALS</bgc:description>
+          <bgc:block number="15">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="16">
+          <bgc:name number="16">LiD_chm_height_sd</bgc:name>
+          <bgc:typeOfVariable number="16">realNumber</bgc:typeOfVariable>
+          <bgc:units number="16">meter</bgc:units>
+          <bgc:description number="16">standard deviation of surface above ground (based on CHM raster pixels) from ALS</bgc:description>
+          <bgc:block number="16">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="17">
+          <bgc:name number="17">S1_diff_VH_VV_dissimilarity</bgc:name>
+          <bgc:typeOfVariable number="17">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="17">unitless</bgc:units>
+          <bgc:description number="17">Dissimilarity of S1_diff_VH_VV with neighbourhood pixels from radar (labeled as S1 hereafter) (used BExIS Id: 25246 v1.1.2 v1.1.2) </bgc:description>
+          <bgc:block number="17">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="18">
+          <bgc:name number="18">S1_diff_VH_VV_entropy</bgc:name>
+          <bgc:typeOfVariable number="18">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="18">unitless</bgc:units>
+          <bgc:description number="18">Entropy of S1_diff_VH_VV with neighbourhood pixels from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="18">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="19">
+          <bgc:name number="19">S1_ratio_VV_VH_dissimilarity</bgc:name>
+          <bgc:typeOfVariable number="19">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="19">unitless</bgc:units>
+          <bgc:description number="19">Dissimilarity of S1_ratio_VV_VH with neighbourhood pixels from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="19">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="20">
+          <bgc:name number="20">S1_ratio_VV_VH_entropy</bgc:name>
+          <bgc:typeOfVariable number="20">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="20">unitless</bgc:units>
+          <bgc:description number="20">Entropy of S1_ratio_VV_VH with neighbourhood pixels from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="20">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="21">
+          <bgc:name number="21">S1_VH_diff_summer_winter_dissimilarity</bgc:name>
+          <bgc:typeOfVariable number="21">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="21">unitless</bgc:units>
+          <bgc:description number="21">Dissimilarity of S1_VH_diff_summer_winter with neighbourhood pixels from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="21">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="22">
+          <bgc:name number="22">S1_VH_diff_summer_winter_entropy</bgc:name>
+          <bgc:typeOfVariable number="22">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="22">unitless</bgc:units>
+          <bgc:description number="22">Entropy of S1_VH_diff_summer_winter with neighbourhood pixels from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="22">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="23">
+          <bgc:name number="23">S1_VH_summer_dissimilarity</bgc:name>
+          <bgc:typeOfVariable number="23">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="23">unitless</bgc:units>
+          <bgc:description number="23">Dissimilarity of S1_VH_summer with neighbourhood pixels from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="23">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="24">
+          <bgc:name number="24">S1_VH_summer_entropy</bgc:name>
+          <bgc:typeOfVariable number="24">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="24">unitless</bgc:units>
+          <bgc:description number="24">Entropy of S1_VH_summer with neighbourhood pixels from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="24">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="25">
+          <bgc:name number="25">S1_VH_winter_dissimilarity</bgc:name>
+          <bgc:typeOfVariable number="25">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="25">unitless</bgc:units>
+          <bgc:description number="25">Dissimilarity of S1_VH_winter with neighbourhood pixels from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="25">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="26">
+          <bgc:name number="26">S1_VH_winter_entropy</bgc:name>
+          <bgc:typeOfVariable number="26">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="26">unitless</bgc:units>
+          <bgc:description number="26">Entropy of S1_VH_winter with neighbourhood pixels from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="26">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="27">
+          <bgc:name number="27">S1_VV_diff_summer_winter_dissimilarity</bgc:name>
+          <bgc:typeOfVariable number="27">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="27">unitless</bgc:units>
+          <bgc:description number="27">Dissimilarity of S1_VV_diff_summer_winter with neighbourhood pixels from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="27">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="28">
+          <bgc:name number="28">S1_VV_diff_summer_winter_entropy</bgc:name>
+          <bgc:typeOfVariable number="28">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="28">unitless</bgc:units>
+          <bgc:description number="28">Entropy of S1_VV_diff_summer_winter with neighbourhood pixels from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="28">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="29">
+          <bgc:name number="29">S1_VV_summer_dissimilarity</bgc:name>
+          <bgc:typeOfVariable number="29">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="29">unitless</bgc:units>
+          <bgc:description number="29">Dissimilarity of S1_VV_summer with neighbourhood pixels from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="29">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="30">
+          <bgc:name number="30">S1_VV_summer_entropy</bgc:name>
+          <bgc:typeOfVariable number="30">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="30">unitless</bgc:units>
+          <bgc:description number="30">Entropy of S1_VV_summer with neighbourhood pixels from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="30">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="31">
+          <bgc:name number="31">S1_VV_winter_dissimilarity</bgc:name>
+          <bgc:typeOfVariable number="31">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="31">unitless</bgc:units>
+          <bgc:description number="31">Dissimilarity of S1_VV_winter with neighbourhood pixels from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="31">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="32">
+          <bgc:name number="32">S1_VV_winter_entropy</bgc:name>
+          <bgc:typeOfVariable number="32">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="32">unitless</bgc:units>
+          <bgc:description number="32">Entropy of S1_VV_winter with neighbourhood pixels from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="32">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="33">
+          <bgc:name number="33">S1_diff_VH_VV</bgc:name>
+          <bgc:typeOfVariable number="33">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="33">unitless</bgc:units>
+          <bgc:description number="33">Difference between yearly VV and VH median value  from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="33">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="34">
+          <bgc:name number="34">S1_ratio_VV_VH</bgc:name>
+          <bgc:typeOfVariable number="34">realNumber</bgc:typeOfVariable>
+          <bgc:units number="34">unitless</bgc:units>
+          <bgc:description number="34">Ratio of yearly VV and VH median value  from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="34">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="35">
+          <bgc:name number="35">S1_VH</bgc:name>
+          <bgc:typeOfVariable number="35">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="35">unitless</bgc:units>
+          <bgc:description number="35">Yearly median value of VH polarisation from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="35">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="36">
+          <bgc:name number="36">S1_VH_diff_summer_winter</bgc:name>
+          <bgc:typeOfVariable number="36">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="36">unitless</bgc:units>
+          <bgc:description number="36">Difference between winter and summer VH value from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="36">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="37">
+          <bgc:name number="37">S1_VH_summer</bgc:name>
+          <bgc:typeOfVariable number="37">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="37">unitless</bgc:units>
+          <bgc:description number="37">Summer median VH value  from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="37">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="38">
+          <bgc:name number="38">S1_VH_winter</bgc:name>
+          <bgc:typeOfVariable number="38">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="38">unitless</bgc:units>
+          <bgc:description number="38">Winter median VH value from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="38">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="39">
+          <bgc:name number="39">S1_VV</bgc:name>
+          <bgc:typeOfVariable number="39">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="39">unitless</bgc:units>
+          <bgc:description number="39">Yearly median value of VV polarisation from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="39">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="40">
+          <bgc:name number="40">S1_VV_diff_summer_winter</bgc:name>
+          <bgc:typeOfVariable number="40">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="40">unitless</bgc:units>
+          <bgc:description number="40">Difference between winter and summer VV value from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="40">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="41">
+          <bgc:name number="41">S1_VV_summer</bgc:name>
+          <bgc:typeOfVariable number="41">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="41">unitless</bgc:units>
+          <bgc:description number="41">Summer median VV value from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="41">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="42">
+          <bgc:name number="42">S1_VV_winter</bgc:name>
+          <bgc:typeOfVariable number="42">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="42">unitless</bgc:units>
+          <bgc:description number="42">Winter median VV value  from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="42">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="43">
+          <bgc:name number="43">S1_diff_VH_VV_sd</bgc:name>
+          <bgc:typeOfVariable number="43">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="43">unitless</bgc:units>
+          <bgc:description number="43">Standard deviation of S1_diff_VH_VV  from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="43">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="44">
+          <bgc:name number="44">S1_ratio_VV_VH_sd</bgc:name>
+          <bgc:typeOfVariable number="44">realNumber</bgc:typeOfVariable>
+          <bgc:units number="44">unitless</bgc:units>
+          <bgc:description number="44">Standard deviation of S1_ratio_VV_VH  from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="44">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="45">
+          <bgc:name number="45">S1_VH_sd</bgc:name>
+          <bgc:typeOfVariable number="45">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="45">unitless</bgc:units>
+          <bgc:description number="45">Standard deviation of S1_VH from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="45">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="46">
+          <bgc:name number="46">S1_VH_diff_summer_winter_sd</bgc:name>
+          <bgc:typeOfVariable number="46">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="46">unitless</bgc:units>
+          <bgc:description number="46">Standard deviation of S1_VH_diff_summer_winter from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="46">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="47">
+          <bgc:name number="47">S1_VH_summer_sd</bgc:name>
+          <bgc:typeOfVariable number="47">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="47">unitless</bgc:units>
+          <bgc:description number="47">Standard deviation of S1_VH_summer from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="47">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="48">
+          <bgc:name number="48">S1_VH_winter_sd</bgc:name>
+          <bgc:typeOfVariable number="48">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="48">unitless</bgc:units>
+          <bgc:description number="48">Standard deviation of S1_VH_winter from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="48">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="49">
+          <bgc:name number="49">S1_VV_sd</bgc:name>
+          <bgc:typeOfVariable number="49">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="49">unitless</bgc:units>
+          <bgc:description number="49">Standard deviation of S1_VV from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="49">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="50">
+          <bgc:name number="50">S1_VV_diff_summer_winter_sd</bgc:name>
+          <bgc:typeOfVariable number="50">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="50">unitless</bgc:units>
+          <bgc:description number="50">Standard deviation of S1_VV_diff_summer_winter from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="50">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="51">
+          <bgc:name number="51">S1_VV_summer_sd</bgc:name>
+          <bgc:typeOfVariable number="51">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="51">unitless</bgc:units>
+          <bgc:description number="51">Standard deviation of S1_VV_summer from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="51">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="52">
+          <bgc:name number="52">S1_VV_winter_sd</bgc:name>
+          <bgc:typeOfVariable number="52">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="52">unitless</bgc:units>
+          <bgc:description number="52">Standard deviation of S1_VV_winter from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="52">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="53">
+          <bgc:name number="53">S1_VH_dissimilarity</bgc:name>
+          <bgc:typeOfVariable number="53">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="53">unitless</bgc:units>
+          <bgc:description number="53">Dissimilarity of S1_VH with neighbourhood pixels from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="53">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="54">
+          <bgc:name number="54">S1_VH_entropy</bgc:name>
+          <bgc:typeOfVariable number="54">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="54">unitless</bgc:units>
+          <bgc:description number="54">Entropy of S1_VH with neighbourhood pixels from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="54">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="55">
+          <bgc:name number="55">S1_VV_dissimilarity</bgc:name>
+          <bgc:typeOfVariable number="55">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="55">unitless</bgc:units>
+          <bgc:description number="55">Dissimilarity of S1_VV with neighbourhood pixels from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="55">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="56">
+          <bgc:name number="56">S1_VV_entropy</bgc:name>
+          <bgc:typeOfVariable number="56">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="56">unitless</bgc:units>
+          <bgc:description number="56">Entropy of S1_VV with neighbourhood pixels from radar (used BExIS Id: 25246 v1.1.2)</bgc:description>
+          <bgc:block number="56">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="57">
+          <bgc:name number="57">specnumbers_Bats</bgc:name>
+          <bgc:typeOfVariable number="57">realNumber</bgc:typeOfVariable>
+          <bgc:units number="57">unitless</bgc:units>
+          <bgc:description number="57">The log-transformed number of observed bat species (used BExIS Ids: 19848 v1.1.4, 19849 v1.1.4, 19850 v1.1.5; used paper: Müller, J. et al. (2012))</bgc:description>
+          <bgc:block number="57">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="58">
+          <bgc:name number="58">ses_mpd_Bats</bgc:name>
+          <bgc:typeOfVariable number="58">realNumber</bgc:typeOfVariable>
+          <bgc:units number="58">unitless</bgc:units>
+          <bgc:description number="58">The standardized effect size of mean phylogenetic distance of bat assemblage (used BExIS Ids: 19848 v1.1.4, 19849 v1.1.4, 19850 v1.1.5; used paper: Müller, J. et al. (2012))</bgc:description>
+          <bgc:block number="58">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="59">
+          <bgc:name number="59">NMDS1_Bats</bgc:name>
+          <bgc:typeOfVariable number="59">realNumber</bgc:typeOfVariable>
+          <bgc:units number="59">unitless</bgc:units>
+          <bgc:description number="59">The first axes of bat species composition based on NMDS ordination scores (used BExIS Ids: 19848 v1.1.4, 19849 v1.1.4, 19850 v1.1.5; used paper: Müller, J. et al. (2012))</bgc:description>
+          <bgc:block number="59">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="60">
+          <bgc:name number="60">NMDS2_Bats</bgc:name>
+          <bgc:typeOfVariable number="60">realNumber</bgc:typeOfVariable>
+          <bgc:units number="60">unitless</bgc:units>
+          <bgc:description number="60">The second axes of bat species composition based on NMDS ordination scores (used BExIS Ids: 19848 v1.1.4, 19849 v1.1.4, 19850 v1.1.5; used paper: Müller, J. et al. (2012))</bgc:description>
+          <bgc:block number="60">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="61">
+          <bgc:name number="61">specnumbers_Birds</bgc:name>
+          <bgc:typeOfVariable number="61">realNumber</bgc:typeOfVariable>
+          <bgc:units number="61">unitless</bgc:units>
+          <bgc:description number="61">The log-transformed number of observed bird species (used BExIS Ids: 21446 v3.1.4, 21447 v3.1.2, 21448 v3.1.3; used paper: Müller, J. et al. (2009))</bgc:description>
+          <bgc:block number="61">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="62">
+          <bgc:name number="62">ses_mpd_Birds</bgc:name>
+          <bgc:typeOfVariable number="62">realNumber</bgc:typeOfVariable>
+          <bgc:units number="62">unitless</bgc:units>
+          <bgc:description number="62">The standardized effect size of mean phylogenetic distance of bird assemblage (used BExIS Ids: 21446 v3.1.4, 21447 v3.1.2, 21448 v3.1.3; used paper: Müller, J. et al. (2009))</bgc:description>
+          <bgc:block number="62">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="63">
+          <bgc:name number="63">NMDS1_Birds</bgc:name>
+          <bgc:typeOfVariable number="63">realNumber</bgc:typeOfVariable>
+          <bgc:units number="63">unitless</bgc:units>
+          <bgc:description number="63">The first axes of bird species composition based on NMDS ordination scores (used BExIS Ids: 21446 v3.1.4, 21447 v3.1.2, 21448 v3.1.3; used paper: Müller, J. et al. (2009))</bgc:description>
+          <bgc:block number="63">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="64">
+          <bgc:name number="64">NMDS2_Birds</bgc:name>
+          <bgc:typeOfVariable number="64">realNumber</bgc:typeOfVariable>
+          <bgc:units number="64">unitless</bgc:units>
+          <bgc:description number="64">The second axes of bird species composition based on NMDS ordination scores (used BExIS Ids: 21446 v3.1.4, 21447 v3.1.2, 21448 v3.1.3; used paper: Müller, J. et al. (2009))</bgc:description>
+          <bgc:block number="64">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="65">
+          <bgc:name number="65">NMDS3_Birds</bgc:name>
+          <bgc:typeOfVariable number="65">realNumber</bgc:typeOfVariable>
+          <bgc:units number="65">unitless</bgc:units>
+          <bgc:description number="65">The third axes of bird species composition based on NMDS ordination scores (used BExIS Ids: 21446 v3.1.4, 21447 v3.1.2, 21448 v3.1.3; used paper: Müller, J. et al. (2009))</bgc:description>
+          <bgc:block number="65">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="66">
+          <bgc:name number="66">specnumbers_Necrophagous</bgc:name>
+          <bgc:typeOfVariable number="66">realNumber</bgc:typeOfVariable>
+          <bgc:units number="66">unitless</bgc:units>
+          <bgc:description number="66">The log-transformed number of observed necrophagous beetle species (used BExIS Id: 16866 v1.1.3; used papers: Müller, J. &amp; Brandl, R. (2009), Doerfler, I. et al. (2018), Roth, N. et al. (2019))</bgc:description>
+          <bgc:block number="66">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="67">
+          <bgc:name number="67">ses_mpd_Necrophagous</bgc:name>
+          <bgc:typeOfVariable number="67">realNumber</bgc:typeOfVariable>
+          <bgc:units number="67">unitless</bgc:units>
+          <bgc:description number="67">The standardized effect size of mean phylogenetic distance of necrophagous beetle assemblage (used BExIS Id: 16866 v1.1.3; used papers: Müller, J. &amp; Brandl, R. (2009), Doerfler, I. et al. (2018), Roth, N. et al. (2019))</bgc:description>
+          <bgc:block number="67">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="68">
+          <bgc:name number="68">NMDS1_Necrophagous</bgc:name>
+          <bgc:typeOfVariable number="68">realNumber</bgc:typeOfVariable>
+          <bgc:units number="68">unitless</bgc:units>
+          <bgc:description number="68">The first axes of necrophagous beetle species composition based on NMDS ordination scores (used BExIS Id: 16866 v1.1.3; used papers: Müller, J. &amp; Brandl, R. (2009), Doerfler, I. et al. (2018), Roth, N. et al. (2019))</bgc:description>
+          <bgc:block number="68">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="69">
+          <bgc:name number="69">NMDS2_Necrophagous</bgc:name>
+          <bgc:typeOfVariable number="69">realNumber</bgc:typeOfVariable>
+          <bgc:units number="69">unitless</bgc:units>
+          <bgc:description number="69">The second axes of necrophagous beetle species composition based on NMDS ordination scores (used BExIS Id: 16866 v1.1.3; used papers: Müller, J. &amp; Brandl, R. (2009), Doerfler, I. et al. (2018), Roth, N. et al. (2019))</bgc:description>
+          <bgc:block number="69">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="70">
+          <bgc:name number="70">NMDS3_Necrophagous</bgc:name>
+          <bgc:typeOfVariable number="70">realNumber</bgc:typeOfVariable>
+          <bgc:units number="70">unitless</bgc:units>
+          <bgc:description number="70">The third axes of necrophagous beetle species composition based on NMDS ordination scores (used BExIS Id: 16866 v1.1.3; used papers: Müller, J. &amp; Brandl, R. (2009), Doerfler, I. et al. (2018), Roth, N. et al. (2019))</bgc:description>
+          <bgc:block number="70">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="71">
+          <bgc:name number="71">specnumbers_Carabids</bgc:name>
+          <bgc:typeOfVariable number="71">realNumber</bgc:typeOfVariable>
+          <bgc:units number="71">unitless</bgc:units>
+          <bgc:description number="71">The log-transformed number of observed carabid beetle species (used BExIS Id: 16866 v1.1.3; used papers: Müller, J. &amp; Brandl, R. (2009), Doerfler, I. et al. (2018), Roth, N. et al. (2019))</bgc:description>
+          <bgc:block number="71">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="72">
+          <bgc:name number="72">ses_mpd_Carabids</bgc:name>
+          <bgc:typeOfVariable number="72">realNumber</bgc:typeOfVariable>
+          <bgc:units number="72">unitless</bgc:units>
+          <bgc:description number="72">The standardized effect size of mean phylogenetic distance of carabid beetle assemblage (used BExIS Id: 16866 v1.1.3; used papers: Müller, J. &amp; Brandl, R. (2009), Doerfler, I. et al. (2018), Roth, N. et al. (2019))</bgc:description>
+          <bgc:block number="72">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="73">
+          <bgc:name number="73">NMDS1_Carabids</bgc:name>
+          <bgc:typeOfVariable number="73">realNumber</bgc:typeOfVariable>
+          <bgc:units number="73">unitless</bgc:units>
+          <bgc:description number="73">The first axes of carabid beetle species composition based on NMDS ordination scores (used BExIS Id: 16866 v1.1.3; used papers: Müller, J. &amp; Brandl, R. (2009), Doerfler, I. et al. (2018), Roth, N. et al. (2019))</bgc:description>
+          <bgc:block number="73">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="74">
+          <bgc:name number="74">NMDS2_Carabids</bgc:name>
+          <bgc:typeOfVariable number="74">realNumber</bgc:typeOfVariable>
+          <bgc:units number="74">unitless</bgc:units>
+          <bgc:description number="74">The second axes of carabid beetle species composition based on NMDS ordination scores (used BExIS Id: 16866 v1.1.3; used papers: Müller, J. &amp; Brandl, R. (2009), Doerfler, I. et al. (2018), Roth, N. et al. (2019))</bgc:description>
+          <bgc:block number="74">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="75">
+          <bgc:name number="75">specnumbers_Aranea</bgc:name>
+          <bgc:typeOfVariable number="75">realNumber</bgc:typeOfVariable>
+          <bgc:units number="75">unitless</bgc:units>
+          <bgc:description number="75">The log-transformed number of observed spider species (used BExIS Id: 16868 v1.1.3)</bgc:description>
+          <bgc:block number="75">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="76">
+          <bgc:name number="76">ses_mpd_Aranea</bgc:name>
+          <bgc:typeOfVariable number="76">realNumber</bgc:typeOfVariable>
+          <bgc:units number="76">unitless</bgc:units>
+          <bgc:description number="76">The standardized effect size of mean phylogenetic distance of spider assemblage (used BExIS Id: 16868 v1.1.3)</bgc:description>
+          <bgc:block number="76">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="77">
+          <bgc:name number="77">NMDS1_Aranea</bgc:name>
+          <bgc:typeOfVariable number="77">realNumber</bgc:typeOfVariable>
+          <bgc:units number="77">unitless</bgc:units>
+          <bgc:description number="77">The first axes of spider species composition based on NMDS ordination scores (used BExIS Id: 16868 v1.1.3)</bgc:description>
+          <bgc:block number="77">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="78">
+          <bgc:name number="78">NMDS2_Aranea</bgc:name>
+          <bgc:typeOfVariable number="78">realNumber</bgc:typeOfVariable>
+          <bgc:units number="78">unitless</bgc:units>
+          <bgc:description number="78">The second axes of spider species composition based on NMDS ordination scores (used BExIS Id: 16868 v1.1.3)</bgc:description>
+          <bgc:block number="78">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="79">
+          <bgc:name number="79">NMDS3_Aranea</bgc:name>
+          <bgc:typeOfVariable number="79">realNumber</bgc:typeOfVariable>
+          <bgc:units number="79">unitless</bgc:units>
+          <bgc:description number="79">The third axes of spider species composition based on NMDS ordination scores (used BExIS Id: 16868 v1.1.3)</bgc:description>
+          <bgc:block number="79">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="80">
+          <bgc:name number="80">specnumbers_Fungi</bgc:name>
+          <bgc:typeOfVariable number="80">realNumber</bgc:typeOfVariable>
+          <bgc:units number="80">unitless</bgc:units>
+          <bgc:description number="80">The log-transformed number of observed fungus species  (used BExIS Id: 18547 v1.2.2; used paper: Bässler, C. et al. (2010b))</bgc:description>
+          <bgc:block number="80">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="81">
+          <bgc:name number="81">ses_mpd_Fungi</bgc:name>
+          <bgc:typeOfVariable number="81">realNumber</bgc:typeOfVariable>
+          <bgc:units number="81">unitless</bgc:units>
+          <bgc:description number="81">The standardized effect size of mean phylogenetic distance of fungus assemblage  (used BExIS Id: 18547 v1.2.2; used paper: Bässler, C. et al. (2010b))</bgc:description>
+          <bgc:block number="81">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="82">
+          <bgc:name number="82">NMDS1_Fungi</bgc:name>
+          <bgc:typeOfVariable number="82">realNumber</bgc:typeOfVariable>
+          <bgc:units number="82">unitless</bgc:units>
+          <bgc:description number="82">The first axes of fungus species composition based on NMDS ordination scores  (used BExIS Id: 18547 v1.2.2; used paper: Bässler, C. et al. (2010b))</bgc:description>
+          <bgc:block number="82">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="83">
+          <bgc:name number="83">NMDS2_Fungi</bgc:name>
+          <bgc:typeOfVariable number="83">realNumber</bgc:typeOfVariable>
+          <bgc:units number="83">unitless</bgc:units>
+          <bgc:description number="83">The second axes of fungus species composition based on NMDS ordination scores  (used BExIS Id: 18547 v1.2.2; used paper: Bässler, C. et al. (2010b))</bgc:description>
+          <bgc:block number="83">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="84">
+          <bgc:name number="84">NMDS3_Fungi</bgc:name>
+          <bgc:typeOfVariable number="84">realNumber</bgc:typeOfVariable>
+          <bgc:units number="84">unitless</bgc:units>
+          <bgc:description number="84">The third axes of fungus species composition based on NMDS ordination scores  (used BExIS Id: 18547 v1.2.2; used paper: Bässler, C. et al. (2010b))</bgc:description>
+          <bgc:block number="84">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="85">
+          <bgc:name number="85">specnumbers_Saproxylic</bgc:name>
+          <bgc:typeOfVariable number="85">realNumber</bgc:typeOfVariable>
+          <bgc:units number="85">unitless</bgc:units>
+          <bgc:description number="85">The log-transformed number of observed saproxylic beetle species (used BExIS Id: 16866 v1.1.3; used papers: Müller, J. &amp; Brandl, R. (2009), Doerfler, I. et al. (2018), Roth, N. et al. (2019))</bgc:description>
+          <bgc:block number="85">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="86">
+          <bgc:name number="86">ses_mpd_Saproxylic</bgc:name>
+          <bgc:typeOfVariable number="86">realNumber</bgc:typeOfVariable>
+          <bgc:units number="86">unitless</bgc:units>
+          <bgc:description number="86">The standardized effect size of mean phylogenetic distance of saproxylic beetle assemblage (used BExIS Id: 16866 v1.1.3; used papers: Müller, J. &amp; Brandl, R. (2009), Doerfler, I. et al. (2018), Roth, N. et al. (2019))</bgc:description>
+          <bgc:block number="86">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="87">
+          <bgc:name number="87">NMDS1_Saproxylic</bgc:name>
+          <bgc:typeOfVariable number="87">realNumber</bgc:typeOfVariable>
+          <bgc:units number="87">unitless</bgc:units>
+          <bgc:description number="87">The first axes of saproxylic beetle species composition based on NMDS ordination scores (used BExIS Id: 16866 v1.1.3; used papers: Müller, J. &amp; Brandl, R. (2009), Doerfler, I. et al. (2018), Roth, N. et al. (2019))</bgc:description>
+          <bgc:block number="87">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="88">
+          <bgc:name number="88">NMDS2_Saproxylic</bgc:name>
+          <bgc:typeOfVariable number="88">realNumber</bgc:typeOfVariable>
+          <bgc:units number="88">unitless</bgc:units>
+          <bgc:description number="88">The second axes of saproxylic beetle species composition based on NMDS ordination scores (used BExIS Id: 16866 v1.1.3; used papers: Müller, J. &amp; Brandl, R. (2009), Doerfler, I. et al. (2018), Roth, N. et al. (2019))</bgc:description>
+          <bgc:block number="88">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="89">
+          <bgc:name number="89">NMDS3_Saproxylic</bgc:name>
+          <bgc:typeOfVariable number="89">realNumber</bgc:typeOfVariable>
+          <bgc:units number="89">unitless</bgc:units>
+          <bgc:description number="89">The third axes of saproxylic beetle species composition based on NMDS ordination scores (used BExIS Id: 16866 v1.1.3; used papers: Müller, J. &amp; Brandl, R. (2009), Doerfler, I. et al. (2018), Roth, N. et al. (2019))</bgc:description>
+          <bgc:block number="89">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="90">
+          <bgc:name number="90">specnumbers_Moths</bgc:name>
+          <bgc:typeOfVariable number="90">realNumber</bgc:typeOfVariable>
+          <bgc:units number="90">unitless</bgc:units>
+          <bgc:description number="90">The log-transformed number of observed moth species</bgc:description>
+          <bgc:block number="90">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="91">
+          <bgc:name number="91">ses_mpd_Moths</bgc:name>
+          <bgc:typeOfVariable number="91">realNumber</bgc:typeOfVariable>
+          <bgc:units number="91">unitless</bgc:units>
+          <bgc:description number="91">The standardized effect size of mean phylogenetic distance of moth assemblage</bgc:description>
+          <bgc:block number="91">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="92">
+          <bgc:name number="92">NMDS1_Moths</bgc:name>
+          <bgc:typeOfVariable number="92">realNumber</bgc:typeOfVariable>
+          <bgc:units number="92">unitless</bgc:units>
+          <bgc:description number="92">The first axes of moth species composition based on NMDS ordination scores</bgc:description>
+          <bgc:block number="92">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="93">
+          <bgc:name number="93">NMDS2_Moths</bgc:name>
+          <bgc:typeOfVariable number="93">realNumber</bgc:typeOfVariable>
+          <bgc:units number="93">unitless</bgc:units>
+          <bgc:description number="93">The second axes of moth species composition based on NMDS ordination scores</bgc:description>
+          <bgc:block number="93">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="94">
+          <bgc:name number="94">specnumbers_Phytophagous</bgc:name>
+          <bgc:typeOfVariable number="94">realNumber</bgc:typeOfVariable>
+          <bgc:units number="94">unitless</bgc:units>
+          <bgc:description number="94">The log-transformed number of observed phytophagous beetle species (used BExIS Id: 16866 v1.1.3; used papers: Müller, J. &amp; Brandl, R. (2009), Doerfler, I. et al. (2018), Roth, N. et al. (2019))</bgc:description>
+          <bgc:block number="94">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="95">
+          <bgc:name number="95">ses_mpd_Phytophagous</bgc:name>
+          <bgc:typeOfVariable number="95">realNumber</bgc:typeOfVariable>
+          <bgc:units number="95">unitless</bgc:units>
+          <bgc:description number="95">The standardized effect size of mean phylogenetic distance of phytophagous beetle assemblage (used BExIS Id: 16866 v1.1.3; used papers: Müller, J. &amp; Brandl, R. (2009), Doerfler, I. et al. (2018), Roth, N. et al. (2019))</bgc:description>
+          <bgc:block number="95">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="96">
+          <bgc:name number="96">NMDS1_Phytophagous</bgc:name>
+          <bgc:typeOfVariable number="96">realNumber</bgc:typeOfVariable>
+          <bgc:units number="96">unitless</bgc:units>
+          <bgc:description number="96">The first axes of phytophagous beetle species composition based on NMDS ordination scores (used BExIS Id: 16866 v1.1.3; used papers: Müller, J. &amp; Brandl, R. (2009), Doerfler, I. et al. (2018), Roth, N. et al. (2019))</bgc:description>
+          <bgc:block number="96">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="97">
+          <bgc:name number="97">NMDS2_Phytophagous</bgc:name>
+          <bgc:typeOfVariable number="97">realNumber</bgc:typeOfVariable>
+          <bgc:units number="97">unitless</bgc:units>
+          <bgc:description number="97">The second axes of phytophagous beetle species composition based on NMDS ordination scores (used BExIS Id: 16866 v1.1.3; used papers: Müller, J. &amp; Brandl, R. (2009), Doerfler, I. et al. (2018), Roth, N. et al. (2019))</bgc:description>
+          <bgc:block number="97">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="98">
+          <bgc:name number="98">NMDS3_Phytophagous</bgc:name>
+          <bgc:typeOfVariable number="98">realNumber</bgc:typeOfVariable>
+          <bgc:units number="98">unitless</bgc:units>
+          <bgc:description number="98">The third axes of phytophagous beetle species composition based on NMDS ordination scores (used BExIS Id: 16866 v1.1.3; used papers: Müller, J. &amp; Brandl, R. (2009), Doerfler, I. et al. (2018), Roth, N. et al. (2019))</bgc:description>
+          <bgc:block number="98">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="99">
+          <bgc:name number="99">specnumbers_Lichens</bgc:name>
+          <bgc:typeOfVariable number="99">realNumber</bgc:typeOfVariable>
+          <bgc:units number="99">unitless</bgc:units>
+          <bgc:description number="99">The log-transformed number of observed lichen species  (used BExIS Id: 4460 v1.11.14; used paper: Moning, C. et al. (2009))</bgc:description>
+          <bgc:block number="99">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="100">
+          <bgc:name number="100">ses_mpd_Lichens</bgc:name>
+          <bgc:typeOfVariable number="100">realNumber</bgc:typeOfVariable>
+          <bgc:units number="100">unitless</bgc:units>
+          <bgc:description number="100">The standardized effect size of mean phylogenetic distance of lichen assemblage  (used BExIS Id: 4460 v1.11.14; used paper: Moning, C. et al. (2009))</bgc:description>
+          <bgc:block number="100">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="101">
+          <bgc:name number="101">NMDS1_Lichens</bgc:name>
+          <bgc:typeOfVariable number="101">realNumber</bgc:typeOfVariable>
+          <bgc:units number="101">unitless</bgc:units>
+          <bgc:description number="101">The first axes of lichen species composition based on NMDS ordination scores  (used BExIS Id: 4460 v1.11.14; used paper: Moning, C. et al. (2009))</bgc:description>
+          <bgc:block number="101">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="102">
+          <bgc:name number="102">NMDS2_Lichens</bgc:name>
+          <bgc:typeOfVariable number="102">realNumber</bgc:typeOfVariable>
+          <bgc:units number="102">unitless</bgc:units>
+          <bgc:description number="102">The second axes of lichen species composition based on NMDS ordination scores  (used BExIS Id: 4460 v1.11.14; used paper: Moning, C. et al. (2009))</bgc:description>
+          <bgc:block number="102">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="103">
+          <bgc:name number="103">specnumbers_Bryophytes</bgc:name>
+          <bgc:typeOfVariable number="103">realNumber</bgc:typeOfVariable>
+          <bgc:units number="103">unitless</bgc:units>
+          <bgc:description number="103">The log-transformed number of observed bryophyte species (used BExIS Id: 4141 v1.6.8; used paper: Raabe, S. et al. (2010))</bgc:description>
+          <bgc:block number="103">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="104">
+          <bgc:name number="104">ses_mpd_Bryophytes</bgc:name>
+          <bgc:typeOfVariable number="104">realNumber</bgc:typeOfVariable>
+          <bgc:units number="104">unitless</bgc:units>
+          <bgc:description number="104">The standardized effect size of mean phylogenetic distance of bryophyte assemblage (used BExIS Id: 4141 v1.6.8; used paper: Raabe, S. et al. (2010))</bgc:description>
+          <bgc:block number="104">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="105">
+          <bgc:name number="105">NMDS1_Bryophytes</bgc:name>
+          <bgc:typeOfVariable number="105">realNumber</bgc:typeOfVariable>
+          <bgc:units number="105">unitless</bgc:units>
+          <bgc:description number="105">The first axes of bryophyte species composition based on NMDS ordination scores (used BExIS Id: 4141 v1.6.8; used paper: Raabe, S. et al. (2010))</bgc:description>
+          <bgc:block number="105">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="106">
+          <bgc:name number="106">NMDS2_Bryophytes</bgc:name>
+          <bgc:typeOfVariable number="106">realNumber</bgc:typeOfVariable>
+          <bgc:units number="106">unitless</bgc:units>
+          <bgc:description number="106">The second axes of bryophyte species composition based on NMDS ordination scores (used BExIS Id: 4141 v1.6.8; used paper: Raabe, S. et al. (2010))</bgc:description>
+          <bgc:block number="106">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="107">
+          <bgc:name number="107">NMDS3_Bryophytes</bgc:name>
+          <bgc:typeOfVariable number="107">realNumber</bgc:typeOfVariable>
+          <bgc:units number="107">unitless</bgc:units>
+          <bgc:description number="107">The third axes of bryophyte species composition based on NMDS ordination scores (used BExIS Id: 4141 v1.6.8; used paper: Raabe, S. et al. (2010))</bgc:description>
+          <bgc:block number="107">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="108">
+          <bgc:name number="108">specnumbers_Plants</bgc:name>
+          <bgc:typeOfVariable number="108">realNumber</bgc:typeOfVariable>
+          <bgc:units number="108">unitless</bgc:units>
+          <bgc:description number="108">The log-transformed number of observed vascular plant species (used BExIS Id: 20826 v1.4.5; used paper: Bässler, C. et al. (2010a))</bgc:description>
+          <bgc:block number="108">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="109">
+          <bgc:name number="109">ses_mpd_Plants</bgc:name>
+          <bgc:typeOfVariable number="109">realNumber</bgc:typeOfVariable>
+          <bgc:units number="109">unitless</bgc:units>
+          <bgc:description number="109">The standardized effect size of mean phylogenetic distance of vascular plant assemblage (used BExIS Id: 20826 v1.4.5; used paper: Bässler, C. et al. (2010a))</bgc:description>
+          <bgc:block number="109">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="110">
+          <bgc:name number="110">NMDS1_Plants</bgc:name>
+          <bgc:typeOfVariable number="110">realNumber</bgc:typeOfVariable>
+          <bgc:units number="110">unitless</bgc:units>
+          <bgc:description number="110">The first axes of vascular plant species composition based on NMDS ordination scores (used BExIS Id: 20826 v1.4.5; used paper: Bässler, C. et al. (2010a))</bgc:description>
+          <bgc:block number="110">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="111">
+          <bgc:name number="111">NMDS2_Plants</bgc:name>
+          <bgc:typeOfVariable number="111">realNumber</bgc:typeOfVariable>
+          <bgc:units number="111">unitless</bgc:units>
+          <bgc:description number="111">The second axes of vascular plant species composition based on NMDS ordination scores (used BExIS Id: 20826 v1.4.5; used paper: Bässler, C. et al. (2010a))</bgc:description>
+          <bgc:block number="111">0</bgc:block>
+        </bgc:variable>
+      </bgc:variables>
+    </bgc:dataStructure>
+  </bgc:data>
+  <bgc:references>
+    <bgc:database />
+    <bgc:papers>
+      <bgc:paper number="1">Bässler, C., Müller, J. &amp; Dziock, F. (2010a). Detection of Climate-Sensitive Zones and Identification of Climate Change Indicators: A Case Study from the Bavarian Forest National Park. Folia Geobot., 45, 163–182					</bgc:paper>
+      <bgc:paper number="2">Bässler, C., Müller, J., Dziock, F. &amp; Brandl, R. (2010b). Effects of resource availability and climate on the diversity of wood-decaying fungi. J. Ecol., 98, 822–832.					</bgc:paper>
+      <bgc:paper number="3">Boch, S., Prati, D., Hessenmöller, D., Schulze, E.-D. &amp; Fischer, M. (2013). Richness of Lichen Species, Especially of Threatened Ones, Is Promoted by Management Methods Furthering Stand Continuity. PLOS ONE, 8, e55461					</bgc:paper>
+      <bgc:paper number="4">Doerfler, I., Gossner, M.M., Müller, J., Seibold, S. &amp; Weisser, W.W. (2018). Deadwood enrichment combining integrative and segregative conservation elements enhances biodiversity of multiple taxa in managed forests. Biol. Conserv., 228, 70–78.					</bgc:paper>
+      <bgc:paper number="5">Durka, W. &amp; Michalski, S.G. (2012). Daphne: a dated phylogeny of a large European flora for phylogenetically informed ecological analyses. Ecology, 93, 2297–2297.					</bgc:paper>
+      <bgc:paper number="6">Jung, K., Kaiser, S., Böhm, S., Nieschulze, J. &amp; Kalko, E.K.V. (2012). Moving in three dimensions: effects of structural complexity on occurrence and activity of insectivorous bats in managed forest stands. J. Appl. Ecol., 49, 523–531.					</bgc:paper>
+      <bgc:paper number="7">Lange, M., Türke, M., Pašalić, E., Boch, S., Hessenmöller, D., Müller, J., et al. (2014). Effects of forest management on ground-dwelling beetles (Coleoptera; Carabidae, Staphylinidae) in Central Europe are mainly mediated by changes in forest structure. For. Ecol. Manag., 329, 166–176.					</bgc:paper>
+      <bgc:paper number="8">Moning, C., Werth, S., Dziock, F., Bässler, C., Bradtka, J., Hothorn, T., et al. (2009). Lichen diversity in temperate montane forests is influenced by forest structure more than climate. For. Ecol. Manag., 258, 745–751.					</bgc:paper>
+      <bgc:paper number="9">Müller, J. &amp; Brandl, R. (2009). Assessing biodiversity by remote sensing in mountainous terrain: the potential of LiDAR to predict forest beetle assemblages. J. Appl. Ecol., 46, 897–905.					</bgc:paper>
+      <bgc:paper number="10">Müller, J., Mehr, M., Bässler, C., Fenton, M.B., Hothorn, T., Pretzsch, H., et al. (2012). Aggregative response in bats: prey abundance versus habitat. Oecologia, 169, 673–684.					</bgc:paper>
+      <bgc:paper number="11">Müller, J., Moning, C., Bässler, C., Heurich, M. &amp; Brandl, R. (2009). Using airborne laser scanning to model potential abundance and assemblages of forest passerines. Basic Appl. Ecol., 10, 671–681.					</bgc:paper>
+      <bgc:paper number="12">Müller J., Boch S., Prati D., Socher S.A., Pommer U., Hessenmöller D., Schall P., Schulze E-D., Fischer M. (2019) Effects of forest management on bryophyte species richness in Central European forests. Forest Ecology and Management 432: 850–859.					</bgc:paper>
+      <bgc:paper number="13">Raabe, S., Müller, J., Manthey, M., Dürhammer, O., Teuber, U., Göttlein, A., et al. (2010). Drivers of bryophyte diversity allow implications for forest management with a focus on climate change. For. Ecol. Manag., 260, 1956–1964.					</bgc:paper>
+      <bgc:paper number="14">Roth, N., Doerfler, I., Bässler, C., Blaschke, M., Bussler, H., Gossner, M.M., et al. (2019). Decadal effects of landscape-wide enrichment of dead wood on saproxylic organisms in beech forests of different historic management intensity. Divers. Distrib., 25, 430–441.					</bgc:paper>
+      <bgc:paper number="15">Wells, K., Böhm, S.M., Boch, S., Fischer, M. &amp; Kalko, E.K.V. (2011). Local and landscape-scale forest attributes differ in their impact on bird assemblages across years in forest production landscapes. Basic Appl. Ecol., 12, 97–106.					</bgc:paper>
+      <bgc:paper number="16">Wells, K., O’Hara, R.B., Böhm, S.M., Gockel, S., Hemp, A., Renner, S.C., et al. (2012). Trait-dependent occupancy dynamics of birds in temperate forest landscapes: fine-scale observations in a hierarchical multi-species framework. Anim. Conserv., 15, 626–637.					</bgc:paper>
+    </bgc:papers>
+    <bgc:relatedDatasets>
+      <bgc:dataset number="1">Jung, Kirsten; Marco Tschapka (2018): Bat activity in all Exploratories, summer 2008, using acoustic monitoring . v1.1.4. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/PublicData/PublicData.aspx?DatasetId=19848</bgc:dataset>
+      <bgc:dataset number="2">Tschapka, Marco; Swen Renner; Kirsten Jung (2018): Bird survey data 2008. v3.1.4. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/PublicData/PublicData.aspx?DatasetId=21446</bgc:dataset>
+      <bgc:dataset number="3">Goßner, Martin; Markus Lange; Manfred Türke; Esther Pasalic; Wolfgang Weisser (2016): Window and ground traps on forest EPs in 2008 subset Coleoptera. v1.1.3. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/PublicData/PublicData.aspx?DatasetId=16866</bgc:dataset>
+      <bgc:dataset number="4">Goßner, Martin; Manfred Türke; Markus Lange; Esther Pasalic; Wolfgang Weisser (2016): Window and ground traps on forest EPs in 2008 subset Araneae. v1.1.3. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/PublicData/PublicData.aspx?DatasetId=16868</bgc:dataset>
+      <bgc:dataset number="5">Fischer, Markus (2017): Deadwood inhabiting fungi presence absence (2010, all forest EPs). v1.2.2. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/PublicData/PublicData.aspx?DatasetId=18547</bgc:dataset>
+      <bgc:dataset number="6">Müller, Jörg; Steffen Boch; Markus Fischer (2016): Bryophyte diversity in forests. v1.6.8. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/PublicData/PublicData.aspx?DatasetId=4141</bgc:dataset>
+      <bgc:dataset number="7">Boch, Steffen; Daniel Prati; Markus Fischer (2016): Lichen diversity in forests. v1.11.14. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/PublicData/PublicData.aspx?DatasetId=4460</bgc:dataset>
+      <bgc:dataset number="8">Schäfer, Deborah; Steffen Boch; Markus Fischer (2017): Vegetation Records for Forest EPs, 2009 - 2016. v1.4.5. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/PublicData/PublicData.aspx?DatasetId=20366</bgc:dataset>
+      <bgc:dataset number="9">Bae, Soyeon; Shaun Levick; Benjamin F. Leutner; Jörg Müller (2019): Synthetic Aperture Radar (Sentinel-1) metrics on all forest EPs, 2016 v1.1.2. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/. DatasetId=25246					</bgc:dataset>
+    </bgc:relatedDatasets>
+    <bgc:citation>Bae, Soyeon; Shaun Levick; Lea Heidrich; Paul Magdon; Benjamin F. Leutner; Stephan Wöllauer; Alla Serebryanyk; Thomas Nauss; Peter Krzystek; Martin M. Gossner; Peter Schall; Christoph Heibl; Claus Bässler; Dörfler Inken; Ernst-Detlef Schulze; Franz-Sebastian Krah; Kirsten Jung; Marco Heurich; Marco Tschapka; Markus Fischer; Sebastian Seibold; Torsten Hothorn; Wolfgang W. Weisser; Jörg Müller (2019): Aggregated data of radar, Airborne Laser Scanning, and biodiversity measures on all forest EPs (2006-2018) used in "Radar vision for mapping forest biodiversity from space". v1.3.13. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/PublicData/PublicData.aspx?DatasetId=25206</bgc:citation>
+  </bgc:references>
+  <bgc:comment>The corresponding manuscript is under review. Changes might be applied during review process					</bgc:comment>
+</bgc:metaProfile>

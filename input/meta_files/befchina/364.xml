@@ -1,0 +1,286 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='364'>
+<alternateIdentifier>http://china.befdata.biow.uni-leipzig.de/datasets/364</alternateIdentifier>
+<title>Main experiment Site B:  initial monitoring herb layer -total cover, herb cover</title>
+<creator id='dingbingyang'>
+<individualName>
+<givenName>Bing-Yang</givenName>
+<surName>Ding</surName>
+</individualName>
+<organizationName>Department of Biology, College of Life and Environmental  Sciences, Wenzhou University</organizationName>
+<address>
+
+<city>China</city>
+
+</address>
+<phone>86-577-88311163</phone>
+<electronicMailAddress>dingby2005@126.com</electronicMailAddress>
+</creator>
+<creator id='gaomo'>
+<individualName>
+<givenName>Mo </givenName>
+<surName>Gao</surName>
+</individualName>
+<organizationName>Department of Biology, College of Life and Environmental  Sciences, Wenzhou University</organizationName>
+<address>
+
+
+
+</address>
+
+<electronicMailAddress>gaomoyhl@126.com</electronicMailAddress>
+</creator>
+<pubDate>2013-06-20</pubDate>
+<language>en_US</language>
+<abstract>
+<para>This data gives cover values of herbs in each of the 1 mu subplots of the experimental site B of the BEF-China experiment.</para>
+<para>This investigation has done before weeding, and the plants  are in the best growth period.</para>
+</abstract>
+<keywordSet>
+<keyword>herb layer</keyword>
+<keyword>herbs</keyword>
+<keyword>Inventory</keyword>
+<keyword>location</keyword>
+<keyword>Main Experiment</keyword>
+<keyword>Site B</keyword>
+<keyword>vegetation cover</keyword>
+<keywordThesaurus>Find the list of keywords here: http://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>date</keyword>
+<keyword>investigator</keyword>
+<keyword>plot number</keyword>
+<keyword>total vegetation coverage</keyword>
+<keyword>herb vegetation coverage</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>for the data owner and pi of sp11 (Ask the data owner if you can use this data.)</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+http://china.befdata.biow.uni-leipzig.de/datasets/364/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>Xingangshan, SiteB
+29°08'-29°11'E
+117°90'-117°93'E</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2010-06-19
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2010-06-25
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>This data gives cover values of herbs in each of the 1 mu subplots of the experimental site B of the BEF-China experiment.</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+This data gives cover values of herbs in each of the 1 mu subplots of the experimental site B of the BEF-China experiment.
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>dingbingyang</references>
+</contact>
+<contact>
+<references>gaomo</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>Main experiment Site B:  initial monitoring herb layer -total cover, herb cover</para>
+<para>This data gives cover values of herbs in each of the 1 mu subplots of the experimental site B of the BEF-China experiment.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2010-06-19 00:00:00 UTC - 2010-06-25 00:00:00 UTC</para>
+<para>2010/6/20-2010/6/26</para>
+<para>Xingangshan, SiteB
+29°08&#x27;-29°11&#x27;E
+117°90&#x27;-117°93&#x27;E</para>
+<para>This data gives cover values of herbs in each of the 1 mu subplots of the experimental site B of the BEF-China experiment.</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>Each 1 mu plot in the initial plot map in the report to the German Science foundations was visited and a W-Transect was used to inspect tatal herb cover.</para>
+<para>The herb composition can be related to soil and relief variables (altitude, slope, aspect). It can also be used as covarible in further analysis of the plot</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>http://china.befdata.biow.uni-leipzig.de/datasets/364</entityName>
+<entityDescription>Main experiment Site B:  initial monitoring herb layer -total cover, herb cover</entityDescription>
+<physical>
+<objectName>/datasets/364</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>http://china.befdata.biow.uni-leipzig.de/datasets/364/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='date'>
+<attributeName>Date time information (date), datetime</attributeName>
+<attributeLabel>date</attributeLabel>
+<attributeDefinition>Date time information, given as year or as date or as date time. (date: date)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Date time information, given as year or as date or as date time.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Date time information</para>
+<para>Date time information, given as year or as date or as date time.</para>
+<para>date</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='investigator'>
+<attributeName>Helper (investigator), id</attributeName>
+<attributeLabel>investigator</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (investigator: investigator)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>investigator</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='plot number'>
+<attributeName>Numeric treatment acronyms for the main experiment (plot number), id</attributeName>
+<attributeLabel>plot number</attributeLabel>
+<attributeDefinition>Numbers lower than 100 belong to 4 mu plots, while numbers from 100 on are 1 mu plots. Within the 4 mu plots, the 1 mu plots have different shrub treatments. These are indicated by the subscript. Shrubs in the main experiment were planted: 1 - no shrubs, 2 - 2 shrub species , 3 - 4 shrub species, 3 - 8 shrub species (plot number: plot number of the plot in Site B)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Numbers lower than 100 belong to 4 mu plots, while numbers from 100 on are 1 mu plots. Within the 4 mu plots, the 1 mu plots have different shrub treatments. These are indicated by the subscript. Shrubs in the main experiment were planted: 1 - no shrubs, 2 - 2 shrub species , 3 - 4 shrub species, 3 - 8 shrub species</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Numeric treatment acronyms for the main experiment</para>
+<para>Numbers lower than 100 belong to 4 mu plots, while numbers from 100 on are 1 mu plots. Within the 4 mu plots, the 1 mu plots have different shrub treatments. These are indicated by the subscript. Shrubs in the main experiment were planted: 1 - no shrubs, 2 - 2 shrub species , 3 - 4 shrub species, 3 - 8 shrub species</para>
+<para>plot number of the plot in Site B</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='total vegetation coverage'>
+<attributeName>Vegetation layer cover (total vegetation coverage), percent</attributeName>
+<attributeLabel>total vegetation coverage</attributeLabel>
+<attributeDefinition>Estimated cover when looking from above.  Cover can be estimated in percent, but there are also ordinal classifications of cover, such as Londo or Braun Blanquet. ---- Londo vegetation cover works in levels, so that  1	≤ 1 % cover; 2	&gt; 1 to ≤ 3% cover; 4	&gt; 3 to ≤ 5% cover; 10	&gt; 5 to ≤ 15% cover; 20	&gt; 15 to ≤ 25% cover; 30	&gt; 25 to ≤ 35% cover; 40	&gt; 35 to ≤ 45% cover; 50	&gt; 45 to ≤ 55% cover; 60	&gt; 55 to ≤ 65% cover; 70	&gt; 65 to ≤ 75% cover; 80	&gt; 75 to ≤ 85% cover; 90	&gt; 85% cover----  Cumulated vegetation cover ist calculated as: To combine T1 and T2 (both in %) you simply use the formula T_total = T1 +
+T2 * (100-T1)/100 ---- For example: T1 = 50% and T2 = 50% give T_total = 75%. (total vegetation coverage: total cover estimated to 1 percent)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Vegetation layer cover</para>
+<para>Estimated cover when looking from above.  Cover can be estimated in percent, but there are also ordinal classifications of cover, such as Londo or Braun Blanquet. ---- Londo vegetation cover works in levels, so that  1	≤ 1 % cover; 2	&gt; 1 to ≤ 3% cover; 4	&gt; 3 to ≤ 5% cover; 10	&gt; 5 to ≤ 15% cover; 20	&gt; 15 to ≤ 25% cover; 30	&gt; 25 to ≤ 35% cover; 40	&gt; 35 to ≤ 45% cover; 50	&gt; 45 to ≤ 55% cover; 60	&gt; 55 to ≤ 65% cover; 70	&gt; 65 to ≤ 75% cover; 80	&gt; 75 to ≤ 85% cover; 90	&gt; 85% cover----  Cumulated vegetation cover ist calculated as: To combine T1 and T2 (both in %) you simply use the formula T_total = T1 +
+T2 * (100-T1)/100 ---- For example: T1 = 50% and T2 = 50% give T_total = 75%.</para>
+<para>total cover estimated to 1 percent</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='herb vegetation coverage'>
+<attributeName>Vegetation layer cover (herb vegetation coverage), percent</attributeName>
+<attributeLabel>herb vegetation coverage</attributeLabel>
+<attributeDefinition>Estimated cover when looking from above.  Cover can be estimated in percent, but there are also ordinal classifications of cover, such as Londo or Braun Blanquet. ---- Londo vegetation cover works in levels, so that  1	≤ 1 % cover; 2	&gt; 1 to ≤ 3% cover; 4	&gt; 3 to ≤ 5% cover; 10	&gt; 5 to ≤ 15% cover; 20	&gt; 15 to ≤ 25% cover; 30	&gt; 25 to ≤ 35% cover; 40	&gt; 35 to ≤ 45% cover; 50	&gt; 45 to ≤ 55% cover; 60	&gt; 55 to ≤ 65% cover; 70	&gt; 65 to ≤ 75% cover; 80	&gt; 75 to ≤ 85% cover; 90	&gt; 85% cover----  Cumulated vegetation cover ist calculated as: To combine T1 and T2 (both in %) you simply use the formula T_total = T1 +
+T2 * (100-T1)/100 ---- For example: T1 = 50% and T2 = 50% give T_total = 75%. (herb vegetation coverage: total cover of herb estimated to 1 percent)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Vegetation layer cover</para>
+<para>Estimated cover when looking from above.  Cover can be estimated in percent, but there are also ordinal classifications of cover, such as Londo or Braun Blanquet. ---- Londo vegetation cover works in levels, so that  1	≤ 1 % cover; 2	&gt; 1 to ≤ 3% cover; 4	&gt; 3 to ≤ 5% cover; 10	&gt; 5 to ≤ 15% cover; 20	&gt; 15 to ≤ 25% cover; 30	&gt; 25 to ≤ 35% cover; 40	&gt; 35 to ≤ 45% cover; 50	&gt; 45 to ≤ 55% cover; 60	&gt; 55 to ≤ 65% cover; 70	&gt; 65 to ≤ 75% cover; 80	&gt; 75 to ≤ 85% cover; 90	&gt; 85% cover----  Cumulated vegetation cover ist calculated as: To combine T1 and T2 (both in %) you simply use the formula T_total = T1 +
+T2 * (100-T1)/100 ---- For example: T1 = 50% and T2 = 50% give T_total = 75%.</para>
+<para>total cover of herb estimated to 1 percent</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>295</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

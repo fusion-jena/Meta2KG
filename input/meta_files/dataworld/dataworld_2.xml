@@ -1,0 +1,213 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">shihzy_2000-2011-birds-strikes-planes</name>
+	<title type="str">2000-2011 Birds Strikes Planes</title>
+	<description type="str">From 2000-2011, the FAA released the number of incidents where birds have struck a plane.</description>
+	<homepage type="str">https://data.world/shihzy/2000-2011-birds-strikes-planes</homepage>
+	<license type="str">Public Domain</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">bird_strikes</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">record_id</name>
+						<title type="str">Record ID</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">record_id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">aircraft_type</name>
+						<title type="str">Aircraft: Type</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">aircraft_type</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">airport_name</name>
+						<title type="str">Airport: Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">airport_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">altitude_bin</name>
+						<title type="str">Altitude bin</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">altitude_bin</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">aircraft_make_model</name>
+						<title type="str">Aircraft: Make/Model</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">aircraft_make_model</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">wildlife_number_struck</name>
+						<title type="str">Wildlife: Number struck</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">wildlife_number_struck</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">wildlife_number_struck_actual</name>
+						<title type="str">Wildlife: Number Struck Actual</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">wildlife_number_struck_actual</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">effect_impact_to_flight</name>
+						<title type="str">Effect: Impact to flight</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">effect_impact_to_flight</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">flightdate</name>
+						<title type="str">FlightDate</title>
+						<type type="str">datetime</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#dateTime</rdfType>
+						<dwSourceId type="str">flightdate</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">effect_indicated_damage</name>
+						<title type="str">Effect: Indicated Damage</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">effect_indicated_damage</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">aircraft_number_of_engines</name>
+						<title type="str">Aircraft: Number of engines?</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">aircraft_number_of_engines</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">aircraft_airline_operator</name>
+						<title type="str">Aircraft: Airline/Operator</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">aircraft_airline_operator</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">origin_state</name>
+						<title type="str">Origin State</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">origin_state</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">when_phase_of_flight</name>
+						<title type="str">When: Phase of flight</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">when_phase_of_flight</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">conditions_precipitation</name>
+						<title type="str">Conditions: Precipitation</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">conditions_precipitation</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">remains_of_wildlife_collected</name>
+						<title type="str">Remains of wildlife collected?</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">remains_of_wildlife_collected</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">remains_of_wildlife_sent_to_smithsonian</name>
+						<title type="str">Remains of wildlife sent to Smithsonian</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">remains_of_wildlife_sent_to_smithsonian</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">remarks</name>
+						<title type="str">Remarks</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">remarks</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">wildlife_size</name>
+						<title type="str">Wildlife: Size</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">wildlife_size</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">conditions_sky</name>
+						<title type="str">Conditions: Sky</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">conditions_sky</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">wildlife_species</name>
+						<title type="str">Wildlife: Species</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">wildlife_species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">pilot_warned_of_birds_or_wildlife</name>
+						<title type="str">Pilot warned of birds or wildlife?</title>
+						<type type="str">boolean</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#boolean</rdfType>
+						<dwSourceId type="str">pilot_warned_of_birds_or_wildlife</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">cost_total</name>
+						<title type="str">Cost: Total $</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">cost_total</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">feet_above_ground</name>
+						<title type="str">Feet above ground</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">feet_above_ground</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">number_of_people_injured</name>
+						<title type="str">Number of people injured</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">number_of_people_injured</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">is_aircraft_large</name>
+						<title type="str">Is Aircraft Large?</title>
+						<type type="str">boolean</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#boolean</rdfType>
+						<dwSourceId type="str">is_aircraft_large</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/bird_strikes.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/Bird Strikes.xlsx</name>
+			<path type="str">original/Bird Strikes.xlsx</path>
+			<format type="str">xlsx</format>
+			<mediatype type="str">application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mediatype>
+			<bytes type="int">4292922</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">fun</item>
+		<item type="str">faa</item>
+		<item type="str">accidents</item>
+	</keywords>
+</all>

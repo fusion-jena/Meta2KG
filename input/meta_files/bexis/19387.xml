@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bgc:metaProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.bgc-jena.mpg.de" xmlns:bgc="http://www.bgc-jena.mpg.de" xsi:schemaLocation="http://www.bgc-jena.mpg.de schema.xsd">
+  <bgc:general bgc:source="mixed">
+    <bgc:id bgc:source="intern">19387</bgc:id>
+    <bgc:versionID bgc:source="intern">1.6.22</bgc:versionID>
+    <bgc:title>Leaf and root traits, monitoring, richness 2014 - BELOW</bgc:title>
+    <bgc:owners>
+      <bgc:owner number="1">Katharina Herz</bgc:owner>
+      <bgc:owner number="2">Helge Bruelheide</bgc:owner>
+    </bgc:owners>
+    <bgc:projectName>BELOW</bgc:projectName>
+    <bgc:datasetManager>
+      <bgc:datasetManagerName disabled="disabled">Helge Bruelheide</bgc:datasetManagerName>
+      <bgc:institute disabled="disabled">University of Halle</bgc:institute>
+      <bgc:email disabled="disabled">helge.bruelheide@botanik.uni-halle.de</bgc:email>
+    </bgc:datasetManager>
+  </bgc:general>
+  <bgc:researchObjects>
+    <bgc:approxNumberOfPlots>
+      <bgc:noOfGP>51</bgc:noOfGP>
+      <bgc:noOfEP>51</bgc:noOfEP>
+      <bgc:noOfMIP>41</bgc:noOfMIP>
+      <bgc:noOfVIP>15</bgc:noOfVIP>
+    </bgc:approxNumberOfPlots>
+    <bgc:habitats>
+      <bgc:grassland>yes</bgc:grassland>
+      <bgc:forest>no</bgc:forest>
+    </bgc:habitats>
+    <bgc:experimentalManipulation>yes</bgc:experimentalManipulation>
+    <bgc:relativePositionToGround>
+      <bgc:aboveGround>yes</bgc:aboveGround>
+      <bgc:belowGround>yes</bgc:belowGround>
+    </bgc:relativePositionToGround>
+    <bgc:repeatedMeasurement>
+      <bgc:timeBasedRepetition>
+        <bgc:numberOfRepetitions>0</bgc:numberOfRepetitions>
+      </bgc:timeBasedRepetition>
+      <bgc:plotBasedRepetition>
+        <bgc:numberOfSubPlots>0</bgc:numberOfSubPlots>
+      </bgc:plotBasedRepetition>
+    </bgc:repeatedMeasurement>
+    <bgc:taxa>
+      <bgc:taxon number="1">Plants</bgc:taxon>
+    </bgc:taxa>
+    <bgc:processesAndServices>
+      <bgc:processOrService number="1">Productivity</bgc:processOrService>
+      <bgc:processOrService number="2">Biogeochemical Cycle - Carbon</bgc:processOrService>
+      <bgc:processOrService number="3">Biogeochemical Cycle - Nitrogen</bgc:processOrService>
+      <bgc:processOrService number="4">Biogeochemical Cycle - Other Nutrients</bgc:processOrService>
+    </bgc:processesAndServices>
+    <bgc:environmentalDescriptors>
+      <bgc:environmentalDescriptor number="1">Land Use</bgc:environmentalDescriptor>
+    </bgc:environmentalDescriptors>
+    <bgc:bioticDataTypes>
+      <bgc:bioticDataType number="1">Multiple Species</bgc:bioticDataType>
+      <bgc:bioticDataType number="2">Chemical</bgc:bioticDataType>
+      <bgc:bioticDataType number="3">Total Abundances</bgc:bioticDataType>
+      <bgc:bioticDataType number="4">Trait</bgc:bioticDataType>
+    </bgc:bioticDataTypes>
+  </bgc:researchObjects>
+  <bgc:methodology blockPublic="yes">
+    <bgc:introduction input="textarea">Our objectives are:
+
+    to predict the performance of species introduced to a community from above- and belowground traits and to compare these predictions to those obtained from co-occurrence information
+    to analyse root traits in addition to leaf traits of the grassland species in the Exploratories and to analyse how leaf and root traits are related to each other and how they respond to different local neighbourhoods
+    to characterize species-specific root exudation patterns, including the full spectrum of low molecular organic compounds exuded by different plant species
+    to analyse how root exudation patterns and trait values change with residence time in a community and respond to land use</bgc:introduction>
+    <bgc:measurements>
+      <bgc:theory input="textarea">The assembly of a plant community can be either explained by environmental filtering or niche complementarity. These two processes oppose each other, and it is not a priori clear which of them dominates species assembly in a certain community. While much research has been done on aboveground plant traits to understand plant community assembly and ecosystem functioning, there seems to be a blind spot on belowground plant traits. The project BE LOW aims to fill this gap by investigating belowground characteristics of 20 common grassland species of the exploratories. Additionally, root exudates of 10 of the 20 species will be measured in the field, which was only made for greenhouse cultures so far. </bgc:theory>
+      <bgc:type input="textarea">ecological, biochemical, vegetation records</bgc:type>
+    </bgc:measurements>
+    <bgc:equipment>
+      <bgc:instruments input="textarea">C/N analyzer (vario EL cube from Elementar, Hanau, Germany), AAS (AAS vario 6 from Analytik Jena, Germany), NIRS (Multi Purpose Analyzer, Bruker), leaf and root scanner (HP Scanjet Flatbed Scanner)</bgc:instruments>
+      <bgc:calibration input="textarea">-</bgc:calibration>
+      <bgc:procedures input="textarea">scaning and weighing roots and leaves fresh, root and leaf grinding, scanning powder with NIRS, digestion with nitric acid</bgc:procedures>
+    </bgc:equipment>
+  </bgc:methodology>
+  <bgc:description>
+    <bgc:acronyms>
+      <bgc:acronymPair number="1">
+        <bgc:acronym number="1">BELOW</bgc:acronym>
+        <bgc:meaning number="1">investigating belowground traits</bgc:meaning>
+      </bgc:acronymPair>
+    </bgc:acronyms>
+    <bgc:keywords>
+      <bgc:keyword number="1">BE LOW</bgc:keyword>
+      <bgc:keyword number="2">BELOW</bgc:keyword>
+      <bgc:keyword number="3">root traits</bgc:keyword>
+      <bgc:keyword number="4">plants</bgc:keyword>
+      <bgc:keyword number="5">leaf traits</bgc:keyword>
+      <bgc:keyword number="6">species richness</bgc:keyword>
+      <bgc:keyword number="7">monitoring</bgc:keyword>
+      <bgc:keyword number="8">roots</bgc:keyword>
+    </bgc:keywords>
+  </bgc:description>
+  <bgc:time>
+    <bgc:when timeType="period" xsi:type="bgc:dateFrame">
+      <bgc:format>MM.yyyy</bgc:format>
+      <bgc:startDate>05.2014</bgc:startDate>
+      <bgc:endDate>09.2014</bgc:endDate>
+    </bgc:when>
+    <bgc:dateEntry bgc:source="intern">2015-09-01</bgc:dateEntry>
+    <bgc:dateLastModified bgc:source="intern">2018-05-29</bgc:dateLastModified>
+  </bgc:time>
+  <bgc:data>
+    <bgc:fileType>structuredData</bgc:fileType>
+    <bgc:manipulations input="textarea" />
+    <bgc:errors />
+    <bgc:qualityLevel>processed</bgc:qualityLevel>
+    <bgc:dataStatus>complete</bgc:dataStatus>
+    <bgc:dataStructure>
+      <bgc:dataFormat>
+        <bgc:missingValues>NA</bgc:missingValues>
+        <bgc:NA>NA</bgc:NA>
+      </bgc:dataFormat>
+      <bgc:matrix>
+        <bgc:columnName />
+        <bgc:rowName />
+        <bgc:contentType />
+        <bgc:matrixUnit />
+      </bgc:matrix>
+      <bgc:variables>
+        <bgc:variable number="1">
+          <bgc:name number="1">plot</bgc:name>
+          <bgc:typeOfVariable number="1">string</bgc:typeOfVariable>
+          <bgc:units number="1">none</bgc:units>
+          <bgc:description number="1">plot ID</bgc:description>
+          <bgc:block number="1">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="2">
+          <bgc:name number="2">region</bgc:name>
+          <bgc:typeOfVariable number="2">string</bgc:typeOfVariable>
+          <bgc:units number="2">none</bgc:units>
+          <bgc:description number="2">exploratory</bgc:description>
+          <bgc:block number="2">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="3">
+          <bgc:name number="3">LUI</bgc:name>
+          <bgc:typeOfVariable number="3">realNumber</bgc:typeOfVariable>
+          <bgc:units number="3">none</bgc:units>
+          <bgc:description number="3">LUI mean 2006-2012</bgc:description>
+          <bgc:block number="3">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="4">
+          <bgc:name number="4">landuse</bgc:name>
+          <bgc:typeOfVariable number="4">string</bgc:typeOfVariable>
+          <bgc:units number="4">none</bgc:units>
+          <bgc:description number="4" />
+          <bgc:block number="4">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="5">
+          <bgc:name number="5">fertilization</bgc:name>
+          <bgc:typeOfVariable number="5">string</bgc:typeOfVariable>
+          <bgc:units number="5">none</bgc:units>
+          <bgc:description number="5" />
+          <bgc:block number="5">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="6">
+          <bgc:name number="6">block</bgc:name>
+          <bgc:typeOfVariable number="6">string</bgc:typeOfVariable>
+          <bgc:units number="6">none</bgc:units>
+          <bgc:description number="6">sublot within the plot</bgc:description>
+          <bgc:block number="6">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="7">
+          <bgc:name number="7">position</bgc:name>
+          <bgc:typeOfVariable number="7">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="7">none</bgc:units>
+          <bgc:description number="7">position of the phytometer within the subplot</bgc:description>
+          <bgc:block number="7">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="8">
+          <bgc:name number="8">species</bgc:name>
+          <bgc:typeOfVariable number="8">string</bgc:typeOfVariable>
+          <bgc:units number="8">none</bgc:units>
+          <bgc:description number="8">investigated target species</bgc:description>
+          <bgc:block number="8">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="9">
+          <bgc:name number="9">abbreviation</bgc:name>
+          <bgc:typeOfVariable number="9">string</bgc:typeOfVariable>
+          <bgc:units number="9">none</bgc:units>
+          <bgc:description number="9">abbreviation for the species</bgc:description>
+          <bgc:block number="9">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="10">
+          <bgc:name number="10">growth_form</bgc:name>
+          <bgc:typeOfVariable number="10">string</bgc:typeOfVariable>
+          <bgc:units number="10">none</bgc:units>
+          <bgc:description number="10" />
+          <bgc:block number="10">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="11">
+          <bgc:name number="11">FMleaves</bgc:name>
+          <bgc:typeOfVariable number="11">realNumber</bgc:typeOfVariable>
+          <bgc:units number="11">gramm</bgc:units>
+          <bgc:description number="11">fresh mass</bgc:description>
+          <bgc:block number="11">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="12">
+          <bgc:name number="12">DMleaves</bgc:name>
+          <bgc:typeOfVariable number="12">realNumber</bgc:typeOfVariable>
+          <bgc:units number="12">gramm</bgc:units>
+          <bgc:description number="12">dry mass</bgc:description>
+          <bgc:block number="12">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="13">
+          <bgc:name number="13">FMshoots</bgc:name>
+          <bgc:typeOfVariable number="13">realNumber</bgc:typeOfVariable>
+          <bgc:units number="13">gramm</bgc:units>
+          <bgc:description number="13">fresh mass</bgc:description>
+          <bgc:block number="13">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="14">
+          <bgc:name number="14">DMshoots</bgc:name>
+          <bgc:typeOfVariable number="14">realNumber</bgc:typeOfVariable>
+          <bgc:units number="14">gramm</bgc:units>
+          <bgc:description number="14">dry mass</bgc:description>
+          <bgc:block number="14">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="15">
+          <bgc:name number="15">FMroots</bgc:name>
+          <bgc:typeOfVariable number="15">realNumber</bgc:typeOfVariable>
+          <bgc:units number="15">gramm</bgc:units>
+          <bgc:description number="15">fresh mass</bgc:description>
+          <bgc:block number="15">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="16">
+          <bgc:name number="16">DMroots</bgc:name>
+          <bgc:typeOfVariable number="16">realNumber</bgc:typeOfVariable>
+          <bgc:units number="16">gramm</bgc:units>
+          <bgc:description number="16">dry mass</bgc:description>
+          <bgc:block number="16">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="17">
+          <bgc:name number="17">FMtotal</bgc:name>
+          <bgc:typeOfVariable number="17">realNumber</bgc:typeOfVariable>
+          <bgc:units number="17">gramm</bgc:units>
+          <bgc:description number="17">fresh mass</bgc:description>
+          <bgc:block number="17">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="18">
+          <bgc:name number="18">DMotal</bgc:name>
+          <bgc:typeOfVariable number="18">realNumber</bgc:typeOfVariable>
+          <bgc:units number="18">gramm</bgc:units>
+          <bgc:description number="18">dry mass</bgc:description>
+          <bgc:block number="18">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="19">
+          <bgc:name number="19">DMabove</bgc:name>
+          <bgc:typeOfVariable number="19">realNumber</bgc:typeOfVariable>
+          <bgc:units number="19">gramm</bgc:units>
+          <bgc:description number="19">dry mass</bgc:description>
+          <bgc:block number="19">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="20">
+          <bgc:name number="20">LDMC</bgc:name>
+          <bgc:typeOfVariable number="20">realNumber</bgc:typeOfVariable>
+          <bgc:units number="20">mg/g</bgc:units>
+          <bgc:description number="20">Leaf dry matter content</bgc:description>
+          <bgc:block number="20">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="21">
+          <bgc:name number="21">RDMC</bgc:name>
+          <bgc:typeOfVariable number="21">realNumber</bgc:typeOfVariable>
+          <bgc:units number="21">mg/g</bgc:units>
+          <bgc:description number="21">Root dry matter content</bgc:description>
+          <bgc:block number="21">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="22">
+          <bgc:name number="22">RSR</bgc:name>
+          <bgc:typeOfVariable number="22">realNumber</bgc:typeOfVariable>
+          <bgc:units number="22">g/g</bgc:units>
+          <bgc:description number="22">root shoot ratio</bgc:description>
+          <bgc:block number="22">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="23">
+          <bgc:name number="23">leaf_area</bgc:name>
+          <bgc:typeOfVariable number="23">realNumber</bgc:typeOfVariable>
+          <bgc:units number="23">cm2</bgc:units>
+          <bgc:description number="23">total leaf area</bgc:description>
+          <bgc:block number="23">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="24">
+          <bgc:name number="24">SLA</bgc:name>
+          <bgc:typeOfVariable number="24">realNumber</bgc:typeOfVariable>
+          <bgc:units number="24">m2/kg</bgc:units>
+          <bgc:description number="24">specific leaf area</bgc:description>
+          <bgc:block number="24">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="25">
+          <bgc:name number="25">LAR</bgc:name>
+          <bgc:typeOfVariable number="25">realNumber</bgc:typeOfVariable>
+          <bgc:units number="25">cm2/g</bgc:units>
+          <bgc:description number="25">leaf area ratio</bgc:description>
+          <bgc:block number="25">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="26">
+          <bgc:name number="26">C</bgc:name>
+          <bgc:typeOfVariable number="26">realNumber</bgc:typeOfVariable>
+          <bgc:units number="26">percent</bgc:units>
+          <bgc:description number="26">carbon content of roots</bgc:description>
+          <bgc:block number="26">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="27">
+          <bgc:name number="27">N</bgc:name>
+          <bgc:typeOfVariable number="27">realNumber</bgc:typeOfVariable>
+          <bgc:units number="27">percent</bgc:units>
+          <bgc:description number="27">nitrogen content of roots</bgc:description>
+          <bgc:block number="27">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="28">
+          <bgc:name number="28">P</bgc:name>
+          <bgc:typeOfVariable number="28">realNumber</bgc:typeOfVariable>
+          <bgc:units number="28">µmol/g</bgc:units>
+          <bgc:description number="28">phosphate content of roots</bgc:description>
+          <bgc:block number="28">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="29">
+          <bgc:name number="29">K</bgc:name>
+          <bgc:typeOfVariable number="29">realNumber</bgc:typeOfVariable>
+          <bgc:units number="29">µmolc/g</bgc:units>
+          <bgc:description number="29">potassium content of roots</bgc:description>
+          <bgc:block number="29">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="30">
+          <bgc:name number="30">Mg</bgc:name>
+          <bgc:typeOfVariable number="30">realNumber</bgc:typeOfVariable>
+          <bgc:units number="30">µmolc/g</bgc:units>
+          <bgc:description number="30">magnesium content of roots</bgc:description>
+          <bgc:block number="30">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="31">
+          <bgc:name number="31">Ca</bgc:name>
+          <bgc:typeOfVariable number="31">realNumber</bgc:typeOfVariable>
+          <bgc:units number="31">µmolc/g</bgc:units>
+          <bgc:description number="31">calcium content of roots</bgc:description>
+          <bgc:block number="31">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="32">
+          <bgc:name number="32">Ausdehnung1_0</bgc:name>
+          <bgc:typeOfVariable number="32">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="32">mm</bgc:units>
+          <bgc:description number="32">diameter of standing plant before planting</bgc:description>
+          <bgc:block number="32">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="33">
+          <bgc:name number="33">Ausdehnung2_0</bgc:name>
+          <bgc:typeOfVariable number="33">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="33">mm</bgc:units>
+          <bgc:description number="33">diameter of standing plant before planting, perpendicular to first one</bgc:description>
+          <bgc:block number="33">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="34">
+          <bgc:name number="34">Hu_0</bgc:name>
+          <bgc:typeOfVariable number="34">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="34">mm</bgc:units>
+          <bgc:description number="34">height of standing plant before planting, not elongated</bgc:description>
+          <bgc:block number="34">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="35">
+          <bgc:name number="35">Hg_0</bgc:name>
+          <bgc:typeOfVariable number="35">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="35">mm</bgc:units>
+          <bgc:description number="35">height of standing plant before planting, elongated</bgc:description>
+          <bgc:block number="35">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="36">
+          <bgc:name number="36">Blz_0</bgc:name>
+          <bgc:typeOfVariable number="36">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="36">none</bgc:units>
+          <bgc:description number="36">number of leaves before planting</bgc:description>
+          <bgc:block number="36">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="37">
+          <bgc:name number="37">measurement_0</bgc:name>
+          <bgc:typeOfVariable number="37">date</bgc:typeOfVariable>
+          <bgc:units number="37">none</bgc:units>
+          <bgc:description number="37">date of measurement before planting</bgc:description>
+          <bgc:block number="37">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="38">
+          <bgc:name number="38">Ausdehnung1_a</bgc:name>
+          <bgc:typeOfVariable number="38">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="38">mm</bgc:units>
+          <bgc:description number="38">diameter of standing plant after planting</bgc:description>
+          <bgc:block number="38">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="39">
+          <bgc:name number="39">Ausdehnung2_a</bgc:name>
+          <bgc:typeOfVariable number="39">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="39">mm</bgc:units>
+          <bgc:description number="39">diameter of standing plant after planting, perpendicular to first one</bgc:description>
+          <bgc:block number="39">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="40">
+          <bgc:name number="40">Hu_a</bgc:name>
+          <bgc:typeOfVariable number="40">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="40">mm</bgc:units>
+          <bgc:description number="40">height of standing plant after planting, not elongated</bgc:description>
+          <bgc:block number="40">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="41">
+          <bgc:name number="41">Hg_a</bgc:name>
+          <bgc:typeOfVariable number="41">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="41">mm</bgc:units>
+          <bgc:description number="41">height of standing plant after planting, elongated</bgc:description>
+          <bgc:block number="41">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="42">
+          <bgc:name number="42">Blz_a</bgc:name>
+          <bgc:typeOfVariable number="42">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="42">none</bgc:units>
+          <bgc:description number="42">number of leaves after planting</bgc:description>
+          <bgc:block number="42">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="43">
+          <bgc:name number="43">planting</bgc:name>
+          <bgc:typeOfVariable number="43">date</bgc:typeOfVariable>
+          <bgc:units number="43">none</bgc:units>
+          <bgc:description number="43">date of planting</bgc:description>
+          <bgc:block number="43">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="44">
+          <bgc:name number="44">measurement_a</bgc:name>
+          <bgc:typeOfVariable number="44">date</bgc:typeOfVariable>
+          <bgc:units number="44">none</bgc:units>
+          <bgc:description number="44">date of measurement after planting</bgc:description>
+          <bgc:block number="44">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="45">
+          <bgc:name number="45">Ausdehnung1_b</bgc:name>
+          <bgc:typeOfVariable number="45">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="45">mm</bgc:units>
+          <bgc:description number="45">diameter of standing plant during harvest</bgc:description>
+          <bgc:block number="45">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="46">
+          <bgc:name number="46">Ausdehnung2_b</bgc:name>
+          <bgc:typeOfVariable number="46">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="46">mm</bgc:units>
+          <bgc:description number="46">diameter of standing plant during harvest, perpendicular to first one</bgc:description>
+          <bgc:block number="46">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="47">
+          <bgc:name number="47">Hu_b</bgc:name>
+          <bgc:typeOfVariable number="47">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="47">mm</bgc:units>
+          <bgc:description number="47">height of standing plant during harvest, not elongated</bgc:description>
+          <bgc:block number="47">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="48">
+          <bgc:name number="48">Hg_b</bgc:name>
+          <bgc:typeOfVariable number="48">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="48">mm</bgc:units>
+          <bgc:description number="48">height of standing plant during harvest, elongated</bgc:description>
+          <bgc:block number="48">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="49">
+          <bgc:name number="49">Blz_b</bgc:name>
+          <bgc:typeOfVariable number="49">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="49">none</bgc:units>
+          <bgc:description number="49">number of leaves during harvest</bgc:description>
+          <bgc:block number="49">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="50">
+          <bgc:name number="50">flowers</bgc:name>
+          <bgc:typeOfVariable number="50">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="50">none</bgc:units>
+          <bgc:description number="50">number of flowers</bgc:description>
+          <bgc:block number="50">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="51">
+          <bgc:name number="51">plant_volume_0</bgc:name>
+          <bgc:typeOfVariable number="51">realNumber</bgc:typeOfVariable>
+          <bgc:units number="51">cm3</bgc:units>
+          <bgc:description number="51">plant volume before planting</bgc:description>
+          <bgc:block number="51">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="52">
+          <bgc:name number="52">plant_volume_a</bgc:name>
+          <bgc:typeOfVariable number="52">realNumber</bgc:typeOfVariable>
+          <bgc:units number="52">cm3</bgc:units>
+          <bgc:description number="52">plant volume after planting</bgc:description>
+          <bgc:block number="52">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="53">
+          <bgc:name number="53">plant_volume_b</bgc:name>
+          <bgc:typeOfVariable number="53">realNumber</bgc:typeOfVariable>
+          <bgc:units number="53">cm3</bgc:units>
+          <bgc:description number="53">plant volume during harvest</bgc:description>
+          <bgc:block number="53">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="54">
+          <bgc:name number="54">proj_area_b</bgc:name>
+          <bgc:typeOfVariable number="54">realNumber</bgc:typeOfVariable>
+          <bgc:units number="54">mm2</bgc:units>
+          <bgc:description number="54">projection area of standing plant during harvest</bgc:description>
+          <bgc:block number="54">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="55">
+          <bgc:name number="55">Richness</bgc:name>
+          <bgc:typeOfVariable number="55">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="55">none</bgc:units>
+          <bgc:description number="55">plant species richness measured around each phytometer</bgc:description>
+          <bgc:block number="55">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="56">
+          <bgc:name number="56">Cover</bgc:name>
+          <bgc:typeOfVariable number="56">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="56">percent</bgc:units>
+          <bgc:description number="56">grass and herb cover around each phytometer</bgc:description>
+          <bgc:block number="56">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="57">
+          <bgc:name number="57">Shannon</bgc:name>
+          <bgc:typeOfVariable number="57">realNumber</bgc:typeOfVariable>
+          <bgc:units number="57">none</bgc:units>
+          <bgc:description number="57">Shannon index around each phytometer</bgc:description>
+          <bgc:block number="57">0</bgc:block>
+        </bgc:variable>
+      </bgc:variables>
+    </bgc:dataStructure>
+  </bgc:data>
+  <bgc:references>
+    <bgc:database />
+    <bgc:papers>
+      <bgc:paper number="1" />
+    </bgc:papers>
+    <bgc:relatedDatasets>
+      <bgc:dataset number="1" />
+    </bgc:relatedDatasets>
+    <bgc:citation>Herz, Katharina; Helge Bruelheide (2018): Leaf and root traits, monitoring, richness 2014 - BELOW. v1.6.22. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/PublicData/PublicData.aspx?DatasetId=19387</bgc:citation>
+  </bgc:references>
+  <bgc:comment />
+</bgc:metaProfile>

@@ -1,0 +1,939 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='186'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/186</alternateIdentifier>
+<title>CSPs: Herb layer composition and abundance in the central plot of the CSPs</title>
+<creator id='erfmeier'>
+<individualName>
+<givenName>Alexandra</givenName>
+<surName>Erfmeier</surName>
+</individualName>
+<organizationName>Institute of Botany / Geobotany and Botanical Garden  Martin Luther University Halle-Wittenberg</organizationName>
+<address>
+<deliveryPoint>Am Kirchtor 1</deliveryPoint>
+<city>06108 Halle/Saale</city>
+<country>Germany</country>
+</address>
+<phone>0345-55-26230</phone>
+<electronicMailAddress>aerfmeier@ecology.uni-kiel.de</electronicMailAddress>
+</creator>
+<creator id='sboth'>
+<individualName>
+<givenName>Sabine</givenName>
+<surName>Both</surName>
+</individualName>
+
+
+<electronicMailAddress>sabine.both@botanik.uni-halle.de</electronicMailAddress>
+</creator>
+<pubDate>2012-02-27</pubDate>
+<language>en_US</language>
+<abstract>
+<para>We performed an extensive vegetation survey of the central plots of each CSP in GNNR in 2008. Herb layer communities can serve as ecosystem functioning variable, which is of importance for all community and ecosystem-based statements. We made a detailled description of the herb layer communities in the central plot of each CSP. Herb layer includes all vascular plant species and individuals below 1m height. The vegetation survey includes the identification of all individuals, species abundance was counted, species were classified according to their life form. The presence of tree and shrub seedlings (i.e. woody recruits) in the herb layer can act as an indicator for regeneration.
+</para>
+<para>The vegetation survey always was  done before other subprojects were working in the central plot. This ensure best possible results for seedling numbers.</para>
+</abstract>
+<keywordSet>
+<keyword>abundance</keyword>
+<keyword>CSP</keyword>
+<keyword>functional group</keyword>
+<keyword>herb layer</keyword>
+<keyword>species</keyword>
+<keyword>vegetation cover</keyword>
+<keyword>vegetation survey</keyword>
+<keyword>woody recruits</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>species</keyword>
+<keyword>lifeform</keyword>
+<keyword>CSP01</keyword>
+<keyword>CSP02</keyword>
+<keyword>CSP03</keyword>
+<keyword>CSP04</keyword>
+<keyword>CSP05</keyword>
+<keyword>CSP06</keyword>
+<keyword>CSP07</keyword>
+<keyword>CSP08</keyword>
+<keyword>CSP09</keyword>
+<keyword>CSP10</keyword>
+<keyword>CSP11</keyword>
+<keyword>CSP12</keyword>
+<keyword>CSP13</keyword>
+<keyword>CSP14</keyword>
+<keyword>CSP15</keyword>
+<keyword>CSP16</keyword>
+<keyword>CSP17</keyword>
+<keyword>CSP18</keyword>
+<keyword>CSP19</keyword>
+<keyword>CSP20</keyword>
+<keyword>CSP21</keyword>
+<keyword>CSP22</keyword>
+<keyword>CSP23</keyword>
+<keyword>CSP24</keyword>
+<keyword>CSP25</keyword>
+<keyword>CSP26</keyword>
+<keyword>CSP27</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Permission is granted to anybody to access, use and publish all open for public data freely. The commercial use of any data is prohibited. The quality and completeness of data cannot be guaranteed. Users employ these data at their own risk. In order to make attribution of use for owners of the data possible, the identifier of ownership of data must be retained with every data record. Users must publicly acknowledge, in conjunction with the use of the data, the data owners. Cite the data as follows: Erfmeier, A. and Both, S. (2008):Herblayer composition and abundance in the central plot of the CSPs. BEF-China data portal (Accessed through URL http://china.befdata.biow.uni-leipzig.de/datasets/186)</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/186/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>The study was performed in the 27 Comparative Study Plots (CSPs) in Gutianshan Nature Reserve. </geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2008-04-27
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2008-07-27
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>The vegetation record dealt with herb layer only, i.e. vegetation below a height of 1 metre.  While the vegetation record (i.e. cover and abundance of each species) was performed at central plot level the additional vegetation list (i.e. occurance of herbaceous species) was done at whole plot level.</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+The vegetation record dealt with herb layer only, i.e. vegetation below a height of 1 metre.  While the vegetation record (i.e. cover and abundance of each species) was performed at central plot level the additional vegetation list (i.e. occurance of herbaceous species) was done at whole plot level.
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>erfmeier</references>
+</contact>
+<contact>
+<references>sboth</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>CSPs: Herb layer composition and abundance in the central plot of the CSPs</para>
+<para>We performed an extensive vegetation survey of the central plots of each CSP in GNNR in 2008. Herb layer communities can serve as ecosystem functioning variable, which is of importance for all community and ecosystem-based statements. We made a detailled description of the herb layer communities in the central plot of each CSP. Herb layer includes all vascular plant species and individuals below 1m height. The vegetation survey includes the identification of all individuals, species abundance was counted, species were classified according to their life form. The presence of tree and shrub seedlings (i.e. woody recruits) in the herb layer can act as an indicator for regeneration.
+</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2008-04-27 00:00:00 UTC - 2008-07-27 00:00:00 UTC</para>
+
+<para>The study was performed in the 27 Comparative Study Plots (CSPs) in Gutianshan Nature Reserve. </para>
+<para>The vegetation record dealt with herb layer only, i.e. vegetation below a height of 1 metre.  While the vegetation record (i.e. cover and abundance of each species) was performed at central plot level the additional vegetation list (i.e. occurance of herbaceous species) was done at whole plot level.</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>The CSPs were established in May - June 2008  in the Gutianshan Nature Reserve as well as outside the Nature Reserve. The CSPs have a size of 30 x 30 metres  and are exposed to the north. The central plot hold a size of 10 x 10 metres and is situated in the centre.</para>
+<para>With this data, herb community analysis from the CSPs can be performed.  Mind that the cover values only apply to the central subplot.</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/186</entityName>
+<entityDescription>CSPs: Herb layer composition and abundance in the central plot of the CSPs</entityDescription>
+<physical>
+<objectName>/datasets/186</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/186/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='species'>
+<attributeName>Scientific plant species name (species), </attributeName>
+<attributeLabel>species</attributeLabel>
+<attributeDefinition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required. (species: species present in the central plot of the respective CSP)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Scientific plant species name</para>
+<para>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</para>
+<para>species present in the central plot of the respective CSP</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='lifeform'>
+<attributeName>Plant functional group or life form (lifeform), </attributeName>
+<attributeLabel>lifeform</attributeLabel>
+<attributeDefinition>Functional group within herblayer plants, or life form of a plant. (lifeform: life form)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Functional group within herblayer plants, or life form of a plant.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plant functional group or life form</para>
+<para>Functional group within herblayer plants, or life form of a plant.</para>
+<para>life form</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP01'>
+<attributeName>Abundance (CSP01), </attributeName>
+<attributeLabel>CSP01</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP01: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP02'>
+<attributeName>Abundance (CSP02), </attributeName>
+<attributeLabel>CSP02</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP02: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP03'>
+<attributeName>Abundance (CSP03), </attributeName>
+<attributeLabel>CSP03</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP03: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP04'>
+<attributeName>Abundance (CSP04), </attributeName>
+<attributeLabel>CSP04</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP04: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP05'>
+<attributeName>Abundance (CSP05), </attributeName>
+<attributeLabel>CSP05</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP05: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP06'>
+<attributeName>Abundance (CSP06), </attributeName>
+<attributeLabel>CSP06</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP06: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP07'>
+<attributeName>Abundance (CSP07), </attributeName>
+<attributeLabel>CSP07</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP07: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP08'>
+<attributeName>Abundance (CSP08), </attributeName>
+<attributeLabel>CSP08</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP08: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP09'>
+<attributeName>Abundance (CSP09), </attributeName>
+<attributeLabel>CSP09</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP09: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP10'>
+<attributeName>Abundance (CSP10), </attributeName>
+<attributeLabel>CSP10</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP10: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP11'>
+<attributeName>Abundance (CSP11), </attributeName>
+<attributeLabel>CSP11</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP11: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP12'>
+<attributeName>Abundance (CSP12), </attributeName>
+<attributeLabel>CSP12</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP12: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP13'>
+<attributeName>Abundance (CSP13), </attributeName>
+<attributeLabel>CSP13</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP13: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP14'>
+<attributeName>Abundance (CSP14), </attributeName>
+<attributeLabel>CSP14</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP14: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP15'>
+<attributeName>Abundance (CSP15), </attributeName>
+<attributeLabel>CSP15</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP15: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP16'>
+<attributeName>Abundance (CSP16), </attributeName>
+<attributeLabel>CSP16</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP16: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP17'>
+<attributeName>Abundance (CSP17), </attributeName>
+<attributeLabel>CSP17</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP17: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP18'>
+<attributeName>Abundance (CSP18), </attributeName>
+<attributeLabel>CSP18</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP18: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP19'>
+<attributeName>Abundance (CSP19), </attributeName>
+<attributeLabel>CSP19</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP19: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP20'>
+<attributeName>Abundance (CSP20), </attributeName>
+<attributeLabel>CSP20</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP20: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP21'>
+<attributeName>Abundance (CSP21), </attributeName>
+<attributeLabel>CSP21</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP21: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP22'>
+<attributeName>Abundance (CSP22), </attributeName>
+<attributeLabel>CSP22</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP22: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP23'>
+<attributeName>Abundance (CSP23), </attributeName>
+<attributeLabel>CSP23</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP23: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP24'>
+<attributeName>Abundance (CSP24), </attributeName>
+<attributeLabel>CSP24</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP24: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP25'>
+<attributeName>Abundance (CSP25), </attributeName>
+<attributeLabel>CSP25</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP25: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP26'>
+<attributeName>Abundance (CSP26), </attributeName>
+<attributeLabel>CSP26</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP26: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP27'>
+<attributeName>Abundance (CSP27), </attributeName>
+<attributeLabel>CSP27</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (CSP27: BEF research plot where the abundance of species x is estimated)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>BEF research plot where the abundance of species x is estimated</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>237</numberOfRecords>
+</dataTable>
+<otherEntity id='213'>
+<alternateIdentifier>/system/freeformats/files/000/000/213/original/213_sp11%20CSP%20herblayer%20species%20cover_SB.xls?1330623066</alternateIdentifier>
+<entityName>213_sp11 CSP herblayer species cover_SB.xls</entityName>
+<entityDescription>old workbook format</entityDescription>
+<physical>
+<objectName>213_sp11 CSP herblayer species cover_SB.xls</objectName>
+<dataFormat>
+<externallyDefinedFormat>
+<formatName>application/vnd.ms-excel</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>/system/freeformats/files/000/000/213/original/213_sp11%20CSP%20herblayer%20species%20cover_SB.xls?1330623066</url>
+</online>
+</distribution>
+</physical>
+<entityType>"File Asset"</entityType>
+</otherEntity>
+<otherEntity id='218'>
+<alternateIdentifier>/system/freeformats/files/000/000/218/original/CSP%20herblayer%20specieslist%20SP11_2.csv?1330623658</alternateIdentifier>
+<entityName>CSP herblayer specieslist SP11_2.csv</entityName>
+<entityDescription>Cross table listing the number of individuals of each herb layer species in the central plot of the CSPs.</entityDescription>
+<physical>
+<objectName>CSP herblayer specieslist SP11_2.csv</objectName>
+<dataFormat>
+<externallyDefinedFormat>
+<formatName>text/csv</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>/system/freeformats/files/000/000/218/original/CSP%20herblayer%20specieslist%20SP11_2.csv?1330623658</url>
+</online>
+</distribution>
+</physical>
+<entityType>"File Asset"</entityType>
+</otherEntity>
+</dataset>
+</eml:eml>

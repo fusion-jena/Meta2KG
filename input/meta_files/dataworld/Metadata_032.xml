@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">data-ny-gov_9yjx-h3yi</name>
+	<title type="str">Bird Conservation Areas</title>
+	<description type="str">This data set shows point locations of Bird Conservation Areas.
+
+This data set shows point locations of Bird Conservation Areas. Bird Conservation Areas are New York State lands that have been officially designated for their value to bird conservation. Points are approximate locations and may represent large areas.
+
+Source: https://data.ny.gov/d/9yjx-h3yi  
+Last updated at https://data.ny.gov/data.json : 2019-06-10  
+Before using the data, download the Terms of Service, https://data.ny.gov/download/77gx-ii52/application/pdf, to read the data license requirements.</description>
+	<homepage type="str">https://data.world/data-ny-gov/9yjx-h3yi</homepage>
+	<license type="str">Other</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">bird_conservation_areas_1</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">bird_conservation_area_name</name>
+						<title type="str">Bird Conservation Area Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">bird_conservation_area_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">designated</name>
+						<title type="str">Designated</title>
+						<type type="str">date</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#date</rdfType>
+						<dwSourceId type="str">designated</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">picture_url</name>
+						<title type="str">Picture URL</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#anyURI</rdfType>
+						<dwSourceId type="str">picture_url</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">gewidth</name>
+						<title type="str">GEWIDTH</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">gewidth</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">gmwidth</name>
+						<title type="str">GMWIDTH</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">gmwidth</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">gmheight</name>
+						<title type="str">GMHEIGHT</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">gmheight</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">url</name>
+						<title type="str">URL</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#anyURI</rdfType>
+						<dwSourceId type="str">url</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">point_x</name>
+						<title type="str">POINT_X</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">point_x</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">point_y</name>
+						<title type="str">POINT_Y</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">point_y</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">location</name>
+						<title type="str">Location</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.opengis.net/ont/OGC-GeoSPARQL/1.0/Point</rdfType>
+						<dwSourceId type="str">location</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/bird_conservation_areas_1.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/bird-conservation-areas-1.csv</name>
+			<path type="str">original/bird-conservation-areas-1.csv</path>
+			<format type="str">csv</format>
+			<mediatype type="str">text/csv</mediatype>
+			<bytes type="int">8443</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">birds</item>
+		<item type="str">environmental education</item>
+		<item type="str">conservation</item>
+		<item type="str">bird conservation areas</item>
+		<item type="str">recreation</item>
+	</keywords>
+</all>

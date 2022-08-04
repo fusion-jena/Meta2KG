@@ -1,0 +1,361 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='272'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/272</alternateIdentifier>
+<title>CSPs: Ants (Formicidae) of pitfall traps in the CSPs 2009</title>
+<creator id='aklein'>
+<individualName>
+<givenName>Alexandra-Maria</givenName>
+<surName>Klein</surName>
+</individualName>
+<organizationName>Institute of Ecology and Environmental Chemistry, Section  Ecosystem Functions, Leuphana University of Lueneburg</organizationName>
+<address>
+<deliveryPoint>Scharnhorststr. 1</deliveryPoint>
+<city>21332 Lüneburg</city>
+<country>Germany</country>
+</address>
+<phone>++49 (0) 4131-677-2960</phone>
+<electronicMailAddress>alexandra.klein@nature.uni-freiburg.de</electronicMailAddress>
+</creator>
+<creator id='aschuldt'>
+<individualName>
+<givenName>Andreas</givenName>
+<surName>Schuldt</surName>
+</individualName>
+<organizationName>German Centre for Integrative Biodiversity Research (iDiv), Leipzig</organizationName>
+<address>
+<deliveryPoint>Deutscher Platz 5e</deliveryPoint>
+<city>Leipzig</city>
+<country>Germany</country>
+</address>
+<phone>++49 (0) 341 9733232</phone>
+<electronicMailAddress>andreas.schuldt@idiv.de</electronicMailAddress>
+</creator>
+<creator id='mstaab'>
+<individualName>
+<givenName>Michael</givenName>
+<surName>Staab</surName>
+</individualName>
+<organizationName>University of Freiburg, Chair of Nature Conservation and Landscape Ecology</organizationName>
+<address>
+<deliveryPoint>Tennenbacher Str. 4</deliveryPoint>
+<city>79106 Freiburg im Breisgau</city>
+<country>Germany</country>
+</address>
+<phone>+49 (0)761 203 - 67787</phone>
+<electronicMailAddress>michael.staab@nature.uni-freiburg.de</electronicMailAddress>
+</creator>
+<pubDate>2013-02-18</pubDate>
+<language>en_US</language>
+<abstract>
+<para>Pitfall traps (four traps per plot, located at the corners of the central 10 x 10 m subplot) were used to assess the activity abundance and species richness of Formicidae in relation to the plots&#39; woody plant diversity. The data allow to test to what extent woody plant diversity affects the abundance, species composition and diversity of, e.g. predators (which might profit from higher structural diversity or better resource availability in more plant diverse plots) or opportunists (which might profit from more diverse resources in more plant diverse plots). Traps consisted of plastic cups (diameter 8.5 cm, depth 15 cm, capacity 550 ml) sunk into the ground and filled with 150 ml of preserving solution (40% ethanol, 30% water, 20% glycerol, 10% acetic acid, with a few drops of detergent to reduce surface tension) for continuous trapping. Sampling was conducted in 2009 for five months (30 March–2 September) and covered the main growing season. The traps were emptied and refilled at 14 day intervals. Taxa were sorted in the lab and specimens were identified to species or morphospecies level (within genera).</para>
+
+</abstract>
+<keywordSet>
+<keyword>abundance</keyword>
+<keyword>ant</keyword>
+<keyword>CSP</keyword>
+<keyword>feeding guilt</keyword>
+<keyword>genus</keyword>
+<keyword>location</keyword>
+<keyword>pitfall traps</keyword>
+<keyword>species</keyword>
+<keyword>taxon</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>CSP</keyword>
+<keyword>Trap</keyword>
+<keyword>Species</keyword>
+<keyword>Species_Tax</keyword>
+<keyword>Genus</keyword>
+<keyword>Subfamily</keyword>
+<keyword>Individuals</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>This dataset can be used by any interested individual as long as the original publication is properly cited:
+
+Staab, M., Schuldt, A., Assmann, T., Bruelheide, H. &amp; Klein, A.M. (2014): Ant community structure during forest succession in a subtropical forest in South-East China. Acta Oecologica 61: 32-40.</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/272/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>Comparative Study Sites
+29°08'-29°17'N
+118°02'-118°11'E</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2009-03-30
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2009-09-02
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>Ants</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+Ants
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>aklein</references>
+</contact>
+<contact>
+<references>aschuldt</references>
+</contact>
+<contact>
+<references>mstaab</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>CSPs: Ants (Formicidae) of pitfall traps in the CSPs 2009</para>
+<para>Pitfall traps (four traps per plot, located at the corners of the central 10 x 10 m subplot) were used to assess the activity abundance and species richness of Formicidae in relation to the plots&#39; woody plant diversity. The data allow to test to what extent woody plant diversity affects the abundance, species composition and diversity of, e.g. predators (which might profit from higher structural diversity or better resource availability in more plant diverse plots) or opportunists (which might profit from more diverse resources in more plant diverse plots). Traps consisted of plastic cups (diameter 8.5 cm, depth 15 cm, capacity 550 ml) sunk into the ground and filled with 150 ml of preserving solution (40% ethanol, 30% water, 20% glycerol, 10% acetic acid, with a few drops of detergent to reduce surface tension) for continuous trapping. Sampling was conducted in 2009 for five months (30 March–2 September) and covered the main growing season. The traps were emptied and refilled at 14 day intervals. Taxa were sorted in the lab and specimens were identified to species or morphospecies level (within genera).</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2009-03-30 00:00:00 UTC - 2009-09-02 00:00:00 UTC</para>
+<para>growing season 2009</para>
+<para>Comparative Study Sites
+29°08&#39;-29°17&#39;N
+118°02&#39;-118°11&#39;E</para>
+<para>Ants</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>Pitfall traps (four traps per plot, located at the corners of the central 10 x 10 m subplot);</para>
+<para>The data allow to test to what extent woody plant diversity affects the abundance, species composition and diversity of, e.g. predators (which might profit from higher structural diversity or better resource availability in more plant diverse plots) or decomposers (which might profit from more diverse resources in more plant diverse plots). For plant woody species richness, refer to the dataset &quot;Comparative study plot (CSP) information to be shared with all BEF-China scientists&quot; (http://china.befdata.biow.uni-leipzig.de/datasets/205). ---  As in ants most ecological information is shared between members of a genus, the genus names are provided as separate data colum. ---- For general comparisons between sites subfamily data are usefull. Hence the subfamily names are provided as a separate data column. --- Untransformed ant individual numbers should only taken with caution for analysis.</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/272</entityName>
+<entityDescription>CSPs: Ants (Formicidae) of pitfall traps in the CSPs 2009</entityDescription>
+<physical>
+<objectName>/datasets/272</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/272/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='CSP'>
+<attributeName>BEF research plot name (CSP), </attributeName>
+<attributeLabel>CSP</attributeLabel>
+<attributeDefinition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province) (CSP: Number of the Comparative Study Plot; Datagroup description: BEF research plot name; Datagroup description: Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2. Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A and B are named according to their position in the original spreadsheet, in which they were designed. They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu. Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified. &quot;2&quot; means, that we are at site B. Now the coordinates of the south - west corner: &quot;0526&quot;. Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26. The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>BEF research plot name</para>
+<para>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) and B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) or Site B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06&#39;20.2&quot;N 117°55&#39;12.1&quot;E, Jiangxi Province)</para>
+<para>Number of the Comparative Study Plot; Datagroup description: BEF research plot name; Datagroup description: Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2. Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A and B are named according to their position in the original spreadsheet, in which they were designed. They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu. Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified. &quot;2&quot; means, that we are at site B. Now the coordinates of the south - west corner: &quot;0526&quot;. Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26. The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Trap'>
+<attributeName>Trap location within the Comparative Study Sites. (Trap), </attributeName>
+<attributeLabel>Trap</attributeLabel>
+<attributeDefinition>Traps are located at the corners of the central plots. (Trap: Location of the pitfall trap)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Traps are located at the corners of the central plots.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Trap location within the Comparative Study Sites.</para>
+<para>Traps are located at the corners of the central plots.</para>
+<para>Location of the pitfall trap</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Species'>
+<attributeName>Helper (Species), </attributeName>
+<attributeLabel>Species</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (Species: Species name. For the ease of analysis, words have been spearated by &quot;_&quot;.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>Species name. For the ease of analysis, words have been spearated by &quot;_&quot;.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Species_Tax'>
+<attributeName>Ant species name (Species_Tax), </attributeName>
+<attributeLabel>Species_Tax</attributeLabel>
+<attributeDefinition>Ants were identified to species level with primary taxonomic literature whenever possible. For additional resources and pictures see the database www.antweb.org and references therein. (Species_Tax: Full ant species name.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Ants were identified to species level with primary taxonomic literature whenever possible. For additional resources and pictures see the database www.antweb.org and references therein.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Ant species name</para>
+<para>Ants were identified to species level with primary taxonomic literature whenever possible. For additional resources and pictures see the database www.antweb.org and references therein.</para>
+<para>Full ant species name.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Genus'>
+<attributeName>Higher arthropod taxa (Genus), </attributeName>
+<attributeLabel>Genus</attributeLabel>
+<attributeDefinition>Higher arthropod taxa (Genus: Genus of the species. As in ants most ecological information is shared between members of a genus, the genus names are provided as separate data colum.; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Higher arthropod taxa</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Higher arthropod taxa</para>
+<para>Higher arthropod taxa</para>
+<para>Genus of the species. As in ants most ecological information is shared between members of a genus, the genus names are provided as separate data colum.; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Subfamily'>
+<attributeName>Ant subfamily (Subfamily), </attributeName>
+<attributeLabel>Subfamily</attributeLabel>
+<attributeDefinition>Ant subfamily (Subfamily: Subfamily of the species. For general comparisons between sites subfamily data are usefull. Hence the subfamily names are provided as a separate data column.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Ant subfamily</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Ant subfamily</para>
+<para>Ant subfamily</para>
+<para>Subfamily of the species. For general comparisons between sites subfamily data are usefull. Hence the subfamily names are provided as a separate data column.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Individuals'>
+<attributeName>Abundance (Individuals), </attributeName>
+<attributeLabel>Individuals</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (Individuals: Number of individuals caught --- Untransformed ant individual numbers should only taken with caution for analysis.; Datagroup description: Organism count)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>Number of individuals caught --- Untransformed ant individual numbers should only taken with caution for analysis.; Datagroup description: Organism count</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>1224</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

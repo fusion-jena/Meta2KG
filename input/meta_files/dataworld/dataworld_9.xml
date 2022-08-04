@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">datagov-uk_1a13cf08-b1d4-4cd5-988a-148b17538d95</name>
+	<title type="str">Soil survey of Moor House, 1965</title>
+	<description type="str">Soil survey of Moor House, 1965
+
+This dataset contains data from a soil survey at Moor House, Cumbria, UK undertaken by Mike Hornung in 1965 as part of his PhD. It contains information about the soil horizons, chemical analyses and soil mineralogy. Full details about this dataset can be found at https://doi.org/10.5285/e4cf73b0-eef6-4118-a018-40eb374f5de7
+
+Source: https://ckan.publishing.service.gov.uk/dataset/soil-survey-of-moor-house-1965  
+Last updated at https://ckan.publishing.service.gov.uk/dataset : 2020-03-06</description>
+	<homepage type="str">https://data.world/datagov-uk/1a13cf08-b1d4-4cd5-988a-148b17538d95</homepage>
+	<license type="str">OGL</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">d2soil_p</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">prof_no</name>
+						<title type="str">PROF_NO</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">prof_no</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">easting</name>
+						<title type="str">EASTING</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">easting</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">northing</name>
+						<title type="str">NORTHING</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">northing</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">location</name>
+						<title type="str">LOCATION</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">location</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">rel_data</name>
+						<title type="str">REL_DATA</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">rel_data</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">altitude</name>
+						<title type="str">ALTITUDE</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">altitude</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">geo_data</name>
+						<title type="str">GEO_DATA</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">geo_data</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">veg_data</name>
+						<title type="str">VEG_DATA</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">veg_data</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/d2soil_p.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/e4cf73b0-eef6-4118-a018-40eb374f5de7/readme.html</name>
+			<path type="str">original/e4cf73b0-eef6-4118-a018-40eb374f5de7/readme.html</path>
+			<format type="str">html</format>
+			<mediatype type="str">text/html</mediatype>
+			<bytes type="int">4101</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/e4cf73b0-eef6-4118-a018-40eb374f5de7/supporting-documents/D2SOIL_P.csv</name>
+			<path type="str">original/e4cf73b0-eef6-4118-a018-40eb374f5de7/supporting-documents/D2SOIL_P.csv</path>
+			<format type="str">csv</format>
+			<mediatype type="str">text/csv</mediatype>
+			<bytes type="int">8100</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/e4cf73b0-eef6-4118-a018-40eb374f5de7/supporting-documents/Mike_Hornung_PhD_volume1.PDF</name>
+			<path type="str">original/e4cf73b0-eef6-4118-a018-40eb374f5de7/supporting-documents/Mike_Hornung_PhD_volume1.PDF</path>
+			<format type="str">PDF</format>
+			<mediatype type="str">application/pdf</mediatype>
+			<bytes type="int">7867010</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/e4cf73b0-eef6-4118-a018-40eb374f5de7/supporting-documents/Mike_Hornung_PhD_volume2.pdf</name>
+			<path type="str">original/e4cf73b0-eef6-4118-a018-40eb374f5de7/supporting-documents/Mike_Hornung_PhD_volume2.pdf</path>
+			<format type="str">pdf</format>
+			<mediatype type="str">application/pdf</mediatype>
+			<bytes type="int">13541729</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/e4cf73b0-eef6-4118-a018-40eb374f5de7/supporting-documents/soil_p.rtf</name>
+			<path type="str">original/e4cf73b0-eef6-4118-a018-40eb374f5de7/supporting-documents/soil_p.rtf</path>
+			<format type="str">rtf</format>
+			<mediatype type="str">application/rtf</mediatype>
+			<bytes type="int">142944</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/resource_links.md</name>
+			<path type="str">original/resource_links.md</path>
+			<format type="str">md</format>
+			<mediatype type="str">text/markdown</mediatype>
+			<bytes type="int">172</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">soil</item>
+	</keywords>
+</all>

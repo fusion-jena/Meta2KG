@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bgc:metaProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.bgc-jena.mpg.de" xmlns:bgc="http://www.bgc-jena.mpg.de" xsi:schemaLocation="http://www.bgc-jena.mpg.de schema.xsd">
+  <bgc:general bgc:source="mixed">
+    <bgc:id bgc:source="intern">20206</bgc:id>
+    <bgc:versionID bgc:source="intern">1.1.19</bgc:versionID>
+    <bgc:title>Microbial rhizosphere and bulk soil properties, Alb grassland, 2014, cooperation BELOW-SCALEMIC</bgc:title>
+    <bgc:owners>
+      <bgc:owner number="1">Ellen Kandeler</bgc:owner>
+      <bgc:owner number="2">Sven Marhan</bgc:owner>
+      <bgc:owner number="3">Runa Boeddinghaus</bgc:owner>
+      <bgc:owner number="4">Aurelia Gebala</bgc:owner>
+      <bgc:owner number="5">Doreen Berner</bgc:owner>
+      <bgc:owner number="6">Meike Boob</bgc:owner>
+    </bgc:owners>
+    <bgc:projectName>SCALEMIC</bgc:projectName>
+    <bgc:datasetManager>
+      <bgc:datasetManagerName disabled="disabled">Ellen Kandeler</bgc:datasetManagerName>
+      <bgc:institute disabled="disabled">University of Hohenheim</bgc:institute>
+      <bgc:email disabled="disabled">kandeler@uni-hohenheim.de</bgc:email>
+    </bgc:datasetManager>
+  </bgc:general>
+  <bgc:researchObjects>
+    <bgc:approxNumberOfPlots>
+      <bgc:noOfGP>16</bgc:noOfGP>
+      <bgc:noOfEP>16</bgc:noOfEP>
+      <bgc:noOfMIP>15</bgc:noOfMIP>
+      <bgc:noOfVIP>5</bgc:noOfVIP>
+    </bgc:approxNumberOfPlots>
+    <bgc:habitats>
+      <bgc:grassland>yes</bgc:grassland>
+      <bgc:forest>no</bgc:forest>
+    </bgc:habitats>
+    <bgc:experimentalManipulation>yes</bgc:experimentalManipulation>
+    <bgc:relativePositionToGround>
+      <bgc:aboveGround>no</bgc:aboveGround>
+      <bgc:belowGround>yes</bgc:belowGround>
+    </bgc:relativePositionToGround>
+    <bgc:repeatedMeasurement>
+      <bgc:timeBasedRepetition>
+        <bgc:numberOfRepetitions>0</bgc:numberOfRepetitions>
+      </bgc:timeBasedRepetition>
+      <bgc:plotBasedRepetition>
+        <bgc:numberOfSubPlots>0</bgc:numberOfSubPlots>
+      </bgc:plotBasedRepetition>
+    </bgc:repeatedMeasurement>
+    <bgc:taxa>
+      <bgc:taxon number="1">None</bgc:taxon>
+    </bgc:taxa>
+    <bgc:processesAndServices>
+      <bgc:processOrService number="1">Biogeochemical Cycle - Water</bgc:processOrService>
+      <bgc:processOrService number="2">Biogeochemical Cycle - Carbon</bgc:processOrService>
+      <bgc:processOrService number="3">Biogeochemical Cycle - Nitrogen</bgc:processOrService>
+      <bgc:processOrService number="4">Biogeochemical Cycle - Other Nutrients</bgc:processOrService>
+    </bgc:processesAndServices>
+    <bgc:environmentalDescriptors>
+      <bgc:environmentalDescriptor number="1">Soil</bgc:environmentalDescriptor>
+    </bgc:environmentalDescriptors>
+    <bgc:bioticDataTypes>
+      <bgc:bioticDataType number="1">None</bgc:bioticDataType>
+    </bgc:bioticDataTypes>
+  </bgc:researchObjects>
+  <bgc:methodology blockPublic="no">
+    <bgc:introduction input="textarea">This dataset derives from a cooperation between the BELOW and the SCALEMIC project. From April to June 2014 ten grass and ten forb species were planted as phytometers into 18 grassland EPs per Exploratory by the BELOW project and soil samples were taken in September 2014.  </bgc:introduction>
+    <bgc:measurements>
+      <bgc:theory input="textarea">We investigated the relationships between land-use intensity, enzyme activity, microbial biomass and chemical soil properties. We hypothesized that nutriens provided by rhizodeposition would lead to higher microbial colonization and enzyme activities of the rhizosphere soil, and that the extend would be dependent on the individual plant species.</bgc:theory>
+      <bgc:type input="textarea">Enzyme measurements (beta-glucosidase, xylosidase, N-Acetyl-betaglucosaminidase, phophatase), measurement of soil water content, microbial carbon and nitrogen, ammonium and nitrate on bulk and rhiszosphere soil samples.</bgc:type>
+    </bgc:measurements>
+    <bgc:equipment>
+      <bgc:instruments input="textarea">Microplate Flourescence Reader FLx800, Bio-Tek Instruments Inc.
+Analytik Jena Multi N/C2100S
+Autonalyzer 3,Bran+Luebbe</bgc:instruments>
+      <bgc:calibration input="textarea">with specific calibration solution</bgc:calibration>
+      <bgc:procedures input="textarea">Four potential soil enzyme activities were determined according to Marx et al. (2001) using fluorescent 4-methylumbelliferone substrates (4-MUF; Sigma-Aldrich, St. Louis, USA) and a buffered solution (pH 6.1), as described in detail by Berner et al. (2011): β-glucosidase (EC 3.2.1.21) for cellulose degradation, β-xylosidase (EC 3.2.1.37) for hemicellulose degradation, chitinase (β-N-acetylglucosaminidase, EC 3.2.1.52) and phosphatase (EC 3.1.3.1).
+
+Soil water content (SWC) was determined gravimetrically on approximately 5 g of soil; the soil samples were dried at 105 °C until constant weight was reached, minimum 24 hours.
+
+Chloroform-fumigation-extraction method (CFE), according to Vance et al. (1987) and Keil et al. (2011), was used to determine microbial biomass carbon (Cmic) and nitrogen (Nmic). C and N were extracted from each fumigated and non-fumigated replicate (5 g) with 40 ml 0.5 M K2SO4. The suspension was horizontally shaken (30 Min, 150 rpm) and centrifuged (30 Min, 4400 x g). Fumigated sample replicates were incubated with CHCl3 for 24 hours. C and N concentrations in dissolved (1:4, extract:deion. H2O) extracts were measured with a TOC/TN analyzer (Multi N/C 2100S, Analytik Jena AG, Jena, Germany). The kEC factor (Joergensen, 1996) and the kEN factor of Brookes et al. (1985) were used to calculate microbial C and N, respectively. Based on the non-fumigated samples extractable organic carbon (EOC) and extractable nitrogen (EN) were determined.
+
+Mineral nitrogen in form of ammonium (NH4+) and nitrate (NO3-) was determined by DIN ISO 14256-2 (2006) with an AutoAnalyzer 3 (Bran &amp; Luebbe, Norderstedt, Germany).
+
+References:
+Marx et al. (2001) "A microplate fluorimetric assay for the study of enzyme diversity in soils" Soil Biology and Biochemistry
+Berner et al. (2011) "Land-use intensity modifies spatial distribution and function of soil microorganisms in grasslands" Pedobiologia
+Vance et al. (1987) "An extraction method for measuring soil microbial biomass C" Soil Biology and Biochemistry
+Keil et al. (2011) "Influence of land-use intensity on the spatial distribution of N-cycling microorganisms in grassland soils" FEMS Microbiology Ecology
+Joergensen (1996) "The fumigation-extraction method to estimate soil microbial biomass: calibration of the kEC value" Soil Biology and Biochemistry
+Brookes et al. (1985) "Chloroform fumigation and the release of soil nitrogen: the effects of fumigation time and temperature" Soil Biology and Biochemistry</bgc:procedures>
+    </bgc:equipment>
+  </bgc:methodology>
+  <bgc:description>
+    <bgc:acronyms>
+      <bgc:acronymPair number="1">
+        <bgc:acronym number="1" />
+        <bgc:meaning number="1" />
+      </bgc:acronymPair>
+    </bgc:acronyms>
+    <bgc:keywords>
+      <bgc:keyword number="1">grassland</bgc:keyword>
+      <bgc:keyword number="2">Alb</bgc:keyword>
+      <bgc:keyword number="3">microbial properties</bgc:keyword>
+      <bgc:keyword number="4">physico-chemical soil properties</bgc:keyword>
+      <bgc:keyword number="5">plant species</bgc:keyword>
+      <bgc:keyword number="6">grass</bgc:keyword>
+      <bgc:keyword number="7">herb</bgc:keyword>
+      <bgc:keyword number="8">rhizosphere</bgc:keyword>
+      <bgc:keyword number="9">bulk</bgc:keyword>
+    </bgc:keywords>
+  </bgc:description>
+  <bgc:time>
+    <bgc:when timeType="period" xsi:type="bgc:dateFrame">
+      <bgc:format>MM.yyyy</bgc:format>
+      <bgc:startDate>09.2014</bgc:startDate>
+      <bgc:endDate>09.2014</bgc:endDate>
+    </bgc:when>
+    <bgc:dateEntry bgc:source="intern">2016-05-18</bgc:dateEntry>
+    <bgc:dateLastModified bgc:source="intern">2019-03-22</bgc:dateLastModified>
+  </bgc:time>
+  <bgc:data>
+    <bgc:fileType>structuredData</bgc:fileType>
+    <bgc:manipulations input="textarea" />
+    <bgc:errors>NA</bgc:errors>
+    <bgc:qualityLevel>validated</bgc:qualityLevel>
+    <bgc:dataStatus>complete</bgc:dataStatus>
+    <bgc:dataStructure>
+      <bgc:dataFormat>
+        <bgc:missingValues>NA</bgc:missingValues>
+        <bgc:NA />
+      </bgc:dataFormat>
+      <bgc:matrix>
+        <bgc:columnName />
+        <bgc:rowName />
+        <bgc:contentType />
+        <bgc:matrixUnit />
+      </bgc:matrix>
+      <bgc:variables>
+        <bgc:variable number="1">
+          <bgc:name number="1">exploratory</bgc:name>
+          <bgc:typeOfVariable number="1">string</bgc:typeOfVariable>
+          <bgc:units number="1" />
+          <bgc:description number="1" />
+          <bgc:block number="1">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="2">
+          <bgc:name number="2">EP_Plot_ID</bgc:name>
+          <bgc:typeOfVariable number="2">string</bgc:typeOfVariable>
+          <bgc:units number="2" />
+          <bgc:description number="2" />
+          <bgc:block number="2">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="3">
+          <bgc:name number="3">sampling_year</bgc:name>
+          <bgc:typeOfVariable number="3">date</bgc:typeOfVariable>
+          <bgc:units number="3" />
+          <bgc:description number="3" />
+          <bgc:block number="3">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="4">
+          <bgc:name number="4">grass_or_herb_species</bgc:name>
+          <bgc:typeOfVariable number="4">string</bgc:typeOfVariable>
+          <bgc:units number="4" />
+          <bgc:description number="4">whether species belongs to herbs or grasses</bgc:description>
+          <bgc:block number="4">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="5">
+          <bgc:name number="5">plant_species</bgc:name>
+          <bgc:typeOfVariable number="5">string</bgc:typeOfVariable>
+          <bgc:units number="5" />
+          <bgc:description number="5">name of plant species</bgc:description>
+          <bgc:block number="5">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="6">
+          <bgc:name number="6">plant_species_abbreviation</bgc:name>
+          <bgc:typeOfVariable number="6">string</bgc:typeOfVariable>
+          <bgc:units number="6" />
+          <bgc:description number="6">abbreviation of plant species name</bgc:description>
+          <bgc:block number="6">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="7">
+          <bgc:name number="7">soil_sample_origin</bgc:name>
+          <bgc:typeOfVariable number="7">string</bgc:typeOfVariable>
+          <bgc:units number="7" />
+          <bgc:description number="7">whether sample was taken vom rhizosphere or bulk soil</bgc:description>
+          <bgc:block number="7">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="8">
+          <bgc:name number="8">glucosidase</bgc:name>
+          <bgc:typeOfVariable number="8">realNumber</bgc:typeOfVariable>
+          <bgc:units number="8">nmol MUF g-1 soil DM h-1</bgc:units>
+          <bgc:description number="8"> 	beta-glucosidase activity</bgc:description>
+          <bgc:block number="8">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="9">
+          <bgc:name number="9">xylosidase</bgc:name>
+          <bgc:typeOfVariable number="9">realNumber</bgc:typeOfVariable>
+          <bgc:units number="9">nmol MUF g-1 soil DM h-1</bgc:units>
+          <bgc:description number="9">xylosidase activity</bgc:description>
+          <bgc:block number="9">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="10">
+          <bgc:name number="10">chitinase</bgc:name>
+          <bgc:typeOfVariable number="10">realNumber</bgc:typeOfVariable>
+          <bgc:units number="10">nmol MUF g-1 soil DM h-1</bgc:units>
+          <bgc:description number="10">N-acetyl-beta-glucosaminidase activity</bgc:description>
+          <bgc:block number="10">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="11">
+          <bgc:name number="11">phosphatase</bgc:name>
+          <bgc:typeOfVariable number="11">realNumber</bgc:typeOfVariable>
+          <bgc:units number="11">nmol MUF g-1 soil DM h-1</bgc:units>
+          <bgc:description number="11">phosphatase activity</bgc:description>
+          <bgc:block number="11">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="12">
+          <bgc:name number="12">SWC</bgc:name>
+          <bgc:typeOfVariable number="12">realNumber</bgc:typeOfVariable>
+          <bgc:units number="12">%</bgc:units>
+          <bgc:description number="12">soil water content related to dry matter content</bgc:description>
+          <bgc:block number="12">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="13">
+          <bgc:name number="13">Cmic</bgc:name>
+          <bgc:typeOfVariable number="13">realNumber</bgc:typeOfVariable>
+          <bgc:units number="13">µg C g-1 soil DM</bgc:units>
+          <bgc:description number="13">microbial biomass carbon</bgc:description>
+          <bgc:block number="13">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="14">
+          <bgc:name number="14">Nmic</bgc:name>
+          <bgc:typeOfVariable number="14">realNumber</bgc:typeOfVariable>
+          <bgc:units number="14">µg N g-1 soil DM</bgc:units>
+          <bgc:description number="14">microbial biomass nitrogen</bgc:description>
+          <bgc:block number="14">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="15">
+          <bgc:name number="15">Cmic_Nmic</bgc:name>
+          <bgc:typeOfVariable number="15">realNumber</bgc:typeOfVariable>
+          <bgc:units number="15" />
+          <bgc:description number="15">ratio Cmic:Nmic</bgc:description>
+          <bgc:block number="15">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="16">
+          <bgc:name number="16">NH4</bgc:name>
+          <bgc:typeOfVariable number="16">realNumber</bgc:typeOfVariable>
+          <bgc:units number="16">µg N g-1 soil DM</bgc:units>
+          <bgc:description number="16">ammonium content</bgc:description>
+          <bgc:block number="16">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="17">
+          <bgc:name number="17">NO3</bgc:name>
+          <bgc:typeOfVariable number="17">realNumber</bgc:typeOfVariable>
+          <bgc:units number="17">µg N g-1 soil DM</bgc:units>
+          <bgc:description number="17">nitrate content</bgc:description>
+          <bgc:block number="17">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="18">
+          <bgc:name number="18">Nmin</bgc:name>
+          <bgc:typeOfVariable number="18">realNumber</bgc:typeOfVariable>
+          <bgc:units number="18">µg N g-1 soil DM</bgc:units>
+          <bgc:description number="18">mineral nitrogen content (sum of ammonium and nitrate content)</bgc:description>
+          <bgc:block number="18">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="19">
+          <bgc:name number="19">EON</bgc:name>
+          <bgc:typeOfVariable number="19">realNumber</bgc:typeOfVariable>
+          <bgc:units number="19">µg N g-1 soil DM</bgc:units>
+          <bgc:description number="19">extractable organic nitrogen (= EN - Nmin)</bgc:description>
+          <bgc:block number="19">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="20">
+          <bgc:name number="20">EN</bgc:name>
+          <bgc:typeOfVariable number="20">realNumber</bgc:typeOfVariable>
+          <bgc:units number="20">µg N g-1 soil DM</bgc:units>
+          <bgc:description number="20">extractable nitrogen</bgc:description>
+          <bgc:block number="20">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="21">
+          <bgc:name number="21">EOC</bgc:name>
+          <bgc:typeOfVariable number="21">realNumber</bgc:typeOfVariable>
+          <bgc:units number="21">µg C g-1 soil DM</bgc:units>
+          <bgc:description number="21">extractable organic carbon</bgc:description>
+          <bgc:block number="21">0</bgc:block>
+        </bgc:variable>
+      </bgc:variables>
+    </bgc:dataStructure>
+  </bgc:data>
+  <bgc:references>
+    <bgc:database />
+    <bgc:papers>
+      <bgc:paper number="1" />
+    </bgc:papers>
+    <bgc:relatedDatasets>
+      <bgc:dataset number="1">20786</bgc:dataset>
+      <bgc:dataset number="2">19387</bgc:dataset>
+    </bgc:relatedDatasets>
+    <bgc:citation>Kandeler, Ellen; Sven Marhan; Runa Boeddinghaus; Aurelia Gebala; Doreen Berner; Meike Boob (2019): Microbial rhizosphere and bulk soil properties, Alb grassland, 2014, cooperation BELOW-SCALEMIC. v1.1.19. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/PublicData/PublicData.aspx?DatasetId=20206</bgc:citation>
+  </bgc:references>
+  <bgc:comment>Data was assessed within the master thesis by Meike Boob "Einfluss der Landnutzungsintensität auf die mikrobielle Biomasse und Enzymaktivitäten im Rhizosphärenboden verschiedener Grünlandpflanzenarten"</bgc:comment>
+</bgc:metaProfile>

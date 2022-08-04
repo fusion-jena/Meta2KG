@@ -1,0 +1,708 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='602'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/602</alternateIdentifier>
+<title>Bongers et al _JoE_data</title>
+<creator id='xliu'>
+<individualName>
+<givenName>Xiaojuan</givenName>
+<surName>Liu</surName>
+</individualName>
+<organizationName>Institute of Botany, Chinese Academy of Sciences</organizationName>
+<address>
+
+
+
+</address>
+
+<electronicMailAddress>liuxiaojuan06@ibcas.ac.cn</electronicMailAddress>
+</creator>
+<pubDate>2019-07-18</pubDate>
+<language>en_US</language>
+<abstract>
+<para>Understanding how species diversity affects plant performance is a central question in biodiversity–ecosystem functioning (BEF) research. At the community level, functional trait means and trait dissimilarities have been used to explain biodiversity effects, but with mixed success. To disentangle how functional traits explain community growth and underpin biodiversity–ecosystem functioning relationships, we should elucidate how plant traits affect individual growth across species richness levels, because the role of functional traits on growth depends on the ecological context of the individual.</para>
+
+</abstract>
+<keywordSet>
+<keyword>id</keyword>
+<keyword>site</keyword>
+<keyword>PTAG</keyword>
+<keyword>PR</keyword>
+<keyword>NR</keyword>
+<keyword>species</keyword>
+<keyword>branchNR</keyword>
+<keyword>WD</keyword>
+<keyword>LA</keyword>
+<keyword>SLA</keyword>
+<keyword>CHL</keyword>
+<keyword>LN</keyword>
+<keyword>LP</keyword>
+<keyword>LC</keyword>
+<keyword>SD</keyword>
+<keyword>SA</keyword>
+<keyword>O1_D</keyword>
+<keyword>O1_SRL</keyword>
+<keyword>BA13</keyword>
+<keyword>BA14</keyword>
+<keyword>BA15</keyword>
+<keyword>BA16</keyword>
+<keyword>BA17</keyword>
+<keyword>BA18</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/602/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<contact>
+<references>xliu</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>Bongers et al _JoE_data</para>
+<para>Understanding how species diversity affects plant performance is a central question in biodiversity–ecosystem functioning (BEF) research. At the community level, functional trait means and trait dissimilarities have been used to explain biodiversity effects, but with mixed success. To disentangle how functional traits explain community growth and underpin biodiversity–ecosystem functioning relationships, we should elucidate how plant traits affect individual growth across species richness levels, because the role of functional traits on growth depends on the ecological context of the individual.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2013-08-31 00:00:00 UTC - 2018-12-17 00:00:00 UTC</para>
+
+
+
+</description>
+</studyExtent>
+<samplingDescription>
+<para>We addressed this topic by using detailed data of twelve functional traits and annual growth for 529 individual trees of 31 species at five species-richness levels in a large forest biodiversity experiment in south-east China from 4–9 years after planting. Functional traits were measured at the end of the growing season from September to October in 2014 and 2015 in 59 plots from both sites. Originally, we planned to sample traits from four individual trees per species per richness level. However, due to logistical constrains (e.g. tree mortality in some plots) the final sample included 529 trees from 31 species.</para>
+
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/602</entityName>
+<entityDescription>Bongers et al _JoE_data</entityDescription>
+<physical>
+<objectName>/datasets/602</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/602/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='id'>
+<attributeName>id-tag (id), </attributeName>
+<attributeLabel>id</attributeLabel>
+<attributeDefinition>id-tag (id: id-tag)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>id-tag</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>id-tag</para>
+<para>id-tag</para>
+<para>id-tag</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='site'>
+<attributeName>site (site), </attributeName>
+<attributeLabel>site</attributeLabel>
+<attributeDefinition>site (site: site)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>site</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>site</para>
+<para>site</para>
+<para>site</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='PTAG'>
+<attributeName>PTAG (PTAG), </attributeName>
+<attributeLabel>PTAG</attributeLabel>
+<attributeDefinition>PTAG (PTAG: plot number)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>PTAG</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>PTAG</para>
+<para>PTAG</para>
+<para>plot number</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='PR'>
+<attributeName>plot diversity (PR), </attributeName>
+<attributeLabel>PR</attributeLabel>
+<attributeDefinition>plot diversity (PR: plot richness)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>plot diversity</para>
+<para>plot diversity</para>
+<para>plot richness</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='NR'>
+<attributeName>neighbour diversity (NR), </attributeName>
+<attributeLabel>NR</attributeLabel>
+<attributeDefinition>neighbour diversity (NR: neighbour richness)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>neighbour diversity</para>
+<para>neighbour diversity</para>
+<para>neighbour richness</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='species'>
+<attributeName>species ID (species), </attributeName>
+<attributeLabel>species</attributeLabel>
+<attributeDefinition>species ID (species: species ID)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>species ID</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>species ID</para>
+<para>species ID</para>
+<para>species ID</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='branchNR'>
+<attributeName>trait (branchNR), </attributeName>
+<attributeLabel>branchNR</attributeLabel>
+<attributeDefinition>trait (branchNR: number of branches)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>trait</para>
+<para>trait</para>
+<para>number of branches</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='WD'>
+<attributeName>trait (WD), </attributeName>
+<attributeLabel>WD</attributeLabel>
+<attributeDefinition>trait (WD: Wood density)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>trait</para>
+<para>trait</para>
+<para>Wood density</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='LA'>
+<attributeName>trait (LA), </attributeName>
+<attributeLabel>LA</attributeLabel>
+<attributeDefinition>trait (LA: leaf area)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>trait</para>
+<para>trait</para>
+<para>leaf area</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='SLA'>
+<attributeName>trait (SLA), </attributeName>
+<attributeLabel>SLA</attributeLabel>
+<attributeDefinition>trait (SLA: specific leaf area)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>trait</para>
+<para>trait</para>
+<para>specific leaf area</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CHL'>
+<attributeName>trait (CHL), </attributeName>
+<attributeLabel>CHL</attributeLabel>
+<attributeDefinition>trait (CHL: chlorophyll content)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>trait</para>
+<para>trait</para>
+<para>chlorophyll content</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='LN'>
+<attributeName>trait (LN), </attributeName>
+<attributeLabel>LN</attributeLabel>
+<attributeDefinition>trait (LN: leaf nitrogen content)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>trait</para>
+<para>trait</para>
+<para>leaf nitrogen content</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='LP'>
+<attributeName>trait (LP), </attributeName>
+<attributeLabel>LP</attributeLabel>
+<attributeDefinition>trait (LP: leaf phosphorus content)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>trait</para>
+<para>trait</para>
+<para>leaf phosphorus content</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='LC'>
+<attributeName>trait (LC), </attributeName>
+<attributeLabel>LC</attributeLabel>
+<attributeDefinition>trait (LC: leaf carbon)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>trait</para>
+<para>trait</para>
+<para>leaf carbon</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='SD'>
+<attributeName>trait (SD), </attributeName>
+<attributeLabel>SD</attributeLabel>
+<attributeDefinition>trait (SD: stomatal density)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>trait</para>
+<para>trait</para>
+<para>stomatal density</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='SA'>
+<attributeName>trait (SA), </attributeName>
+<attributeLabel>SA</attributeLabel>
+<attributeDefinition>trait (SA: stomatal aperture)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>trait</para>
+<para>trait</para>
+<para>stomatal aperture</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='O1_D'>
+<attributeName>trait (O1_D), </attributeName>
+<attributeLabel>O1_D</attributeLabel>
+<attributeDefinition>trait (O1_D: first order root diameter)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>trait</para>
+<para>trait</para>
+<para>first order root diameter</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='O1_SRL'>
+<attributeName>trait (O1_SRL), </attributeName>
+<attributeLabel>O1_SRL</attributeLabel>
+<attributeDefinition>trait (O1_SRL: first order specific root length)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>trait</para>
+<para>trait</para>
+<para>first order specific root length</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='BA13'>
+<attributeName>Basal area (BA13), </attributeName>
+<attributeLabel>BA13</attributeLabel>
+<attributeDefinition>Basal area is calculated as the area at breastheight of a given tree and can be summed up to estimate the tree mass in a given plot. (BA13: basal area in 2013)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Basal area</para>
+<para>Basal area is calculated as the area at breastheight of a given tree and can be summed up to estimate the tree mass in a given plot.</para>
+<para>basal area in 2013</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='BA14'>
+<attributeName>Basal area (BA14), </attributeName>
+<attributeLabel>BA14</attributeLabel>
+<attributeDefinition>Basal area is calculated as the area at breastheight of a given tree and can be summed up to estimate the tree mass in a given plot. (BA14: basal area in 2014)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Basal area</para>
+<para>Basal area is calculated as the area at breastheight of a given tree and can be summed up to estimate the tree mass in a given plot.</para>
+<para>basal area in 2014</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='BA15'>
+<attributeName>Basal area (BA15), </attributeName>
+<attributeLabel>BA15</attributeLabel>
+<attributeDefinition>Basal area is calculated as the area at breastheight of a given tree and can be summed up to estimate the tree mass in a given plot. (BA15: basal area in 2015)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Basal area</para>
+<para>Basal area is calculated as the area at breastheight of a given tree and can be summed up to estimate the tree mass in a given plot.</para>
+<para>basal area in 2015</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='BA16'>
+<attributeName>Basal area (BA16), </attributeName>
+<attributeLabel>BA16</attributeLabel>
+<attributeDefinition>Basal area is calculated as the area at breastheight of a given tree and can be summed up to estimate the tree mass in a given plot. (BA16: basal area in 2016)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Basal area</para>
+<para>Basal area is calculated as the area at breastheight of a given tree and can be summed up to estimate the tree mass in a given plot.</para>
+<para>basal area in 2016</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='BA17'>
+<attributeName>Basal area (BA17), </attributeName>
+<attributeLabel>BA17</attributeLabel>
+<attributeDefinition>Basal area is calculated as the area at breastheight of a given tree and can be summed up to estimate the tree mass in a given plot. (BA17: basal area in 2017)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Basal area</para>
+<para>Basal area is calculated as the area at breastheight of a given tree and can be summed up to estimate the tree mass in a given plot.</para>
+<para>basal area in 2017</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='BA18'>
+<attributeName>Basal area (BA18), </attributeName>
+<attributeLabel>BA18</attributeLabel>
+<attributeDefinition>Basal area is calculated as the area at breastheight of a given tree and can be summed up to estimate the tree mass in a given plot. (BA18: basal area in 2018)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Basal area</para>
+<para>Basal area is calculated as the area at breastheight of a given tree and can be summed up to estimate the tree mass in a given plot.</para>
+<para>basal area in 2018</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>529</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

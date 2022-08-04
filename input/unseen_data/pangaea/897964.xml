@@ -1,0 +1,255 @@
+<md:MetaData xmlns:md="http://www.pangaea.de/MetaData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ws.pangaea.de/schemas/pangaea/MetaData.xsd" version="2019-02-13">
+<md:citation id="dataset897964" >
+<md:author id="dataset.author67914" >
+<md:lastName>Luigi</md:lastName>
+<md:firstName>Jovane</md:firstName>
+<md:eMail>jovane@usp.br</md:eMail>
+</md:author>
+<md:author id="dataset.author10043" >
+<md:lastName>Florindo</md:lastName>
+<md:firstName>Fabio</md:firstName>
+<md:eMail>florindo@mail.ingv.it</md:eMail>
+<md:orcid>0000-0002-6058-9748</md:orcid>
+</md:author>
+<md:author id="dataset.author20362" >
+<md:lastName>Acton</md:lastName>
+<md:firstName>Gary D</md:firstName>
+<md:eMail>gdacton@ucdavis.edu</md:eMail>
+<md:orcid>0000-0002-3285-4022</md:orcid>
+</md:author>
+<md:author id="dataset.author39494" >
+<md:lastName>Ohneiser</md:lastName>
+<md:firstName>Christian</md:firstName>
+<md:eMail>christianohneiser@gmail.com</md:eMail>
+<md:orcid>0000-0002-2781-2522</md:orcid>
+</md:author>
+<md:author id="dataset.author10044" >
+<md:lastName>Sagnotti</md:lastName>
+<md:firstName>Leonardo</md:firstName>
+<md:orcid>0000-0003-3944-201X</md:orcid>
+</md:author>
+<md:author id="dataset.author58787" >
+<md:lastName>Strada</md:lastName>
+<md:firstName>Eleonora</md:firstName>
+</md:author>
+<md:author id="dataset.author29381" >
+<md:lastName>Verosub</md:lastName>
+<md:firstName>Kenneth Lee</md:firstName>
+<md:eMail>verosub@geology.ucdavis.edu</md:eMail>
+</md:author>
+<md:author id="dataset.author10042" >
+<md:lastName>Wilson</md:lastName>
+<md:firstName>Gary S</md:firstName>
+<md:orcid>0000-0003-0025-3641</md:orcid>
+</md:author>
+<md:author id="dataset.author67912" >
+<md:lastName>Iacoviello</md:lastName>
+<md:firstName>Francesco</md:firstName>
+<md:orcid>0000-0003-3564-2380</md:orcid>
+</md:author>
+<md:author id="dataset.author45544" >
+<md:lastName>Levy</md:lastName>
+<md:firstName>Richard H</md:firstName>
+<md:eMail>r.levy@gns.cri.nz</md:eMail>
+<md:orcid>0000-0002-8783-0167</md:orcid>
+</md:author>
+<md:author id="dataset.author23379" >
+<md:lastName>Passchier</md:lastName>
+<md:firstName>Sandra</md:firstName>
+<md:eMail>passchiers@mail.montclair.edu</md:eMail>
+<md:orcid>0000-0001-7204-7025</md:orcid>
+</md:author>
+<md:year>2019</md:year>
+<md:title>Miocene glacial dynamics recorded by variations in magnetic properties in the ANDRILL AND-2 drill core</md:title>
+<md:URI>https://doi.pangaea.de/10.1594/PANGAEA.897964</md:URI>
+<md:dateTime>2019-01-31T13:11:04</md:dateTime>
+<md:supplementTo id="ref98461" >
+<md:author id="ref98461.author67914" >
+<md:lastName>Luigi</md:lastName>
+<md:firstName>Jovane</md:firstName>
+<md:eMail>jovane@usp.br</md:eMail>
+</md:author>
+<md:author id="ref98461.author10043" >
+<md:lastName>Florindo</md:lastName>
+<md:firstName>Fabio</md:firstName>
+<md:eMail>florindo@mail.ingv.it</md:eMail>
+<md:orcid>0000-0002-6058-9748</md:orcid>
+</md:author>
+<md:author id="ref98461.author20362" >
+<md:lastName>Acton</md:lastName>
+<md:firstName>Gary D</md:firstName>
+<md:eMail>gdacton@ucdavis.edu</md:eMail>
+<md:orcid>0000-0002-3285-4022</md:orcid>
+</md:author>
+<md:author id="ref98461.author39494" >
+<md:lastName>Ohneiser</md:lastName>
+<md:firstName>Christian</md:firstName>
+<md:eMail>christianohneiser@gmail.com</md:eMail>
+<md:orcid>0000-0002-2781-2522</md:orcid>
+</md:author>
+<md:author id="ref98461.author10044" >
+<md:lastName>Sagnotti</md:lastName>
+<md:firstName>Leonardo</md:firstName>
+<md:orcid>0000-0003-3944-201X</md:orcid>
+</md:author>
+<md:author id="ref98461.author58787" >
+<md:lastName>Strada</md:lastName>
+<md:firstName>Eleonora</md:firstName>
+</md:author>
+<md:author id="ref98461.author29381" >
+<md:lastName>Verosub</md:lastName>
+<md:firstName>Kenneth Lee</md:firstName>
+<md:eMail>verosub@geology.ucdavis.edu</md:eMail>
+</md:author>
+<md:author id="ref98461.author10042" >
+<md:lastName>Wilson</md:lastName>
+<md:firstName>Gary S</md:firstName>
+<md:orcid>0000-0003-0025-3641</md:orcid>
+</md:author>
+<md:author id="ref98461.author67912" >
+<md:lastName>Iacoviello</md:lastName>
+<md:firstName>Francesco</md:firstName>
+<md:orcid>0000-0003-3564-2380</md:orcid>
+</md:author>
+<md:author id="ref98461.author45544" >
+<md:lastName>Levy</md:lastName>
+<md:firstName>Richard H</md:firstName>
+<md:eMail>r.levy@gns.cri.nz</md:eMail>
+<md:orcid>0000-0002-8783-0167</md:orcid>
+</md:author>
+<md:author id="ref98461.author23379" >
+<md:lastName>Passchier</md:lastName>
+<md:firstName>Sandra</md:firstName>
+<md:eMail>passchiers@mail.montclair.edu</md:eMail>
+<md:orcid>0000-0001-7204-7025</md:orcid>
+</md:author>
+<md:prepubStatus>in review</md:prepubStatus>
+<md:title>Miocene glacial dynamics recorded by variations in magnetic properties in the ANDRILL-2A drill core</md:title>
+<md:source id="ref98461.journal8824" >Journal of Geophysical Research: Solid Earth</md:source>
+</md:supplementTo>
+</md:citation>
+<md:abstract>During the 2007 ANDRILL campaign in the Ross Sea, Antarctica, the AND-2A core was recovered through a stratigraphic succession spanning 1138.54 m of Neogene sedimentary rocks that include an expanded Early to Middle Miocene sequence. The study reported here focuses on the magnetic properties of the interval from 778.63 meters below sea floor (mbsf) to 1138.54 mbsf, which comprises a time interval spanning 1.5 Myr, from ~18.7 to ~20.2 Ma. We recognise three main pulses of increased input of magnetic materials to the drill site between 778.34 - 903.06, 950.55 - 995.78 and 1040 - 1103.96 mbsf. Trends in magnetic mineral concentration dependent parameters mirror changes in the proportion of sediments derived from McMurdo Volcanic Group rocks. We suggest these pulses in magnetic mineral concentration reflect changes in sediment transport processes associated with changing glacial conditions at the drill site that included (1) subglacial and grounding zone proximal settings, (2) hemipelagic and neritic conditions with abundant sediment-rich icebergs, (3) grounding zone-distal environment that was covered by land-fast multi-year sea-ice or a fringing ice shelf. The magnetic minerals record preserved in the AND-2A core supports other data that indicate a highly dynamic and variable coastal environment during the Early Miocene, where glaciers retreated inland under warm climatic conditions and advanced beyond the drill site across the continental shelf when cold climate prevailed.</md:abstract>
+<md:extent>
+<md:geographic>
+<md:westBoundLongitude>165.27676499999998</md:westBoundLongitude>
+<md:eastBoundLongitude>165.27676499999998</md:eastBoundLongitude>
+<md:southBoundLatitude>-77.758141</md:southBoundLatitude>
+<md:northBoundLatitude>-77.758141</md:northBoundLatitude>
+<md:meanLongitude>165.27676499999998</md:meanLongitude>
+<md:meanLatitude>-77.758141</md:meanLatitude>
+</md:geographic>
+<md:temporal>
+<md:minDateTime>2007-10-10T12:00:00</md:minDateTime>
+<md:maxDateTime>2007-11-30T12:00:00</md:maxDateTime>
+</md:temporal>
+<md:topoType id="topotype1" >not specified</md:topoType>
+</md:extent>
+<md:project id="project33" type="International" >
+<md:label>ANDRILL</md:label>
+<md:name>Antarctic Geological Drilling</md:name>
+<md:URI>http://www.andrill.org/</md:URI>
+</md:project>
+<md:event id="event2582638" >
+<md:label>AND-2A</md:label>
+<md:latitude>-77.758141</md:latitude>
+<md:longitude>165.276765</md:longitude>
+<md:elevation>-380.0</md:elevation>
+<md:dateTime>2007-10-10T12:00:00</md:dateTime>
+<md:dateTime2>2007-11-30T12:00:00</md:dateTime2>
+<md:attribute attid="19163" name="Recovery" >1138.54 m</md:attribute>
+<md:location id="event2582638.term21011" >
+<md:name>McMurdo Sound</md:name>
+</md:location>
+<md:campaign id="event2582638.campaign32932" >
+<md:name>SMS</md:name>
+<md:optionalName>Southern McMurdo Sound</md:optionalName>
+<md:URI>hdl:10013/epic.28736.d001</md:URI>
+</md:campaign>
+<md:basis id="event2582638.basis4598" >
+<md:name>McMurdo Station</md:name>
+<md:URI>http://www.antarcticconnection.com/antarctic/stations/mcmurdo.shtml</md:URI>
+</md:basis>
+<md:device id="event2582638.term19457" >
+<md:name>Drilling/drill rig</md:name>
+<md:optionalName>DRILL</md:optionalName>
+</md:device>
+<md:comment>Coring site is located ~25 km from the United States' McMurdo Station and from New Zealand's Scott Base on a 8.5 m thick floating sea-ice platform.</md:comment>
+</md:event>
+<md:size unit="datasets" >6</md:size>
+<md:license id="license21" >
+<md:label>CC-BY-4.0</md:label>
+<md:name>Creative Commons Attribution 4.0 International</md:name>
+<md:URI>https://creativecommons.org/licenses/by/4.0/</md:URI>
+</md:license>
+<md:additionalSearchableContent>ARM intensity/magnetic susceptibility ratio | ARM/κ | Magnetometer | ARM, Intensity, per unit volume | Inten (ARM) | Remanent magnetization/magnetization ratio | Mr/Ms | Coercivity of remanence/coercive force | Bcr/Bc | McMurdo volcanics to the relative abundances of the heavy mineral assemblages in the core (Iacoviello et al., 2015) | Volcanic components | Volcanic | Calculated | Niobium | Nb | X-ray fluorescence (XRF), 10 point smoothed | Magnetic susceptibility | MAGS | Magnetization saturation | Ms</md:additionalSearchableContent>
+<md:keywords>
+<md:techKeyword type="autoGenerated" >supplement</md:techKeyword>
+<md:keyword id="keywords.term47205" type="fromDatabase" >AND-2A</md:keyword>
+<md:keyword id="keywords.term47204" type="fromDatabase" >ANDRILL</md:keyword>
+<md:keyword id="keywords.term47208" type="fromDatabase" >Antarctica</md:keyword>
+<md:keyword id="keywords.term47209" type="fromDatabase" >Early Miocene</md:keyword>
+<md:keyword id="keywords.term47211" type="fromDatabase" >magnetic properties</md:keyword>
+<md:keyword id="keywords.term47206" type="fromDatabase" >Ross Sea</md:keyword>
+<md:keyword id="keywords.term47207" type="fromDatabase" >Southern McMurdo Sound</md:keyword>
+<md:keyword id="keywords.term47210" type="fromDatabase" >volcanoes</md:keyword>
+<md:techKeyword type="autoGenerated" >method10093</md:techKeyword>
+<md:techKeyword type="autoGenerated" >method225</md:techKeyword>
+<md:techKeyword type="autoGenerated" >method50</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param132378</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param151937</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param15588</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param15828</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169110</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169111</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param44</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param5287</md:techKeyword>
+<md:techKeyword type="autoGenerated" >pi10043</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author10042</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author10043</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author10044</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author20362</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author23379</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author29381</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author39494</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author45544</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author58787</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author67912</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author67914</md:techKeyword>
+<md:techKeyword type="autoGenerated" >basis4598</md:techKeyword>
+<md:techKeyword type="autoGenerated" >campaign32932</md:techKeyword>
+<md:techKeyword type="autoGenerated" >event2582638</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1599</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1600</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1601</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode8128</md:techKeyword>
+<md:techKeyword type="autoGenerated" >journal8824</md:techKeyword>
+<md:techKeyword type="autoGenerated" >license21</md:techKeyword>
+<md:techKeyword type="autoGenerated" >project33</md:techKeyword>
+<md:techKeyword type="autoGenerated" >ref98461</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term19457</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term21011</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term47204</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term47205</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term47206</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term47207</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term47208</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term47209</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term47210</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term47211</md:techKeyword>
+<md:techKeyword type="autoGenerated" >topotype1</md:techKeyword>
+</md:keywords>
+<md:technicalInfo>
+<md:entry key="xmlLastModified" value="2019-02-16T04:58:52Z" ></md:entry>
+<md:entry key="mimeType" value="application/zip" ></md:entry>
+<md:entry key="status" value="in review" ></md:entry>
+<md:entry key="status_num" value="2" ></md:entry>
+<md:entry key="DOIRegistryStatus" value="not to be registered" ></md:entry>
+<md:entry key="DOIRegistryStatus_num" value="1" ></md:entry>
+<md:entry key="hierarchyLevel" value="parent" ></md:entry>
+<md:entry key="collectionType" value="publication series" ></md:entry>
+<md:entry key="collectionType_num" value="4" ></md:entry>
+<md:entry key="collectionChilds" value="U897956,U897957,U897959,U897960,U897961,U897963" ></md:entry>
+<md:entry key="loginOption" value="unrestricted" ></md:entry>
+<md:entry key="loginOption_num" value="1" ></md:entry>
+</md:technicalInfo>
+</md:MetaData> 

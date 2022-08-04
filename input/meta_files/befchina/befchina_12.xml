@@ -1,0 +1,567 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='159'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/159</alternateIdentifier>
+<title>CSPs: Soil grain size analyses: horizonswise from soil profiles of Comparative Study Plots</title>
+<creator id='pkuehn'>
+<individualName>
+<givenName>Peter</givenName>
+<surName>Kühn</surName>
+</individualName>
+<organizationName>Institute of Geography / Laboratory for Soil Science  and Geoecology  Eberhard Karls University Tübingen</organizationName>
+<address>
+<deliveryPoint>Rümelinstr. 19-23</deliveryPoint>
+<city>72070 Tübingen</city>
+<country>Germany</country>
+</address>
+<phone>+49-7071-2974896</phone>
+<electronicMailAddress>peter.kuehn@uni-tuebingen.de</electronicMailAddress>
+</creator>
+<creator id='tscholten'>
+<individualName>
+<givenName>Thomas</givenName>
+<surName>Scholten</surName>
+</individualName>
+
+
+<electronicMailAddress>thomas.scholten@uni-tuebingen.de</electronicMailAddress>
+</creator>
+<creator id='cgeissler'>
+<individualName>
+<givenName>Christian</givenName>
+<surName>Geißler</surName>
+</individualName>
+<organizationName>Uni Tübingen</organizationName>
+<address>
+
+<city>Tübingen</city>
+
+</address>
+
+<electronicMailAddress>christian.geissler@gmx.net</electronicMailAddress>
+</creator>
+<pubDate>2011-12-28</pubDate>
+<language>en_US</language>
+<abstract>
+<para>Soil physical analyses of all 27 comparative study plots. Mass-% of 8 grain size classes of fine earth &lt; 2 mm from soil horizons of each soil profile per CSP. Grain sizes discriminate between sand, silt, and clay.</para>
+
+</abstract>
+<keywordSet>
+<keyword>clay</keyword>
+<keyword>CSP</keyword>
+<keyword>grain size</keyword>
+<keyword>sand</keyword>
+<keyword>silt</keyword>
+<keyword>soil</keyword>
+<keyword>soil base</keyword>
+<keyword>soil depth</keyword>
+<keyword>soil horizon</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>lab_num</keyword>
+<keyword>CSP</keyword>
+<keyword>sample_num</keyword>
+<keyword>depth_lb</keyword>
+<keyword>csa</keyword>
+<keyword>msa</keyword>
+<keyword>fsa</keyword>
+<keyword>vfsa</keyword>
+<keyword>csi</keyword>
+<keyword>msi</keyword>
+<keyword>fsi</keyword>
+<keyword>clay</keyword>
+<keyword>silt_sum</keyword>
+<keyword>sand_sum</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Permission is granted to anybody to access, use and publish all open for public data freely. The commercial use of any data is prohibited. The quality and completeness of data cannot be guaranteed. Users employ these data at their own risk. In order to make attribution of use for owners of the data possible, the identifier of ownership of data must be retained with every data record. Users must publicly acknowledge, in conjunction with the use of the data, the data owners. Cite the data as follows: Geißler, C., Scholten, T. and Kühn, P. (2011): Grain size analyses of soils: horizonswise from soil profiles of 27 Comparative Study Plots. BEF-China data portal (Accessed through URL http://china.befdata.biow.uni-leipzig.de/datasets/159)</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/159/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>The Gutianshan National Nature Reserve (NNR) is located in the western part of Zhejiang Province (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Fig. 1).  The Gutianshan NNR has an area of approximately 81 km2. From 27 comparative study plots (CSPs) soil samples were taken horizonwise from 1 soil profile per CSP</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2008-01-31
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2011-11-30
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact>
+<references>pkuehn</references>
+</contact>
+<contact>
+<references>tscholten</references>
+</contact>
+<contact>
+<references>cgeissler</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>CSPs: Soil grain size analyses: horizonswise from soil profiles of Comparative Study Plots</para>
+<para>Soil physical analyses of all 27 comparative study plots. Mass-% of 8 grain size classes of fine earth &lt; 2 mm from soil horizons of each soil profile per CSP. Grain sizes discriminate between sand, silt, and clay.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2008-01-31 00:00:00 UTC - 2011-11-30 00:00:00 UTC</para>
+<para>Samples were collected 2008 and 2009. Lab analyses were carried from 2009 to 2011</para>
+<para>The Gutianshan National Nature Reserve (NNR) is located in the western part of Zhejiang Province (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Fig. 1).  The Gutianshan NNR has an area of approximately 81 km2. From 27 comparative study plots (CSPs) soil samples were taken horizonwise from 1 soil profile per CSP</para>
+
+</description>
+</studyExtent>
+<samplingDescription>
+<para>Samples were taken horizonwise from soil profiles: 1 sample per horizon. So that samples exist according to the soil profile description per CSP (field 60 in the soil profile description sheets)</para>
+
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/159</entityName>
+<entityDescription>CSPs: Soil grain size analyses: horizonswise from soil profiles of Comparative Study Plots</entityDescription>
+<physical>
+<objectName>/datasets/159</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/159/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='lab_num'>
+<attributeName>Laboratory number of Laboratory of Soil Science and Geoecology in Tübingen (lab_num), dimensionless</attributeName>
+<attributeLabel>lab_num</attributeLabel>
+<attributeDefinition>Laboratory number laboratory Scholten, Kühn, Tübingen. (lab_num: laboratory number of laboratory of soil science and geoecology in Tübingen)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Laboratory number laboratory Scholten, Kühn, Tübingen.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Laboratory number of Laboratory of Soil Science and Geoecology in Tübingen</para>
+<para>Laboratory number laboratory Scholten, Kühn, Tübingen.</para>
+<para>laboratory number of laboratory of soil science and geoecology in Tübingen</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP'>
+<attributeName>BEF research plot name (CSP), dimensionless</attributeName>
+<attributeLabel>CSP</attributeLabel>
+<attributeDefinition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province) (CSP: name of the CSP in the Nature ReserveBEF research plot nameReasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>BEF research plot name</para>
+<para>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) and B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) or Site B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06&#39;20.2&quot;N 117°55&#39;12.1&quot;E, Jiangxi Province)</para>
+<para>name of the CSP in the Nature ReserveBEF research plot nameReasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='sample_num'>
+<attributeName>Helper (sample_num), dimensionless</attributeName>
+<attributeLabel>sample_num</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (sample_num: field name of the sample)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>field name of the sample</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='depth_lb'>
+<attributeName>Soil depth (depth_lb), cm</attributeName>
+<attributeLabel>depth_lb</attributeLabel>
+<attributeDefinition>Incremental soil depth as opposed to soil horizon, where each horizon could be of differen depth. (depth_lb: depth (lower boundary) of soil horizon)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil depth</para>
+<para>Incremental soil depth as opposed to soil horizon, where each horizon could be of differen depth.</para>
+<para>depth (lower boundary) of soil horizon</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='csa'>
+<attributeName>Grain size distribution (csa), Mass-%</attributeName>
+<attributeLabel>csa</attributeLabel>
+<attributeDefinition>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method. (csa: coarse sand: &lt;2000-630µm)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Grain size distribution</para>
+<para>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method.</para>
+<para>coarse sand: &lt;2000-630µm</para>
+</description>
+<instrumentation>sieves and Köhn pipette, drying oven, balance</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='msa'>
+<attributeName>Grain size distribution (msa), ...</attributeName>
+<attributeLabel>msa</attributeLabel>
+<attributeDefinition>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method. (msa: medium sand: 630-200µm)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Grain size distribution</para>
+<para>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method.</para>
+<para>medium sand: 630-200µm</para>
+</description>
+<instrumentation>sieves and Köhn pipette, drying oven, balance</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='fsa'>
+<attributeName>Grain size distribution (fsa), ...</attributeName>
+<attributeLabel>fsa</attributeLabel>
+<attributeDefinition>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method. (fsa: fine sand: 200-125µm)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Grain size distribution</para>
+<para>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method.</para>
+<para>fine sand: 200-125µm</para>
+</description>
+<instrumentation>sieves and Köhn pipette, drying oven, balance</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='vfsa'>
+<attributeName>Grain size distribution (vfsa), ...</attributeName>
+<attributeLabel>vfsa</attributeLabel>
+<attributeDefinition>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method. (vfsa: very fine sand: 125-63µm)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Grain size distribution</para>
+<para>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method.</para>
+<para>very fine sand: 125-63µm</para>
+</description>
+<instrumentation>sieves and Köhn pipette, drying oven, balance</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='csi'>
+<attributeName>Grain size distribution (csi), ...</attributeName>
+<attributeLabel>csi</attributeLabel>
+<attributeDefinition>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method. (csi: coarse silt: 63-20µm)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Grain size distribution</para>
+<para>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method.</para>
+<para>coarse silt: 63-20µm</para>
+</description>
+<instrumentation>sieves and Köhn pipette, drying oven, balance</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='msi'>
+<attributeName>Grain size distribution (msi), ...</attributeName>
+<attributeLabel>msi</attributeLabel>
+<attributeDefinition>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method. (msi: medium silt: 20-6.3µm)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Grain size distribution</para>
+<para>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method.</para>
+<para>medium silt: 20-6.3µm</para>
+</description>
+<instrumentation>sieves and Köhn pipette, drying oven, balance</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='fsi'>
+<attributeName>Grain size distribution (fsi), ...</attributeName>
+<attributeLabel>fsi</attributeLabel>
+<attributeDefinition>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method. (fsi: fine silt: 6.3-2µm)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Grain size distribution</para>
+<para>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method.</para>
+<para>fine silt: 6.3-2µm</para>
+</description>
+<instrumentation>sieves and Köhn pipette, drying oven, balance</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='clay'>
+<attributeName>Grain size distribution (clay), ...</attributeName>
+<attributeLabel>clay</attributeLabel>
+<attributeDefinition>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method. (clay: total clay: &lt; 2µm)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Grain size distribution</para>
+<para>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method.</para>
+<para>total clay: &lt; 2µm</para>
+</description>
+<instrumentation>sieves and Köhn pipette, drying oven, balance</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='silt_sum'>
+<attributeName>Grain size distribution (silt_sum), ...</attributeName>
+<attributeLabel>silt_sum</attributeLabel>
+<attributeDefinition>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method. (silt_sum: total silt)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Grain size distribution</para>
+<para>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method.</para>
+<para>total silt</para>
+</description>
+<instrumentation>sieves and Köhn pipette, drying oven, balance</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='sand_sum'>
+<attributeName>Grain size distribution (sand_sum), ...</attributeName>
+<attributeLabel>sand_sum</attributeLabel>
+<attributeDefinition>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method. (sand_sum: total sand)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Grain size distribution</para>
+<para>Wikipedia on soil classification: Engineers, typically geotechnical engineers, classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors. 
+The most common engineering classification system for soils in North America is the Unified Soil Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils (e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as &quot;peat&quot;). The USCS further subdivides the three major soil classes for clarification.
+Other engineering soil classification systems in the States include the AASHTO Soil Classification System and the Modified Burmister (See biographical sketch of Prof. Donald Burmister [1]).  ----  Grain size distribution in the CSPs: samples were air-dried, sieved &lt; 2mm; 10 g weighed and organic matter destroyed by 10%H2O2, then disperged by Na4P2O7; sand fractions determined by sieving and weighing; silt and clay fractions determined by using the pipette method.</para>
+<para>total sand</para>
+</description>
+<instrumentation>sieves and Köhn pipette, drying oven, balance</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>114</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

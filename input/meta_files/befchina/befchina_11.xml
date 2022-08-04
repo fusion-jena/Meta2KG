@@ -1,0 +1,429 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='150'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/150</alternateIdentifier>
+<title>CSPs: Soil CNS and pH analyses of horizonswise from soil profiles of Comparative Study Plots</title>
+<creator id='tscholten'>
+<individualName>
+<givenName>Thomas</givenName>
+<surName>Scholten</surName>
+</individualName>
+
+
+<electronicMailAddress>thomas.scholten@uni-tuebingen.de</electronicMailAddress>
+</creator>
+<creator id='pkuehn'>
+<individualName>
+<givenName>Peter</givenName>
+<surName>Kühn</surName>
+</individualName>
+<organizationName>Institute of Geography / Laboratory for Soil Science  and Geoecology  Eberhard Karls University Tübingen</organizationName>
+<address>
+<deliveryPoint>Rümelinstr. 19-23</deliveryPoint>
+<city>72070 Tübingen</city>
+<country>Germany</country>
+</address>
+<phone>+49-7071-2974896</phone>
+<electronicMailAddress>peter.kuehn@uni-tuebingen.de</electronicMailAddress>
+</creator>
+<creator id='cgeissler'>
+<individualName>
+<givenName>Christian</givenName>
+<surName>Geißler</surName>
+</individualName>
+<organizationName>Uni Tübingen</organizationName>
+<address>
+
+<city>Tübingen</city>
+
+</address>
+
+<electronicMailAddress>christian.geissler@gmx.net</electronicMailAddress>
+</creator>
+<pubDate>2011-12-13</pubDate>
+<language>en_US</language>
+<abstract>
+<para>Soil chemical laboratory analyses of all 27 comparative study plots. Contents of carbon, nitrogen and sulphur as well as pH-values (H2O and KCl) from soil horizons of each soil profile per CSP.</para>
+
+</abstract>
+<keywordSet>
+<keyword>C</keyword>
+<keyword>carbon</keyword>
+<keyword>C/N ratio</keyword>
+<keyword>CSP</keyword>
+<keyword>N</keyword>
+<keyword>nitrogen</keyword>
+<keyword>pH</keyword>
+<keyword>S</keyword>
+<keyword>SOC</keyword>
+<keyword>soil</keyword>
+<keyword>soil base</keyword>
+<keyword>soil depth</keyword>
+<keyword>soil horizon</keyword>
+<keyword>soil profile</keyword>
+<keyword>SON</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>lab_num</keyword>
+<keyword>CSP</keyword>
+<keyword>sample_num</keyword>
+<keyword>depth_lb</keyword>
+<keyword>pH_H2O</keyword>
+<keyword>pH_KCl</keyword>
+<keyword>N_t</keyword>
+<keyword>C_t</keyword>
+<keyword>S_t</keyword>
+<keyword>C_N</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Permission is granted to anybody to access, use and publish all open for public data freely. The commercial use of any data is prohibited. The quality and completeness of data cannot be guaranteed. Users employ these data at their own risk. In order to make attribution of use for owners of the data possible, the identifier of ownership of data must be retained with every data record. Users must publicly acknowledge, in conjunction with the use of the data, the data owners. Cite the data as follows: Geißler, C., Scholten, T. and Kühn, P. (2009): CNS and pH analyses of soils: horizonswise from soil profiles of 27 Comparative Study Plots. BEF-China data portal (Accessed through URL http://china.befdata.biow.uni-leipzig.de/datasets/150)</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/150/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>The Gutianshan National Nature Reserve (NNR) is located in the western part of Zhejiang Province (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Fig. 1).  The Gutianshan NNR has an area of approximately 81 km2. From 27 comparative study plots (CSPs) soil samples were taken horizonwise from 1 soil profile per CSP</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2008-02-01
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2011-09-30
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact>
+<references>tscholten</references>
+</contact>
+<contact>
+<references>pkuehn</references>
+</contact>
+<contact>
+<references>cgeissler</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>CSPs: Soil CNS and pH analyses of horizonswise from soil profiles of Comparative Study Plots</para>
+<para>Soil chemical laboratory analyses of all 27 comparative study plots. Contents of carbon, nitrogen and sulphur as well as pH-values (H2O and KCl) from soil horizons of each soil profile per CSP.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2008-02-01 00:00:00 UTC - 2011-09-30 00:00:00 UTC</para>
+<para>Samples were collected 2008 and 2009. Lab analyses were carried from 2009 to 2011</para>
+<para>The Gutianshan National Nature Reserve (NNR) is located in the western part of Zhejiang Province (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Fig. 1).  The Gutianshan NNR has an area of approximately 81 km2. From 27 comparative study plots (CSPs) soil samples were taken horizonwise from 1 soil profile per CSP</para>
+
+</description>
+</studyExtent>
+<samplingDescription>
+<para>Soil profiles are located directly adjacent to the CSPs.  Samples were taken horizonwise from soil profiles: 1 sample per horizon. So that samples exist according to the soil profile description per CSP (field 60 in the soil profile description sheets). samples were air-dried, sieved &lt; 2mm, ground using a ball mill, using around 40 mg for measurement with vario EL III (Elementar)</para>
+<para>pH (KCl) is the maximum potential acidity under current soil conditions, pH (H2O) is the current acidity</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/150</entityName>
+<entityDescription>CSPs: Soil CNS and pH analyses of horizonswise from soil profiles of Comparative Study Plots</entityDescription>
+<physical>
+<objectName>/datasets/150</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/150/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='lab_num'>
+<attributeName>Laboratory number of Laboratory of Soil Science and Geoecology in Tübingen (lab_num), dimensionless</attributeName>
+<attributeLabel>lab_num</attributeLabel>
+<attributeDefinition>Laboratory number laboratory Scholten, Kühn, Tübingen. (lab_num: laboratory number of laboratory of soil science and geoecology in Tübingen)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Laboratory number laboratory Scholten, Kühn, Tübingen.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Laboratory number of Laboratory of Soil Science and Geoecology in Tübingen</para>
+<para>Laboratory number laboratory Scholten, Kühn, Tübingen.</para>
+<para>laboratory number of laboratory of soil science and geoecology in Tübingen</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP'>
+<attributeName>BEF research plot name (CSP), dimensionless</attributeName>
+<attributeLabel>CSP</attributeLabel>
+<attributeDefinition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province) (CSP: name of the CSP in the Nature ReserveBEF research plot nameReasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>BEF research plot name</para>
+<para>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) and B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) or Site B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06&#39;20.2&quot;N 117°55&#39;12.1&quot;E, Jiangxi Province)</para>
+<para>name of the CSP in the Nature ReserveBEF research plot nameReasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='sample_num'>
+<attributeName>Helper (sample_num), dimensionless</attributeName>
+<attributeLabel>sample_num</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (sample_num: field name of the sample)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>field name of the sample</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='depth_lb'>
+<attributeName>Soil depth (depth_lb), cm</attributeName>
+<attributeLabel>depth_lb</attributeLabel>
+<attributeDefinition>Incremental soil depth as opposed to soil horizon, where each horizon could be of differen depth. (depth_lb: depth (lower boundary) of soil horizon)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil depth</para>
+<para>Incremental soil depth as opposed to soil horizon, where each horizon could be of differen depth.</para>
+<para>depth (lower boundary) of soil horizon</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='pH_H2O'>
+<attributeName>pH value (pH_H2O), pH</attributeName>
+<attributeLabel>pH_H2O</attributeLabel>
+<attributeDefinition>In case of H2O: samples were air-dried, sieved &lt; 2mm, solutionH20 : soil = 2.5:1 -- in case of KCL: samples were air-dried, sieved &lt; 2mm, solutionKCL : soil = 2.5:1; pH (KCl) is the maximum potential acidity under the present soil conditions, pH (H2O) is the current acidity; pH (KCl) is the maximum potential acidity under the present soil conditions, pH (H2O) is the current acidity (pH_H2O: pH value, mean from two values determined by H20 method. solutionH20 : soil = 2.5:1 )</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>pH value</para>
+<para>In case of H2O: samples were air-dried, sieved &lt; 2mm, solutionH20 : soil = 2.5:1 -- in case of KCL: samples were air-dried, sieved &lt; 2mm, solutionKCL : soil = 2.5:1; pH (KCl) is the maximum potential acidity under the present soil conditions, pH (H2O) is the current acidity; pH (KCl) is the maximum potential acidity under the present soil conditions, pH (H2O) is the current acidity</para>
+<para>pH value, mean from two values determined by H20 method. solutionH20 : soil = 2.5:1 </para>
+</description>
+<instrumentation>electrodes Sentix 81 and WTW pH-meter</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='pH_KCl'>
+<attributeName>pH value (pH_KCl), pH</attributeName>
+<attributeLabel>pH_KCl</attributeLabel>
+<attributeDefinition>In case of H2O: samples were air-dried, sieved &lt; 2mm, solutionH20 : soil = 2.5:1 -- in case of KCL: samples were air-dried, sieved &lt; 2mm, solutionKCL : soil = 2.5:1; pH (KCl) is the maximum potential acidity under the present soil conditions, pH (H2O) is the current acidity; pH (KCl) is the maximum potential acidity under the present soil conditions, pH (H2O) is the current acidity (pH_KCl: pH value, mean from two values determined in 1 M KCL )</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>pH value</para>
+<para>In case of H2O: samples were air-dried, sieved &lt; 2mm, solutionH20 : soil = 2.5:1 -- in case of KCL: samples were air-dried, sieved &lt; 2mm, solutionKCL : soil = 2.5:1; pH (KCl) is the maximum potential acidity under the present soil conditions, pH (H2O) is the current acidity; pH (KCl) is the maximum potential acidity under the present soil conditions, pH (H2O) is the current acidity</para>
+<para>pH value, mean from two values determined in 1 M KCL </para>
+</description>
+<instrumentation>electrodes Sentix 81 and WTW pH-meter</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='N_t'>
+<attributeName>Nitrogen (N_t), Mass-%</attributeName>
+<attributeLabel>N_t</attributeLabel>
+<attributeDefinition>Nitrogen concentration (N_t: total organic nitrogen content)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Nitrogen</para>
+<para>Nitrogen concentration</para>
+<para>total organic nitrogen content</para>
+</description>
+<instrumentation>Elemental Analyzer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='C_t'>
+<attributeName>Carbon (C_t), Mass-%</attributeName>
+<attributeLabel>C_t</attributeLabel>
+<attributeDefinition>measurements of Carbon such as concentrations, pools, amount (C_t: total soil organic carbon content)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Carbon</para>
+<para>measurements of Carbon such as concentrations, pools, amount</para>
+<para>total soil organic carbon content</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='S_t'>
+<attributeName>Sulphur (S_t), Mass-%</attributeName>
+<attributeLabel>S_t</attributeLabel>
+<attributeDefinition>S content: samples were air-dried, sieved &lt; 2mm, ground using a ball mill, using around 40 mg for measurements with vario EL III (Elementar) (S_t: total sulphur content)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Sulphur</para>
+<para>S content: samples were air-dried, sieved &lt; 2mm, ground using a ball mill, using around 40 mg for measurements with vario EL III (Elementar)</para>
+<para>total sulphur content</para>
+</description>
+<instrumentation>heat combustion and thermal conductivity detection using a CNS-Elementar analyser, varioEL III from Elementar</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='C_N'>
+<attributeName>Carbon Nitrogen ratio (C_N), ratio</attributeName>
+<attributeLabel>C_N</attributeLabel>
+<attributeDefinition>Carbon Nitrogen ratio (C_N: ratio organic carbon/organic nitrogen)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Carbon Nitrogen ratio</para>
+<para>Carbon Nitrogen ratio</para>
+<para>ratio organic carbon/organic nitrogen</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>114</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

@@ -1,0 +1,703 @@
+<md:MetaData xmlns:md="http://www.pangaea.de/MetaData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ws.pangaea.de/schemas/pangaea/MetaData.xsd" version="2019-02-13">
+<md:citation id="dataset899962" >
+<md:author id="dataset.author10420" >
+<md:lastName>Neuber</md:lastName>
+<md:firstName>Roland</md:firstName>
+<md:eMail>roland.neuber@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/roland-neuber.html</md:URI>
+<md:orcid>0000-0001-7382-7832</md:orcid>
+</md:author>
+<md:author id="dataset.author53617" >
+<md:lastName>Schmidt</md:lastName>
+<md:firstName>Lukas Valentin</md:firstName>
+<md:eMail>lukas.schmidt@awi.de</md:eMail>
+</md:author>
+<md:author id="dataset.author56485" >
+<md:lastName>Ritter</md:lastName>
+<md:firstName>Christoph</md:firstName>
+<md:eMail>Christoph.Ritter@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/christoph-ritter.html</md:URI>
+</md:author>
+<md:author id="dataset.author64870" >
+<md:lastName>Mech</md:lastName>
+<md:firstName>Mario</md:firstName>
+</md:author>
+<md:year>2019</md:year>
+<md:title>Cloud top altitudes observed with airborne lidar during the ACLOUD campaign</md:title>
+<md:source id="dataset.sourceinst33" >Alfred Wegener Institute - Research Unit Potsdam</md:source>
+<md:URI>https://doi.org/10.1594/PANGAEA.899962</md:URI>
+<md:dateTime>2019-04-03T08:43:28</md:dateTime>
+</md:citation>
+<md:abstract>During the ACLOUD (Arctic CLoud Observations Using airborne measurements during polar Day) campaign conducted in May / June 2017, the Airborne Mobile Aerosol Lidar (AMALi) was used to measure the cloud top altitude of clouds below the aircraft Polar 5. The data set provides cloud top altitude along the flight tracks of 14 flights performed by the Polar 5 aircraft in 5 Hz resolution.</md:abstract>
+<md:reference id="refds902603" relationType="Related to" relationTypeId="12" >
+<md:author id="refds902603.author34559" >
+<md:lastName>Ehrlich</md:lastName>
+<md:firstName>André</md:firstName>
+<md:eMail>a.ehrlich@uni-leipzig.de</md:eMail>
+<md:orcid>0000-0003-0860-8216</md:orcid>
+</md:author>
+<md:author id="refds902603.author53483" >
+<md:lastName>Wendisch</md:lastName>
+<md:firstName>Manfred</md:firstName>
+<md:eMail>m.wendisch@uni-leipzig.de</md:eMail>
+<md:URI>http://www.uni-leipzig.de/~meteo/en/wendisch/index.php</md:URI>
+<md:orcid>0000-0002-4652-5561</md:orcid>
+</md:author>
+<md:author id="refds902603.author24526" >
+<md:lastName>Lüpkes</md:lastName>
+<md:firstName>Christof</md:firstName>
+<md:eMail>Christof.Luepkes@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/christof-luepkes.html</md:URI>
+<md:orcid>0000-0001-6518-0717</md:orcid>
+</md:author>
+<md:author id="refds902603.author46802" >
+<md:lastName>Buschmann</md:lastName>
+<md:firstName>Matthias</md:firstName>
+<md:eMail>m_buschmann@iup.physik.uni-bremen.de</md:eMail>
+<md:URI>http://www.earth-system-science.org/de/members/students/phd_students_class_ii/matthias_buschmann/</md:URI>
+<md:orcid>0000-0001-5077-9524</md:orcid>
+</md:author>
+<md:author id="refds902603.author65695" >
+<md:lastName>Bozem</md:lastName>
+<md:firstName>Heiko</md:firstName>
+<md:eMail>bozemh@uni-mainz.de</md:eMail>
+</md:author>
+<md:author id="refds902603.author68272" >
+<md:lastName>Chechin</md:lastName>
+<md:firstName>Dmitry</md:firstName>
+</md:author>
+<md:author id="refds902603.author68275" >
+<md:lastName>Clemen</md:lastName>
+<md:firstName>Hans-Christian</md:firstName>
+</md:author>
+<md:author id="refds902603.author68277" >
+<md:lastName>Dupuy</md:lastName>
+<md:firstName>Regis</md:firstName>
+<md:eMail>r.dupuy@opgc.cnrs.fr</md:eMail>
+<md:orcid>0000-0001-5908-0699</md:orcid>
+</md:author>
+<md:author id="refds902603.author68280" >
+<md:lastName>Eppers</md:lastName>
+<md:firstName>Oliver</md:firstName>
+<md:orcid>0000-0001-9487-4603</md:orcid>
+</md:author>
+<md:author id="refds902603.author24514" >
+<md:lastName>Hartmann</md:lastName>
+<md:firstName>Jörg</md:firstName>
+<md:eMail>Jorg.Hartmann@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/joerg-hartmann.html</md:URI>
+<md:orcid>0000-0001-5204-4652</md:orcid>
+</md:author>
+<md:author id="refds902603.author30608" >
+<md:lastName>Herber</md:lastName>
+<md:firstName>Andreas</md:firstName>
+<md:eMail>andreas.herber@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/andreas-herber.html</md:URI>
+<md:orcid>0000-0001-6651-3835</md:orcid>
+</md:author>
+<md:author id="refds902603.author61522" >
+<md:lastName>Jäkel</md:lastName>
+<md:firstName>Evelyn</md:firstName>
+<md:eMail>evi.jaekel@uni-leipzig.de</md:eMail>
+</md:author>
+<md:author id="refds902603.author68287" >
+<md:lastName>Järvinen</md:lastName>
+<md:firstName>Emma</md:firstName>
+<md:eMail>jarvinen@ucar.edu</md:eMail>
+<md:orcid>0000-0001-5171-1759</md:orcid>
+</md:author>
+<md:author id="refds902603.author68288" >
+<md:lastName>Jourdan</md:lastName>
+<md:firstName>Olivier</md:firstName>
+</md:author>
+<md:author id="refds902603.author68289" >
+<md:lastName>Kästner</md:lastName>
+<md:firstName>Udo</md:firstName>
+</md:author>
+<md:author id="refds902603.author68544" >
+<md:lastName>Kliesch</md:lastName>
+<md:firstName>Leif-Leonard</md:firstName>
+<md:eMail>l.kliesch@uni-koeln.de</md:eMail>
+<md:orcid>0000-0002-6474-571X</md:orcid>
+</md:author>
+<md:author id="refds902603.author68292" >
+<md:lastName>Köllner</md:lastName>
+<md:firstName>Franziska</md:firstName>
+<md:orcid>0000-0002-4967-5514</md:orcid>
+</md:author>
+<md:author id="refds902603.author64870" >
+<md:lastName>Mech</md:lastName>
+<md:firstName>Mario</md:firstName>
+</md:author>
+<md:author id="refds902603.author42645" >
+<md:lastName>Mertes</md:lastName>
+<md:firstName>Stephan</md:firstName>
+<md:eMail>mertes@tropos.de</md:eMail>
+</md:author>
+<md:author id="refds902603.author10420" >
+<md:lastName>Neuber</md:lastName>
+<md:firstName>Roland</md:firstName>
+<md:eMail>roland.neuber@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/roland-neuber.html</md:URI>
+<md:orcid>0000-0001-7382-7832</md:orcid>
+</md:author>
+<md:author id="refds902603.author68299" >
+<md:lastName>Ruiz-Donoso</md:lastName>
+<md:firstName>Elena</md:firstName>
+<md:eMail>elena.ruiz_donoso@uni-leipzig.de</md:eMail>
+</md:author>
+<md:author id="refds902603.author68301" >
+<md:lastName>Schnaiter</md:lastName>
+<md:firstName>Martin</md:firstName>
+<md:eMail>martin.schnaiter@kit.edu</md:eMail>
+<md:orcid>0000-0002-9560-8072</md:orcid>
+</md:author>
+<md:author id="refds902603.author68302" >
+<md:lastName>Schneider</md:lastName>
+<md:firstName>Johannes</md:firstName>
+<md:eMail>johannes.schneider@mpic.de</md:eMail>
+</md:author>
+<md:author id="refds902603.author68306" >
+<md:lastName>Stapf</md:lastName>
+<md:firstName>Johannes</md:firstName>
+</md:author>
+<md:author id="refds902603.author68308" >
+<md:lastName>Zanatta</md:lastName>
+<md:firstName>Marco</md:firstName>
+<md:eMail>marco.zanatta@awi.de</md:eMail>
+<md:orcid>0000-0002-7711-6808</md:orcid>
+</md:author>
+<md:year>2019</md:year>
+<md:title>Collection of data sources for the Arctic CLoud Observations Using airborne measurements during polar Day (ACLOUD) campaign, North-West of Svalbard between 23 May - 26 June 2017</md:title>
+<md:URI>https://doi.org/10.1594/PANGAEA.902603</md:URI>
+</md:reference>
+<md:reference id="ref98853" relationType="Related to" relationTypeId="12" >
+<md:author id="ref98853.author53483" >
+<md:lastName>Wendisch</md:lastName>
+<md:firstName>Manfred</md:firstName>
+<md:eMail>m.wendisch@uni-leipzig.de</md:eMail>
+<md:URI>http://www.uni-leipzig.de/~meteo/en/wendisch/index.php</md:URI>
+<md:orcid>0000-0002-4652-5561</md:orcid>
+</md:author>
+<md:author id="ref98853.author30203" >
+<md:lastName>Macke</md:lastName>
+<md:firstName>Andreas</md:firstName>
+<md:eMail>andreas.macke@tropos.de</md:eMail>
+</md:author>
+<md:author id="ref98853.author34559" >
+<md:lastName>Ehrlich</md:lastName>
+<md:firstName>André</md:firstName>
+<md:eMail>a.ehrlich@uni-leipzig.de</md:eMail>
+<md:orcid>0000-0003-0860-8216</md:orcid>
+</md:author>
+<md:author id="ref98853.author24526" >
+<md:lastName>Lüpkes</md:lastName>
+<md:firstName>Christof</md:firstName>
+<md:eMail>Christof.Luepkes@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/christof-luepkes.html</md:URI>
+<md:orcid>0000-0001-6518-0717</md:orcid>
+</md:author>
+<md:author id="ref98853.author64870" >
+<md:lastName>Mech</md:lastName>
+<md:firstName>Mario</md:firstName>
+</md:author>
+<md:author id="ref98853.author68272" >
+<md:lastName>Chechin</md:lastName>
+<md:firstName>Dmitry</md:firstName>
+</md:author>
+<md:author id="ref98853.author10416" >
+<md:lastName>Dethloff</md:lastName>
+<md:firstName>Klaus</md:firstName>
+<md:eMail>klaus.dethloff@awi.de</md:eMail>
+</md:author>
+<md:author id="ref98853.author68273" >
+<md:lastName>Barientos</md:lastName>
+<md:firstName>Carola</md:firstName>
+</md:author>
+<md:author id="ref98853.author65695" >
+<md:lastName>Bozem</md:lastName>
+<md:firstName>Heiko</md:firstName>
+<md:eMail>bozemh@uni-mainz.de</md:eMail>
+</md:author>
+<md:author id="ref98853.author53482" >
+<md:lastName>Brückner</md:lastName>
+<md:firstName>Marlen</md:firstName>
+<md:eMail>mbrueck@rz.uni-leipzig.de</md:eMail>
+</md:author>
+<md:author id="ref98853.author68275" >
+<md:lastName>Clemen</md:lastName>
+<md:firstName>Hans-Christian</md:firstName>
+</md:author>
+<md:author id="ref98853.author64869" >
+<md:lastName>Crewell</md:lastName>
+<md:firstName>Susanne</md:firstName>
+<md:orcid>0000-0003-1251-5805</md:orcid>
+</md:author>
+<md:author id="ref98853.author68276" >
+<md:lastName>Donth</md:lastName>
+<md:firstName>Tobias</md:firstName>
+</md:author>
+<md:author id="ref98853.author68277" >
+<md:lastName>Dupuy</md:lastName>
+<md:firstName>Regis</md:firstName>
+<md:eMail>r.dupuy@opgc.cnrs.fr</md:eMail>
+<md:orcid>0000-0001-5908-0699</md:orcid>
+</md:author>
+<md:author id="ref98853.author66402" >
+<md:lastName>Ebell</md:lastName>
+<md:firstName>Kerstin</md:firstName>
+<md:eMail>kebell@meteo.uni-koeln.de</md:eMail>
+<md:orcid>0000-0002-0042-4968</md:orcid>
+</md:author>
+<md:author id="ref98853.author68278" >
+<md:lastName>Egerer</md:lastName>
+<md:firstName>Ulrike</md:firstName>
+<md:eMail>egerer@tropos.de</md:eMail>
+<md:orcid>0000-0001-6107-612X</md:orcid>
+</md:author>
+<md:author id="ref98853.author50846" >
+<md:lastName>Engelmann</md:lastName>
+<md:firstName>Ronny</md:firstName>
+<md:eMail>ronny.engelmann@tropos.de</md:eMail>
+</md:author>
+<md:author id="ref98853.author68279" >
+<md:lastName>Engler</md:lastName>
+<md:firstName>Christa</md:firstName>
+</md:author>
+<md:author id="ref98853.author68280" >
+<md:lastName>Eppers</md:lastName>
+<md:firstName>Oliver</md:firstName>
+<md:orcid>0000-0001-9487-4603</md:orcid>
+</md:author>
+<md:author id="ref98853.author39914" >
+<md:lastName>Gehrmann</md:lastName>
+<md:firstName>Martin</md:firstName>
+<md:eMail>Martin.Gehrmann@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/martin-gehrmann.html</md:URI>
+</md:author>
+<md:author id="ref98853.author68281" >
+<md:lastName>Gong</md:lastName>
+<md:firstName>Xianda</md:firstName>
+<md:eMail>gong@tropos.de</md:eMail>
+<md:orcid>0000-0001-8886-2905</md:orcid>
+</md:author>
+<md:author id="ref98853.author68282" >
+<md:lastName>Gottschalk</md:lastName>
+<md:firstName>Matthias</md:firstName>
+<md:orcid>0000-0001-9077-519X</md:orcid>
+</md:author>
+<md:author id="ref98853.author68283" >
+<md:lastName>Gourbeyre</md:lastName>
+<md:firstName>Christophe</md:firstName>
+</md:author>
+<md:author id="ref98853.author68284" >
+<md:lastName>Griesche</md:lastName>
+<md:firstName>Hannes</md:firstName>
+<md:eMail>griesche@tropos.de</md:eMail>
+<md:orcid>0000-0001-8696-7359</md:orcid>
+</md:author>
+<md:author id="ref98853.author24514" >
+<md:lastName>Hartmann</md:lastName>
+<md:firstName>Jörg</md:firstName>
+<md:eMail>Jorg.Hartmann@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/joerg-hartmann.html</md:URI>
+<md:orcid>0000-0001-5204-4652</md:orcid>
+</md:author>
+<md:author id="ref98853.author68255" >
+<md:lastName>Hartmann</md:lastName>
+<md:firstName>Markus</md:firstName>
+<md:eMail>hartmannm@tropos.de</md:eMail>
+<md:orcid>0000-0001-9700-1701</md:orcid>
+</md:author>
+<md:author id="ref98853.author68285" >
+<md:lastName>Heinold</md:lastName>
+<md:firstName>Bernd</md:firstName>
+</md:author>
+<md:author id="ref98853.author30608" >
+<md:lastName>Herber</md:lastName>
+<md:firstName>Andreas</md:firstName>
+<md:eMail>andreas.herber@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/andreas-herber.html</md:URI>
+<md:orcid>0000-0001-6651-3835</md:orcid>
+</md:author>
+<md:author id="ref98853.author31021" >
+<md:lastName>Herrmann</md:lastName>
+<md:firstName>Hartmut</md:firstName>
+<md:eMail>hartmut.herrmann@tropos.de</md:eMail>
+<md:orcid>0000-0001-7044-2101</md:orcid>
+</md:author>
+<md:author id="ref98853.author21599" >
+<md:lastName>Heygster</md:lastName>
+<md:firstName>Georg</md:firstName>
+<md:eMail>heygster@physik.uni-bremen.de</md:eMail>
+<md:orcid>0000-0003-2232-7429</md:orcid>
+</md:author>
+<md:author id="ref98853.author36879" >
+<md:lastName>Hoor</md:lastName>
+<md:firstName>Peter</md:firstName>
+</md:author>
+<md:author id="ref98853.author68286" >
+<md:lastName>Jafariserajehlou</md:lastName>
+<md:firstName>Soheila</md:firstName>
+</md:author>
+<md:author id="ref98853.author61522" >
+<md:lastName>Jäkel</md:lastName>
+<md:firstName>Evelyn</md:firstName>
+<md:eMail>evi.jaekel@uni-leipzig.de</md:eMail>
+</md:author>
+<md:author id="ref98853.author68287" >
+<md:lastName>Järvinen</md:lastName>
+<md:firstName>Emma</md:firstName>
+<md:eMail>jarvinen@ucar.edu</md:eMail>
+<md:orcid>0000-0001-5171-1759</md:orcid>
+</md:author>
+<md:author id="ref98853.author68288" >
+<md:lastName>Jourdan</md:lastName>
+<md:firstName>Olivier</md:firstName>
+</md:author>
+<md:author id="ref98853.author68289" >
+<md:lastName>Kästner</md:lastName>
+<md:firstName>Udo</md:firstName>
+</md:author>
+<md:author id="ref98853.author68290" >
+<md:lastName>Kecorius</md:lastName>
+<md:firstName>Simonas</md:firstName>
+</md:author>
+<md:author id="ref98853.author68291" >
+<md:lastName>Knudsen</md:lastName>
+<md:firstName>Erlend M</md:firstName>
+<md:orcid>0000-0002-8984-8846</md:orcid>
+</md:author>
+<md:author id="ref98853.author68292" >
+<md:lastName>Köllner</md:lastName>
+<md:firstName>Franziska</md:firstName>
+<md:orcid>0000-0002-4967-5514</md:orcid>
+</md:author>
+<md:author id="ref98853.author68293" >
+<md:lastName>Kretzschmar</md:lastName>
+<md:firstName>Jan</md:firstName>
+</md:author>
+<md:author id="ref98853.author68294" >
+<md:lastName>Lelli</md:lastName>
+<md:firstName>Luca</md:firstName>
+</md:author>
+<md:author id="ref98853.author68295" >
+<md:lastName>Leroy</md:lastName>
+<md:firstName>Delphine</md:firstName>
+</md:author>
+<md:author id="ref98853.author31988" >
+<md:lastName>Maturilli</md:lastName>
+<md:firstName>Marion</md:firstName>
+<md:eMail>Marion.Maturilli@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/marion-maturilli.html</md:URI>
+<md:orcid>0000-0001-6818-7383</md:orcid>
+</md:author>
+<md:author id="ref98853.author47584" >
+<md:lastName>Mei</md:lastName>
+<md:firstName>Linlu</md:firstName>
+</md:author>
+<md:author id="ref98853.author42645" >
+<md:lastName>Mertes</md:lastName>
+<md:firstName>Stephan</md:firstName>
+<md:eMail>mertes@tropos.de</md:eMail>
+</md:author>
+<md:author id="ref98853.author68296" >
+<md:lastName>Mioche</md:lastName>
+<md:firstName>Guillaume</md:firstName>
+</md:author>
+<md:author id="ref98853.author10420" >
+<md:lastName>Neuber</md:lastName>
+<md:firstName>Roland</md:firstName>
+<md:eMail>roland.neuber@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/roland-neuber.html</md:URI>
+<md:orcid>0000-0001-7382-7832</md:orcid>
+</md:author>
+<md:author id="ref98853.author30475" >
+<md:lastName>Nicolaus</md:lastName>
+<md:firstName>Marcel</md:firstName>
+<md:eMail>marcel.nicolaus@awi.de</md:eMail>
+<md:URI>http://www.awi.de/en/about-us/organisation/staff/marcel-nicolaus.html</md:URI>
+<md:orcid>0000-0003-0903-1746</md:orcid>
+</md:author>
+<md:author id="ref98853.author68092" >
+<md:lastName>Nomokonova</md:lastName>
+<md:firstName>Tatiana</md:firstName>
+</md:author>
+<md:author id="ref98853.author24630" >
+<md:lastName>Notholt</md:lastName>
+<md:firstName>Justus</md:firstName>
+<md:eMail>jnotholt@iup.physik.uni-bremen.de</md:eMail>
+<md:URI>http://www.iup.uni-bremen.de/eng/about/membercvs/jnotholt.html</md:URI>
+<md:orcid>0000-0002-3324-885X</md:orcid>
+</md:author>
+<md:author id="ref98853.author57667" >
+<md:lastName>Palm</md:lastName>
+<md:firstName>Mathias</md:firstName>
+<md:orcid>0000-0001-7191-6911</md:orcid>
+</md:author>
+<md:author id="ref98853.author52348" >
+<md:lastName>van Pinxteren</md:lastName>
+<md:firstName>Manuela</md:firstName>
+<md:eMail>manuela@tropos.de</md:eMail>
+</md:author>
+<md:author id="ref98853.author68297" >
+<md:lastName>Quaas</md:lastName>
+<md:firstName>Johannes</md:firstName>
+<md:orcid>0000-0001-7057-194X</md:orcid>
+</md:author>
+<md:author id="ref98853.author68298" >
+<md:lastName>Richter</md:lastName>
+<md:firstName>Philipp</md:firstName>
+<md:eMail>phi.richter@iup.physik.uni-bremen.de</md:eMail>
+<md:orcid>0000-0003-2935-768X</md:orcid>
+</md:author>
+<md:author id="ref98853.author68299" >
+<md:lastName>Ruiz-Donoso</md:lastName>
+<md:firstName>Elena</md:firstName>
+<md:eMail>elena.ruiz_donoso@uni-leipzig.de</md:eMail>
+</md:author>
+<md:author id="ref98853.author61520" >
+<md:lastName>Schäfer</md:lastName>
+<md:firstName>Michael</md:firstName>
+<md:eMail>michael.schaefer@uni-leipzig.de</md:eMail>
+</md:author>
+<md:author id="ref98853.author68300" >
+<md:lastName>Schmieder</md:lastName>
+<md:firstName>Katja</md:firstName>
+</md:author>
+<md:author id="ref98853.author68301" >
+<md:lastName>Schnaiter</md:lastName>
+<md:firstName>Martin</md:firstName>
+<md:eMail>martin.schnaiter@kit.edu</md:eMail>
+<md:orcid>0000-0002-9560-8072</md:orcid>
+</md:author>
+<md:author id="ref98853.author68302" >
+<md:lastName>Schneider</md:lastName>
+<md:firstName>Johannes</md:firstName>
+<md:eMail>johannes.schneider@mpic.de</md:eMail>
+</md:author>
+<md:author id="ref98853.author68303" >
+<md:lastName>Schwarzenböck</md:lastName>
+<md:firstName>Alfons</md:firstName>
+</md:author>
+<md:author id="ref98853.author68304" >
+<md:lastName>Seifert</md:lastName>
+<md:firstName>Patric</md:firstName>
+<md:orcid>0000-0002-5626-3761</md:orcid>
+</md:author>
+<md:author id="ref98853.author46256" >
+<md:lastName>Shupe</md:lastName>
+<md:firstName>Matthew D</md:firstName>
+</md:author>
+<md:author id="ref98853.author68305" >
+<md:lastName>Siebert</md:lastName>
+<md:firstName>Holger</md:firstName>
+</md:author>
+<md:author id="ref98853.author52094" >
+<md:lastName>Spreen</md:lastName>
+<md:firstName>Gunnar</md:firstName>
+<md:eMail>gunnar.spreen@uni-bremen.de</md:eMail>
+<md:URI>https://seaice.uni-bremen.de/gunnar-spreen/</md:URI>
+<md:orcid>0000-0003-0165-8448</md:orcid>
+</md:author>
+<md:author id="ref98853.author68306" >
+<md:lastName>Stapf</md:lastName>
+<md:firstName>Johannes</md:firstName>
+</md:author>
+<md:author id="ref98853.author64447" >
+<md:lastName>Stratmann</md:lastName>
+<md:firstName>Frank</md:firstName>
+<md:eMail>stratmann@tropos.de</md:eMail>
+</md:author>
+<md:author id="ref98853.author68307" >
+<md:lastName>Vogl</md:lastName>
+<md:firstName>Teresa</md:firstName>
+</md:author>
+<md:author id="ref98853.author64448" >
+<md:lastName>Welti</md:lastName>
+<md:firstName>André</md:firstName>
+<md:eMail>welti@tropos.de</md:eMail>
+</md:author>
+<md:author id="ref98853.author65690" >
+<md:lastName>Wex</md:lastName>
+<md:firstName>Heike</md:firstName>
+<md:orcid>0000-0003-2129-9323</md:orcid>
+</md:author>
+<md:author id="ref98853.author31023" >
+<md:lastName>Wiedensohler</md:lastName>
+<md:firstName>Alfred</md:firstName>
+<md:eMail>alfred.wiedensohler@tropos.de</md:eMail>
+</md:author>
+<md:author id="ref98853.author68308" >
+<md:lastName>Zanatta</md:lastName>
+<md:firstName>Marco</md:firstName>
+<md:eMail>marco.zanatta@awi.de</md:eMail>
+<md:orcid>0000-0002-7711-6808</md:orcid>
+</md:author>
+<md:author id="ref98853.author68309" >
+<md:lastName>Zeppenfeld</md:lastName>
+<md:firstName>Sebastian</md:firstName>
+<md:eMail>zeppenfeld@tropos.de</md:eMail>
+</md:author>
+<md:prepubStatus>accepted</md:prepubStatus>
+<md:title>The Arctic Cloud Puzzle: Using ACLOUD/PASCAL Multi-Platform Observations to Unravel the Role of Clouds and Aerosol Particles in Arctic Amplification</md:title>
+<md:source id="ref98853.journal2773" relatedTermIds="34008" >Bulletin of the American Meteorological Society</md:source>
+<md:URI>https://doi.org/10.1175/BAMS-D-18-0072.1</md:URI>
+</md:reference>
+<md:extent>
+<md:geographic>
+<md:westBoundLongitude>0.0</md:westBoundLongitude>
+<md:eastBoundLongitude>19.45</md:eastBoundLongitude>
+<md:southBoundLatitude>77.817</md:southBoundLatitude>
+<md:northBoundLatitude>82.017</md:northBoundLatitude>
+<md:meanLongitude>10.534550261413685</md:meanLongitude>
+<md:meanLatitude>79.39347115905231</md:meanLatitude>
+</md:geographic>
+<md:temporal>
+<md:minDateTime>2017-05-25T08:43:20</md:minDateTime>
+<md:maxDateTime>2017-06-26T15:00:06</md:maxDateTime>
+</md:temporal>
+<md:topoType id="topotype1" >not specified</md:topoType>
+</md:extent>
+<md:project id="project4230" type="National DFG" >
+<md:label>AC3</md:label>
+<md:name>Arctic Amplification</md:name>
+<md:URI>http://www.ac3-tr.de/</md:URI>
+<md:award id="project4230.award17" >
+<md:funder id="project4230.award17.funder20472" semanticURI="https://doi.org/10.13039/501100001659" >
+<md:name>German Science Foundation</md:name>
+<md:optionalName>DFG</md:optionalName>
+<md:URI>http://www.dfg.de/</md:URI>
+</md:funder>
+<md:number>268020496</md:number>
+<md:subtitle>Climate Relevant Atmospheric and SurfaCe Processes, and Feedback Mechanisms</md:subtitle>
+<md:URI>http://gepris.dfg.de/gepris/projekt/268020496</md:URI>
+</md:award>
+</md:project>
+<md:size unit="datasets" >21</md:size>
+<md:license id="license21" >
+<md:label>CC-BY-4.0</md:label>
+<md:name>Creative Commons Attribution 4.0 International</md:name>
+<md:URI>https://creativecommons.org/licenses/by/4.0/</md:URI>
+</md:license>
+<md:comment>The altitude of the highest detected cloud top between the aircraft Polar 5 and ground is given, based on a temporal data resolution of 5 s and a vertical resolution of 7.5 m. Together with the GPS altitude resolution the overall uncertainty of the cloud top height is estimated to be about ±10 m. For the cloud top detection in the lidar data a simple threshold is applied to the attenuated backscatter variable at 532 nm. For each vertical profile, the first value meeting the threshold criterion is considered a cloud top, if it is followed by at least two more valid values. By this approach artifacts by signal noise are effectively avoided. The distance between the detected cloud top and the aircraft is subtracted from the flight altitude given by the on board GPS receiver. The measured distance is corrected for the roll motions of the aircraft. Cloud top altitudes higher than 100 m below the aircraft and lower than 30 m above the ground are not considered. If no cloud top could be determined for a profile, the cloud top height value is set invalid (empty).</md:comment>
+<md:additionalSearchableContent>Cloud top distance | Cloud top dist | Airborne Mobile Aerosol Lidar (AMALi) | Cloud top height | CTH</md:additionalSearchableContent>
+<md:keywords>
+<md:techKeyword type="autoGenerated" >citable</md:techKeyword>
+<md:keyword id="keywords.term47613" type="fromDatabase" >ACLOUD</md:keyword>
+<md:keyword id="keywords.term48076" type="fromDatabase" >airborne lidar</md:keyword>
+<md:keyword id="keywords.term47408" type="fromDatabase" >clouds</md:keyword>
+<md:keyword id="keywords.term48077" type="fromDatabase" >cloud top altitude</md:keyword>
+<md:techKeyword type="autoGenerated" >method10214</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param125830</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param32571</md:techKeyword>
+<md:techKeyword type="autoGenerated" >pi10420</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author10416</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author10420</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author21599</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author24514</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author24526</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author24630</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author30203</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author30475</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author30608</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author31021</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author31023</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author31988</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author34559</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author36879</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author39914</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author42645</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author46256</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author46802</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author47584</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author50846</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author52094</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author52348</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author53482</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author53483</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author53617</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author56485</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author57667</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author61520</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author61522</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author64447</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author64448</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author64869</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author64870</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author65690</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author65695</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author66402</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68092</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68255</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68272</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68273</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68275</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68276</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68277</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68278</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68279</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68280</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68281</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68282</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68283</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68284</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68285</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68286</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68287</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68288</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68289</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68290</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68291</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68292</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68293</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68294</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68295</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68296</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68297</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68298</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68299</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68300</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68301</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68302</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68303</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68304</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68305</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68306</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68307</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68308</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68309</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68544</md:techKeyword>
+<md:techKeyword type="autoGenerated" >award17</md:techKeyword>
+<md:techKeyword type="autoGenerated" >funder20472</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1599</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1600</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1601</md:techKeyword>
+<md:techKeyword type="autoGenerated" >journal2773</md:techKeyword>
+<md:techKeyword type="autoGenerated" >license21</md:techKeyword>
+<md:techKeyword type="autoGenerated" >project4230</md:techKeyword>
+<md:techKeyword type="autoGenerated" >ref98853</md:techKeyword>
+<md:techKeyword type="autoGenerated" >refds902603</md:techKeyword>
+<md:techKeyword type="autoGenerated" >sourceinst33</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term47408</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term47613</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term48076</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term48077</md:techKeyword>
+<md:techKeyword type="autoGenerated" >topotype1</md:techKeyword>
+</md:keywords>
+<md:technicalInfo>
+<md:entry key="xmlLastModified" value="2019-08-20T08:12:36Z" ></md:entry>
+<md:entry key="filename" value="Neuber-etal_2019" ></md:entry>
+<md:entry key="mimeType" value="application/zip" ></md:entry>
+<md:entry key="status" value="published" ></md:entry>
+<md:entry key="status_num" value="4" ></md:entry>
+<md:entry key="DOIRegistryStatus" value="registered" ></md:entry>
+<md:entry key="DOIRegistryStatus_num" value="4" ></md:entry>
+<md:entry key="hierarchyLevel" value="parent" ></md:entry>
+<md:entry key="collectionType" value="publication series" ></md:entry>
+<md:entry key="collectionType_num" value="4" ></md:entry>
+<md:entry key="collectionChilds" value="D899939,D899940,D899941,D899942,D899943,D899944,D899945,D899946,D899947,D899948,D899949,D899951,D899952,D899953,D899954,D899955,D899956,D899957,D899958,D899959,D899960" ></md:entry>
+<md:entry key="loginOption" value="unrestricted" ></md:entry>
+<md:entry key="loginOption_num" value="1" ></md:entry>
+</md:technicalInfo>
+</md:MetaData> 

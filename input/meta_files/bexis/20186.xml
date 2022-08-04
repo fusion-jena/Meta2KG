@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bgc:metaProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.bgc-jena.mpg.de" xmlns:bgc="http://www.bgc-jena.mpg.de" xsi:schemaLocation="http://www.bgc-jena.mpg.de schema.xsd">
+  <bgc:general bgc:source="mixed">
+    <bgc:id bgc:source="intern">20186</bgc:id>
+    <bgc:versionID bgc:source="intern">2.1.6</bgc:versionID>
+    <bgc:title>Climate Change Manipulation Effects on Biomass, Species Richness, Above- and Below-Ground C- and N-Pools in 15 Grassland Sites in 2008-2010</bgc:title>
+    <bgc:owners>
+      <bgc:owner number="1">Carsten Dormann</bgc:owner>
+    </bgc:owners>
+    <bgc:projectName>ClimateChange</bgc:projectName>
+    <bgc:datasetManager>
+      <bgc:datasetManagerName disabled="disabled">Carsten Dormann</bgc:datasetManagerName>
+      <bgc:institute disabled="disabled">University of Freiburg</bgc:institute>
+      <bgc:email disabled="disabled">carsten.dormann@biom.uni-freiburg.de</bgc:email>
+    </bgc:datasetManager>
+  </bgc:general>
+  <bgc:researchObjects>
+    <bgc:approxNumberOfPlots>
+      <bgc:noOfGP>15</bgc:noOfGP>
+      <bgc:noOfEP>15</bgc:noOfEP>
+      <bgc:noOfMIP>9</bgc:noOfMIP>
+      <bgc:noOfVIP>6</bgc:noOfVIP>
+    </bgc:approxNumberOfPlots>
+    <bgc:habitats>
+      <bgc:grassland>yes</bgc:grassland>
+      <bgc:forest>no</bgc:forest>
+    </bgc:habitats>
+    <bgc:experimentalManipulation>yes</bgc:experimentalManipulation>
+    <bgc:relativePositionToGround>
+      <bgc:aboveGround>yes</bgc:aboveGround>
+      <bgc:belowGround>yes</bgc:belowGround>
+    </bgc:relativePositionToGround>
+    <bgc:repeatedMeasurement>
+      <bgc:timeBasedRepetition>
+        <bgc:numberOfRepetitions>2</bgc:numberOfRepetitions>
+      </bgc:timeBasedRepetition>
+      <bgc:plotBasedRepetition>
+        <bgc:numberOfSubPlots>0</bgc:numberOfSubPlots>
+      </bgc:plotBasedRepetition>
+    </bgc:repeatedMeasurement>
+    <bgc:taxa>
+      <bgc:taxon number="1">Plants</bgc:taxon>
+    </bgc:taxa>
+    <bgc:processesAndServices>
+      <bgc:processOrService number="1">Biogeochemical Cycle - Carbon</bgc:processOrService>
+      <bgc:processOrService number="2">Biogeochemical Cycle - Nitrogen</bgc:processOrService>
+      <bgc:processOrService number="3">Decomposition</bgc:processOrService>
+      <bgc:processOrService number="4">Productivity</bgc:processOrService>
+    </bgc:processesAndServices>
+    <bgc:environmentalDescriptors>
+      <bgc:environmentalDescriptor number="1">Climate</bgc:environmentalDescriptor>
+    </bgc:environmentalDescriptors>
+    <bgc:bioticDataTypes>
+      <bgc:bioticDataType number="1">Multiple Species</bgc:bioticDataType>
+    </bgc:bioticDataTypes>
+  </bgc:researchObjects>
+  <bgc:methodology blockPublic="no">
+    <bgc:introduction input="textarea">Experimental manipulations took place in 2008/2009 and 2009/2010, from the middle of June until the end of July in 2008 and 2009 for the simulated drought treatment and from end of February till end of March in 2009 and 2010 for simulation of increased spring temperat­ures. Our manipulations thus implicitly include carry-over effects of drought on the spring treatment the following year. Treatments are representing projected qualitative changes in summer drought duration and concurrent changes of the length of the vegetation period. Their length is based on interannual variability of the onset of spring (approximately 4 weeks after begin of snow melt in late February) and length of drought in summer (maximally 6 weeks). We left the rain shelter in place until there were cumulatively three weeks of rainfall withheld from the treatment (monitoring the closest German weather service stations for guidance). Thus, all treatments are within the variability witnessed in the region, but aim at representing earlier season and prolonged drought. Constructions were removed when no treatment was applied, but the plot was fenced off for the entire vegetation period. The entire plot was mown in summer after biomass harvest (see below).</bgc:introduction>
+    <bgc:measurements>
+      <bgc:theory input="textarea">Each plot was divided in two subplots, one for the manipulation, the other as control.  Open-top chambers (OTCs) are commonly used to raise the temperature in climate change experiments with minor effects on gas exchange and ambient precipitation (Hollister and Webber 2000). To increase temperature in early spring, we placed OTCs (2 × 3 m and 1.4 m height) on each treatment subplot. The OTCs were constructed from four PVC tube arches, which supported the 0.2 mm thick greenhouse plastic sheet (UV 5 Coex-foil made of ethylene vinyl acet­ate copolymers, Folitec Agrarfolien-Vertriebs GmbH, Westerburg, Germany) up to a height of 1.2 m (see Marion et al. 1997 Fig. 1D for a similar design). Soil temperature (10 cm depth) and air temperature (10 cm height) were recorded every half an hour by aluminium-foil-shielded temperature sensors (Thermo­chron iButton, Maxim Integrated Products Inc., Sunnyvale, CA, USA).
+For the drought manipulation the same treatment plots were covered by rain shelters con­structed from the same construction as the OTCs, but using the greenhouse foil as a top cover. Air was thus allowed to freely circulate underneath the roof. The air temperature was again recorded by temperature sensors every 30 minutes at a height of 10 cm. Soil moisture during the drought experiment was measured every 30 minutes in a depth of 10 cm by a moisture sensor (ECH2O, type EC-5, Decagon Devices Inc., Pullman, USA) and recorded by a data logger (Em5b, Decagon Devices, Pullman, WA, USA). In spring, no soil moisture measurements were possible because sensors were removed from the soil over winter and could not be re-inserted into the frozen ground until later in the season.
+Open-top chambers increased spring temperature by 0.5°C in the air and 0.35°C in the soil, in a period of absolute temperatures between –5°C at night and 15-20°C during the day. In summer, rain shelters had a warming effect as pronounced as in spring, but at much higher overall temperatures (12-35°C). Soil moisture during this period was reduced under the shelter by 8 to 20%vol., with substantial differences between exploratories. In all sites, soil moisture in the control plots averaged to 30-40%vol., but soil moisture was most affected by drought treatment in the Swabian Alp. 
+</bgc:theory>
+      <bgc:type input="textarea">To assess decomposition, we prepared litterbags (2 g of litter per bag) with exploratory-specific litter (i.e. collected in plots of the exploratory in which they were then deployed). The litter was collected in autumn 2008 on the 15 experimental plots in each exploratory. Additionally, we used maize roots (collected on a maize field in autumn 2008) as standard root litter for all sites. Our set-up thus comprised above- and belowground litter. In each subplot, we inserted four litterbags into a vertical slit in the ground, making the litter bags flush with the ground. We collected two litterbags immediately after the spring warming simulation (i.e. after 30 days in the ground in 2009, above-ground litter only) and again one month later (i.e. after 65 days, above-ground litter only). We repeated the set-up for aboveground litter during the summer drought experiment (for 40 and 120 days). Litterbags were cleaned, opened, the content washed and dried and then weighed. For litter samples we measured litter chemistry: C- and N-content were measured using elemental analysis (see above); lignin and fibre content (neutrally and acid detergent fibre, NDF and ADF, respectively) were measured through Near InfraRed Spectroscopy (NIRS; Spectra Star 2400, Unity Scientific, Columbia, MD, USA; for details on this approach see Kleinebecker et al. 2009). For seven samples lignin and fibre content could not be measured because too little material remained after C-N-analysis (4 from Hainich, 3 from Schorfheide-Chorin, but scattered across treatments, seasons and land uses).  </bgc:type>
+    </bgc:measurements>
+    <bgc:equipment>
+      <bgc:instruments input="textarea">None</bgc:instruments>
+      <bgc:calibration input="textarea">None</bgc:calibration>
+      <bgc:procedures input="textarea">None</bgc:procedures>
+    </bgc:equipment>
+  </bgc:methodology>
+  <bgc:description>
+    <bgc:acronyms>
+      <bgc:acronymPair number="1">
+        <bgc:acronym number="1" />
+        <bgc:meaning number="1" />
+      </bgc:acronymPair>
+    </bgc:acronyms>
+    <bgc:keywords>
+      <bgc:keyword number="1">climate change</bgc:keyword>
+      <bgc:keyword number="2">species richness</bgc:keyword>
+      <bgc:keyword number="3">aboveground biomass</bgc:keyword>
+      <bgc:keyword number="4">functional groups</bgc:keyword>
+    </bgc:keywords>
+  </bgc:description>
+  <bgc:time>
+    <bgc:when timeType="period" xsi:type="bgc:dateFrame">
+      <bgc:format>dd-MM-yyyy</bgc:format>
+      <bgc:startDate>15-06-2008</bgc:startDate>
+      <bgc:endDate>31-03-2010</bgc:endDate>
+    </bgc:when>
+    <bgc:dateEntry bgc:source="intern">2016-05-17</bgc:dateEntry>
+    <bgc:dateLastModified bgc:source="intern">2017-03-10</bgc:dateLastModified>
+  </bgc:time>
+  <bgc:data>
+    <bgc:fileType>structuredData</bgc:fileType>
+    <bgc:manipulations input="textarea" />
+    <bgc:errors />
+    <bgc:qualityLevel>raw</bgc:qualityLevel>
+    <bgc:dataStatus>complete</bgc:dataStatus>
+    <bgc:dataStructure>
+      <bgc:dataFormat>
+        <bgc:missingValues />
+        <bgc:NA />
+      </bgc:dataFormat>
+      <bgc:matrix>
+        <bgc:columnName />
+        <bgc:rowName />
+        <bgc:contentType>alphanumeric</bgc:contentType>
+        <bgc:matrixUnit />
+      </bgc:matrix>
+      <bgc:variables>
+        <bgc:variable number="1">
+          <bgc:name number="1">Explo</bgc:name>
+          <bgc:typeOfVariable number="1">character(16)</bgc:typeOfVariable>
+          <bgc:units number="1" />
+          <bgc:description number="1">A:schwäbische Alb	H:Hainich	S:Schorfheide</bgc:description>
+          <bgc:block number="1">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="2">
+          <bgc:name number="2">Plot_ID</bgc:name>
+          <bgc:typeOfVariable number="2">alphanumeric</bgc:typeOfVariable>
+          <bgc:units number="2" />
+          <bgc:description number="2" />
+          <bgc:block number="2">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="3">
+          <bgc:name number="3">Treatment</bgc:name>
+          <bgc:typeOfVariable number="3">character(16)</bgc:typeOfVariable>
+          <bgc:units number="3" />
+          <bgc:description number="3">E:Experiment	K:Control</bgc:description>
+          <bgc:block number="3">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="4">
+          <bgc:name number="4">Year</bgc:name>
+          <bgc:typeOfVariable number="4">realNumber</bgc:typeOfVariable>
+          <bgc:units number="4" />
+          <bgc:description number="4" />
+          <bgc:block number="4">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="5">
+          <bgc:name number="5">ID</bgc:name>
+          <bgc:typeOfVariable number="5">alphanumeric</bgc:typeOfVariable>
+          <bgc:units number="5" />
+          <bgc:description number="5" />
+          <bgc:block number="5">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="6">
+          <bgc:name number="6">LUT</bgc:name>
+          <bgc:typeOfVariable number="6">character(16)</bgc:typeOfVariable>
+          <bgc:units number="6" />
+          <bgc:description number="6">Land Use Type	M:Meadow	MP:MownPasture	P:Pasture	C:Cattle	H:Horse	S:Sheep</bgc:description>
+          <bgc:block number="6">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="7">
+          <bgc:name number="7">Fertil</bgc:name>
+          <bgc:typeOfVariable number="7">character(16)</bgc:typeOfVariable>
+          <bgc:units number="7" />
+          <bgc:description number="7">Fertilized	yes:f/no:u	no:u</bgc:description>
+          <bgc:block number="7">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="8">
+          <bgc:name number="8">Soiltype</bgc:name>
+          <bgc:typeOfVariable number="8">character(16)</bgc:typeOfVariable>
+          <bgc:units number="8" />
+          <bgc:description number="8" />
+          <bgc:block number="8">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="9">
+          <bgc:name number="9">Artenzahl</bgc:name>
+          <bgc:typeOfVariable number="9">realNumber</bgc:typeOfVariable>
+          <bgc:units number="9" />
+          <bgc:description number="9">Number of species</bgc:description>
+          <bgc:block number="9">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="10">
+          <bgc:name number="10">D_B_Biomass</bgc:name>
+          <bgc:typeOfVariable number="10">realNumber</bgc:typeOfVariable>
+          <bgc:units number="10">g/m²</bgc:units>
+          <bgc:description number="10">D:Drought (Summer)	B:Before Experiment	Total Biomass</bgc:description>
+          <bgc:block number="10">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="11">
+          <bgc:name number="11">D_B_BM_G</bgc:name>
+          <bgc:typeOfVariable number="11">realNumber</bgc:typeOfVariable>
+          <bgc:units number="11">g/m²</bgc:units>
+          <bgc:description number="11">BM: Biomass	G:Grases</bgc:description>
+          <bgc:block number="11">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="12">
+          <bgc:name number="12">D_B_BM_L</bgc:name>
+          <bgc:typeOfVariable number="12">realNumber</bgc:typeOfVariable>
+          <bgc:units number="12">g/m²</bgc:units>
+          <bgc:description number="12">L:Legumes</bgc:description>
+          <bgc:block number="12">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="13">
+          <bgc:name number="13">D_B_BM_K</bgc:name>
+          <bgc:typeOfVariable number="13">realNumber</bgc:typeOfVariable>
+          <bgc:units number="13">g/m²</bgc:units>
+          <bgc:description number="13">K:Herbs</bgc:description>
+          <bgc:block number="13">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="14">
+          <bgc:name number="14">D_A_Biomass</bgc:name>
+          <bgc:typeOfVariable number="14">realNumber</bgc:typeOfVariable>
+          <bgc:units number="14">g/m²</bgc:units>
+          <bgc:description number="14">A:After Experiment</bgc:description>
+          <bgc:block number="14">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="15">
+          <bgc:name number="15">D_A_BM_G</bgc:name>
+          <bgc:typeOfVariable number="15">realNumber</bgc:typeOfVariable>
+          <bgc:units number="15">g/m²</bgc:units>
+          <bgc:description number="15" />
+          <bgc:block number="15">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="16">
+          <bgc:name number="16">D_A_BM_L</bgc:name>
+          <bgc:typeOfVariable number="16">realNumber</bgc:typeOfVariable>
+          <bgc:units number="16">g/m²</bgc:units>
+          <bgc:description number="16" />
+          <bgc:block number="16">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="17">
+          <bgc:name number="17">D_A_BM_K</bgc:name>
+          <bgc:typeOfVariable number="17">realNumber</bgc:typeOfVariable>
+          <bgc:units number="17">g/m²</bgc:units>
+          <bgc:description number="17" />
+          <bgc:block number="17">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="18">
+          <bgc:name number="18">D_A_BM_N</bgc:name>
+          <bgc:typeOfVariable number="18">realNumber</bgc:typeOfVariable>
+          <bgc:units number="18">g/m²</bgc:units>
+          <bgc:description number="18">N:Necromass</bgc:description>
+          <bgc:block number="18">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="19">
+          <bgc:name number="19">D_Roots</bgc:name>
+          <bgc:typeOfVariable number="19">realNumber</bgc:typeOfVariable>
+          <bgc:units number="19">g/m²</bgc:units>
+          <bgc:description number="19">Rootmass</bgc:description>
+          <bgc:block number="19">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="20">
+          <bgc:name number="20">T_A_Biomass</bgc:name>
+          <bgc:typeOfVariable number="20">realNumber</bgc:typeOfVariable>
+          <bgc:units number="20">g/m²</bgc:units>
+          <bgc:description number="20">T:Temperature(Spring)</bgc:description>
+          <bgc:block number="20">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="21">
+          <bgc:name number="21">T_A_BM_G</bgc:name>
+          <bgc:typeOfVariable number="21">realNumber</bgc:typeOfVariable>
+          <bgc:units number="21">g/m²</bgc:units>
+          <bgc:description number="21" />
+          <bgc:block number="21">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="22">
+          <bgc:name number="22">T_A_BM_L</bgc:name>
+          <bgc:typeOfVariable number="22">realNumber</bgc:typeOfVariable>
+          <bgc:units number="22">g/m²</bgc:units>
+          <bgc:description number="22" />
+          <bgc:block number="22">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="23">
+          <bgc:name number="23">T_A_BM_K</bgc:name>
+          <bgc:typeOfVariable number="23">realNumber</bgc:typeOfVariable>
+          <bgc:units number="23">g/m²</bgc:units>
+          <bgc:description number="23" />
+          <bgc:block number="23">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="24">
+          <bgc:name number="24">T_A_BM_N</bgc:name>
+          <bgc:typeOfVariable number="24">realNumber</bgc:typeOfVariable>
+          <bgc:units number="24">g/m²</bgc:units>
+          <bgc:description number="24" />
+          <bgc:block number="24">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="25">
+          <bgc:name number="25">D_B_Cplants_G</bgc:name>
+          <bgc:typeOfVariable number="25">realNumber</bgc:typeOfVariable>
+          <bgc:units number="25">%</bgc:units>
+          <bgc:description number="25">C:Carbon content %</bgc:description>
+          <bgc:block number="25">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="26">
+          <bgc:name number="26">D_B_Nplants_G</bgc:name>
+          <bgc:typeOfVariable number="26">realNumber</bgc:typeOfVariable>
+          <bgc:units number="26">%</bgc:units>
+          <bgc:description number="26">N:Nitrogen conten%</bgc:description>
+          <bgc:block number="26">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="27">
+          <bgc:name number="27">D_B_Cplants_K</bgc:name>
+          <bgc:typeOfVariable number="27">realNumber</bgc:typeOfVariable>
+          <bgc:units number="27">%</bgc:units>
+          <bgc:description number="27">C:Carbon content %</bgc:description>
+          <bgc:block number="27">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="28">
+          <bgc:name number="28">D_B_Nplants_K</bgc:name>
+          <bgc:typeOfVariable number="28">realNumber</bgc:typeOfVariable>
+          <bgc:units number="28">%</bgc:units>
+          <bgc:description number="28">N:Nitrogen conten%</bgc:description>
+          <bgc:block number="28">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="29">
+          <bgc:name number="29">D_B_Cplants_L</bgc:name>
+          <bgc:typeOfVariable number="29">realNumber</bgc:typeOfVariable>
+          <bgc:units number="29">%</bgc:units>
+          <bgc:description number="29">C:Carbon content %</bgc:description>
+          <bgc:block number="29">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="30">
+          <bgc:name number="30">D_B_Nplants_L</bgc:name>
+          <bgc:typeOfVariable number="30">realNumber</bgc:typeOfVariable>
+          <bgc:units number="30">%</bgc:units>
+          <bgc:description number="30">N:Nitrogen conten%</bgc:description>
+          <bgc:block number="30">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="31">
+          <bgc:name number="31">D_A_Cplants_G</bgc:name>
+          <bgc:typeOfVariable number="31">realNumber</bgc:typeOfVariable>
+          <bgc:units number="31">%</bgc:units>
+          <bgc:description number="31">C:Carbon content %</bgc:description>
+          <bgc:block number="31">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="32">
+          <bgc:name number="32">D_A_Nplants_G</bgc:name>
+          <bgc:typeOfVariable number="32">realNumber</bgc:typeOfVariable>
+          <bgc:units number="32">%</bgc:units>
+          <bgc:description number="32">N:Nitrogen conten%</bgc:description>
+          <bgc:block number="32">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="33">
+          <bgc:name number="33">D_A_Cplants_K</bgc:name>
+          <bgc:typeOfVariable number="33">realNumber</bgc:typeOfVariable>
+          <bgc:units number="33">%</bgc:units>
+          <bgc:description number="33">C:Carbon content %</bgc:description>
+          <bgc:block number="33">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="34">
+          <bgc:name number="34">D_A_Nplants_K</bgc:name>
+          <bgc:typeOfVariable number="34">realNumber</bgc:typeOfVariable>
+          <bgc:units number="34">%</bgc:units>
+          <bgc:description number="34">N:Nitrogen conten%</bgc:description>
+          <bgc:block number="34">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="35">
+          <bgc:name number="35">D_A_Cplants_L</bgc:name>
+          <bgc:typeOfVariable number="35">realNumber</bgc:typeOfVariable>
+          <bgc:units number="35">%</bgc:units>
+          <bgc:description number="35">C:Carbon content %</bgc:description>
+          <bgc:block number="35">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="36">
+          <bgc:name number="36">D_A_Nplants_L</bgc:name>
+          <bgc:typeOfVariable number="36">realNumber</bgc:typeOfVariable>
+          <bgc:units number="36">%</bgc:units>
+          <bgc:description number="36">N:Nitrogen conten%</bgc:description>
+          <bgc:block number="36">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="37">
+          <bgc:name number="37">T_A_Cplants_G</bgc:name>
+          <bgc:typeOfVariable number="37">realNumber</bgc:typeOfVariable>
+          <bgc:units number="37">%</bgc:units>
+          <bgc:description number="37">C:Carbon content %</bgc:description>
+          <bgc:block number="37">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="38">
+          <bgc:name number="38">T_A_Nplants_G</bgc:name>
+          <bgc:typeOfVariable number="38">realNumber</bgc:typeOfVariable>
+          <bgc:units number="38">%</bgc:units>
+          <bgc:description number="38">N:Nitrogen conten%</bgc:description>
+          <bgc:block number="38">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="39">
+          <bgc:name number="39">T_A_Cplants_K</bgc:name>
+          <bgc:typeOfVariable number="39">realNumber</bgc:typeOfVariable>
+          <bgc:units number="39">%</bgc:units>
+          <bgc:description number="39">C:Carbon content %</bgc:description>
+          <bgc:block number="39">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="40">
+          <bgc:name number="40">T_A_Nplants_K</bgc:name>
+          <bgc:typeOfVariable number="40">realNumber</bgc:typeOfVariable>
+          <bgc:units number="40">%</bgc:units>
+          <bgc:description number="40">N:Nitrogen conten%</bgc:description>
+          <bgc:block number="40">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="41">
+          <bgc:name number="41">T_A_Cplants_L</bgc:name>
+          <bgc:typeOfVariable number="41">realNumber</bgc:typeOfVariable>
+          <bgc:units number="41">%</bgc:units>
+          <bgc:description number="41">C:Carbon content %</bgc:description>
+          <bgc:block number="41">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="42">
+          <bgc:name number="42">T_A_Nplants_L</bgc:name>
+          <bgc:typeOfVariable number="42">realNumber</bgc:typeOfVariable>
+          <bgc:units number="42">%</bgc:units>
+          <bgc:description number="42">N:Nitrogen conten%</bgc:description>
+          <bgc:block number="42">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="43">
+          <bgc:name number="43">D_LD_AG_InitialW</bgc:name>
+          <bgc:typeOfVariable number="43">realNumber</bgc:typeOfVariable>
+          <bgc:units number="43" />
+          <bgc:description number="43">LD:LitterDecomposition	AG:AboveGround Material	Initial Weight</bgc:description>
+          <bgc:block number="43">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="44">
+          <bgc:name number="44">D_LD_AG_1</bgc:name>
+          <bgc:typeOfVariable number="44">realNumber</bgc:typeOfVariable>
+          <bgc:units number="44" />
+          <bgc:description number="44">Weight after Days 1</bgc:description>
+          <bgc:block number="44">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="45">
+          <bgc:name number="45">D_LD_AG_2</bgc:name>
+          <bgc:typeOfVariable number="45">realNumber</bgc:typeOfVariable>
+          <bgc:units number="45" />
+          <bgc:description number="45">Weight after Days 2</bgc:description>
+          <bgc:block number="45">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="46">
+          <bgc:name number="46">D_LD_AG_Day0</bgc:name>
+          <bgc:typeOfVariable number="46">realNumber</bgc:typeOfVariable>
+          <bgc:units number="46" />
+          <bgc:description number="46">Initial Time</bgc:description>
+          <bgc:block number="46">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="47">
+          <bgc:name number="47">D_LD_AG_Day1</bgc:name>
+          <bgc:typeOfVariable number="47">realNumber</bgc:typeOfVariable>
+          <bgc:units number="47" />
+          <bgc:description number="47">1st removal of litterbags</bgc:description>
+          <bgc:block number="47">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="48">
+          <bgc:name number="48">D_LD_AG_Day2</bgc:name>
+          <bgc:typeOfVariable number="48">realNumber</bgc:typeOfVariable>
+          <bgc:units number="48" />
+          <bgc:description number="48">2st removal of litterbags</bgc:description>
+          <bgc:block number="48">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="49">
+          <bgc:name number="49">D_LD_BG_InitialW</bgc:name>
+          <bgc:typeOfVariable number="49">realNumber</bgc:typeOfVariable>
+          <bgc:units number="49" />
+          <bgc:description number="49">LD:LitterDecomposition	BG:BelowGround Material	Initial Weight</bgc:description>
+          <bgc:block number="49">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="50">
+          <bgc:name number="50">D_LD_BG_1</bgc:name>
+          <bgc:typeOfVariable number="50">realNumber</bgc:typeOfVariable>
+          <bgc:units number="50">g</bgc:units>
+          <bgc:description number="50">Weight after 30 days (1)</bgc:description>
+          <bgc:block number="50">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="51">
+          <bgc:name number="51">D_LD_BG_2</bgc:name>
+          <bgc:typeOfVariable number="51">realNumber</bgc:typeOfVariable>
+          <bgc:units number="51">g</bgc:units>
+          <bgc:description number="51">Weight after 65 days (2) [g]</bgc:description>
+          <bgc:block number="51">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="52">
+          <bgc:name number="52">D_LD_BG_Day0</bgc:name>
+          <bgc:typeOfVariable number="52">realNumber</bgc:typeOfVariable>
+          <bgc:units number="52" />
+          <bgc:description number="52">Initial Time</bgc:description>
+          <bgc:block number="52">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="53">
+          <bgc:name number="53">D_LD_BG_Day1</bgc:name>
+          <bgc:typeOfVariable number="53">realNumber</bgc:typeOfVariable>
+          <bgc:units number="53" />
+          <bgc:description number="53">1st removal of litterbags</bgc:description>
+          <bgc:block number="53">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="54">
+          <bgc:name number="54">D_LD_BG_Day2</bgc:name>
+          <bgc:typeOfVariable number="54">realNumber</bgc:typeOfVariable>
+          <bgc:units number="54" />
+          <bgc:description number="54">2st removal of litterbags</bgc:description>
+          <bgc:block number="54">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="55">
+          <bgc:name number="55">T_LD_AG_InitialW</bgc:name>
+          <bgc:typeOfVariable number="55">realNumber</bgc:typeOfVariable>
+          <bgc:units number="55" />
+          <bgc:description number="55">LD:LitterDecomposition	AG:AboveGround Material	Initial Weight</bgc:description>
+          <bgc:block number="55">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="56">
+          <bgc:name number="56">T_LD_AG_1</bgc:name>
+          <bgc:typeOfVariable number="56">realNumber</bgc:typeOfVariable>
+          <bgc:units number="56" />
+          <bgc:description number="56">Weight after Days 1</bgc:description>
+          <bgc:block number="56">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="57">
+          <bgc:name number="57">T_LD_AG_2</bgc:name>
+          <bgc:typeOfVariable number="57">realNumber</bgc:typeOfVariable>
+          <bgc:units number="57" />
+          <bgc:description number="57">Weight after Days 2</bgc:description>
+          <bgc:block number="57">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="58">
+          <bgc:name number="58">T_LD_AG_Day0</bgc:name>
+          <bgc:typeOfVariable number="58">realNumber</bgc:typeOfVariable>
+          <bgc:units number="58" />
+          <bgc:description number="58">Initial Time</bgc:description>
+          <bgc:block number="58">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="59">
+          <bgc:name number="59">T_LD_AG_Day1</bgc:name>
+          <bgc:typeOfVariable number="59">realNumber</bgc:typeOfVariable>
+          <bgc:units number="59" />
+          <bgc:description number="59">1st removal of litterbags</bgc:description>
+          <bgc:block number="59">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="60">
+          <bgc:name number="60">T_LD_AG_Day2</bgc:name>
+          <bgc:typeOfVariable number="60">realNumber</bgc:typeOfVariable>
+          <bgc:units number="60" />
+          <bgc:description number="60">2st removal of litterbags</bgc:description>
+          <bgc:block number="60">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="61">
+          <bgc:name number="61">Litter_CAG_initial</bgc:name>
+          <bgc:typeOfVariable number="61">realNumber</bgc:typeOfVariable>
+          <bgc:units number="61" />
+          <bgc:description number="61">Litter	Carbon amount	in aboveground material</bgc:description>
+          <bgc:block number="61">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="62">
+          <bgc:name number="62">Litter_NAG_initial</bgc:name>
+          <bgc:typeOfVariable number="62">realNumber</bgc:typeOfVariable>
+          <bgc:units number="62" />
+          <bgc:description number="62">Litter	Nitrogen amount	in aboveground material</bgc:description>
+          <bgc:block number="62">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="63">
+          <bgc:name number="63">Litter_CBG_initial</bgc:name>
+          <bgc:typeOfVariable number="63">realNumber</bgc:typeOfVariable>
+          <bgc:units number="63" />
+          <bgc:description number="63">Litter	Carbon amount	in belowground material</bgc:description>
+          <bgc:block number="63">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="64">
+          <bgc:name number="64">Litter_NBG_initial</bgc:name>
+          <bgc:typeOfVariable number="64">realNumber</bgc:typeOfVariable>
+          <bgc:units number="64" />
+          <bgc:description number="64">Litter	Nitrogen amount	in belowground material</bgc:description>
+          <bgc:block number="64">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="65">
+          <bgc:name number="65">D_CLitter_AG_1</bgc:name>
+          <bgc:typeOfVariable number="65">realNumber</bgc:typeOfVariable>
+          <bgc:units number="65" />
+          <bgc:description number="65">Litter Carbon [%] in aboveground material at sampling (1)</bgc:description>
+          <bgc:block number="65">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="66">
+          <bgc:name number="66">D_NLitter_AG_1</bgc:name>
+          <bgc:typeOfVariable number="66">realNumber</bgc:typeOfVariable>
+          <bgc:units number="66" />
+          <bgc:description number="66">Litter Nitrogen [%] in aboveground material at sampling (1)</bgc:description>
+          <bgc:block number="66">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="67">
+          <bgc:name number="67">D_CLitter_AG_2</bgc:name>
+          <bgc:typeOfVariable number="67">realNumber</bgc:typeOfVariable>
+          <bgc:units number="67" />
+          <bgc:description number="67">Litter Carbon [%] in aboveground material at sampling (2) </bgc:description>
+          <bgc:block number="67">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="68">
+          <bgc:name number="68">D_NLitter_AG_2</bgc:name>
+          <bgc:typeOfVariable number="68">realNumber</bgc:typeOfVariable>
+          <bgc:units number="68" />
+          <bgc:description number="68">Litter Nitrogen [%] in aboveground material at sampling (2)</bgc:description>
+          <bgc:block number="68">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="69">
+          <bgc:name number="69">D_CLitter_BG_1</bgc:name>
+          <bgc:typeOfVariable number="69">realNumber</bgc:typeOfVariable>
+          <bgc:units number="69" />
+          <bgc:description number="69">Litter Carbon [%] in belowground material at sampling (1)</bgc:description>
+          <bgc:block number="69">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="70">
+          <bgc:name number="70">D_NLitter_BG_1</bgc:name>
+          <bgc:typeOfVariable number="70">realNumber</bgc:typeOfVariable>
+          <bgc:units number="70" />
+          <bgc:description number="70">Litter Nitrogen [%] in belowground material at sampling (1)</bgc:description>
+          <bgc:block number="70">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="71">
+          <bgc:name number="71">D_CLitter_BG_2</bgc:name>
+          <bgc:typeOfVariable number="71">realNumber</bgc:typeOfVariable>
+          <bgc:units number="71" />
+          <bgc:description number="71">Litter Carbon [%] in belowground material at sampling (2) </bgc:description>
+          <bgc:block number="71">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="72">
+          <bgc:name number="72">D_NLitter_BG_2</bgc:name>
+          <bgc:typeOfVariable number="72">realNumber</bgc:typeOfVariable>
+          <bgc:units number="72" />
+          <bgc:description number="72">Litter Nitrogen [%] in belowground material at sampling (2)</bgc:description>
+          <bgc:block number="72">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="73">
+          <bgc:name number="73">T_CLitter_AG_1</bgc:name>
+          <bgc:typeOfVariable number="73">realNumber</bgc:typeOfVariable>
+          <bgc:units number="73" />
+          <bgc:description number="73">Litter Carbon [%] in aboveground material under treatments at sampling (1)</bgc:description>
+          <bgc:block number="73">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="74">
+          <bgc:name number="74">T_NLitter_AG_1</bgc:name>
+          <bgc:typeOfVariable number="74">realNumber</bgc:typeOfVariable>
+          <bgc:units number="74" />
+          <bgc:description number="74">Litter Nitrogen [%] in aboveground material under treatments at sampling (1)</bgc:description>
+          <bgc:block number="74">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="75">
+          <bgc:name number="75">T_CLitter_AG_2</bgc:name>
+          <bgc:typeOfVariable number="75">realNumber</bgc:typeOfVariable>
+          <bgc:units number="75" />
+          <bgc:description number="75">Litter Carbon [%] in aboveground material under treatments at sampling (2) </bgc:description>
+          <bgc:block number="75">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="76">
+          <bgc:name number="76">T_NLitter_AG_2</bgc:name>
+          <bgc:typeOfVariable number="76">realNumber</bgc:typeOfVariable>
+          <bgc:units number="76" />
+          <bgc:description number="76">Litter Nitrogen [%] in aboveground material under treatments at sampling (2)</bgc:description>
+          <bgc:block number="76">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="77">
+          <bgc:name number="77">D_NH4_B</bgc:name>
+          <bgc:typeOfVariable number="77">realNumber</bgc:typeOfVariable>
+          <bgc:units number="77" />
+          <bgc:description number="77">soil ammonium [%] before drought phase</bgc:description>
+          <bgc:block number="77">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="78">
+          <bgc:name number="78">D_NH4_A</bgc:name>
+          <bgc:typeOfVariable number="78">realNumber</bgc:typeOfVariable>
+          <bgc:units number="78" />
+          <bgc:description number="78">soil ammonium [%] after drought phase</bgc:description>
+          <bgc:block number="78">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="79">
+          <bgc:name number="79">D_NO3_B</bgc:name>
+          <bgc:typeOfVariable number="79">realNumber</bgc:typeOfVariable>
+          <bgc:units number="79" />
+          <bgc:description number="79">soil nitrate [%] before drought phase</bgc:description>
+          <bgc:block number="79">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="80">
+          <bgc:name number="80">D_NO3_A</bgc:name>
+          <bgc:typeOfVariable number="80">realNumber</bgc:typeOfVariable>
+          <bgc:units number="80" />
+          <bgc:description number="80">soil nitrate [%] after drought phase</bgc:description>
+          <bgc:block number="80">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="81">
+          <bgc:name number="81">D_Gravi_H2O</bgc:name>
+          <bgc:typeOfVariable number="81">realNumber</bgc:typeOfVariable>
+          <bgc:units number="81" />
+          <bgc:description number="81">drought treatment: gravitational water content	</bgc:description>
+          <bgc:block number="81">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="82">
+          <bgc:name number="82">T_NH4_A</bgc:name>
+          <bgc:typeOfVariable number="82">realNumber</bgc:typeOfVariable>
+          <bgc:units number="82" />
+          <bgc:description number="82">soil ammonium [%] in treatment plots after drought phase</bgc:description>
+          <bgc:block number="82">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="83">
+          <bgc:name number="83">T_NO3_A</bgc:name>
+          <bgc:typeOfVariable number="83">realNumber</bgc:typeOfVariable>
+          <bgc:units number="83" />
+          <bgc:description number="83">soil nitrate [%] in treatment plots after drought phase</bgc:description>
+          <bgc:block number="83">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="84">
+          <bgc:name number="84">T_Gravi_H2O</bgc:name>
+          <bgc:typeOfVariable number="84">realNumber</bgc:typeOfVariable>
+          <bgc:units number="84" />
+          <bgc:description number="84">gravitational soil water content [%] in treatment plots</bgc:description>
+          <bgc:block number="84">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="85">
+          <bgc:name number="85">D_Ctot_B</bgc:name>
+          <bgc:typeOfVariable number="85">realNumber</bgc:typeOfVariable>
+          <bgc:units number="85" />
+          <bgc:description number="85">total C [%] in plots before drought phase</bgc:description>
+          <bgc:block number="85">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="86">
+          <bgc:name number="86">D_Ntot_B</bgc:name>
+          <bgc:typeOfVariable number="86">realNumber</bgc:typeOfVariable>
+          <bgc:units number="86" />
+          <bgc:description number="86">total N [%] in plots before drought phase</bgc:description>
+          <bgc:block number="86">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="87">
+          <bgc:name number="87">D_Ctot_A</bgc:name>
+          <bgc:typeOfVariable number="87">realNumber</bgc:typeOfVariable>
+          <bgc:units number="87" />
+          <bgc:description number="87">total C [%] in plots after drought phase</bgc:description>
+          <bgc:block number="87">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="88">
+          <bgc:name number="88">D_Ntot_A</bgc:name>
+          <bgc:typeOfVariable number="88">realNumber</bgc:typeOfVariable>
+          <bgc:units number="88" />
+          <bgc:description number="88">total N [%] in plots after drought phase</bgc:description>
+          <bgc:block number="88">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="89">
+          <bgc:name number="89">T_Ctot</bgc:name>
+          <bgc:typeOfVariable number="89">realNumber</bgc:typeOfVariable>
+          <bgc:units number="89" />
+          <bgc:description number="89">total C [%] in treatment plots after drought phase</bgc:description>
+          <bgc:block number="89">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="90">
+          <bgc:name number="90">T_Ntot</bgc:name>
+          <bgc:typeOfVariable number="90">realNumber</bgc:typeOfVariable>
+          <bgc:units number="90" />
+          <bgc:description number="90">total N [%] in treatment plots after drought phase</bgc:description>
+          <bgc:block number="90">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="91">
+          <bgc:name number="91">D_SOM_B</bgc:name>
+          <bgc:typeOfVariable number="91">realNumber</bgc:typeOfVariable>
+          <bgc:units number="91" />
+          <bgc:description number="91">soil organic matter [%] in plots before drought phase</bgc:description>
+          <bgc:block number="91">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="92">
+          <bgc:name number="92">D_SOM_A</bgc:name>
+          <bgc:typeOfVariable number="92">realNumber</bgc:typeOfVariable>
+          <bgc:units number="92" />
+          <bgc:description number="92">soil organic matter [%] in plots after drought phase</bgc:description>
+          <bgc:block number="92">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="93">
+          <bgc:name number="93">T_SOM</bgc:name>
+          <bgc:typeOfVariable number="93">realNumber</bgc:typeOfVariable>
+          <bgc:units number="93" />
+          <bgc:description number="93">soil organic matter [%] in treatment plots after drought phase</bgc:description>
+          <bgc:block number="93">0</bgc:block>
+        </bgc:variable>
+      </bgc:variables>
+    </bgc:dataStructure>
+  </bgc:data>
+  <bgc:references>
+    <bgc:database />
+    <bgc:papers>
+      <bgc:paper number="1">Keil, D., Niklaus, P., von Riedmatten, Lars Boeddinghaus, Runa Dormann, Carsten F. Scherer-Lorenzen, M., Kandeler, E. &amp; Marhan, S. (2015) Effects of warming and drought on potential N2O emissions and denitrifying bacteria abundance in grasslands with different land-use. FEMS Microbiology Letters, in press.</bgc:paper>
+      <bgc:paper number="2">Bütof, A., von Riedmatten, L.R., Dormann, C.F., Scherer-Lorenzen, M., Welk, E. &amp; Bruelheide, H. (2011) The responses of grassland plants to experimentally simulated climate change depend on land use and region. Global Change Biology, 18, 127–137.</bgc:paper>
+    </bgc:papers>
+    <bgc:relatedDatasets>
+      <bgc:dataset number="1" />
+    </bgc:relatedDatasets>
+    <bgc:citation>Dormann, Carsten (2017): Climate Change Manipulation Effects on Biomass, Species Richness, Above- and Below-Ground C- and N-Pools in 15 Grassland Sites i. v2.1.6. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/PublicData/PublicData.aspx?DatasetId=20186</bgc:citation>
+  </bgc:references>
+  <bgc:comment />
+</bgc:metaProfile>

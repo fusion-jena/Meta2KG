@@ -1,0 +1,872 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='127'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/127</alternateIdentifier>
+<title>CSP soil profile description II: soil horizons</title>
+<creator id='tscholten'>
+<individualName>
+<givenName>Thomas</givenName>
+<surName>Scholten</surName>
+</individualName>
+
+
+<electronicMailAddress>thomas.scholten@uni-tuebingen.de</electronicMailAddress>
+</creator>
+<creator id='pkuehn'>
+<individualName>
+<givenName>Peter</givenName>
+<surName>Kühn</surName>
+</individualName>
+<organizationName>Institute of Geography / Laboratory for Soil Science  and Geoecology  Eberhard Karls University Tübingen</organizationName>
+<address>
+<deliveryPoint>Rümelinstr. 19-23</deliveryPoint>
+<city>72070 Tübingen</city>
+<country>Germany</country>
+</address>
+<phone>+49-7071-2974896</phone>
+<electronicMailAddress>peter.kuehn@uni-tuebingen.de</electronicMailAddress>
+</creator>
+<creator id='cgeissler'>
+<individualName>
+<givenName>Christian</givenName>
+<surName>Geißler</surName>
+</individualName>
+<organizationName>Uni Tübingen</organizationName>
+<address>
+
+<city>Tübingen</city>
+
+</address>
+
+<electronicMailAddress>christian.geissler@gmx.net</electronicMailAddress>
+</creator>
+<pubDate>2011-08-31</pubDate>
+<language>en_US</language>
+<abstract>
+<para>Soil profile description according to &quot;!!!Bodenkundliche Kartieranleitung&quot;. This dataset contains all information with several entries (up to 8) per category, thus describing the whole soil profile. Two separate sheets contain data that describes more than one aspect for a soil profile (CSP soil profile description: general site information, surface characteristics, soil classification, CSP soil profile description III: Aeromorphic organic layers)</para>
+
+</abstract>
+<keywordSet>
+<keyword>CSP</keyword>
+<keyword>root intensity</keyword>
+<keyword>soil</keyword>
+<keyword>soil base</keyword>
+<keyword>soil colour</keyword>
+<keyword>soil horizon</keyword>
+<keyword>soil moisture</keyword>
+<keyword>soil profile</keyword>
+<keyword>soil structure</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>CSP</keyword>
+<keyword>no</keyword>
+<keyword>horizon_depth29</keyword>
+<keyword>horizon_distinctness30</keyword>
+<keyword>soil_horizon31</keyword>
+<keyword>soil_col32</keyword>
+<keyword>org_matter33</keyword>
+<keyword>ped_soil_moist36</keyword>
+<keyword>ped_con37</keyword>
+<keyword>ped_other38</keyword>
+<keyword>ped_soil_structure39</keyword>
+<keyword>ped_soil_size40</keyword>
+<keyword>ped_voids_porosity41</keyword>
+<keyword>cutan_feat44</keyword>
+<keyword>bio_root45</keyword>
+<keyword>bio_bio_feat46</keyword>
+<keyword>gen_sub47</keyword>
+<keyword>hand_text48</keyword>
+<keyword>rock_artefacts49</keyword>
+<keyword>coarse_mat50</keyword>
+<keyword>chargo51</keyword>
+<keyword>parent_material53</keyword>
+<keyword>artefact_type54</keyword>
+<keyword>abundance_size55</keyword>
+<keyword>stratigraphy56</keyword>
+<keyword>samp_num_dist60</keyword>
+<keyword>samp_num_undist61</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Permission is granted to anybody to access, use and publish all open for public data freely. The commercial use of any data is prohibited. The quality and completeness of data cannot be guaranteed. Users employ these data at their own risk. In order to make attribution of use for owners of the data possible, the identifier of ownership of data must be retained with every data record. Users must publicly acknowledge, in conjunction with the use of the data, the data owners. Cite the data as follows: Geißler, C., Scholten, T. and Kühn, P. (2011): CSP soil profile description II: soil horizons. BEF-China data portal (Accessed through URL http://china.befdata.biow.uni-leipzig.de/datasets/127)</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/127/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>CSP soil profiles, these are located adjacent to the CSPs
+29°08'-29°17'N
+118°02'-118°11'E</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2010-12-31
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2011-12-30
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>soil horizons</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+soil horizons
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>tscholten</references>
+</contact>
+<contact>
+<references>pkuehn</references>
+</contact>
+<contact>
+<references>cgeissler</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>CSP soil profile description II: soil horizons</para>
+<para>Soil profile description according to &quot;!!!Bodenkundliche Kartieranleitung&quot;. This dataset contains all information with several entries (up to 8) per category, thus describing the whole soil profile. Two separate sheets contain data that describes more than one aspect for a soil profile (CSP soil profile description: general site information, surface characteristics, soil classification, CSP soil profile description III: Aeromorphic organic layers)</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2010-12-31 00:00:00 UTC - 2011-12-30 00:00:00 UTC</para>
+<para>2010-2011</para>
+<para>CSP soil profiles, these are located adjacent to the CSPs
+29°08&#39;-29°17&#39;N
+118°02&#39;-118°11&#39;E</para>
+<para>soil horizons</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>Soil profiles were dug adjacent to CSPs</para>
+<para>This data contains qualitative information on the nature of the soil horizons.  It can be used as information for data that relates to soil depth.</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/127</entityName>
+<entityDescription>CSP soil profile description II: soil horizons</entityDescription>
+<physical>
+<objectName>/datasets/127</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/127/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='CSP'>
+<attributeName>BEF research plot name (CSP), </attributeName>
+<attributeLabel>CSP</attributeLabel>
+<attributeDefinition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province) (CSP: name of the CSP in the Nature ReserveBEF research plot nameReasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>BEF research plot name</para>
+<para>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) and B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) or Site B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06&#39;20.2&quot;N 117°55&#39;12.1&quot;E, Jiangxi Province)</para>
+<para>name of the CSP in the Nature ReserveBEF research plot nameReasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='no'>
+<attributeName>Helper (no), </attributeName>
+<attributeLabel>no</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (no: No of column, Headline: Soil horizon description I)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>No of column, Headline: Soil horizon description I</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='horizon_depth29'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (horizon_depth29), </attributeName>
+<attributeLabel>horizon_depth29</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (horizon_depth29: Horizon boundary / Depth (cm), Headline: Soil horizon description I; horizon_depth29)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Horizon boundary / Depth (cm), Headline: Soil horizon description I; horizon_depth29</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='horizon_distinctness30'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (horizon_distinctness30), </attributeName>
+<attributeLabel>horizon_distinctness30</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (horizon_distinctness30: Horizon boundary / Distinctness and topography, Headline: Soil horizon description I; horizon_distinctness30)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Horizon boundary / Distinctness and topography, Headline: Soil horizon description I; horizon_distinctness30</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='soil_horizon31'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (soil_horizon31), </attributeName>
+<attributeLabel>soil_horizon31</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (soil_horizon31: Soil horizons and layers, Headline: Soil horizon description I; soil_horizon31)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Soil horizons and layers, Headline: Soil horizon description I; soil_horizon31</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='soil_col32'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (soil_col32), </attributeName>
+<attributeLabel>soil_col32</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (soil_col32: Soil colour after Munsell (matrix), Headline: Soil horizon description I; soil_col32)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Soil colour after Munsell (matrix), Headline: Soil horizon description I; soil_col32</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='org_matter33'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (org_matter33), </attributeName>
+<attributeLabel>org_matter33</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (org_matter33: Organic matter content, Headline: Soil horizon description I; org_matter33)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Organic matter content, Headline: Soil horizon description I; org_matter33</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='ped_soil_moist36'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (ped_soil_moist36), </attributeName>
+<attributeLabel>ped_soil_moist36</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (ped_soil_moist36: Pedogenic features / Soil moisture condition, Headline: Soil horizon description I; ped_soil_moist36)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Pedogenic features / Soil moisture condition, Headline: Soil horizon description I; ped_soil_moist36</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='ped_con37'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (ped_con37), </attributeName>
+<attributeLabel>ped_con37</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (ped_con37: Pedogenic features / Consistence, Headline: Soil horizon description I; ped_con37)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Pedogenic features / Consistence, Headline: Soil horizon description I; ped_con37</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='ped_other38'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (ped_other38), </attributeName>
+<attributeLabel>ped_other38</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (ped_other38: Pedogenic features / Other pedogenic features, Headline: Soil horizon description I; ped_other38)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Pedogenic features / Other pedogenic features, Headline: Soil horizon description I; ped_other38</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='ped_soil_structure39'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (ped_soil_structure39), </attributeName>
+<attributeLabel>ped_soil_structure39</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (ped_soil_structure39: Pedogenic features / Soil structure / Structure types, Headline: Soil horizon description I; ped_soil_structure39)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Pedogenic features / Soil structure / Structure types, Headline: Soil horizon description I; ped_soil_structure39</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='ped_soil_size40'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (ped_soil_size40), </attributeName>
+<attributeLabel>ped_soil_size40</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (ped_soil_size40: Pedogenic features / Soil structure / Size of peds, Headline: Soil horizon description I; ped_soil_size40)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Pedogenic features / Soil structure / Size of peds, Headline: Soil horizon description I; ped_soil_size40</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='ped_voids_porosity41'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (ped_voids_porosity41), </attributeName>
+<attributeLabel>ped_voids_porosity41</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (ped_voids_porosity41: Pedogenic features / Voids (porosity) / Porosity, Headline: Soil horizon description I; ped_voids_porosity41)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Pedogenic features / Voids (porosity) / Porosity, Headline: Soil horizon description I; ped_voids_porosity41</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='cutan_feat44'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (cutan_feat44), </attributeName>
+<attributeLabel>cutan_feat44</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (cutan_feat44: Cutanic features (abundance, nature, location), Headline: Soil horizon description I; cutan_feat44)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Cutanic features (abundance, nature, location), Headline: Soil horizon description I; cutan_feat44</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='bio_root45'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (bio_root45), </attributeName>
+<attributeLabel>bio_root45</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (bio_root45: Biological activity / Root intensity, Headline: Soil horizon description I; bio_root45)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Biological activity / Root intensity, Headline: Soil horizon description I; bio_root45</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='bio_bio_feat46'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (bio_bio_feat46), </attributeName>
+<attributeLabel>bio_bio_feat46</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (bio_bio_feat46: Biological activity / biological feature, Headline: Soil horizon description I; bio_bio_feat46)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Biological activity / biological feature, Headline: Soil horizon description I; bio_bio_feat46</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='gen_sub47'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (gen_sub47), </attributeName>
+<attributeLabel>gen_sub47</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (gen_sub47: Genesis of substrate; header: Soil horizon description  II; gen_sub47)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Genesis of substrate; header: Soil horizon description  II; gen_sub47</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='hand_text48'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (hand_text48), </attributeName>
+<attributeLabel>hand_text48</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (hand_text48: Features of sediment / Primary constituents / Hand texture (fine earth): Soil horizon description  II; hand_text48)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Features of sediment / Primary constituents / Hand texture (fine earth): Soil horizon description  II; hand_text48</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='rock_artefacts49'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (rock_artefacts49), </attributeName>
+<attributeLabel>rock_artefacts49</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (rock_artefacts49: Features of sediment / Primary constituents / Rock fragments and artefacts: Soil horizon description  II; rock_artefacts49)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Features of sediment / Primary constituents / Rock fragments and artefacts: Soil horizon description  II; rock_artefacts49</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='coarse_mat50'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (coarse_mat50), </attributeName>
+<attributeLabel>coarse_mat50</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (coarse_mat50: Features of sediment / Primary constituents / Coarse material Vol%; coarse_mat50)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Features of sediment / Primary constituents / Coarse material Vol%; coarse_mat50</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='chargo51'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (chargo51), </attributeName>
+<attributeLabel>chargo51</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (chargo51: Features of sediment / Chargo al (depth): Soil horizon description  II; chargo51)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Features of sediment / Chargo al (depth): Soil horizon description  II; chargo51</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='parent_material53'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (parent_material53), </attributeName>
+<attributeLabel>parent_material53</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (parent_material53: Features of sediment / Rockmaterial / Parent material: Soil horizon description  II; parent_material53)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Features of sediment / Rockmaterial / Parent material: Soil horizon description  II; parent_material53</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='artefact_type54'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (artefact_type54), </attributeName>
+<attributeLabel>artefact_type54</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (artefact_type54: Features of sediment Rockmaterial / Description of artefacts / Type: Soil horizon description  II; artefact_type54)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Features of sediment Rockmaterial / Description of artefacts / Type: Soil horizon description  II; artefact_type54</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='abundance_size55'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (abundance_size55), </attributeName>
+<attributeLabel>abundance_size55</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (abundance_size55: Features of sediment Rockmaterial / Description of artefacts / Abundance/Size: Soil horizon description  II; abundance_size55)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Features of sediment Rockmaterial / Description of artefacts / Abundance/Size: Soil horizon description  II; abundance_size55</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='stratigraphy56'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (stratigraphy56), </attributeName>
+<attributeLabel>stratigraphy56</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (stratigraphy56: Stratigraphy: Soil horizon description  II; stratigraphy56)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Stratigraphy: Soil horizon description  II; stratigraphy56</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='samp_num_dist60'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (samp_num_dist60), </attributeName>
+<attributeLabel>samp_num_dist60</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (samp_num_dist60: Sampling / Number (disturbed samples): Soil horizon description  II; samp_num_dist60)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Sampling / Number (disturbed samples): Soil horizon description  II; samp_num_dist60</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='samp_num_undist61'>
+<attributeName>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;) (samp_num_undist61), </attributeName>
+<attributeLabel>samp_num_undist61</attributeLabel>
+<attributeDefinition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot; (samp_num_undist61: Sampling / Number (undisturbed samples): Soil horizon description  II; samp_num_undist61)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil description (according to &quot;Bodenkundliche Kartieranleitung&quot;)</para>
+<para>Basic information on soil properties, according to &quot;Eckelmann, W., Sponagel, H., Grottenthaler, W., Hartmann, J. K., Hartwich, R., Janetzko, P., ... &amp; Traidl, R. (2005). Bodenkundliche Kartieranleitung. 5. verbesserte und erweiterte Auflage. Tech. Rep., Bundesanst. für Geowissenschaften und Rohstoffe und Niedersächsisches Landesamt für Bodenforschung, Hannover, Germany.&quot;</para>
+<para>Sampling / Number (undisturbed samples): Soil horizon description  II; samp_num_undist61</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>216</numberOfRecords>
+</dataTable>
+<otherEntity id='106'>
+<alternateIdentifier>/system/freeformats/files/000/000/106/original/106_CSP%20soil%20profile%20description%20II_soil%20horizons_rr.xls?1332245975</alternateIdentifier>
+<entityName>106_CSP soil profile description II_soil horizons_rr.xls</entityName>
+<entityDescription>download this file, this is the complete one</entityDescription>
+<physical>
+<objectName>106_CSP soil profile description II_soil horizons_rr.xls</objectName>
+<dataFormat>
+<externallyDefinedFormat>
+<formatName>application/vnd.ms-excel</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>/system/freeformats/files/000/000/106/original/106_CSP%20soil%20profile%20description%20II_soil%20horizons_rr.xls?1332245975</url>
+</online>
+</distribution>
+</physical>
+<entityType>"File Asset"</entityType>
+</otherEntity>
+</dataset>
+</eml:eml>

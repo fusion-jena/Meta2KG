@@ -1,0 +1,311 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='185'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/185</alternateIdentifier>
+<title>CSPs: Herb layer plant biomass in the CSPs, separated into functional groups (2008)</title>
+<creator id='erfmeier'>
+<individualName>
+<givenName>Alexandra</givenName>
+<surName>Erfmeier</surName>
+</individualName>
+<organizationName>Institute of Botany / Geobotany and Botanical Garden  Martin Luther University Halle-Wittenberg</organizationName>
+<address>
+<deliveryPoint>Am Kirchtor 1</deliveryPoint>
+<city>06108 Halle/Saale</city>
+<country>Germany</country>
+</address>
+<phone>0345-55-26230</phone>
+<electronicMailAddress>aerfmeier@ecology.uni-kiel.de</electronicMailAddress>
+</creator>
+<creator id='sboth'>
+<individualName>
+<givenName>Sabine</givenName>
+<surName>Both</surName>
+</individualName>
+
+
+<electronicMailAddress>sabine.both@botanik.uni-halle.de</electronicMailAddress>
+</creator>
+<pubDate>2012-02-27</pubDate>
+<language>en_US</language>
+<abstract>
+<para>Biomass is a proxy for assessing herb layer productivity. In contrast to most traits it is easy practicable and therefore feasible repeatedly. Since the proportion of functional groups is informative for community structure biomass was harvested separately according to functional classification. Harvest included all plants in herblayer, i.e. below one metre in height.</para>
+
+</abstract>
+<keywordSet>
+<keyword>biomass</keyword>
+<keyword>CSP</keyword>
+<keyword>CSP subplots</keyword>
+<keyword>date</keyword>
+<keyword>functional group</keyword>
+<keyword>herb layer</keyword>
+<keyword>plant functional trait</keyword>
+<keyword>productivity</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>CSP</keyword>
+<keyword>date</keyword>
+<keyword>functional group</keyword>
+<keyword>sublocation</keyword>
+<keyword>biomass</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Permission is granted to anybody to access, use and publish all open for public data freely. The commercial use of any data is prohibited. The quality and completeness of data cannot be guaranteed. Users employ these data at their own risk. In order to make attribution of use for owners of the data possible, the identifier of ownership of data must be retained with every data record. Users must publicly acknowledge, in conjunction with the use of the data, the data owners. Cite the data as follows: Erfmeier, A. and Both, S. (2008):Biomass of herb layer plants in the CSPs, separated into functional groups. BEF-China data portal (Accessed through URL http://china.befdata.biow.uni-leipzig.de/datasets/185)</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/185/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>The aboveground biomass harvest was done in each of the 27 CSPS in the Gutianshan National Reserve in China.
+29°18'-29°17'N
+118°02'-118°11'E
+</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2008-02-27
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2008-07-27
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>Herb species in the CSPs. These include the woody recruits in the herb layer (up to 1 m height)</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+Herb species in the CSPs. These include the woody recruits in the herb layer (up to 1 m height)
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>erfmeier</references>
+</contact>
+<contact>
+<references>sboth</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>CSPs: Herb layer plant biomass in the CSPs, separated into functional groups (2008)</para>
+<para>Biomass is a proxy for assessing herb layer productivity. In contrast to most traits it is easy practicable and therefore feasible repeatedly. Since the proportion of functional groups is informative for community structure biomass was harvested separately according to functional classification. Harvest included all plants in herblayer, i.e. below one metre in height.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2008-02-27 00:00:00 UTC - 2008-07-27 00:00:00 UTC</para>
+<para>May to Juli 2008</para>
+<para>The aboveground biomass harvest was done in each of the 27 CSPS in the Gutianshan National Reserve in China.
+29°18&#39;-29°17&#39;N
+118°02&#39;-118°11&#39;E
+</para>
+<para>Herb species in the CSPs. These include the woody recruits in the herb layer (up to 1 m height)</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>The CSPs were established in May - June 2008 in the Gutianshan Nature Reserve as well as outside the Nature Reserve. The CSPs have a size of 30 x 30 metres and are exposed to the north. The central plot hold a size of 10 x 10 metres and is situated in the centre. Four 1 x 1 metres  plots were systematically chosen positioned outwards the corners of the central plot. The herblayer, i.e. plants below one metre in height, was harvested completely within those 1 m2 plots. The harvest only included aboveground biomass. </para>
+<para>Data can be used for measures of biomass and functional biodiversity in the herb layer of the CSPs. Mind that these species are not only herbs, but also the woody species in the herb layer.</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/185</entityName>
+<entityDescription>CSPs: Herb layer plant biomass in the CSPs, separated into functional groups (2008)</entityDescription>
+<physical>
+<objectName>/datasets/185</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/185/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='CSP'>
+<attributeName>BEF research plot name (CSP), dimensionless</attributeName>
+<attributeLabel>CSP</attributeLabel>
+<attributeDefinition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province) (CSP: name of the CSP in the Nature ReserveBEF research plot nameReasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>BEF research plot name</para>
+<para>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) and B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) or Site B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06&#39;20.2&quot;N 117°55&#39;12.1&quot;E, Jiangxi Province)</para>
+<para>name of the CSP in the Nature ReserveBEF research plot nameReasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='date'>
+<attributeName>Date time information (date), dimensionless</attributeName>
+<attributeLabel>date</attributeLabel>
+<attributeDefinition>Date time information, given as year or as date or as date time. (date: dateDate time information)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Date time information, given as year or as date or as date time.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Date time information</para>
+<para>Date time information, given as year or as date or as date time.</para>
+<para>dateDate time information</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='functional group'>
+<attributeName>Plant functional group or life form (functional group), </attributeName>
+<attributeLabel>functional group</attributeLabel>
+<attributeDefinition>Functional group within herblayer plants, or life form of a plant. (functional group: functional group within herblayer)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Functional group within herblayer plants, or life form of a plant.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plant functional group or life form</para>
+<para>Functional group within herblayer plants, or life form of a plant.</para>
+<para>functional group within herblayer</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='sublocation'>
+<attributeName>Subplots within CSPs (sublocation), dimensionless</attributeName>
+<attributeLabel>sublocation</attributeLabel>
+<attributeDefinition>Subplots within CSPs (sublocation: direction of central plot's corner)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Subplots within CSPs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Subplots within CSPs</para>
+<para>Subplots within CSPs</para>
+<para>direction of central plot&#39;s corner</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='biomass'>
+<attributeName>Above and below ground biomass measurement (biomass), gram</attributeName>
+<attributeLabel>biomass</attributeLabel>
+<attributeDefinition>Above and below ground biomass measurement; Productivity; Stocks
+
+ (biomass: oven-dry aboveground biomass of the plants belonging to a functional groupAbove-ground biomass measurement)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>gram</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Above and below ground biomass measurement</para>
+<para>Above and below ground biomass measurement; Productivity; Stocks
+
+</para>
+<para>oven-dry aboveground biomass of the plants belonging to a functional groupAbove-ground biomass measurement</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>756</numberOfRecords>
+</dataTable>
+<otherEntity id='217'>
+<alternateIdentifier>/system/freeformats/files/000/000/217/original/SP11%20mean%20biomass%20of%20herb%20layer%20speices%20in%20CSPs.xlsx?1330622395</alternateIdentifier>
+<entityName>SP11 mean biomass of herb layer speices in CSPs.xlsx</entityName>
+<entityDescription>Aggregated mean biomass for all functional groups in the herb layer.</entityDescription>
+<physical>
+<objectName>SP11 mean biomass of herb layer speices in CSPs.xlsx</objectName>
+<dataFormat>
+<externallyDefinedFormat>
+<formatName>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>/system/freeformats/files/000/000/217/original/SP11%20mean%20biomass%20of%20herb%20layer%20speices%20in%20CSPs.xlsx?1330622395</url>
+</online>
+</distribution>
+</physical>
+<entityType>"File Asset"</entityType>
+</otherEntity>
+</dataset>
+</eml:eml>

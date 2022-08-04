@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">geological-surv_8fefeaa1-0632-46ac-bbc0-6f03393f360c</name>
+	<title type="str">GSI GEMAS European Geochemical Soil Analysis</title>
+	<description type="str">GSI GEMAS European Geochemical Soil Analysis
+
+The GEMAS dataset is based on low density geochemical sampling of agriculture (Ap) and grassland (Gr) soils across 34 European countries. Sample density covering an area of 5.6 million km2 of 1 site each, arable land (0-20 cm) and land under permanent grass cover (0-10 cm), per 2500 km2. The Geochemical Mapping of Agricultural and Grazing Land Soil comprises more than 70 chemical elements and parameters determined on more than 4000 soil samples. The geochemistry of European agriculture and grazing soils are depicted graphically on maps of the GEMAS geochemical atlas. In 2016 the Geological Survey of Ireland as a European partner contributes to GEMAS and EGDI (European Geological Data Infrastructure) with provision of a GIS spatial data classification and publication of WMS geochemical web mapping services to support European data interoperability of EGDI web portal. The GIS GEMAS sample classification were constructed in ArcGIS 10.1 and the original GEMAS dataset is available as ESRI shapefile format.
+
+Source: https://data.gov.ie/publisher/geological-survey-of-ireland  
+Last updated at https://data.gov.ie/publisher/geological-survey-of-ireland : 2017-09-14  
+
+
+License - 
+Creative Commons Attribution 4.0</description>
+	<homepage type="str">https://data.world/geological-surv/8fefeaa1-0632-46ac-bbc0-6f03393f360c</homepage>
+	<license type="str">CC-BY</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">download_json_1</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">id</name>
+						<title type="str">id</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">name</name>
+						<title type="str">name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">parentlayerid</name>
+						<title type="str">parentLayerId</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">parentlayerid</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">defaultvisibility</name>
+						<title type="str">defaultVisibility</title>
+						<type type="str">boolean</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#boolean</rdfType>
+						<dwSourceId type="str">defaultvisibility</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sublayerids</name>
+						<title type="str">subLayerIds</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">sublayerids</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">minscale</name>
+						<title type="str">minScale</title>
+						<type type="str">boolean</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#boolean</rdfType>
+						<dwSourceId type="str">minscale</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">maxscale</name>
+						<title type="str">maxScale</title>
+						<type type="str">boolean</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#boolean</rdfType>
+						<dwSourceId type="str">maxscale</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/download_json_1.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/download-json-1.json</name>
+			<path type="str">original/download-json-1.json</path>
+			<format type="str">json</format>
+			<mediatype type="str">application/json</mediatype>
+			<bytes type="int">50778</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/wms-getcapabilities-2.html</name>
+			<path type="str">original/wms-getcapabilities-2.html</path>
+			<format type="str">html</format>
+			<mediatype type="str">text/html</mediatype>
+			<bytes type="int">338470</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">agricultural soil</item>
+		<item type="str">analysis</item>
+		<item type="str">arable land</item>
+		<item type="str">arable land groundwater</item>
+		<item type="str">chemical</item>
+		<item type="str">chemistry</item>
+		<item type="str">continental scale</item>
+		<item type="str">earth science</item>
+		<item type="str">egdi</item>
+		<item type="str">environment</item>
+		<item type="str">europe</item>
+		<item type="str">european soil analysis</item>
+		<item type="str">forensic chemistry</item>
+		<item type="str">gemas</item>
+		<item type="str">geochemical</item>
+		<item type="str">geochemical analysis</item>
+		<item type="str">geochemical mapping</item>
+		<item type="str">geology</item>
+		<item type="str">geoscientificinformation</item>
+		<item type="str">grazing land</item>
+		<item type="str">groundwater</item>
+		<item type="str">heavy metals</item>
+		<item type="str">ireland</item>
+		<item type="str">land</item>
+		<item type="str">lithosphere</item>
+		<item type="str">mapping</item>
+		<item type="str">metal</item>
+		<item type="str">micka</item>
+		<item type="str">pedosphere</item>
+		<item type="str">science</item>
+		<item type="str">soil</item>
+		<item type="str">soil nutrient</item>
+		<item type="str">toxic element</item>
+		<item type="str">trace element</item>
+		<item type="str">water geographic</item>
+	</keywords>
+</all>

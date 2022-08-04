@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">cityofaustin_wter-evkm</name>
+	<title type="str">Austin Animal Center Intakes</title>
+	<description type="str">Animal Center Intakes from Oct, 1st 2013 to present.
+
+Animal Center Intakes from Oct, 1st 2013 to present. Intakes represent the status of animals as they arrive at the Animal Center. All animals receive a unique Animal ID during intake. Annually over 90% of animals entering the center, are adopted, transferred to rescue or returned to their owners.
+
+Source: https://data.austintexas.gov/d/wter-evkm  
+Last updated at https://data.austintexas.gov/ : 2020-03-09</description>
+	<homepage type="str">https://data.world/cityofaustin/wter-evkm</homepage>
+	<license type="str">PDDL</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">austin_animal_center_intakes_1</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">animal_id</name>
+						<title type="str">Animal ID</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">animal_id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">name</name>
+						<title type="str">Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">datetime</name>
+						<title type="str">DateTime</title>
+						<type type="str">datetime</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#dateTime</rdfType>
+						<dwSourceId type="str">datetime</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">monthyear</name>
+						<title type="str">MonthYear</title>
+						<type type="str">datetime</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#dateTime</rdfType>
+						<dwSourceId type="str">monthyear</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">found_location</name>
+						<title type="str">Found Location</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">found_location</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">intake_type</name>
+						<title type="str">Intake Type</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">intake_type</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">intake_condition</name>
+						<title type="str">Intake Condition</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">intake_condition</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">animal_type</name>
+						<title type="str">Animal Type</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">animal_type</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sex_upon_intake</name>
+						<title type="str">Sex upon Intake</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">sex_upon_intake</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">age_upon_intake</name>
+						<title type="str">Age upon Intake</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">age_upon_intake</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">breed</name>
+						<title type="str">Breed</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">breed</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">color</name>
+						<title type="str">Color</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">color</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/austin_animal_center_intakes_1.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/austin-animal-center-intakes-1.csv</name>
+			<path type="str">original/austin-animal-center-intakes-1.csv</path>
+			<format type="str">csv</format>
+			<mediatype type="str">text/csv</mediatype>
+			<bytes type="int">17251633</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">intakes</item>
+		<item type="str">animal</item>
+		<item type="str">cat</item>
+		<item type="str">dog</item>
+		<item type="str">pet</item>
+		<item type="str">no kill</item>
+		<item type="str">stray</item>
+		<item type="str">surrendered</item>
+		<item type="str">lost</item>
+		<item type="str">found</item>
+	</keywords>
+</all>

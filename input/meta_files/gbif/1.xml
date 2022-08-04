@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="4cec8fef-f129-4966-89b7-4f8439aba058"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/wvfqoi</alternateIdentifier>
+    <title>International Barcode of Life project (iBOL) Barcode Index Numbers (BINs)</title>
+    <creator>
+<organizationName>International Barcode of Life project (iBOL)</organizationName><electronicMailAddress>info@iBOL.org</electronicMailAddress><onlineUrl>http://ibol.org</onlineUrl>    </creator>
+    <metadataProvider>
+<organizationName>International Barcode of Life project (iBOL)</organizationName><electronicMailAddress>info@iBOL.org</electronicMailAddress><onlineUrl>http://ibol.org</onlineUrl>    </metadataProvider>
+      <pubDate>
+      2016-08-18
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>Established in 2008, the International Barcode of Life Consortium (iBOL, http://www.ibol.org/) is a research alliance of nations with the desire to transform biodiversity science by building the DNA barcode reference libraries, the sequencing facilities, the informatics platforms, the analytical protocols, and the international collaboration required to inventory and assess biodiversity.</para>
+        <para>iBOL has overseen the completion of one major program, BARCODE 500K, and a second program, BIOSCAN runs for seven years from June 2019. The first program barcoded 500,000 species reflecting the investment of $150 million by research organizations in 25 nations. Building on this success, BIOSCAN will extend barcode coverage to 2.5 million species by 2025. This program will stimulate activation of the Planetary Biodiversity Mission (PBM) – iBOL’s final project. PBM is a research initiative that will deliver a comprehensive understanding of the composition and distribution of multi-cellular life by 2045.</para>
+        <para>iBOL maintains the Barcode of Life Data System (BOLD, http://www.boldsystems.org/). BOLD is a cloud-based data storage and analysis platform developed at the Centre for Biodiversity Genomics in Canada. It consists of four main modules, a data portal, an educational portal, a registry of BINs (putative species), and a data collection and analysis workbench.</para>
+    </abstract>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <contact>
+<organizationName>International Barcode of Life project (iBOL)</organizationName><electronicMailAddress>info@iBOL.org</electronicMailAddress><onlineUrl>http://ibol.org</onlineUrl>      </contact>
+      <contact>
+<organizationName>Barcode of Life Data Systems (BOLD)</organizationName><electronicMailAddress>info@boldsystems.org</electronicMailAddress><onlineUrl>http://bins.boldsystems.org</onlineUrl>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2021-12-07T12:24:59Z</dateStamp>
+      <citation>The International Barcode of Life Consortium (2016). International Barcode of Life project (iBOL) Barcode Index Numbers (BINs). Checklist dataset https://doi.org/10.15468/wvfqoi accessed via GBIF.org on 2021-12-07.</citation>
+              <bibliography>
+      <citation identifier="http://doi.org/10.1111/j.1471-8286.2007.01678.x">RATNASINGHAM, S., &amp; HEBERT, P. D. N. (2007, January 24). BARCODING: bold: The Barcode of Life Data System (http://www.barcodinglife.org). Molecular Ecology Notes. Wiley-Blackwell. http://doi.org/10.1111/j.1471-8286.2007.01678.x</citation>
+      <citation identifier="http://doi.org/10.1371/journal.pone.0066213">Ratnasingham, S., &amp; Hebert, P. D. N. (2013, July 8). A DNA-Based Registry for All Animal Species: The Barcode Index Number (BIN) System. (D. Fontaneto, Ed.)PLoS ONE. Public Library of Science (PLoS). http://doi.org/10.1371/journal.pone.0066213</citation>
+              </bibliography>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

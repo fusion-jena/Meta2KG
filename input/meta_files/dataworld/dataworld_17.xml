@@ -1,0 +1,291 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">cityofaustin_auyh-v9m2</name>
+	<title type="str">Downtown Tree Inventory 2013</title>
+	<description type="str">Survey conducted in 2013 of all trees and vacant planting sites in the right of way and all trees of heritage ...
+
+Survey conducted in 2013 of all trees and vacant planting sites in the right of way and all trees of heritage species greater than or equal to 19 inches on private and city of Austin owned property in the central business district.
+
+Source: https://data.austintexas.gov/d/auyh-v9m2  
+Last updated at https://data.austintexas.gov/ : 2020-01-06</description>
+	<homepage type="str">https://data.world/cityofaustin/auyh-v9m2</homepage>
+	<license type="str">PDDL</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">downtown_tree_inventory_2013</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">objectid</name>
+						<title type="str">OBJECTID</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">objectid</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">tree_id</name>
+						<title type="str">TREE_ID</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">tree_id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">address</name>
+						<title type="str">ADDRESS</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">address</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">species</name>
+						<title type="str">SPECIES</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">com_name</name>
+						<title type="str">COM_NAME</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">com_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dbh</name>
+						<title type="str">DBH</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">dbh</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">height</name>
+						<title type="str">HEIGHT</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">height</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">condition</name>
+						<title type="str">CONDITION</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">condition</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">land_type</name>
+						<title type="str">LAND_TYPE</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">land_type</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">park_name</name>
+						<title type="str">PARK_NAME</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">park_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">x</name>
+						<title type="str">X</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">x</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">y</name>
+						<title type="str">Y</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">y</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/downtown_tree_inventory_2013.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">downtown_tree_inventory_2013_1</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">the_geom</name>
+						<title type="str">the_geom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">the_geom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">objectid</name>
+						<title type="str">OBJECTID</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">objectid</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">tree_id</name>
+						<title type="str">TREE_ID</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">tree_id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">address</name>
+						<title type="str">ADDRESS</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">address</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">species</name>
+						<title type="str">SPECIES</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">species</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">com_name</name>
+						<title type="str">COM_NAME</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">com_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">dbh</name>
+						<title type="str">DBH</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">dbh</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">height</name>
+						<title type="str">HEIGHT</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">height</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">condition</name>
+						<title type="str">CONDITION</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">condition</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">land_type</name>
+						<title type="str">LAND_TYPE</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">land_type</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">park_name</name>
+						<title type="str">PARK_NAME</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">park_name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">x</name>
+						<title type="str">X</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">x</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">y</name>
+						<title type="str">Y</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">y</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/downtown_tree_inventory_2013_1.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/Downtown_Tree_Inventory_2013.cpg</name>
+			<path type="str">original/Downtown_Tree_Inventory_2013.cpg</path>
+			<format type="str">cpg</format>
+			<mediatype type="str">text/plain</mediatype>
+			<bytes type="int">5</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Downtown_Tree_Inventory_2013.dbf</name>
+			<path type="str">original/Downtown_Tree_Inventory_2013.dbf</path>
+			<format type="str">dbf</format>
+			<mediatype type="str">application/dbf</mediatype>
+			<bytes type="int">2663093</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Downtown_Tree_Inventory_2013.prj</name>
+			<path type="str">original/Downtown_Tree_Inventory_2013.prj</path>
+			<format type="str">prj</format>
+			<mediatype type="str">text/plain</mediatype>
+			<bytes type="int">583</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Downtown_Tree_Inventory_2013.sbn</name>
+			<path type="str">original/Downtown_Tree_Inventory_2013.sbn</path>
+			<format type="str">sbn</format>
+			<mediatype type="str">application/x-shapefile</mediatype>
+			<bytes type="int">70604</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Downtown_Tree_Inventory_2013.sbx</name>
+			<path type="str">original/Downtown_Tree_Inventory_2013.sbx</path>
+			<format type="str">sbx</format>
+			<mediatype type="str">application/x-shapefile</mediatype>
+			<bytes type="int">4380</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Downtown_Tree_Inventory_2013.shp</name>
+			<path type="str">original/Downtown_Tree_Inventory_2013.shp</path>
+			<format type="str">shp</format>
+			<mediatype type="str">application/x-shapefile</mediatype>
+			<bytes type="int">204360</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Downtown_Tree_Inventory_2013.shp.xml</name>
+			<path type="str">original/Downtown_Tree_Inventory_2013.shp.xml</path>
+			<format type="str">xml</format>
+			<mediatype type="str">application/xml</mediatype>
+			<bytes type="int">107387</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Downtown_Tree_Inventory_2013.shx</name>
+			<path type="str">original/Downtown_Tree_Inventory_2013.shx</path>
+			<format type="str">shx</format>
+			<mediatype type="str">application/x-shapefile</mediatype>
+			<bytes type="int">58460</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/downtown-tree-inventory-2013-1.csv</name>
+			<path type="str">original/downtown-tree-inventory-2013-1.csv</path>
+			<format type="str">csv</format>
+			<mediatype type="str">text/csv</mediatype>
+			<bytes type="int">1137225</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/downtown-tree-inventory-2013-2-2.xml</name>
+			<path type="str">original/downtown-tree-inventory-2013-2-2.xml</path>
+			<format type="str">xml</format>
+			<mediatype type="str">application/xml</mediatype>
+			<bytes type="int">6061558</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">downtown</item>
+		<item type="str">tree</item>
+		<item type="str">inventory</item>
+		<item type="str">central</item>
+		<item type="str">business</item>
+		<item type="str">district</item>
+		<item type="str">cbd</item>
+		<item type="str">arborist</item>
+		<item type="str">urban</item>
+		<item type="str">forest</item>
+		<item type="str">locations and maps</item>
+	</keywords>
+</all>

@@ -1,0 +1,126 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">cityofaustin_9t4d-g238</name>
+	<title type="str">Austin Animal Center Outcomes</title>
+	<description type="str">Animal Center Outcomes from Oct, 1st 2013 to present.
+
+Animal Center Outcomes from Oct, 1st 2013 to present. Outcomes represent the status of animals as they leave the Animal Center. All animals receive a unique Animal ID during intake. Annually over 90% of animals entering the center, are adopted, transferred to rescue or returned to their owners. The Outcomes data set reflects that Austin, TX. is the largest &quot;No Kill&quot; city in the country. This data set replaces all previous Animal Center Outcomes data sets.
+
+Source: https://data.austintexas.gov/d/9t4d-g238  
+Last updated at https://data.austintexas.gov/ : 2020-03-10</description>
+	<homepage type="str">https://data.world/cityofaustin/9t4d-g238</homepage>
+	<license type="str">PDDL</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">austin_animal_center_outcomes_1</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">animal_id</name>
+						<title type="str">Animal ID</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">animal_id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">name</name>
+						<title type="str">Name</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">name</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">datetime</name>
+						<title type="str">DateTime</title>
+						<type type="str">datetime</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#dateTime</rdfType>
+						<dwSourceId type="str">datetime</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">monthyear</name>
+						<title type="str">MonthYear</title>
+						<type type="str">datetime</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#dateTime</rdfType>
+						<dwSourceId type="str">monthyear</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">date_of_birth</name>
+						<title type="str">Date of Birth</title>
+						<type type="str">date</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#date</rdfType>
+						<dwSourceId type="str">date_of_birth</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">outcome_type</name>
+						<title type="str">Outcome Type</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">outcome_type</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">outcome_subtype</name>
+						<title type="str">Outcome Subtype</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">outcome_subtype</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">animal_type</name>
+						<title type="str">Animal Type</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">animal_type</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sex_upon_outcome</name>
+						<title type="str">Sex upon Outcome</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">sex_upon_outcome</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">age_upon_outcome</name>
+						<title type="str">Age upon Outcome</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">age_upon_outcome</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">breed</name>
+						<title type="str">Breed</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">breed</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">color</name>
+						<title type="str">Color</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">color</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/austin_animal_center_outcomes_1.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/austin-animal-center-outcomes-1.csv</name>
+			<path type="str">original/austin-animal-center-outcomes-1.csv</path>
+			<format type="str">csv</format>
+			<mediatype type="str">text/csv</mediatype>
+			<bytes type="int">13478455</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">outcomes</item>
+		<item type="str">animal</item>
+		<item type="str">cat</item>
+		<item type="str">dog</item>
+		<item type="str">pet</item>
+		<item type="str">no kill</item>
+		<item type="str">transfer</item>
+		<item type="str">adoption</item>
+		<item type="str">missing</item>
+	</keywords>
+</all>

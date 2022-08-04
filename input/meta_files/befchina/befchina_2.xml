@@ -1,0 +1,575 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='614'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/614</alternateIdentifier>
+<title>Data for Fichtner et. al. 2020 &quot;Neighbourhood diversity mitigates drought impacts on tree growth&quot; J. Ecol.</title>
+<creator id='afichtner'>
+<individualName>
+<givenName>Andreas</givenName>
+<surName>Fichtner</surName>
+</individualName>
+
+<address>
+
+
+
+</address>
+
+<electronicMailAddress>fichtner@leuphana.de</electronicMailAddress>
+</creator>
+<creator id='hbruelheide'>
+<individualName>
+<givenName>Helge</givenName>
+<surName>Bruelheide</surName>
+</individualName>
+
+
+<electronicMailAddress>helge.bruelheide@botanik.uni-halle.de</electronicMailAddress>
+</creator>
+<creator id='gvonoheimb'>
+<individualName>
+<givenName>Goddert</givenName>
+<surName>von Oheimb</surName>
+</individualName>
+
+
+<electronicMailAddress>Goddert_v_Oheimb@tu-dresden.de</electronicMailAddress>
+</creator>
+<creator id='whaerdtle'>
+<individualName>
+<givenName>Werner</givenName>
+<surName>Härdtle</surName>
+</individualName>
+
+
+<electronicMailAddress>haerdtle@uni-lueneburg.de</electronicMailAddress>
+</creator>
+<creator id='aschuldt'>
+<individualName>
+<givenName>Andreas</givenName>
+<surName>Schuldt</surName>
+</individualName>
+<organizationName>German Centre for Integrative Biodiversity Research (iDiv), Leipzig</organizationName>
+<address>
+<deliveryPoint>Deutscher Platz 5e</deliveryPoint>
+<city>Leipzig</city>
+<country>Germany</country>
+</address>
+<phone>++49 (0) 341 9733232</phone>
+<electronicMailAddress>andreas.schuldt@idiv.de</electronicMailAddress>
+</creator>
+<creator id='matkunz'>
+<individualName>
+<givenName>Matthias</givenName>
+<surName>Kunz</surName>
+</individualName>
+<organizationName>TU Dresden</organizationName>
+<address>
+
+
+<country>Germany</country>
+</address>
+<phone>+49 35203 383 1329</phone>
+<electronicMailAddress>matthias.kunz@tu-dresden.de</electronicMailAddress>
+</creator>
+<creator id='florians'>
+<individualName>
+<givenName>Florian</givenName>
+<surName>Schnabel</surName>
+</individualName>
+<organizationName>German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig</organizationName>
+<address>
+
+<city>Leipzig</city>
+<country>Germany</country>
+</address>
+<phone> +49-341-97-38595</phone>
+<electronicMailAddress>florian.schnabel@idiv.de</electronicMailAddress>
+</creator>
+<pubDate>2020-01-28</pubDate>
+<language>en_US</language>
+<abstract>
+<para>1. Biodiversity is considered to mitigate detrimental impacts of climate change on the functioning of forest ecosystems, such as drought-induced decline in forest productivity. However, previous studies produced controversial results and experimental evidence is rare. Specifically, the biological mechanisms underlying mitigation effects remain unclear, as existing work focuses on biodiversity effects related to the community scale. 
+2. By using trait-based neighbourhood models, we quantified changes in aboveground wood productivity of 3397 trees that were planted in a large-scale tree diversity experiment in subtropical China across gradients of neighbourhood diversity and climatic conditions over a six-year period. This approach allowed us to simultaneously assess to what extent functional traits of a focal tree and biodiversity at the local neighbourhood scale mediate the growth response of individual trees to drought events. 
+3. We found that neighbourhood tree species richness can mitigate for drought-induced growth decline of young trees. Overall, positive net biodiversity effects were strongest during drought and increased with increasing taxonomic diversity of neighbours. In particular, drought-sensitive species (i.e. those with a low cavitation resistance) benefitted the most from growing in diverse neighbourhoods, suggesting that soil water partitioning among local neighbours during drought particularly facilitated most vulnerable individuals. Thus, diverse neighbourhoods may enhance ecosystem resistance to drought by locally supporting drought-sensitive species in the community.
+4. Synthesis. Our findings demonstrate that mechanisms operating at the local neighbourhood scale are a key component for regulating forests responses to drought and improve insights into how local species interactions vary along stress gradients in highly diverse tree communities. 
+
+</para>
+
+</abstract>
+<keywordSet>
+<keyword>biodiversity</keyword>
+<keyword>climate change</keyword>
+<keyword>drought resistance</keyword>
+<keyword>ecosystem functioning</keyword>
+<keyword>Forest</keyword>
+<keyword>functional traits</keyword>
+<keyword>species interactions</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>TAG</keyword>
+<keyword>PTAG</keyword>
+<keyword>ALTITUDE</keyword>
+<keyword>SLOPE</keyword>
+<keyword>SpeciesCode</keyword>
+<keyword>PSI50</keyword>
+<keyword>SAWP</keyword>
+<keyword>NCI</keyword>
+<keyword>nb_count</keyword>
+<keyword>nb_richness</keyword>
+<keyword>nb_mix</keyword>
+<keyword>SPEI_12_Oct</keyword>
+<keyword>Initial_year</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/614/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription></geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2010-01-01
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2016-01-01
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>Trees</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+Trees
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>afichtner</references>
+</contact>
+<contact>
+<references>hbruelheide</references>
+</contact>
+<contact>
+<references>gvonoheimb</references>
+</contact>
+<contact>
+<references>whaerdtle</references>
+</contact>
+<contact>
+<references>aschuldt</references>
+</contact>
+<contact>
+<references>matkunz</references>
+</contact>
+<contact>
+<references>florians</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>Data for Fichtner et. al. 2020 &quot;Neighbourhood diversity mitigates drought impacts on tree growth&quot; J. Ecol.</para>
+<para>1. Biodiversity is considered to mitigate detrimental impacts of climate change on the functioning of forest ecosystems, such as drought-induced decline in forest productivity. However, previous studies produced controversial results and experimental evidence is rare. Specifically, the biological mechanisms underlying mitigation effects remain unclear, as existing work focuses on biodiversity effects related to the community scale. 
+2. By using trait-based neighbourhood models, we quantified changes in aboveground wood productivity of 3397 trees that were planted in a large-scale tree diversity experiment in subtropical China across gradients of neighbourhood diversity and climatic conditions over a six-year period. This approach allowed us to simultaneously assess to what extent functional traits of a focal tree and biodiversity at the local neighbourhood scale mediate the growth response of individual trees to drought events. 
+3. We found that neighbourhood tree species richness can mitigate for drought-induced growth decline of young trees. Overall, positive net biodiversity effects were strongest during drought and increased with increasing taxonomic diversity of neighbours. In particular, drought-sensitive species (i.e. those with a low cavitation resistance) benefitted the most from growing in diverse neighbourhoods, suggesting that soil water partitioning among local neighbours during drought particularly facilitated most vulnerable individuals. Thus, diverse neighbourhoods may enhance ecosystem resistance to drought by locally supporting drought-sensitive species in the community.
+4. Synthesis. Our findings demonstrate that mechanisms operating at the local neighbourhood scale are a key component for regulating forests responses to drought and improve insights into how local species interactions vary along stress gradients in highly diverse tree communities. 
+
+</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2010-01-01 00:00:00 UTC - 2016-01-01 00:00:00 UTC</para>
+<para>2010-2016</para>
+
+<para>Trees</para>
+</description>
+</studyExtent>
+<samplingDescription>
+
+
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/614</entityName>
+<entityDescription>Data for Fichtner et. al. 2020 &quot;Neighbourhood diversity mitigates drought impacts on tree growth&quot; J. Ecol.</entityDescription>
+<physical>
+<objectName>/datasets/614</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/614/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='TAG'>
+<attributeName>t or s TAG Main Experiment (TAG), </attributeName>
+<attributeLabel>TAG</attributeLabel>
+<attributeDefinition>t-Tag/ s-Tag indicating individual tree position in the Main Experiment
+code for planting locations, 12 digits with &quot;t&quot; (tree) in front or &quot;s&quot; (shrub); Datagroup description: Tree or shrub tags consist of 12 digits: The first 6 are the site plot name: _1_ site _2/3_ row, counting from North _4/5_ column, counting from west _6_ is the plot moved? Is it a quarter plot? The next 6 digits describe the tree individual _7/8_ type of individual (01 planned tree, 02 other tree than planted but in a given plot somewhere, 03 planned shrub, 04 other shrub within this plot) _9/10_ x grid position within plot, starting from southwest northwards _11/12 y grid position, starting from southwest eastwards. (TAG: code for planting locations, 12 digits with &quot;t&quot; in front)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>t-Tag/ s-Tag indicating individual tree position in the Main Experiment
+code for planting locations, 12 digits with &quot;t&quot; (tree) in front or &quot;s&quot; (shrub); Datagroup description: Tree or shrub tags consist of 12 digits: The first 6 are the site plot name: _1_ site _2/3_ row, counting from North _4/5_ column, counting from west _6_ is the plot moved? Is it a quarter plot? The next 6 digits describe the tree individual _7/8_ type of individual (01 planned tree, 02 other tree than planted but in a given plot somewhere, 03 planned shrub, 04 other shrub within this plot) _9/10_ x grid position within plot, starting from southwest northwards _11/12 y grid position, starting from southwest eastwards.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>t or s TAG Main Experiment</para>
+<para>t-Tag/ s-Tag indicating individual tree position in the Main Experiment
+code for planting locations, 12 digits with &quot;t&quot; (tree) in front or &quot;s&quot; (shrub); Datagroup description: Tree or shrub tags consist of 12 digits: The first 6 are the site plot name: _1_ site _2/3_ row, counting from North _4/5_ column, counting from west _6_ is the plot moved? Is it a quarter plot? The next 6 digits describe the tree individual _7/8_ type of individual (01 planned tree, 02 other tree than planted but in a given plot somewhere, 03 planned shrub, 04 other shrub within this plot) _9/10_ x grid position within plot, starting from southwest northwards _11/12 y grid position, starting from southwest eastwards.</para>
+<para>code for planting locations, 12 digits with &quot;t&quot; in front</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='PTAG'>
+<attributeName>PTAG (PTAG), id</attributeName>
+<attributeLabel>PTAG</attributeLabel>
+<attributeDefinition>PTAG (PTAG: Plot ID across CSP, MainA and MainB)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>PTAG</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>PTAG</para>
+<para>PTAG</para>
+<para>Plot ID across CSP, MainA and MainB</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='ALTITUDE'>
+<attributeName>Elevation (ALTITUDE), m</attributeName>
+<attributeLabel>ALTITUDE</attributeLabel>
+<attributeDefinition>Elevation above sea level, altitude (ALTITUDE: elevation (from interpolated raster); Datagroup description: Elevation above sea level. Altitude.)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Elevation</para>
+<para>Elevation above sea level, altitude</para>
+<para>elevation (from interpolated raster); Datagroup description: Elevation above sea level. Altitude.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='SLOPE'>
+<attributeName>Inclination (SLOPE), degree</attributeName>
+<attributeLabel>SLOPE</attributeLabel>
+<attributeDefinition>Inclination &quot;is the angular distance of the orbital plane from the plane of reference (usually the primary's equator or the ecliptic), normally stated in degrees&quot; (Wikipedia, 2011). Also referred to as 'slope'. (SLOPE: slope (from interpolated raster); Datagroup description: Inclination &quot;is the angular distance of the orbital plane from the plane of reference (usually the primary's equator or the ecliptic), normally stated in degrees&quot; (Wikipedia). Also referred to as 'slope'.)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Inclination</para>
+<para>Inclination &quot;is the angular distance of the orbital plane from the plane of reference (usually the primary&#39;s equator or the ecliptic), normally stated in degrees&quot; (Wikipedia, 2011). Also referred to as &#39;slope&#39;.</para>
+<para>slope (from interpolated raster); Datagroup description: Inclination &quot;is the angular distance of the orbital plane from the plane of reference (usually the primary&#39;s equator or the ecliptic), normally stated in degrees&quot; (Wikipedia). Also referred to as &#39;slope&#39;.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='SpeciesCode'>
+<attributeName>Species codes (Species numbers in the Main experiment) (SpeciesCode), </attributeName>
+<attributeLabel>SpeciesCode</attributeLabel>
+<attributeDefinition>Tree species identifier in the Main Experiment design. Every species has been assigned a unique number which directly relates to the species planted in the Main Experiment (see e.g. Species identification Aid Main Experiment; http://china.befdata.biow.uni-leipzig.de/datasets/470; Pages 3,2,108). (SpeciesCode: focal tree species identity)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Tree species identifier in the Main Experiment design. Every species has been assigned a unique number which directly relates to the species planted in the Main Experiment (see e.g. Species identification Aid Main Experiment; http://china.befdata.biow.uni-leipzig.de/datasets/470; Pages 3,2,108).</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Species codes (Species numbers in the Main experiment)</para>
+<para>Tree species identifier in the Main Experiment design. Every species has been assigned a unique number which directly relates to the species planted in the Main Experiment (see e.g. Species identification Aid Main Experiment; http://china.befdata.biow.uni-leipzig.de/datasets/470; Pages 3,2,108).</para>
+<para>focal tree species identity</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='PSI50'>
+<attributeName>trait (PSI50), MPa</attributeName>
+<attributeLabel>PSI50</attributeLabel>
+<attributeDefinition>trait (PSI50: water potential at which 50% of xylem hydraulic conductivity is lost, data provided in Kröber, Zhang, Ehmig, &amp; Bruelheide (2014), PLoS ONE, 9, e109211)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>trait</para>
+<para>trait</para>
+<para>water potential at which 50% of xylem hydraulic conductivity is lost, data provided in Kröber, Zhang, Ehmig, &amp; Bruelheide (2014), PLoS ONE, 9, e109211</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='SAWP'>
+<attributeName>Above and below ground biomass measurement (SAWP), dimensionless</attributeName>
+<attributeLabel>SAWP</attributeLabel>
+<attributeDefinition>Above and below ground biomass measurement; Productivity; Stocks
+
+ (SAWP: standardised annual aboveground wood productivity; aboveground wood productivity (AWP) of a given focal tree in a specific census interval devided by the average AWP (using the 50% quantile of AWP) of the respective census)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Above and below ground biomass measurement</para>
+<para>Above and below ground biomass measurement; Productivity; Stocks
+
+</para>
+<para>standardised annual aboveground wood productivity; aboveground wood productivity (AWP) of a given focal tree in a specific census interval devided by the average AWP (using the 50% quantile of AWP) of the respective census</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='NCI'>
+<attributeName>Neighbourhood diverstiy (NCI), cm2 cm-2</attributeName>
+<attributeLabel>NCI</attributeLabel>
+<attributeDefinition>Diversity of the tree or shrub species surrounding the unit of study (target tree, plot) (NCI: neighbourhood competition index; the focal trees’ basal area relative to the total basal area of closest neighbours)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Neighbourhood diverstiy</para>
+<para>Diversity of the tree or shrub species surrounding the unit of study (target tree, plot)</para>
+<para>neighbourhood competition index; the focal trees’ basal area relative to the total basal area of closest neighbours</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='nb_count'>
+<attributeName>Abundance (nb_count), count</attributeName>
+<attributeLabel>nb_count</attributeLabel>
+<attributeDefinition>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study. (nb_count: total number of living neighbours)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Abundance</para>
+<para>Number of individuals determined for the respective category. The respective category can be taxonomic or functional, depending on the subject of the respective study.</para>
+<para>total number of living neighbours</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='nb_richness'>
+<attributeName>Neighbourhood diverstiy (nb_richness), count</attributeName>
+<attributeLabel>nb_richness</attributeLabel>
+<attributeDefinition>Diversity of the tree or shrub species surrounding the unit of study (target tree, plot) (nb_richness: neigbourhood tree spcies richness; the total number of closest heterospecific neighbour species)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Neighbourhood diverstiy</para>
+<para>Diversity of the tree or shrub species surrounding the unit of study (target tree, plot)</para>
+<para>neigbourhood tree spcies richness; the total number of closest heterospecific neighbour species</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='nb_mix'>
+<attributeName>Neighbourhood diverstiy (nb_mix), </attributeName>
+<attributeLabel>nb_mix</attributeLabel>
+<attributeDefinition>Diversity of the tree or shrub species surrounding the unit of study (target tree, plot) (nb_mix: neighbourhood species composition)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Diversity of the tree or shrub species surrounding the unit of study (target tree, plot)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Neighbourhood diverstiy</para>
+<para>Diversity of the tree or shrub species surrounding the unit of study (target tree, plot)</para>
+<para>neighbourhood species composition</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='SPEI_12_Oct'>
+<attributeName>Precipitation (SPEI_12_Oct), dimensionless</attributeName>
+<attributeLabel>SPEI_12_Oct</attributeLabel>
+<attributeDefinition>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+ (SPEI_12_Oct: standardised precipitation-evapotranspiration index calculated for a 12 month timescale, see Fichtner et al. 2020 (Journal of Ecology) for calculation)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Precipitation</para>
+<para>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+</para>
+<para>standardised precipitation-evapotranspiration index calculated for a 12 month timescale, see Fichtner et al. 2020 (Journal of Ecology) for calculation</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Initial_year'>
+<attributeName>Date (Initial_year), nominal Year</attributeName>
+<attributeLabel>Initial_year</attributeLabel>
+<attributeDefinition>Date (Initial_year: initial year of census)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Date</para>
+<para>Date</para>
+<para>initial year of census</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>18764</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bgc:metaProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.bgc-jena.mpg.de" xmlns:bgc="http://www.bgc-jena.mpg.de" xsi:schemaLocation="http://www.bgc-jena.mpg.de schema.xsd">
+  <bgc:general bgc:source="mixed">
+    <bgc:id bgc:source="intern">24209</bgc:id>
+    <bgc:versionID bgc:source="intern">1.2.6</bgc:versionID>
+    <bgc:title>Extracellular enzymes and wood physico-chemical parameters  in logs of the BELongDead experiment (plenter forest, Hainich NP, year 2014)</bgc:title>
+    <bgc:owners>
+      <bgc:owner number="1">Martin Hofrichter</bgc:owner>
+      <bgc:owner number="2">Sabrina Leonhardt</bgc:owner>
+      <bgc:owner number="3">Harald Kellner</bgc:owner>
+      <bgc:owner number="4">Julia Moll</bgc:owner>
+    </bgc:owners>
+    <bgc:projectName>BLD-FFD-HZG II</bgc:projectName>
+    <bgc:datasetManager>
+      <bgc:datasetManagerName disabled="disabled">Martin Hofrichter</bgc:datasetManagerName>
+      <bgc:institute disabled="disabled">International Graduate School (IHI) Zittau</bgc:institute>
+      <bgc:email disabled="disabled">martin.hofrichter@tu-dresden.de</bgc:email>
+    </bgc:datasetManager>
+  </bgc:general>
+  <bgc:researchObjects>
+    <bgc:approxNumberOfPlots>
+      <bgc:noOfGP>3</bgc:noOfGP>
+      <bgc:noOfEP>3</bgc:noOfEP>
+      <bgc:noOfMIP>3</bgc:noOfMIP>
+      <bgc:noOfVIP>3</bgc:noOfVIP>
+    </bgc:approxNumberOfPlots>
+    <bgc:habitats>
+      <bgc:grassland>no</bgc:grassland>
+      <bgc:forest>yes</bgc:forest>
+    </bgc:habitats>
+    <bgc:experimentalManipulation>no</bgc:experimentalManipulation>
+    <bgc:relativePositionToGround>
+      <bgc:aboveGround>yes</bgc:aboveGround>
+      <bgc:belowGround>no</bgc:belowGround>
+    </bgc:relativePositionToGround>
+    <bgc:repeatedMeasurement>
+      <bgc:timeBasedRepetition>
+        <bgc:numberOfRepetitions>0</bgc:numberOfRepetitions>
+      </bgc:timeBasedRepetition>
+      <bgc:plotBasedRepetition>
+        <bgc:numberOfSubPlots>0</bgc:numberOfSubPlots>
+      </bgc:plotBasedRepetition>
+    </bgc:repeatedMeasurement>
+    <bgc:taxa>
+      <bgc:taxon number="1">Fungi</bgc:taxon>
+      <bgc:taxon number="2">Microbes</bgc:taxon>
+      <bgc:taxon number="3">Plants</bgc:taxon>
+    </bgc:taxa>
+    <bgc:processesAndServices>
+      <bgc:processOrService number="1">Decomposition</bgc:processOrService>
+      <bgc:processOrService number="2">Biogeochemical Cycle - Other Nutrients</bgc:processOrService>
+    </bgc:processesAndServices>
+    <bgc:environmentalDescriptors>
+      <bgc:environmentalDescriptor number="1">Habitat Structure</bgc:environmentalDescriptor>
+    </bgc:environmentalDescriptors>
+    <bgc:bioticDataTypes>
+      <bgc:bioticDataType number="1">Multiple Species</bgc:bioticDataType>
+      <bgc:bioticDataType number="2">Chemical</bgc:bioticDataType>
+    </bgc:bioticDataTypes>
+  </bgc:researchObjects>
+  <bgc:methodology blockPublic="no">
+    <bgc:introduction input="textarea">The BELongDead experiment was conceived in 2008 under the direction of Prof. E. D. Schulze (MPI Biogeochemistry Jena) with the intention to monitor the impact of habitats on the dead wood decomposition processes and to observe colonization patterns of various saproxylic organisms over long time. Its central questions are I) how does the surrounding ecosystem influence wood decomposition, II) how does succession of the substrates proceed and III) how do microorganisms mediate wood decay and subsequently impact ecosystem processes like element turnover and storage. In total &gt;1,000 logs comprising 13 tree species were placed in all VIPs of the Biodiversity Exploratories. In this study, a subset in Hainich were analyzed with special emphasis on the differences between sapwood and heartwood.</bgc:introduction>
+    <bgc:measurements>
+      <bgc:theory input="textarea">In this set multiple extracellular enzymes involved in carbon (lignocellulose degradation), nitrogen, phosphate and sulfur cycle are analyzed representing a direct activity of the microorganism in the decomposing wood. As a result diverse wood physicochemical parameters will be affected, which are also measured, like carbon and nitrogen content, pH, Lignin-content or element contents. </bgc:theory>
+      <bgc:type input="textarea">Wood physicochemical parameters (C, N, pH, diverse Lignin proxies, elements) and extracellular enzymes laccase, general peroxidase, manganese peroxidase, endo-1,4-ß-cellulase, endo-1,4-ß-xylanase, ß-D-glucosidase, cellobiohydrolase, ß-D-xylosidase, ß-N-acetylhexosaminidase (chitinase), leucine-aminopeptidase (peptidase), ß-D-glucuronidase, α-D-mannosidase, α-L-arabinosidase, acid phosphatase, sulfatase.</bgc:type>
+    </bgc:measurements>
+    <bgc:equipment>
+      <bgc:instruments input="textarea">Spectrophotometer, HPLC (Agilent Series 1200), HPSEC (HP 1100 Liquid Chromatography), ICP-OES (Perkin-Elmer), ICP-MS, ASE, pH-Elektrode, Total Analyzer</bgc:instruments>
+      <bgc:calibration input="textarea">
+Each measurement is replicated. For controls water was used. Methylumbelliferyl was used for calibration of hydrolase activity in the HPLC approach. A standard element calibration was used for ICP approaches. A size standard was used to estimate the size of the water soluble lignin fragments during the HPSEC approach.</bgc:calibration>
+      <bgc:procedures input="textarea">A drill with 2 cm diameter was taken to get wood samples from the log diameter, which were separated into sapwood and heartwood. Wood shavings were milled and extracted with water, to measure the enzymatic activities using spectrophotometric and HPLC-assays. Water-soluble Lignin fragments were measured using a HPSEC approach, and water-soluble elements using ICP-OES and ICP-MS. The remaining wood material was dried and further extracted using ASE (accelerated solvent extraction) and acetone to estimate the content of extractives. After acid hydrolysis with HCL, the lignin content was measured. Carbon and nitrogen content was measured using a Total Analyzer. All methods followed standard procedures, for detailed information see:
+Arnstadt, T.; Hoppe, B.; Kahl, T.; Kellner, H.; Krüger, D.; Bässler, C.; Bauhus, J.; Hofrichter, M. (2016) Patterns of laccase and peroxidases in coarse woody debris of Fagus sylvatica, Picea abies and Pinus sylvestris and their relation to different wood parameters. Eur. J. For. Res. 135:109–124.
+Noll, L; Leonhardt, S; Arnstadt, T; Hoppe, B; Poll, C; Matzner, E; Hofrichter, M; Kellner, H (2016) Fungal biomass and extracellular enzyme activities in coarse woody debris of 13 tree species in the early phase of decomposition. Forest Ecology and Management 378:181-192.
+</bgc:procedures>
+    </bgc:equipment>
+  </bgc:methodology>
+  <bgc:description>
+    <bgc:acronyms>
+      <bgc:acronymPair number="1">
+        <bgc:acronym number="1" />
+        <bgc:meaning number="1" />
+      </bgc:acronymPair>
+    </bgc:acronyms>
+    <bgc:keywords>
+      <bgc:keyword number="1">enzyme activities</bgc:keyword>
+      <bgc:keyword number="2">tree species</bgc:keyword>
+      <bgc:keyword number="3">elements</bgc:keyword>
+      <bgc:keyword number="4">physico-chemical parameter</bgc:keyword>
+      <bgc:keyword number="5">abundant families</bgc:keyword>
+      <bgc:keyword number="6">fungal and bacterial species richness</bgc:keyword>
+      <bgc:keyword number="7">ecology</bgc:keyword>
+    </bgc:keywords>
+  </bgc:description>
+  <bgc:time>
+    <bgc:when timeType="period" xsi:type="bgc:dateFrame">
+      <bgc:format>dd.MM.yyyy</bgc:format>
+      <bgc:startDate>24.06.2014</bgc:startDate>
+      <bgc:endDate>24.06.2014</bgc:endDate>
+    </bgc:when>
+    <bgc:dateEntry bgc:source="intern">2018-11-14</bgc:dateEntry>
+    <bgc:dateLastModified bgc:source="intern">2018-12-12</bgc:dateLastModified>
+  </bgc:time>
+  <bgc:data>
+    <bgc:fileType>structuredData</bgc:fileType>
+    <bgc:manipulations input="textarea">none</bgc:manipulations>
+    <bgc:errors>none</bgc:errors>
+    <bgc:qualityLevel>processed</bgc:qualityLevel>
+    <bgc:dataStatus>complete</bgc:dataStatus>
+    <bgc:dataStructure>
+      <bgc:dataFormat>
+        <bgc:missingValues />
+        <bgc:NA />
+      </bgc:dataFormat>
+      <bgc:matrix>
+        <bgc:columnName />
+        <bgc:rowName />
+        <bgc:contentType />
+        <bgc:matrixUnit />
+      </bgc:matrix>
+      <bgc:variables>
+        <bgc:variable number="1">
+          <bgc:name number="1">No</bgc:name>
+          <bgc:typeOfVariable number="1">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="1" />
+          <bgc:description number="1">number</bgc:description>
+          <bgc:block number="1">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="2">
+          <bgc:name number="2">Plot</bgc:name>
+          <bgc:typeOfVariable number="2">string</bgc:typeOfVariable>
+          <bgc:units number="2" />
+          <bgc:description number="2">plot number from Hainich</bgc:description>
+          <bgc:block number="2">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="3">
+          <bgc:name number="3">ID</bgc:name>
+          <bgc:typeOfVariable number="3">string</bgc:typeOfVariable>
+          <bgc:units number="3" />
+          <bgc:description number="3">assigned name from plot and tree</bgc:description>
+          <bgc:block number="3">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="4">
+          <bgc:name number="4">tree_species_latin</bgc:name>
+          <bgc:typeOfVariable number="4">string</bgc:typeOfVariable>
+          <bgc:units number="4" />
+          <bgc:description number="4" />
+          <bgc:block number="4">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="5">
+          <bgc:name number="5">tree_species_english</bgc:name>
+          <bgc:typeOfVariable number="5">string</bgc:typeOfVariable>
+          <bgc:units number="5" />
+          <bgc:description number="5" />
+          <bgc:block number="5">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="6">
+          <bgc:name number="6">wood_type</bgc:name>
+          <bgc:typeOfVariable number="6">string</bgc:typeOfVariable>
+          <bgc:units number="6" />
+          <bgc:description number="6">samples from splint (sap = sapwood) and core (heart = heartwood)</bgc:description>
+          <bgc:block number="6">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="7">
+          <bgc:name number="7">management</bgc:name>
+          <bgc:typeOfVariable number="7">string</bgc:typeOfVariable>
+          <bgc:units number="7" />
+          <bgc:description number="7"> BuPLW</bgc:description>
+          <bgc:block number="7">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="8">
+          <bgc:name number="8">tree_type</bgc:name>
+          <bgc:typeOfVariable number="8">string</bgc:typeOfVariable>
+          <bgc:units number="8" />
+          <bgc:description number="8">classification into deciduous or coniferous wood</bgc:description>
+          <bgc:block number="8">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="9">
+          <bgc:name number="9">year</bgc:name>
+          <bgc:typeOfVariable number="9">string</bgc:typeOfVariable>
+          <bgc:units number="9" />
+          <bgc:description number="9" />
+          <bgc:block number="9">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="10">
+          <bgc:name number="10">date</bgc:name>
+          <bgc:typeOfVariable number="10">date</bgc:typeOfVariable>
+          <bgc:units number="10" />
+          <bgc:description number="10" />
+          <bgc:block number="10">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="11">
+          <bgc:name number="11">number_of_bore</bgc:name>
+          <bgc:typeOfVariable number="11">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="11" />
+          <bgc:description number="11">number of bore per log</bgc:description>
+          <bgc:block number="11">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="12">
+          <bgc:name number="12">depth</bgc:name>
+          <bgc:typeOfVariable number="12">integerNumber</bgc:typeOfVariable>
+          <bgc:units number="12">cm</bgc:units>
+          <bgc:description number="12">length of the auger</bgc:description>
+          <bgc:block number="12">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="13">
+          <bgc:name number="13">solid_content</bgc:name>
+          <bgc:typeOfVariable number="13">realNumber</bgc:typeOfVariable>
+          <bgc:units number="13">%</bgc:units>
+          <bgc:description number="13">wet mass divided by dry mass</bgc:description>
+          <bgc:block number="13">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="14">
+          <bgc:name number="14">dry_mass</bgc:name>
+          <bgc:typeOfVariable number="14">realNumber</bgc:typeOfVariable>
+          <bgc:units number="14">g</bgc:units>
+          <bgc:description number="14">mass after drying by 50 degree</bgc:description>
+          <bgc:block number="14">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="15">
+          <bgc:name number="15">extraction_volume</bgc:name>
+          <bgc:typeOfVariable number="15">realNumber</bgc:typeOfVariable>
+          <bgc:units number="15">ml</bgc:units>
+          <bgc:description number="15">calculated value for water extraction</bgc:description>
+          <bgc:block number="15">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="16">
+          <bgc:name number="16">pH</bgc:name>
+          <bgc:typeOfVariable number="16">realNumber</bgc:typeOfVariable>
+          <bgc:units number="16" />
+          <bgc:description number="16" />
+          <bgc:block number="16">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="17">
+          <bgc:name number="17">water_content_1</bgc:name>
+          <bgc:typeOfVariable number="17">realNumber</bgc:typeOfVariable>
+          <bgc:units number="17">g/g FM</bgc:units>
+          <bgc:description number="17">calculated content of water of a substance</bgc:description>
+          <bgc:block number="17">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="18">
+          <bgc:name number="18">water_content_2</bgc:name>
+          <bgc:typeOfVariable number="18">realNumber</bgc:typeOfVariable>
+          <bgc:units number="18">% FM</bgc:units>
+          <bgc:description number="18" />
+          <bgc:block number="18">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="19">
+          <bgc:name number="19">water_content_3</bgc:name>
+          <bgc:typeOfVariable number="19">realNumber</bgc:typeOfVariable>
+          <bgc:units number="19">g/g DM</bgc:units>
+          <bgc:description number="19" />
+          <bgc:block number="19">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="20">
+          <bgc:name number="20">water_content_4</bgc:name>
+          <bgc:typeOfVariable number="20">realNumber</bgc:typeOfVariable>
+          <bgc:units number="20">% DM</bgc:units>
+          <bgc:description number="20" />
+          <bgc:block number="20">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="21">
+          <bgc:name number="21">Laccase</bgc:name>
+          <bgc:typeOfVariable number="21">realNumber</bgc:typeOfVariable>
+          <bgc:units number="21">mU/g</bgc:units>
+          <bgc:description number="21">enzyme, oxidoreductase, </bgc:description>
+          <bgc:block number="21">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="22">
+          <bgc:name number="22">GenP</bgc:name>
+          <bgc:typeOfVariable number="22">realNumber</bgc:typeOfVariable>
+          <bgc:units number="22">mU/g</bgc:units>
+          <bgc:description number="22">enzyme, peroxidases</bgc:description>
+          <bgc:block number="22">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="23">
+          <bgc:name number="23">MnP</bgc:name>
+          <bgc:typeOfVariable number="23">realNumber</bgc:typeOfVariable>
+          <bgc:units number="23">mU/g</bgc:units>
+          <bgc:description number="23">enzyme, mangan-peroxidase</bgc:description>
+          <bgc:block number="23">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="24">
+          <bgc:name number="24">Endoglucanse</bgc:name>
+          <bgc:typeOfVariable number="24">realNumber</bgc:typeOfVariable>
+          <bgc:units number="24">mU/g</bgc:units>
+          <bgc:description number="24">enzyme, hydrolase, content of glucanase</bgc:description>
+          <bgc:block number="24">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="25">
+          <bgc:name number="25">Endoxylanase</bgc:name>
+          <bgc:typeOfVariable number="25">realNumber</bgc:typeOfVariable>
+          <bgc:units number="25">mU/g</bgc:units>
+          <bgc:description number="25">enzyme, hydrolase, content of xylanase</bgc:description>
+          <bgc:block number="25">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="26">
+          <bgc:name number="26">Glucosidase</bgc:name>
+          <bgc:typeOfVariable number="26">realNumber</bgc:typeOfVariable>
+          <bgc:units number="26">mU/g</bgc:units>
+          <bgc:description number="26">enzyme, content of glucosidase</bgc:description>
+          <bgc:block number="26">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="27">
+          <bgc:name number="27">Cellobiose_hydrolase</bgc:name>
+          <bgc:typeOfVariable number="27">realNumber</bgc:typeOfVariable>
+          <bgc:units number="27">mU/g</bgc:units>
+          <bgc:description number="27">enzyme, content of cellobiohydrolase</bgc:description>
+          <bgc:block number="27">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="28">
+          <bgc:name number="28">Glucosaminidase</bgc:name>
+          <bgc:typeOfVariable number="28">realNumber</bgc:typeOfVariable>
+          <bgc:units number="28">mU/g</bgc:units>
+          <bgc:description number="28">enzyme, content of chitinase</bgc:description>
+          <bgc:block number="28">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="29">
+          <bgc:name number="29">Xylosidase</bgc:name>
+          <bgc:typeOfVariable number="29">realNumber</bgc:typeOfVariable>
+          <bgc:units number="29">mU/g</bgc:units>
+          <bgc:description number="29">enzyme, content of xylosidase</bgc:description>
+          <bgc:block number="29">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="30">
+          <bgc:name number="30">Leucin_Aminopeptidase</bgc:name>
+          <bgc:typeOfVariable number="30">realNumber</bgc:typeOfVariable>
+          <bgc:units number="30">mU/g</bgc:units>
+          <bgc:description number="30">enzyme, content of peptidase</bgc:description>
+          <bgc:block number="30">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="31">
+          <bgc:name number="31">Phosphatase</bgc:name>
+          <bgc:typeOfVariable number="31">realNumber</bgc:typeOfVariable>
+          <bgc:units number="31">mU/g</bgc:units>
+          <bgc:description number="31">enzyme, content of phospathases</bgc:description>
+          <bgc:block number="31">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="32">
+          <bgc:name number="32">Glucuronidase</bgc:name>
+          <bgc:typeOfVariable number="32">realNumber</bgc:typeOfVariable>
+          <bgc:units number="32">mU/g</bgc:units>
+          <bgc:description number="32">enzyme, content of glucuronidase</bgc:description>
+          <bgc:block number="32">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="33">
+          <bgc:name number="33">Sulfatase</bgc:name>
+          <bgc:typeOfVariable number="33">realNumber</bgc:typeOfVariable>
+          <bgc:units number="33">mU/g</bgc:units>
+          <bgc:description number="33">enzyme, content of sulfatase</bgc:description>
+          <bgc:block number="33">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="34">
+          <bgc:name number="34">Arabinopyranoside</bgc:name>
+          <bgc:typeOfVariable number="34">realNumber</bgc:typeOfVariable>
+          <bgc:units number="34">mU/g</bgc:units>
+          <bgc:description number="34">enzyme, content of arabinosidase</bgc:description>
+          <bgc:block number="34">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="35">
+          <bgc:name number="35">Mannopyraniside</bgc:name>
+          <bgc:typeOfVariable number="35">realNumber</bgc:typeOfVariable>
+          <bgc:units number="35">mU/g</bgc:units>
+          <bgc:description number="35">enzyme, content of mannosidase</bgc:description>
+          <bgc:block number="35">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="36">
+          <bgc:name number="36">Amount_WSLF</bgc:name>
+          <bgc:typeOfVariable number="36">realNumber</bgc:typeOfVariable>
+          <bgc:units number="36">mg/g</bgc:units>
+          <bgc:description number="36">calculated total area from HPSEC, water soluble lignin fragments</bgc:description>
+          <bgc:block number="36">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="37">
+          <bgc:name number="37">HMWF</bgc:name>
+          <bgc:typeOfVariable number="37">realNumber</bgc:typeOfVariable>
+          <bgc:units number="37">mAU</bgc:units>
+          <bgc:description number="37">high molecular weight fragments</bgc:description>
+          <bgc:block number="37">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="38">
+          <bgc:name number="38">LMWF</bgc:name>
+          <bgc:typeOfVariable number="38">realNumber</bgc:typeOfVariable>
+          <bgc:units number="38">mAU</bgc:units>
+          <bgc:description number="38">low molecular weight fragments</bgc:description>
+          <bgc:block number="38">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="39">
+          <bgc:name number="39">lignin_content</bgc:name>
+          <bgc:typeOfVariable number="39">realNumber</bgc:typeOfVariable>
+          <bgc:units number="39">%</bgc:units>
+          <bgc:description number="39" />
+          <bgc:block number="39">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="40">
+          <bgc:name number="40">acid_soluble_lignin</bgc:name>
+          <bgc:typeOfVariable number="40">realNumber</bgc:typeOfVariable>
+          <bgc:units number="40">%</bgc:units>
+          <bgc:description number="40" />
+          <bgc:block number="40">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="41">
+          <bgc:name number="41">ASE_extract</bgc:name>
+          <bgc:typeOfVariable number="41">realNumber</bgc:typeOfVariable>
+          <bgc:units number="41">%</bgc:units>
+          <bgc:description number="41">content of extractives </bgc:description>
+          <bgc:block number="41">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="42">
+          <bgc:name number="42">Mn</bgc:name>
+          <bgc:typeOfVariable number="42">realNumber</bgc:typeOfVariable>
+          <bgc:units number="42">µg/g</bgc:units>
+          <bgc:description number="42">content of the element mangan in extraction sample</bgc:description>
+          <bgc:block number="42">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="43">
+          <bgc:name number="43">Cu</bgc:name>
+          <bgc:typeOfVariable number="43">realNumber</bgc:typeOfVariable>
+          <bgc:units number="43">µg/g</bgc:units>
+          <bgc:description number="43">content of the element copper in extraction sample</bgc:description>
+          <bgc:block number="43">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="44">
+          <bgc:name number="44">Zn</bgc:name>
+          <bgc:typeOfVariable number="44">realNumber</bgc:typeOfVariable>
+          <bgc:units number="44">µg/g</bgc:units>
+          <bgc:description number="44">content of the element zinc in extraction sample</bgc:description>
+          <bgc:block number="44">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="45">
+          <bgc:name number="45">Fe</bgc:name>
+          <bgc:typeOfVariable number="45">realNumber</bgc:typeOfVariable>
+          <bgc:units number="45">µg/g</bgc:units>
+          <bgc:description number="45">content of the element iron in extraction sample</bgc:description>
+          <bgc:block number="45">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="46">
+          <bgc:name number="46">Mg</bgc:name>
+          <bgc:typeOfVariable number="46">realNumber</bgc:typeOfVariable>
+          <bgc:units number="46">µg/g</bgc:units>
+          <bgc:description number="46">content of the element magnesium in extraction sample</bgc:description>
+          <bgc:block number="46">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="47">
+          <bgc:name number="47">K</bgc:name>
+          <bgc:typeOfVariable number="47">realNumber</bgc:typeOfVariable>
+          <bgc:units number="47">µg/g</bgc:units>
+          <bgc:description number="47">content of the element potassium in extraction sample</bgc:description>
+          <bgc:block number="47">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="48">
+          <bgc:name number="48">Ca</bgc:name>
+          <bgc:typeOfVariable number="48">realNumber</bgc:typeOfVariable>
+          <bgc:units number="48">µg/g</bgc:units>
+          <bgc:description number="48">content of the element calcium in extraction sample</bgc:description>
+          <bgc:block number="48">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="49">
+          <bgc:name number="49">C</bgc:name>
+          <bgc:typeOfVariable number="49">realNumber</bgc:typeOfVariable>
+          <bgc:units number="49">%</bgc:units>
+          <bgc:description number="49">amount of carbon</bgc:description>
+          <bgc:block number="49">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="50">
+          <bgc:name number="50">N</bgc:name>
+          <bgc:typeOfVariable number="50">realNumber</bgc:typeOfVariable>
+          <bgc:units number="50">%</bgc:units>
+          <bgc:description number="50">amount of nitrogen</bgc:description>
+          <bgc:block number="50">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="51">
+          <bgc:name number="51">C_N</bgc:name>
+          <bgc:typeOfVariable number="51">realNumber</bgc:typeOfVariable>
+          <bgc:units number="51" />
+          <bgc:description number="51">ratio of corbon and nitrogen</bgc:description>
+          <bgc:block number="51">0</bgc:block>
+        </bgc:variable>
+        <bgc:variable number="52">
+          <bgc:name number="52">DOC_DON</bgc:name>
+          <bgc:typeOfVariable number="52">realNumber</bgc:typeOfVariable>
+          <bgc:units number="52" />
+          <bgc:description number="52">dissolved organic carbon/dissolved organic nitrogen</bgc:description>
+          <bgc:block number="52">0</bgc:block>
+        </bgc:variable>
+      </bgc:variables>
+    </bgc:dataStructure>
+  </bgc:data>
+  <bgc:references>
+    <bgc:database />
+    <bgc:papers>
+      <bgc:paper number="1">Noll, L; Leonhardt, S; Arnstadt, T; Hoppe, B; Poll, C; Matzner, E; Hofrichter, M; Kellner, H [2016]: Fungal biomass and extracellular enzyme activities in coarse woody debris of 13 tree species in the early phase of decomposition, Forest Ecology and Management 378, 181-192. https://doi.org/10.1016/j.foreco.2016.07.035</bgc:paper>
+      <bgc:paper number="2">Arnstadt, T.; Hoppe, B.; Kahl, T.; Kellner, H.; Krüger, D.; Bässler, C.; Bauhus, J.; Hofrichter, M. Patterns of laccase and peroxidases in coarse woody debris of Fagus sylvatica, Picea abies and Pinus sylvestris and their relation to different wood parameters. Eur. J. For. Res. 2016, 135:109–124. https://doi.org/10.1007/s10342-015-0920-0</bgc:paper>
+    </bgc:papers>
+    <bgc:relatedDatasets>
+      <bgc:dataset number="1" />
+    </bgc:relatedDatasets>
+    <bgc:citation>Hofrichter, Martin; Sabrina Leonhardt; Harald Kellner; Julia Moll (2019): Extracellular enzymes and wood physico-chemical parameters  in logs of the BELongDead experiment (plenter forest, Hainich NP, year 2014). v1.2.6. Biodiversity Exploratories Information System. Dataset. https://www.bexis.uni-jena.de/PublicData/PublicData.aspx?DatasetId=24209</bgc:citation>
+  </bgc:references>
+  <bgc:comment />
+</bgc:metaProfile>

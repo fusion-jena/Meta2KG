@@ -1,0 +1,273 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">us-doi-gov_055f3bf9-d77d-48f2-b504-cbbfdb5a394b</name>
+	<title type="str">Habitat--Offshore Pigeon Point, California</title>
+	<description type="str">Habitat--Offshore Pigeon Point, California
+
+This part of DS 781 presents data for the habitat map of the seafloor of the Offshore of Pigeon Point map area, California. The vector data file is included in &quot;Habitat_OffshorePigeonPoint.zip,&quot; which is accessible from http://dx.doi.org/10.5066/F7513W80 Using multibeam echosounder (MBES) bathymetry and backscatter data, potential marine benthic habitat maps were constructed. The habitats were based on substrate types and documented or &quot;ground truthed&quot; using underwater video images and seafloor samples obtained by the USGS. These maps display various habitat types that range from flat, soft, unconsolidated sediment-covered seafloor to hard, deformed (folded), or highly rugose and differentially eroded bedrock exposures. Rugged, high-relief, rocky outcrops that have been eroded to form ledges and small caves are ideal habitat for rockfish (Sebastes spp.) and other bottom fish such as lingcod (Ophiodon elongatus). Habitat map is presented in a map format generated in a GIS (ArcMap), and both digital and hard-copy versions will be produced. Please refer to Greene and others (2007) for more information regarding the Benthic Marine Potential Habitat Classification Scheme and the codes used to represent various seafloor features. References Cited: Greene, H.G., Bizzarro, J.J., O'Connell, V.M., and Brylinsky, C.K., 2007, Construction of digital potential marine benthic habitat maps using a coded classification scheme and its application, in Todd, B.J., and Greene, H.G., eds., Mapping the seafloor for habitat characterization: Geological Association of Canada Special Paper 47, p. 141-155.
+
+Source: https://catalog.data.gov/dataset/habitat-offshore-pigeon-point-california-dd18d  
+Last updated at https://catalog.data.gov/organization/doi-gov : 2020-01-23  
+[More about U.S. Government Works](https://www.usa.gov/government-works)</description>
+	<homepage type="str">https://data.world/us-doi-gov/055f3bf9-d77d-48f2-b504-cbbfdb5a394b</homepage>
+	<license type="str">Public Domain</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">habitat_offshorepigeonpoint</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">objectid</name>
+						<title type="str">OBJECTID</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">objectid</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">hab_code</name>
+						<title type="str">Hab_Code</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">hab_code</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">hab_type</name>
+						<title type="str">Hab_Type</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">hab_type</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">mega_id</name>
+						<title type="str">Mega_ID</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">mega_id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">mega</name>
+						<title type="str">Mega</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">mega</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">ind_id</name>
+						<title type="str">Ind_ID</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">ind_id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">ind</name>
+						<title type="str">Ind</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">ind</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sed_id</name>
+						<title type="str">Sed_ID</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">sed_id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">sed</name>
+						<title type="str">Sed</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">sed</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">mes_mac_id</name>
+						<title type="str">Mes_Mac_ID</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">mes_mac_id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">mes_mac</name>
+						<title type="str">Mes_Mac</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">mes_mac</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">mod_id</name>
+						<title type="str">Mod_ID</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">mod_id</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">mod</name>
+						<title type="str">Mod</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">mod</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">hab_desc</name>
+						<title type="str">Hab_Desc</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">hab_desc</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">shape_area</name>
+						<title type="str">Shape_Area</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">shape_area</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/habitat_offshorepigeonpoint.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/Habitat_OffshorePigeonPoint.lyr</name>
+			<path type="str">original/Habitat_OffshorePigeonPoint.lyr</path>
+			<format type="str">lyr</format>
+			<mediatype type="str">application/x-tika-msoffice</mediatype>
+			<bytes type="int">11264</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Habitat_OffshorePigeonPoint/Habitat_OffshorePigeonPoint.dbf</name>
+			<path type="str">original/Habitat_OffshorePigeonPoint/Habitat_OffshorePigeonPoint.dbf</path>
+			<format type="str">dbf</format>
+			<mediatype type="str">application/dbf</mediatype>
+			<bytes type="int">238829</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Habitat_OffshorePigeonPoint/Habitat_OffshorePigeonPoint.prj</name>
+			<path type="str">original/Habitat_OffshorePigeonPoint/Habitat_OffshorePigeonPoint.prj</path>
+			<format type="str">prj</format>
+			<mediatype type="str">text/plain</mediatype>
+			<bytes type="int">403</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Habitat_OffshorePigeonPoint/Habitat_OffshorePigeonPoint.sbn</name>
+			<path type="str">original/Habitat_OffshorePigeonPoint/Habitat_OffshorePigeonPoint.sbn</path>
+			<format type="str">sbn</format>
+			<mediatype type="str">application/x-shapefile</mediatype>
+			<bytes type="int">3796</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Habitat_OffshorePigeonPoint/Habitat_OffshorePigeonPoint.sbx</name>
+			<path type="str">original/Habitat_OffshorePigeonPoint/Habitat_OffshorePigeonPoint.sbx</path>
+			<format type="str">sbx</format>
+			<mediatype type="str">application/x-shapefile</mediatype>
+			<bytes type="int">308</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Habitat_OffshorePigeonPoint/Habitat_OffshorePigeonPoint.shp</name>
+			<path type="str">original/Habitat_OffshorePigeonPoint/Habitat_OffshorePigeonPoint.shp</path>
+			<format type="str">shp</format>
+			<mediatype type="str">application/x-shapefile</mediatype>
+			<bytes type="int">908232</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Habitat_OffshorePigeonPoint/Habitat_OffshorePigeonPoint.shp.xml</name>
+			<path type="str">original/Habitat_OffshorePigeonPoint/Habitat_OffshorePigeonPoint.shp.xml</path>
+			<format type="str">xml</format>
+			<mediatype type="str">application/xml</mediatype>
+			<bytes type="int">21765</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Habitat_OffshorePigeonPoint/Habitat_OffshorePigeonPoint.shx</name>
+			<path type="str">original/Habitat_OffshorePigeonPoint/Habitat_OffshorePigeonPoint.shx</path>
+			<format type="str">shx</format>
+			<mediatype type="str">application/x-shapefile</mediatype>
+			<bytes type="int">3180</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Habitat_OffshorePigeonPoint_metadata.html</name>
+			<path type="str">original/Habitat_OffshorePigeonPoint_metadata.html</path>
+			<format type="str">html</format>
+			<mediatype type="str">text/html</mediatype>
+			<bytes type="int">36891</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Habitat_OffshorePigeonPoint_metadata.html(1)</name>
+			<path type="str">original/Habitat_OffshorePigeonPoint_metadata.html(1)</path>
+			<format type="str">html(1)</format>
+			<mediatype type="str">text/html</mediatype>
+			<bytes type="int">37468</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Habitat_OffshorePigeonPoint_metadata.txt</name>
+			<path type="str">original/Habitat_OffshorePigeonPoint_metadata.txt</path>
+			<format type="str">txt</format>
+			<mediatype type="str">text/plain</mediatype>
+			<bytes type="int">25738</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Habitat_OffshorePigeonPoint_metadata.txt(1)</name>
+			<path type="str">original/Habitat_OffshorePigeonPoint_metadata.txt(1)</path>
+			<format type="str">txt(1)</format>
+			<mediatype type="str">text/plain</mediatype>
+			<bytes type="int">25773</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Habitat_OffshorePigeonPoint_metadata.xml</name>
+			<path type="str">original/Habitat_OffshorePigeonPoint_metadata.xml</path>
+			<format type="str">xml</format>
+			<mediatype type="str">application/xml</mediatype>
+			<bytes type="int">22653</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Habitat_OffshorePigeonPoint_metadata.xml(1)</name>
+			<path type="str">original/Habitat_OffshorePigeonPoint_metadata.xml(1)</path>
+			<format type="str">xml(1)</format>
+			<mediatype type="str">application/xml</mediatype>
+			<bytes type="int">21765</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Habitat_OffshorePigeonPoint_metadata_faq.html</name>
+			<path type="str">original/Habitat_OffshorePigeonPoint_metadata_faq.html</path>
+			<format type="str">html</format>
+			<mediatype type="str">text/html</mediatype>
+			<bytes type="int">29353</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/Habitat_OffshorePigeonPoint_metadata_faq.html(1)</name>
+			<path type="str">original/Habitat_OffshorePigeonPoint_metadata_faq.html(1)</path>
+			<format type="str">html(1)</format>
+			<mediatype type="str">text/html</mediatype>
+			<bytes type="int">31414</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/esri-rest-api-endpoint-1.esri rest</name>
+			<path type="str">original/esri-rest-api-endpoint-1.esri rest</path>
+			<format type="str">esri rest</format>
+			<mediatype type="str">application/x-tika-msoffice</mediatype>
+			<bytes type="int">3072</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/resource_links.md</name>
+			<path type="str">original/resource_links.md</path>
+			<format type="str">md</format>
+			<mediatype type="str">text/markdown</mediatype>
+			<bytes type="int">306</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">backscatter</item>
+		<item type="str">bathymetry</item>
+		<item type="str">benthos</item>
+		<item type="str">cmgp</item>
+		<item type="str">distributions</item>
+		<item type="str">ecosystem</item>
+		<item type="str">fisheries</item>
+		<item type="str">geology</item>
+		<item type="str">habitat</item>
+		<item type="str">habitats</item>
+		<item type="str">intensity</item>
+		<item type="str">multibeam</item>
+		<item type="str">oceans</item>
+		<item type="str">seabed</item>
+		<item type="str">usgs</item>
+	</keywords>
+</all>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="bae5856f-da10-4333-90a0-5a2135361b30"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/9qxmn3</alternateIdentifier>
+    <title>The Leipzig catalogue of vascular plants</title>
+    <creator>
+    <individualName>
+<givenName>Martin</givenName>          <surName>Freiberg</surName>
+    </individualName>
+<electronicMailAddress>freiberg@uni-leipzig.de</electronicMailAddress>    </creator>
+    <associatedParty>
+    <individualName>
+<givenName>Marten</givenName>          <surName>Winter</surName>
+    </individualName>
+    <role>AUTHOR</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>Alessandro</givenName>          <surName>Gentile</surName>
+    </individualName>
+<electronicMailAddress>gentile.alessandro@gmail.com</electronicMailAddress>    <role>AUTHOR</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>Alexander</givenName>          <surName>Zizka</surName>
+    </individualName>
+<electronicMailAddress>alexander.zizka@idiv.de</electronicMailAddress>    <role>AUTHOR</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>Alexandra Nora</givenName>          <surName>Muellner-Riehl</surName>
+    </individualName>
+    <role>AUTHOR</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>Alexandra</givenName>          <surName>Weigelt</surName>
+    </individualName>
+    <role>AUTHOR</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>Christian</givenName>          <surName>Wirth</surName>
+    </individualName>
+    <role>AUTHOR</role>
+    </associatedParty>
+      <pubDate>
+      2020-12-14
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The Leipzig catalogue of vascular plants provides an updated and much improved reference list of 1,315,562 scientific names for all described vascular plant species globally. The Leipzig Catalogue of Vascular Plants (LCVP; version 1.0.3) contains 351,180 accepted species names (plus 6,160 natural hybrids), within 13,460 genera, 564 families and 84 orders. The LCVP a) contains more information on the taxonomic status of global plant names than any other similar resource, and b) significantly improves the reliability of our knowledge by e.g. resolving the taxonomic status of ~181,000 names compared to The Plant List, the up to date most commonly used plant name resource. We used ~4,500 publications, existing relevant databases and available studies on molecular phylogenetics to construct a robust reference backbone. A guiding principle during the compilation of the LCVP was to avoid polyphyletic genera, which are frequent in TPL, either by splitting genera (e.g. separating Goeppertia from Calathea) or fusing them (e.g. Stapelia and Duvalia in Ceropegia). However, we did not recombine any species name in the LCVP and in cases of unclear phylogenetic position of genera, we used the conservative (i.e. existing) name.For details on methods see https://doi.org/10.1038/s41597-020-00702-z.</para>
+    </abstract>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">https://github.com/idiv-biodiversity/LCVP</url>
+          </online>
+      </distribution>
+      <contact>
+    <individualName>
+<givenName>Martin</givenName>          <surName>Freiberg</surName>
+    </individualName>
+      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2021-12-07T12:29:00Z</dateStamp>
+      <citation>Freiberg M (2020). The Leipzig catalogue of vascular plants. German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig. Checklist dataset https://doi.org/10.15468/9qxmn3 accessed via GBIF.org on 2021-12-07.</citation>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

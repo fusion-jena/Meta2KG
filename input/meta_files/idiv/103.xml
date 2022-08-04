@@ -1,0 +1,554 @@
+<Metadata datasetId="103" metadataStructureDescriptionPath="Metadata/DatasetLevelMetadata/DatasetLevelMetadata/Dataset/DatasetType/Abstract/Abstract" metadataStructureId="6" metadataStructureName="iDiv Metadata Vers.4" metadataStructureTitlePath="Metadata/DatasetLevelMetadata/DatasetLevelMetadata/Dataset/DatasetType/Title/Title">
+    <DatasetLevelMetadata id="24" name="DatasetLevelMetadata" type="MetadataPackageUsage">
+      <DatasetLevelMetadata id="15" name="DatasetLevelMetadata" number="1" roleId="24" type="MetadataPackage">
+        <Project id="63" name="Project" type="MetadataAttributeUsage">
+          <ProjectType id="167" name="ProjectType" number="1" roleId="63" type="MetadataAttribute">
+            <Title id="126" name="Title" type="MetadataAttributeUsage">
+              <Title id="140" name="Title" number="1" roleId="126" type="MetadataAttribute">Habitat Fragmentation Meta-Analysis</Title>
+            </Title>
+            <StartDate id="127" name="StartDate" type="MetadataAttributeUsage">
+              <StartDate id="141" name="StartDate" number="1" roleId="127" type="MetadataAttribute" />
+            </StartDate>
+            <EndDate id="128" name="EndDate" type="MetadataAttributeUsage">
+              <EndDate id="142" name="EndDate" number="1" roleId="128" type="MetadataAttribute" />
+            </EndDate>
+            <Funder id="129" name="Funder" type="MetadataAttributeUsage">
+              <Funder id="143" name="Funder" number="1" roleId="129" type="MetadataAttribute" />
+            </Funder>
+            <Organisations id="130" name="Organisations" type="MetadataAttributeUsage">
+              <OrganisationsType id="151" name="OrganisationsType" number="1" roleId="130" type="MetadataAttribute">
+                <Organisation id="111" name="Organisation" type="MetadataAttributeUsage">
+                  <organisationContact id="150" name="organisationContact" number="1" roleId="111" type="MetadataAttribute">
+                    <Name id="105" name="Name" type="MetadataAttributeUsage">
+                      <Name id="144" name="Name" number="1" roleId="105" type="MetadataAttribute">German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig</Name>
+                    </Name>
+                    <URL id="106" name="URL" type="MetadataAttributeUsage">
+                      <URL id="145" name="URL" number="1" roleId="106" type="MetadataAttribute">https://www.idiv.de/</URL>
+                    </URL>
+                    <Street id="107" name="Street" type="MetadataAttributeUsage">
+                      <Street id="146" name="Street" number="1" roleId="107" type="MetadataAttribute" />
+                    </Street>
+                    <Zipcode id="108" name="Zipcode" type="MetadataAttributeUsage">
+                      <Zipcode id="147" name="Zipcode" number="1" roleId="108" type="MetadataAttribute" />
+                    </Zipcode>
+                    <City id="109" name="City" type="MetadataAttributeUsage">
+                      <City id="148" name="City" number="1" roleId="109" type="MetadataAttribute" />
+                    </City>
+                    <Country id="110" name="Country" type="MetadataAttributeUsage">
+                      <Country id="149" name="Country" number="1" roleId="110" type="MetadataAttribute" />
+                    </Country>
+                  </organisationContact>
+                </Organisation>
+              </OrganisationsType>
+            </Organisations>
+            <ContactPerson id="131" name="ContactPerson" type="MetadataAttributeUsage">
+              <ContactPersonType id="166" name="ContactPersonType" number="1" roleId="131" type="MetadataAttribute">
+                <Contact id="124" name="Contact" type="MetadataAttributeUsage">
+                  <contact id="158" name="contact" number="1" roleId="124" type="MetadataAttribute">
+                    <Name id="112" name="Name" type="MetadataAttributeUsage">
+                      <Name id="152" name="Name" number="1" roleId="112" type="MetadataAttribute">Jonathan Chase</Name>
+                    </Name>
+                    <Email id="113" name="Email" type="MetadataAttributeUsage">
+                      <Email id="153" name="Email" number="1" roleId="113" type="MetadataAttribute">jonathan.chase@idiv.de</Email>
+                    </Email>
+                    <Street id="114" name="Street" type="MetadataAttributeUsage">
+                      <Street id="154" name="Street" number="1" roleId="114" type="MetadataAttribute" />
+                    </Street>
+                    <Zipcode id="115" name="Zipcode" type="MetadataAttributeUsage">
+                      <Zipcode id="155" name="Zipcode" number="1" roleId="115" type="MetadataAttribute" />
+                    </Zipcode>
+                    <City id="116" name="City" type="MetadataAttributeUsage">
+                      <City id="156" name="City" number="1" roleId="116" type="MetadataAttribute" />
+                    </City>
+                    <Country id="117" name="Country" type="MetadataAttributeUsage">
+                      <Country id="157" name="Country" number="1" roleId="117" type="MetadataAttribute" />
+                    </Country>
+                  </contact>
+                </Contact>
+                <Organisation id="125" name="Organisation" type="MetadataAttributeUsage">
+                  <organisationContact id="165" name="organisationContact" number="1" roleId="125" type="MetadataAttribute">
+                    <Name id="118" name="Name" type="MetadataAttributeUsage">
+                      <Name id="159" name="Name" number="1" roleId="118" type="MetadataAttribute">German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig</Name>
+                    </Name>
+                    <URL id="119" name="URL" type="MetadataAttributeUsage">
+                      <URL id="160" name="URL" number="1" roleId="119" type="MetadataAttribute">https://www.idiv.de/</URL>
+                    </URL>
+                    <Street id="120" name="Street" type="MetadataAttributeUsage">
+                      <Street id="161" name="Street" number="1" roleId="120" type="MetadataAttribute" />
+                    </Street>
+                    <Zipcode id="121" name="Zipcode" type="MetadataAttributeUsage">
+                      <Zipcode id="162" name="Zipcode" number="1" roleId="121" type="MetadataAttribute" />
+                    </Zipcode>
+                    <City id="122" name="City" type="MetadataAttributeUsage">
+                      <City id="163" name="City" number="1" roleId="122" type="MetadataAttribute" />
+                    </City>
+                    <Country id="123" name="Country" type="MetadataAttributeUsage">
+                      <Country id="164" name="Country" number="1" roleId="123" type="MetadataAttribute" />
+                    </Country>
+                  </organisationContact>
+                </Organisation>
+              </ContactPersonType>
+            </ContactPerson>
+          </ProjectType>
+        </Project>
+        <Dataset id="64" name="Dataset" type="MetadataAttributeUsage">
+          <DatasetType id="196" name="DatasetType" number="1" roleId="64" type="MetadataAttribute">
+            <Title id="153" name="Title" type="MetadataAttributeUsage">
+              <Title id="168" name="Title" number="1" roleId="153" type="MetadataAttribute">The e&#64256;ects of extreme forest fragmentation on the bird community of Singapore Island</Title>
+            </Title>
+            <Language id="154" name="Language" type="MetadataAttributeUsage">
+              <Language id="169" name="Language" number="1" roleId="154" type="MetadataAttribute">English</Language>
+            </Language>
+            <Abstract id="155" name="Abstract" type="MetadataAttributeUsage">
+              <Abstract id="170" name="Abstract" number="1" roleId="155" type="MetadataAttribute">AbstractSingapore Island su&#64256;ered one of the highest known deforestation rates in the tropics from the mid-to-late 19th century whenover 95% of its native lowland forest was cleared. We compared the current bird community structure and composition amongthree habitat types, i.e., old (&gt;50 years, 7&#8211;935 ha) and young ( 6 50 years, 29&#8211;49 ha) naturally regenerating secondary forests andabandoned wooded plantations (27&#8211;102 ha) dominated by exotic species. Forest patch area had the strongest in&#64258;uence on thecurrent species richness. The overall bird richness was not greater in most mature forest patches, but 20 species were only found inthe old secondary forests and &#64257;ve of these were found in &lt;50% of these patches. The rapid decrease in the number of forestspecies in plantations was o&#64256;set by an increase in the number of open habitat species. Comparisons with current bird communitiesin nearby mainland forest sites (Peninsular Malaysia) suggest that the forest avifauna of Singapore is depauperate. The preser-vation of larger mature and maturing forests is therefore required for conserving the extant forest avifauna in Singapore.Connecting isolated patches can also be envisioned to facilitate movements of forest birds that have low densities and restricteddistribution.</Abstract>
+            </Abstract>
+            <Keywords id="156" name="Keywords" type="MetadataAttributeUsage">
+              <Keywords id="171" name="Keywords" number="1" roleId="156" type="MetadataAttribute" />
+            </Keywords>
+            <DataCreators id="157" name="DataCreators" type="MetadataAttributeUsage">
+              <DataCreatorsType id="179" name="DataCreatorsType" number="1" roleId="157" type="MetadataAttribute">
+                <DataCreator id="138" name="DataCreator" type="MetadataAttributeUsage">
+                  <contact id="178" name="contact" number="1" roleId="138" type="MetadataAttribute">
+                    <Name id="132" name="Name" type="MetadataAttributeUsage">
+                      <Name id="172" name="Name" number="1" roleId="132" type="MetadataAttribute">Marjorie  Castelletta</Name>
+                    </Name>
+                    <Email id="133" name="Email" type="MetadataAttributeUsage">
+                      <Email id="173" name="Email" number="1" roleId="133" type="MetadataAttribute" />
+                    </Email>
+                    <Street id="134" name="Street" type="MetadataAttributeUsage">
+                      <Street id="174" name="Street" number="1" roleId="134" type="MetadataAttribute" />
+                    </Street>
+                    <Zipcode id="135" name="Zipcode" type="MetadataAttributeUsage">
+                      <Zipcode id="175" name="Zipcode" number="1" roleId="135" type="MetadataAttribute" />
+                    </Zipcode>
+                    <City id="136" name="City" type="MetadataAttributeUsage">
+                      <City id="176" name="City" number="1" roleId="136" type="MetadataAttribute" />
+                    </City>
+                    <Country id="137" name="Country" type="MetadataAttributeUsage">
+                      <Country id="177" name="Country" number="1" roleId="137" type="MetadataAttribute" />
+                    </Country>
+                  </contact>
+                </DataCreator>
+              </DataCreatorsType>
+            </DataCreators>
+            <DataManagers id="158" name="DataManagers" type="MetadataAttributeUsage">
+              <DataManagersType id="187" name="DataManagersType" number="1" roleId="158" type="MetadataAttribute">
+                <DataManager id="145" name="DataManager" type="MetadataAttributeUsage">
+                  <contact id="186" name="contact" number="1" roleId="145" type="MetadataAttribute">
+                    <Name id="139" name="Name" type="MetadataAttributeUsage">
+                      <Name id="180" name="Name" number="1" roleId="139" type="MetadataAttribute">Mario Liebergesell</Name>
+                    </Name>
+                    <Email id="140" name="Email" type="MetadataAttributeUsage">
+                      <Email id="181" name="Email" number="1" roleId="140" type="MetadataAttribute">mario.liebergesell@idiv.de</Email>
+                    </Email>
+                    <Street id="141" name="Street" type="MetadataAttributeUsage">
+                      <Street id="182" name="Street" number="1" roleId="141" type="MetadataAttribute" />
+                    </Street>
+                    <Zipcode id="142" name="Zipcode" type="MetadataAttributeUsage">
+                      <Zipcode id="183" name="Zipcode" number="1" roleId="142" type="MetadataAttribute" />
+                    </Zipcode>
+                    <City id="143" name="City" type="MetadataAttributeUsage">
+                      <City id="184" name="City" number="1" roleId="143" type="MetadataAttribute" />
+                    </City>
+                    <Country id="144" name="Country" type="MetadataAttributeUsage">
+                      <Country id="185" name="Country" number="1" roleId="144" type="MetadataAttribute" />
+                    </Country>
+                  </contact>
+                </DataManager>
+              </DataManagersType>
+            </DataManagers>
+            <DataOwners id="159" name="DataOwners" type="MetadataAttributeUsage">
+              <DataOwnersType id="195" name="DataOwnersType" number="1" roleId="159" type="MetadataAttribute">
+                <DataOwner id="152" name="DataOwner" type="MetadataAttributeUsage">
+                  <contact id="194" name="contact" number="1" roleId="152" type="MetadataAttribute">
+                    <Name id="146" name="Name" type="MetadataAttributeUsage">
+                      <Name id="188" name="Name" number="1" roleId="146" type="MetadataAttribute">Marjorie  Castelletta</Name>
+                    </Name>
+                    <Email id="147" name="Email" type="MetadataAttributeUsage">
+                      <Email id="189" name="Email" number="1" roleId="147" type="MetadataAttribute" />
+                    </Email>
+                    <Street id="148" name="Street" type="MetadataAttributeUsage">
+                      <Street id="190" name="Street" number="1" roleId="148" type="MetadataAttribute" />
+                    </Street>
+                    <Zipcode id="149" name="Zipcode" type="MetadataAttributeUsage">
+                      <Zipcode id="191" name="Zipcode" number="1" roleId="149" type="MetadataAttribute" />
+                    </Zipcode>
+                    <City id="150" name="City" type="MetadataAttributeUsage">
+                      <City id="192" name="City" number="1" roleId="150" type="MetadataAttribute" />
+                    </City>
+                    <Country id="151" name="Country" type="MetadataAttributeUsage">
+                      <Country id="193" name="Country" number="1" roleId="151" type="MetadataAttribute" />
+                    </Country>
+                  </contact>
+                </DataOwner>
+              </DataOwnersType>
+            </DataOwners>
+          </DatasetType>
+        </Dataset>
+        <Data id="65" name="Data" type="MetadataAttributeUsage">
+          <DataType id="204" name="DataType" number="1" roleId="65" type="MetadataAttribute">
+            <DatasetMethodDescription id="163" name="DatasetMethodDescription" type="MetadataAttributeUsage">
+              <DatasetMethodDescription id="197" name="DatasetMethodDescription" number="1" roleId="163" type="MetadataAttribute">9-12 bird surveys in (every one of) 17 patches divided in three classes (different sizes): old secondary forest (6; 7-935 ha), young secondary forest (4; 29-49 ha) and abandonded plantations (7; 27-102 ha), collections with nist netting</DatasetMethodDescription>
+            </DatasetMethodDescription>
+            <DatasetSamplingDescription id="164" name="DatasetSamplingDescription" type="MetadataAttributeUsage">
+              <DatasetSamplingDescription id="198" name="DatasetSamplingDescription" number="1" roleId="164" type="MetadataAttribute" />
+            </DatasetSamplingDescription>
+            <DatasetSamplingEquipmentInfo id="165" name="DatasetSamplingEquipmentInfo" type="MetadataAttributeUsage">
+              <DatasetSamplingEquipmentInfo id="199" name="DatasetSamplingEquipmentInfo" number="1" roleId="165" type="MetadataAttribute" />
+            </DatasetSamplingEquipmentInfo>
+            <Abbreviations id="166" name="Abbreviations" type="MetadataAttributeUsage">
+              <AbbreviationsType id="203" name="AbbreviationsType" number="1" roleId="166" type="MetadataAttribute">
+                <Abbreviation id="162" name="Abbreviation" type="MetadataAttributeUsage">
+                  <AbbreviationType id="202" name="AbbreviationType" number="1" roleId="162" type="MetadataAttribute">
+                    <Abbreviation id="160" name="Abbreviation" type="MetadataAttributeUsage">
+                      <Abbreviation id="200" name="Abbreviation" number="1" roleId="160" type="MetadataAttribute" />
+                    </Abbreviation>
+                    <Description id="161" name="Description" type="MetadataAttributeUsage">
+                      <Description id="201" name="Description" number="1" roleId="161" type="MetadataAttribute" />
+                    </Description>
+                  </AbbreviationType>
+                </Abbreviation>
+              </AbbreviationsType>
+            </Abbreviations>
+          </DataType>
+        </Data>
+        <DataQuality id="66" name="DataQuality" type="MetadataAttributeUsage">
+          <DataQualityType id="208" name="DataQualityType" number="1" roleId="66" type="MetadataAttribute">
+            <CheckPerformed id="167" name="CheckPerformed" type="MetadataAttributeUsage">
+              <CheckPerformed id="205" name="CheckPerformed" number="1" roleId="167" type="MetadataAttribute" />
+            </CheckPerformed>
+            <Issues id="168" name="Issues" type="MetadataAttributeUsage">
+              <Issues id="206" name="Issues" number="1" roleId="168" type="MetadataAttribute" />
+            </Issues>
+            <CurationInfo id="169" name="CurationInfo" type="MetadataAttributeUsage">
+              <CurationInfo id="207" name="CurationInfo" number="1" roleId="169" type="MetadataAttribute" />
+            </CurationInfo>
+          </DataQualityType>
+        </DataQuality>
+        <PlotInfo id="67" name="PlotInfo" type="MetadataAttributeUsage">
+          <PlotInfoType id="217" name="PlotInfoType" number="1" roleId="67" type="MetadataAttribute">
+            <TotalPlots id="175" name="TotalPlots" type="MetadataAttributeUsage">
+              <TotalPlots id="209" name="TotalPlots" number="1" roleId="175" type="MetadataAttribute" />
+            </TotalPlots>
+            <GlobalIndexVegetationPlotsDatabaseID id="176" name="GlobalIndexVegetationPlotsDatabaseID" type="MetadataAttributeUsage">
+              <GlobalIndexVegetationPlotsDatabaseID id="210" name="GlobalIndexVegetationPlotsDatabaseID" number="1" roleId="176" type="MetadataAttribute" />
+            </GlobalIndexVegetationPlotsDatabaseID>
+            <Plot id="177" name="Plot" type="MetadataAttributeUsage">
+              <PlotType id="216" name="PlotType" number="1" roleId="177" type="MetadataAttribute">
+                <PlotSize id="172" name="PlotSize" type="MetadataAttributeUsage">
+                  <PlotSize id="211" name="PlotSize" number="1" roleId="172" type="MetadataAttribute" />
+                </PlotSize>
+                <NumberOfPlots id="173" name="NumberOfPlots" type="MetadataAttributeUsage">
+                  <NumberOfPlots id="212" name="NumberOfPlots" number="1" roleId="173" type="MetadataAttribute" />
+                </NumberOfPlots>
+                <SubPlots id="174" name="SubPlots" type="MetadataAttributeUsage">
+                  <SubPlotsType id="215" name="SubPlotsType" number="1" roleId="174" type="MetadataAttribute">
+                    <SubPlotSize id="170" name="SubPlotSize" type="MetadataAttributeUsage">
+                      <SubPlotSize id="213" name="SubPlotSize" number="1" roleId="170" type="MetadataAttribute" />
+                    </SubPlotSize>
+                    <NumberOfSubPlots id="171" name="NumberOfSubPlots" type="MetadataAttributeUsage">
+                      <NumberOfSubPlots id="214" name="NumberOfSubPlots" number="1" roleId="171" type="MetadataAttribute" />
+                    </NumberOfSubPlots>
+                  </SubPlotsType>
+                </SubPlots>
+              </PlotType>
+            </Plot>
+          </PlotInfoType>
+        </PlotInfo>
+        <Software id="68" name="Software" type="MetadataAttributeUsage">
+          <SoftwareType id="224" name="SoftwareType" number="1" roleId="68" type="MetadataAttribute">
+            <Application id="183" name="Application" type="MetadataAttributeUsage">
+              <ApplicationType id="223" name="ApplicationType" number="1" roleId="183" type="MetadataAttribute">
+                <Name id="180" name="Name" type="MetadataAttributeUsage">
+                  <Name id="218" name="Name" number="1" roleId="180" type="MetadataAttribute" />
+                </Name>
+                <Version id="181" name="Version" type="MetadataAttributeUsage">
+                  <Version id="219" name="Version" number="1" roleId="181" type="MetadataAttribute" />
+                </Version>
+                <Availability id="182" name="Availability" type="MetadataAttributeUsage">
+                  <AvailabilityType id="222" name="AvailabilityType" number="1" roleId="182" type="MetadataAttribute">
+                    <CompanyName id="178" name="CompanyName" type="MetadataAttributeUsage">
+                      <CompanyName id="220" name="CompanyName" number="1" roleId="178" type="MetadataAttribute" />
+                    </CompanyName>
+                    <URL id="179" name="URL" type="MetadataAttributeUsage">
+                      <URL id="221" name="URL" number="1" roleId="179" type="MetadataAttribute" />
+                    </URL>
+                  </AvailabilityType>
+                </Availability>
+              </ApplicationType>
+            </Application>
+          </SoftwareType>
+        </Software>
+        <DataAccessPolicy id="69" name="DataAccessPolicy" type="MetadataAttributeUsage">
+          <DataAccessPolicyType id="226" name="DataAccessPolicyType" number="1" roleId="69" type="MetadataAttribute">
+            <DataAccessPolicy id="184" name="DataAccessPolicy" type="MetadataAttributeUsage">
+              <DataAccessPolicy id="225" name="DataAccessPolicy" number="1" roleId="184" type="MetadataAttribute">restricted - part of a meta-analysis (we do not own the data)</DataAccessPolicy>
+            </DataAccessPolicy>
+          </DataAccessPolicyType>
+        </DataAccessPolicy>
+        <AdditionalInfo id="70" name="AdditionalInfo" type="MetadataAttributeUsage">
+          <AdditionalInfoType id="230" name="AdditionalInfoType" number="1" roleId="70" type="MetadataAttribute">
+            <DOI id="185" name="DOI" type="MetadataAttributeUsage">
+              <DOI id="227" name="DOI" number="1" roleId="185" type="MetadataAttribute" />
+            </DOI>
+            <RelatedDataset id="186" name="RelatedDataset" type="MetadataAttributeUsage">
+              <RelatedDataset id="228" name="RelatedDataset" number="1" roleId="186" type="MetadataAttribute" />
+            </RelatedDataset>
+            <DatasetLevelAdditionalMetadata id="187" name="DatasetLevelAdditionalMetadata" type="MetadataAttributeUsage">
+              <DatasetLevelAdditionalMetadata id="229" name="DatasetLevelAdditionalMetadata" number="1" roleId="187" type="MetadataAttribute">Castelletta, M., Thiollay, J.M. &amp; Sodhi, N.S., 2005. The effects of extreme forest fragmentation on the bird community of Singapore Island. Biological Conservation, 121(1), pp.135&#8211;155.</DatasetLevelAdditionalMetadata>
+            </DatasetLevelAdditionalMetadata>
+          </AdditionalInfoType>
+        </AdditionalInfo>
+      </DatasetLevelMetadata>
+    </DatasetLevelMetadata>
+    <EnvironmentalLevelMetadata id="25" name="EnvironmentalLevelMetadata" type="MetadataPackageUsage">
+      <EnvironmentalLevelMetadata id="16" name="EnvironmentalLevelMetadata" number="1" roleId="25" type="MetadataPackage">
+        <SpatialCoverage id="71" name="SpatialCoverage" type="MetadataAttributeUsage">
+          <SpatialCoverage id="231" name="SpatialCoverage" number="1" roleId="71" type="MetadataAttribute" />
+        </SpatialCoverage>
+        <Biome id="72" name="Biome" type="MetadataAttributeUsage">
+          <Biome id="232" name="Biome" number="1" roleId="72" type="MetadataAttribute" />
+        </Biome>
+        <GeoreferenceSource id="73" name="GeoreferenceSource" type="MetadataAttributeUsage">
+          <GeoreferenceSource id="233" name="GeoreferenceSource" number="1" roleId="73" type="MetadataAttribute" />
+        </GeoreferenceSource>
+        <GeoreferenceRemarks id="74" name="GeoreferenceRemarks" type="MetadataAttributeUsage">
+          <GeoreferenceRemarks id="234" name="GeoreferenceRemarks" number="1" roleId="74" type="MetadataAttribute" />
+        </GeoreferenceRemarks>
+        <Locations id="75" name="Locations" type="MetadataAttributeUsage">
+          <LocationsType id="247" name="LocationsType" number="1" roleId="75" type="MetadataAttribute">
+            <Location id="199" name="Location" type="MetadataAttributeUsage">
+              <LocationType id="246" name="LocationType" number="1" roleId="199" type="MetadataAttribute">
+                <LocationName id="188" name="LocationName" type="MetadataAttributeUsage">
+                  <LocationName id="235" name="LocationName" number="1" roleId="188" type="MetadataAttribute" />
+                </LocationName>
+                <Latitude id="189" name="Latitude" type="MetadataAttributeUsage">
+                  <Latitude id="236" name="Latitude" number="1" roleId="189" type="MetadataAttribute" />
+                </Latitude>
+                <Longitude id="190" name="Longitude" type="MetadataAttributeUsage">
+                  <Longitude id="237" name="Longitude" number="1" roleId="190" type="MetadataAttribute" />
+                </Longitude>
+                <Altitude id="191" name="Altitude" type="MetadataAttributeUsage">
+                  <Altitude id="238" name="Altitude" number="1" roleId="191" type="MetadataAttribute" />
+                </Altitude>
+                <Depth id="192" name="Depth" type="MetadataAttributeUsage">
+                  <Depth id="239" name="Depth" number="1" roleId="192" type="MetadataAttribute" />
+                </Depth>
+                <CoordinateReferenceSystem id="193" name="CoordinateReferenceSystem" type="MetadataAttributeUsage">
+                  <CoordinateReferenceSystem id="240" name="CoordinateReferenceSystem" number="1" roleId="193" type="MetadataAttribute" />
+                </CoordinateReferenceSystem>
+                <Precision id="194" name="Precision" type="MetadataAttributeUsage">
+                  <Precision id="241" name="Precision" number="1" roleId="194" type="MetadataAttribute" />
+                </Precision>
+                <Country id="195" name="Country" type="MetadataAttributeUsage">
+                  <Country id="242" name="Country" number="1" roleId="195" type="MetadataAttribute" />
+                </Country>
+                <Slope id="196" name="Slope" type="MetadataAttributeUsage">
+                  <Slope id="243" name="Slope" number="1" roleId="196" type="MetadataAttribute" />
+                </Slope>
+                <Aspect id="197" name="Aspect" type="MetadataAttributeUsage">
+                  <Aspect id="244" name="Aspect" number="1" roleId="197" type="MetadataAttribute" />
+                </Aspect>
+                <Habitat id="198" name="Habitat" type="MetadataAttributeUsage">
+                  <Habitat id="245" name="Habitat" number="1" roleId="198" type="MetadataAttribute" />
+                </Habitat>
+              </LocationType>
+            </Location>
+          </LocationsType>
+        </Locations>
+        <Polygons id="76" name="Polygons" type="MetadataAttributeUsage">
+          <PolygonsType id="254" name="PolygonsType" number="1" roleId="76" type="MetadataAttribute">
+            <Polygon id="205" name="Polygon" type="MetadataAttributeUsage">
+              <PolygonType id="253" name="PolygonType" number="1" roleId="205" type="MetadataAttribute">
+                <PolygonTitle id="203" name="PolygonTitle" type="MetadataAttributeUsage">
+                  <PolygonTitle id="248" name="PolygonTitle" number="1" roleId="203" type="MetadataAttribute" />
+                </PolygonTitle>
+                <Point id="204" name="Point" type="MetadataAttributeUsage">
+                  <PointType id="252" name="PointType" number="1" roleId="204" type="MetadataAttribute">
+                    <Latitude id="200" name="Latitude" type="MetadataAttributeUsage">
+                      <Latitude id="249" name="Latitude" number="1" roleId="200" type="MetadataAttribute" />
+                    </Latitude>
+                    <Longitude id="201" name="Longitude" type="MetadataAttributeUsage">
+                      <Longitude id="250" name="Longitude" number="1" roleId="201" type="MetadataAttribute" />
+                    </Longitude>
+                    <Altitude id="202" name="Altitude" type="MetadataAttributeUsage">
+                      <Altitude id="251" name="Altitude" number="1" roleId="202" type="MetadataAttribute" />
+                    </Altitude>
+                  </PointType>
+                </Point>
+              </PolygonType>
+            </Polygon>
+          </PolygonsType>
+        </Polygons>
+        <Remarks id="77" name="Remarks" type="MetadataAttributeUsage">
+          <RemarksType id="256" name="RemarksType" number="1" roleId="77" type="MetadataAttribute">
+            <EnvironmentalLevelAdditionalMetadata id="206" name="EnvironmentalLevelAdditionalMetadata" type="MetadataAttributeUsage">
+              <EnvironmentalLevelAdditionalMetadata id="255" name="EnvironmentalLevelAdditionalMetadata" number="1" roleId="206" type="MetadataAttribute" />
+            </EnvironmentalLevelAdditionalMetadata>
+          </RemarksType>
+        </Remarks>
+      </EnvironmentalLevelMetadata>
+    </EnvironmentalLevelMetadata>
+    <OrganismLevelMetadata id="26" name="OrganismLevelMetadata" type="MetadataPackageUsage">
+      <OrganismLevelMetadata id="17" name="OrganismLevelMetadata" number="1" roleId="26" type="MetadataPackage">
+        <Organisms id="78" name="Organisms" type="MetadataAttributeUsage">
+          <OrganismsType id="279" name="OrganismsType" number="1" roleId="78" type="MetadataAttribute">
+            <Organism id="228" name="Organism" type="MetadataAttributeUsage">
+              <OrganismType id="278" name="OrganismType" number="1" roleId="228" type="MetadataAttribute">
+                <TaxonCoverage id="222" name="TaxonCoverage" type="MetadataAttributeUsage">
+                  <TaxonCoverage id="257" name="TaxonCoverage" number="1" roleId="222" type="MetadataAttribute" />
+                </TaxonCoverage>
+                <Family id="223" name="Family" type="MetadataAttributeUsage">
+                  <Family id="258" name="Family" number="1" roleId="223" type="MetadataAttribute" />
+                </Family>
+                <ScientificName id="224" name="ScientificName" type="MetadataAttributeUsage">
+                  <ScientificName id="259" name="ScientificName" number="1" roleId="224" type="MetadataAttribute" />
+                </ScientificName>
+                <Subspecies id="225" name="Subspecies" type="MetadataAttributeUsage">
+                  <Subspecies id="260" name="Subspecies" number="1" roleId="225" type="MetadataAttribute" />
+                </Subspecies>
+                <LifeScienceIdentifier id="226" name="LifeScienceIdentifier" type="MetadataAttributeUsage">
+                  <LifeScienceIdentifier id="261" name="LifeScienceIdentifier" number="1" roleId="226" type="MetadataAttribute" />
+                </LifeScienceIdentifier>
+                <VoucherSpecimen id="227" name="VoucherSpecimen" type="MetadataAttributeUsage">
+                  <VoucherSpecimenType id="277" name="VoucherSpecimenType" number="1" roleId="227" type="MetadataAttribute">
+                    <Institute id="219" name="Institute" type="MetadataAttributeUsage">
+                      <organisationContact id="268" name="organisationContact" number="1" roleId="219" type="MetadataAttribute">
+                        <Name id="207" name="Name" type="MetadataAttributeUsage">
+                          <Name id="262" name="Name" number="1" roleId="207" type="MetadataAttribute" />
+                        </Name>
+                        <URL id="208" name="URL" type="MetadataAttributeUsage">
+                          <URL id="263" name="URL" number="1" roleId="208" type="MetadataAttribute" />
+                        </URL>
+                        <Street id="209" name="Street" type="MetadataAttributeUsage">
+                          <Street id="264" name="Street" number="1" roleId="209" type="MetadataAttribute" />
+                        </Street>
+                        <Zipcode id="210" name="Zipcode" type="MetadataAttributeUsage">
+                          <Zipcode id="265" name="Zipcode" number="1" roleId="210" type="MetadataAttribute" />
+                        </Zipcode>
+                        <City id="211" name="City" type="MetadataAttributeUsage">
+                          <City id="266" name="City" number="1" roleId="211" type="MetadataAttribute" />
+                        </City>
+                        <Country id="212" name="Country" type="MetadataAttributeUsage">
+                          <Country id="267" name="Country" number="1" roleId="212" type="MetadataAttribute" />
+                        </Country>
+                      </organisationContact>
+                    </Institute>
+                    <IdentifiedBy id="220" name="IdentifiedBy" type="MetadataAttributeUsage">
+                      <contact id="275" name="contact" number="1" roleId="220" type="MetadataAttribute">
+                        <Name id="213" name="Name" type="MetadataAttributeUsage">
+                          <Name id="269" name="Name" number="1" roleId="213" type="MetadataAttribute" />
+                        </Name>
+                        <Email id="214" name="Email" type="MetadataAttributeUsage">
+                          <Email id="270" name="Email" number="1" roleId="214" type="MetadataAttribute" />
+                        </Email>
+                        <Street id="215" name="Street" type="MetadataAttributeUsage">
+                          <Street id="271" name="Street" number="1" roleId="215" type="MetadataAttribute" />
+                        </Street>
+                        <Zipcode id="216" name="Zipcode" type="MetadataAttributeUsage">
+                          <Zipcode id="272" name="Zipcode" number="1" roleId="216" type="MetadataAttribute" />
+                        </Zipcode>
+                        <City id="217" name="City" type="MetadataAttributeUsage">
+                          <City id="273" name="City" number="1" roleId="217" type="MetadataAttribute" />
+                        </City>
+                        <Country id="218" name="Country" type="MetadataAttributeUsage">
+                          <Country id="274" name="Country" number="1" roleId="218" type="MetadataAttribute" />
+                        </Country>
+                      </contact>
+                    </IdentifiedBy>
+                    <AccessID id="221" name="AccessID" type="MetadataAttributeUsage">
+                      <AccessID id="276" name="AccessID" number="1" roleId="221" type="MetadataAttribute" />
+                    </AccessID>
+                  </VoucherSpecimenType>
+                </VoucherSpecimen>
+              </OrganismType>
+            </Organism>
+          </OrganismsType>
+        </Organisms>
+        <Remarks id="79" name="Remarks" type="MetadataAttributeUsage">
+          <RemarksType id="281" name="RemarksType" number="1" roleId="79" type="MetadataAttribute">
+            <OrganismLevelAdditionalMetadata id="229" name="OrganismLevelAdditionalMetadata" type="MetadataAttributeUsage">
+              <OrganismLevelAdditionalMetadata id="280" name="OrganismLevelAdditionalMetadata" number="1" roleId="229" type="MetadataAttribute" />
+            </OrganismLevelAdditionalMetadata>
+          </RemarksType>
+        </Remarks>
+      </OrganismLevelMetadata>
+    </OrganismLevelMetadata>
+    <SequenceLevelMetadata id="27" name="SequenceLevelMetadata" type="MetadataPackageUsage">
+      <SequenceLevelMetadata id="18" name="SequenceLevelMetadata" number="1" roleId="27" type="MetadataPackage">
+        <NumberOfSamples id="80" name="NumberOfSamples" type="MetadataAttributeUsage">
+          <NumberOfSamples id="282" name="NumberOfSamples" number="1" roleId="80" type="MetadataAttribute" />
+        </NumberOfSamples>
+        <TypeOfMoleculesExtracted id="81" name="TypeOfMoleculesExtracted" type="MetadataAttributeUsage">
+          <TypeOfMoleculesExtracted id="283" name="TypeOfMoleculesExtracted" number="1" roleId="81" type="MetadataAttribute" />
+        </TypeOfMoleculesExtracted>
+        <PermitNumber id="82" name="PermitNumber" type="MetadataAttributeUsage">
+          <PermitNumber id="284" name="PermitNumber" number="1" roleId="82" type="MetadataAttribute" />
+        </PermitNumber>
+        <Samples id="83" name="Samples" type="MetadataAttributeUsage">
+          <SamplesType id="290" name="SamplesType" number="1" roleId="83" type="MetadataAttribute">
+            <Sample id="234" name="Sample" type="MetadataAttributeUsage">
+              <SampleType id="289" name="SampleType" number="1" roleId="234" type="MetadataAttribute">
+                <TitleOfSample id="230" name="TitleOfSample" type="MetadataAttributeUsage">
+                  <TitleOfSample id="285" name="TitleOfSample" number="1" roleId="230" type="MetadataAttribute" />
+                </TitleOfSample>
+                <SourceMaterialOfSample id="231" name="SourceMaterialOfSample" type="MetadataAttributeUsage">
+                  <SourceMaterialOfSample id="286" name="SourceMaterialOfSample" number="1" roleId="231" type="MetadataAttribute" />
+                </SourceMaterialOfSample>
+                <SampleDescription id="232" name="SampleDescription" type="MetadataAttributeUsage">
+                  <SampleDescription id="287" name="SampleDescription" number="1" roleId="232" type="MetadataAttribute" />
+                </SampleDescription>
+                <SampleCharacteristic id="233" name="SampleCharacteristic" type="MetadataAttributeUsage">
+                  <SampleCharacteristic id="288" name="SampleCharacteristic" number="1" roleId="233" type="MetadataAttribute" />
+                </SampleCharacteristic>
+              </SampleType>
+            </Sample>
+          </SamplesType>
+        </Samples>
+        <SequenceProtocols id="84" name="SequenceProtocols" type="MetadataAttributeUsage">
+          <SequenceProtocolsType id="296" name="SequenceProtocolsType" number="1" roleId="84" type="MetadataAttribute">
+            <SequenceProtocol id="239" name="SequenceProtocol" type="MetadataAttributeUsage">
+              <SequenceProtocolType id="295" name="SequenceProtocolType" number="1" roleId="239" type="MetadataAttribute">
+                <GrowthOfOrganismOrCells id="235" name="GrowthOfOrganismOrCells" type="MetadataAttributeUsage">
+                  <GrowthOfOrganismOrCells id="291" name="GrowthOfOrganismOrCells" number="1" roleId="235" type="MetadataAttribute" />
+                </GrowthOfOrganismOrCells>
+                <TreatmentAppliedToBiologicalMaterial id="236" name="TreatmentAppliedToBiologicalMaterial" type="MetadataAttributeUsage">
+                  <TreatmentAppliedToBiologicalMaterial id="292" name="TreatmentAppliedToBiologicalMaterial" number="1" roleId="236" type="MetadataAttribute" />
+                </TreatmentAppliedToBiologicalMaterial>
+                <ExtractionProtocol id="237" name="ExtractionProtocol" type="MetadataAttributeUsage">
+                  <ExtractionProtocol id="293" name="ExtractionProtocol" number="1" roleId="237" type="MetadataAttribute" />
+                </ExtractionProtocol>
+                <SampleMeasured id="238" name="SampleMeasured" type="MetadataAttributeUsage">
+                  <SampleMeasured id="294" name="SampleMeasured" number="1" roleId="238" type="MetadataAttribute" />
+                </SampleMeasured>
+              </SequenceProtocolType>
+            </SequenceProtocol>
+          </SequenceProtocolsType>
+        </SequenceProtocols>
+        <SequenceDataProcessingInfo id="85" name="SequenceDataProcessingInfo" type="MetadataAttributeUsage">
+          <SequenceDataProcessingInfoType id="301" name="SequenceDataProcessingInfoType" number="1" roleId="85" type="MetadataAttribute">
+            <DataProcessingPipelineDescription id="240" name="DataProcessingPipelineDescription" type="MetadataAttributeUsage">
+              <DataProcessingPipelineDescription id="297" name="DataProcessingPipelineDescription" number="1" roleId="240" type="MetadataAttribute" />
+            </DataProcessingPipelineDescription>
+            <RawDataFileFormat id="241" name="RawDataFileFormat" type="MetadataAttributeUsage">
+              <RawDataFileFormat id="298" name="RawDataFileFormat" number="1" roleId="241" type="MetadataAttribute" />
+            </RawDataFileFormat>
+            <ProcessedDataFileFormat id="242" name="ProcessedDataFileFormat" type="MetadataAttributeUsage">
+              <ProcessedDataFileFormat id="299" name="ProcessedDataFileFormat" number="1" roleId="242" type="MetadataAttribute" />
+            </ProcessedDataFileFormat>
+            <InstrumentModelUsed id="243" name="InstrumentModelUsed" type="MetadataAttributeUsage">
+              <InstrumentModelUsed id="300" name="InstrumentModelUsed" number="1" roleId="243" type="MetadataAttribute" />
+            </InstrumentModelUsed>
+          </SequenceDataProcessingInfoType>
+        </SequenceDataProcessingInfo>
+        <Remarks id="86" name="Remarks" type="MetadataAttributeUsage">
+          <RemarksType id="303" name="RemarksType" number="1" roleId="86" type="MetadataAttribute">
+            <SequenceLevelAdditionalMetadata id="244" name="SequenceLevelAdditionalMetadata" type="MetadataAttributeUsage">
+              <SequenceLevelAdditionalMetadata id="302" name="SequenceLevelAdditionalMetadata" number="1" roleId="244" type="MetadataAttribute" />
+            </SequenceLevelAdditionalMetadata>
+          </RemarksType>
+        </Remarks>
+      </SequenceLevelMetadata>
+    </SequenceLevelMetadata>
+  </Metadata>
+  

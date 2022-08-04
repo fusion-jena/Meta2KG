@@ -1,0 +1,2041 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='204'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/204</alternateIdentifier>
+<title>CSPs: Coarse woody debris (CWD). Collection of data on dead wood with special regard to the 2008 ice storm</title>
+<creator id='gvonoheimb'>
+<individualName>
+<givenName>Goddert</givenName>
+<surName>von Oheimb</surName>
+</individualName>
+
+
+<electronicMailAddress>Goddert_v_Oheimb@tu-dresden.de</electronicMailAddress>
+</creator>
+<creator id='cwirth'>
+<individualName>
+<givenName>Christian</givenName>
+<surName>Wirth</surName>
+</individualName>
+
+
+<electronicMailAddress>cwirth@uni-leipzig.de</electronicMailAddress>
+</creator>
+<creator id='nadrowski'>
+<individualName>
+<givenName>Karin</givenName>
+<surName>Nadrowski</surName>
+</individualName>
+
+<address>
+
+
+
+</address>
+
+<electronicMailAddress>nadrowski@uni-leipzig.de</electronicMailAddress>
+</creator>
+<pubDate>2012-03-06</pubDate>
+<language>en_US</language>
+<abstract>
+<para>1) Objectives: -- a) Quantify “undisturbed” state prior to snow break. -- b) Quantify carbon and nitrogen stocks in aboveground CWD as a component of a full carbon and nitrogen budget.  -- c) Estimate turnover of CWD carbon depending on species, positioning and mortality i) Indirect carbon balance approach: Calculate deadwood input (I) to the forest floor by combining chronosequence data on woody increment and biomass. Calculate turnover  under assumption of equilibrium stocks (M/I)  ii) Direct approach: Revisit site after 2 to 3 years and measure position, take a sample to estimate density and volume loss (in-situ observations indicate a progression from a solid log to something substantially decayed within few months).  -- d) Compare species-specific sensitivities to snowbreak as a trait  i) Calculate the likelihood of being subject to snowbreak given the species, size and potentially the relative position using logistic regression   ii) Calculate the likelihood of snag survival; this requires re-sampling  iii) Estimate the down-slope transport of deadwood pieces   iv) Estimate the time it takes for deadwood to collapse and touch the forest floor  ----- File asset Plot_skizze.pdf: plot sketch how the debris objects are selected - File asset sp10 CWD_protocol_Gutianshan_AF_20081215_kn.doc: Inventory protocol, should be included into methods ----- 2) Objective allometries: use some of the downed or alive trees to establish coarse allometries to estimate volume of the remaining intems</para>
+
+</abstract>
+<keywordSet>
+<keyword>allometries</keyword>
+<keyword>basal diameter</keyword>
+<keyword>coarse woody debris</keyword>
+<keyword>co-variable</keyword>
+<keyword>CSP</keyword>
+<keyword>date</keyword>
+<keyword>dbh</keyword>
+<keyword>dead wood</keyword>
+<keyword>decomposition</keyword>
+<keyword>fungi</keyword>
+<keyword>ice storm</keyword>
+<keyword>location</keyword>
+<keyword>mortality</keyword>
+<keyword>object</keyword>
+<keyword>red mould</keyword>
+<keyword>response variable</keyword>
+<keyword>size</keyword>
+<keyword>snag height</keyword>
+<keyword>soil</keyword>
+<keyword>species</keyword>
+<keyword>stem</keyword>
+<keyword>termites</keyword>
+<keyword>weather</keyword>
+<keyword>woody debris</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>rownr</keyword>
+<keyword>date</keyword>
+<keyword>Date</keyword>
+<keyword>start</keyword>
+<keyword>end</keyword>
+<keyword>plotignore</keyword>
+<keyword>CSP</keyword>
+<keyword>working condition</keyword>
+<keyword>protoc.first</keyword>
+<keyword>protoc.sur</keyword>
+<keyword>meas.first</keyword>
+<keyword>meas.sur</keyword>
+<keyword>entered.first</keyword>
+<keyword>entered.sur</keyword>
+<keyword>entered.date</keyword>
+<keyword>page</keyword>
+<keyword>Central_subplot</keyword>
+<keyword>CWD-Id</keyword>
+<keyword>CWD_CSP_original</keyword>
+<keyword>Idaddon</keyword>
+<keyword>CWD_CSP</keyword>
+<keyword>Species</keyword>
+<keyword>specunpolished</keyword>
+<keyword>TagAFCW</keyword>
+<keyword>TagMBa</keyword>
+<keyword>TagAFCW original</keyword>
+<keyword>TagMBa original</keyword>
+<keyword>DBH</keyword>
+<keyword>dbh.comment</keyword>
+<keyword>dbhpostmean</keyword>
+<keyword>dbhpostsd</keyword>
+<keyword>stemsGrEq10</keyword>
+<keyword>stemsCnSm10</keyword>
+<keyword>height</keyword>
+<keyword>BD</keyword>
+<keyword>lookup tag</keyword>
+<keyword>dbase.remark.kn</keyword>
+<keyword>dtop</keyword>
+<keyword>dtop.remark.kn</keyword>
+<keyword>length</keyword>
+<keyword>len.rem.kn</keyword>
+<keyword>height_length</keyword>
+<keyword>hei.len.rem.kn</keyword>
+<keyword>broken at</keyword>
+<keyword>broken diam</keyword>
+<keyword>neigh.label</keyword>
+<keyword>reference is self</keyword>
+<keyword>neigh.dist</keyword>
+<keyword>neigh.azimut</keyword>
+<keyword>direction CWD</keyword>
+<keyword>pos.cw</keyword>
+<keyword>pos.af_original</keyword>
+<keyword>plot estimate</keyword>
+<keyword>pos.af</keyword>
+<keyword>alive</keyword>
+<keyword>sc</keyword>
+<keyword>mc</keyword>
+<keyword>dc</keyword>
+<keyword>ter</keyword>
+<keyword>rot</keyword>
+<keyword>fungi</keyword>
+<keyword>valid</keyword>
+<keyword>crown_origin</keyword>
+<keyword>remark</keyword>
+<keyword>vol_factor</keyword>
+<keyword>Allometrie</keyword>
+<keyword>comment Karin</keyword>
+<keyword>meandbh</keyword>
+<keyword>meanGr10</keyword>
+<keyword>meanSm10Cn</keyword>
+<keyword>ice_storm_representative</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Permission is granted to anybody to access, use and publish all open for public data freely. The commercial use of any data is prohibited. The quality and completeness of data cannot be guaranteed. Users employ these data at their own risk. In order to make attribution of use for owners of the data possible, the identifier of ownership of data must be retained with every data record. Users must publicly acknowledge, in conjunction with the use of the data, the data owners. Cite the data as follows: von Oheimb, G., Nadrowski, K. and  Wirth, C.(2013): Coarse woody debris (CWD): Collection of data on dead wood with special regard to the 2008 ice storm. BEF-China data portal (Accessed through URL http://china.befdata.biow.uni-leipzig.de/datasets/204)</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/204/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>CSPs - Comparative Study Plots, Gutianshan National Nature Reserve
+29°08'-29°17'N
+118°02'-118°11'E</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2008-03-06
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2009-03-06
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>tree individuals</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+tree individuals
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>gvonoheimb</references>
+</contact>
+<contact>
+<references>cwirth</references>
+</contact>
+<contact>
+<references>nadrowski</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>CSPs: Coarse woody debris (CWD). Collection of data on dead wood with special regard to the 2008 ice storm</para>
+<para>1) Objectives: -- a) Quantify “undisturbed” state prior to snow break. -- b) Quantify carbon and nitrogen stocks in aboveground CWD as a component of a full carbon and nitrogen budget.  -- c) Estimate turnover of CWD carbon depending on species, positioning and mortality i) Indirect carbon balance approach: Calculate deadwood input (I) to the forest floor by combining chronosequence data on woody increment and biomass. Calculate turnover  under assumption of equilibrium stocks (M/I)  ii) Direct approach: Revisit site after 2 to 3 years and measure position, take a sample to estimate density and volume loss (in-situ observations indicate a progression from a solid log to something substantially decayed within few months).  -- d) Compare species-specific sensitivities to snowbreak as a trait  i) Calculate the likelihood of being subject to snowbreak given the species, size and potentially the relative position using logistic regression   ii) Calculate the likelihood of snag survival; this requires re-sampling  iii) Estimate the down-slope transport of deadwood pieces   iv) Estimate the time it takes for deadwood to collapse and touch the forest floor  ----- File asset Plot_skizze.pdf: plot sketch how the debris objects are selected - File asset sp10 CWD_protocol_Gutianshan_AF_20081215_kn.doc: Inventory protocol, should be included into methods ----- 2) Objective allometries: use some of the downed or alive trees to establish coarse allometries to estimate volume of the remaining intems</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2008-03-06 00:00:00 UTC - 2009-03-06 00:00:00 UTC</para>
+<para>Gutianshan reserve, CSP Plots, Autumn 2008 and following surveys in 2009, dead woody debris
+</para>
+<para>CSPs - Comparative Study Plots, Gutianshan National Nature Reserve
+29°08&#39;-29°17&#39;N
+118°02&#39;-118°11&#39;E</para>
+<para>tree individuals</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>within center plot different from in the outer plots</para>
+<para>one can use it to assess the snowbreak loss and the amount of woody debris; mind that there are extra parts measured of trees labelled &quot;allometries&quot;; these parts should not be included into extrapolation of woody debris mass. Check column descriptions for more information. Ignore the &quot;plotignore&quot; rows, since these are double counted. To combine these data with the data of the living trees, check the dataset on metal tags and coarse woody debris items &quot;Metal tags for coarse woody debris (CWD) items in the CSPs and corresponding metal tags and stem ids from the living tree data.&quot;.</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/204</entityName>
+<entityDescription>CSPs: Coarse woody debris (CWD). Collection of data on dead wood with special regard to the 2008 ice storm</entityDescription>
+<physical>
+<objectName>/datasets/204</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/204/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='rownr'>
+<attributeName>Helper (rownr), dimensionless</attributeName>
+<attributeLabel>rownr</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (rownr: rownr in the original Excel file; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>rownr in the original Excel file; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='date'>
+<attributeName>Date time information (date), date</attributeName>
+<attributeLabel>date</attributeLabel>
+<attributeDefinition>Date time information, given as year or as date or as date time. (date: mm/dd/yyyyDate time information; Datagroup description: Date time information)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Date time information, given as year or as date or as date time.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Date time information</para>
+<para>Date time information, given as year or as date or as date time.</para>
+<para>mm/dd/yyyyDate time information; Datagroup description: Date time information</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Date'>
+<attributeName>Date time information (Date), date</attributeName>
+<attributeLabel>Date</attributeLabel>
+<attributeDefinition>Date time information, given as year or as date or as date time. (Date: dd.mm.yyDate time information; Datagroup description: Date time information)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Date time information, given as year or as date or as date time.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Date time information</para>
+<para>Date time information, given as year or as date or as date time.</para>
+<para>dd.mm.yyDate time information; Datagroup description: Date time information</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='start'>
+<attributeName>Date time information (start), time of the day</attributeName>
+<attributeLabel>start</attributeLabel>
+<attributeDefinition>Date time information, given as year or as date or as date time. (start: start time of surveyDate time information; Datagroup description: Date time information)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Date time information, given as year or as date or as date time.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Date time information</para>
+<para>Date time information, given as year or as date or as date time.</para>
+<para>start time of surveyDate time information; Datagroup description: Date time information</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='end'>
+<attributeName>Date time information (end), time of the day</attributeName>
+<attributeLabel>end</attributeLabel>
+<attributeDefinition>Date time information, given as year or as date or as date time. (end: end time of surveyDate time information; Datagroup description: Date time information)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Date time information, given as year or as date or as date time.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Date time information</para>
+<para>Date time information, given as year or as date or as date time.</para>
+<para>end time of surveyDate time information; Datagroup description: Date time information</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='plotignore'>
+<attributeName>Helper (plotignore), dimensionless</attributeName>
+<attributeLabel>plotignore</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (plotignore: I renamed the &quot;K21&quot; to plot 19, since the page numbers fitted best. Plot 19 and K21 were like two puzzle pieces in terms of page numbers of the original paper forms; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>I renamed the &quot;K21&quot; to plot 19, since the page numbers fitted best. Plot 19 and K21 were like two puzzle pieces in terms of page numbers of the original paper forms; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP'>
+<attributeName>BEF research plot name (CSP), dimensionless</attributeName>
+<attributeLabel>CSP</attributeLabel>
+<attributeDefinition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province) (CSP: k21 is CSP21, which was mapped by Christian and Karin, but was remapped by Anja and Thiemo. Some of the tags distributed by Christian were found again by Anja and they are the K? xy tags in the CSP21 observations. The k21 rows should be ignored, since they were remeasured.; Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>BEF research plot name</para>
+<para>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) and B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) or Site B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06&#39;20.2&quot;N 117°55&#39;12.1&quot;E, Jiangxi Province)</para>
+<para>k21 is CSP21, which was mapped by Christian and Karin, but was remapped by Anja and Thiemo. Some of the tags distributed by Christian were found again by Anja and they are the K? xy tags in the CSP21 observations. The k21 rows should be ignored, since they were remeasured.; Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='working condition'>
+<attributeName>Weather conditions (working condition), dimensionless</attributeName>
+<attributeLabel>working condition</attributeLabel>
+<attributeDefinition>21 in &quot;Bodenkundliche Kartieranleitung&quot; (working condition: weather condition on the day of surveyWeather conditions; Datagroup description: Weather conditions)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>21 in &quot;Bodenkundliche Kartieranleitung&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Weather conditions</para>
+<para>21 in &quot;Bodenkundliche Kartieranleitung&quot;</para>
+<para>weather condition on the day of surveyWeather conditions; Datagroup description: Weather conditions</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='protoc.first'>
+<attributeName>Helper (protoc.first), dimensionless</attributeName>
+<attributeLabel>protoc.first</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (protoc.first: first name of protocolling personHelper; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>first name of protocolling personHelper; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='protoc.sur'>
+<attributeName>Helper (protoc.sur), dimensionless</attributeName>
+<attributeLabel>protoc.sur</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (protoc.sur: surname of protocolling personHelper; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>surname of protocolling personHelper; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='meas.first'>
+<attributeName>Helper (meas.first), dimensionless</attributeName>
+<attributeLabel>meas.first</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (meas.first: first name of measuring personHelper; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>first name of measuring personHelper; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='meas.sur'>
+<attributeName>Helper (meas.sur), dimensionless</attributeName>
+<attributeLabel>meas.sur</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (meas.sur: surname of measuring personHelper; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>surname of measuring personHelper; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='entered.first'>
+<attributeName>Helper (entered.first), dimensionless</attributeName>
+<attributeLabel>entered.first</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (entered.first: first name of entering personHelper; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>first name of entering personHelper; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='entered.sur'>
+<attributeName>Helper (entered.sur), dimensionless</attributeName>
+<attributeLabel>entered.sur</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (entered.sur: sur name of entering personHelper; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>sur name of entering personHelper; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='entered.date'>
+<attributeName>Helper (entered.date), dimensionless</attributeName>
+<attributeLabel>entered.date</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (entered.date: date of entering dataDate time information; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>date of entering dataDate time information; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='page'>
+<attributeName>Helper (page), dimensionless</attributeName>
+<attributeLabel>page</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (page: page number of original data sheet of paperHelper; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>page number of original data sheet of paperHelper; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Central_subplot'>
+<attributeName>Subplots within CSPs (Central_subplot), dimensionless</attributeName>
+<attributeLabel>Central_subplot</attributeLabel>
+<attributeDefinition>Subplots within CSPs (Central_subplot: This column indicates whether the data were taken on the whole plot (w) or on the center plot (c). Generally, all items belonging to an object that has a base diameter smaller than 10 cm have been measured in the central plot. Thus, one has to check if the item belongs to other items (CWD_CSP is the same), and then determine the maximal base diameter of the items belonging to that object.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Subplots within CSPs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Subplots within CSPs</para>
+<para>Subplots within CSPs</para>
+<para>This column indicates whether the data were taken on the whole plot (w) or on the center plot (c). Generally, all items belonging to an object that has a base diameter smaller than 10 cm have been measured in the central plot. Thus, one has to check if the item belongs to other items (CWD_CSP is the same), and then determine the maximal base diameter of the items belonging to that object.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CWD-Id'>
+<attributeName>Helper (CWD-Id), dimensionless</attributeName>
+<attributeLabel>CWD-Id</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (CWD-Id: number of recorded individuum, numbered sequentially per object (stem, branch, …) within CSPHelper; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>number of recorded individuum, numbered sequentially per object (stem, branch, …) within CSPHelper; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CWD_CSP_original'>
+<attributeName>Helper (CWD_CSP_original), dimensionless</attributeName>
+<attributeLabel>CWD_CSP_original</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (CWD_CSP_original: original ID of woody debris item, combination of the CSP plot name and the CWD_ID; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>original ID of woody debris item, combination of the CSP plot name and the CWD_ID; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Idaddon'>
+<attributeName>Woody debris part (Idaddon), count</attributeName>
+<attributeLabel>Idaddon</attributeLabel>
+<attributeDefinition>part of a woody debris item in case it was branched and consisted of several parts. Starting with the thickest branch, then going down to 3 cm diameter (Idaddon: part number of individuum, however, Idaddon = 1 is not always the root item of a multi-item object. For this, the identity of the object can be derived from &quot;CWD_CSP&quot; and the item with the widest diameter will be the root item. Tags or mortality causes will mostly only be given for the root item and not for the other items belonging to one debris object.)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Woody debris part</para>
+<para>part of a woody debris item in case it was branched and consisted of several parts. Starting with the thickest branch, then going down to 3 cm diameter</para>
+<para>part number of individuum, however, Idaddon = 1 is not always the root item of a multi-item object. For this, the identity of the object can be derived from &quot;CWD_CSP&quot; and the item with the widest diameter will be the root item. Tags or mortality causes will mostly only be given for the root item and not for the other items belonging to one debris object.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CWD_CSP'>
+<attributeName>Woody debris items (CWD_CSP), dimensionless</attributeName>
+<attributeLabel>CWD_CSP</attributeLabel>
+<attributeDefinition>Woody debris items are dead trees or parts of trees, such as fallen crowns, branches, etc. (CWD_CSP: corrected ID of woody debris item, combination of the CSP plot name and the CWD_ID)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Woody debris items are dead trees or parts of trees, such as fallen crowns, branches, etc.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Woody debris items</para>
+<para>Woody debris items are dead trees or parts of trees, such as fallen crowns, branches, etc.</para>
+<para>corrected ID of woody debris item, combination of the CSP plot name and the CWD_ID</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Species'>
+<attributeName>Scientific plant species name (Species), dimensionless</attributeName>
+<attributeLabel>Species</attributeLabel>
+<attributeDefinition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required. (Species: The species is recorded. This requires the help of Mr. Fang. Overly short abbreviations should be avoided. If no identification is possible write “?”; Scientific plant species name;; Datagroup description: Scientific plant species name; Source: Flora of China, Helge Bruelheide (derived from datagroup); Source: Flora of China, Helge Bruelheide (derived from datagroup))</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Scientific plant species name</para>
+<para>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</para>
+<para>The species is recorded. This requires the help of Mr. Fang. Overly short abbreviations should be avoided. If no identification is possible write “?”; Scientific plant species name;; Datagroup description: Scientific plant species name; Source: Flora of China, Helge Bruelheide (derived from datagroup); Source: Flora of China, Helge Bruelheide (derived from datagroup)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='specunpolished'>
+<attributeName>Helper (specunpolished), dimensionless</attributeName>
+<attributeLabel>specunpolished</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (specunpolished: Sepecies UnpolishedHelper; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>Sepecies UnpolishedHelper; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='TagAFCW'>
+<attributeName>CSP metal tag number (trees, woody debris) (TagAFCW), dimensionless</attributeName>
+<attributeLabel>TagAFCW</attributeLabel>
+<attributeDefinition>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot; (TagAFCW: Silver ID given by Anja, can be given to a woody debris item or to a standing dead tree or snagCSP metal tag number (trees, woody debris); Datagroup description: CSP metal tag number (trees, woody debris); Datagroup description: CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>CSP metal tag number (trees, woody debris)</para>
+<para>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot;</para>
+<para>Silver ID given by Anja, can be given to a woody debris item or to a standing dead tree or snagCSP metal tag number (trees, woody debris); Datagroup description: CSP metal tag number (trees, woody debris); Datagroup description: CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='TagMBa'>
+<attributeName>CSP metal tag number (trees, woody debris) (TagMBa), dimensionless</attributeName>
+<attributeLabel>TagMBa</attributeLabel>
+<attributeDefinition>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot; (TagMBa: Silver ID given by Martin, in this case the tree was considered alive by Martin, and dead by AnjaCSP metal tag number (trees, woody debris); Datagroup description: CSP metal tag number (trees, woody debris); Datagroup description: CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>CSP metal tag number (trees, woody debris)</para>
+<para>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot;</para>
+<para>Silver ID given by Martin, in this case the tree was considered alive by Martin, and dead by AnjaCSP metal tag number (trees, woody debris); Datagroup description: CSP metal tag number (trees, woody debris); Datagroup description: CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='TagAFCW original'>
+<attributeName>CSP metal tag number (trees, woody debris) (TagAFCW original), dimensionless</attributeName>
+<attributeLabel>TagAFCW original</attributeLabel>
+<attributeDefinition>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot; (TagAFCW original: Silver ID given by Anja or Christian, can be given to a woody debris item or to a standing dead tree or snagCSP metal tag number (trees, woody debris), original entry. A &quot;w&quot; in front of a tag means that this object _was_ part of another tree, which has the tag number given. Deleted this, and put the tag number in the crown origin column. &quot;life&quot; means that this object already had a tag, so that it was considered _life_ by Martin Baruffol in 2008.; Datagroup description: CSP metal tag number (trees, woody debris); Datagroup description: CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>CSP metal tag number (trees, woody debris)</para>
+<para>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot;</para>
+<para>Silver ID given by Anja or Christian, can be given to a woody debris item or to a standing dead tree or snagCSP metal tag number (trees, woody debris), original entry. A &quot;w&quot; in front of a tag means that this object _was_ part of another tree, which has the tag number given. Deleted this, and put the tag number in the crown origin column. &quot;life&quot; means that this object already had a tag, so that it was considered _life_ by Martin Baruffol in 2008.; Datagroup description: CSP metal tag number (trees, woody debris); Datagroup description: CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='TagMBa original'>
+<attributeName>CSP metal tag number (trees, woody debris) (TagMBa original), dimensionless</attributeName>
+<attributeLabel>TagMBa original</attributeLabel>
+<attributeDefinition>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot; (TagMBa original: Silver ID given by Martin, Anja, or Christian, in this case the tree was considered alive by Martin, and dead by AnjaCSP metal tag number (trees, woody debris). Original data entry. A &quot;w&quot; in front of a tag means that this object _was_ part of another tree, which has the tag number given. Deleted this, and put the tag number in the crown origin column. &quot;life&quot; means that this object already had a tag, so that it was considered _life_ by Martin Baruffol in 2008. &quot;not possible&quot; means that it was not possible to attach a tag to this debris object ---- &quot;K?&quot; means that Anja found this tag on a debris object that might have been tagged by Christian Wirth; Datagroup description: CSP metal tag number (trees, woody debris); Datagroup description: CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>CSP metal tag number (trees, woody debris)</para>
+<para>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot;</para>
+<para>Silver ID given by Martin, Anja, or Christian, in this case the tree was considered alive by Martin, and dead by AnjaCSP metal tag number (trees, woody debris). Original data entry. A &quot;w&quot; in front of a tag means that this object _was_ part of another tree, which has the tag number given. Deleted this, and put the tag number in the crown origin column. &quot;life&quot; means that this object already had a tag, so that it was considered _life_ by Martin Baruffol in 2008. &quot;not possible&quot; means that it was not possible to attach a tag to this debris object ---- &quot;K?&quot; means that Anja found this tag on a debris object that might have been tagged by Christian Wirth; Datagroup description: CSP metal tag number (trees, woody debris); Datagroup description: CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='DBH'>
+<attributeName>Diameter at breast height (DBH), centimeter</attributeName>
+<attributeLabel>DBH</attributeLabel>
+<attributeDefinition>Diameter of a tree, measured at 1.3 m height (DBH: diameter at breast height. It was measured in standing trees, or snags, additional to the basal diameter; Diameter at breast height;; Datagroup description: Diameter at breast height; Instrumentation: diameter tape, calliper (derived from datagroup); Instrumentation: diameter tape, calliper (derived from datagroup))</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Diameter at breast height</para>
+<para>Diameter of a tree, measured at 1.3 m height</para>
+<para>diameter at breast height. It was measured in standing trees, or snags, additional to the basal diameter; Diameter at breast height;; Datagroup description: Diameter at breast height; Instrumentation: diameter tape, calliper (derived from datagroup); Instrumentation: diameter tape, calliper (derived from datagroup)</para>
+</description>
+<instrumentation>diameter tape, calliper</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='dbh.comment'>
+<attributeName>Helper (dbh.comment), dimensionless</attributeName>
+<attributeLabel>dbh.comment</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (dbh.comment: comment on the dbh value; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>comment on the dbh value; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='dbhpostmean'>
+<attributeName>Diameter at breast height (dbhpostmean), dimensionless</attributeName>
+<attributeLabel>dbhpostmean</attributeLabel>
+<attributeDefinition>Diameter of a tree, measured at 1.3 m height (dbhpostmean: diameter at breast height posterior mean, extrapolated from basal diameter, if that was not given; Diameter at breast height;; Datagroup description: Diameter at breast height; Instrumentation: diameter tape, calliper (derived from datagroup); Instrumentation: diameter tape, calliper (derived from datagroup))</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Diameter at breast height</para>
+<para>Diameter of a tree, measured at 1.3 m height</para>
+<para>diameter at breast height posterior mean, extrapolated from basal diameter, if that was not given; Diameter at breast height;; Datagroup description: Diameter at breast height; Instrumentation: diameter tape, calliper (derived from datagroup); Instrumentation: diameter tape, calliper (derived from datagroup)</para>
+</description>
+<instrumentation>diameter tape, calliper</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='dbhpostsd'>
+<attributeName>Helper (dbhpostsd), dimensionless</attributeName>
+<attributeLabel>dbhpostsd</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (dbhpostsd: Uncertainty of the dbh extrapolation (standard deviation of the posterior distribution)Helper; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>Uncertainty of the dbh extrapolation (standard deviation of the posterior distribution)Helper; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='stemsGrEq10'>
+<attributeName>Helper (stemsGrEq10), dimensionless</attributeName>
+<attributeLabel>stemsGrEq10</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (stemsGrEq10: Probability that a stem would be considerd greater or equal than 10 given it's basal diameter. If it would be considered greater, it would be counted in the outer subplots of a CSP. If it would not be considered greater than 10, it would not be considered in the outer subplots.Helper; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>Probability that a stem would be considerd greater or equal than 10 given it&#39;s basal diameter. If it would be considered greater, it would be counted in the outer subplots of a CSP. If it would not be considered greater than 10, it would not be considered in the outer subplots.Helper; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='stemsCnSm10'>
+<attributeName>Helper (stemsCnSm10), dimensionless</attributeName>
+<attributeLabel>stemsCnSm10</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (stemsCnSm10: Probability that a stem in the central plot would be considered smaller than 10 cm. It would then only be counted in the central subplot as contributing to the biomass.Helper; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>Probability that a stem in the central plot would be considered smaller than 10 cm. It would then only be counted in the central subplot as contributing to the biomass.Helper; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='height'>
+<attributeName>Plant height (height), meter</attributeName>
+<attributeLabel>height</attributeLabel>
+<attributeDefinition>measuring tree height (height: height of snag: The height is measured on all upright CWD (i.e. standing dead trees or snags with top broken) but also for the live snags (this is very important!).  However, labeled individuals (i. e. live snags) have been measured by Martin Barrufol.  In plots with very steep slopes the height may be estimated visually; otherwise a clinometers is used.; Plant height;; Datagroup description: Plant height; Instrumentation: Vertex Forester (derived from datagroup); Instrumentation: Vertex Forester (derived from datagroup))</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>meter</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plant height</para>
+<para>measuring tree height</para>
+<para>height of snag: The height is measured on all upright CWD (i.e. standing dead trees or snags with top broken) but also for the live snags (this is very important!).  However, labeled individuals (i. e. live snags) have been measured by Martin Barrufol.  In plots with very steep slopes the height may be estimated visually; otherwise a clinometers is used.; Plant height;; Datagroup description: Plant height; Instrumentation: Vertex Forester (derived from datagroup); Instrumentation: Vertex Forester (derived from datagroup)</para>
+</description>
+<instrumentation>Vertex Forester</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='BD'>
+<attributeName>Woody debris dimensions (BD), centimeter</attributeName>
+<attributeLabel>BD</attributeLabel>
+<attributeDefinition>Woody debris dimensions consist of base diameter, top diameter, and length. If the top diameter is not given, then it is 3 cm in diameter (BD: diameter at the base of wood: (dbh: The diameter at breast height is preferably measured with a dbh-tape.  For live snags the measurement height is indicated by a white mark made by Martin Barrufol - see dbh for this).  For woody debris and deadwood pieces where the breast height cannot be identified, the base and top diameter are recorded.)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Woody debris dimensions</para>
+<para>Woody debris dimensions consist of base diameter, top diameter, and length. If the top diameter is not given, then it is 3 cm in diameter</para>
+<para>diameter at the base of wood: (dbh: The diameter at breast height is preferably measured with a dbh-tape.  For live snags the measurement height is indicated by a white mark made by Martin Barrufol - see dbh for this).  For woody debris and deadwood pieces where the breast height cannot be identified, the base and top diameter are recorded.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='lookup tag'>
+<attributeName>CSP metal tag number (trees, woody debris) (lookup tag), dimensionless</attributeName>
+<attributeLabel>lookup tag</attributeLabel>
+<attributeDefinition>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot; (lookup tag: Silver tag to look up the values of trees from other files; Datagroup description: CSP metal tag number (trees, woody debris); Datagroup description: CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>CSP metal tag number (trees, woody debris)</para>
+<para>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot;</para>
+<para>Silver tag to look up the values of trees from other files; Datagroup description: CSP metal tag number (trees, woody debris); Datagroup description: CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='dbase.remark.kn'>
+<attributeName>Helper (dbase.remark.kn), dimensionless</attributeName>
+<attributeLabel>dbase.remark.kn</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (dbase.remark.kn: remark on dbase by Karin, mostly copying those entries that could not be converted to numbersHelper; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>remark on dbase by Karin, mostly copying those entries that could not be converted to numbersHelper; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='dtop'>
+<attributeName>Woody debris dimensions (dtop), centimeter</attributeName>
+<attributeLabel>dtop</attributeLabel>
+<attributeDefinition>Woody debris dimensions consist of base diameter, top diameter, and length. If the top diameter is not given, then it is 3 cm in diameter (dtop: diameter at the top of woodWoody debris dimensions)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Woody debris dimensions</para>
+<para>Woody debris dimensions consist of base diameter, top diameter, and length. If the top diameter is not given, then it is 3 cm in diameter</para>
+<para>diameter at the top of woodWoody debris dimensions</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='dtop.remark.kn'>
+<attributeName>Helper (dtop.remark.kn), dimensionless</attributeName>
+<attributeLabel>dtop.remark.kn</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (dtop.remark.kn: remark on dtop by Karin, , mostly copying those entries that could not be converted to numbersHelper; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>remark on dtop by Karin, , mostly copying those entries that could not be converted to numbersHelper; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='length'>
+<attributeName>Woody debris dimensions (length), meter</attributeName>
+<attributeLabel>length</attributeLabel>
+<attributeDefinition>Woody debris dimensions consist of base diameter, top diameter, and length. If the top diameter is not given, then it is 3 cm in diameter (length: length of woodWoody debris dimensions, if this is a stem lying on the ground)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>meter</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Woody debris dimensions</para>
+<para>Woody debris dimensions consist of base diameter, top diameter, and length. If the top diameter is not given, then it is 3 cm in diameter</para>
+<para>length of woodWoody debris dimensions, if this is a stem lying on the ground</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='len.rem.kn'>
+<attributeName>Helper (len.rem.kn), dimensionless</attributeName>
+<attributeLabel>len.rem.kn</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (len.rem.kn: remark on length by Karin, mostly copying those entries that could not be converted to numbersHelper; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>remark on length by Karin, mostly copying those entries that could not be converted to numbersHelper; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='height_length'>
+<attributeName>Woody debris dimensions (height_length), centimeter</attributeName>
+<attributeLabel>height_length</attributeLabel>
+<attributeDefinition>Woody debris dimensions consist of base diameter, top diameter, and length. If the top diameter is not given, then it is 3 cm in diameter (height_length: height / length, original data column in which height and length were written into. Height is for a standing tree, length for a tree lying on the ground. The number in height_length that is not either height or length is then the length of a woody debris object part, for example a branch, that can be part of another branch.)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Woody debris dimensions</para>
+<para>Woody debris dimensions consist of base diameter, top diameter, and length. If the top diameter is not given, then it is 3 cm in diameter</para>
+<para>height / length, original data column in which height and length were written into. Height is for a standing tree, length for a tree lying on the ground. The number in height_length that is not either height or length is then the length of a woody debris object part, for example a branch, that can be part of another branch.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='hei.len.rem.kn'>
+<attributeName>Helper (hei.len.rem.kn), dimensionless</attributeName>
+<attributeLabel>hei.len.rem.kn</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (hei.len.rem.kn: remark on heigtht..length  by Karin, mostly copying those entries that could not be converted to numbersHelper; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>remark on heigtht..length  by Karin, mostly copying those entries that could not be converted to numbersHelper; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='broken at'>
+<attributeName>Woody debris dimensions (broken at), meter</attributeName>
+<attributeLabel>broken at</attributeLabel>
+<attributeDefinition>Woody debris dimensions consist of base diameter, top diameter, and length. If the top diameter is not given, then it is 3 cm in diameter (broken at: height at which the stem or snag is broken; extracted from comments; Datagroup description: Woody debris dimensions)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>meter</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Woody debris dimensions</para>
+<para>Woody debris dimensions consist of base diameter, top diameter, and length. If the top diameter is not given, then it is 3 cm in diameter</para>
+<para>height at which the stem or snag is broken; extracted from comments; Datagroup description: Woody debris dimensions</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='broken diam'>
+<attributeName>Woody debris dimensions (broken diam), centimeter</attributeName>
+<attributeLabel>broken diam</attributeLabel>
+<attributeDefinition>Woody debris dimensions consist of base diameter, top diameter, and length. If the top diameter is not given, then it is 3 cm in diameter (broken diam: diameter of the stem or snag at the broken point; extracted from comments; Datagroup description: Woody debris dimensions)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Woody debris dimensions</para>
+<para>Woody debris dimensions consist of base diameter, top diameter, and length. If the top diameter is not given, then it is 3 cm in diameter</para>
+<para>diameter of the stem or snag at the broken point; extracted from comments; Datagroup description: Woody debris dimensions</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='neigh.label'>
+<attributeName>CSP metal tag number (trees, woody debris) (neigh.label), dimensionless</attributeName>
+<attributeLabel>neigh.label</attributeLabel>
+<attributeDefinition>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot; (neigh.label: label ID of neighbouring individual: We locate every tagged individual CWD piece. In case of a snag and a broken top we record the position of the snag and also of the bottom part of the broken crown. This is always done in relationship to the nearest or nearby labeled reference tree. The number of this tree (#NN label) is noted as well as the distance (Dist. to NN) to it and the azimuth (Azim to NN) from the reference tree to the CWD piece. In case of logs without a visible base, the part with the largest diameter (or circumference) is used as a base. The position helps us to relocate the logs and also to quantify how fast they travel downslope. Mind that the azimuth may have to be corrected given the date and location, since it depends on the magnetic field of the earth.CSP metal tag number (trees, woody debris); Datagroup description: CSP metal tag number (trees, woody debris); Datagroup description: CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>CSP metal tag number (trees, woody debris)</para>
+<para>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot;</para>
+<para>label ID of neighbouring individual: We locate every tagged individual CWD piece. In case of a snag and a broken top we record the position of the snag and also of the bottom part of the broken crown. This is always done in relationship to the nearest or nearby labeled reference tree. The number of this tree (#NN label) is noted as well as the distance (Dist. to NN) to it and the azimuth (Azim to NN) from the reference tree to the CWD piece. In case of logs without a visible base, the part with the largest diameter (or circumference) is used as a base. The position helps us to relocate the logs and also to quantify how fast they travel downslope. Mind that the azimuth may have to be corrected given the date and location, since it depends on the magnetic field of the earth.CSP metal tag number (trees, woody debris); Datagroup description: CSP metal tag number (trees, woody debris); Datagroup description: CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='reference is self'>
+<attributeName>Helper (reference is self), dimensionless</attributeName>
+<attributeLabel>reference is self</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (reference is self: label of reference tree is the tree itself, woody debris item belongs to the tree indicated in the reference tree (neighbour label); Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>label of reference tree is the tree itself, woody debris item belongs to the tree indicated in the reference tree (neighbour label); Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='neigh.dist'>
+<attributeName>Distance (neigh.dist), meter</attributeName>
+<attributeLabel>neigh.dist</attributeLabel>
+<attributeDefinition>Distance (neigh.dist: distance to neighbour:  We locate every tagged individual CWD piece. In case of a snag and a broken top we record the position of the snag and also of the bottom part of the broken crown. This is always done in relationship to the nearest or nearby labeled reference tree. The number of this tree (#NN label) is noted as well as the distance (Dist. to NN) to it and the azimuth (Azim to NN) from the reference tree to the CWD piece. In case of logs without a visible base, the part with the largest diameter (or circumference) is used as a base. The position helps us to relocate the logs and also to quantify how fast they travel downslope. Mind that the azimuth may have to be corrected given the date and location, since it depends on the magnetic field of the earth.)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>meter</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Distance</para>
+<para>Distance</para>
+<para>distance to neighbour:  We locate every tagged individual CWD piece. In case of a snag and a broken top we record the position of the snag and also of the bottom part of the broken crown. This is always done in relationship to the nearest or nearby labeled reference tree. The number of this tree (#NN label) is noted as well as the distance (Dist. to NN) to it and the azimuth (Azim to NN) from the reference tree to the CWD piece. In case of logs without a visible base, the part with the largest diameter (or circumference) is used as a base. The position helps us to relocate the logs and also to quantify how fast they travel downslope. Mind that the azimuth may have to be corrected given the date and location, since it depends on the magnetic field of the earth.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='neigh.azimut'>
+<attributeName>Azimuth (neigh.azimut), degree</attributeName>
+<attributeLabel>neigh.azimut</attributeLabel>
+<attributeDefinition>The azimuth describes a horizontally measured angle. It can be used to describe the position of an object in relation to another fixed object.  (neigh.azimut: azimut from neighbour to reference wood:  We locate every tagged individual CWD piece. In case of a snag and a broken top we record the position of the snag and also of the bottom part of the broken crown. This is always done in relationship to the nearest or nearby labeled reference tree. The number of this tree (#NN label) is noted as well as the distance (Dist. to NN) to it and the azimuth (Azim to NN) from the reference tree to the CWD piece. In case of logs without a visible base, the part with the largest diameter (or circumference) is used as a base. The position helps us to relocate the logs and also to quantify how fast they travel downslope. Mind that the azimuth may have to be corrected given the date and location, since it depends on the magnetic field of the earth.)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Azimuth</para>
+<para>The azimuth describes a horizontally measured angle. It can be used to describe the position of an object in relation to another fixed object. </para>
+<para>azimut from neighbour to reference wood:  We locate every tagged individual CWD piece. In case of a snag and a broken top we record the position of the snag and also of the bottom part of the broken crown. This is always done in relationship to the nearest or nearby labeled reference tree. The number of this tree (#NN label) is noted as well as the distance (Dist. to NN) to it and the azimuth (Azim to NN) from the reference tree to the CWD piece. In case of logs without a visible base, the part with the largest diameter (or circumference) is used as a base. The position helps us to relocate the logs and also to quantify how fast they travel downslope. Mind that the azimuth may have to be corrected given the date and location, since it depends on the magnetic field of the earth.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='direction CWD'>
+<attributeName>Angle (direction CWD), degree</attributeName>
+<attributeLabel>direction CWD</attributeLabel>
+<attributeDefinition>the angle from the base along an object to its top (e.g. woody debris) is measured as an indication of its position  (direction CWD: Direction to woody debris item: The direction a woody debris is aligned from the thick to the thin part of the debris object)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Angle</para>
+<para>the angle from the base along an object to its top (e.g. woody debris) is measured as an indication of its position </para>
+<para>Direction to woody debris item: The direction a woody debris is aligned from the thick to the thin part of the debris object</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='pos.cw'>
+<attributeName>Helper (pos.cw), dimensionless</attributeName>
+<attributeLabel>pos.cw</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (pos.cw: Positioning information: Type of the woody debris object: Original classification as defined by Christian Wirth and Goddert von Oheimb.; Helper; Dead wood inventory; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>Positioning information: Type of the woody debris object: Original classification as defined by Christian Wirth and Goddert von Oheimb.; Helper; Dead wood inventory; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='pos.af_original'>
+<attributeName>Helper (pos.af_original), dimensionless</attributeName>
+<attributeLabel>pos.af_original</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (pos.af_original: Positioning information as given in the original data sheet. Corrections are in pos.af; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>Positioning information as given in the original data sheet. Corrections are in pos.af; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='plot estimate'>
+<attributeName>Allometries (plot estimate), dimensionless</attributeName>
+<attributeLabel>plot estimate</attributeLabel>
+<attributeDefinition>Data to derive tree or sapling allometries, as well as allometric equations. (plot estimate: Rows indicating a &quot;no&quot; in plot estimate are not part of the woody debris inventory, but additional data to construct allometries from tree individuals. Often the first entry for an allometry does count as a woody debris item, but the remaining pieces of that item should be ignored and estimated based on the allometries. Or the allometries are not used to extrapolate the biomass of the first item (for example a tree dbh).)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Data to derive tree or sapling allometries, as well as allometric equations.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Allometries</para>
+<para>Data to derive tree or sapling allometries, as well as allometric equations.</para>
+<para>Rows indicating a &quot;no&quot; in plot estimate are not part of the woody debris inventory, but additional data to construct allometries from tree individuals. Often the first entry for an allometry does count as a woody debris item, but the remaining pieces of that item should be ignored and estimated based on the allometries. Or the allometries are not used to extrapolate the biomass of the first item (for example a tree dbh).</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='pos.af'>
+<attributeName>Woody debris type (pos.af), dimensionless</attributeName>
+<attributeLabel>pos.af</attributeLabel>
+<attributeDefinition>Woody debris type is a positioning information in categories 1-11, plus diverse other information. It describes how the object was found on the site, if it was standing complete, a snag, if it was a crown on the ground, a branch, a stem part, etc. (pos.af: Positioning information: Classification of woody debris item as used by Anja Fankhänel during the inventory, modified from the classification of Christian and Goddert.; Woody debris type; Dead wood inventory)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Woody debris type is a positioning information in categories 1-11, plus diverse other information. It describes how the object was found on the site, if it was standing complete, a snag, if it was a crown on the ground, a branch, a stem part, etc.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Woody debris type</para>
+<para>Woody debris type is a positioning information in categories 1-11, plus diverse other information. It describes how the object was found on the site, if it was standing complete, a snag, if it was a crown on the ground, a branch, a stem part, etc.</para>
+<para>Positioning information: Classification of woody debris item as used by Anja Fankhänel during the inventory, modified from the classification of Christian and Goddert.; Woody debris type; Dead wood inventory</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='alive'>
+<attributeName>Living status (alive), dimensionless</attributeName>
+<attributeLabel>alive</attributeLabel>
+<attributeDefinition>if an organism is dead or alive or damaged (alive: L: still live; may apply to categories 2, 3, 4 of positioning (pos); can be used for live trees that served as donators of broken snags or to include trees that will soon be dead, but still have some green leavesLiving status; Datagroup description: Living status; Datagroup description: if an organism is dead or alive)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>if an organism is dead or alive or damaged</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Living status</para>
+<para>if an organism is dead or alive or damaged</para>
+<para>L: still live; may apply to categories 2, 3, 4 of positioning (pos); can be used for live trees that served as donators of broken snags or to include trees that will soon be dead, but still have some green leavesLiving status; Datagroup description: Living status; Datagroup description: if an organism is dead or alive</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='sc'>
+<attributeName>Soil contact (sc), percent</attributeName>
+<attributeLabel>sc</attributeLabel>
+<attributeDefinition>SC (soil contact) For downed trees the length of soil contact is given in percentage of the total length in steps of 10%. (sc: percent of soil contact of the wood)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil contact</para>
+<para>SC (soil contact) For downed trees the length of soil contact is given in percentage of the total length in steps of 10%.</para>
+<para>percent of soil contact of the wood</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='mc'>
+<attributeName>Mortality cause of downed wood (mc), dimensionless</attributeName>
+<attributeLabel>mc</attributeLabel>
+<attributeDefinition>MC (mortality cause): This indicates the mortality cause if it is clearly identifyable. The most common cause is snow break (=1), the next common most likely is being crashed by a fallen tree (= 2).  Other possible causes are harvest (=3), strangulation by lianas (=4). Undidentifiable mortality causes are indicated as 5. Mixed mrtality causes are also possible and indicated by e.g. 1.2 (= snow break and crashed by fallen tree). (mc: mortality cause)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>MC (mortality cause): This indicates the mortality cause if it is clearly identifyable. The most common cause is snow break (=1), the next common most likely is being crashed by a fallen tree (= 2).  Other possible causes are harvest (=3), strangulation by lianas (=4). Undidentifiable mortality causes are indicated as 5. Mixed mrtality causes are also possible and indicated by e.g. 1.2 (= snow break and crashed by fallen tree).</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Mortality cause of downed wood</para>
+<para>MC (mortality cause): This indicates the mortality cause if it is clearly identifyable. The most common cause is snow break (=1), the next common most likely is being crashed by a fallen tree (= 2).  Other possible causes are harvest (=3), strangulation by lianas (=4). Undidentifiable mortality causes are indicated as 5. Mixed mrtality causes are also possible and indicated by e.g. 1.2 (= snow break and crashed by fallen tree).</para>
+<para>mortality cause</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='dc'>
+<attributeName>Decay class of downed wood (dc), dimensionless</attributeName>
+<attributeLabel>dc</attributeLabel>
+<attributeDefinition>A decay classification, giving a rough or quick estimate of how far the decay process of an object has advanced. (dc: decay class of downed wood)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>A decay classification, giving a rough or quick estimate of how far the decay process of an object has advanced.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Decay class of downed wood</para>
+<para>A decay classification, giving a rough or quick estimate of how far the decay process of an object has advanced.</para>
+<para>decay class of downed wood</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='ter'>
+<attributeName>Organisms found on or in specimen (ter), dimensionless</attributeName>
+<attributeLabel>ter</attributeLabel>
+<attributeDefinition>Organisms found in the specimen under study. This may refer to insects such as borers or termites but also to fungi such as white or red rot fungi. (ter: presence of termites)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Organisms found in the specimen under study. This may refer to insects such as borers or termites but also to fungi such as white or red rot fungi.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Organisms found on or in specimen</para>
+<para>Organisms found in the specimen under study. This may refer to insects such as borers or termites but also to fungi such as white or red rot fungi.</para>
+<para>presence of termites</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='rot'>
+<attributeName>Organisms found on or in specimen (rot), dimensionless</attributeName>
+<attributeLabel>rot</attributeLabel>
+<attributeDefinition>Organisms found in the specimen under study. This may refer to insects such as borers or termites but also to fungi such as white or red rot fungi. (rot: presence of red mould)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Organisms found in the specimen under study. This may refer to insects such as borers or termites but also to fungi such as white or red rot fungi.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Organisms found on or in specimen</para>
+<para>Organisms found in the specimen under study. This may refer to insects such as borers or termites but also to fungi such as white or red rot fungi.</para>
+<para>presence of red mould</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='fungi'>
+<attributeName>Organisms found on or in specimen (fungi), dimensionless</attributeName>
+<attributeLabel>fungi</attributeLabel>
+<attributeDefinition>Organisms found in the specimen under study. This may refer to insects such as borers or termites but also to fungi such as white or red rot fungi. (fungi: presence of fungi)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Organisms found in the specimen under study. This may refer to insects such as borers or termites but also to fungi such as white or red rot fungi.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Organisms found on or in specimen</para>
+<para>Organisms found in the specimen under study. This may refer to insects such as borers or termites but also to fungi such as white or red rot fungi.</para>
+<para>presence of fungi</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='valid'>
+<attributeName>Woody debris dimensions (valid), dimensionless</attributeName>
+<attributeLabel>valid</attributeLabel>
+<attributeDefinition>Woody debris dimensions consist of base diameter, top diameter, and length. If the top diameter is not given, then it is 3 cm in diameter (valid: valid percentage of volume for volume calculation; valid volume: Percent of volume valid for calculation, there may be stumps or woody pieces which are not round, or hallow, or half is missingWoody debris dimensions)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Woody debris dimensions</para>
+<para>Woody debris dimensions consist of base diameter, top diameter, and length. If the top diameter is not given, then it is 3 cm in diameter</para>
+<para>valid percentage of volume for volume calculation; valid volume: Percent of volume valid for calculation, there may be stumps or woody pieces which are not round, or hallow, or half is missingWoody debris dimensions</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='crown_origin'>
+<attributeName>CSP metal tag number (trees, woody debris) (crown_origin), dimensionless</attributeName>
+<attributeLabel>crown_origin</attributeLabel>
+<attributeDefinition>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot; (crown_origin: metal tag of the tree from which the crown originatesCSP metal tag number (trees, woody debris); Datagroup description: CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>CSP metal tag number (trees, woody debris)</para>
+<para>CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items -- the reference file linking metal tags to tree individual tags is called &quot;Tree stem reference list for the Comparative Study Sites (CSPs)&quot;</para>
+<para>metal tag of the tree from which the crown originatesCSP metal tag number (trees, woody debris); Datagroup description: CSP tree individuals were marked mostly with metal tags but also additional tags were used. Very few metal tag numbers were double across CSPs. For a unique ID across CSPs see the Data Group &quot;Tree identifier for trees in the comparative study sites&quot;. Other projects might have used non metal tags with custom numbers. E. g., white tags might hold numbers defined for additional trees of the SP5 subproject. --- 6 digit metal tags starting with 3 were also used for woody debris items</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='remark'>
+<attributeName>Helper (remark), dimensionless</attributeName>
+<attributeLabel>remark</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (remark: further remarks on this dataHelper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>further remarks on this dataHelper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='vol_factor'>
+<attributeName>Woody debris dimensions (vol_factor), dimensionless</attributeName>
+<attributeLabel>vol_factor</attributeLabel>
+<attributeDefinition>Woody debris dimensions consist of base diameter, top diameter, and length. If the top diameter is not given, then it is 3 cm in diameter (vol_factor: volume factor is about how much is left of the volume of a decaying trunk. So that &quot;valid&quot; refers to the outer form of the item and &quot;vol_factor&quot; is within the object. Both should be multiplied to get the volume of wood.)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Woody debris dimensions</para>
+<para>Woody debris dimensions consist of base diameter, top diameter, and length. If the top diameter is not given, then it is 3 cm in diameter</para>
+<para>volume factor is about how much is left of the volume of a decaying trunk. So that &quot;valid&quot; refers to the outer form of the item and &quot;vol_factor&quot; is within the object. Both should be multiplied to get the volume of wood.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Allometrie'>
+<attributeName>Allometries (Allometrie), dimensionless</attributeName>
+<attributeLabel>Allometrie</attributeLabel>
+<attributeDefinition>Data to derive tree or sapling allometries, as well as allometric equations. (Allometrie: &quot;allo&quot; indicates that the items (rows) belong to a larger object (same CWD_ID). Together they can be used as allometries for the estimation of other objects. This means, that for example a broken crown is measured with all branches. These branches should be added up to a crown volume and then other crowns can use this estimate, even if only their basal diameter is measured and not all branches.; Datagroup description: Allometries for estimating biomass functions from basal diameter measurements.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Data to derive tree or sapling allometries, as well as allometric equations.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Allometries</para>
+<para>Data to derive tree or sapling allometries, as well as allometric equations.</para>
+<para>&quot;allo&quot; indicates that the items (rows) belong to a larger object (same CWD_ID). Together they can be used as allometries for the estimation of other objects. This means, that for example a broken crown is measured with all branches. These branches should be added up to a crown volume and then other crowns can use this estimate, even if only their basal diameter is measured and not all branches.; Datagroup description: Allometries for estimating biomass functions from basal diameter measurements.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='comment Karin'>
+<attributeName>Helper (comment Karin), dimensionless</attributeName>
+<attributeLabel>comment Karin</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (comment Karin: comment on the whole row; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>comment on the whole row; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='meandbh'>
+<attributeName>Diameter at breast height (meandbh), centimeter</attributeName>
+<attributeLabel>meandbh</attributeLabel>
+<attributeDefinition>Diameter of a tree, measured at 1.3 m height (meandbh: merging the dbh column the extrapolated dbh column (dbhpostmean); Diameter at breast height;; Instrumentation: diameter tape, calliper (derived from datagroup); Instrumentation: diameter tape, calliper (derived from datagroup))</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Diameter at breast height</para>
+<para>Diameter of a tree, measured at 1.3 m height</para>
+<para>merging the dbh column the extrapolated dbh column (dbhpostmean); Diameter at breast height;; Instrumentation: diameter tape, calliper (derived from datagroup); Instrumentation: diameter tape, calliper (derived from datagroup)</para>
+</description>
+<instrumentation>diameter tape, calliper</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='meanGr10'>
+<attributeName>Helper (meanGr10), dimensionless</attributeName>
+<attributeLabel>meanGr10</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (meanGr10: Indicating if the dbh (measured or extrapolated) is greater than 10cm and should be considered in volume estimation in the central and outer subplots.Helper; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>Indicating if the dbh (measured or extrapolated) is greater than 10cm and should be considered in volume estimation in the central and outer subplots.Helper; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='meanSm10Cn'>
+<attributeName>Helper (meanSm10Cn), dimensionless</attributeName>
+<attributeLabel>meanSm10Cn</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (meanSm10Cn: Indicating if the dbh (measured or extrapolated) is smaller then 10cm and thus schould only considered in volume estimation of the central subplotHelper; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>Indicating if the dbh (measured or extrapolated) is smaller then 10cm and thus schould only considered in volume estimation of the central subplotHelper; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='ice_storm_representative'>
+<attributeName>Helper (ice_storm_representative), </attributeName>
+<attributeLabel>ice_storm_representative</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (ice_storm_representative: Indicator for trees that can be considered dead because of the ice storm. This cares for double counting of debris objects. The script &quot;ice_storm_trees.r&quot; shows how this column was derived.; Datagroup description: Helper)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>Indicator for trees that can be considered dead because of the ice storm. This cares for double counting of debris objects. The script &quot;ice_storm_trees.r&quot; shows how this column was derived.; Datagroup description: Helper</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>1698</numberOfRecords>
+</dataTable>
+<otherEntity id='225'>
+<alternateIdentifier>/system/freeformats/files/000/000/225/original/Plot_skizze.pdf?1331041107</alternateIdentifier>
+<entityName>Plot_skizze.pdf</entityName>
+<entityDescription>plot skizze how the debris objects are selected</entityDescription>
+<physical>
+<objectName>Plot_skizze.pdf</objectName>
+<dataFormat>
+<externallyDefinedFormat>
+<formatName>application/pdf</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>/system/freeformats/files/000/000/225/original/Plot_skizze.pdf?1331041107</url>
+</online>
+</distribution>
+</physical>
+<entityType>"File Asset"</entityType>
+</otherEntity>
+<otherEntity id='226'>
+<alternateIdentifier>/system/freeformats/files/000/000/226/original/sp10%20CWD_protocol_Gutianshan_AF_20081215_kn.doc?1331041147</alternateIdentifier>
+<entityName>sp10 CWD_protocol_Gutianshan_AF_20081215_kn.doc</entityName>
+<entityDescription>Inventory protocol, detailled description of debris items and positioning of items</entityDescription>
+<physical>
+<objectName>sp10 CWD_protocol_Gutianshan_AF_20081215_kn.doc</objectName>
+<dataFormat>
+<externallyDefinedFormat>
+<formatName>application/msword</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>/system/freeformats/files/000/000/226/original/sp10%20CWD_protocol_Gutianshan_AF_20081215_kn.doc?1331041147</url>
+</online>
+</distribution>
+</physical>
+<entityType>"File Asset"</entityType>
+</otherEntity>
+<otherEntity id='300'>
+<alternateIdentifier>/system/freeformats/files/000/000/300/original/ice_storm_trees.r?1355411982</alternateIdentifier>
+<entityName>ice_storm_trees.r</entityName>
+<entityDescription>R script that shows how the representative stems for tree mortality through the 2008 ice storm are chosen.</entityDescription>
+<physical>
+<objectName>ice_storm_trees.r</objectName>
+<dataFormat>
+<externallyDefinedFormat>
+<formatName>application/octet-stream</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>/system/freeformats/files/000/000/300/original/ice_storm_trees.r?1355411982</url>
+</online>
+</distribution>
+</physical>
+<entityType>"File Asset"</entityType>
+</otherEntity>
+</dataset>
+</eml:eml>

@@ -1,0 +1,734 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='458'>
+<alternateIdentifier>http://china.befdata.biow.uni-leipzig.de/datasets/458</alternateIdentifier>
+<title>Main Experiment: Kinetic energy of rain drops in the main experiment - data</title>
+<creator id='pgoebes'>
+<individualName>
+<givenName>Philipp</givenName>
+<surName>Goebes</surName>
+</individualName>
+<organizationName>Institute of Geography</organizationName>
+<address>
+<deliveryPoint>Rümelinstraße 19-23</deliveryPoint>
+<city>72070 Tübingen</city>
+
+</address>
+<phone>+4970712974081</phone>
+<electronicMailAddress>philipp.goebes@uni-tuebingen.de</electronicMailAddress>
+</creator>
+<pubDate>2014-03-27</pubDate>
+<language>en_US</language>
+<abstract>
+<para>Soil erosion by water is an important process regarding ecosystem stability and ecosystem functions; this is especially true for subtropical regions with high intensity rainfall. Rainfall erosivity is one important factor in estimating soil erosion as an ecosystem function under forest. The power of raindrops to detach sediment at the soil surface is influenced by drop size and velocity. When passing through vegetation, rain drop size as well as rain drop velocity are changed depending on several vegetation parameters e.g. leaf area index (LAI). The role of biodiversity as one of these vegetation parameters on soil erosion processes is not yet clear and more information on the spatial distribution of throughfall under vegetation canopies is needed. To measure biodiversity effects on throughfall kinetic energy (TKE), splash cups have been used. 1800 Splash Cups were installed in the field during five different rainfall events on 40 plots with different tree diversity levels with a total of 24 tree species. For investigating spatial distribution of TKE, these splash cups have been set up in distinct distances from tree individuals (15cm, 30cm and 45cm away from stem, in the middle of two and four individuals, under the first branch, at the intersection of a 45cm and 105cm circle around two stems and one free from vegetation to determine freefall kinetic energy).</para>
+
+</abstract>
+<keywordSet>
+<keyword>kinetic energy</keyword>
+<keyword>Main Experiment</keyword>
+<keyword>plot</keyword>
+<keyword>Site</keyword>
+<keyword>Site A</keyword>
+<keyword>soil erosion</keyword>
+<keyword>splashcup</keyword>
+<keywordThesaurus>Find the list of keywords here: http://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>Site</keyword>
+<keyword>plot</keyword>
+<keyword>position</keyword>
+<keyword>sandloss</keyword>
+<keyword>precip_cm</keyword>
+<keyword>precip_ml</keyword>
+<keyword>event</keyword>
+<keyword>precip</keyword>
+<keyword>intensity_mean</keyword>
+<keyword>peak_intensity_30</keyword>
+<keyword>peak_intensity_60</keyword>
+<keyword>covered_splashcup</keyword>
+<keyword>LAI</keyword>
+<keyword>ground_cover</keyword>
+<keyword>divers_level</keyword>
+<keyword>species_pos</keyword>
+<keyword>species_ident_short</keyword>
+<keyword>species_idents</keyword>
+<keyword>elevation</keyword>
+<keyword>aspect</keyword>
+<keyword>neighbor_div</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<distribution scope='document'>
+<online>
+<url function='information'>
+http://china.befdata.biow.uni-leipzig.de/datasets/458/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>Main Experiment Site A
+29°08'-29°11'N
+117°90'-117°93'E</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2013-05-15
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2013-07-09
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact>
+<references>pgoebes</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>Main Experiment: Kinetic energy of rain drops in the main experiment - data</para>
+<para>Soil erosion by water is an important process regarding ecosystem stability and ecosystem functions; this is especially true for subtropical regions with high intensity rainfall. Rainfall erosivity is one important factor in estimating soil erosion as an ecosystem function under forest. The power of raindrops to detach sediment at the soil surface is influenced by drop size and velocity. When passing through vegetation, rain drop size as well as rain drop velocity are changed depending on several vegetation parameters e.g. leaf area index (LAI). The role of biodiversity as one of these vegetation parameters on soil erosion processes is not yet clear and more information on the spatial distribution of throughfall under vegetation canopies is needed. To measure biodiversity effects on throughfall kinetic energy (TKE), splash cups have been used. 1800 Splash Cups were installed in the field during five different rainfall events on 40 plots with different tree diversity levels with a total of 24 tree species. For investigating spatial distribution of TKE, these splash cups have been set up in distinct distances from tree individuals (15cm, 30cm and 45cm away from stem, in the middle of two and four individuals, under the first branch, at the intersection of a 45cm and 105cm circle around two stems and one free from vegetation to determine freefall kinetic energy).</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2013-05-15 00:00:00 UTC - 2013-07-09 00:00:00 UTC</para>
+<para>May to July 2013</para>
+<para>Main Experiment Site A
+29°08&#x27;-29°11&#x27;N
+117°90&#x27;-117°93&#x27;E</para>
+
+</description>
+</studyExtent>
+<samplingDescription>
+<para>360 splash cups on 40 VIPs and VIPreps covering tree diversity level from 1 to 24. 9 splash cup on each plot, 1 splash cup is freefall reference, 8 splash cups under distinct position in core area.</para>
+<para>LME, Wald tests for significances</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>http://china.befdata.biow.uni-leipzig.de/datasets/458</entityName>
+<entityDescription>Main Experiment: Kinetic energy of rain drops in the main experiment - data</entityDescription>
+<physical>
+<objectName>/datasets/458</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>http://china.befdata.biow.uni-leipzig.de/datasets/458/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='Site'>
+<attributeName>Experimental Site (Site), </attributeName>
+<attributeLabel>Site</attributeLabel>
+<attributeDefinition>Experimental site of the Main Experiment. Categories &quot;A&quot; and &quot;B&quot; refer to the experimental Site A and B, respectively. Detailed information on the location can be found in the dataset 79: &quot;Presentation: BEF experiment: experimental Design, overview with maps and pictures&quot; (Site: Indicates the experimental site within the BEF-China Project)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Experimental site of the Main Experiment. Categories &quot;A&quot; and &quot;B&quot; refer to the experimental Site A and B, respectively. Detailed information on the location can be found in the dataset 79: &quot;Presentation: BEF experiment: experimental Design, overview with maps and pictures&quot;</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Experimental Site</para>
+<para>Experimental site of the Main Experiment. Categories &quot;A&quot; and &quot;B&quot; refer to the experimental Site A and B, respectively. Detailed information on the location can be found in the dataset 79: &quot;Presentation: BEF experiment: experimental Design, overview with maps and pictures&quot;</para>
+<para>Indicates the experimental site within the BEF-China Project</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='plot'>
+<attributeName>Plot name Main experiment (letter, number code) (plot), </attributeName>
+<attributeLabel>plot</attributeLabel>
+<attributeDefinition>Plot number according to design spreadsheet. Plots are named according to their location on the original spreadsheet used for treatment design. This has letters from West to East and numbers from North to south. Some plots were moved half a gridcell (1 mu) so be suitable for planting (grid cell loctype). Example: B32 (plot: Experimental Plot within Site)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Plot number according to design spreadsheet. Plots are named according to their location on the original spreadsheet used for treatment design. This has letters from West to East and numbers from North to south. Some plots were moved half a gridcell (1 mu) so be suitable for planting (grid cell loctype). Example: B32</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plot name Main experiment (letter, number code)</para>
+<para>Plot number according to design spreadsheet. Plots are named according to their location on the original spreadsheet used for treatment design. This has letters from West to East and numbers from North to south. Some plots were moved half a gridcell (1 mu) so be suitable for planting (grid cell loctype). Example: B32</para>
+<para>Experimental Plot within Site</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='position'>
+<attributeName>Splashcup position (position), </attributeName>
+<attributeLabel>position</attributeLabel>
+<attributeDefinition>Categories with &quot;P&quot; and a number indicate splashcups installed in the Main Experimental set up.
+Other entries indicate splashcups positioned in the Comparative study plots. 
+General information: The splash cups consist of a PE flask to which a carrier system has been attached. In this carrier system a cup filled with a unit sand of 125-200 µm particle size is inserted. At the bottom of the cup a silk cover prevents loss of sand and guarantees free drainage of water from the cup to the carrier and vice versa. Cup and PE flask are hydraulically connected by a cotton wick to ensure constant moisture content throughout the time of measuring, as the initial water content is a crucial point in splash erosion studies (Poesen and Savat 1981). Additionally, vents in the carrier system ensure that the pressure arising from the insertion of the cup does not lead to loss of sand. The vent in the PE flask guarantees the free drainage of excess water which may accumulate during high intensity rainfall events. (position: Specific splash cup position on core area of each plot:
+position 1: 15cm away from tree stem
+position 2: middle of two trees
+position 3: middle of four trees
+position 4: 45cm away from tree stem
+position 5: 45cm x 120 cm intersection
+position 6: first branch
+position 7: 75cm x 75cm intersection
+position 8: 30 cm away from tree stem
+position 9: no vegetation reference )</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Categories with &quot;P&quot; and a number indicate splashcups installed in the Main Experimental set up.
+Other entries indicate splashcups positioned in the Comparative study plots. 
+General information: The splash cups consist of a PE flask to which a carrier system has been attached. In this carrier system a cup filled with a unit sand of 125-200 µm particle size is inserted. At the bottom of the cup a silk cover prevents loss of sand and guarantees free drainage of water from the cup to the carrier and vice versa. Cup and PE flask are hydraulically connected by a cotton wick to ensure constant moisture content throughout the time of measuring, as the initial water content is a crucial point in splash erosion studies (Poesen and Savat 1981). Additionally, vents in the carrier system ensure that the pressure arising from the insertion of the cup does not lead to loss of sand. The vent in the PE flask guarantees the free drainage of excess water which may accumulate during high intensity rainfall events.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Splashcup position</para>
+<para>Categories with &quot;P&quot; and a number indicate splashcups installed in the Main Experimental set up.
+Other entries indicate splashcups positioned in the Comparative study plots. 
+General information: The splash cups consist of a PE flask to which a carrier system has been attached. In this carrier system a cup filled with a unit sand of 125-200 µm particle size is inserted. At the bottom of the cup a silk cover prevents loss of sand and guarantees free drainage of water from the cup to the carrier and vice versa. Cup and PE flask are hydraulically connected by a cotton wick to ensure constant moisture content throughout the time of measuring, as the initial water content is a crucial point in splash erosion studies (Poesen and Savat 1981). Additionally, vents in the carrier system ensure that the pressure arising from the insertion of the cup does not lead to loss of sand. The vent in the PE flask guarantees the free drainage of excess water which may accumulate during high intensity rainfall events.</para>
+<para>Specific splash cup position on core area of each plot:
+position 1: 15cm away from tree stem
+position 2: middle of two trees
+position 3: middle of four trees
+position 4: 45cm away from tree stem
+position 5: 45cm x 120 cm intersection
+position 6: first branch
+position 7: 75cm x 75cm intersection
+position 8: 30 cm away from tree stem
+position 9: no vegetation reference </para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='sandloss'>
+<attributeName>Deriving kinetic energy from sand loss (sandloss), g / 16,6cm²</attributeName>
+<attributeLabel>sandloss</attributeLabel>
+<attributeDefinition>Kinetic energy is derived from sand loss out of splashcups. For this, the amount of sand removed by rain can be used to calculate a standardized amount of removed sand per area and a kinetic energy per area. (sandloss: sandloss)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Deriving kinetic energy from sand loss</para>
+<para>Kinetic energy is derived from sand loss out of splashcups. For this, the amount of sand removed by rain can be used to calculate a standardized amount of removed sand per area and a kinetic energy per area.</para>
+<para>sandloss</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='precip_cm'>
+<attributeName>Precipitation (precip_cm), cm</attributeName>
+<attributeLabel>precip_cm</attributeLabel>
+<attributeDefinition>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+ (precip_cm: rainfall measured at each splash cup with rainfall bottle)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Precipitation</para>
+<para>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+</para>
+<para>rainfall measured at each splash cup with rainfall bottle</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='precip_ml'>
+<attributeName>Precipitation (precip_ml), ml</attributeName>
+<attributeLabel>precip_ml</attributeLabel>
+<attributeDefinition>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+ (precip_ml: rainfall measured at each splash cup position)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Precipitation</para>
+<para>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+</para>
+<para>rainfall measured at each splash cup position</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='event'>
+<attributeName>Rainevent for determinig kinetic energy of rainfalls (event), </attributeName>
+<attributeLabel>event</attributeLabel>
+<attributeDefinition>Splashcups were collected after certain rain events. Kinetic energy from rainfall removes sand from splashcups: Here we explore the effect individual species have in modulating kinetic energy from raindrops in the Comparative Study Plots of the BEF-China experiment. This information is important for deriving the role of tree diversity on erosion in subtropical forests. (event: rainfall event in summer 2013, measured with splash cups)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Splashcups were collected after certain rain events. Kinetic energy from rainfall removes sand from splashcups: Here we explore the effect individual species have in modulating kinetic energy from raindrops in the Comparative Study Plots of the BEF-China experiment. This information is important for deriving the role of tree diversity on erosion in subtropical forests.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Rainevent for determinig kinetic energy of rainfalls</para>
+<para>Splashcups were collected after certain rain events. Kinetic energy from rainfall removes sand from splashcups: Here we explore the effect individual species have in modulating kinetic energy from raindrops in the Comparative Study Plots of the BEF-China experiment. This information is important for deriving the role of tree diversity on erosion in subtropical forests.</para>
+<para>rainfall event in summer 2013, measured with splash cups</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='precip'>
+<attributeName>Precipitation (precip), mm</attributeName>
+<attributeLabel>precip</attributeLabel>
+<attributeDefinition>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+ (precip: total rainfall amount climate station A)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Precipitation</para>
+<para>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+</para>
+<para>total rainfall amount climate station A</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='intensity_mean'>
+<attributeName>Precipitation (intensity_mean), mm/h</attributeName>
+<attributeLabel>intensity_mean</attributeLabel>
+<attributeDefinition>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+ (intensity_mean: mean rainfall intensity per rainfall event)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Precipitation</para>
+<para>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+</para>
+<para>mean rainfall intensity per rainfall event</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='peak_intensity_30'>
+<attributeName>Precipitation (peak_intensity_30), mm</attributeName>
+<attributeLabel>peak_intensity_30</attributeLabel>
+<attributeDefinition>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+ (peak_intensity_30: peak intensity during 30 minutes rainfall)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Precipitation</para>
+<para>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+</para>
+<para>peak intensity during 30 minutes rainfall</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='peak_intensity_60'>
+<attributeName>Precipitation (peak_intensity_60), mm</attributeName>
+<attributeLabel>peak_intensity_60</attributeLabel>
+<attributeDefinition>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+ (peak_intensity_60: peak intensity of 60 minutes rainfall)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Precipitation</para>
+<para>Precipitation measured at the climate station or locally within sites. Ways to quantify precipitation: rainfall amount open field (collecting bottle) mmmeasured by a rainfall collecting bottle; rainfall amount open field (vaisala) mmmeasured by the vaisala sensor ---
+average rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- peak rainfall intensity open field (vaisala) mm/hmeasured by the vaisala sensor --- average of the five highest five minute intensities open field (vaisala)measured by the vaisala sensor --- rainfall amount (tipping-bucket) mmmeasured by the tipping-bucket rain gauge --- average rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge --- peak rainfall intensity (tipping-bucket) mm/hmeasured by the tipping-bucket rain gauge
+
+</para>
+<para>peak intensity of 60 minutes rainfall</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='covered_splashcup'>
+<attributeName>Covered splash cup (covered_splashcup), </attributeName>
+<attributeLabel>covered_splashcup</attributeLabel>
+<attributeDefinition>yes/no category if splash cup is covered by vegetation (covered_splashcup: yes/no category variable if splash cup is covered by vegetation or not)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>yes/no category if splash cup is covered by vegetation</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Covered splash cup</para>
+<para>yes/no category if splash cup is covered by vegetation</para>
+<para>yes/no category variable if splash cup is covered by vegetation or not</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='LAI'>
+<attributeName>Leaf Area Index (LAI) (LAI), </attributeName>
+<attributeLabel>LAI</attributeLabel>
+<attributeDefinition>Leaf area index (LAI) is a dimensionless quantity that characterizes plant canopies. It is defined as the one-sided green leaf area per unit ground surface area (LAI = leaf area / ground area, m2 / m2) in broadleaf canopies (Watson, D.J., 1947. Comparative physiological studies on the growth of field crops: I. Variation in net assimilation rate and leaf area between species and varieties and within and between years. Annals of Botany, 11: 41-76). In conifers, three definitions for LAI have been used:
+   - Half of the total needle surface area per unit ground surface area (Chen, J.M., and Black, T.A. (1992): Defining leaf area index for non-flat leaves. Agricultural and Forest Meteorology 57: 1–12)
+   - Projected (or one-sided, in accordance the definition for broadleaf canopies) needle area per unit ground area
+   - Total needle surface area per unit ground area
+LAI ranges from 0 (bare ground) to over 10 (dense conifer forests).
+For details on which method has been used, see detailed methodology description of the dataset. (LAI: leaf area index (LAI) measured with Nikon D10 and analyzed in Hemi View over each splash cup position)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Leaf Area Index (LAI)</para>
+<para>Leaf area index (LAI) is a dimensionless quantity that characterizes plant canopies. It is defined as the one-sided green leaf area per unit ground surface area (LAI = leaf area / ground area, m2 / m2) in broadleaf canopies (Watson, D.J., 1947. Comparative physiological studies on the growth of field crops: I. Variation in net assimilation rate and leaf area between species and varieties and within and between years. Annals of Botany, 11: 41-76). In conifers, three definitions for LAI have been used:
+   - Half of the total needle surface area per unit ground surface area (Chen, J.M., and Black, T.A. (1992): Defining leaf area index for non-flat leaves. Agricultural and Forest Meteorology 57: 1–12)
+   - Projected (or one-sided, in accordance the definition for broadleaf canopies) needle area per unit ground area
+   - Total needle surface area per unit ground area
+LAI ranges from 0 (bare ground) to over 10 (dense conifer forests).
+For details on which method has been used, see detailed methodology description of the dataset.</para>
+<para>leaf area index (LAI) measured with Nikon D10 and analyzed in Hemi View over each splash cup position</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='ground_cover'>
+<attributeName>Canopy structure (ground_cover), </attributeName>
+<attributeLabel>ground_cover</attributeLabel>
+<attributeDefinition>Canopy structure was analysed as relative crown overlap and relative sum of crown projection areas. Crown projections of tree individuals were mapped using a GIS system. Crown overlap  O was estimated for each target group from the crown projection maps and set in relation to the circular plot area for the selection of neighbours Or. Similar the sum of crown projections (CPA) per target group was calculated and relative CPA (CPAr) was defined as the ratio of CPA and the circular plot area for the selection of neighbours. (ground_cover: leaf canopy cover calculated by HemiView at each splash cup position Main Experiment Site A with values from 0 to 1.)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Canopy structure</para>
+<para>Canopy structure was analysed as relative crown overlap and relative sum of crown projection areas. Crown projections of tree individuals were mapped using a GIS system. Crown overlap  O was estimated for each target group from the crown projection maps and set in relation to the circular plot area for the selection of neighbours Or. Similar the sum of crown projections (CPA) per target group was calculated and relative CPA (CPAr) was defined as the ratio of CPA and the circular plot area for the selection of neighbours.</para>
+<para>leaf canopy cover calculated by HemiView at each splash cup position Main Experiment Site A with values from 0 to 1.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='divers_level'>
+<attributeName>Taxonomic biodiversity (divers_level), </attributeName>
+<attributeLabel>divers_level</attributeLabel>
+<attributeDefinition>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao's Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao's Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc() (divers_level: tree species richness of the respective study plot)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao's Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao's Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc()</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Taxonomic biodiversity</para>
+<para>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao&#x27;s Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao&#x27;s Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc()</para>
+<para>tree species richness of the respective study plot</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='species_pos'>
+<attributeName>IdTree Splashcup (species_pos), </attributeName>
+<attributeLabel>species_pos</attributeLabel>
+<attributeDefinition>Indicates the identity of the tree under which the splashcup was positioned (species_pos: species position of individuals influencing one splash cup)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Indicates the identity of the tree under which the splashcup was positioned</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>IdTree Splashcup</para>
+<para>Indicates the identity of the tree under which the splashcup was positioned</para>
+<para>species position of individuals influencing one splash cup</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='species_ident_short'>
+<attributeName>Helper (species_ident_short), </attributeName>
+<attributeLabel>species_ident_short</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (species_ident_short: species identity abbreviations, matched with data column species_pos)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>species identity abbreviations, matched with data column species_pos</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='species_idents'>
+<attributeName>Species identity of surrounding tree/shrub individuals (species_idents), </attributeName>
+<attributeLabel>species_idents</attributeLabel>
+<attributeDefinition>Abbreviations of species names of tree/shrub individuals surrounding a measurement/sampling site. Species composition of tree/shrub individuals surrounding a measurement/sampling site. (species_idents: species identities of surrounding tree individuals)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Abbreviations of species names of tree/shrub individuals surrounding a measurement/sampling site. Species composition of tree/shrub individuals surrounding a measurement/sampling site.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Species identity of surrounding tree/shrub individuals</para>
+<para>Abbreviations of species names of tree/shrub individuals surrounding a measurement/sampling site. Species composition of tree/shrub individuals surrounding a measurement/sampling site.</para>
+<para>species identities of surrounding tree individuals</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='elevation'>
+<attributeName>Elevation (elevation), </attributeName>
+<attributeLabel>elevation</attributeLabel>
+<attributeDefinition>Elevation above sea level, altitude (elevation: Elevation of each plot at Site A)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Elevation</para>
+<para>Elevation above sea level, altitude</para>
+<para>Elevation of each plot at Site A</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='aspect'>
+<attributeName>Aspect (aspect), </attributeName>
+<attributeLabel>aspect</attributeLabel>
+<attributeDefinition>Aspect or exposition is the direction a slope is facing and tends to be related to the amount of radiation and humidity a plot receives. (aspect: Aspect of each plot at Site A)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Aspect</para>
+<para>Aspect or exposition is the direction a slope is facing and tends to be related to the amount of radiation and humidity a plot receives.</para>
+<para>Aspect of each plot at Site A</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='neighbor_div'>
+<attributeName>Helper (neighbor_div), </attributeName>
+<attributeLabel>neighbor_div</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (neighbor_div: neighbourhood diversity (i.e. the number of different species) of trees surrounding one splash cup)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>neighbourhood diversity (i.e. the number of different species) of trees surrounding one splash cup</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>1800</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

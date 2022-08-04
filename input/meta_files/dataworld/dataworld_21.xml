@@ -1,0 +1,310 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">us-vcgi-org_dd789af6-cdcc-4380-a40b-d407d1243adc</name>
+	<title type="str">VT Biodiversity Project - Plant and Animal Species Atlas</title>
+	<description type="str">VT Biodiversity Project - Plant and Animal Species Atlas
+
+([Link to Metadata](http://maps.vcgi.vermont.gov/gisdata/metadata/EcologicFauna_ATLAS.htm)) This database contains town-level totals of documented species records for several plant and animal taxa including vascular plants, trees, bryophytes, ferns, fish, mammals, and reptiles &amp; amphibians. Also contained are number of Black Bear kills by town for the years 1980-1996, and number of non-hunter Moose deaths by town for the years 1980-1997. A breeding bird atlas collected at finer resolution than town-level is included but was not summarized by town. Data were originally acquired from Vermont's Agency of Natural Resources (ANR), U.S. Forest Service, museum and herbarium collections, and other published or unpublished atlases.
+
+Source: https://catalog.data.gov/dataset/vt-biodiversity-project-plant-and-animal-species-atlas  
+Last updated at https://catalog.data.gov/organization/vcgi-org : 2018-08-03  
+[Vermont Open GeoData Policy](http://maps.vcgi.vermont.gov/opendata/VT_Open_GeoData_Policy_final1.0.pdf)</description>
+	<homepage type="str">https://data.world/us-vcgi-org/dd789af6-cdcc-4380-a40b-d407d1243adc</homepage>
+	<license type="str">Other</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">geojson_1_1</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">location</name>
+						<title type="str">location</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">location</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">objectid</name>
+						<title type="str">OBJECTID</title>
+						<type type="str">boolean</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#boolean</rdfType>
+						<dwSourceId type="str">objectid</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">townname</name>
+						<title type="str">TOWNNAME</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">townname</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">plant</name>
+						<title type="str">PLANT</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">plant</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">bryop</name>
+						<title type="str">BRYOP</title>
+						<type type="str">boolean</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#boolean</rdfType>
+						<dwSourceId type="str">bryop</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">fern</name>
+						<title type="str">FERN</title>
+						<type type="str">boolean</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#boolean</rdfType>
+						<dwSourceId type="str">fern</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">tree</name>
+						<title type="str">TREE</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">tree</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">herp</name>
+						<title type="str">HERP</title>
+						<type type="str">boolean</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#boolean</rdfType>
+						<dwSourceId type="str">herp</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">mamml</name>
+						<title type="str">MAMML</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">mamml</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">fish</name>
+						<title type="str">FISH</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">fish</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">beark_f</name>
+						<title type="str">BEARK_F</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">beark_f</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">beark_m</name>
+						<title type="str">BEARK_M</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">beark_m</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">moosemor</name>
+						<title type="str">MOOSEMOR</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">moosemor</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">shapestarea</name>
+						<title type="str">SHAPESTArea</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">shapestarea</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">shapestlength</name>
+						<title type="str">SHAPESTLength</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">shapestlength</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/geojson_1_1.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">vt_biodiversity_project_plant_and_animal_species_atlas</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">objectid</name>
+						<title type="str">OBJECTID</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">objectid</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">townname</name>
+						<title type="str">TOWNNAME</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">townname</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">plant</name>
+						<title type="str">PLANT</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">plant</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">bryop</name>
+						<title type="str">BRYOP</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">bryop</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">fern</name>
+						<title type="str">FERN</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">fern</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">tree</name>
+						<title type="str">TREE</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">tree</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">herp</name>
+						<title type="str">HERP</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">herp</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">mamml</name>
+						<title type="str">MAMML</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">mamml</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">fish</name>
+						<title type="str">FISH</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">fish</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">beark_f</name>
+						<title type="str">BEARK_F</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">beark_f</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">beark_m</name>
+						<title type="str">BEARK_M</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">beark_m</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">moosemor</name>
+						<title type="str">MOOSEMOR</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">moosemor</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">shapestare</name>
+						<title type="str">SHAPESTAre</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">shapestare</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">shapestlen</name>
+						<title type="str">SHAPESTLen</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">shapestlen</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/vt_biodiversity_project_plant_and_animal_species_atlas.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/VT_Biodiversity_Project__Plant_and_Animal_Species_Atlas.cpg</name>
+			<path type="str">original/VT_Biodiversity_Project__Plant_and_Animal_Species_Atlas.cpg</path>
+			<format type="str">cpg</format>
+			<mediatype type="str">text/plain</mediatype>
+			<bytes type="int">5</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/VT_Biodiversity_Project__Plant_and_Animal_Species_Atlas.dbf</name>
+			<path type="str">original/VT_Biodiversity_Project__Plant_and_Animal_Species_Atlas.dbf</path>
+			<format type="str">dbf</format>
+			<mediatype type="str">application/dbf</mediatype>
+			<bytes type="int">61426</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/VT_Biodiversity_Project__Plant_and_Animal_Species_Atlas.prj</name>
+			<path type="str">original/VT_Biodiversity_Project__Plant_and_Animal_Species_Atlas.prj</path>
+			<format type="str">prj</format>
+			<mediatype type="str">text/plain</mediatype>
+			<bytes type="int">143</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/VT_Biodiversity_Project__Plant_and_Animal_Species_Atlas.shp</name>
+			<path type="str">original/VT_Biodiversity_Project__Plant_and_Animal_Species_Atlas.shp</path>
+			<format type="str">shp</format>
+			<mediatype type="str">application/x-shapefile</mediatype>
+			<bytes type="int">645284</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/VT_Biodiversity_Project__Plant_and_Animal_Species_Atlas.shx</name>
+			<path type="str">original/VT_Biodiversity_Project__Plant_and_Animal_Species_Atlas.shx</path>
+			<format type="str">shx</format>
+			<mediatype type="str">application/octet-stream</mediatype>
+			<bytes type="int">2140</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/VT_Biodiversity_Project__Plant_and_Animal_Species_Atlas.xml</name>
+			<path type="str">original/VT_Biodiversity_Project__Plant_and_Animal_Species_Atlas.xml</path>
+			<format type="str">xml</format>
+			<mediatype type="str">application/xml</mediatype>
+			<bytes type="int">36887</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/geojson-1-1.geojson</name>
+			<path type="str">original/geojson-1-1.geojson</path>
+			<format type="str">geojson</format>
+			<mediatype type="str">application/vnd.geo+json</mediatype>
+			<bytes type="int">1615606</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/resource_links.md</name>
+			<path type="str">original/resource_links.md</path>
+			<format type="str">md</format>
+			<mediatype type="str">text/markdown</mediatype>
+			<bytes type="int">443</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">animals</item>
+		<item type="str">biodiversity</item>
+		<item type="str">biology</item>
+		<item type="str">biota</item>
+		<item type="str">ecologic</item>
+		<item type="str">fauna</item>
+		<item type="str">flora</item>
+		<item type="str">isothemeecologic</item>
+		<item type="str">nodevcgi</item>
+		<item type="str">plants</item>
+		<item type="str">species</item>
+		<item type="str">subthemefauna</item>
+		<item type="str">subthemeflora</item>
+		<item type="str">taxa</item>
+		<item type="str">vbp</item>
+	</keywords>
+</all>

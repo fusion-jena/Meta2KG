@@ -1,0 +1,425 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='490'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/490</alternateIdentifier>
+<title>Data for Eichenberg et al. 2015: Trade-offs between physical and chemical carbon-based leaf defence: Of intraspecific variation and trait evolution (Journal of Ecology)</title>
+<creator id='deichenberg'>
+<individualName>
+<givenName>David</givenName>
+<surName>Eichenberg</surName>
+</individualName>
+<organizationName>Botanik Halle</organizationName>
+<address>
+
+<city>Leipzig</city>
+<country>Germany</country>
+</address>
+
+<electronicMailAddress>david.eichenberg@uni-leipzig.de</electronicMailAddress>
+</creator>
+<creator id='hbruelheide'>
+<individualName>
+<givenName>Helge</givenName>
+<surName>Bruelheide</surName>
+</individualName>
+
+
+<electronicMailAddress>helge.bruelheide@botanik.uni-halle.de</electronicMailAddress>
+</creator>
+<creator id='cristok'>
+<individualName>
+<givenName>Christian</givenName>
+<surName>Ristok</surName>
+</individualName>
+
+<address>
+
+
+
+</address>
+
+<electronicMailAddress>christian.ristok@idiv.de</electronicMailAddress>
+</creator>
+<creator id='opurschke'>
+<individualName>
+<givenName>Oliver</givenName>
+<surName>Purschke</surName>
+</individualName>
+<organizationName>German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig</organizationName>
+<address>
+<deliveryPoint> Deutscher Platz 5e</deliveryPoint>
+<city>Leipzig</city>
+<country>Germany</country>
+</address>
+<phone>+49(0)341-97-33121</phone>
+<electronicMailAddress>oliver.purschke@idiv.de</electronicMailAddress>
+</creator>
+<pubDate>2015-08-18</pubDate>
+<language>en_US</language>
+<abstract>
+<para>1. Despite recent advances in studies on trade-offs between plant defence traits, little is known about whether trade-offs reflect i) evolutionary constraints at the species level or ii) allocation constraints at the individual level. Here, we asked to which degree physical and chemical carbon-based leaf defence traits covary within and across species. 
+2. We assessed leaf toughness, leaf total phenolics and tannin concentrations for 51 subtropical tree species. Species trait means, sample-specific values and phylogenetically independent contrasts were used in regression analyses. Phylogenetic signals and trait evolution were assessed along the phylogeny.
+3. Analyses of species-level trait means revealed significant negative trait covariations between physical and chemical defence traits in analyses over all species. These covariations were inconsistent at the within-species level. All three defence aspects showed strong phylogenetic signals, but differed in the degree of conservatism along the phylogeny. Inclusion of intraspecific trait variability significantly decreased the strength of these covariations. Strong negative covariations were detected between physical and chemical defence trait when phylogenetic non-independence was accounted for.
+4. Synthesis: We addressed two sources of variation (allocation and evolution) independently from each other in the context of trait interrelationships. The observed negative covariations hint at the existence of a trade-off between physical and chemical defence traits. The finding that intraspecific trait variation contributed less to this relationship suggests that the trade-off is dominated by evolutionary constraints rather than by carbon allocation constraints.</para>
+
+</abstract>
+<keywordSet>
+<keyword>axonomy</keyword>
+<keyword>species</keyword>
+<keyword>species name</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>Species</keyword>
+<keyword>Individual</keyword>
+<keyword>Indiv_Sample</keyword>
+<keyword>Family</keyword>
+<keyword>Genus</keyword>
+<keyword>Leaf toughness</keyword>
+<keyword>Phenolics</keyword>
+<keyword>Tannin</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/490/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>Experimental Sites in Xinganshan (Site A and Site B). Comparative study plots and nearby surroundings in the Gutianshan Natural Nature Reserve.</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2012-02-29
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2012-05-31
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>We investigated 51 species in the present analyses. The full species List is given in the column &quot;Species&quot; in the Dataset. Moreover, a cophenetic distance matrix as well as a phylogenetic tree (as can be opened by the R-package 'ape') are given as freeformat files.</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+We investigated 51 species in the present analyses. The full species List is given in the column &quot;Species&quot; in the Dataset. Moreover, a cophenetic distance matrix as well as a phylogenetic tree (as can be opened by the R-package 'ape') are given as freeformat files.
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>deichenberg</references>
+</contact>
+<contact>
+<references>hbruelheide</references>
+</contact>
+<contact>
+<references>cristok</references>
+</contact>
+<contact>
+<references>opurschke</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>Data for Eichenberg et al. 2015: Trade-offs between physical and chemical carbon-based leaf defence: Of intraspecific variation and trait evolution (Journal of Ecology)</para>
+<para>1. Despite recent advances in studies on trade-offs between plant defence traits, little is known about whether trade-offs reflect i) evolutionary constraints at the species level or ii) allocation constraints at the individual level. Here, we asked to which degree physical and chemical carbon-based leaf defence traits covary within and across species. 
+2. We assessed leaf toughness, leaf total phenolics and tannin concentrations for 51 subtropical tree species. Species trait means, sample-specific values and phylogenetically independent contrasts were used in regression analyses. Phylogenetic signals and trait evolution were assessed along the phylogeny.
+3. Analyses of species-level trait means revealed significant negative trait covariations between physical and chemical defence traits in analyses over all species. These covariations were inconsistent at the within-species level. All three defence aspects showed strong phylogenetic signals, but differed in the degree of conservatism along the phylogeny. Inclusion of intraspecific trait variability significantly decreased the strength of these covariations. Strong negative covariations were detected between physical and chemical defence trait when phylogenetic non-independence was accounted for.
+4. Synthesis: We addressed two sources of variation (allocation and evolution) independently from each other in the context of trait interrelationships. The observed negative covariations hint at the existence of a trade-off between physical and chemical defence traits. The finding that intraspecific trait variation contributed less to this relationship suggests that the trade-off is dominated by evolutionary constraints rather than by carbon allocation constraints.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2012-02-29 00:00:00 UTC - 2012-05-31 00:00:00 UTC</para>
+
+<para>Experimental Sites in Xinganshan (Site A and Site B). Comparative study plots and nearby surroundings in the Gutianshan Natural Nature Reserve.</para>
+<para>We investigated 51 species in the present analyses. The full species List is given in the column &quot;Species&quot; in the Dataset. Moreover, a cophenetic distance matrix as well as a phylogenetic tree (as can be opened by the R-package &#39;ape&#39;) are given as freeformat files.</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>See Materials and Methods in the corresponding mansucript.
+
+The attached &lt;b&gt;freeformat files&lt;/b&gt; contain the following information:
+1. Eichenberg_et_al_2015_JEcol_Cophenetic.csv: the cophenetic distance matrix of all investigated species
+2. Eichenberg_et_al_2015_JEcol_phylogenetic_tree.tre: Phylogenetic tree as can be read in and plotted using the R package &#39;ape&quot;</para>
+<para>See Materials and Methods in the corresponding mansucript.</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/490</entityName>
+<entityDescription>Data for Eichenberg et al. 2015: Trade-offs between physical and chemical carbon-based leaf defence: Of intraspecific variation and trait evolution (Journal of Ecology)</entityDescription>
+<physical>
+<objectName>/datasets/490</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/490/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='Species'>
+<attributeName>Scientific plant species name (Species), </attributeName>
+<attributeLabel>Species</attributeLabel>
+<attributeDefinition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required. (Species: Scientific name of the investigated species)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Scientific plant species name</para>
+<para>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</para>
+<para>Scientific name of the investigated species</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Individual'>
+<attributeName>Helper (Individual), </attributeName>
+<attributeLabel>Individual</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (Individual: Identifier that allows to assort the respective sampe to a unique individual)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>Identifier that allows to assort the respective sampe to a unique individual</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Indiv_Sample'>
+<attributeName>Helper (Indiv_Sample), </attributeName>
+<attributeLabel>Indiv_Sample</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (Indiv_Sample: From every tree 1-10 single leaves were sampled. Theis colums allows to deterine the number of the leaf per individual.)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>From every tree 1-10 single leaves were sampled. Theis colums allows to deterine the number of the leaf per individual.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Family'>
+<attributeName>Plant family name (Family), </attributeName>
+<attributeLabel>Family</attributeLabel>
+<attributeDefinition>Plant family name (Family: Taxonomic family affiliation of the respective species)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Plant family name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plant family name</para>
+<para>Plant family name</para>
+<para>Taxonomic family affiliation of the respective species</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Genus'>
+<attributeName>Plant genus name (Genus), </attributeName>
+<attributeLabel>Genus</attributeLabel>
+<attributeDefinition>Plant genus name (Genus: Taxonomic genus affiliation of the respective species)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Plant genus name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plant genus name</para>
+<para>Plant genus name</para>
+<para>Taxonomic genus affiliation of the respective species</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Leaf toughness'>
+<attributeName>Leaf toughness (Leaf toughness), N/mm</attributeName>
+<attributeLabel>Leaf toughness</attributeLabel>
+<attributeDefinition>Leaf toughness can be measured as leaf tensile strength or as leaf penetration strength. Leaf tensile strength is the force needed to rupture a defined section of the leaf, whereas leaf penetration can be measured by piercing the leaf with a needle. Both measures are used synonymous but do not necessarily give same results or have the same significance (see e.g. Cornelissen et al, 2003: A handbook of protocols for standardised and easy measurement of plant functional traits worldwide). (Leaf toughness: Leaf toughness as tensile strength of a excission of the respective leaf)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Leaf toughness</para>
+<para>Leaf toughness can be measured as leaf tensile strength or as leaf penetration strength. Leaf tensile strength is the force needed to rupture a defined section of the leaf, whereas leaf penetration can be measured by piercing the leaf with a needle. Both measures are used synonymous but do not necessarily give same results or have the same significance (see e.g. Cornelissen et al, 2003: A handbook of protocols for standardised and easy measurement of plant functional traits worldwide).</para>
+<para>Leaf toughness as tensile strength of a excission of the respective leaf</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Phenolics'>
+<attributeName>Secondary Metabolites (Phenolics), mg/g</attributeName>
+<attributeLabel>Phenolics</attributeLabel>
+<attributeDefinition>Secondary metabolites are organic compounds that are not directly involved in the normal growth, development, or reproduction of an organism. Unlike primary metabolites, absence of secondary metabolites does not result in immediate death, but rather in long-term impairment of the organism's survivability, fecundity, or aesthetics, or perhaps in no significant change at all. Secondary metabolites often play an important role in plant defense against herbivory and other interspecies interactions (e.g. pollinator attraction). Examples of secondary metabolites are polyphenolic substances, flavonoids, terpenes etc. (Phenolics: Total phenolics content as tannic acid equivalent)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Secondary Metabolites</para>
+<para>Secondary metabolites are organic compounds that are not directly involved in the normal growth, development, or reproduction of an organism. Unlike primary metabolites, absence of secondary metabolites does not result in immediate death, but rather in long-term impairment of the organism&#39;s survivability, fecundity, or aesthetics, or perhaps in no significant change at all. Secondary metabolites often play an important role in plant defense against herbivory and other interspecies interactions (e.g. pollinator attraction). Examples of secondary metabolites are polyphenolic substances, flavonoids, terpenes etc.</para>
+<para>Total phenolics content as tannic acid equivalent</para>
+</description>
+<instrumentation>Photospectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Tannin'>
+<attributeName>Secondary Metabolites (Tannin), mg/g</attributeName>
+<attributeLabel>Tannin</attributeLabel>
+<attributeDefinition>Secondary metabolites are organic compounds that are not directly involved in the normal growth, development, or reproduction of an organism. Unlike primary metabolites, absence of secondary metabolites does not result in immediate death, but rather in long-term impairment of the organism's survivability, fecundity, or aesthetics, or perhaps in no significant change at all. Secondary metabolites often play an important role in plant defense against herbivory and other interspecies interactions (e.g. pollinator attraction). Examples of secondary metabolites are polyphenolic substances, flavonoids, terpenes etc. (Tannin: Tannin content as tannic acid equivalent)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Secondary Metabolites</para>
+<para>Secondary metabolites are organic compounds that are not directly involved in the normal growth, development, or reproduction of an organism. Unlike primary metabolites, absence of secondary metabolites does not result in immediate death, but rather in long-term impairment of the organism&#39;s survivability, fecundity, or aesthetics, or perhaps in no significant change at all. Secondary metabolites often play an important role in plant defense against herbivory and other interspecies interactions (e.g. pollinator attraction). Examples of secondary metabolites are polyphenolic substances, flavonoids, terpenes etc.</para>
+<para>Tannin content as tannic acid equivalent</para>
+</description>
+<instrumentation>Photospectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>1205</numberOfRecords>
+</dataTable>
+<otherEntity id='581'>
+<alternateIdentifier>/system/freeformats/files/000/000/581/original/Eichenberg_et_al_2015_JEcol_phylogenetic_tree.tre?1439908000</alternateIdentifier>
+<entityName>Eichenberg_et_al_2015_JEcol_phylogenetic_tree.tre</entityName>
+
+<physical>
+<objectName>Eichenberg_et_al_2015_JEcol_phylogenetic_tree.tre</objectName>
+<dataFormat>
+<externallyDefinedFormat>
+<formatName>application/octet-stream</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>/system/freeformats/files/000/000/581/original/Eichenberg_et_al_2015_JEcol_phylogenetic_tree.tre?1439908000</url>
+</online>
+</distribution>
+</physical>
+<entityType>"File Asset"</entityType>
+</otherEntity>
+<otherEntity id='582'>
+<alternateIdentifier>/system/freeformats/files/000/000/582/original/Eichenberg_et_al_2015_JEcol_Cophenetic.csv?1439908006</alternateIdentifier>
+<entityName>Eichenberg_et_al_2015_JEcol_Cophenetic.csv</entityName>
+
+<physical>
+<objectName>Eichenberg_et_al_2015_JEcol_Cophenetic.csv</objectName>
+<dataFormat>
+<externallyDefinedFormat>
+<formatName>text/csv</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>/system/freeformats/files/000/000/582/original/Eichenberg_et_al_2015_JEcol_Cophenetic.csv?1439908006</url>
+</online>
+</distribution>
+</physical>
+<entityType>"File Asset"</entityType>
+</otherEntity>
+</dataset>
+</eml:eml>

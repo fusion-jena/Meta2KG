@@ -1,0 +1,142 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">makeovermonday_2018w17-ecological-footprint-per-capita</name>
+	<title type="str">2018/W17: Ecological Footprint per Capita</title>
+	<description type="str">Ecological Footprint per Capita
+
+# **Overview**
+The National Footprint Accounts (NFAs) measure the ecological resource use and resource capacity of nations from 1961 to 2014. The calculations in the National Footprint Accounts are primarily based on United Nations data sets, including those published by the Food and Agriculture Organization, United Nations Commodity Trade Statistics Database, and the UN Statistics Division, as well as the International Energy Agency. The 2018 edition of the NFA features some exciting updates from last year’s 2017 edition, including data for more countries and improved data sources and methodology. Methodology changes:
+
+1. Our conversion of carbon to CO2 increased in precision, which increased the world’s carbon footprint by approximately 1%.
+2. We implemented a new data quality scoring system. This allowed us to publish data for more countries by omitting unreliable data for some years rather than the entire country’s Ecological Footprint timeline.
+3. We used more precise data from the Global Carbon Project to calculate ocean carbon sequestration rates for 2014.
+
+## National Footprint Accounts 2018 Edition
+Dataset provides Ecological Footprint per capita data for years 1961-2014 in global hectares (gha). Ecological Footprint is a measure of how much area of biologically productive land and water an individual, population, or activity requires to produce all the resources it consumes and to absorb the waste it generates, using prevailing technology and resource management practices. The Ecological Footprint is measured in global hectares. Since trade is global, an individual or country's Footprint tracks area from all over the world. Without further specification, Ecological Footprint generally refers to the Ecological Footprint of consumption (rather than only production or export). Ecological Footprint is often referred to in short form as Footprint.
+
+# **Original Visualization**
+![Ecological Footprint.png](https://media.data.world/P4Y4XtKQ1eioO2I38QGl_Ecological%20Footprint.png)
+[Interactive Version](http://data.footprintnetwork.org/#/compareCountries?cn=all&amp;type=EFCpc&amp;yr=2013)
+
+# **About this Dataset**
+SOURCE: [Global Footprint Network](https://data.world/footprint/nfa-2018-edition)
+
+This data includes total and per capita national biocapacity, ecological footprint of consumption, ecological footprint of production and total area in hectares. This dataset, however, does not include any of our yield factors (national or world) nor any equivalence factors. 
+
+# **Objectives**
+* What works and what doesn't work with this chart? 
+* How can you make it better? 
+* Post your alternative on the discussions page.</description>
+	<homepage type="str">https://data.world/makeovermonday/2018w17-ecological-footprint-per-capita</homepage>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">nfa_2018_edition</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">country</name>
+						<title type="str">country</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">country</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">year</name>
+						<title type="str">year</title>
+						<type type="str">gyear</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#gYear</rdfType>
+						<dwSourceId type="str">year</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">country_code</name>
+						<title type="str">country_code</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">country_code</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">record</name>
+						<title type="str">record</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">record</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">crop_land</name>
+						<title type="str">crop_land</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">crop_land</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">grazing_land</name>
+						<title type="str">grazing_land</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">grazing_land</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">forest_land</name>
+						<title type="str">forest_land</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">forest_land</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">fishing_ground</name>
+						<title type="str">fishing_ground</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">fishing_ground</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">built_up_land</name>
+						<title type="str">built_up_land</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">built_up_land</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">carbon</name>
+						<title type="str">carbon</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">carbon</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">total</name>
+						<title type="str">total</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">total</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">qscore</name>
+						<title type="str">QScore</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">qscore</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/nfa_2018_edition.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/NFA 2018 Edition.csv</name>
+			<path type="str">original/NFA 2018 Edition.csv</path>
+			<format type="str">csv</format>
+			<mediatype type="str">text/csv</mediatype>
+			<bytes type="int">7132699</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">earth day</item>
+		<item type="str">makeover monday</item>
+		<item type="str">environment</item>
+		<item type="str">visualization</item>
+		<item type="str">ecology</item>
+		<item type="str">geographic</item>
+		<item type="str">trends</item>
+	</keywords>
+</all>

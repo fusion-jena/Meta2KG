@@ -1,0 +1,241 @@
+<md:MetaData xmlns:md="http://www.pangaea.de/MetaData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ws.pangaea.de/schemas/pangaea/MetaData.xsd" version="2019-02-13">
+<md:citation id="dataset899570" >
+<md:author id="dataset.author68255" >
+<md:lastName>Hartmann</md:lastName>
+<md:firstName>Markus</md:firstName>
+<md:eMail>hartmannm@tropos.de</md:eMail>
+<md:orcid>0000-0001-9700-1701</md:orcid>
+</md:author>
+<md:author id="dataset.author65691" >
+<md:lastName>Henning</md:lastName>
+<md:firstName>Silvia</md:firstName>
+<md:orcid>0000-0001-9267-7825</md:orcid>
+</md:author>
+<md:author id="dataset.author65689" >
+<md:lastName>Herenz</md:lastName>
+<md:firstName>Paul</md:firstName>
+<md:orcid>0000-0001-8115-8106</md:orcid>
+</md:author>
+<md:author id="dataset.author64447" >
+<md:lastName>Stratmann</md:lastName>
+<md:firstName>Frank</md:firstName>
+<md:eMail>stratmann@tropos.de</md:eMail>
+</md:author>
+<md:year>2019</md:year>
+<md:title>Measurements of Cloud Condensation Nuclei (CCN) concentrations in the Arctic during Polarstern cruise PS106</md:title>
+<md:source id="dataset.sourceinst20251" >Leibniz-Institut für Troposphärenforschung e.V., Leipzig</md:source>
+<md:URI>https://doi.pangaea.de/10.1594/PANGAEA.899570</md:URI>
+<md:dateTime>2019-03-22T12:41:36</md:dateTime>
+</md:citation>
+<md:abstract>Onboard the RV Polarstern a Cloud Condensation Nucleus Counter (CCNc, CCN-100, DMT) was operated during cruise PS106.1 (PASCAL) and PS106.2 (SiPCA) from May 25 to July 16 2017. The measurements were performed in the polydisperse configuration with the CCNc cycling through six supersaturations (SS). The CCNc stayed for 10 min at each SS (0.1%, 0.15%, 0.2%, 0.3%, 0.5%, 1%). The CCN concentrations are averaged for every SS during a cycle and also normalized to standard temperature and pressure conditions (273.15 K and 1013.25 hPa). Ambient temperature and pressure are also provided in order to give the possibility to calculate ambient CCN concentrations.</md:abstract>
+<md:extent>
+<md:geographic>
+<md:westBoundLongitude>2.47</md:westBoundLongitude>
+<md:eastBoundLongitude>34.71</md:eastBoundLongitude>
+<md:southBoundLatitude>57.23</md:southBoundLatitude>
+<md:northBoundLatitude>83.72</md:northBoundLatitude>
+<md:meanLongitude>17.614621642363822</md:meanLongitude>
+<md:meanLatitude>79.58899769761916</md:meanLatitude>
+</md:geographic>
+<md:temporal>
+<md:minDateTime>2017-05-25T11:47:13</md:minDateTime>
+<md:maxDateTime>2017-07-16T09:56:29</md:maxDateTime>
+</md:temporal>
+<md:topoType id="topotype1" >not specified</md:topoType>
+</md:extent>
+<md:project id="project4230" type="National DFG" >
+<md:label>AC3</md:label>
+<md:name>Arctic Amplification</md:name>
+<md:URI>http://www.ac3-tr.de/</md:URI>
+<md:award id="project4230.award17" >
+<md:funder id="project4230.award17.funder20472" semanticURI="https://doi.org/10.13039/501100001659" >
+<md:name>German Science Foundation</md:name>
+<md:optionalName>DFG</md:optionalName>
+<md:URI>http://www.dfg.de/</md:URI>
+</md:funder>
+<md:number>268020496</md:number>
+<md:subtitle>Climate Relevant Atmospheric and SurfaCe Processes, and Feedback Mechanisms</md:subtitle>
+<md:URI>http://gepris.dfg.de/gepris/projekt/268020496</md:URI>
+</md:award>
+</md:project>
+<md:event id="event2864832" >
+<md:label>PS106-track</md:label>
+<md:latitude>53.5675</md:latitude>
+<md:longitude>8.5548</md:longitude>
+<md:dateTime>2017-05-24T00:00:00</md:dateTime>
+<md:latitude2>69.678</md:latitude2>
+<md:longitude2>18.9898</md:longitude2>
+<md:dateTime2>2017-07-20T00:00:00</md:dateTime2>
+<md:campaign id="event2864832.campaign42026" >
+<md:name>PS106/1</md:name>
+<md:optionalName>ARK-XXXI/1.1,PASCAL</md:optionalName>
+<md:URI>https://doi.org/10.2312/BzPM_0719_2018</md:URI>
+<md:attribute attid="2055" name="BSH ID" >20170013</md:attribute>
+<md:attribute attid="2054" name="End location" >Longyearbyen</md:attribute>
+<md:attribute attid="2053" name="Start location" >Bremerhaven</md:attribute>
+</md:campaign>
+<md:basis id="event2864832.basis1" >
+<md:name>Polarstern</md:name>
+<md:URI>http://www.awi.de/en/expedition/ships/polarstern.html</md:URI>
+</md:basis>
+<md:device id="event2864832.term20270" >
+<md:name>Underway cruise track measurements</md:name>
+<md:optionalName>CT</md:optionalName>
+</md:device>
+<md:comment>Combined underway cruise track measurements of PS106.1 and PS106.2</md:comment>
+</md:event>
+<md:size unit="data points" >26072</md:size>
+<md:matrixColumn behaviour="4" col="0" format="yyyy-MM-dd'T'HH:mm:ss" id="col0.ds13612267" label="PS106-track.107" source="geocode" type="datetime" >
+<md:parameter id="col0.ds13612267.geocode1599" >
+<md:name>DATE/TIME</md:name>
+<md:shortName>Date/Time</md:shortName>
+<md:URI>http://en.wikipedia.org/wiki/ISO_8601</md:URI>
+</md:parameter>
+<md:PI id="col0.ds13612267.pi68255" >
+<md:lastName>Hartmann</md:lastName>
+<md:firstName>Markus</md:firstName>
+<md:eMail>hartmannm@tropos.de</md:eMail>
+<md:orcid>0000-0001-9700-1701</md:orcid>
+</md:PI>
+<md:caption>Date/Time</md:caption>
+</md:matrixColumn>
+<md:matrixColumn behaviour="2" col="1" format="##0.00" id="col1.ds13612268" label="PS106-track.108" source="geocode" type="numeric" >
+<md:parameter id="col1.ds13612268.geocode1600" >
+<md:name>LATITUDE</md:name>
+<md:shortName>Latitude</md:shortName>
+<md:URI>http://en.wikipedia.org/wiki/ISO_6709</md:URI>
+</md:parameter>
+<md:PI id="col1.ds13612268.pi68255" >
+<md:lastName>Hartmann</md:lastName>
+<md:firstName>Markus</md:firstName>
+<md:eMail>hartmannm@tropos.de</md:eMail>
+<md:orcid>0000-0001-9700-1701</md:orcid>
+</md:PI>
+<md:caption>Latitude</md:caption>
+</md:matrixColumn>
+<md:matrixColumn behaviour="3" col="2" format="##0.00" id="col2.ds13612269" label="PS106-track.109" source="geocode" type="numeric" >
+<md:parameter id="col2.ds13612269.geocode1601" >
+<md:name>LONGITUDE</md:name>
+<md:shortName>Longitude</md:shortName>
+<md:URI>http://en.wikipedia.org/wiki/ISO_6709</md:URI>
+</md:parameter>
+<md:PI id="col2.ds13612269.pi68255" >
+<md:lastName>Hartmann</md:lastName>
+<md:firstName>Markus</md:firstName>
+<md:eMail>hartmannm@tropos.de</md:eMail>
+<md:orcid>0000-0001-9700-1701</md:orcid>
+</md:PI>
+<md:caption>Longitude</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="3" format="###0.0" id="col3.ds13612270" label="PS106-track.110" source="data" type="numeric" >
+<md:parameter id="col3.ds13612270.param164409" relatedTermIds="43314" >
+<md:name>Supersaturation</md:name>
+<md:shortName>SS</md:shortName>
+<md:unit>%</md:unit>
+<md:URI>https://en.wikipedia.org/wiki/Supersaturation</md:URI>
+</md:parameter>
+<md:PI id="col3.ds13612270.pi68255" >
+<md:lastName>Hartmann</md:lastName>
+<md:firstName>Markus</md:firstName>
+<md:eMail>hartmannm@tropos.de</md:eMail>
+<md:orcid>0000-0001-9700-1701</md:orcid>
+</md:PI>
+<md:caption>SS [%]</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="4" format="##0.0" id="col4.ds13612271" label="PS106-track.111" source="data" type="numeric" >
+<md:parameter id="col4.ds13612271.param4610" >
+<md:name>Temperature, air</md:name>
+<md:shortName>TTT</md:shortName>
+<md:unit>°C</md:unit>
+</md:parameter>
+<md:method id="col4.ds13612271.method4722" >
+<md:name>Thermometer</md:name>
+</md:method>
+<md:PI id="col4.ds13612271.pi68255" >
+<md:lastName>Hartmann</md:lastName>
+<md:firstName>Markus</md:firstName>
+<md:eMail>hartmannm@tropos.de</md:eMail>
+<md:orcid>0000-0001-9700-1701</md:orcid>
+</md:PI>
+<md:caption>TTT [°C]</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="5" format="###0.0" id="col5.ds13612272" label="PS106-track.112" source="data" type="numeric" >
+<md:parameter id="col5.ds13612272.param2224" >
+<md:name>Pressure, atmospheric</md:name>
+<md:shortName>PPPP</md:shortName>
+<md:unit>hPa</md:unit>
+</md:parameter>
+<md:method id="col5.ds13612272.method359" >
+<md:name>Barometer</md:name>
+</md:method>
+<md:PI id="col5.ds13612272.pi68255" >
+<md:lastName>Hartmann</md:lastName>
+<md:firstName>Markus</md:firstName>
+<md:eMail>hartmannm@tropos.de</md:eMail>
+<md:orcid>0000-0001-9700-1701</md:orcid>
+</md:PI>
+<md:caption>PPPP [hPa]</md:caption>
+</md:matrixColumn>
+<md:matrixColumn col="6" format="##0.000" id="col6.ds13612273" label="PS106-track.113" source="data" type="numeric" >
+<md:parameter id="col6.ds13612273.param153195" >
+<md:name>Cloud condensation nuclei</md:name>
+<md:shortName>CCN conc</md:shortName>
+<md:unit>#/cm**3</md:unit>
+</md:parameter>
+<md:method id="col6.ds13612273.method10192" >
+<md:name>Cloud Condensation Nucleus Counter (CCNc, CCN-100, DMT)</md:name>
+</md:method>
+<md:PI id="col6.ds13612273.pi68255" >
+<md:lastName>Hartmann</md:lastName>
+<md:firstName>Markus</md:firstName>
+<md:eMail>hartmannm@tropos.de</md:eMail>
+<md:orcid>0000-0001-9700-1701</md:orcid>
+</md:PI>
+<md:caption>CCN conc [#/cm**3]</md:caption>
+</md:matrixColumn>
+<md:keywords>
+<md:keyword id="keywords.term44002" type="fromDatabase" >Arctic</md:keyword>
+<md:keyword id="keywords.term47901" type="fromDatabase" >Cloud Concensation Nuclei</md:keyword>
+<md:keyword id="keywords.term47715" type="fromDatabase" >PASCAL</md:keyword>
+<md:keyword id="keywords.term47902" type="fromDatabase" >SiPCA</md:keyword>
+<md:techKeyword type="autoGenerated" >author64447</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author65689</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author65691</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68255</md:techKeyword>
+<md:techKeyword type="autoGenerated" >award17</md:techKeyword>
+<md:techKeyword type="autoGenerated" >basis1</md:techKeyword>
+<md:techKeyword type="autoGenerated" >campaign42026</md:techKeyword>
+<md:techKeyword type="autoGenerated" >event2864832</md:techKeyword>
+<md:techKeyword type="autoGenerated" >funder20472</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1599</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1600</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1601</md:techKeyword>
+<md:techKeyword type="autoGenerated" >method10192</md:techKeyword>
+<md:techKeyword type="autoGenerated" >method359</md:techKeyword>
+<md:techKeyword type="autoGenerated" >method4722</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param153195</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param164409</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param2224</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param4610</md:techKeyword>
+<md:techKeyword type="autoGenerated" >pi68255</md:techKeyword>
+<md:techKeyword type="autoGenerated" >project4230</md:techKeyword>
+<md:techKeyword type="autoGenerated" >sourceinst20251</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term20270</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term44002</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term47715</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term47901</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term47902</md:techKeyword>
+<md:techKeyword type="autoGenerated" >topotype1</md:techKeyword>
+</md:keywords>
+<md:technicalInfo>
+<md:entry key="xmlLastModified" value="2019-08-09T08:03:29Z" ></md:entry>
+<md:entry key="filename" value="Hartmann-etal_2019" ></md:entry>
+<md:entry key="mimeType" value="text/tab-separated-values" ></md:entry>
+<md:entry key="status" value="in review" ></md:entry>
+<md:entry key="status_num" value="2" ></md:entry>
+<md:entry key="DOIRegistryStatus" value="not to be registered" ></md:entry>
+<md:entry key="DOIRegistryStatus_num" value="1" ></md:entry>
+<md:entry key="loginOption" value="access rights needed" ></md:entry>
+<md:entry key="loginOption_num" value="3" ></md:entry>
+</md:technicalInfo>
+</md:MetaData> 

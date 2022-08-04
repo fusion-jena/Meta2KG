@@ -1,0 +1,276 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">cityofaustin_psx7-v95h</name>
+	<title type="str">Tree Planting Prioritization 2014</title>
+	<description type="str">This dataset shows U.S.
+
+This dataset shows U.S. Census Tract (2010) boundaries containing tabular data related to tree planting priorities. Prioritization is based on 31 GIS datasets summarized into eight broad categories: public health &amp; safety, air quality, environmental justice, water quality, critical places, forest replenishment, forest preservation &amp; development impacts, and urban heat island. The City of Austin’s Tree Planting Prioritization serves as a decision support tool for locating tree planting sites for Austin’s October through March tree planting season.
+
+Source: https://data.austintexas.gov/d/psx7-v95h  
+Last updated at https://data.austintexas.gov/ : 2020-01-06</description>
+	<homepage type="str">https://data.world/cityofaustin/psx7-v95h</homepage>
+	<license type="str">PDDL</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">geo_export_6782abdc_a810_49f0_a994_f870b95438cf</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">air_qual</name>
+						<title type="str">air_qual</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">air_qual</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">critical_p</name>
+						<title type="str">critical_p</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">critical_p</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">district</name>
+						<title type="str">district</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">district</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">ej</name>
+						<title type="str">ej</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">ej</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">geoid10</name>
+						<title type="str">geoid10</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">geoid10</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">health</name>
+						<title type="str">health</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">health</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">preserve</name>
+						<title type="str">preserve</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">preserve</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">replenish</name>
+						<title type="str">replenish</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">replenish</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">score</name>
+						<title type="str">score</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">score</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">shape_area</name>
+						<title type="str">shape_area</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">shape_area</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">shape_leng</name>
+						<title type="str">shape_leng</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">shape_leng</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">uhi</name>
+						<title type="str">uhi</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">uhi</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">water_qual</name>
+						<title type="str">water_qual</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">water_qual</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/geo_export_6782abdc_a810_49f0_a994_f870b95438cf.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">tree_planting_prioritization_2014_1</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">the_geom</name>
+						<title type="str">the_geom</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">the_geom</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">geoid10</name>
+						<title type="str">GEOID10</title>
+						<type type="str">integer</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#integer</rdfType>
+						<dwSourceId type="str">geoid10</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">district</name>
+						<title type="str">DISTRICT</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">district</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">health</name>
+						<title type="str">HEALTH</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">health</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">air_qual</name>
+						<title type="str">AIR_QUAL</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">air_qual</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">ej</name>
+						<title type="str">EJ</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">ej</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">water_qual</name>
+						<title type="str">WATER_QUAL</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">water_qual</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">critical_p</name>
+						<title type="str">CRITICAL_P</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">critical_p</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">replenish</name>
+						<title type="str">REPLENISH</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">replenish</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">preserve</name>
+						<title type="str">PRESERVE</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">preserve</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">uhi</name>
+						<title type="str">UHI</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">uhi</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">score</name>
+						<title type="str">SCORE</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">score</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">shape_leng</name>
+						<title type="str">Shape_Leng</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">shape_leng</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">shape_area</name>
+						<title type="str">Shape_Area</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">shape_area</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/tree_planting_prioritization_2014_1.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/geo_export_6782abdc-a810-49f0-a994-f870b95438cf.dbf</name>
+			<path type="str">original/geo_export_6782abdc-a810-49f0-a994-f870b95438cf.dbf</path>
+			<format type="str">dbf</format>
+			<mediatype type="str">application/dbf</mediatype>
+			<bytes type="int">174849</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/geo_export_6782abdc-a810-49f0-a994-f870b95438cf.prj</name>
+			<path type="str">original/geo_export_6782abdc-a810-49f0-a994-f870b95438cf.prj</path>
+			<format type="str">prj</format>
+			<mediatype type="str">text/plain</mediatype>
+			<bytes type="int">212</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/geo_export_6782abdc-a810-49f0-a994-f870b95438cf.shp</name>
+			<path type="str">original/geo_export_6782abdc-a810-49f0-a994-f870b95438cf.shp</path>
+			<format type="str">shp</format>
+			<mediatype type="str">application/x-shapefile</mediatype>
+			<bytes type="int">667044</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/geo_export_6782abdc-a810-49f0-a994-f870b95438cf.shx</name>
+			<path type="str">original/geo_export_6782abdc-a810-49f0-a994-f870b95438cf.shx</path>
+			<format type="str">shx</format>
+			<mediatype type="str">application/x-shapefile</mediatype>
+			<bytes type="int">1700</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/tree-planting-prioritization-2014-1.csv</name>
+			<path type="str">original/tree-planting-prioritization-2014-1.csv</path>
+			<format type="str">csv</format>
+			<mediatype type="str">text/csv</mediatype>
+			<bytes type="int">1611823</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/tree-planting-prioritization-2014-2-2.xml</name>
+			<path type="str">original/tree-planting-prioritization-2014-2-2.xml</path>
+			<format type="str">xml</format>
+			<mediatype type="str">application/xml</mediatype>
+			<bytes type="int">1783966</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">tree</item>
+		<item type="str">planting</item>
+		<item type="str">prioritization</item>
+		<item type="str">urban forestry</item>
+		<item type="str">arborist</item>
+		<item type="str">environment</item>
+		<item type="str">urban</item>
+		<item type="str">forest</item>
+		<item type="str">master plan</item>
+		<item type="str">locations and maps</item>
+	</keywords>
+</all>

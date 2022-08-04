@@ -1,0 +1,168 @@
+<md:MetaData xmlns:md="http://www.pangaea.de/MetaData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ws.pangaea.de/schemas/pangaea/MetaData.xsd" version="2019-02-13">
+<md:citation id="dataset898301" >
+<md:author id="dataset.author68025" >
+<md:lastName>Addy</md:lastName>
+<md:firstName>Stephen</md:firstName>
+<md:eMail>stephen.addy@hutton.ac.uk</md:eMail>
+<md:orcid>0000-0003-4582-0013</md:orcid>
+</md:author>
+<md:author id="dataset.author68034" >
+<md:lastName>Wilkinson</md:lastName>
+<md:firstName>Mark E</md:firstName>
+</md:author>
+<md:year>2019</md:year>
+<md:title>Geomorphic, discharge and substrate river restoration monitoring data from the Logie Burn, Scotland (2011 to 2014)</md:title>
+<md:URI>https://doi.org/10.1594/PANGAEA.898301</md:URI>
+<md:dateTime>2019-02-12T12:33:20</md:dateTime>
+<md:supplementTo id="ref98533" >
+<md:author id="ref98533.author68025" >
+<md:lastName>Addy</md:lastName>
+<md:firstName>Stephen</md:firstName>
+<md:eMail>stephen.addy@hutton.ac.uk</md:eMail>
+<md:orcid>0000-0003-4582-0013</md:orcid>
+</md:author>
+<md:author id="ref98533.author68034" >
+<md:lastName>Wilkinson</md:lastName>
+<md:firstName>Mark E</md:firstName>
+</md:author>
+<md:year>2019</md:year>
+<md:title>Geomorphic and retention responses following the restoration of a sand-gravel bed stream</md:title>
+<md:source id="ref98533.journal4683" >Ecological Engineering</md:source>
+<md:volume>130</md:volume>
+<md:URI>https://doi.org/10.1016/j.ecoleng.2019.01.013</md:URI>
+<md:pages>131-146</md:pages>
+</md:supplementTo>
+</md:citation>
+<md:abstract>Restoration is applied to reinstate geomorphic processes and complexity in degraded streams, but case studies of responses remain rare. A 236 m long reach of the Logie Burn, a straightened sand-gravel bed stream in north-east Scotland was restored by reconnecting its pre-modification channel to improve habitat and reduce nutrient transfer. Morphological, sedimentary and retention (wood, phosphorous and organic matter) responses were monitored over 3 years. Monitoring over 2 years was also conducted in a nearby control reach. A net deposition response of 64.3 ± 32.1 m³, a near two-fold enlargement of channel cross section area and a reduction of bed slope from 0.0008 m m⁻¹ to 0.00014 m m⁻¹ were observed in the restored reach over 3 years. The control reach in contrast was relatively stable. After 3 years, relative pool volume and morphological complexity were similar to the control reach and its pre-restoration state. Substrate diversity (Shannon-Wiener index: H') after an initial increase, declined but at the end of the monitoring period was higher (H' = 1.26) than the control reach (H' = 1) and pre-restoration reach (H' = 0.8). Following restoration, the median sediment size (D50) of the majority of the restored main channel reduced from 3.4 mm to 1.5 mm – a similar value to pre-restoration (D50 = 1.6 mm) – reflecting the net deposition response although the overall grainsize distribution was not statistically different. No relationship between geomorphically effective flows and morphological change was found reflecting geomorphic sensitivity due to the reconnection work and wood recruitment mainly driven by tree collapse in response to channel readjustment. The retention of organic matter (OM) and total phosphorous (TP) did not increase in the main channel but did within the backwaters which also exhibited a statistically significant fining response. Overall, these results suggest that the physical habitat improvement value of the scheme so far has been limited but the creation of the backwaters may have increased the capacity of the reach to retain nutrients and fine sediment. This study was funded by the Rural and Environmental Science and Analytical Services (RESAS) division of the Scottish Government.</md:abstract>
+<md:extent>
+<md:geographic>
+<md:westBoundLongitude>-2.9213399999999865</md:westBoundLongitude>
+<md:eastBoundLongitude>-2.915270000000021</md:eastBoundLongitude>
+<md:southBoundLatitude>57.09685</md:southBoundLatitude>
+<md:northBoundLatitude>57.09878</md:northBoundLatitude>
+<md:meanLongitude>-2.9186493333333487</md:meanLongitude>
+<md:meanLatitude>57.097649000000004</md:meanLatitude>
+</md:geographic>
+<md:temporal>
+<md:minDateTime>2011-07-01T00:00:00</md:minDateTime>
+<md:maxDateTime>2014-11-30T23:45:00</md:maxDateTime>
+</md:temporal>
+<md:topoType id="topotype1" >not specified</md:topoType>
+</md:extent>
+<md:size unit="datasets" >6</md:size>
+<md:license id="license21" >
+<md:label>CC-BY-4.0</md:label>
+<md:name>Creative Commons Attribution 4.0 International</md:name>
+<md:URI>https://creativecommons.org/licenses/by/4.0/</md:URI>
+</md:license>
+<md:additionalSearchableContent>River level | Level | Pressure transducer, van Essen Mini Diver DI 501 | River discharge | Q | Calculated, see Comment | Site | Pre- / post-restoration | Comment | Substrate, boulders | Boulders | Substrates visually classified in the field | Substrate, coarse cobbles | Coarse cobbles | Substrate, fine cobbles | Fine cobbles | Substrate, coarse gravels | Coarse gravels | Substrate, medium gravels | Medium gravels | Substrate, fine gravels | Fine gravels | Substrate, fines &lt; 2mm | Fines &lt; 2 mm | Substrate, organic | Organic | Substrate, macrophytes | Macrophytes | Substrate, wood | Wood | Shannon-Wiener diversity index (H) | Shannon Diversity Index | H' | pre-/post-restoration | Total phosphorus | Phosphorus | P | Sodium hydroxide fusion method | Organic content | Org cont | Combined mass from loss on ignition and weighing of coarse organic matter | Total wood | Estimates based on mapping and measurement | pre- post-reconnection | Total | Sample mass | Samp m | Grain size, sieving | Size fraction &lt;0.25 mm | Size fraction 0.355-0.25 mm [%] | Size fraction 0.5-0.25 mm [%] | Size fraction 0.5-0.355 mm [%] | Size fraction 0.63-0.5 mm [%] | Size fraction 0.71-0.5 mm [%] | Size fraction 1-0.5 mm [%] | Size fraction 0.71-0.63 mm [%] | Size fraction 0.9-0.71 mm [%] | Size fraction 1-0.71 mm [%] | Size fraction 1-0.9 mm [%] | Size fraction 2-1 mm [%] | Size fraction 3-2 mm [%] | Size fraction 4-3 mm [%] | Size fraction 5-4 mm [%] | Size fraction 8-5 mm [%] | Size fraction 11-8 mm [%] | Size fraction 16-11 mm [%] | Size fraction 22.6-16 mm [%] | Size fraction 28-22.6 mm [%] | Size fraction 32-22.6 mm [%] | Size fraction 32-28 mm [%] | Size fraction 45-32 mm [%] | Size fraction 64-45 mm [%] | Size fraction 90.5-64 mm [%] | Size fraction &lt; 0.250 mm | &lt;250 µm | Size fraction 0.355-0.250 mm | 355-250 µm | Size fraction 0.500-0.250 mm, 1.0-2.0 phi, medium sand | 500-250 µm | Size fraction 0.500-0.355 mm | 500-355 µm | Size fraction 0.630-0.500 mm | 630-500 µm | Size fraction 0.710-0.500 mm | 710-500 µm | Size fraction 1.000-0.500 mm, 0.0-1.0 phi, coarse sand | 1-0.5 mm | Size fraction 0.710-0.630 mm | 710-630 µm | Size fraction 0.900-0.710 mm | 900-710 µm | Size fraction 1.000-0.710 mm | 1.000-710 µm | Size fraction 1.000-0.900 mm | 1.000-900 µm | Size fraction 2.0-1.0 mm | 2.0-1.0 mm | Size fraction 3-2 mm, gravel | 3-2 mm | Size fraction 4.0-3.0 mm | 4.0-3.0 mm | Size fraction 5-4 mm, gravel | 5-4 mm | Size fraction 8.0-5.0 mm | 8.0-5.0 mm | Size fraction 11.0-8.0 mm | 11.0-8.0 mm | Size fraction 16.0-11.0 mm | 16.0-11.0 mm | Size fraction 22.6-16.0 mm | 22.6-16.0 mm | Size fraction 28.0-22.6 mm | 28.0-22.6 mm | Size fraction 32.0-22.6 mm | 32.0-22.6 mm | Size fraction 32.0-28.0 mm | 32.0-28.0 mm | Size fraction 45.0-32.0 mm | 45.0-32.0 mm | Size fraction 64.0-45.0 mm | 64.0-45.0 mm | Size fraction 90.5-64.0 mm | 90.5-64.0 mm | Finer than 0.355 mm | Size fraction | Fraction | Finer than 0.5 mm | Finer than 0.63 mm | Finer than 0.71 mm | Finer than 1 mm | Finer than 0.9 mm | Finer than 2 mm | Finer than 3 mm | Finer than 4 mm | Finer than 5 mm | Finer than 8 mm | Finer than 11 mm | Finer than 16 mm | Finer than 22.6 mm | Finer than 28 mm | Finer than 32 mm | Finer than 45 mm | Finer than 64 mm | Finer than 90.5 mm | Clasts | Pebble count technique, Wolman (1954) | Size fraction &lt; 8.0 mm | Size fraction 90-64 mm | Size fraction 128-90 mm | Size fraction 180-128 mm | Size fraction 256-180 mm | Size fraction 362-256 mm | Size fraction 512-362 mm | Without truncation | &lt; 8.0 mm | 90-64 mm | 128-90 mm | 180-128 mm | 256-180 mm | 362-256 mm | 512-362 mm | With truncation | Finer than 11.0 mm; with truncation | Finer than 16.0 mm; with truncation | Finer than 22.6 mm; with truncation | Finer than 32.0 mm; with truncation | Finer than 45.0 mm; with truncation | Finer than 64.0 mm; with truncation | Finer than 90 mm; with truncation | Finer than 128 mm; with truncation | Finer than 180 mm; with truncation | Finer than 256 mm; with truncation | Finer than 362 mm; with truncation | Finer than 512 mm; with truncation | File content | Content | Period | File name | File format | File size | Uniform resource locator/link to file | URL file | Method comment | Method comm | Unit | Resolution</md:additionalSearchableContent>
+<md:keywords>
+<md:techKeyword type="autoGenerated" >supplement</md:techKeyword>
+<md:techKeyword type="autoGenerated" >citable</md:techKeyword>
+<md:keyword id="keywords.term47306" type="fromDatabase" >morphology</md:keyword>
+<md:keyword id="keywords.term47308" type="fromDatabase" >reconnection</md:keyword>
+<md:keyword id="keywords.term47304" type="fromDatabase" >River restoration</md:keyword>
+<md:keyword id="keywords.term47307" type="fromDatabase" >sand-gravel bed</md:keyword>
+<md:keyword id="keywords.term47305" type="fromDatabase" >sediment</md:keyword>
+<md:techKeyword type="autoGenerated" >method10111</md:techKeyword>
+<md:techKeyword type="autoGenerated" >method10118</md:techKeyword>
+<md:techKeyword type="autoGenerated" >method10119</md:techKeyword>
+<md:techKeyword type="autoGenerated" >method10120</md:techKeyword>
+<md:techKeyword type="autoGenerated" >method10121</md:techKeyword>
+<md:techKeyword type="autoGenerated" >method10122</md:techKeyword>
+<md:techKeyword type="autoGenerated" >method65</md:techKeyword>
+<md:techKeyword type="autoGenerated" >method9934</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param104252</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param149030</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param150675</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param1570</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param16143</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param16144</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169311</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169312</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169313</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169314</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169315</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169316</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169317</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169318</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169319</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169320</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169321</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169324</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169325</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169326</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169327</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169328</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169329</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169330</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169331</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169332</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169333</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169334</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169335</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169336</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169337</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169338</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169339</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169340</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169341</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169342</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169343</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169344</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169345</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169346</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param169347</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param174</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param175</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param20813</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param21498</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param25541</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param26111</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param48491</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param4914</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param54251</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param62498</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param7042</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param79149</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param8251</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param88</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param88478</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param8910</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param89764</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param90713</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param93675</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param97994</md:techKeyword>
+<md:techKeyword type="autoGenerated" >param99583</md:techKeyword>
+<md:techKeyword type="autoGenerated" >pi68025</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68025</md:techKeyword>
+<md:techKeyword type="autoGenerated" >author68034</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1599</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1600</md:techKeyword>
+<md:techKeyword type="autoGenerated" >geocode1601</md:techKeyword>
+<md:techKeyword type="autoGenerated" >journal4683</md:techKeyword>
+<md:techKeyword type="autoGenerated" >license21</md:techKeyword>
+<md:techKeyword type="autoGenerated" >ref98533</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term47304</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term47305</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term47306</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term47307</md:techKeyword>
+<md:techKeyword type="autoGenerated" >term47308</md:techKeyword>
+<md:techKeyword type="autoGenerated" >topotype1</md:techKeyword>
+</md:keywords>
+<md:technicalInfo>
+<md:entry key="xmlLastModified" value="2019-03-15T03:08:22Z" ></md:entry>
+<md:entry key="filename" value="AddyS_WilkinsonM_2019" ></md:entry>
+<md:entry key="mimeType" value="application/zip" ></md:entry>
+<md:entry key="status" value="published" ></md:entry>
+<md:entry key="status_num" value="4" ></md:entry>
+<md:entry key="DOIRegistryStatus" value="registered" ></md:entry>
+<md:entry key="DOIRegistryStatus_num" value="4" ></md:entry>
+<md:entry key="hierarchyLevel" value="parent" ></md:entry>
+<md:entry key="collectionType" value="publication series" ></md:entry>
+<md:entry key="collectionType_num" value="4" ></md:entry>
+<md:entry key="collectionChilds" value="D898270,D898280,D898281,D898298,D898299,D898300" ></md:entry>
+<md:entry key="loginOption" value="unrestricted" ></md:entry>
+<md:entry key="loginOption_num" value="1" ></md:entry>
+</md:technicalInfo>
+</md:MetaData> 

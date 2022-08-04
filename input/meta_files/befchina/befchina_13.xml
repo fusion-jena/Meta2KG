@@ -1,0 +1,421 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='206'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/206</alternateIdentifier>
+<title>CSPs: Soil lipid biomass; fungi and bacteria, 12 CSPs, overview</title>
+<creator id='twubet'>
+<individualName>
+<givenName>Tesfaye</givenName>
+<surName>Wubet</surName>
+</individualName>
+<organizationName>Helmholtz Centre for Environmental Research UFZ Leipzig-Halle,  Department of Soil Ecology</organizationName>
+<address>
+<deliveryPoint>Theodor-Lieser-Straße 4</deliveryPoint>
+<city>06120 Halle</city>
+<country>Germany</country>
+</address>
+<phone>+ 49 (0) 345-558 5204</phone>
+<electronicMailAddress>tesfaye.wubet@ufz.de</electronicMailAddress>
+</creator>
+<creator id='fbuscot'>
+<individualName>
+<givenName>François</givenName>
+<surName>Buscot</surName>
+</individualName>
+<organizationName>Helmholtz Centre for Environmental Research UFZ Leipzig-Halle,  Department of Soil Ecology</organizationName>
+<address>
+<deliveryPoint>Theodor-Lieser-Straße 4</deliveryPoint>
+<city>06120 Halle</city>
+<country>Germany</country>
+</address>
+<phone>+ 49 (0) 345-558 5221</phone>
+<electronicMailAddress>francois.buscot@ufz.de</electronicMailAddress>
+</creator>
+<creator id='jgutknecht'>
+<individualName>
+<givenName>Jessica</givenName>
+<surName>Gutknecht</surName>
+</individualName>
+<organizationName>Helmholtz Centre for Environmental Research UFZ Leipzig-Halle,  Department of Soil Ecology</organizationName>
+<address>
+<deliveryPoint>Theodor-Lieser-Straße 4</deliveryPoint>
+<city>06120 Halle</city>
+<country>Germany</country>
+</address>
+<phone>+ 49 (0) 345-558 5255</phone>
+<electronicMailAddress>jgut@umn.edu</electronicMailAddress>
+</creator>
+<creator id='ywu'>
+<individualName>
+<givenName>Yu Ting </givenName>
+<surName>Wu</surName>
+</individualName>
+
+
+<electronicMailAddress>yuting.wu@ufz.de</electronicMailAddress>
+</creator>
+<pubDate>2012-03-22</pubDate>
+<language>en_US</language>
+<abstract>
+<para>This is the 2008 CSP PLFA data from a subset of 12 CSPs representing the age gradient. Samples were analyzed over the depth profile of each CSP (see detailed methods below) and analyzed for phospholipid fatty acid profiles, which represent both the biomass and broad community structure of the soil microbial community including broad groups of bacteria and fungi. The point of this study was to characterize the microbial community of the CSPs, as well as to determine which factors most influence microbial community dynamics, including forest age and other factors. Soil lipid fractions can be seen as functional components of the soil microbes, such as decomposers, etc. This dataset summarizes the different groups of lipid fractions, fungi, bacteria.</para>
+<para>This data was from the PhD thesis of Yuting Wu, the initial data was generated before Jessica Gutknecht was at the UFZ (with Francois Buscot, Uwe Lange, and Tesfaye Wubet), and all calculations, interpretation, and manuscript writing were performed after Jessica Gutknecht was there. Methods used for analysis changed for all the work performed by SP13, so methods used for this dataset should only be noted for this dataset.</para>
+</abstract>
+<keywordSet>
+<keyword>age</keyword>
+<keyword>bacteria</keyword>
+<keyword>CSP</keyword>
+<keyword>fungi</keyword>
+<keyword>microbial biomass</keyword>
+<keyword>PLFA</keyword>
+<keyword>soil</keyword>
+<keyword>soil base</keyword>
+<keyword>soil depth</keyword>
+<keyword>soil horizon</keyword>
+<keyword>soil lipids</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>Age</keyword>
+<keyword>CSP</keyword>
+<keyword>depth</keyword>
+<keyword>horizon</keyword>
+<keyword>lab_num</keyword>
+<keyword>sample_num</keyword>
+<keyword>PLFA</keyword>
+<keyword>Bacteria</keyword>
+<keyword>Fungi</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Permission is granted to anybody to access, use and publish all open for public data freely. The commercial use of any data is prohibited. The quality and completeness of data cannot be guaranteed. Users employ these data at their own risk. In order to make attribution of use for owners of the data possible, the identifier of ownership of data must be retained with every data record. Users must publicly acknowledge, in conjunction with the use of the data, the data owners. Cite the data as follows: Wu, Y.T., Buscot, F., Gutknecht, J. and Wubet, T. (2009): Soil lipid biomass: fungi and bacteria, 12 CSPs, overview. BEF-China data portal (Accessed through URL http://china.befdata.biow.uni-leipzig.de/datasets/206)</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/206/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>The Gutianshan National Nature Reserve (NNR) is located in the western part of Zhejiang Province (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Fig. 1).  The Gutianshan NNR has an area of approximately 81 km2 and was initially established as a National Forest Reserve in 1975 and became a National Nature Reserve in 2001. The NNR comprises a large portion of broad-leaved forests of advanced successional stages (Hu &amp; Yu 2008), which have not been managed since the beginning of the 1990ies, as well as young successional stages and conifer plantations, mainly of Cunninghamia lanceolata and Pinus massoniana. --- The vegetation is composed of different types of subtropical evergreen and mixed broad-leaved forests (Yu et al. 2001). Most of the stands are secondary forests, evidenced by maximum tree ages of 180 years, by agricultural terraces in almost all plots and by the presence of charcoal in almost all soil profiles. Around the Gutianshan NRR extensive deforestation has occurred during the Great Leap Forward in the 1950s, as in most parts of Southeast China. However, due to prevailing steep slopes, the Gutianshan area was only marginally usable for agricultural activities, and thus an exceptionally intact forest cover has been preserved. --- The climate at Gutianshan NNR is warm and temperate with a short dry season in November and December and with warm summers (Fig. 2). The climatic conditions are characteristic for the subtropics with an annual average temperature of 15.1°C, January minimum temperatures of -6.8°C, July maximum temperatures of 38.1°C and an accumulated temperature sum (≥ 5°C) of 5221.5 degree days.</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2008-07-31
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2008-12-30
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>bacterial or fungal communities based on lipid indicators, the fungal to bacterial ratio, or total microbial biomass (lipid biomass). See column descriptions for more detail about individual lipid indicators.</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+bacterial or fungal communities based on lipid indicators, the fungal to bacterial ratio, or total microbial biomass (lipid biomass). See column descriptions for more detail about individual lipid indicators.
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>twubet</references>
+</contact>
+<contact>
+<references>fbuscot</references>
+</contact>
+<contact>
+<references>jgutknecht</references>
+</contact>
+<contact>
+<references>ywu</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>CSPs: Soil lipid biomass; fungi and bacteria, 12 CSPs, overview</para>
+<para>This is the 2008 CSP PLFA data from a subset of 12 CSPs representing the age gradient. Samples were analyzed over the depth profile of each CSP (see detailed methods below) and analyzed for phospholipid fatty acid profiles, which represent both the biomass and broad community structure of the soil microbial community including broad groups of bacteria and fungi. The point of this study was to characterize the microbial community of the CSPs, as well as to determine which factors most influence microbial community dynamics, including forest age and other factors. Soil lipid fractions can be seen as functional components of the soil microbes, such as decomposers, etc. This dataset summarizes the different groups of lipid fractions, fungi, bacteria.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2008-07-31 00:00:00 UTC - 2008-12-30 00:00:00 UTC</para>
+<para>Samples were taken in August and September 2008 from the CSPs, taken to Germany, and analyzed in the laboratory afterward (over the next several months).</para>
+<para>The Gutianshan National Nature Reserve (NNR) is located in the western part of Zhejiang Province (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Fig. 1).  The Gutianshan NNR has an area of approximately 81 km2 and was initially established as a National Forest Reserve in 1975 and became a National Nature Reserve in 2001. The NNR comprises a large portion of broad-leaved forests of advanced successional stages (Hu &amp; Yu 2008), which have not been managed since the beginning of the 1990ies, as well as young successional stages and conifer plantations, mainly of Cunninghamia lanceolata and Pinus massoniana. --- The vegetation is composed of different types of subtropical evergreen and mixed broad-leaved forests (Yu et al. 2001). Most of the stands are secondary forests, evidenced by maximum tree ages of 180 years, by agricultural terraces in almost all plots and by the presence of charcoal in almost all soil profiles. Around the Gutianshan NRR extensive deforestation has occurred during the Great Leap Forward in the 1950s, as in most parts of Southeast China. However, due to prevailing steep slopes, the Gutianshan area was only marginally usable for agricultural activities, and thus an exceptionally intact forest cover has been preserved. --- The climate at Gutianshan NNR is warm and temperate with a short dry season in November and December and with warm summers (Fig. 2). The climatic conditions are characteristic for the subtropics with an annual average temperature of 15.1°C, January minimum temperatures of -6.8°C, July maximum temperatures of 38.1°C and an accumulated temperature sum (≥ 5°C) of 5221.5 degree days.</para>
+<para>bacterial or fungal communities based on lipid indicators, the fungal to bacterial ratio, or total microbial biomass (lipid biomass). See column descriptions for more detail about individual lipid indicators.</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>A subset of 12 CSPs were selected according to an successional age and a diversity gradient; based on the original age classifications which were later changed: young (CSPs 16,17,25,26), medium (CSPs 1,5,8,9) and old (CSPs 2,4,12,13). At each CSP, samples were originally taken by SP6 at 5 cm intervals down to 50 cm, and then combined according to soil horizons. For each depth, samples were taken from all 9 subplots then combined into one pooled sample. Microbial biomass: all lipids less than 20 carbons in length were summed to give the total biomass. Lipids were otherwise used according to specific microbial indicator groups and either the abundance (nmol lipid g dry wt-1) or in relative abundance (abundance divided by total lipid biomass). Data were then analyzed in R using multivariate (NMDS) or univariate (co-variate regressions and ANOVA) methods. </para>
+<para>The columns of CSP name, depth, and horizon name are explanitory variables, the response columns are the lipid biomass, fungal to bacterial ratio, and the individual fatty acid indicators --- note that the age classes analyzed here are not the most current age classes. They were changed, but analysis was already deep underway on the paper at that point. --- for the use in subsequent analysis mind that the number of depths sampled per CSP differs, taking the sum is thus biased as well as taking the mean. Best is to use the upper horizon only.</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/206</entityName>
+<entityDescription>CSPs: Soil lipid biomass; fungi and bacteria, 12 CSPs, overview</entityDescription>
+<physical>
+<objectName>/datasets/206</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/206/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='Age'>
+<attributeName>Successional age of a forest plot (Age), </attributeName>
+<attributeLabel>Age</attributeLabel>
+<attributeDefinition>Successional stage describes the amount of time a given forest had to grow without further disturbance.  This can happen in natural forests after landslides, windthrows, fire, etc.  It happens in managed forests after clearance.  In the Comparative study sites of the BEF China experiment, forest plots where chosen according to their successional stage to be able to represent young, intermediate and old forests. Successional stage in the CSP was estimated by Mr. Fang Teng. (Age: the age class assigned at the time of sampling;)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Successional stage describes the amount of time a given forest had to grow without further disturbance.  This can happen in natural forests after landslides, windthrows, fire, etc.  It happens in managed forests after clearance.  In the Comparative study sites of the BEF China experiment, forest plots where chosen according to their successional stage to be able to represent young, intermediate and old forests. Successional stage in the CSP was estimated by Mr. Fang Teng.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Successional age of a forest plot</para>
+<para>Successional stage describes the amount of time a given forest had to grow without further disturbance.  This can happen in natural forests after landslides, windthrows, fire, etc.  It happens in managed forests after clearance.  In the Comparative study sites of the BEF China experiment, forest plots where chosen according to their successional stage to be able to represent young, intermediate and old forests. Successional stage in the CSP was estimated by Mr. Fang Teng.</para>
+<para>the age class assigned at the time of sampling;</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP'>
+<attributeName>BEF research plot name (CSP), id</attributeName>
+<attributeLabel>CSP</attributeLabel>
+<attributeDefinition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province) (CSP: BEF research plot name; Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>BEF research plot name</para>
+<para>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) and B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) or Site B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06&#39;20.2&quot;N 117°55&#39;12.1&quot;E, Jiangxi Province)</para>
+<para>BEF research plot name; Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='depth'>
+<attributeName>Soil depth (depth), </attributeName>
+<attributeLabel>depth</attributeLabel>
+<attributeDefinition>Incremental soil depth as opposed to soil horizon, where each horizon could be of differen depth. (depth: depth increment of the soil sampled; see &quot;CSP soil profile description II_soil horizons.xls&quot; authored by SP6)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Incremental soil depth as opposed to soil horizon, where each horizon could be of differen depth.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil depth</para>
+<para>Incremental soil depth as opposed to soil horizon, where each horizon could be of differen depth.</para>
+<para>depth increment of the soil sampled; see &quot;CSP soil profile description II_soil horizons.xls&quot; authored by SP6</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='horizon'>
+<attributeName>Soil horizon (horizon), dimensionless</attributeName>
+<attributeLabel>horizon</attributeLabel>
+<attributeDefinition>Soil horizon according to established cateogories. Known on data portal, see http://china.befdata.biow.uni-leipzig.de/datasets/127 (&quot;CSP soil profile description II_soil horizons&quot;) authored by SP6 (horizon: the soil horizon name assigned by SP6 to that horizon in the soil profile description and the samples along soil profile; Helper; known on data portal, see &quot;CSP soil profile description II_soil horizons.xls&quot; authored by SP6)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Soil horizon according to established cateogories. Known on data portal, see http://china.befdata.biow.uni-leipzig.de/datasets/127 (&quot;CSP soil profile description II_soil horizons&quot;) authored by SP6</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Soil horizon</para>
+<para>Soil horizon according to established cateogories. Known on data portal, see http://china.befdata.biow.uni-leipzig.de/datasets/127 (&quot;CSP soil profile description II_soil horizons&quot;) authored by SP6</para>
+<para>the soil horizon name assigned by SP6 to that horizon in the soil profile description and the samples along soil profile; Helper; known on data portal, see &quot;CSP soil profile description II_soil horizons.xls&quot; authored by SP6</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='lab_num'>
+<attributeName>Laboratory number of Laboratory of Soil Science and Geoecology in Tübingen (lab_num), dimensionless</attributeName>
+<attributeLabel>lab_num</attributeLabel>
+<attributeDefinition>Laboratory number laboratory Scholten, Kühn, Tübingen. (lab_num: laboratory number of laboratory of soil science and geoecology in Tübingen)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Laboratory number laboratory Scholten, Kühn, Tübingen.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Laboratory number of Laboratory of Soil Science and Geoecology in Tübingen</para>
+<para>Laboratory number laboratory Scholten, Kühn, Tübingen.</para>
+<para>laboratory number of laboratory of soil science and geoecology in Tübingen</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='sample_num'>
+<attributeName>Helper (sample_num), dimensionless</attributeName>
+<attributeLabel>sample_num</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (sample_num: field name of the sample)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>field name of the sample</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='PLFA'>
+<attributeName>Phospholipid fatty acid profiles (PLFA) (PLFA), nmol g dry soil-1</attributeName>
+<attributeLabel>PLFA</attributeLabel>
+<attributeDefinition>Phospholipid fatty acid profiles (PLFA). Lipid fractions are not comparable to taxonomic units, but may be used to roughly quantify functional components of soil microbes. Abundance of lipid fractions can be interpreted as microbe biomass. (PLFA: total sum of  lipids found; ; Wu et al., 2012 (see metadata sheet, doi:10.1007/s10021-012-9533-3) (derived from datagroup))</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Phospholipid fatty acid profiles (PLFA)</para>
+<para>Phospholipid fatty acid profiles (PLFA). Lipid fractions are not comparable to taxonomic units, but may be used to roughly quantify functional components of soil microbes. Abundance of lipid fractions can be interpreted as microbe biomass.</para>
+<para>total sum of  lipids found; ; Wu et al., 2012 (see metadata sheet, doi:10.1007/s10021-012-9533-3) (derived from datagroup)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Bacteria'>
+<attributeName>Phospholipid fatty acid profiles (PLFA) (Bacteria), nmol g dry soil-1</attributeName>
+<attributeLabel>Bacteria</attributeLabel>
+<attributeDefinition>Phospholipid fatty acid profiles (PLFA). Lipid fractions are not comparable to taxonomic units, but may be used to roughly quantify functional components of soil microbes. Abundance of lipid fractions can be interpreted as microbe biomass. (Bacteria: sum: (12:0, i13:0, i14:0, 14:0, i15:1, i15:0, a15:0,, 15:0, i16:0, 16:1x9c/12c, 16:1x7c, 16:1x7t, 10Me16:0, i17:0, a17:0, cy17:0, 17:0, 10Me17:0, 18:17c, 18:17t, 18:0, 10Me18:0, and cy19:0); ; Wu et al., 2012 (see metadata sheet, doi:10.1007/s10021-012-9533-3) (derived from datagroup))</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Phospholipid fatty acid profiles (PLFA)</para>
+<para>Phospholipid fatty acid profiles (PLFA). Lipid fractions are not comparable to taxonomic units, but may be used to roughly quantify functional components of soil microbes. Abundance of lipid fractions can be interpreted as microbe biomass.</para>
+<para>sum: (12:0, i13:0, i14:0, 14:0, i15:1, i15:0, a15:0,, 15:0, i16:0, 16:1x9c/12c, 16:1x7c, 16:1x7t, 10Me16:0, i17:0, a17:0, cy17:0, 17:0, 10Me17:0, 18:17c, 18:17t, 18:0, 10Me18:0, and cy19:0); ; Wu et al., 2012 (see metadata sheet, doi:10.1007/s10021-012-9533-3) (derived from datagroup)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Fungi'>
+<attributeName>Phospholipid fatty acid profiles (PLFA) (Fungi), nmol g dry soil-1</attributeName>
+<attributeLabel>Fungi</attributeLabel>
+<attributeDefinition>Phospholipid fatty acid profiles (PLFA). Lipid fractions are not comparable to taxonomic units, but may be used to roughly quantify functional components of soil microbes. Abundance of lipid fractions can be interpreted as microbe biomass. (Fungi: sum 18:1 w9c, 18:2 w6,9c; ; Wu et al., 2012 (see metadata sheet, doi:10.1007/s10021-012-9533-3) (derived from datagroup))</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Phospholipid fatty acid profiles (PLFA)</para>
+<para>Phospholipid fatty acid profiles (PLFA). Lipid fractions are not comparable to taxonomic units, but may be used to roughly quantify functional components of soil microbes. Abundance of lipid fractions can be interpreted as microbe biomass.</para>
+<para>sum 18:1 w9c, 18:2 w6,9c; ; Wu et al., 2012 (see metadata sheet, doi:10.1007/s10021-012-9533-3) (derived from datagroup)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>43</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

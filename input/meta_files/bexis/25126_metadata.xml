@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metaProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://bexis.uni-jena.de">
+  <general>
+    <id>25126</id>
+    <version>2</version>
+    <title>Aggregated species richness and habitat heterogeneity variables for testing the habitat-heterogeneity hypothesis, 2006-2018</title>
+    <projectName>TreeScape</projectName>
+    <consortium>None</consortium>
+    <abstract>This data was used in "Heterogeneity-diversity relationships differ between and within trophic levels in temperate forests" (Heidrich et al. 2020, NatEcolEvol, 10.1038/s41559-020-1245-z)
+
+The habitat-heterogeneity hypothesis predicts monotonously increasing biodiversity with increasing habitat heterogeneity, due to an increasing number of niches. The area-trade-off hypothesis, however, predicts a decrease in biodiversity at high levels of habitat heterogeneity because of a trade-off between heterogeneity and effective niche area. In this study, we used biodiversity data from twelve taxonomic-functional groups and classified a set of potentially important heterogeneity variables at the forest stand scale with support of airborne laser scanning.
+
+To include a comprehensive gradient in heterogeneity, the data collected in the course of the Exploratories (150 plots) was supplemented by two further projects located in the Steigerwald (69 Plots) and in the Bavarian Forest (BIOKLIM, 278 Plots).
+</abstract>
+    <metadataCreationDate>2019-04-11</metadataCreationDate>
+    <metadataLastModificationDate>2020-10-14</metadataLastModificationDate>
+    <license>CC-BY-NC-4.0</license>
+    <funder>
+      <funderName>German Research Foundation</funderName>
+      <funderIdentifier>https://ror.org/018mejw64</funderIdentifier>
+    </funder>
+    <metadataSchema>Biodiversity Exploratories Metadata Schema 3.0</metadataSchema>
+    <dataLastModificationDate>2020-10-13</dataLastModificationDate>
+    <DOI>https://doi.org/10.25829/bexis.25126-1</DOI>
+  </general>
+  <contacts>
+    <metadataCreator>Lea Heidrich</metadataCreator>
+    <projectLeader>Jörg Müller</projectLeader>
+    <dataCreator>Lea Heidrich</dataCreator>
+    <dataCreator>Juergen Bauhus</dataCreator>
+    <dataCreator>Markus Fischer</dataCreator>
+    <dataCreator>Thomas Nauss</dataCreator>
+    <dataCreator>Marco Tschapka</dataCreator>
+    <dataCreator>Wolfgang Weisser</dataCreator>
+    <dataCreator>Jörg Müller</dataCreator>
+    <contactPerson>
+      <name>Jörg Müller</name>
+      <institute>University of Würzburg</institute>
+      <street>Glashüttenstraße 5</street>
+      <postalCode>96181</postalCode>
+      <city>Rauhenebrach</city>
+      <email>joerg.mueller@npv-bw.bayern.de</email>
+      <phone>09313183378</phone>
+      <mobile>004916090966475</mobile>
+    </contactPerson>
+  </contacts>
+  <coverage>
+    <geographicCoverage>
+      <numberOfPlots>
+        <numberOfGP>150</numberOfGP>
+        <numberOfEP>150</numberOfEP>
+        <numberOfMIP>75</numberOfMIP>
+        <numberOfVIP>31</numberOfVIP>
+      </numberOfPlots>
+    </geographicCoverage>
+    <taxonomicCoverage>
+      <taxon>Animals - Vertebrates</taxon>
+      <taxon>Animals - Invertebrates</taxon>
+      <taxon>Plants</taxon>
+      <taxon>Fungi</taxon>
+    </taxonomicCoverage>
+    <temporalCoverage>
+      <startDate>2006-01-01</startDate>
+      <endDate>2018-12-31</endDate>
+    </temporalCoverage>
+  </coverage>
+  <keywords>
+    <habitats>
+      <grassland>No</grassland>
+      <forest>Yes</forest>
+    </habitats>
+    <relativePositionToGround>
+      <aboveGround>Yes</aboveGround>
+      <belowGround>No</belowGround>
+    </relativePositionToGround>
+    <processesAndServices>
+      <processAndService>None</processAndService>
+    </processesAndServices>
+    <environmentalDescriptors>
+      <environmentalDescriptor>Habitat structure</environmentalDescriptor>
+      <environmentalDescriptor>Other</environmentalDescriptor>
+    </environmentalDescriptors>
+    <bioticDataTypes>
+      <bioticDataType>Multiple species</bioticDataType>
+      <bioticDataType>Total abundance</bioticDataType>
+      <bioticDataType>Aggregated diversity</bioticDataType>
+    </bioticDataTypes>
+    <additionalKeywords>
+      <keyword>Heterogeneity</keyword>
+      <keyword>Forest structure</keyword>
+      <keyword>Multitaxon approach</keyword>
+      <keyword>Dead wood</keyword>
+      <keyword>Plant diversity</keyword>
+    </additionalKeywords>
+  </keywords>
+  <methods>
+    <studyDesign>
+      <experimentalManipulation>No</experimentalManipulation>
+      <temporalRepetitionsPerStudySite>No</temporalRepetitionsPerStudySite>
+      <plotBasedRepetitionsOfMeasurements>No</plotBasedRepetitionsOfMeasurements>
+      <detailedDescriptionOfStudyDesign>Heterogeneity within a habitat comprises many different biotic and abiotic aspects. In a previous review (Stein &amp; Kreft 2015, Biological Reviews), habitat heterogeneity was divided systematically in different subject areas: the biotic subject areas included land cover and vegetation, and the abiotic ones included climate, soil and topography. We adjusted this classification scheme system by restricting their subject areas to those relevant to our within-forest stand heterogeneity (thus excluding land cover), those for which heterogeneity data was available (thus excluding climate and soil, as measures on these properties were not replicated within plots for all of our study sites) and by adding dead wood as subject area. Both subject areas living vegetation and dead wood were then further divided into structural as well as species richness aspects. Finally, we considered in our analyses horizontal and vertical aspects of vegetation heterogeneity. Ultimately, six aspects of habitat heterogeneity were addressed: taxonomical diversity of dead wood, structural diversity of dead wood, plant diversity, heterogeneity in vertical structure and in horizontal structure as well as topography.
+
+References:
+Stein, A. &amp; Kreft, H. (2015). Terminology and quantification of environmental heterogeneity in species-richness research. Biol Rev Camb Philos Soc, 90, 815–836. 
+doi: 10.1111/brv.12135. Epub 2014 Aug 7.
+
+(Note: former name of the section was measurements/theory)</detailedDescriptionOfStudyDesign>
+    </studyDesign>
+    <measurements>
+      <samplingDesign>The data set comprises per plot both aggregated species richness and abundance measures as well as environmental data (diverse measurements based on Airborne Laser Scanning, phylogenetic and functional diversity of plants, richness of dead wood species and structures) 
+
+Measures used in the main analysis:
+
+Species data
+
+used BExIS datasets:
+20826; v1.4.5; Vegetation Records for Forest Eps, 2009-2016
+4460; v1.11.15; Lichen diversity in forests, 2007-2008
+4141; v1.6.10; Bryophyte diversity in relationship to forest management types in forests, 2007-2008
+18547; v1.2.2; Deadwood inhabiting fungi presence absence, 2010
+16868; v1.2.4; Window and ground traps on forest Eps in 2008 subset Araneae
+16867; v1.2.4; Window and ground traps on forest Eps in 2008 subset Hemiptera
+16866; v1.2.4; Window and ground traps on forest Eps in 2008 subset Coleoptera
+21446; v3.1.4; Bird survey data 2008
+21447; v3.2.1; Bird survey data 2009
+21448; v3.1.3; Bird survey data 2010
+19848; v1.1.4; Bat activity in all Exploratories, summer 2008, using acoustic monitoring
+19849; v1.1.4; Bat activity in all Exploratories, summer 2009, using acoustic monitoring
+19850; v1.1.5; Bat activity in all Exploratories, summer 2010, using acoustic monitoring
+
+for the other two projects, see
+
+Steigerwald-Project
+
+Doerfler, I., Gossner, M.M., Müller, J., Seibold, S. &amp; Weisser, W.W. (2018). Deadwood enrichment combining integrative and segregative conservation elements enhances biodiversity of multiple taxa in managed forests. Biol. Conserv., 228, 70–78.
+
+and further, unpublished data which have been provided by Jörg Müller
+
+BIOKLIM-Project
+
+Bässler, C., Müller, J. &amp; Dziock, F. (2010). Detection of Climate-Sensitive Zones and Identification of Climate Change Indicators: A Case Study from the Bavarian Forest National Park. Folia Geobot., 45, 163–182.
+
+Bässler, C., Müller, J., Dziock, F. &amp; Brandl, R. (2010). Effects of resource availability and climate on the diversity of wood-decaying fungi. J. Ecol., 98, 822–832.
+
+Moning, C., Werth, S., Dziock, F., Bässler, C., Bradtka, J., Hothorn, T., et al. (2009). Lichen diversity in temperate montane forests is influenced by forest structure more than climate. For. Ecol. Manag., 258, 745–751.
+
+Müller, J. &amp; Brandl, R. (2009). Assessing biodiversity by remote sensing in mountainous terrain: the potential of LiDAR to predict forest beetle assemblages. J. Appl. Ecol., 46, 897–905.
+
+Müller, J., Mehr, M., Bässler, C., Fenton, M.B., Hothorn, T., Pretzsch, H., et al. (2012). Aggregative response in bats: prey abundance versus habitat. Oecologia, 169, 673–684.
+
+Müller, J., Moning, C., Bässler, C., Heurich, M. &amp; Brandl, R. (2009). Using airborne laser scanning to model potential abundance and assemblages of forest passerines. Basic Appl. Ecol., 10, 671–681.
+
+Raabe, S., Müller, J., Manthey, M., Dürhammer, O., Teuber, U., Göttlein, A., et al. (2010). Drivers of bryophyte diversity allow implications for forest management with a focus on climate change. For. Ecol. Manag., 260, 1956–1964.
+
+and further, unpublished data which have been provided by Jörg Müller
+
+
+
+To gain comparable species data across projects and regions, for each region only the data of year closest to the LiDAR-flights was chosen. The Biodiversity Exploratories used transect walks to record bats with a bat detector while in the other two areas fixed autonomous batcorders for single nights were used. Birds were monitored during breeding season acoustically and visually within a fixed time span. Arthropods were collected with pitfall, crossed flight-interception traps and low intensity light traps. Fungi, bryophytes and lichens were mapped on dead wood objects and plants on a fixed area. For each plot, species richness was summed over the whole collection period. Abundance (or activity) data were available for animals in all five regions. For bryophytes, fungi and plants we only used species richness, as the three projects used differing techniques for the estimation of abundance.
+
+Environmental data
+
+used BExIS datasets:
+15386; v1.1.2; Dead Wood Inventory 2012
+
+The taxonomical diversity of dead wood was calculated by counting the number of different tree species represented on a plot. The structural aspect was calculated by counting the number of different deadwood types classified by the diameter classes, the decomposition classes and deadwood types. We characterized plant diversity by calculating Faith’s PD considering all vascular plants in the tree, shrub and herb layers which have been determined in course of biodiversity assessments. Faith’s PD was calculated based on the phylogeny of Durka and Michalski (2012). We used high resolution Airborne Laser Scanning (ALS) to gain standardized measurements of the complex 3D structure of the forests. As a measure of vertical heterogeneity, we choose the standard deviation of vegetation height returns. For horizontal heterogeneity, we classified our plots in gap and non-gap area. We defined areas which had a minimum size of 50 m², a perimeter/area ratio under &lt; 1.5 (thus excluding narrow linear structures as forest aisles), a height threshold of 2 m and a penetration ratio of more than 80% as gaps. Furthermore, we used the standard deviation of the slope with a grain size of 1 m x 1m across our one-hectare plots as a measure of topographic heterogeneity
+
+References:
+Durka, W. &amp; Michalski, S.G. (2012). Daphne: a dated phylogeny of a large European flora for phylogenetically informed ecological analyses. Ecology, 93, 2297–2297.
+https://doi.org/10.1890/12-0743.1
+
+(Note: former name of the section was measurements/type)</samplingDesign>
+      <equipment>Instruments: Environmental measurements:
+Riegl Q560/VQ780i
+
+Biodiversity assessments:
+
+Pettersson D 1000x ultrasound detector 
+(Pettersson Electronic AG, Uppsala, Sweden)
+
+Batcorder 2.0 bat detector
+(ecoObs GmbH, Nurnberg, Germany)
+
+Observations by hearing &amp; sight
+
+tape measure, knife, pencil &amp; eye
+
+12V, 15W super-actinic light tubes, bucket and chloroform
+
+For more details see Supplementary Methods in Heidrich et al (2020)
+
+Procedure: The ALS datasets from the five regions were pre-processed and the metrics derived using the same methods for all datasets. The pre-processing was performed using LAStools (“LAStools” 2012). This included transformation of the raw data into LAZ file format (txt2las, las2las), coordinate transformations into a unified coordinate reference system, removal of isolated returns (lasnoise) and retiling of the point cloud into 500 x 500m tiles (lastile). Classification of returns into ground, vegetation and buildings was done using lasground and lasclassify. The elevation of points was normalized w.r.t. above ground level (AGL) using lasheight. From the ground returns, a DTM with 1m spatial resolution was generated using the blast2dem function. For the gap analysis, pit free canopy height models (CHM) with a spatial resolution of 1m were created following the concept of Khosravipour et al. (2014) which was implemented in the lidR R-package (Roussel et al. 2019).
+
+For the vertical heterogeneity, we calculated standard deviation (SD) of all the heights from the vegetation returns. The horizontal heterogeneity of the plots was analysed based on canopy gap masks. Gap masks were created from the normalized point cloud by calculating the penetration rate from the top of the canopy down to 2m for 1x1m raster cells. Here, penetration rate is the ratio of all returns with Z&gt;2m to all returns &lt;=2m. Cells with a penetration ratio &gt; 80% were classified as gap cells. Using connected component labelling we grouped connected gap cells to gap objects and calculated area perimeter ratio for each gap using the landscapemetrics R-package (Hesselbarth et al. 2019). To remove very small or narrow gaps (e.g. skidding trails) we deleted all gaps with an area &lt; 50m² or a perimeter-area-ratio &lt;1.5 from the gap maps before we calculated the aggregated statistics on the plot level. Topographic variation was described based on the DTM by calculating the SD of slope values. 
+
+References:
+
+LAStools. (2012). rapidlasso GmbH.
+
+Roussel, J.-R., Auty, D., De Boissieu, F., Meador, A.S: (2019). lidR: Airborne LiDAR Data Manipulation and Visualization for Forestry Applications. 
+Available at: https://cran.r-project.org/web/packages/lidR/index.html.
+
+Khosravipour, A., Skidmore, A.K., Isenburg, M., Wang, T. &amp; Hussin, Y.A. (2014). Generating Pit-free Canopy Height Models from Airborne Lidar. Available at: https://www.ingentaconnect.com/content/asprs/pers/2014/00000080/00000009/art00003. 
+
+
+
+For details see Supplementary Methods in Heidrich et al (2020)</equipment>
+    </measurements>
+    <dataProcessing>
+      <dataPreparation>Methods, grain and timeframe for species sampling - although standardized within the projects - differs between projects, though in various extent. In order to gain comparable estimates of diversity, data had to be of cropped to a comparable extent and, in parts, to equally determinable species sets.
+
+Manipulations on the original Species Data compiled in the Exploratories, the Steigerwald and BIOKLIM:
+
+Only species identified to species level were counted to gain comparable results across projects. 
+An exception to this were in bats the sonotypes "Myotis branditii/mystacinus" and "Plecotus", which comprise two species each, but which have not been determined to species level in any project. Prior to analysis, differences in species composition were visually checked using NMDS. Plots, which lead to stress values of nearly zero were removed as outliers.
+
+Arthropods
+For Arthropods, Plot HEW34 has been excluded from the analysis as it has been repeatedly destroyed by boars. Also, in ALB, HAI and SCH species collected in April were excluded, as not all Plots have been covered in this month and only "Priority 1"-Samples were used to ensure an equal trap number across projects. The plots T3_4 and T2_34 (BIOKLIM) were excluded from analysis. Coleoptera were subdivided into necrophagous, phytophagous, saproxylic and carabid beetles. 
+
+For spiders, the plots T4_47, T4_75  and T3_10 (all BIOKLIM) were removed as outliers.
+For true bugs, the plots AEW12, AEW21, AEW35, HEW14 and SEW10 (all Exploratories), 5EB05 and 6NW09 (Steigerwald) and T2_58, T2_73, T3_20, T3_54, T4_40, T4_44, T4_51 (BIOKLIM) were removed as outliers.
+For carabid beetles, the plots T1_27, T1_34 and T1_57 (BIOKLIM) were removed as outliers.
+
+Fungi
+We only included wood-inhabiting fungi. Because the fungal communities showed extreme differences between the projects, which was unlikely to be based on regional differences alone but rather an effect of the determinability of cryptic species, data cropped to a list of species which are equally determinable according to a specialist (CB). For instance, crustean species were not included. 
+
+Lichens
+We only included epiphytic lichens
+</dataPreparation>
+    </dataProcessing>
+    <references>
+      <literatureReferences>Bässler, C., Müller, J. &amp; Dziock, F. (2010a). Detection of Climate-Sensitive Zones and Identification of Climate Change Indicators: A Case Study from the Bavarian Forest National Park. Folia Geobot., 45, 163–182
+
+Bässler, C., Müller, J., Dziock, F. &amp; Brandl, R. (2010b). Effects of resource availability and climate on the diversity of wood-decaying fungi. J. Ecol., 98, 822–832.
+
+Doerfler, I., Gossner, M.M., Müller, J., Seibold, S. &amp; Weisser, W.W. (2018). Deadwood enrichment combining integrative and segregative conservation elements enhances biodiversity of multiple taxa in managed forests. Biol. Conserv., 228, 70–78.
+
+Durka, W. &amp; Michalski, S.G. (2012). Daphne: a dated phylogeny of a large European flora for phylogenetically informed ecological analyses. Ecology, 93, 2297–2297.
+
+Moning, C., Werth, S., Dziock, F., Bässler, C., Bradtka, J., Hothorn, T., et al. (2009). Lichen diversity in temperate montane forests is influenced by forest structure more than climate. For. Ecol. Manag., 258, 745–751.
+
+Müller, J. &amp; Brandl, R. (2009). Assessing biodiversity by remote sensing in mountainous terrain: the potential of LiDAR to predict forest beetle assemblages. J. Appl. Ecol., 46, 897–905.
+
+Müller, J., Mehr, M., Bässler, C., Fenton, M.B., Hothorn, T., Pretzsch, H., et al. (2012). Aggregative response in bats: prey abundance versus habitat. Oecologia, 169, 673–684.
+
+Müller, J., Moning, C., Bässler, C., Heurich, M. &amp; Brandl, R. (2009). Using airborne laser scanning to model potential abundance and assemblages of forest passerines. Basic Appl. Ecol., 10, 671–681.
+
+Raabe, S., Müller, J., Manthey, M., Dürhammer, O., Teuber, U., Göttlein, A., et al. (2010). Drivers of bryophyte diversity allow implications for forest management with a focus on climate change. For. Ecol. Manag., 260, 1956–1964.
+
+Roth, N., Doerfler, I., Bässler, C., Blaschke, M., Bussler, H., Gossner, M.M., et al. (2019). Decadal effects of landscape-wide enrichment of dead wood on saproxylic organisms in beech forests of different historic management intensity. Divers. Distrib., 25, 430–441.
+
+</literatureReferences>
+    </references>
+  </methods>
+  <dataTypeAndStatus>
+    <contentType>Structured data</contentType>
+    <dataProcessingStatus>Processed</dataProcessingStatus>
+    <dataUploadStatus>Complete</dataUploadStatus>
+  </dataTypeAndStatus>
+</metaProfile>

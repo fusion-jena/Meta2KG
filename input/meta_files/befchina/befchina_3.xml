@@ -1,0 +1,963 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='603'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/603</alternateIdentifier>
+<title>Data for Wang et al. J Ecol</title>
+<creator id='aschuldt'>
+<individualName>
+<givenName>Andreas</givenName>
+<surName>Schuldt</surName>
+</individualName>
+<organizationName>German Centre for Integrative Biodiversity Research (iDiv), Leipzig</organizationName>
+<address>
+<deliveryPoint>Deutscher Platz 5e</deliveryPoint>
+<city>Leipzig</city>
+<country>Germany</country>
+</address>
+<phone>++49 (0) 341 9733232</phone>
+<electronicMailAddress>andreas.schuldt@idiv.de</electronicMailAddress>
+</creator>
+<creator id='cd_zhu'>
+<individualName>
+<givenName>Chao_Dong</givenName>
+<surName>ZHU</surName>
+</individualName>
+<organizationName>Institute of Zoology, Chinese Academy of Sciences</organizationName>
+<address>
+<deliveryPoint>Beicheng Xilu No. 1-5, Chaoyang District</deliveryPoint>
+<city>Beijing</city>
+<country>China</country>
+</address>
+<phone>008610-64807085</phone>
+<electronicMailAddress>zhucd@ioz.ac.cn</electronicMailAddress>
+</creator>
+<pubDate>2019-08-15</pubDate>
+<language>en_US</language>
+<abstract>
+<para>We integrated multiple components of plant and herbivore diversity to unravel the linkages that drive biodiversity relationships and determine the consequences of biodiversity loss across trophic levels. Our study suggests that lepidopteran phylogenetic diversity is significantly affected by plant species loss when basal splits in the evolutionary history are considered. Moreover, we show that multiple components of tree diversity can synergistically affect species richness and phylogenetic diversity of lepidopteran larvae. Importantly, plant diversity effects were indirectly mediated by herbivore abundance—which sheds light on the consequences of recently observed declines in the number of insects for the structuring and functioning of ecosystems, including evolutionary dependencies between plants and their herbivore communities.</para>
+
+</abstract>
+<keywordSet>
+<keyword>Plot</keyword>
+<keyword>site</keyword>
+<keyword>abun</keyword>
+<keyword>observed.div</keyword>
+<keyword>div_abgd</keyword>
+<keyword>div_ptp</keyword>
+<keyword>estimator.ri06</keyword>
+<keyword>estimator.shan06</keyword>
+<keyword>estimator.sim06</keyword>
+<keyword>PD_boot</keyword>
+<keyword>MPD_boot</keyword>
+<keyword>MNTD_boot</keyword>
+<keyword>PD</keyword>
+<keyword>MPD</keyword>
+<keyword>MNTD</keyword>
+<keyword>treerichness</keyword>
+<keyword>func_div_rao</keyword>
+<keyword>phylo_div_rao</keyword>
+<keyword>cwm_la</keyword>
+<keyword>cwm_sla</keyword>
+<keyword>cwm_ldmc</keyword>
+<keyword>cwm_n</keyword>
+<keyword>cwm_c</keyword>
+<keyword>cwm_cn</keyword>
+<keyword>cwm_leaftough</keyword>
+<keyword>cwm_treevol</keyword>
+<keyword>cwm_k</keyword>
+<keyword>cwm_mg</keyword>
+<keyword>cwm_ca</keyword>
+<keyword>cwm_na</keyword>
+<keyword>cwm_p</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Contact Andreas Schuldt for usage</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/603/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>Main experiment Sites A &amp; B (VIP plots)</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2017-04-01
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2018-09-30
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>Lepidopteran caterpillar MOTUs</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+Lepidopteran caterpillar MOTUs
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>aschuldt</references>
+</contact>
+<contact>
+<references>cd_zhu</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>Data for Wang et al. J Ecol</para>
+<para>We integrated multiple components of plant and herbivore diversity to unravel the linkages that drive biodiversity relationships and determine the consequences of biodiversity loss across trophic levels. Our study suggests that lepidopteran phylogenetic diversity is significantly affected by plant species loss when basal splits in the evolutionary history are considered. Moreover, we show that multiple components of tree diversity can synergistically affect species richness and phylogenetic diversity of lepidopteran larvae. Importantly, plant diversity effects were indirectly mediated by herbivore abundance—which sheds light on the consequences of recently observed declines in the number of insects for the structuring and functioning of ecosystems, including evolutionary dependencies between plants and their herbivore communities.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2017-04-01 00:00:00 UTC - 2018-09-30 00:00:00 UTC</para>
+
+<para>Main experiment Sites A &amp; B (VIP plots)</para>
+<para>Lepidopteran caterpillar MOTUs</para>
+</description>
+</studyExtent>
+<samplingDescription>
+
+
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/603</entityName>
+<entityDescription>Data for Wang et al. J Ecol</entityDescription>
+<physical>
+<objectName>/datasets/603</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/603/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='Plot'>
+<attributeName>BEF research plot name (Plot), </attributeName>
+<attributeLabel>Plot</attributeLabel>
+<attributeDefinition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province) (Plot: Study plot identifier; Datagroup description: Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2. Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A and B are named according to their position in the original spreadsheet, in which they were designed. They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu. Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified. &quot;2&quot; means, that we are at site B. Now the coordinates of the south - west corner: &quot;0526&quot;. Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26. The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>BEF research plot name</para>
+<para>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) and B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) or Site B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06&#39;20.2&quot;N 117°55&#39;12.1&quot;E, Jiangxi Province)</para>
+<para>Study plot identifier; Datagroup description: Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2. Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A and B are named according to their position in the original spreadsheet, in which they were designed. They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu. Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified. &quot;2&quot; means, that we are at site B. Now the coordinates of the south - west corner: &quot;0526&quot;. Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26. The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='site'>
+<attributeName>BEF research plot name (site), </attributeName>
+<attributeLabel>site</attributeLabel>
+<attributeDefinition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province) (site: Study site identifier)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>BEF research plot name</para>
+<para>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8&#39;18&quot; – 29º17&#39;29&quot; N, 118º2&#39;14&quot; – 118º11&#39;12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) and B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07&#39;28.2&quot;N 117°54&#39;27.5&quot;E) or Site B (29°05&#39;06.8&quot;N 117°55&#39;44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06&#39;20.2&quot;N 117°55&#39;12.1&quot;E, Jiangxi Province)</para>
+<para>Study site identifier</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='abun'>
+<attributeName>Organism count (abun), </attributeName>
+<attributeLabel>abun</attributeLabel>
+<attributeDefinition>Counting the individuals of a given taxon, also called abundance. (abun: Observed abundance of caterpillars)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Organism count</para>
+<para>Counting the individuals of a given taxon, also called abundance.</para>
+<para>Observed abundance of caterpillars</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='observed.div'>
+<attributeName>Taxonomic biodiversity (observed.div), </attributeName>
+<attributeLabel>observed.div</attributeLabel>
+<attributeDefinition>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao's Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao's Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc() (observed.div: Observed number of caterpillar OTUs)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Taxonomic biodiversity</para>
+<para>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao&#39;s Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao&#39;s Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc()</para>
+<para>Observed number of caterpillar OTUs</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='div_abgd'>
+<attributeName>Taxonomic biodiversity (div_abgd), </attributeName>
+<attributeLabel>div_abgd</attributeLabel>
+<attributeDefinition>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao's Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao's Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc() (div_abgd: Observed number of caterpillar OTUs based on ABGD method)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Taxonomic biodiversity</para>
+<para>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao&#39;s Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao&#39;s Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc()</para>
+<para>Observed number of caterpillar OTUs based on ABGD method</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='div_ptp'>
+<attributeName>Taxonomic biodiversity (div_ptp), </attributeName>
+<attributeLabel>div_ptp</attributeLabel>
+<attributeDefinition>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao's Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao's Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc() (div_ptp: Observed number of caterpillar OTUs based on PTP method)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Taxonomic biodiversity</para>
+<para>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao&#39;s Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao&#39;s Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc()</para>
+<para>Observed number of caterpillar OTUs based on PTP method</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='estimator.ri06'>
+<attributeName>Taxonomic biodiversity (estimator.ri06), </attributeName>
+<attributeLabel>estimator.ri06</attributeLabel>
+<attributeDefinition>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao's Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao's Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc() (estimator.ri06: Estimated number of caterpillar OTUs (Hill number 0))</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Taxonomic biodiversity</para>
+<para>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao&#39;s Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao&#39;s Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc()</para>
+<para>Estimated number of caterpillar OTUs (Hill number 0)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='estimator.shan06'>
+<attributeName>Taxonomic biodiversity (estimator.shan06), </attributeName>
+<attributeLabel>estimator.shan06</attributeLabel>
+<attributeDefinition>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao's Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao's Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc() (estimator.shan06: Estimated number of caterpillar OTUs (Hill number 1))</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Taxonomic biodiversity</para>
+<para>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao&#39;s Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao&#39;s Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc()</para>
+<para>Estimated number of caterpillar OTUs (Hill number 1)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='estimator.sim06'>
+<attributeName>Taxonomic biodiversity (estimator.sim06), </attributeName>
+<attributeLabel>estimator.sim06</attributeLabel>
+<attributeDefinition>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao's Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao's Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc() (estimator.sim06: Estimated number of caterpillar OTUs (Hill number 2))</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Taxonomic biodiversity</para>
+<para>Taxon diversity can be given as species richness, or other diversity indices.  We also use rarefied species richness, shannon diversity index, and phylogenetic diversity indices. Rarefaction curves show the increase in species number with an increase of sampled individuals. R uses rarefy() from the package vegan to estimated species number for a given number of individuals. To compare different plots, the number of individuals should be smaller than the minimum number of individuals. -- The Shannon diversity is given by H = -sum (p_i log(p_i)), p_i is the relative abundance of the ith species. R provides this through the vegan package: diversity(x). -- The Simpson diversity is given by D = sum p_i^2, with p_i representing the relative abundance of the ith species. R provides this through the vegan package: diversity(x, index=&quot;simpson&quot;) -- Trees were counted when they exceeded 1m height. This data is aggregated from the raw data provided by Martin Böhnke and Martin Baruffol; in R with vegan: specnumber() -- Eveness as defined by Ricotta, C. A semantic taxonomy for diversity measures Acta Biotheoretica, 2007, 55, 23-33: shannon/log(rich) -- Phylogenetic diversity is calculated using Rao&#39;s Q. This is basically the mean distance of all pairswise distances between individuals in phylogenetic space. I used genus and family name to calculate phylogenetic distances between species. R provides Rao&#39;s Q and tools for calculating phylogenetic distances in the package ade4. Commands: as.taxo(), divc()</para>
+<para>Estimated number of caterpillar OTUs (Hill number 2)</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='PD_boot'>
+<attributeName>Phylogenetic biodiversity (PD_boot), </attributeName>
+<attributeLabel>PD_boot</attributeLabel>
+<attributeDefinition>Phylogenetic biodiversity (PD_boot: bootstrapped PD of caterpillars)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Phylogenetic biodiversity</para>
+<para>Phylogenetic biodiversity</para>
+<para>bootstrapped PD of caterpillars</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='MPD_boot'>
+<attributeName>Phylogenetic biodiversity (MPD_boot), </attributeName>
+<attributeLabel>MPD_boot</attributeLabel>
+<attributeDefinition>Phylogenetic biodiversity (MPD_boot: bootstrapped MPD of caterpillars)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Phylogenetic biodiversity</para>
+<para>Phylogenetic biodiversity</para>
+<para>bootstrapped MPD of caterpillars</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='MNTD_boot'>
+<attributeName>Phylogenetic biodiversity (MNTD_boot), </attributeName>
+<attributeLabel>MNTD_boot</attributeLabel>
+<attributeDefinition>Phylogenetic biodiversity (MNTD_boot: bootstrapped MNTD of caterpillars)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Phylogenetic biodiversity</para>
+<para>Phylogenetic biodiversity</para>
+<para>bootstrapped MNTD of caterpillars</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='PD'>
+<attributeName>Phylogenetic biodiversity (PD), </attributeName>
+<attributeLabel>PD</attributeLabel>
+<attributeDefinition>Phylogenetic biodiversity (PD: phylogenetic diversity of caterpillars)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Phylogenetic biodiversity</para>
+<para>Phylogenetic biodiversity</para>
+<para>phylogenetic diversity of caterpillars</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='MPD'>
+<attributeName>Phylogenetic biodiversity (MPD), </attributeName>
+<attributeLabel>MPD</attributeLabel>
+<attributeDefinition>Phylogenetic biodiversity (MPD: mean phylogenetic diversity of caterpillars)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Phylogenetic biodiversity</para>
+<para>Phylogenetic biodiversity</para>
+<para>mean phylogenetic diversity of caterpillars</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='MNTD'>
+<attributeName>Phylogenetic biodiversity (MNTD), </attributeName>
+<attributeLabel>MNTD</attributeLabel>
+<attributeDefinition>Phylogenetic biodiversity (MNTD: mean nearest taxon distance of caterpillars)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Phylogenetic biodiversity</para>
+<para>Phylogenetic biodiversity</para>
+<para>mean nearest taxon distance of caterpillars</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='treerichness'>
+<attributeName>Tree species identifier in the Main Experiment design (treerichness), </attributeName>
+<attributeLabel>treerichness</attributeLabel>
+<attributeDefinition>Tree species identifier in the Main Experiment design (treerichness: Tree species richness)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Tree species identifier in the Main Experiment design</para>
+<para>Tree species identifier in the Main Experiment design</para>
+<para>Tree species richness</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='func_div_rao'>
+<attributeName>Functional biodiversity (func_div_rao), </attributeName>
+<attributeLabel>func_div_rao</attributeLabel>
+<attributeDefinition>Functional biodiversity uses functional traits of organisms as a basis to quantifying biodiversity.  This can be the range of variation of traits, the amount of dissimilarity or similarity of traits.  Common measures are functional diversity, eveness, dissimilarity. (func_div_rao: Functional diversity of tree species)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Functional biodiversity</para>
+<para>Functional biodiversity uses functional traits of organisms as a basis to quantifying biodiversity.  This can be the range of variation of traits, the amount of dissimilarity or similarity of traits.  Common measures are functional diversity, eveness, dissimilarity.</para>
+<para>Functional diversity of tree species</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='phylo_div_rao'>
+<attributeName>Phylogenetic biodiversity (phylo_div_rao), </attributeName>
+<attributeLabel>phylo_div_rao</attributeLabel>
+<attributeDefinition>Phylogenetic biodiversity (phylo_div_rao: Phylogenetic diversity of tree species)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Phylogenetic biodiversity</para>
+<para>Phylogenetic biodiversity</para>
+<para>Phylogenetic diversity of tree species</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='cwm_la'>
+<attributeName>Community Composition (cwm_la), </attributeName>
+<attributeLabel>cwm_la</attributeLabel>
+<attributeDefinition>Composition of the community (cwm_la: Community-weighted mean of leaf area)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Community Composition</para>
+<para>Composition of the community</para>
+<para>Community-weighted mean of leaf area</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='cwm_sla'>
+<attributeName>Community Composition (cwm_sla), </attributeName>
+<attributeLabel>cwm_sla</attributeLabel>
+<attributeDefinition>Composition of the community (cwm_sla: Community-weighted mean of specific leaf area)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Community Composition</para>
+<para>Composition of the community</para>
+<para>Community-weighted mean of specific leaf area</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='cwm_ldmc'>
+<attributeName>Community Composition (cwm_ldmc), </attributeName>
+<attributeLabel>cwm_ldmc</attributeLabel>
+<attributeDefinition>Composition of the community (cwm_ldmc: Community-weighted mean of leaf dry matter content)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Community Composition</para>
+<para>Composition of the community</para>
+<para>Community-weighted mean of leaf dry matter content</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='cwm_n'>
+<attributeName>Community Composition (cwm_n), </attributeName>
+<attributeLabel>cwm_n</attributeLabel>
+<attributeDefinition>Composition of the community (cwm_n: Community-weighted mean of leaf nitrogen)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Community Composition</para>
+<para>Composition of the community</para>
+<para>Community-weighted mean of leaf nitrogen</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='cwm_c'>
+<attributeName>Community Composition (cwm_c), </attributeName>
+<attributeLabel>cwm_c</attributeLabel>
+<attributeDefinition>Composition of the community (cwm_c: Community-weighted mean of leaf carbon)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Community Composition</para>
+<para>Composition of the community</para>
+<para>Community-weighted mean of leaf carbon</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='cwm_cn'>
+<attributeName>Community Composition (cwm_cn), </attributeName>
+<attributeLabel>cwm_cn</attributeLabel>
+<attributeDefinition>Composition of the community (cwm_cn: Community-weighted mean of leaf C:N ratio)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Community Composition</para>
+<para>Composition of the community</para>
+<para>Community-weighted mean of leaf C:N ratio</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='cwm_leaftough'>
+<attributeName>Community Composition (cwm_leaftough), </attributeName>
+<attributeLabel>cwm_leaftough</attributeLabel>
+<attributeDefinition>Composition of the community (cwm_leaftough: Community-weighted mean of leaf toughness)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Community Composition</para>
+<para>Composition of the community</para>
+<para>Community-weighted mean of leaf toughness</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='cwm_treevol'>
+<attributeName>Community Composition (cwm_treevol), </attributeName>
+<attributeLabel>cwm_treevol</attributeLabel>
+<attributeDefinition>Composition of the community (cwm_treevol: Community-weighted mean of tree wood volume)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Community Composition</para>
+<para>Composition of the community</para>
+<para>Community-weighted mean of tree wood volume</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='cwm_k'>
+<attributeName>Community Composition (cwm_k), </attributeName>
+<attributeLabel>cwm_k</attributeLabel>
+<attributeDefinition>Composition of the community (cwm_k: Community-weighted mean of leaf potassium)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Community Composition</para>
+<para>Composition of the community</para>
+<para>Community-weighted mean of leaf potassium</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='cwm_mg'>
+<attributeName>Community Composition (cwm_mg), </attributeName>
+<attributeLabel>cwm_mg</attributeLabel>
+<attributeDefinition>Composition of the community (cwm_mg: Community-weighted mean of leaf magnesia)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Community Composition</para>
+<para>Composition of the community</para>
+<para>Community-weighted mean of leaf magnesia</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='cwm_ca'>
+<attributeName>Community Composition (cwm_ca), </attributeName>
+<attributeLabel>cwm_ca</attributeLabel>
+<attributeDefinition>Composition of the community (cwm_ca: Community-weighted mean of leaf calcium)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Community Composition</para>
+<para>Composition of the community</para>
+<para>Community-weighted mean of leaf calcium</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='cwm_na'>
+<attributeName>Community Composition (cwm_na), </attributeName>
+<attributeLabel>cwm_na</attributeLabel>
+<attributeDefinition>Composition of the community (cwm_na: Community-weighted mean of leaf sodium)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Community Composition</para>
+<para>Composition of the community</para>
+<para>Community-weighted mean of leaf sodium</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='cwm_p'>
+<attributeName>Community Composition (cwm_p), </attributeName>
+<attributeLabel>cwm_p</attributeLabel>
+<attributeDefinition>Composition of the community (cwm_p: Community-weighted mean of leaf phosphorus)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Community Composition</para>
+<para>Composition of the community</para>
+<para>Community-weighted mean of leaf phosphorus</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>55</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

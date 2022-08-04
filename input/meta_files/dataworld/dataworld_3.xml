@@ -1,0 +1,532 @@
+<?xml version="1.0" ?>
+<all>
+	<name type="str">marineinstitute_e3219e45-9445-4fdf-aa79-76bf13e10d97</name>
+	<title type="str">Fish Health Unit Authorised Sites</title>
+	<description type="str">Fish Health Unit Authorised Sites
+
+Fish Health Unit registered finfish sites in Ireland where Fish Health regulations and Fish Health monitoring on finfish are applied. Fish health is protected by European legislation (Council Directive 2006/88/EC) designed to prevent and control the spread of certain diseases in aquatic animals. The legislation classifies aquatic disease as either exotic, in which case they are not present in the European Community or non-exotic in which case they occur in certain countries within the community. The Directive was transposed into Irish Law by the European Communities (Health of Aquaculture Animals and Products) Regulations 2008 (SI No. 261 of 2008), European Communities (Health of Aquaculture Animals and Products (Amendment) Regulations 2010 (S.I. No. 398 of 2010) and 2011 (S.I. No. 430 of 2011). The regulations introduce measures that reflect the significant growth and development in the aquaculture industry in Ireland over the past 15 years. Specific regulations are in place relating to Pacific oysters (Crassostrea gigas) to prevent the introduction of ostreid herpesvirus into certain areas of Ireland and the United Kingdom. Fish health legislation in Ireland is implemented by the Marine Institute as the Competent Authority.
+
+Source: https://data.gov.ie/publisher/marine-institute  
+Last updated at https://data.gov.ie/publisher/marine-institute : 2017-09-14  
+
+
+License - 
+Creative Commons Attribution 4.0</description>
+	<homepage type="str">https://data.world/marineinstitute/e3219e45-9445-4fdf-aa79-76bf13e10d97</homepage>
+	<license type="str">CC-BY</license>
+	<resources type="list">
+		<item type="dict">
+			<name type="str">download_csv_1</name>
+			<schema type="dict">
+				<fields type="list">
+					<item type="dict">
+						<name type="str">county</name>
+						<title type="str">County</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">county</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">name_of_the_aquaculture_production_business_farm</name>
+						<title type="str">Name of the Aquaculture Production business / farm</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">name_of_the_aquaculture_production_business_farm</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">address_or_location_of_the_farm</name>
+						<title type="str">Address or location of the farm</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">address_or_location_of_the_farm</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">column_d</name>
+						<title type="str">Column D</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">column_d</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">longitude_decimal_degrees</name>
+						<title type="str">Longitude decimal degrees</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">longitude_decimal_degrees</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">latitude_decimal_degrees</name>
+						<title type="str">Latitude decimal degrees</title>
+						<type type="str">number</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#decimal</rdfType>
+						<dwSourceId type="str">latitude_decimal_degrees</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">no_susceptible_or_vector_species_present</name>
+						<title type="str">No, Susceptible or vector species present</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">no_susceptible_or_vector_species_present</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">susceptible_species_present</name>
+						<title type="str">Susceptible species present</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">susceptible_species_present</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">vector_species_present</name>
+						<title type="str">Vector species present</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vector_species_present</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">no_susceptible_or_vector_species_present_2</name>
+						<title type="str">No, Susceptible or vector species present</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">no_susceptible_or_vector_species_present_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">susceptible_species_present_2</name>
+						<title type="str">Susceptible species present</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">susceptible_species_present_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">vector_species_present_2</name>
+						<title type="str">Vector species present</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vector_species_present_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">no_susceptible_or_vector_species_present_3</name>
+						<title type="str">No, Susceptible or vector species present</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">no_susceptible_or_vector_species_present_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">susceptible_species_present_3</name>
+						<title type="str">Susceptible species present</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">susceptible_species_present_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">vector_species_present_3</name>
+						<title type="str">Vector species present</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vector_species_present_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">no_susceptible_or_vector_species_present_4</name>
+						<title type="str">No, Susceptible or vector species present</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">no_susceptible_or_vector_species_present_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">susceptible_species_present_4</name>
+						<title type="str">Susceptible species present</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">susceptible_species_present_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">vector_species_present_4</name>
+						<title type="str">Vector species present</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">vector_species_present_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">declared_disease_free</name>
+						<title type="str">Declared disease free</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">declared_disease_free</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">under_surveillance_programme</name>
+						<title type="str">Under Surveillance programme</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">under_surveillance_programme</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">not_known_to_be_infected</name>
+						<title type="str">Not known to be infected</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">not_known_to_be_infected</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">other</name>
+						<title type="str">Other</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">other</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">declared_disease_free_2</name>
+						<title type="str">Declared disease free</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">declared_disease_free_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">under_surveillance_programme_2</name>
+						<title type="str">Under Surveillance programme</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">under_surveillance_programme_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">not_known_to_be_infected_2</name>
+						<title type="str">Not known to be infected</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">not_known_to_be_infected_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">other_2</name>
+						<title type="str">Other</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">other_2</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">declared_disease_free_3</name>
+						<title type="str">Declared disease free</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">declared_disease_free_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">under_surveillance_programme_3</name>
+						<title type="str">Under Surveillance programme</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">under_surveillance_programme_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">not_known_to_be_infected_3</name>
+						<title type="str">Not known to be infected</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">not_known_to_be_infected_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">other_3</name>
+						<title type="str">Other</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">other_3</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">declared_disease_free_4</name>
+						<title type="str">Declared disease free</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">declared_disease_free_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">under_surveillance_programme_4</name>
+						<title type="str">Under Surveillance programme</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">under_surveillance_programme_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">not_known_to_be_infected_4</name>
+						<title type="str">Not known to be infected</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">not_known_to_be_infected_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">other_4</name>
+						<title type="str">Other</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">other_4</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">declared_disease_free_5</name>
+						<title type="str">Declared disease free</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">declared_disease_free_5</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">under_surveillance_programme_5</name>
+						<title type="str">Under Surveillance programme</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">under_surveillance_programme_5</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">not_known_to_be_infected_5</name>
+						<title type="str">Not known to be infected</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">not_known_to_be_infected_5</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">other_5</name>
+						<title type="str">Other</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">other_5</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">declared_disease_free_6</name>
+						<title type="str">Declared disease free</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">declared_disease_free_6</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">under_surveillance_programme_6</name>
+						<title type="str">Under Surveillance programme</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">under_surveillance_programme_6</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">not_known_to_be_infected_6</name>
+						<title type="str">Not known to be infected</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">not_known_to_be_infected_6</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">other_6</name>
+						<title type="str">Other</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">other_6</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">declared_disease_free_7</name>
+						<title type="str">Declared disease free</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">declared_disease_free_7</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">under_surveillance_programme_7</name>
+						<title type="str">Under Surveillance programme</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">under_surveillance_programme_7</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">not_known_to_be_infected_7</name>
+						<title type="str">Not known to be infected</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">not_known_to_be_infected_7</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">other_7</name>
+						<title type="str">Other</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">other_7</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">declared_disease_free_8</name>
+						<title type="str">Declared disease free</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">declared_disease_free_8</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">under_surveillance_programme_8</name>
+						<title type="str">Under Surveillance programme</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">under_surveillance_programme_8</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">not_known_to_be_infected_8</name>
+						<title type="str">Not known to be infected</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">not_known_to_be_infected_8</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">other_8</name>
+						<title type="str">Other</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">other_8</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">saltwater_cages_enclosures_pens</name>
+						<title type="str">Saltwater Cages / enclosures / pens</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">saltwater_cages_enclosures_pens</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">saltwater_ponds</name>
+						<title type="str">Saltwater ponds</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">saltwater_ponds</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">saltwater_tanks_raceways</name>
+						<title type="str">Saltwater tanks / raceways</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">saltwater_tanks_raceways</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">saltwater_closed_recirculation</name>
+						<title type="str">Saltwater closed (recirculation)</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">saltwater_closed_recirculation</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">freshwater_cages_enclosures_pens</name>
+						<title type="str">Freshwater cages / enclosures / pens</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">freshwater_cages_enclosures_pens</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">freshwater_ponds</name>
+						<title type="str">Freshwater ponds</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">freshwater_ponds</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">freshwater_tanks_raceways</name>
+						<title type="str">Freshwater tanks / raceways</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">freshwater_tanks_raceways</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">freshwater_closed_recirculation</name>
+						<title type="str">Freshwater closed (recirculation)</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">freshwater_closed_recirculation</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">research_facility</name>
+						<title type="str">Research facility</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">research_facility</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">quarantine_facility</name>
+						<title type="str">Quarantine Facility</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">quarantine_facility</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">other_9</name>
+						<title type="str">Other</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">other_9</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">hatchery</name>
+						<title type="str">Hatchery</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">hatchery</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">nursery</name>
+						<title type="str">Nursery</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">nursery</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">brood_stock</name>
+						<title type="str">Brood Stock</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">brood_stock</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">grow_out_for_human_consumption</name>
+						<title type="str">Grow out for human consumption</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">grow_out_for_human_consumption</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">put_take_fisheries</name>
+						<title type="str">Put &amp; Take fisheries</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">put_take_fisheries</dwSourceId>
+					</item>
+					<item type="dict">
+						<name type="str">other_10</name>
+						<title type="str">Other</title>
+						<type type="str">string</type>
+						<rdfType type="str">http://www.w3.org/2001/XMLSchema#string</rdfType>
+						<dwSourceId type="str">other_10</dwSourceId>
+					</item>
+				</fields>
+			</schema>
+			<path type="str">data/download_csv_1.csv</path>
+			<format type="str">csv</format>
+		</item>
+		<item type="dict">
+			<name type="str">original/download-csv-1.csv</name>
+			<path type="str">original/download-csv-1.csv</path>
+			<format type="str">csv</format>
+			<mediatype type="str">text/csv</mediatype>
+			<bytes type="int">30433</bytes>
+		</item>
+		<item type="dict">
+			<name type="str">original/download-report-2.pdf</name>
+			<path type="str">original/download-report-2.pdf</path>
+			<format type="str">pdf</format>
+			<mediatype type="str">application/pdf</mediatype>
+			<bytes type="int">435721</bytes>
+		</item>
+	</resources>
+	<keywords type="list">
+		<item type="str">authorised site</item>
+		<item type="str">authorised sites</item>
+		<item type="str">cork</item>
+		<item type="str">donegal</item>
+		<item type="str">environment</item>
+		<item type="str">fish</item>
+		<item type="str">fish disease</item>
+		<item type="str">fish farm</item>
+		<item type="str">fish farming</item>
+		<item type="str">fish health</item>
+		<item type="str">fish health directive</item>
+		<item type="str">galway</item>
+		<item type="str">health</item>
+		<item type="str">ireland</item>
+		<item type="str">kerry</item>
+		<item type="str">kilkenny</item>
+		<item type="str">mayo</item>
+		<item type="str">tipperary</item>
+		<item type="str">wicklow</item>
+	</keywords>
+</all>

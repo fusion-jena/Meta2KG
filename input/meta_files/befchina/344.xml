@@ -1,0 +1,414 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='344'>
+<alternateIdentifier>http://china.befdata.biow.uni-leipzig.de/datasets/344</alternateIdentifier>
+<title>CSPs: Tree wood decomposition rates: debris items with soil contacts in coarse mesh nets in the Comparative Study Plots</title>
+<creator id='kpietsch'>
+<individualName>
+<givenName>Katherina</givenName>
+<surName>Pietsch</surName>
+</individualName>
+<organizationName>Leipzig University</organizationName>
+<address>
+<deliveryPoint>Johannisallee 21-23</deliveryPoint>
+<city>Leipzig</city>
+
+</address>
+<phone>+49 - 341 - 97 38593</phone>
+<electronicMailAddress>kpietsch@uni-leipzig.de</electronicMailAddress>
+</creator>
+<creator id='cwirth'>
+<individualName>
+<givenName>Christian</givenName>
+<surName>Wirth</surName>
+</individualName>
+
+
+<electronicMailAddress>cwirth@uni-leipzig.de</electronicMailAddress>
+</creator>
+<pubDate>2013-06-04</pubDate>
+<language>en_US</language>
+<abstract>
+<para>Decomposition rates of wood samples placed into defined subplots of the Comparative Study plots (CSPs) of the BEF-China Research group.</para>
+
+</abstract>
+<keywordSet>
+<keyword>biomass</keyword>
+<keyword>CSP</keyword>
+<keyword>date</keyword>
+<keyword>debris</keyword>
+<keyword>decomposition</keyword>
+<keyword>location</keyword>
+<keyword>object</keyword>
+<keyword>response variable</keyword>
+<keyword>species</keyword>
+<keyword>tree species</keyword>
+<keyword>wood</keyword>
+<keyword>woody debris</keyword>
+<keywordThesaurus>Find the list of keywords here: http://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>rownr</keyword>
+<keyword>CSP</keyword>
+<keyword>plot_subplot</keyword>
+<keyword>date_cwd_deposition</keyword>
+<keyword>sample_number</keyword>
+<keyword>spec</keyword>
+<keyword>retention.date</keyword>
+<keyword>dw_sample</keyword>
+<keyword>initial_dw</keyword>
+<keyword>k</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<distribution scope='document'>
+<online>
+<url function='information'>
+http://china.befdata.biow.uni-leipzig.de/datasets/344/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>Wood samples were placed in four subplots regularly into the Comparative Study Plots (CSP) of the BEF-China Research Group in the Gutianshan National Nature Reserve, China.
+29°08'-29°17'N
+118°02'-118°11'E</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2010-10-08
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2012-12-14
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>Tree species, species names are explicitly stated in the data</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+Tree species, species names are explicitly stated in the data
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>kpietsch</references>
+</contact>
+<contact>
+<references>cwirth</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>CSPs: Tree wood decomposition rates: debris items with soil contacts in coarse mesh nets in the Comparative Study Plots</para>
+<para>Decomposition rates of wood samples placed into defined subplots of the Comparative Study plots (CSPs) of the BEF-China Research group.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2010-10-08 00:00:00 UTC - 2012-12-14 00:00:00 UTC</para>
+<para>Deposition and retention dates are explicitly stated in the data (2010-2012)</para>
+<para>Wood samples were placed in four subplots regularly into the Comparative Study Plots (CSP) of the BEF-China Research Group in the Gutianshan National Nature Reserve, China.
+29°08&#x27;-29°17&#x27;N
+118°02&#x27;-118°11&#x27;E</para>
+<para>Tree species, species names are explicitly stated in the data</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>Wood samples of comparable size were placed into four subplots of the CSPs. Subplots are at the corners of the central CSP subplot, when the CSP is devided into 9 quadrats.</para>
+<para>This data can be used for comparing wood decomposition rates, however, it is only part of the wood samples. This data is based on the wood samples in coars mesh nets and with soil contact.</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>http://china.befdata.biow.uni-leipzig.de/datasets/344</entityName>
+<entityDescription>CSPs: Tree wood decomposition rates: debris items with soil contacts in coarse mesh nets in the Comparative Study Plots</entityDescription>
+<physical>
+<objectName>/datasets/344</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>http://china.befdata.biow.uni-leipzig.de/datasets/344/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='rownr'>
+<attributeName>Helper (rownr), dimensionless</attributeName>
+<attributeLabel>rownr</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (rownr: row number of the original data set, including other mesh types of net and positionings)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>row number of the original data set, including other mesh types of net and positionings</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CSP'>
+<attributeName>BEF research plot name (CSP), dimensionless</attributeName>
+<attributeLabel>CSP</attributeLabel>
+<attributeDefinition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province) (CSP: Number of the Comparative Study Plot; Datagroup description: BEF research plot name; Datagroup description: Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8'18&quot; – 29º17'29&quot; N, 118º2'14&quot; – 118º11'12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07'28.2&quot;N 117°54'27.5&quot;E) and B (29°05'06.8&quot;N 117°55'44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07'28.2&quot;N 117°54'27.5&quot;E) or Site B (29°05'06.8&quot;N 117°55'44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06'20.2&quot;N 117°55'12.1&quot;E, Jiangxi Province)</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>BEF research plot name</para>
+<para>Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). There are three main sites for research plots in the BEF Experiment: Comparative Study Plots (CSP) in the  Gutianshan Nature Reserve (29º8&#x27;18&quot; – 29º17&#x27;29&quot; N, 118º2&#x27;14&quot; – 118º11&#x27;12&quot; E, Zhejiang Province Southeast China), having a size of 30x30m^2, measured on the ground. Main Experiment plots have a size of 1 mu, which is about 25x25m^2 in horizontal projection. Pilot Study Plots have a size of 1x1 m^2.  
+Research plots on the main experiment have a &quot;p&quot; in front of their IDs and then a 6 digit code: Plots in the main sites A (29°07&#x27;28.2&quot;N 117°54&#x27;27.5&quot;E) and B (29°05&#x27;06.8&quot;N 117°55&#x27;44.4&quot;E) are named according to their position in the original spreadsheet, in which they were designed.  They consist of 6 digits: _1st digit_: Site (1:A, 2:B), _digit 2and3_: southwards row: as in spreadsheets the rows are named from the top to the bottom; _digit 4 and 5_: westward column: as in the original spreadsheet, but the letters are converted to numbers (A=01, B=02); _6th digit_: indicator, if the plot has been shifted a quarter mu.  Example: &quot;p205260&quot;: &quot;p&quot; means that this is a plot that is specified.  &quot;2&quot; means, that we are at site B.  Now the coordinates of the south - west corner: &quot;0526&quot;.  Since &quot;e&quot; is the fifth letter of the alphabet, this is Plot E26.   The last digit &quot;0&quot; means that this plot was not moved by a quarter of a Mu, as some sites in Site A. The 6th digit can also indicate the subplot within the plot. &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot; indicate the northwest, northeast, southeast, and southwest quarter plot respectively.
+Morover, Plots from the main experiment may be labelled in the more ambiguous  form of e.g. A32. This indicates a plat either on Site A (29°07&#x27;28.2&quot;N 117°54&#x27;27.5&quot;E) or Site B (29°05&#x27;06.8&quot;N 117°55&#x27;44.4&quot;E) of the main experiment. This value only becomes a unique identifier if supported with the &quot;site&quot; information from another cell.
+Plots labelled in the form of &quot;1_AO1&quot; or &quot;g1_AO1&quot; or &quot;pilot1_AO1&quot; belong to the &quot;Pilot Experiment&quot; (approx location:  29°06&#x27;20.2&quot;N 117°55&#x27;12.1&quot;E, Jiangxi Province)</para>
+<para>Number of the Comparative Study Plot; Datagroup description: BEF research plot name; Datagroup description: Reasearch plots of the Biodiversity - Ecosystem functioning experiment (BEF-China). Comparative Study Plots (CSP) in the Gutianshan Nature Reserve, having a size of 30x30m^2, measured on the ground.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='plot_subplot'>
+<attributeName>Subplots within CSPs (plot_subplot), </attributeName>
+<attributeLabel>plot_subplot</attributeLabel>
+<attributeDefinition>Subplots within CSPs (plot_subplot: Subplot within the CSP: acronyms for North- South etc, which corner of the central of 9 subplots the samples were placed)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Subplots within CSPs</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Subplots within CSPs</para>
+<para>Subplots within CSPs</para>
+<para>Subplot within the CSP: acronyms for North- South etc, which corner of the central of 9 subplots the samples were placed</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='date_cwd_deposition'>
+<attributeName>Date time information (date_cwd_deposition), dimensionless</attributeName>
+<attributeLabel>date_cwd_deposition</attributeLabel>
+<attributeDefinition>Date time information, given as year or as date or as date time. (date_cwd_deposition: Deposition date)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Date time information, given as year or as date or as date time.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Date time information</para>
+<para>Date time information, given as year or as date or as date time.</para>
+<para>Deposition date</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='sample_number'>
+<attributeName>Woody debris items (sample_number), </attributeName>
+<attributeLabel>sample_number</attributeLabel>
+<attributeDefinition>Woody debris items are dead trees or parts of trees, such as fallen crowns, branches, etc. (sample_number: Identifier of the wood sample)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Woody debris items are dead trees or parts of trees, such as fallen crowns, branches, etc.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Woody debris items</para>
+<para>Woody debris items are dead trees or parts of trees, such as fallen crowns, branches, etc.</para>
+<para>Identifier of the wood sample</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='spec'>
+<attributeName>Scientific plant species name (spec), dimensionless</attributeName>
+<attributeLabel>spec</attributeLabel>
+<attributeDefinition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required. (spec: Species name)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Scientific plant species name</para>
+<para>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</para>
+<para>Species name</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='retention.date'>
+<attributeName>Date time information (retention.date), dimensionless</attributeName>
+<attributeLabel>retention.date</attributeLabel>
+<attributeDefinition>Date time information, given as year or as date or as date time. (retention.date: Retention date)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Date time information, given as year or as date or as date time.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Date time information</para>
+<para>Date time information, given as year or as date or as date time.</para>
+<para>Retention date</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='dw_sample'>
+<attributeName>Above and below ground biomass measurement (dw_sample), </attributeName>
+<attributeLabel>dw_sample</attributeLabel>
+<attributeDefinition>Above and below ground biomass measurement (dw_sample: dry weight of the weight sample)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Above and below ground biomass measurement</para>
+<para>Above and below ground biomass measurement</para>
+<para>dry weight of the weight sample</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='initial_dw'>
+<attributeName>Above and below ground biomass measurement (initial_dw), dimensionless</attributeName>
+<attributeLabel>initial_dw</attributeLabel>
+<attributeDefinition>Above and below ground biomass measurement (initial_dw: Initial dry weight of the weight sample)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Above and below ground biomass measurement</para>
+<para>Above and below ground biomass measurement</para>
+<para>Initial dry weight of the weight sample</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='k'>
+<attributeName>Decomposition (k), </attributeName>
+<attributeLabel>k</attributeLabel>
+<attributeDefinition>Any numeric information concerning Decomposition; e.g. mass based decomposition; litter decay rates; remaining litter mass after exposure time ect. (k: k)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Decomposition</para>
+<para>Any numeric information concerning Decomposition; e.g. mass based decomposition; litter decay rates; remaining litter mass after exposure time ect.</para>
+<para>k</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>619</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>

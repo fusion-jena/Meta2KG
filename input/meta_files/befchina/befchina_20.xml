@@ -1,0 +1,1385 @@
+<eml:eml packageId='eml.1.1' system='knb' xmlns:eml='eml://ecoinformatics.org/eml-2.1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 eml-2.1.0/eml.xsd'>
+<dataset id='323'>
+<alternateIdentifier>https://china.befdata.biow.uni-leipzig.de/datasets/323</alternateIdentifier>
+<title>Main Experiment: Leaf traits and chemicals from individual trees in the Main Experiment (Site A &amp; B)</title>
+<creator id='deichenberg'>
+<individualName>
+<givenName>David</givenName>
+<surName>Eichenberg</surName>
+</individualName>
+<organizationName>Botanik Halle</organizationName>
+<address>
+
+<city>Leipzig</city>
+<country>Germany</country>
+</address>
+
+<electronicMailAddress>david.eichenberg@uni-leipzig.de</electronicMailAddress>
+</creator>
+<creator id='hbruelheide'>
+<individualName>
+<givenName>Helge</givenName>
+<surName>Bruelheide</surName>
+</individualName>
+
+
+<electronicMailAddress>helge.bruelheide@botanik.uni-halle.de</electronicMailAddress>
+</creator>
+<creator id='wkroeber'>
+<individualName>
+<givenName>Wenzel</givenName>
+<surName>Kröber</surName>
+</individualName>
+
+<address>
+
+
+
+</address>
+
+<electronicMailAddress>noreply@uni.halle.de</electronicMailAddress>
+</creator>
+<creator id='mboehnke'>
+<individualName>
+<givenName>Martin</givenName>
+<surName>Böhnke</surName>
+</individualName>
+<organizationName>Uni Halle</organizationName>
+
+<electronicMailAddress>martin.boehnke@botanik.uni-halle.de</electronicMailAddress>
+</creator>
+<pubDate>2013-03-12</pubDate>
+<language>en_US</language>
+<abstract>
+<para>Leaf traits and chemicals from tree species in the Main Experimental sites, including secondary compound (total phenolic and tannin concentrations) and information on stomata.</para>
+
+</abstract>
+<keywordSet>
+<keyword>additional trees</keyword>
+<keyword>aluminium</keyword>
+<keyword>cadmium</keyword>
+<keyword>calcium</keyword>
+<keyword>carbon</keyword>
+<keyword>chemical leaf composition</keyword>
+<keyword>chrome</keyword>
+<keyword>cobalt</keyword>
+<keyword>copper</keyword>
+<keyword>date</keyword>
+<keyword>explanatory</keyword>
+<keyword>individual based values</keyword>
+<keyword>iron</keyword>
+<keyword>kalium</keyword>
+<keyword>LDMC</keyword>
+<keyword>lead</keyword>
+<keyword>leaf size</keyword>
+<keyword>leaf trait</keyword>
+<keyword>location</keyword>
+<keyword>magnesium</keyword>
+<keyword>Main Experiment</keyword>
+<keyword>manganese</keyword>
+<keyword>natrium</keyword>
+<keyword>nickel</keyword>
+<keyword>nitrogen</keyword>
+<keyword>phosphorus</keyword>
+<keyword>polyphenols</keyword>
+<keyword>sample identity</keyword>
+<keyword>shrub</keyword>
+<keyword>shrub individual</keyword>
+<keyword>shrub position</keyword>
+<keyword>SLA</keyword>
+<keyword>species</keyword>
+<keyword>stomata</keyword>
+<keyword>strontium</keyword>
+<keyword>sulfur</keyword>
+<keyword>tannin</keyword>
+<keyword>taxon</keyword>
+<keyword>tree individual</keyword>
+<keyword>tree position</keyword>
+<keyword>year</keyword>
+<keyword>zinc</keyword>
+<keywordThesaurus>Find the list of keywords here: https://china.befdata.biow.uni-leipzig.de/keywords</keywordThesaurus>
+</keywordSet>
+<keywordSet>
+<keyword>Samplecode</keyword>
+<keyword>Sample.Collector</keyword>
+<keyword>Species</keyword>
+<keyword>Year_Collected</keyword>
+<keyword>Exp_Site</keyword>
+<keyword>Exp_vicinity</keyword>
+<keyword>Exp_Plot</keyword>
+<keyword>Exp_Plot_Position</keyword>
+<keyword>TAG</keyword>
+<keyword>neighbour.tree_TAG</keyword>
+<keyword>shrub.TAG</keyword>
+<keyword>Leaf.fresh.weight</keyword>
+<keyword>Leaf.dry.weight</keyword>
+<keyword>LA</keyword>
+<keyword>SLA</keyword>
+<keyword>LDMC</keyword>
+<keyword>N</keyword>
+<keyword>C</keyword>
+<keyword>CN</keyword>
+<keyword>K</keyword>
+<keyword>Mg</keyword>
+<keyword>Ca</keyword>
+<keyword>Al</keyword>
+<keyword>Ca2</keyword>
+<keyword>Fe</keyword>
+<keyword>K2</keyword>
+<keyword>Mg2</keyword>
+<keyword>Mn</keyword>
+<keyword>Na</keyword>
+<keyword>P</keyword>
+<keyword>S</keyword>
+<keyword>Zn</keyword>
+<keyword>Co</keyword>
+<keyword>Cu</keyword>
+<keyword>Pb</keyword>
+<keyword>Sr</keyword>
+<keyword>Cr</keyword>
+<keyword>Ni</keyword>
+<keyword>Cd214</keyword>
+<keyword>Cd228</keyword>
+<keyword>stomata.density</keyword>
+<keyword>average.length</keyword>
+<keyword>average.width</keyword>
+<keyword>Phenolics</keyword>
+<keyword>Tannin</keyword>
+<keywordThesaurus>List of headers of the data columns in this dataset</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>Prof. Helge Bruelheide, David Eichenberg, Wenzel Kröber, Martin Böhnke, Christian Ristok</para>
+</intellectualRights>
+<distribution scope='document'>
+<online>
+<url function='information'>
+https://china.befdata.biow.uni-leipzig.de/datasets/323/download.csv?separate_category_columns=true
+</url>
+</online>
+</distribution>
+<coverage>
+<geographicCoverage>
+<geographicDescription>Main Sites A and B of the experimantal plantations of BEF China
+29°08'-29°11'N
+117°90'-117°93'E</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>117.89978</westBoundingCoordinate>
+<eastBoundingCoordinate>118.148346</eastBoundingCoordinate>
+<northBoundingCoordinate>29.285201</northBoundingCoordinate>
+<southBoundingCoordinate>29.101777</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>
+2008-04-30
+</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>
+2012-04-30
+</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>Tree and shrub species planted in the Main experiment of BEF China</generalTaxonomicCoverage>
+<taxonomicClassification>
+<commonName>
+Tree and shrub species planted in the Main experiment of BEF China
+</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact>
+<references>deichenberg</references>
+</contact>
+<contact>
+<references>hbruelheide</references>
+</contact>
+<contact>
+<references>wkroeber</references>
+</contact>
+<contact>
+<references>mboehnke</references>
+</contact>
+<methods>
+<methodStep>
+<description>
+<para>Main Experiment: Leaf traits and chemicals from individual trees in the Main Experiment (Site A &amp; B)</para>
+<para>Leaf traits and chemicals from tree species in the Main Experimental sites, including secondary compound (total phenolic and tannin concentrations) and information on stomata.</para>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<description>
+<para>2008-04-30 00:00:00 UTC - 2012-04-30 00:00:00 UTC</para>
+<para>Sampling excursions between 2008 and 2012</para>
+<para>Main Sites A and B of the experimantal plantations of BEF China
+29°08&#39;-29°11&#39;N
+117°90&#39;-117°93&#39;E</para>
+<para>Tree and shrub species planted in the Main experiment of BEF China</para>
+</description>
+</studyExtent>
+<samplingDescription>
+<para>Leaf samples were taken from sun-exposed branches with an expandable pruner. Only completely developed leaves were sampled, without visible herbivore damage and preferably free of leaf fungi.
+
+CAUTION: It seems that there has been a systematic error (maybe in the methodology?) in assessing some specific leaf traits (e.g. SLA) between the samples collected by W.Kröber and D.Eichenberg. Please bare this in mind!</para>
+<para>information on data analysis</para>
+</samplingDescription>
+</sampling>
+</methods>
+<dataTable>
+<entityName>https://china.befdata.biow.uni-leipzig.de/datasets/323</entityName>
+<entityDescription>Main Experiment: Leaf traits and chemicals from individual trees in the Main Experiment (Site A &amp; B)</entityDescription>
+<physical>
+<objectName>/datasets/323</objectName>
+<!-- TODO<size unit="bytes">1245</size> -->
+<characterEncoding>ASCII</characterEncoding>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url>https://china.befdata.biow.uni-leipzig.de/datasets/323/download.csv?separate_category_columns=true</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute id='Samplecode'>
+<attributeName>Identifier (Samplecode), </attributeName>
+<attributeLabel>Samplecode</attributeLabel>
+<attributeDefinition>An unabiguous identifier that refers to a specific sample (Samplecode: Identifier; Combination of characters and number allowing a specific identification of the respective specimen)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>An unabiguous identifier that refers to a specific sample</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Identifier</para>
+<para>An unabiguous identifier that refers to a specific sample</para>
+<para>Identifier; Combination of characters and number allowing a specific identification of the respective specimen</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Sample.Collector'>
+<attributeName>Helper (Sample.Collector), </attributeName>
+<attributeLabel>Sample.Collector</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (Sample.Collector: Sample.Collector)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>Sample.Collector</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Species'>
+<attributeName>Scientific plant species name (Species), </attributeName>
+<attributeLabel>Species</attributeLabel>
+<attributeDefinition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required. (Species: Species name; Datagroup description: Scientific plant species name; Source: Flora of China; Datagroup description: Scientific plant species name)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Scientific plant species name</para>
+<para>The scientific species fullnames are based on the &quot;Flora of China&quot; identified by Teng Fang and verified by Helge Bruelheide (trees) and Alexandra Erfmeier (herbs). Scientific species names consist of epithet and genus. For identification, the Author name and the year of the publications of the description are required.</para>
+<para>Species name; Datagroup description: Scientific plant species name; Source: Flora of China; Datagroup description: Scientific plant species name</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Year_Collected'>
+<attributeName>Date time information (Year_Collected), </attributeName>
+<attributeLabel>Year_Collected</attributeLabel>
+<attributeDefinition>Date time information, given as year or as date or as date time. (Year_Collected: Additional information on the year when the respective sample was collected; this allows for deciding, whether samples are dependent or independet (e.g. in time series anaysis), if the same individual was sampled in several years.; Datagroup description: Date time information)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Date time information, given as year or as date or as date time.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Date time information</para>
+<para>Date time information, given as year or as date or as date time.</para>
+<para>Additional information on the year when the respective sample was collected; this allows for deciding, whether samples are dependent or independet (e.g. in time series anaysis), if the same individual was sampled in several years.; Datagroup description: Date time information</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Exp_Site'>
+<attributeName>Helper (Exp_Site), </attributeName>
+<attributeLabel>Exp_Site</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (Exp_Site: Indicator on which site of the Main Experiment (A or B) the Samples were collected)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>Indicator on which site of the Main Experiment (A or B) the Samples were collected</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Exp_vicinity'>
+<attributeName>Helper (Exp_vicinity), </attributeName>
+<attributeLabel>Exp_vicinity</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (Exp_vicinity: Some individuals were not sampled within a study plot, but e.g. in close vicinity to this plot. This column gives hints where the respective sample was collected.; Datagroup description: Some samples were not directly sampled within the experimental sites but were young recruits at the outer margin of the sites. This column gives information about where the sample was taken.)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>Some individuals were not sampled within a study plot, but e.g. in close vicinity to this plot. This column gives hints where the respective sample was collected.; Datagroup description: Some samples were not directly sampled within the experimental sites but were young recruits at the outer margin of the sites. This column gives information about where the sample was taken.</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Exp_Plot'>
+<attributeName>Plot name Main experiment (letter, number code) (Exp_Plot), </attributeName>
+<attributeLabel>Exp_Plot</attributeLabel>
+<attributeDefinition>Plot number according to design spreadsheet. Plots are named according to their location on the original spreadsheet used for treatment design. This has letters from West to East and numbers from North to south. Some plots were moved half a gridcell (1 mu) so be suitable for planting (grid cell loctype). Example: B32 (Exp_Plot: Indiciating in which plot within respective the experimental site the sample was taken)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Plot number according to design spreadsheet. Plots are named according to their location on the original spreadsheet used for treatment design. This has letters from West to East and numbers from North to south. Some plots were moved half a gridcell (1 mu) so be suitable for planting (grid cell loctype). Example: B32</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Plot name Main experiment (letter, number code)</para>
+<para>Plot number according to design spreadsheet. Plots are named according to their location on the original spreadsheet used for treatment design. This has letters from West to East and numbers from North to south. Some plots were moved half a gridcell (1 mu) so be suitable for planting (grid cell loctype). Example: B32</para>
+<para>Indiciating in which plot within respective the experimental site the sample was taken</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Exp_Plot_Position'>
+<attributeName>Helper (Exp_Plot_Position), </attributeName>
+<attributeLabel>Exp_Plot_Position</attributeLabel>
+<attributeDefinition>Helper column to understand other columns in this data set (Exp_Plot_Position: 4 digit Code gives xxyy position in the experimental plot)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Helper column to understand other columns in this data set</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Helper</para>
+<para>Helper column to understand other columns in this data set</para>
+<para>4 digit Code gives xxyy position in the experimental plot</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='TAG'>
+<attributeName>t or s TAG Main Experiment (TAG), </attributeName>
+<attributeLabel>TAG</attributeLabel>
+<attributeDefinition>t-Tag/ s-Tag indicating individual tree position in the Main Experiment
+code for planting locations, 12 digits with &quot;t&quot; (tree) in front or &quot;s&quot; (shrub); Datagroup description: Tree or shrub tags consist of 12 digits: The first 6 are the site plot name: _1_ site _2/3_ row, counting from North _4/5_ column, counting from west _6_ is the plot moved? Is it a quarter plot? The next 6 digits describe the tree individual _7/8_ type of individual (01 planned tree, 02 other tree than planted but in a given plot somewhere, 03 planned shrub, 04 other shrub within this plot) _9/10_ x grid position within plot, starting from southwest northwards _11/12 y grid position, starting from southwest eastwards. (TAG: TAG of the respective tree individual in the main experiment)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>t-Tag/ s-Tag indicating individual tree position in the Main Experiment
+code for planting locations, 12 digits with &quot;t&quot; (tree) in front or &quot;s&quot; (shrub); Datagroup description: Tree or shrub tags consist of 12 digits: The first 6 are the site plot name: _1_ site _2/3_ row, counting from North _4/5_ column, counting from west _6_ is the plot moved? Is it a quarter plot? The next 6 digits describe the tree individual _7/8_ type of individual (01 planned tree, 02 other tree than planted but in a given plot somewhere, 03 planned shrub, 04 other shrub within this plot) _9/10_ x grid position within plot, starting from southwest northwards _11/12 y grid position, starting from southwest eastwards.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>t or s TAG Main Experiment</para>
+<para>t-Tag/ s-Tag indicating individual tree position in the Main Experiment
+code for planting locations, 12 digits with &quot;t&quot; (tree) in front or &quot;s&quot; (shrub); Datagroup description: Tree or shrub tags consist of 12 digits: The first 6 are the site plot name: _1_ site _2/3_ row, counting from North _4/5_ column, counting from west _6_ is the plot moved? Is it a quarter plot? The next 6 digits describe the tree individual _7/8_ type of individual (01 planned tree, 02 other tree than planted but in a given plot somewhere, 03 planned shrub, 04 other shrub within this plot) _9/10_ x grid position within plot, starting from southwest northwards _11/12 y grid position, starting from southwest eastwards.</para>
+<para>TAG of the respective tree individual in the main experiment</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='neighbour.tree_TAG'>
+<attributeName>t or s TAG Main Experiment (neighbour.tree_TAG), </attributeName>
+<attributeLabel>neighbour.tree_TAG</attributeLabel>
+<attributeDefinition>t-Tag/ s-Tag indicating individual tree position in the Main Experiment
+code for planting locations, 12 digits with &quot;t&quot; (tree) in front or &quot;s&quot; (shrub); Datagroup description: Tree or shrub tags consist of 12 digits: The first 6 are the site plot name: _1_ site _2/3_ row, counting from North _4/5_ column, counting from west _6_ is the plot moved? Is it a quarter plot? The next 6 digits describe the tree individual _7/8_ type of individual (01 planned tree, 02 other tree than planted but in a given plot somewhere, 03 planned shrub, 04 other shrub within this plot) _9/10_ x grid position within plot, starting from southwest northwards _11/12 y grid position, starting from southwest eastwards. (neighbour.tree_TAG: neighbour.tree_TAG)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>t-Tag/ s-Tag indicating individual tree position in the Main Experiment
+code for planting locations, 12 digits with &quot;t&quot; (tree) in front or &quot;s&quot; (shrub); Datagroup description: Tree or shrub tags consist of 12 digits: The first 6 are the site plot name: _1_ site _2/3_ row, counting from North _4/5_ column, counting from west _6_ is the plot moved? Is it a quarter plot? The next 6 digits describe the tree individual _7/8_ type of individual (01 planned tree, 02 other tree than planted but in a given plot somewhere, 03 planned shrub, 04 other shrub within this plot) _9/10_ x grid position within plot, starting from southwest northwards _11/12 y grid position, starting from southwest eastwards.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>t or s TAG Main Experiment</para>
+<para>t-Tag/ s-Tag indicating individual tree position in the Main Experiment
+code for planting locations, 12 digits with &quot;t&quot; (tree) in front or &quot;s&quot; (shrub); Datagroup description: Tree or shrub tags consist of 12 digits: The first 6 are the site plot name: _1_ site _2/3_ row, counting from North _4/5_ column, counting from west _6_ is the plot moved? Is it a quarter plot? The next 6 digits describe the tree individual _7/8_ type of individual (01 planned tree, 02 other tree than planted but in a given plot somewhere, 03 planned shrub, 04 other shrub within this plot) _9/10_ x grid position within plot, starting from southwest northwards _11/12 y grid position, starting from southwest eastwards.</para>
+<para>neighbour.tree_TAG</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='shrub.TAG'>
+<attributeName>t or s TAG Main Experiment (shrub.TAG), </attributeName>
+<attributeLabel>shrub.TAG</attributeLabel>
+<attributeDefinition>t-Tag/ s-Tag indicating individual tree position in the Main Experiment
+code for planting locations, 12 digits with &quot;t&quot; (tree) in front or &quot;s&quot; (shrub); Datagroup description: Tree or shrub tags consist of 12 digits: The first 6 are the site plot name: _1_ site _2/3_ row, counting from North _4/5_ column, counting from west _6_ is the plot moved? Is it a quarter plot? The next 6 digits describe the tree individual _7/8_ type of individual (01 planned tree, 02 other tree than planted but in a given plot somewhere, 03 planned shrub, 04 other shrub within this plot) _9/10_ x grid position within plot, starting from southwest northwards _11/12 y grid position, starting from southwest eastwards. (shrub.TAG: shrub.TAG)</attributeDefinition>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>t-Tag/ s-Tag indicating individual tree position in the Main Experiment
+code for planting locations, 12 digits with &quot;t&quot; (tree) in front or &quot;s&quot; (shrub); Datagroup description: Tree or shrub tags consist of 12 digits: The first 6 are the site plot name: _1_ site _2/3_ row, counting from North _4/5_ column, counting from west _6_ is the plot moved? Is it a quarter plot? The next 6 digits describe the tree individual _7/8_ type of individual (01 planned tree, 02 other tree than planted but in a given plot somewhere, 03 planned shrub, 04 other shrub within this plot) _9/10_ x grid position within plot, starting from southwest northwards _11/12 y grid position, starting from southwest eastwards.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>t or s TAG Main Experiment</para>
+<para>t-Tag/ s-Tag indicating individual tree position in the Main Experiment
+code for planting locations, 12 digits with &quot;t&quot; (tree) in front or &quot;s&quot; (shrub); Datagroup description: Tree or shrub tags consist of 12 digits: The first 6 are the site plot name: _1_ site _2/3_ row, counting from North _4/5_ column, counting from west _6_ is the plot moved? Is it a quarter plot? The next 6 digits describe the tree individual _7/8_ type of individual (01 planned tree, 02 other tree than planted but in a given plot somewhere, 03 planned shrub, 04 other shrub within this plot) _9/10_ x grid position within plot, starting from southwest northwards _11/12 y grid position, starting from southwest eastwards.</para>
+<para>shrub.TAG</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Leaf.fresh.weight'>
+<attributeName>Sample fresh weight (Leaf.fresh.weight), </attributeName>
+<attributeLabel>Leaf.fresh.weight</attributeLabel>
+<attributeDefinition>fresh weight of a described sample (Leaf.fresh.weight: Leaf.fresh.weight)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Sample fresh weight</para>
+<para>fresh weight of a described sample</para>
+<para>Leaf.fresh.weight</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Leaf.dry.weight'>
+<attributeName>Sample dry weight (Leaf.dry.weight), </attributeName>
+<attributeLabel>Leaf.dry.weight</attributeLabel>
+<attributeDefinition>Dry weight of a specified sample (Leaf.dry.weight: Leaf.dry.weight)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Sample dry weight</para>
+<para>Dry weight of a specified sample</para>
+<para>Leaf.dry.weight</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='LA'>
+<attributeName>Leaf area (LA), mm²</attributeName>
+<attributeLabel>LA</attributeLabel>
+<attributeDefinition>Leaf area (LA: Leaf area of sample)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Leaf area</para>
+<para>Leaf area</para>
+<para>Leaf area of sample</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='SLA'>
+<attributeName>Specific leaf area (SLA), mm²/mg</attributeName>
+<attributeLabel>SLA</attributeLabel>
+<attributeDefinition>Area available for sunlight capture with one entity of biomass invested by the plant. Acronym: SLA (SLA: Specific leaf area; Datagroup description: Specific leaf area; Datagroup description: Specific leaf area)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Specific leaf area</para>
+<para>Area available for sunlight capture with one entity of biomass invested by the plant. Acronym: SLA</para>
+<para>Specific leaf area; Datagroup description: Specific leaf area; Datagroup description: Specific leaf area</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='LDMC'>
+<attributeName>Leaf dry matter content (LDMC), mg/g</attributeName>
+<attributeLabel>LDMC</attributeLabel>
+<attributeDefinition>Leaf dry matter content, LDMC (LDMC: Leaf dry matter content)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Leaf dry matter content</para>
+<para>Leaf dry matter content, LDMC</para>
+<para>Leaf dry matter content</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='N'>
+<attributeName>Nitrogen (N), mg/g</attributeName>
+<attributeLabel>N</attributeLabel>
+<attributeDefinition>Nitrogen concentration (N: Nitrogen content; Datagroup description: Nitrogen; Datagroup description: Nitrogen)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Nitrogen</para>
+<para>Nitrogen concentration</para>
+<para>Nitrogen content; Datagroup description: Nitrogen; Datagroup description: Nitrogen</para>
+</description>
+<instrumentation>Elemental Analyzer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='C'>
+<attributeName>Carbon (C), mg/g</attributeName>
+<attributeLabel>C</attributeLabel>
+<attributeDefinition>measurements of Carbon such as concentrations, pools, amount (C: Carbon content; Instrumentation: Elemental Analyzer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Carbon</para>
+<para>measurements of Carbon such as concentrations, pools, amount</para>
+<para>Carbon content; Instrumentation: Elemental Analyzer</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='CN'>
+<attributeName>Carbon Nitrogen ratio (CN), g/g</attributeName>
+<attributeLabel>CN</attributeLabel>
+<attributeDefinition>Carbon Nitrogen ratio (CN: Carbon to Nitrogen Ratio; Instrumentation: Elemental Analyzer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Carbon Nitrogen ratio</para>
+<para>Carbon Nitrogen ratio</para>
+<para>Carbon to Nitrogen Ratio; Instrumentation: Elemental Analyzer</para>
+</description>
+
+</methodStep>
+</methods>
+</attribute>
+<attribute id='K'>
+<attributeName>Chemical elements (K), µg/g</attributeName>
+<attributeLabel>K</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (K: Kalium content; Datagroup description:atom absorption spectrometer; Datagroup description: Chemical elements)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Kalium content; Datagroup description:atom absorption spectrometer; Datagroup description: Chemical elements</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Mg'>
+<attributeName>Chemical elements (Mg), µg/g</attributeName>
+<attributeLabel>Mg</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (Mg: Magnesium content; Datagroup description:atom absorption spectrometer; Datagroup description: Chemical elements)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Magnesium content; Datagroup description:atom absorption spectrometer; Datagroup description: Chemical elements</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Ca'>
+<attributeName>Chemical elements (Ca), µg/g</attributeName>
+<attributeLabel>Ca</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (Ca: Calcium content; Datagroup description: atom absorption spectrometer; Datagroup description: Chemical elements)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Calcium content; Datagroup description: atom absorption spectrometer; Datagroup description: Chemical elements</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Al'>
+<attributeName>Chemical elements (Al), µg/g</attributeName>
+<attributeLabel>Al</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (Al: Aluminum content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Aluminum content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Ca2'>
+<attributeName>Chemical elements (Ca2), µg/g</attributeName>
+<attributeLabel>Ca2</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (Ca2: Calcium content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Calcium content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Fe'>
+<attributeName>Chemical elements (Fe), µg/g</attributeName>
+<attributeLabel>Fe</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (Fe: Ferric content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Ferric content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='K2'>
+<attributeName>Chemical elements (K2), µg/g</attributeName>
+<attributeLabel>K2</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (K2: Potassium content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Potassium content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Mg2'>
+<attributeName>Chemical elements (Mg2), µg/g</attributeName>
+<attributeLabel>Mg2</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (Mg2: Magnesium content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Magnesium content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Mn'>
+<attributeName>Chemical elements (Mn), µg/g</attributeName>
+<attributeLabel>Mn</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (Mn: Manganese content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Manganese content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Na'>
+<attributeName>Chemical elements (Na), µg/g</attributeName>
+<attributeLabel>Na</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (Na: Natrium content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Natrium content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='P'>
+<attributeName>Chemical elements (P), µg/g</attributeName>
+<attributeLabel>P</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (P: Phosphorus content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Phosphorus content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='S'>
+<attributeName>Chemical elements (S), µg/g</attributeName>
+<attributeLabel>S</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (S: Sulfur content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Sulfur content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Zn'>
+<attributeName>Chemical elements (Zn), µg/g</attributeName>
+<attributeLabel>Zn</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (Zn: Zinc content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Zinc content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Co'>
+<attributeName>Chemical elements (Co), µg/g</attributeName>
+<attributeLabel>Co</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (Co: Cobalt content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Cobalt content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Cu'>
+<attributeName>Chemical elements (Cu), µg/g</attributeName>
+<attributeLabel>Cu</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (Cu: Copper content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Copper content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Pb'>
+<attributeName>Chemical elements (Pb), µg/g</attributeName>
+<attributeLabel>Pb</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (Pb: Lead content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Lead content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Sr'>
+<attributeName>Chemical elements (Sr), µg/g</attributeName>
+<attributeLabel>Sr</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (Sr: Strontium content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Strontium content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Cr'>
+<attributeName>Chemical elements (Cr), µg/g</attributeName>
+<attributeLabel>Cr</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (Cr: Chrome content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Chrome content; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Ni'>
+<attributeName>Chemical elements (Ni), µg/g</attributeName>
+<attributeLabel>Ni</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (Ni: Nickel kontent; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Nickel kontent; Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Cd214'>
+<attributeName>Chemical elements (Cd214), µg/g</attributeName>
+<attributeLabel>Cd214</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (Cd214: Cadmium content (at 214nm); Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Cadmium content (at 214nm); Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Cd228'>
+<attributeName>Chemical elements (Cd228), µg/g</attributeName>
+<attributeLabel>Cd228</attributeLabel>
+<attributeDefinition>Elements apart from Nitrogen, Carbon (Cd228: Cadmium content (at 228nm); Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Chemical elements</para>
+<para>Elements apart from Nitrogen, Carbon</para>
+<para>Cadmium content (at 228nm); Datagroup description: inductively coupled plasma optical emisssion spectrometer; Datagroup description: Chemical elements; Instrumentation: inductively coupled plasma optical emisssion spectrometer</para>
+</description>
+<instrumentation>atom absorption spectrometer</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='stomata.density'>
+<attributeName>Leaf stomata density (stomata.density), 1/µm</attributeName>
+<attributeLabel>stomata.density</attributeLabel>
+<attributeDefinition>Leaf stomata density (stomata.density: average Stomatal density)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Leaf stomata density</para>
+<para>Leaf stomata density</para>
+<para>average Stomatal density</para>
+</description>
+<instrumentation>Microscope</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='average.length'>
+<attributeName>Leaf stomata size (average.length), µm</attributeName>
+<attributeLabel>average.length</attributeLabel>
+<attributeDefinition>Leaf stomata size (average.length: average Stomatal length)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Leaf stomata size</para>
+<para>Leaf stomata size</para>
+<para>average Stomatal length</para>
+</description>
+<instrumentation>Microscope</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='average.width'>
+<attributeName>Leaf stomata size (average.width), µm</attributeName>
+<attributeLabel>average.width</attributeLabel>
+<attributeDefinition>Leaf stomata size (average.width: average Stomatal width)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Leaf stomata size</para>
+<para>Leaf stomata size</para>
+<para>average Stomatal width</para>
+</description>
+<instrumentation>Microscope</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Phenolics'>
+<attributeName>Secondary Metabolites (Phenolics), mg/g</attributeName>
+<attributeLabel>Phenolics</attributeLabel>
+<attributeDefinition>Secondary metabolites are organic compounds that are not directly involved in the normal growth, development, or reproduction of an organism. Unlike primary metabolites, absence of secondary metabolites does not result in immediate death, but rather in long-term impairment of the organism's survivability, fecundity, or aesthetics, or perhaps in no significant change at all. Secondary metabolites often play an important role in plant defense against herbivory and other interspecies interactions (e.g. pollinator attraction). Examples of secondary metabolites are polyphenolic substances, flavonoids, terpenes etc. (Phenolics: total Phenolics content)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Secondary Metabolites</para>
+<para>Secondary metabolites are organic compounds that are not directly involved in the normal growth, development, or reproduction of an organism. Unlike primary metabolites, absence of secondary metabolites does not result in immediate death, but rather in long-term impairment of the organism&#39;s survivability, fecundity, or aesthetics, or perhaps in no significant change at all. Secondary metabolites often play an important role in plant defense against herbivory and other interspecies interactions (e.g. pollinator attraction). Examples of secondary metabolites are polyphenolic substances, flavonoids, terpenes etc.</para>
+<para>total Phenolics content</para>
+</description>
+<instrumentation>Prussian Blue Method</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+<attribute id='Tannin'>
+<attributeName>Secondary Metabolites (Tannin), mg/g</attributeName>
+<attributeLabel>Tannin</attributeLabel>
+<attributeDefinition>Secondary metabolites are organic compounds that are not directly involved in the normal growth, development, or reproduction of an organism. Unlike primary metabolites, absence of secondary metabolites does not result in immediate death, but rather in long-term impairment of the organism's survivability, fecundity, or aesthetics, or perhaps in no significant change at all. Secondary metabolites often play an important role in plant defense against herbivory and other interspecies interactions (e.g. pollinator attraction). Examples of secondary metabolites are polyphenolic substances, flavonoids, terpenes etc. (Tannin: total Tannin content expressed as mg/g tannic acid equivalents.)</attributeDefinition>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<methods>
+<methodStep>
+<description>
+<para>Secondary Metabolites</para>
+<para>Secondary metabolites are organic compounds that are not directly involved in the normal growth, development, or reproduction of an organism. Unlike primary metabolites, absence of secondary metabolites does not result in immediate death, but rather in long-term impairment of the organism&#39;s survivability, fecundity, or aesthetics, or perhaps in no significant change at all. Secondary metabolites often play an important role in plant defense against herbivory and other interspecies interactions (e.g. pollinator attraction). Examples of secondary metabolites are polyphenolic substances, flavonoids, terpenes etc.</para>
+<para>total Tannin content expressed as mg/g tannic acid equivalents.</para>
+</description>
+<instrumentation>Radial diffusion method for increased sensitivity as described in Hagerman 2002 &quot;The tannin handbook&quot;
+URL: http://www.users.miamioh.edu/hagermae/tannin.pdf</instrumentation>
+</methodStep>
+</methods>
+</attribute>
+</attributeList>
+<caseSensitive>yes</caseSensitive>
+<numberOfRecords>786</numberOfRecords>
+</dataTable>
+</dataset>
+</eml:eml>
