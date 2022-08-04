@@ -1,0 +1,6 @@
+DECIMAL = "DECIMAL"
+INT = "INT"
+PHONE = "PHONE"
+URL__ = "URL"
+EMAIl = "EMAIl"
+DATE = 'DATE'
