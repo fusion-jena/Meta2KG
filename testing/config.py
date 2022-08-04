@@ -3,7 +3,7 @@ from os.path import exists, realpath, join
 
 results_root_path = join(realpath('.'), 'results')
 
-unseen_meta_files_path = join(realpath('.'), 'unseen_data')
+unseen_meta_files_path = join(realpath('..'), 'input', 'unseen_data')
 unseen_original_json_path = join(realpath('.'), 'results', 'original_json')
 unseen_normalized_json_path = join(realpath('.'), 'results', 'normalized_json')
 unseen_final_json_path = join(realpath('.'), 'results', 'final_json')
@@ -20,23 +20,23 @@ if exp == 'weighted_mean':
 
 # embedding path conditional loading
 if use_wiki_embeddings:
-    e_path = join(realpath('..'), 'results', 'ontoE', exp, 'ontokeys_wiki_embeddings.json')
+    e_path = join(realpath('..'), 'input', 'BMO Embeddings', exp, 'ontokeys_wiki_embeddings.json')
 else:
-    e_path = join(realpath('..'), 'results', 'ontoE', exp, 'ontokeys_embeddings.json')
+    e_path = join(realpath('..'), 'input', 'BMO Embeddings', exp, 'ontokeys_embeddings.json')
 
 
 # two sources locations of the embeddings the pre-trained wiki-based and our custom
-pretrained_path = join(realpath('..'), 'pre-trained-fasttext', 'wiki.en.bin')
-custom_embedding_path = join(realpath('..'), 'trained_model', 'trained_fasttext.bin')
+pretrained_path = join(realpath('..'), 'input', 'pre-trained-fasttext', 'wiki.en.bin')
+custom_embedding_path = join(realpath('..'), 'input', 'trained_model', 'trained_fasttext.bin')
 
 # where to store the solutions aka Matching results.
 if use_wiki_embeddings:
-    solved_path = join(realpath('..'), 'results', 'ontoE', exp, 'solved_wiki')
+    solved_path = join(realpath('..'), 'input', 'BMO Embeddings', exp, 'solved_wiki')
 else:
-    solved_path = join(realpath('..'), 'results', 'ontoE', exp, 'solved_our_embeddings')
+    solved_path = join(realpath('..'), 'input', 'BMO Embeddings', exp, 'solved_our_embeddings')
 
 if not exists(solved_path):
     makedirs(solved_path)
 
 # the ground truth path for evaluation
-gt_path = join(realpath('.'), 'gt')
+gt_path = join(realpath('..'), 'input', 'gt')

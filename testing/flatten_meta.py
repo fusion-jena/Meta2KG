@@ -1,13 +1,13 @@
 from os import listdir, makedirs
-from os.path import exists, realpath, join
+from os.path import exists, join
 import json
 import xmltodict
 import pandas as pd
 from config import unseen_meta_files_path, unseen_final_json_path, unseen_original_json_path, \
     unseen_normalized_json_path
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
+
+def run():
     repos = listdir(unseen_meta_files_path)
     for repo in repos:
         meta_files_path = join(unseen_meta_files_path, repo)
@@ -54,3 +54,7 @@ if __name__ == '__main__':
                 print(e)
                 print(repo + ' ' + filename)
                 continue
+
+
+if __name__ == '__main__':
+    run()

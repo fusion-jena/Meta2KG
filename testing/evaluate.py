@@ -3,8 +3,7 @@ import pandas as pd
 from sklearn.metrics import classification_report
 from config import gt_path, solved_path
 
-if __name__ == '__main__':
-
+def run():
     repos = ['idiv', 'gbif', 'pangaea', 'dryad', 'dataworld', 'bexis', 'befchina']
 
     all_gt, all_pred = [], []
@@ -35,3 +34,7 @@ if __name__ == '__main__':
     # print classification report for all repos (all repos are equal weight)
     print('Classification Report for all repos:\n')
     print(classification_report(all_gt, all_pred, labels=list(set(all_gt)), zero_division=1))
+
+
+if __name__ == '__main__':
+    run()

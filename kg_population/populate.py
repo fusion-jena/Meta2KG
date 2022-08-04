@@ -10,7 +10,8 @@ from utils.data_structure import MyNode, MyLiteral
 from random import seed, randint
 from validate_values import validate
 import meta_config
-from config import solved_path
+from config import solved_path, results_root_path
+
 seed(1)
 
 
@@ -200,7 +201,7 @@ def populate_dataset(datasetid, dataset, g):
     g = find_object_add_them(objects, s, g)
 
 
-if __name__ == '__main__':
+def run():
     datasetid = 0
     add_kg_metadata(g)
     for raw_dataset in load_solved_dataset():
@@ -212,6 +213,10 @@ if __name__ == '__main__':
 
     # g.serialize(destination="debug_BMKG.ttl", format="ttl", encoding="utf-8")
     # final export
-    g.serialize(destination="BMKG.ttl", format="ttl", encoding="utf-8")
-    g.serialize(destination="BMKG.rdf", format="pretty-xml", encoding="utf-8")
-    g.serialize(destination="BMKG.nt", format="ntriples", encoding="utf-8")
+    g.serialize(destination=join(results_root_path, "BMKG.ttl"), format="ttl", encoding="utf-8")
+    g.serialize(destination=join(results_root_path, "BMKG.rdf"), format="pretty-xml", encoding="utf-8")
+    g.serialize(destination=join(results_root_path, "BMKG.nt"), format="ntriples", encoding="utf-8")
+
+
+if __name__ == '__main__':
+    run()

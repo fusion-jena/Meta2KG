@@ -119,23 +119,12 @@ def calculate_sim_for_all(ontokeys_dict, test_dict, model):
             writer.writerows(lines)
 
 
-def test(model):
-    # test_sample = 'additionalMetadata.metadata.gbif.citation' # mock what we will get from the flatten and cleaning.
-    # test_sample = 'contacts.email'  # mock what we will get from the flatten and cleaning.
-    # test_sample = ['doi', 'DOI', 'coverage.geographicCoverage.boundingCoordinates.northBoundingCoordinate', 'northBoundingCoordinate']
-    test_sample = ['creator.individualName.givenName_0', 'Creator.givenName_0']
-    for t in test_sample:
-        test_embed, confusing = get_embedding(t, model)
-        similarity = calculate_sim(ontokeys_dict, test_embed)
-        print(t)
-        for k, v in similarity.items():
-            print('{} \t: {}'.format(k, v))
-        print("====================")
+def run():
+    ontokeys_dict = load_ontokeys_embeddings()
+    model = load_model()
+    test_dict = get_testing_key_value()
+    calculate_sim_for_all(ontokeys_dict, test_dict, model)
 
 
 if __name__ == '__main__':
-    ontokeys_dict = load_ontokeys_embeddings()
-    model = load_model()
-    # test(model)
-    test_dict = get_testing_key_value()
-    calculate_sim_for_all(ontokeys_dict, test_dict, model)
+    run()

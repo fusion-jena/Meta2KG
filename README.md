@@ -18,6 +18,41 @@ The figure below shows our 4 stages workflow.
 ![Meta2KG Workflow!](images/workflow.png)
 
 ## Quick Setup
+* Download the dependencies, unzip and add them directly under the [input](input) dir:
+  * [Biodiversity Metadata Ground Truth](https://doi.org/10.5281/zenodo.6951623)
+  * [Biodiversity Metadata Ontology Embeddings (BMOE)](https://doi.org/10.5281/zenodo.6951658)
+  * Our collected metadata files are already there.
+  * `input` directory should have the following structure 
+```
+./input
+├───BMO Embeddings
+│   ├───keys_only
+│   ├───mean
+│   └───weighted_mean
+├───gt
+├───meta_files
+│   ├───befchina
+│   ├───bexis
+│   ├───dataworld
+│   ├───dryad
+│   ├───gbif
+│   ├───idiv
+│   └───pangaea
+├───pre-trained-fasttext
+├───trained_model
+└───unseen_data
+    ├───befchina
+    ├───bexis
+    ├───dataworld
+    ├───dryad
+    ├───gbif
+    ├───idiv
+    └───pangaea
+```
+* Each module has an **entry script** that execute the individual scripts of the current module. In addition, we keep **separate results** folder per module for further analysis. 
+  1. preprocessing [preprocessing/main.py](preprocessing/main.py)
+  2. testing aka Match & Evaluate, [testing/main.py](testing/main.py) 
+  3. KG population, [kg_population](kg_population/main.py)
 
 ## Modules
 ### [Preprocessing](preprocessing)
