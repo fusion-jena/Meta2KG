@@ -52,7 +52,11 @@ The figure below shows our 4 stages workflow.
 * Each module has an **entry script** that execute the individual scripts of the current module. In addition, we keep **separate results** folder per module for further analysis. 
   1. preprocessing [preprocessing/main.py](preprocessing/main.py)
   2. testing aka Match & Evaluate, [testing/main.py](testing/main.py) 
-  3. KG population, [kg_population](kg_population/main.py)
+  3. KG population, [kg_population/main.py](kg_population/main.py)
+4. The final KG would be located under the results folder of the kg_population module
+   1. BMKG.ttl
+   2. BMKG.rdf
+   3. BMKG.nt
 
 ## Modules
 ### [Preprocessing](preprocessing)
