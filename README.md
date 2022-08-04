@@ -7,13 +7,14 @@ This repository contains the scripts we developed our pipeline. In this file, we
 
 ## Workflow
 The figure below shows our 4 stages workflow. 
-1. Data Acquisition: from 7 Biodiversity data portals we collected a set of metadata files. Such that we divided them into Seen and Unseen data.
-2. Ontology Development: We work on the Seen Data, the goals of that stage are:
-   * To develop a shared underlying schema for the 7 repos. The results is the [Biodiversity Metadata Ontology (BMO)](https://doi.org/10.5281/zenodo.6948519).
-   * To Obtain the BMO embeddings that we use for the automatic transformation in the later steps. The results is the [Biodiversity Metadata Ontology Embeddings (BMOE)](https://doi.org/10.5281/zenodo.6951658)
-3. Match & Populate: Where we apply the cosine similarity between the BMOE and the Unseen data embeddings. In addition, we provide a validation module that ensure the validity of a KG triple. 
+1. **Data Acquisition**: from 7 Biodiversity data portals we collected a set of metadata files. Such that we divided them into Seen and Unseen data.
+2. **Ontology Development**: We work on the Seen Data, the goals of that stage are:
+   * To develop a shared underlying schema for the 7 repos. The result is the [Biodiversity Metadata Ontology (BMO)](https://doi.org/10.5281/zenodo.6948519).
+   * We used the [MakeSchema](https://github.com/fusion-jena/MakeSchema) project to create the final BMO (turtle, n-triples, and RDF/XML files) 
+   * To Obtain the BMO embeddings that we use for the automatic transformation in the later steps. The result is the [Biodiversity Metadata Ontology Embeddings (BMOE)](https://doi.org/10.5281/zenodo.6951658)
+3. **Match & Populate**: Where we apply the cosine similarity between the BMOE and the Unseen data embeddings. In addition, we provide a validation module that ensure the validity of a KG triple. 
    * We evaluated our approach using a manually annotated ground truth: [Biodiversity Metadata Ground Truth](https://doi.org/10.5281/zenodo.6951623)
-4. Release: We publish the final automatically generated knowledge graph in Zenodo [Biodiversity Metadata Knowledge Graph (BMKG)](https://doi.org/10.5281/zenodo.6948573).
+4. **Release**: We publish the final automatically generated knowledge graph in Zenodo [Biodiversity Metadata Knowledge Graph (BMKG)](https://doi.org/10.5281/zenodo.6948573).
 
 ![Meta2KG Workflow!](images/workflow.png)
 
@@ -103,4 +104,7 @@ The figure below shows our 4 stages workflow.
 ![Meta2KG Workflow!](images/BMKG.png)
 
 ## Acknowledgements 
+* 
 * Thanks to [Muhammad Abbady](https://github.com/muhammad-abbady) who edited the style of the edge bundling notebook.  
+
+## Citation
