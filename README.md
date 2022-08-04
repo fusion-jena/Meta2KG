@@ -17,17 +17,18 @@ The figure below shows our 4 stages workflow.
 
 ![Meta2KG Workflow!](images/workflow.png)
 
-## How to Use
+## Quick Setup
 
-### Preprocessing
+## Modules
+### [Preprocessing](preprocessing)
 * `flatten.py` transforms the XML files into a flat key-value pairs dictionary. a Key would contain the entire heirarchy.
 * `transform_keys.py` cleans the generated flat keys of the dictionary above by e.g., removing too broad words.
 
-### Custom Embeddings
+### [Custom Embeddings](custom_embeddings)
 * `meta2train.py` artificially creates sentences from the clean dictionary.
 * `pretrain_embeddings.py` train a fasttext model on the created sentences. 
 
-### Ontological Embeddings (BMOE)
+### [Ontological Embeddings (BMOE)](ontoE)
 * `group_keywords.py` since we develop a mean-based strategy to obtain embeddings for keys given their synonyms. This script is meant for catching such synonyms. This script would help figurig out what is related however, we keep the final result for the human.
   * We picked the relevant keys on our own, we put our use case under [/assets/onto_keywords_mapping.csv](/assets/onto_keywords_mapping.csv)
 * `construct_onto_embeddings.py` will process the given mappings from the step above. Make sure it is correctly listed under the `config.py`.
@@ -36,7 +37,7 @@ The figure below shows our 4 stages workflow.
   * `use_keys_only=True` If true then no synonyms are processed otherwise it considers them.
   * Make sure to correctly place the generated file if you need to test various settings.
 
-## Testing Environment
+### [Testing Environment](testing)
 * This module solves the Unseen data **per repository** since we construct evaluation metrics of the matching techniques per data source.  
 * Before you start, have a look on the testing [config.py](testing/config.py) and make sure all the paths of the ontological embeddings, ground truth ... etc. In addition, you tweak the target experiment there by setting if you use the Wiki-based embeddings and/or to use the mean-based technique to calculate the Meta vectors (MetaE)
 * You can download the required resources as follows:
@@ -49,7 +50,7 @@ The figure below shows our 4 stages workflow.
   * `match.py` it parses the dictionary that is resulted from above and tries to match it to one of the selected ontological embeddings using cosine similarity. We conduced 6 experiments, please check our paper for more details. 
   * `evaluate.py` calculates the classification report based on the placed ground truth and the resultant solutions. Our results showed that the **Wiki-based embeddings** with the **Weighted Mean** strategy yielded into the best score.
 
-## Knowledge Graph Population
+### [Knowledge Graph Population](kg_population)
 * This module solves the unseen data **per dataset**, it creates a solution/prediction per each file ignoring the original source/repository. Each dataset would be translated into a record/instance of `BMO:Dataset`.
 * `flatten.py`, `transform_keys.py`, `transformed_keywords_values.py`, & `match.py` apply the same steps for the pre-processing and matching we did in the _Testing Environment_ , but on the level of the dataset instead of the repository.
 * `populate.py` transforms the matched aka solved datasets (key - match) into RDF triples that follows the BMO ontology. 
