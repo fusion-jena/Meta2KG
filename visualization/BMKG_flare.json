@@ -1,0 +1,455 @@
+[
+    {
+        "name": "root.literal.alternateIdentifier",
+        "freq": 5,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.literal.title",
+        "freq": 24,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.literal.language",
+        "freq": 9,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.literal.description",
+        "freq": 69,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.literal.dataFormat",
+        "freq": 16,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.literal.numberOfRecords",
+        "freq": 5,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.literal.keywordSet",
+        "freq": 245,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.project.abstract",
+        "freq": 12,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.project.Project",
+        "freq": 24,
+        "is_leaf": false,
+        "imports": [
+            "root.project.abstract",
+            "root.project.title",
+            "root.project.startDate",
+            "root.project.funding"
+        ]
+    },
+    {
+        "name": "root.geographicCoverage.boundingCoordinates.westBoundingCoordinate",
+        "freq": 7,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.geographicCoverage.boundingCoordinates.BoundingCoordinates",
+        "freq": 44,
+        "is_leaf": false,
+        "imports": [
+            "root.geographicCoverage.boundingCoordinates.eastBoundingCoordinate",
+            "root.geographicCoverage.boundingCoordinates.southBoundingCoordinate",
+            "root.geographicCoverage.boundingCoordinates.northBoundingCoordinate",
+            "root.geographicCoverage.boundingCoordinates.westBoundingCoordinate"
+        ]
+    },
+    {
+        "name": "root.geographicCoverage.GeographicCoverage",
+        "freq": 71,
+        "is_leaf": false,
+        "imports": [
+            "root.geographicCoverage.numberOfPlots.NumberOfPlots",
+            "root.geographicCoverage.boundingCoordinates.BoundingCoordinates"
+        ]
+    },
+    {
+        "name": "root.geographicCoverage.boundingCoordinates.eastBoundingCoordinate",
+        "freq": 21,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.geographicCoverage.boundingCoordinates.northBoundingCoordinate",
+        "freq": 9,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.geographicCoverage.boundingCoordinates.southBoundingCoordinate",
+        "freq": 7,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.temporalCoverage.beginDate",
+        "freq": 13,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.temporalCoverage.TemporalCoverage",
+        "freq": 22,
+        "is_leaf": false,
+        "imports": [
+            "root.temporalCoverage.endDate",
+            "root.temporalCoverage.beginDate"
+        ]
+    },
+    {
+        "name": "root.temporalCoverage.endDate",
+        "freq": 9,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.method.measurement",
+        "freq": 12,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.method.Method",
+        "freq": 19,
+        "is_leaf": false,
+        "imports": [
+            "root.method.introduction",
+            "root.method.measurement",
+            "root.method.equipment"
+        ]
+    },
+    {
+        "name": "root.metadataProvider.givenName",
+        "freq": 10,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.metadataProvider.MetadataProvider",
+        "freq": 24,
+        "is_leaf": false,
+        "imports": [
+            "root.metadataProvider.electronicMail",
+            "root.metadataProvider.organization",
+            "root.metadataProvider.givenName"
+        ]
+    },
+    {
+        "name": "root.dataCreator.electronicMail",
+        "freq": 13,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.dataCreator.DataCreator",
+        "freq": 25,
+        "is_leaf": false,
+        "imports": [
+            "root.dataCreator.address.Address",
+            "root.dataCreator.givenName",
+            "root.dataCreator.electronicMail"
+        ]
+    },
+    {
+        "name": "root.metadataProvider.organization",
+        "freq": 13,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.dataCreator.address.country",
+        "freq": 4,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.dataCreator.address.Address",
+        "freq": 7,
+        "is_leaf": false,
+        "imports": [
+            "root.dataCreator.address.country",
+            "root.dataCreator.address.city",
+            "root.dataCreator.address.deliveryPoint",
+            "root.dataCreator.address.postalCode"
+        ]
+    },
+    {
+        "name": "root.literal.license",
+        "freq": 11,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.literal.publicationDate",
+        "freq": 2,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.literal.intellectualRights",
+        "freq": 4,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.literal.citation",
+        "freq": 10,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.dataCreator.address.city",
+        "freq": 1,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.dataCreator.address.postalCode",
+        "freq": 1,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.metadataProvider.electronicMail",
+        "freq": 1,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.literal.abstract",
+        "freq": 2,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.project.startDate",
+        "freq": 2,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.geographicCoverage.numberOfPlots.numberOfVip",
+        "freq": 15,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.geographicCoverage.numberOfPlots.NumberOfPlots",
+        "freq": 27,
+        "is_leaf": false,
+        "imports": [
+            "root.geographicCoverage.numberOfPlots.numberOfGp",
+            "root.geographicCoverage.numberOfPlots.numberOfVip",
+            "root.geographicCoverage.numberOfPlots.numberOfEp",
+            "root.geographicCoverage.numberOfPlots.numberOfMip"
+        ]
+    },
+    {
+        "name": "root.project.title",
+        "freq": 4,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.contactPerson.givenName",
+        "freq": 4,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.contactPerson.ContactPerson",
+        "freq": 26,
+        "is_leaf": false,
+        "imports": [
+            "root.contactPerson.phone",
+            "root.contactPerson.electronicMail",
+            "root.contactPerson.address.Address",
+            "root.contactPerson.organization",
+            "root.contactPerson.givenName"
+        ]
+    },
+    {
+        "name": "root.taxonomicClassification.taxonRankName",
+        "freq": 7,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.taxonomicClassification.TaxonomicClassification",
+        "freq": 7,
+        "is_leaf": false,
+        "imports": [
+            "root.taxonomicClassification.taxonRankName"
+        ]
+    },
+    {
+        "name": "root.dataCreator.address.deliveryPoint",
+        "freq": 1,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.literal.version",
+        "freq": 4,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.literal.doi",
+        "freq": 3,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.project.funding",
+        "freq": 6,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.teamLeader.givenName",
+        "freq": 3,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.teamLeader.TeamLeader",
+        "freq": 3,
+        "is_leaf": false,
+        "imports": [
+            "root.teamLeader.givenName"
+        ]
+    },
+    {
+        "name": "root.dataCreator.givenName",
+        "freq": 5,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.contactPerson.organization",
+        "freq": 4,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.contactPerson.address.street",
+        "freq": 2,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.contactPerson.address.Address",
+        "freq": 8,
+        "is_leaf": false,
+        "imports": [
+            "root.contactPerson.address.city",
+            "root.contactPerson.address.street",
+            "root.contactPerson.address.postalCode"
+        ]
+    },
+    {
+        "name": "root.contactPerson.address.postalCode",
+        "freq": 3,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.contactPerson.address.city",
+        "freq": 3,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.contactPerson.electronicMail",
+        "freq": 4,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.contactPerson.phone",
+        "freq": 6,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.geographicCoverage.numberOfPlots.numberOfGp",
+        "freq": 4,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.geographicCoverage.numberOfPlots.numberOfEp",
+        "freq": 4,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.geographicCoverage.numberOfPlots.numberOfMip",
+        "freq": 4,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.method.equipment",
+        "freq": 6,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.method.introduction",
+        "freq": 1,
+        "is_leaf": true,
+        "imports": []
+    },
+    {
+        "name": "root.Dataset",
+        "freq": 630,
+        "imports": [
+            "root.literal.alternateIdentifier",
+            "root.literal.title",
+            "root.literal.language",
+            "root.literal.description",
+            "root.literal.dataFormat",
+            "root.literal.numberOfRecords",
+            "root.literal.keywordSet",
+            "root.project.Project",
+            "root.geographicCoverage.GeographicCoverage",
+            "root.temporalCoverage.TemporalCoverage",
+            "root.method.Method",
+            "root.metadataProvider.MetadataProvider",
+            "root.dataCreator.DataCreator",
+            "root.literal.license",
+            "root.literal.publicationDate",
+            "root.literal.intellectualRights",
+            "root.literal.citation",
+            "root.literal.abstract",
+            "root.contactPerson.ContactPerson",
+            "root.taxonomicClassification.TaxonomicClassification",
+            "root.literal.version",
+            "root.literal.doi",
+            "root.teamLeader.TeamLeader"
+        ]
+    }
+]
