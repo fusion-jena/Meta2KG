@@ -1,10 +1,9 @@
-from os import makedirs
-from os.path import exists, realpath, join
+from os.path import join
 from gensim.models import FastText
 from utils.tsne_plot import tsne_plot
 import re
 import nltk
-from config import trained_model_path
+from config import trained_model_path, results_root_path
 
 STOP_WORDS = nltk.corpus.stopwords.words('english')
 
@@ -37,9 +36,9 @@ def build_corpus(lines):
 
 
 if __name__ == '__main__':
-    train_path = join(realpath('.'), 'results', 'train.txt')
+    train_path = join(results_root_path, 'train.txt')
 
-    with open(join(realpath('.'), train_path), 'r', encoding='utf-8') as file:
+    with open(train_path, 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
     corpus = build_corpus(lines)

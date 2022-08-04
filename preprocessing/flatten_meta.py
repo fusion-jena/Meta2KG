@@ -1,5 +1,5 @@
 from os import listdir, makedirs
-from os.path import exists, realpath, join
+from os.path import exists, join
 import json
 import xmltodict
 import pandas as pd

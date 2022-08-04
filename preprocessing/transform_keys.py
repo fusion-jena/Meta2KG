@@ -1,5 +1,5 @@
 from os import listdir
-from os.path import realpath, join
+from os.path import join
 import json
 from config import seen_final_json_path, results_root_path
 
