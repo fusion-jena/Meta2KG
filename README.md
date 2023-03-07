@@ -6,15 +6,20 @@ We developed and tested our approach in the Biodiversity domain; however, our ap
 This repository contains the scripts we developed in our pipeline. In this file, we explain the framework then we continue how to reproduce the results.
 
 ## Workflow
-The figure below shows our 4 stages workflow. 
-1. **Data Acquisition**: from 7 Biodiversity data portals, we collected a set of metadata files. Such that we divided them into Seen and Unseen data.
-2. **Ontology Development**: We work on the Seen Data. The goals of that stage are:
+The figure below shows our 7 stages workflow. 
+1. **Data Acquisition**: From 7 Biodiversity data portals, we collected a set of metadata files. Such that we divided them into Seen and Unseen data.
+2. **Preprocessing**: We converted metadata to XML files into a key-value data structure. In addition, we cleaned the generic terms from the metadata fields, e.g., removing #text, @id, etc.
+3. **Ontology Development**: We work on the Seen Data. The goals of that stage are:
    * To develop a shared underlying schema for the 7 repos. The result is the [Biodiversity Metadata Ontology (BMO)](https://doi.org/10.5281/zenodo.6948519).
    * We used the [MakeSchema](https://github.com/fusion-jena/MakeSchema) project to create the final BMO (turtle, n-triples, and RDF/XML files) 
    * To Obtain the BMO embeddings we use for the automatic transformation in the later steps. The result is the [Biodiversity Metadata Ontology Embeddings (BMOE)](https://doi.org/10.5281/zenodo.6951658)
-3. **Match & Populate**: Where we apply the cosine similarity between the BMOE and the Unseen data embeddings. In addition, we provide a validation module that ensures the validity of a KG triple. 
+4. **Embeddings Generation**: 
+   * We rely on two embeddings sources in this project 1) the pre-trained wikipedia embeddings and 2) our custom embeddings that we pre-trained on our own using the seen data.
+   * We developed two methods to generate an embedding for a given cleaned metadata key. On the one hand, a mean based method that generates a vector based on averaging its synonms.  On the other hand, a wighted mean method that gives the different wights for each word that compose a key. 
+5. **Match**: Where we apply the cosine similarity between the BMOE and the Unseen data embeddings. In addition, we provide a validation module that ensures the validity of a KG triple. 
    * We evaluated our approach using a manually annotated ground truth: [Biodiversity Metadata Ground Truth](https://doi.org/10.5281/zenodo.6951623)
-4. **Release**: We publish the final automatically generated knowledge graph in Zenodo [Biodiversity Metadata Knowledge Graph (BMKG)](https://doi.org/10.5281/zenodo.6948573).
+6. **Validate & Populate**:
+7. **Release**: We publish the final automatically generated knowledge graph in Zenodo [Biodiversity Metadata Knowledge Graph (BMKG)](https://doi.org/10.5281/zenodo.6948573).
 
 ![Meta2KG Workflow!](images/workflow.png)
 
